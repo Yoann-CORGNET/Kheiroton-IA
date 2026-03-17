@@ -12,199 +12,504 @@
   "promises": [
     {
       "id": "melenchon_001",
-      "raw_text": "Retablir la retraite a 60 ans apres 40 annees de cotisation et porter les pensions minimales au niveau du SMIC a 1400 euros",
+      "raw_text": "Retablir la retraite a 60 ans apres 40 annees de cotisation, porter les pensions minimales au niveau du SMIC a 1400 euros, et reduire la duree requise a 160 trimestres pour un taux plein. Financement prevu par la hausse des cotisations sur les salaires superieurs a 3400 euros et par la creation d'emplois",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "retraites",
       "action_verb": "retablir",
       "action_object": "retraite a 60 ans",
-      "quantification": {"value": 60, "unit": "ans"},
-      "cost_announced": {"amount_eur": 85800000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 60,
+        "unit": "ans"
+      },
+      "cost_announced": {
+        "amount_eur": 85800000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": "hausse des cotisations vieillesse",
       "timeline": "immediat",
       "target_population": "ensemble des actifs et retraites",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Melenchon justifie le retour a la retraite a 60 ans par le droit au repos apres une carriere complete et par l'usure physique et psychologique des travailleurs. Il propose trois leviers de financement : l'egalite salariale femmes-hommes genererait des cotisations supplementaires, la creation d'un million d'emplois alimenterait les caisses de retraite, et une hausse de 2 points des cotisations sur les salaires superieurs a 3400 euros completerait le financement.",
+      "sources_croisees": [
+        {
+          "url": "https://melenchon2022.fr/livrets-thematiques/retraites-vieillesse/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-jean-luc-melenchon",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.toutsurmesfinances.com/argent/a/presidentielle-2017-smic-retraites-fiscalite-le-programme-de-melenchon",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_002",
-      "raw_text": "Porter le SMIC a 1400 euros net mensuels",
+      "raw_text": "Porter le SMIC a 1400 euros net mensuels, soit une revalorisation de 16% du SMIC net par rapport au niveau de 2022. Cette hausse serait appliquee immediatement par decret des l'election",
       "source_url": "https://melenchon2022.fr/2022/03/23/essence-a-140e-smic-a-1400e-retraite-a-60-ans-mon-programme-social-20h-de-tf1/",
       "source_type": "programme_officiel",
       "theme": "emploi",
       "action_verb": "porter",
       "action_object": "SMIC net mensuel",
-      "quantification": {"value": 1400, "unit": "EUR/mois"},
+      "quantification": {
+        "value": 1400,
+        "unit": "EUR/mois"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "immediat",
       "target_population": "salaries au SMIC",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Melenchon justifie la hausse du SMIC par la necessite de permettre aux travailleurs de vivre dignement de leur salaire, dans un contexte de hausse des prix et de stagnation des bas salaires. Il affirme que cette mesure relancerait la consommation des menages et donc l'activite economique. L'equipe de campagne a presente un chiffrage detaille le 12 mars 2022, incluant le cout pour l'Etat via la revalorisation des traitements de la fonction publique.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/augmenter-le-smic-a-1-400-e-net/",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.strategie-plan.gouv.fr/publications/groupes-dexperts-smic-rapport-2022",
+          "type": "institution_publique",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://linsoumission.fr/2022/04/08/melenchon-smic-1400-euros/",
+          "type": "presse_militante",
+          "orientation": "gauche"
+        }
+      ]
     },
     {
       "id": "melenchon_003",
-      "raw_text": "Mettre en place le remboursement integral a 100% par la Securite sociale de tous les soins de sante prescrits, en integrant les mutuelles dans le regime general",
+      "raw_text": "Mettre en place le remboursement integral a 100% par la Securite sociale de tous les soins de sante prescrits, en integrant les mutuelles dans le regime general. Les frais de gestion des complementaires (plus eleves que ceux de la Secu) seraient supprimes, generant des economies de 3,5 a 4 milliards d'euros",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "sante",
       "action_verb": "rembourser",
       "action_object": "soins de sante a 100% par la Securite sociale",
-      "quantification": {"value": 100, "unit": "pourcentage"},
-      "cost_announced": {"amount_eur": 17100000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 100,
+        "unit": "pourcentage"
+      },
+      "cost_announced": {
+        "amount_eur": 17100000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": "suppression des mutuelles privees et cotisations correspondantes",
       "timeline": "quinquennat 2022-2027",
       "target_population": "ensemble de la population",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "precis"
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Melenchon s'appuie sur un rapport du Haut Conseil pour l'Avenir de l'Assurance Maladie montrant que l'integration des complementaires dans la Secu serait a la fois efficace pour la sante publique et econome financierement. Les mutuelles ont des frais de gestion bien plus eleves (publicite, bureaucratie privee). Le financement proviendrait des economies sur les frais de gestion (3,5-4 Mds), la suppression des depassements d'honoraires (3 Mds), la renegociation des prix des medicaments (2,5 Mds) et la suppression des niches fiscales sur les complementaires (7,25 Mds selon la Cour des Comptes).",
+      "sources_croisees": [
+        {
+          "url": "https://melenchon.fr/2021/11/18/100-secu-un-rapport-donne-raison-a-lavenir-en-commun/",
+          "type": "blog_candidat",
+          "orientation": "gauche"
+        },
+        {
+          "url": "https://www.publicsenat.fr/article/politique/des-soins-rembourses-a-100-par-la-secu-proposition-a-contre-courant-53125",
+          "type": "presse",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.cadredesante.com/spip/profession/sante/article/le-100-secu-cheval-de-bataille-de-jean-luc-melenchon",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_004",
-      "raw_text": "Creer une garantie d'emploi pour les chomeurs de longue duree : l'Etat employeur en dernier recours au SMIC dans des secteurs utiles",
+      "raw_text": "Creer une garantie d'emploi pour les chomeurs de longue duree : l'Etat employeur en dernier recours au SMIC dans des secteurs utiles (ecologie, soin, education). Mise en oeuvre via des organisations a but d'emploi (associations, cooperatives) avec emplois a temps choisi de 20 a 35 heures",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "emploi",
       "action_verb": "creer",
       "action_object": "garantie d'emploi par l'Etat",
       "quantification": null,
-      "cost_announced": {"amount_eur": 14300000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "cost_announced": {
+        "amount_eur": 14300000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": "budget de l'Etat",
       "timeline": "quinquennat 2022-2027",
       "target_population": "chomeurs de longue duree",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "precis"
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Melenchon justifie la garantie d'emploi par le droit constitutionnel a l'emploi et par la responsabilite de l'Etat, premier employeur de France. Il souligne que les besoins sociaux et environnementaux non couverts sont immenses (soignants, enseignants, magistrats). La proposition de loi deposee par LFI en 2021 prevoit d'ajouter aux missions du service public de l'emploi la fourniture d'un emploi utile a tout chomeur de longue duree, via des organisations a but d'emploi inspirees de l'experimentation Territoires zero chomeur.",
+      "sources_croisees": [
+        {
+          "url": "https://lafranceinsoumise.fr/assemblee-nationale/niche-parlementaire-2021/ppl-garantie-emploi/",
+          "type": "proposition_de_loi",
+          "orientation": "gauche"
+        },
+        {
+          "url": "https://laec.fr/section/35/etablir-la-garantie-demploi",
+          "type": "programme_officiel",
+          "orientation": "gauche"
+        },
+        {
+          "url": "https://www.aefinfo.fr/depeche/665917-garantie-d-emploi-assurance-chomage-hausse-du-smic-les-propositions-pour-l-emploi-de-jean-luc-melenchon",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_005",
-      "raw_text": "Plafonner les effectifs de classe a 19 eleves maximum",
+      "raw_text": "Plafonner les effectifs de classe a 19 eleves maximum en moyenne dans l'ensemble des etablissements, en priorite dans l'education prioritaire et les maternelles. Necessite l'ouverture de 100 000 nouvelles classes (dont 25 000 en pre-elementaire et 25 000 en elementaire) et le recrutement de 160 000 enseignants",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "education",
       "action_verb": "plafonner",
       "action_object": "effectifs par classe",
-      "quantification": {"value": 19, "unit": "eleves maximum"},
-      "cost_announced": {"amount_eur": 6800000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 19,
+        "unit": "eleves maximum"
+      },
+      "cost_announced": {
+        "amount_eur": 6800000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "eleves",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Melenchon justifie le plafonnement a 19 eleves par la necessite de faire mieux que la moyenne europeenne, actuellement a 19 eleves par classe. La priorite serait donnee aux classes de pre-elementaire, aux lycees professionnels (portes a 15 eleves) et aux etablissements d'education prioritaire. L'objectif est d'ameliorer les conditions d'apprentissage et de reduire les inegalites scolaires en permettant un suivi plus individualise des eleves.",
+      "sources_croisees": [
+        {
+          "url": "https://melenchon2022.fr/livrets-thematiques/ecole/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/reduire-les-effectifs-a-19-eleves-par-classe/",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.europe1.fr/politique/education-les-propositions-des-candidats-a-la-presidentielle-4101124",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_006",
-      "raw_text": "Augmenter les salaires des enseignants et rattraper le gel du point d'indice depuis 2010",
+      "raw_text": "Augmenter les salaires des enseignants de 30% pour rattraper le gel du point d'indice depuis 2010 et revaloriser l'ensemble des fonctionnaires. Debut par un ajustement immediat de 7% du point d'indice, puis plan pluriannuel de rattrapage. Recrutement de 60 000 enseignants supplementaires et titularisation de tous les contractuels",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "education",
       "action_verb": "augmenter",
       "action_object": "salaires des enseignants avec rattrapage",
       "quantification": null,
-      "cost_announced": {"amount_eur": 13400000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "cost_announced": {
+        "amount_eur": 13400000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": "budget de l'Etat",
       "timeline": "quinquennat 2022-2027",
       "target_population": "enseignants et fonctionnaires",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "precis"
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Melenchon denonce le gel du point d'indice et l'absence de revalorisation significative qui ont erode le pouvoir d'achat d'enseignants deja sous-payes par rapport aux pays voisins. Il propose une augmentation de 30% pour stopper l'appauvrissement des enseignants et continuer a attirer les meilleurs dans la carriere, condition selon lui de la qualite du service public d'education. Le plan inclut aussi la titularisation de tous les contractuels et le recrutement de 60 000 enseignants.",
+      "sources_croisees": [
+        {
+          "url": "https://melenchon2022.fr/livrets-thematiques/ecole/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://melenchon2022.fr/programme/reponses-aux-associations/lettre-aux-professeurs/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "http://www.touteduc.fr/fr/archives/id-13529-le-programme-de-jean-luc-melenchon-pour-l-education",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_007",
-      "raw_text": "Lancer un plan d'investissement ecologique de 200 milliards d'euros sur le quinquennat",
+      "raw_text": "Lancer un plan d'investissement de 200 milliards d'euros sur le quinquennat pour la bifurcation ecologique et sociale. Les depenses principales concernent le mix energetique 100% renouvelable (+10,6 Mds/an), le ferroviaire (+6,1 Mds/an), et les subventions a la renovation des logements (+5,0 Mds/an)",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "environnement",
       "action_verb": "lancer",
       "action_object": "plan d'investissement ecologique",
-      "quantification": {"value": 200000000000, "unit": "EUR sur 5 ans"},
-      "cost_announced": {"amount_eur": 40000000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 200000000000,
+        "unit": "EUR sur 5 ans"
+      },
+      "cost_announced": {
+        "amount_eur": 40000000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": "emprunt public et budget de l'Etat",
       "timeline": "quinquennat 2022-2027",
       "target_population": "ensemble de la population",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Melenchon presente ce plan comme une necessite pour atteindre les objectifs climatiques, affirmant que cela 'passe inevitablement par des depenses significatives'. Il s'agit de reconquerir le temps long par la planification et mettre en place une culture du durable. Les investissements ciblent le mix energetique renouvelable, le ferroviaire, l'isolation thermique des logements, l'adaptation des infrastructures et la renovation des canalisations d'eau.",
+      "sources_croisees": [
+        {
+          "url": "https://i4ce.org/presidentielle-2022-budget-climat/jean-luc-melenchon-analyse-complete/",
+          "type": "think_tank",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.batiactu.com/edito/nous-mettrons-200-milliards-euros-bifurcation-ecologique-63922.php",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.usinenouvelle.com/editorial/presidentielle-ce-que-l-on-sait-du-programme-economique-de-jean-luc-melenchon.N1773447",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_008",
-      "raw_text": "Planifier le passage a 100% d'energies renouvelables et la sortie du nucleaire d'ici 2050",
+      "raw_text": "Planifier le passage a 100% d'energies renouvelables et la sortie du nucleaire d'ici 2050, en s'appuyant sur le scenario negaWatt 2022 visant a diviser la consommation d'energie primaire par 3 via sobriete, efficacite et renouvelables. Abandon des projets d'EPR et arret des reacteurs existants apres leur 40e anniversaire",
       "source_url": "https://melenchon2022.fr/livrets-thematiques/energie/",
       "source_type": "programme_officiel",
       "theme": "environnement",
       "action_verb": "planifier",
       "action_object": "passage a 100% d'energies renouvelables et sortie du nucleaire",
-      "quantification": {"value": 100, "unit": "pourcentage renouvelable"},
+      "quantification": {
+        "value": 100,
+        "unit": "pourcentage renouvelable"
+      },
       "cost_announced": null,
       "funding_source": "plan d'investissement ecologique",
       "timeline": "d'ici 2050",
       "target_population": "ensemble de la population",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "precis"
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Melenchon s'appuie sur les scenarios negaWatt 2022 et ADEME montrant qu'un mix 100% renouvelable est realisable a horizon 2050. Il avance que la France n'a pas d'uranium (importe du Niger et Kazakhstan), que le prix du nucleaire est deja superieur a celui de maintes renouvelables, et que le grand carenage couterait pres de 100 milliards d'euros d'ici 2030 selon la Cour des Comptes. La transition repose sur trois piliers : sobriete energetique, efficacite energetique et energies renouvelables.",
+      "sources_croisees": [
+        {
+          "url": "https://www.slate.fr/story/223542/promesses-jean-luc-melenchon-energie-sortie-nucleaire-energies-renouvelables-nationalisation-edf-election-2022",
+          "type": "presse",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/sortir-du-nucleaire-par-labandon-des-projets-depr-demanteler-et-reconvertir-les-sites-existants/",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.pv-magazine.fr/2022/04/05/speciale-presidentielle-2022-le-programme-de-jean-luc-melenchon-dans-les-enr-et-le-solaire/",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_009",
-      "raw_text": "Construire 200 000 logements publics par an pendant 5 ans",
+      "raw_text": "Construire 200 000 logements publics par an pendant 5 ans soumis aux normes ecologiques les plus ambitieuses (RE2020), soit un million de logements sociaux (PLAI et PLUS) sur le quinquennat, en augmentant les aides a la pierre",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "logement",
       "action_verb": "construire",
       "action_object": "logements publics",
-      "quantification": {"value": 200000, "unit": "logements/an"},
-      "cost_announced": {"amount_eur": 2100000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 200000,
+        "unit": "logements/an"
+      },
+      "cost_announced": {
+        "amount_eur": 2100000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": "budget de l'Etat",
       "timeline": "5 ans",
       "target_population": "demandeurs de logement social",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Melenchon presente cette mesure dans le cadre de son plan 'zero sans-abri' et de la lutte contre le mal-logement. Il vise a produire un million de logements reellement sociaux aux normes ecologiques les plus ambitieuses. Le programme prevoit aussi d'augmenter les aides a la pierre pour soutenir la construction, dans un contexte ou plus de deux millions de menages sont en attente d'un logement social en France.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/construire-200-000-logements-publics-par-an-pendant-cinq-ans-aux-normes-ecologiques-les-plus-ambitieuses/",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://melenchon2022.fr/livrets-thematiques/logement/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://lafranceinsoumise.fr/2022/02/02/jean-luc-melenchon-presente-son-planzerosdf-devant-la-fondation-abbe-pierre/",
+          "type": "presse_partisane",
+          "orientation": "gauche"
+        }
+      ]
     },
     {
       "id": "melenchon_010",
-      "raw_text": "Renover thermiquement 700 000 logements par an",
+      "raw_text": "Renover thermiquement 700 000 logements par an avec un taux de subvention eleve (70% des travaux en moyenne, 100% pour les menages modestes). Objectif de passer de 33 000 renovations BBC par an a 800 000 en 2030 par une obligation progressive et conditionnelle",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "logement",
       "action_verb": "renover",
       "action_object": "logements (renovation thermique)",
-      "quantification": {"value": 700000, "unit": "logements/an"},
-      "cost_announced": {"amount_eur": 2200000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 700000,
+        "unit": "logements/an"
+      },
+      "cost_announced": {
+        "amount_eur": 2200000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": "plan d'investissement ecologique",
       "timeline": "annuel",
       "target_population": "proprietaires et locataires",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Melenchon justifie la renovation massive par la necessite de lutter contre les passoires thermiques qui touchent les menages les plus modestes. Le programme prevoit des subventions couvrant en moyenne 70% des travaux, allant jusqu'a 100% pour les menages modestes. L'objectif est de passer de 33 000 renovations BBC par an a 800 000 d'ici 2030, par obligation progressive et formation professionnelle, pour reduire a la fois la precarite energetique et les emissions de gaz a effet de serre.",
+      "sources_croisees": [
+        {
+          "url": "https://www.effy.fr/magazine/presidentielle-2022-le-projet-de-jean-luc-melenchon-pour-vos-economies-denergie",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.i4ce.org/renovation-energetique-grandes-ambitions-climat/",
+          "type": "think_tank",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.actu-environnement.com/ae/news/election-presidentielle-propositions-candidats-renovation-energetique-39346.php4",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_011",
-      "raw_text": "Instaurer une garantie d'autonomie pour les jeunes de 18 a 25 ans avec conditions de formation, d'un montant de 1063 euros par mois",
+      "raw_text": "Instaurer une garantie d'autonomie pour les jeunes de 18 a 25 ans avec conditions de formation, d'un montant egal au seuil de pauvrete soit 1063 euros par mois, financee par le budget de l'Etat et ouverte sous conditions de ressources et d'engagement dans un parcours de formation ou d'insertion",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "emploi",
       "action_verb": "instaurer",
       "action_object": "garantie d'autonomie jeunes",
-      "quantification": {"value": 1063, "unit": "EUR/mois"},
-      "cost_announced": {"amount_eur": 27100000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 1063,
+        "unit": "EUR/mois"
+      },
+      "cost_announced": {
+        "amount_eur": 27100000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": "budget de l'Etat",
       "timeline": "immediat",
       "target_population": "jeunes de 18 a 25 ans",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Melenchon justifie la garantie d'autonomie par la precarite croissante des jeunes, aggravee par la crise sanitaire. Le montant de 1063 euros correspond au seuil de pauvrete, car aucun jeune ne devrait vivre sous ce seuil. Cette allocation vise a permettre aux jeunes de se consacrer a leurs etudes ou a leur insertion professionnelle sans etre contraints par la precarite financiere. Elle remplacerait et unifierait les dispositifs existants fragmentes.",
+      "sources_croisees": [
+        {
+          "url": "https://melenchon2022.fr/livrets-thematiques/jeunesse/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://laec.fr/recherche/?q=jeunes",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        }
+      ]
     },
     {
       "id": "melenchon_012",
-      "raw_text": "Creer 500 000 places d'accueil pour la petite enfance",
+      "raw_text": "Creer un service public de la petite enfance et ouvrir 500 000 places d'accueil en creche en 5 ans, soit une augmentation de 108% de la capacite des structures d'accueil collectif et familial, pour repondre a la demande des familles et permettre l'egalite femmes-hommes face a la garde d'enfants",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "education",
       "action_verb": "creer",
       "action_object": "places d'accueil petite enfance",
-      "quantification": {"value": 500000, "unit": "places"},
-      "cost_announced": {"amount_eur": 5700000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 500000,
+        "unit": "places"
+      },
+      "cost_announced": {
+        "amount_eur": 5700000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "familles avec jeunes enfants",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Melenchon justifie cette mesure par le fait que la garde d'enfants repose encore trop exclusivement sur les femmes, et qu'obtenir une place en creche est devenu un 'veritable parcours du combattant'. Il souligne que Macron n'a realise que la moitie de ses promesses (15 000 places sur 30 000 annoncees). L'objectif est de creer un veritable service public de la petite enfance pour favoriser l'egalite professionnelle et l'epanouissement des enfants.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/creer-un-service-public-de-la-petite-enfance-et-ouvrir-500-000-places-en-creche/",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://melenchon2022.fr/livrets-thematiques/enfance/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://laec.fr/section/64/faire-le-service-public-de-la-petite-enfance",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        }
+      ]
     },
     {
       "id": "melenchon_013",
-      "raw_text": "Convoquer une Assemblee constituante pour passer a la VIe Republique",
+      "raw_text": "Convoquer une Assemblee constituante pour passer a la VIe Republique, elue au suffrage universel direct en novembre 2022. La nouvelle constitution renforcerait les pouvoirs du Parlement, instaurerait le referendum d'initiative citoyenne (RIC), le droit de revocation des elus et la proportionnelle departementale",
       "source_url": "https://melenchon2022.fr/programme/",
       "source_type": "programme_officiel",
       "theme": "institutions",
@@ -216,119 +521,312 @@
       "timeline": "debut de quinquennat",
       "target_population": "ensemble des citoyens",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "precis"
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Melenchon estime que la Ve Republique est epuisee et ne repond plus aux aspirations populaires ni aux exigences fondamentales d'organisation d'une societe democratique. Il propose un renouveau profond des institutions par une Assemblee constituante elue au suffrage universel direct, sans parlementaires en exercice pour eviter les conflits d'interets. La VIe Republique instaurerait le referendum d'initiative citoyenne, le droit de revocation des elus, la proportionnelle et des mandats non renouvelables.",
+      "sources_croisees": [
+        {
+          "url": "https://melenchon2022.fr/livrets-thematiques/6e-republique/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://laec.fr/section/1/reunir-une-assemblee-constituante-pour-passer-a-la-6e-republique",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://www.cnews.fr/france/2022-03-20/quest-ce-que-la-6e-republique-reclamee-par-jean-luc-melenchon-1194991",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_014",
-      "raw_text": "Supprimer les allegements de cotisations patronales (CICE, pacte de responsabilite) pour un rendement de 39 milliards d'euros par an",
+      "raw_text": "Supprimer les allegements de cotisations patronales (CICE, pacte de responsabilite) pour un rendement de 39 milliards d'euros par an. Cette suppression s'inscrit dans une logique de redirection des avantages fiscaux accordes aux entreprises vers les depenses sociales et les services publics",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "economie",
       "action_verb": "supprimer",
       "action_object": "allegements de charges patronales (CICE)",
-      "quantification": {"value": 39000000000, "unit": "EUR/an de recettes"},
-      "cost_announced": {"amount_eur": -39000000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 39000000000,
+        "unit": "EUR/an de recettes"
+      },
+      "cost_announced": {
+        "amount_eur": -39000000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "immediat",
       "target_population": "entreprises",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Melenchon critique la politique fiscale des quinquennats precedents comme 'desastreuse pour les particuliers' car les allègements (CICE, credit impot recherche) ont beneficie aux entreprises sans contrepartie verifiable en termes d'emploi. Le programme vise a rediriger ces avantages fiscaux vers les depenses sociales et les services publics, dans le cadre d'un plan de relance de 300 milliards d'euros finance pour un tiers par la suppression de niches fiscales et la lutte contre la fraude.",
+      "sources_croisees": [
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/jean-luc-melenchon-un-programme-economique-de-prestidigitateur",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://melenchon2022.fr/plans/justice-fiscale/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://obs-justice-fiscale.attac.org/actualites/article/du-cice-aux-allegements-de-cotisations-sociales-un-bilan-calamiteux",
+          "type": "association",
+          "orientation": "gauche"
+        }
+      ]
     },
     {
       "id": "melenchon_015",
-      "raw_text": "Instaurer un impot universel sur les multinationales rapportant 18 milliards d'euros par an",
+      "raw_text": "Instaurer un impot universel sur les multinationales base sur l'activite effectivement realisee en France, rapportant 18 milliards d'euros par an. La mesure s'inspire des travaux de l'economiste Gabriel Zucman et de l'Observatoire fiscal, en calculant le deficit fiscal entre les impots payes mondialement et le taux de 25%",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "economie",
       "action_verb": "instaurer",
       "action_object": "impot universel sur les multinationales",
-      "quantification": {"value": 18000000000, "unit": "EUR/an de recettes"},
-      "cost_announced": {"amount_eur": -18000000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 18000000000,
+        "unit": "EUR/an de recettes"
+      },
+      "cost_announced": {
+        "amount_eur": -18000000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "multinationales",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Melenchon s'appuie sur les travaux de l'economiste Gabriel Zucman et de l'Observatoire fiscal pour proposer un impot universel qui mettrait fin au transfert artificiel de benefices vers les paradis fiscaux. Le mecanisme calcule le deficit fiscal (difference entre impots reellement payes et ce qui serait du a un taux de 25%). L'equipe de campagne estime le rendement a 26 milliards, tandis que l'estimation conservatrice de l'Institut Montaigne retient 18 milliards.",
+      "sources_croisees": [
+        {
+          "url": "https://melenchon2022.fr/plans/justice-fiscale/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://www.oxfamfrance.org/app/uploads/2022/03/JEAN-LUC-MELENCHON-La-France-Insoumise.pdf",
+          "type": "ONG",
+          "orientation": "gauche"
+        },
+        {
+          "url": "https://lessurligneurs.eu/jean-luc-melenchon-propose-de-mettre-en-place-un-impot-universel-pour-les-francais-qui-ont-des-revenus-a-letranger-une-promesse-plus-compliquee-quil-ny-parait/",
+          "type": "fact_checking",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_016",
-      "raw_text": "Retablir l'ISF et taxer les revenus du capital comme les revenus du travail",
+      "raw_text": "Retablir et renforcer l'ISF avec un volet climatique et supprimer la flat tax pour taxer les revenus du capital comme les revenus du travail. L'ancien ISF rapportait 4,23 milliards d'euros pour 358 198 contribuables assujettis. Le nouvel ISF inclurait un malus ecologique",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/synthese/",
       "source_type": "institut_montaigne",
       "theme": "economie",
       "action_verb": "retablir",
       "action_object": "ISF et alignement fiscalite du capital sur le travail",
-      "quantification": {"value": 5000000000, "unit": "EUR/an de recettes"},
-      "cost_announced": {"amount_eur": -5000000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 5000000000,
+        "unit": "EUR/an de recettes"
+      },
+      "cost_announced": {
+        "amount_eur": -5000000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "immediat",
       "target_population": "detenteurs de patrimoine",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "precis"
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Melenchon justifie le retablissement de l'ISF par la lutte contre les inegalites de patrimoine, encore plus flagrantes que celles de revenus. Il cite le Conseil d'analyse economique selon lequel le top 1% des heritiers peut desormais obtenir un niveau de vie superieur a celui du top 1% des travailleurs par une simple vie de rentier. La suppression de la flat tax vise a mettre fin au privilege fait aux revenus du capital par rapport a ceux du travail, dans une logique de revolution fiscale.",
+      "sources_croisees": [
+        {
+          "url": "https://melenchon2022.fr/plans/justice-fiscale/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/retablir-et-renforcer-lisf-incluant-un-volet-climatique/",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.oxfamfrance.org/app/uploads/2022/03/JEAN-LUC-MELENCHON-La-France-Insoumise.pdf",
+          "type": "ONG",
+          "orientation": "gauche"
+        }
+      ]
     },
     {
       "id": "melenchon_017",
-      "raw_text": "Limiter l'ecart des salaires de 1 a 20 dans les entreprises",
+      "raw_text": "Limiter l'ecart des salaires de 1 a 20 dans chaque entreprise : le salaire le plus eleve ne peut depasser 20 fois le salaire minimum en vigueur chez l'employeur (SMIC, minima conventionnel ou salaire le plus bas). Mesure visant les PDG de grands groupes, les petits patrons de TPE-PME ne sont pas concernes",
       "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-de-jean-luc-melenchon-la-franche-insoumise-en-matiere-de-protection-sociale-infographie.html",
       "source_type": "presse",
       "theme": "emploi",
       "action_verb": "limiter",
       "action_object": "ecart des salaires dans les entreprises",
-      "quantification": {"value": 20, "unit": "ratio max"},
+      "quantification": {
+        "value": 20,
+        "unit": "ratio max"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "salaries et dirigeants d'entreprises",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Melenchon defend cette mesure par un 'choix philosophique' et un 'changement de paradigme moral', affirmant qu'il doit y avoir une limite a l'accumulation de richesses. Le plafonnement oblige les hauts dirigeants soit a augmenter fortement les bas salaires, soit a redistribuer leur remuneration. L'economiste Jacques Genereux, proche de Melenchon, juge la mesure efficace pour mieux redistribuer les richesses et augmenter les salaires les plus bas.",
+      "sources_croisees": [
+        {
+          "url": "https://melenchon2022.fr/plans/pouvoir-dachat/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://www.carenews.com/carenews-info/news/faut-il-limiter-les-ecarts-de-salaire-de-1-a-20-en-entreprise",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.europe1.fr/politique/salaires-ce-que-proposent-les-principaux-candidats-a-la-presidentielle-4102279",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_018",
-      "raw_text": "Ajouter une 6e semaine de conges payes et passer aux 32 heures pour les travaux penibles et de nuit",
+      "raw_text": "Ajouter une 6e semaine de conges payes pour tous les salaries et passer aux 32 heures immediatement pour les travaux penibles et de nuit, puis engager la generalisation de la reduction du temps de travail. La mesure s'inscrit dans une logique de partage du travail pour lutter contre le chomage",
       "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-de-jean-luc-melenchon-la-franche-insoumise-en-matiere-de-protection-sociale-infographie.html",
       "source_type": "presse",
       "theme": "emploi",
       "action_verb": "ajouter",
       "action_object": "6e semaine de conges payes et 32 heures pour travaux penibles",
-      "quantification": {"value": 6, "unit": "semaines de conges"},
+      "quantification": {
+        "value": 6,
+        "unit": "semaines de conges"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "ensemble des salaries",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Melenchon justifie ces mesures par le principe 'travailler moins pour travailler tous'. Il affirme que la reduction du temps de travail est 'le moteur de l'emploi' : quand les salaries produisent mieux, ils peuvent etre moins nombreux pour produire la meme chose. La 6e semaine de conges payes est presentee comme un progres social et humain pour reposer le corps et l'esprit, et comme une necessite quand pour une offre d'emploi vacante, il y a 13 chomeurs.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/generaliser-une-sixieme-semaine-de-conges-payes-pour-tous-les-salaries/",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://melenchon2022.fr/plans/plein-emploi/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://www.publicsenat.fr/actualites/politique/emploi-retrouvez-les-principales-propositions-des-candidats-a-la-presidentielle",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_019",
-      "raw_text": "Porter l'allocation aux adultes handicapes (AAH) a 1400 euros par mois et la deconjugaliser",
+      "raw_text": "Porter l'allocation aux adultes handicapes (AAH) au niveau du SMIC revalorise a 1400 euros par mois et la deconjugaliser, c'est-a-dire la decoupler des revenus du conjoint. Revision des conditions d'attribution pour prendre en compte la situation reelle de la personne et financement integral de la compensation du handicap (PCH)",
       "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-de-jean-luc-melenchon-la-franche-insoumise-en-matiere-de-protection-sociale-infographie.html",
       "source_type": "presse",
       "theme": "sante",
       "action_verb": "porter",
       "action_object": "AAH deconjugalisee",
-      "quantification": {"value": 1400, "unit": "EUR/mois"},
+      "quantification": {
+        "value": 1400,
+        "unit": "EUR/mois"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "immediat",
       "target_population": "adultes en situation de handicap",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Melenchon justifie la revalorisation et la deconjugalisation de l'AAH par la necessite de garantir l'autonomie financiere des personnes handicapees, independamment de la situation de leur conjoint. La deconjugalisation met fin a une dependance financiere jugee injuste et contraire a la dignite des personnes. Le programme prevoit aussi la revision des conditions d'attribution pour mieux prendre en compte la realite de chaque situation de handicap et le financement integral de la prestation de compensation du handicap (PCH).",
+      "sources_croisees": [
+        {
+          "url": "https://informations.handicap.fr/a-programme-presidentielles-melenchon-9726.php",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://melenchon2022.fr/livrets-thematiques/handicap/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://www.publicsenat.fr/actualites/politique/handicap-deconjugalisation-de-l-aah-accessibilite-universelle-scolarite-ce-que",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "melenchon_020",
-      "raw_text": "Creer 10 000 places publiques en EHPAD par an pendant 5 ans",
+      "raw_text": "Creer 10 000 places publiques en EHPAD par an pendant 5 ans dans des structures a taille humaine (30 places), recruter 210 000 soignants pour respecter un ratio minimal d'encadrement au chevet des residents, et revaloriser les revenus des professionnels du grand age a domicile",
       "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-de-jean-luc-melenchon-la-franche-insoumise-en-matiere-de-protection-sociale-infographie.html",
       "source_type": "presse",
       "theme": "sante",
       "action_verb": "creer",
       "action_object": "places publiques en EHPAD",
-      "quantification": {"value": 10000, "unit": "places/an"},
+      "quantification": {
+        "value": 10000,
+        "unit": "places/an"
+      },
       "cost_announced": null,
       "funding_source": "budget de l'Etat",
       "timeline": "5 ans",
       "target_population": "personnes agees dependantes",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Melenchon s'inscrit dans le contexte du scandale Orpea pour proposer un service public de la dependance. Il prevoit la creation d'EHPAD publics a taille humaine (30 places) et le recrutement de 210 000 soignants pour respecter un ratio minimal d'encadrement au chevet des residents, selon les preconisations du rapport de la deputee Caroline Fiat. Le programme inclut aussi la revalorisation des salaires des professionnels du grand age et le developpement d'un reseau public d'aide a domicile.",
+      "sources_croisees": [
+        {
+          "url": "https://melenchon2022.fr/programme/reponses-aux-associations/ma-france-2022-lagenda-citoyen/",
+          "type": "programme_officiel",
+          "orientation": "candidat"
+        },
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/nupes-quel-serait-limpact-economique-du-programme-de-jean-luc-melenchon",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.lejdd.fr/Politique/ehpad-quelles-sont-les-propositions-des-candidats-a-la-presidentielle-4090328",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
     }
   ]
 }

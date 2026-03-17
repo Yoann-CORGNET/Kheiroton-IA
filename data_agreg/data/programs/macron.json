@@ -12,263 +12,507 @@
   "promises": [
     {
       "id": "macron_001",
-      "raw_text": "Reporter progressivement l'age legal de depart a la retraite a 65 ans",
+      "raw_text": "Reporter progressivement l'age legal de depart a la retraite a 65 ans, avec prise en compte des carrieres longues, de l'invalidite et de la penibilite des metiers. La mesure genererait 7,7 milliards d'euros d'economies annuelles d'ici 2027 et 18 milliards d'ici 2032 selon l'Institut Montaigne.",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/synthese/",
       "source_type": "institut_montaigne",
       "theme": "retraites",
       "action_verb": "reporter",
       "action_object": "age legal de depart a la retraite",
-      "quantification": {"value": 65, "unit": "ans"},
-      "cost_announced": {"amount_eur": -7700000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 65,
+        "unit": "ans"
+      },
+      "cost_announced": {
+        "amount_eur": -7700000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": "economies sur les depenses de retraite",
       "timeline": "progressif sur le quinquennat 2022-2027",
       "target_population": "ensemble des actifs",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Macron justifie cette reforme par un argument financier: le systeme de retraites est desequilibre et perd de l'argent chaque annee. Il invoque aussi l'esperance de vie croissante ('on va vivre plus longtemps, il faudra travailler plus longtemps') et l'emploi des seniors, arguant que repousser l'age legal donnerait un signal aux entreprises pour les inciter a embaucher davantage les 55-65 ans. La reforme prendrait en compte les carrieres longues, l'invalidite et la realite des metiers.",
+      "sources_croisees": [
+        {
+          "url": "https://www.ofce.sciences-po.fr/pdf/pbrief/2022/OFCEpbrief108.pdf",
+          "type": "ofce",
+          "orientation": "gauche"
+        }
+      ]
     },
     {
       "id": "macron_002",
-      "raw_text": "Porter la pension de retraite minimale a 1100 euros pour une carriere complete",
+      "raw_text": "Porter la pension de retraite minimale a 1100 euros par mois pour une carriere complete, contre environ 980 euros actuellement. La mesure serait financee par les economies degagees par le report de l'age legal de depart, avec un objectif de 9 milliards d'euros annuels pour la Securite sociale apres 2030.",
       "source_url": "https://www.franceinfo.fr/elections/presidentielle/reforme-du-rsa-retraite-a-65-ans-simplification-de-l-hopital-ce-qu-il-faut-retenir-du-programme-d-emmanuel-macron-pour-la-presidentielle_5021106.html",
       "source_type": "presse",
       "theme": "retraites",
       "action_verb": "porter",
       "action_object": "pension minimale de retraite",
-      "quantification": {"value": 1100, "unit": "EUR/mois"},
+      "quantification": {
+        "value": 1100,
+        "unit": "EUR/mois"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "retraites ayant une carriere complete",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron presente cette mesure comme la contrepartie sociale du report de l'age de depart: 'Je veux que nous puissions continuer a financer le progres social, je veux que nos retraites vivent mieux'. Il justifie qu'une vie de travail doit offrir une retraite digne et que toute retraite pour une carriere complete doit depasser 1000 euros par mois. Le financement proviendrait des economies generees par l'allongement de la duree de travail.",
+      "sources_croisees": [
+        {
+          "url": "https://www.previssima.fr/actualite/retraite-emmanuel-macron-propose-de-porter-le-minimum-de-pension-a-1100-pour-lensemble-des-retraites.html",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "macron_003",
-      "raw_text": "Conditionner le RSA a 15 a 20 heures d'activite hebdomadaire d'insertion professionnelle",
+      "raw_text": "Conditionner le RSA a 15 a 20 heures d'activite hebdomadaire d'insertion professionnelle, incluant bilans de competences personnalises, immersions en entreprise et formations professionnelles. La mesure concerne 1,9 million de beneficiaires du RSA et necessite un investissement supplementaire dans les structures d'insertion (missions locales, formations).",
       "source_url": "https://www.franceinfo.fr/elections/presidentielle/reforme-du-rsa-retraite-a-65-ans-simplification-de-l-hopital-ce-qu-il-faut-retenir-du-programme-d-emmanuel-macron-pour-la-presidentielle_5021106.html",
       "source_type": "presse",
       "theme": "emploi",
       "action_verb": "conditionner",
       "action_object": "versement du RSA a une activite d'insertion",
-      "quantification": {"value": 15, "unit": "heures/semaine"},
-      "cost_announced": {"amount_eur": 2000000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 15,
+        "unit": "heures/semaine"
+      },
+      "cost_announced": {
+        "amount_eur": 2000000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "beneficiaires du RSA",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie cette mesure par la volonte de faire du RSA un 'revenu d'activite' plutot qu'une allocation passive. Annoncee le 17 mars 2022 a Aubervilliers, la reforme vise a offrir un parcours de retour a l'emploi enrichi via des bilans personnalises, des immersions en entreprise ou des formations. L'objectif est d'encourager l'insertion professionnelle en liant le versement du RSA a l'obligation de consacrer 15 a 20 heures par semaine a une activite favorisant le retour a l'emploi.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/faire-du-rsa-un-revenu-dactivite-et-le-conditionner-a-15-a-20-heures-dactivite-par-semaine-en-vue-dune-insertion-professionnelle/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        }
+      ]
     },
     {
       "id": "macron_004",
-      "raw_text": "Tripler le plafond de la prime de partage de la valeur (prime Macron) a 3000 euros, sans charges ni impots",
+      "raw_text": "Tripler le plafond de la prime de partage de la valeur (prime Macron) a 3000 euros defiscalises et exoneres de charges, avec un plafond porte a 6000 euros pour les entreprises de moins de 50 salaries ayant negocie un accord d'interessement. En 2022, 5,5 millions de salaries (20%) ont beneficie de la PPV pour un total de 4,4 milliards d'euros, soit 789 euros en moyenne par salarie.",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/synthese/",
       "source_type": "institut_montaigne",
       "theme": "economie",
       "action_verb": "tripler",
       "action_object": "plafond de la prime de partage de la valeur",
-      "quantification": {"value": 3000, "unit": "EUR"},
-      "cost_announced": {"amount_eur": 6000000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 3000,
+        "unit": "EUR"
+      },
+      "cost_announced": {
+        "amount_eur": 6000000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "immediat",
       "target_population": "salaries du secteur prive",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie le triplement du plafond de la prime par la necessite d'augmenter significativement le pouvoir d'achat des salaries dans un contexte d'inflation croissante. La mesure s'inscrit dans la loi n°2022-1158 du 16 aout 2022 portant mesures d'urgence pour la protection du pouvoir d'achat. Le dispositif vise a favoriser le partage de la valeur entre employeurs et salaries tout en preservant la competitivite des entreprises grace a l'exoneration de charges.",
+      "sources_croisees": [
+        {
+          "url": "https://www.economie.gouv.fr/particuliers/vie-en-entreprise/salaries-pouvez-vous-beneficier-de-la-prime-de-partage-de-la-valeur",
+          "type": "institutionnel",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "macron_005",
-      "raw_text": "Supprimer la CVAE (Cotisation sur la Valeur Ajoutee des Entreprises)",
+      "raw_text": "Supprimer la CVAE (Cotisation sur la Valeur Ajoutee des Entreprises), representant un allegement fiscal de 7,4 milliards d'euros par an pour les entreprises. La suppression vise a soutenir les entreprises qui investissent et innovent mais restent peu rentables, et particulierement les secteurs intensifs en capital encore trop penalises par cette taxe de production.",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/synthese/",
       "source_type": "institut_montaigne",
       "theme": "economie",
       "action_verb": "supprimer",
       "action_object": "CVAE",
-      "quantification": {"value": 7400000000, "unit": "EUR/an"},
-      "cost_announced": {"amount_eur": 7400000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 7400000000,
+        "unit": "EUR/an"
+      },
+      "cost_announced": {
+        "amount_eur": 7400000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": "croissance economique et plein emploi",
       "timeline": "quinquennat 2022-2027",
       "target_population": "entreprises",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Macron justifie la suppression de la CVAE par l'objectif de baisser les impots de production pour renforcer la competitivite des entreprises francaises. La disparition de la CVAE devrait creer un choc de competitivite de 17 milliards d'euros, permettant une hausse de 5% des marges operationnelles et une reduction du cout du travail d'environ 1500 euros par employe. L'industrie serait la premiere beneficiaire a plus de 25% du gain total.",
+      "sources_croisees": [
+        {
+          "url": "https://www.fipeco.fr/commentaire/La%20suppression%20de%20la%20cotisation%20sur%20la%20valeur%20ajout%C3%A9e%20des%20entreprises",
+          "type": "think_tank",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "macron_006",
-      "raw_text": "Supprimer la redevance audiovisuelle (contribution a l'audiovisuel public)",
+      "raw_text": "Supprimer la redevance audiovisuelle (contribution a l'audiovisuel public) de 138 euros annuels, beneficiant a 27 millions de menages. La mesure, coherente avec la suppression de la taxe d'habitation, represente un manque a gagner de 3,2 milliards d'euros par an pour le financement de l'audiovisuel public.",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/synthese/",
       "source_type": "institut_montaigne",
       "theme": "economie",
       "action_verb": "supprimer",
       "action_object": "redevance audiovisuelle",
-      "quantification": {"value": 3200000000, "unit": "EUR/an"},
-      "cost_announced": {"amount_eur": 3200000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 3200000000,
+        "unit": "EUR/an"
+      },
+      "cost_announced": {
+        "amount_eur": 3200000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "2022",
       "target_population": "ensemble des menages",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron presente cette suppression comme une mesure de pouvoir d'achat coherente avec la suppression de la taxe d'habitation, mesure phare de son premier quinquennat. Annoncee le 7 mars 2022 lors de sa premiere apparition comme candidat, elle permettrait une economie de 138 euros par an pour 27 millions de contribuables. La mesure a ete mise en oeuvre des 2022 via la loi de finances rectificative.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/supprimer-la-redevance-audiovisuelle/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        }
+      ]
     },
     {
       "id": "macron_007",
-      "raw_text": "Construire 6 nouveaux reacteurs nucleaires EPR2, avec l'etude de 8 reacteurs supplementaires",
+      "raw_text": "Construire 6 nouveaux reacteurs nucleaires EPR2 avec mise en service du premier a l'horizon 2035-2038, et lancer l'etude de 8 reacteurs supplementaires pour la fin de la decennie 2040. Le programme inclut la securisation des approvisionnements en uranium et le rachat de l'activite nucleaire de GE Steam Power (turbines Arabelle) au nom de la souverainete industrielle.",
       "source_url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-2022-que-retenir-du-programme-d-emmanuel-macron-198600",
       "source_type": "presse",
       "theme": "environnement",
       "action_verb": "construire",
       "action_object": "reacteurs nucleaires EPR2",
-      "quantification": {"value": 6, "unit": "reacteurs"},
+      "quantification": {
+        "value": 6,
+        "unit": "reacteurs"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "lancement immediat, livraison sur 15-20 ans",
       "target_population": "ensemble de la population",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie la relance du nucleaire par la necessite de 'garantir l'independance energetique de la France'. Annonce le 10 fevrier 2022 a Belfort sur le site GE Steam Power, le plan repond au besoin de souverainete energetique face a la dependance aux hydrocarbures et a l'uranium russe. La souverainete industrielle est aussi invoquee, avec le rachat des turbines Arabelle pour reconstituer une filiere nucleaire entierement francaise.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/construire-6-nouveaux-reacteurs-nucleaires-dici-a-2050-et-mettre-a-letude-la-construction-de-8-reacteurs-supplementaires/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        }
+      ]
     },
     {
       "id": "macron_008",
-      "raw_text": "Multiplier par dix la capacite de production d'energie solaire",
+      "raw_text": "Multiplier par dix la capacite de production d'energie solaire pour depasser 100 gigawatts d'ici 2050, dans le cadre du discours de Belfort du 10 fevrier 2022 sur la nouvelle strategie energetique de la France. Le plan France 2030 consacre 1 milliard d'euros a l'innovation dans les energies renouvelables.",
       "source_url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-2022-que-retenir-du-programme-d-emmanuel-macron-198600",
       "source_type": "presse",
       "theme": "environnement",
       "action_verb": "multiplier",
       "action_object": "capacite de production solaire",
-      "quantification": {"value": 10, "unit": "facteur multiplicateur"},
+      "quantification": {
+        "value": 10,
+        "unit": "facteur multiplicateur"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "d'ici 2050",
       "target_population": "ensemble de la population",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "precis"
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie l'acceleration du solaire par la necessite de doubler la production d'electricite renouvelable d'ici 2030 et d'atteindre la neutralite carbone en 2050. Annonce dans le discours de Belfort du 10 fevrier 2022, l'objectif de depasser 100 GW solaires s'inscrit dans un mix energetique combinant nucleaire et renouvelables. Le plan France 2030 consacre 1 milliard d'euros a l'innovation dans les energies renouvelables pour combler le retard francais.",
+      "sources_croisees": [
+        {
+          "url": "https://www.banquedesterritoires.fr/relance-du-nucleaire-et-essor-de-leolien-en-mer-et-du-solaire-les-choix-energetiques-demmanuel",
+          "type": "institutionnel",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "macron_009",
-      "raw_text": "Deployer 50 parcs eoliens en mer d'ici 2050",
+      "raw_text": "Deployer 50 parcs eoliens en mer d'ici 2050, ciblant 40 gigawatts de capacite installee, avec levee de tous les obstacles reglementaires une fois les projets acceptes localement et planification maritime des zones de developpement impliquant tous les acteurs de la mer.",
       "source_url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-2022-que-retenir-du-programme-d-emmanuel-macron-198600",
       "source_type": "presse",
       "theme": "environnement",
       "action_verb": "deployer",
       "action_object": "parcs eoliens offshore",
-      "quantification": {"value": 50, "unit": "parcs"},
+      "quantification": {
+        "value": 50,
+        "unit": "parcs"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "d'ici 2050",
       "target_population": "ensemble de la population",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie ce deploiement massif de l'eolien offshore par la necessite de combler le retard francais en matiere d'energies renouvelables marines. Annonce lors du discours de Belfort du 10 fevrier 2022, l'objectif de 40 GW en service d'ici 2050 s'accompagne de la promesse de lever tous les obstacles reglementaires et de planifier les zones de developpement avec l'ensemble des acteurs maritimes pour changer d'echelle.",
+      "sources_croisees": [
+        {
+          "url": "https://www.france24.com/fr/france/20220211-%C3%A9nergies-renouvelables-la-france-veut-combler-son-retard-sur-l-%C3%A9olien-en-mer",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "macron_010",
-      "raw_text": "Renover au minimum 700 000 logements par an pour l'isolation thermique",
+      "raw_text": "Renover au minimum 700 000 logements par an pour l'isolation thermique, objectif necessaire pour atteindre la neutralite carbone en 2050. Le financement repose sur MaPrimeRenov' (2 milliards d'euros par an) et les Certificats d'Economies d'Energie, avec la possibilite de renovations 'sans avance de frais' pour les menages les plus modestes.",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/synthese/",
       "source_type": "institut_montaigne",
       "theme": "logement",
       "action_verb": "renover",
       "action_object": "logements (isolation thermique)",
-      "quantification": {"value": 700000, "unit": "logements/an"},
-      "cost_announced": {"amount_eur": 2200000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 700000,
+        "unit": "logements/an"
+      },
+      "cost_announced": {
+        "amount_eur": 2200000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "annuel a partir de 2022",
       "target_population": "proprietaires et locataires",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie cet objectif par l'urgence climatique: le secteur residentiel et tertiaire represente 16-17% des emissions de gaz a effet de serre en France et constitue le secteur economique a la plus forte depense energetique (45%). L'atteinte de la neutralite carbone en 2050 necessite 700 000 a 800 000 renovations par an selon la Strategie nationale bas-carbone (SNBC). La renovation energetique est presentee comme un levier essentiel de reduction des emissions et d'amelioration du pouvoir d'achat des menages.",
+      "sources_croisees": [
+        {
+          "url": "https://www.strategie.gouv.fr/espace-presse/rentabilite-economique-renovations-energetiques-logements",
+          "type": "france_strategie",
+          "orientation": "institutionnel"
+        }
+      ]
     },
     {
       "id": "macron_011",
-      "raw_text": "Creer 200 nouvelles brigades de gendarmerie dans les territoires ruraux",
+      "raw_text": "Creer 200 nouvelles brigades de gendarmerie dans les territoires ruraux pour restaurer la tranquillite dans les cantons les plus ruraux. La mesure s'inscrit dans une enveloppe securitaire de 15 milliards d'euros supplementaires sur 5 ans, dans le cadre de la future loi d'orientation et de programmation du ministere de l'Interieur (LOPMI).",
       "source_url": "https://www.franceinfo.fr/elections/presidentielle/reforme-du-rsa-retraite-a-65-ans-simplification-de-l-hopital-ce-qu-il-faut-retenir-du-programme-d-emmanuel-macron-pour-la-presidentielle_5021106.html",
       "source_type": "presse",
       "theme": "securite",
       "action_verb": "creer",
       "action_object": "brigades de gendarmerie rurales",
-      "quantification": {"value": 200, "unit": "brigades"},
-      "cost_announced": {"amount_eur": 2000000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 200,
+        "unit": "brigades"
+      },
+      "cost_announced": {
+        "amount_eur": 2000000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "habitants des zones rurales",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie cette mesure par le besoin de rapprocher les forces de l'ordre de la population dans les territoires ou la presence du service public est faible. Annoncee le 10 janvier 2022 a Nice, la creation de ces brigades repond au constat qu'un quart des violences sexuelles, intrafamiliales et des cambriolages sont commis dans les communes rurales ou vit un tiers de la population metropolitaine. Les experimentations dans plusieurs departements ont prouve l'efficacite du dispositif.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/renforcer-la-presence-des-forces-de-lordre-sur-la-voie-publique-creer-200-brigades-de-gendarmerie-en-milieu-rural-et-doubler-le-nombre-de-policiers-sur-le-terrain-dici-2029/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        }
+      ]
     },
     {
       "id": "macron_012",
-      "raw_text": "Doubler la presence des forces de securite sur le terrain d'ici 2030",
+      "raw_text": "Doubler la presence des forces de securite sur le terrain d'ici 2030, par la suppression des taches annexes, la reorganisation des services et le redeploiement de 6 500 policiers vers le terrain, en complement des 10 000 recrutements effectues depuis 2017. Le budget de la securite serait augmente de 15 milliards d'euros sur 5 ans.",
       "source_url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-2022-que-retenir-du-programme-d-emmanuel-macron-198600",
       "source_type": "presse",
       "theme": "securite",
       "action_verb": "doubler",
       "action_object": "presence policiere sur le terrain",
-      "quantification": {"value": 2, "unit": "facteur multiplicateur"},
+      "quantification": {
+        "value": 2,
+        "unit": "facteur multiplicateur"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "d'ici 2030",
       "target_population": "ensemble de la population",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "precis"
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie le doublement de la presence policiere par le besoin de redeployer les effectifs sur la voie publique plutot que dans les bureaux. Le doublement serait atteint par la suppression des taches annexes et la reorganisation, permettant de remettre 3 000 policiers dans les rues, en complement du redeploiement de 6 500 agents et des recrutements passes. La mesure s'accompagne de la creation d'une 'force d'action republicaine pour les quartiers' et du doublement des enqueteurs violences intrafamiliales a 4 000.",
+      "sources_croisees": [
+        {
+          "url": "https://www.cnews.fr/france/2022-01-10/emmanuel-macron-veut-doubler-les-policiers-sur-le-terrain-dici-2030-1168890",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "macron_013",
-      "raw_text": "Recruter 8 500 magistrats et personnels de justice",
+      "raw_text": "Recruter 8 500 magistrats et personnels de justice sur le quinquennat, comprenant 1 000 magistrats, 2 500 greffiers et 250 autres agents, pour accelerer le fonctionnement du systeme judiciaire francais et reduire les delais de traitement des affaires.",
       "source_url": "https://www.franceinfo.fr/elections/presidentielle/reforme-du-rsa-retraite-a-65-ans-simplification-de-l-hopital-ce-qu-il-faut-retenir-du-programme-d-emmanuel-macron-pour-la-presidentielle_5021106.html",
       "source_type": "presse",
       "theme": "securite",
       "action_verb": "recruter",
       "action_object": "magistrats et personnels de justice",
-      "quantification": {"value": 8500, "unit": "postes"},
+      "quantification": {
+        "value": 8500,
+        "unit": "postes"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "systeme judiciaire",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie ces recrutements par le constat que la justice n'a pas recu les moyens necessaires a son bon fonctionnement depuis des decennies et qu'elle a souvent manque de consideration politique. Il reconnait le malaise profond exprime par les magistrats et l'ensemble des acteurs de la justice. Les Francais attendent des delais de procedure plus courts, des jugements plus comprehensibles et un acces simplifie a la justice. L'effort considerable accompli depuis 2017 devait etre non seulement poursuivi mais intensifie.",
+      "sources_croisees": [
+        {
+          "url": "https://www.lemondedudroit.fr/interviews/80969-emmanuel-macron-il-faut-fin-decennie-justice-reponde-mieux-besoins-francais.html",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "macron_014",
-      "raw_text": "Verser automatiquement a la source le RSA, la prime d'activite, les aides au logement et les allocations familiales a 20 millions de Francais eligibles",
+      "raw_text": "Verser automatiquement a la source le RSA, la prime d'activite, les aides au logement et les allocations familiales a 20 millions de Francais eligibles, dans le cadre du dispositif 'solidarite a la source'. Le versement automatique serait calcule a partir des informations fournies par les employeurs et l'administration fiscale, avec experimentation dans une dizaine de territoires avant generalisation.",
       "source_url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/synthese/",
       "source_type": "institut_montaigne",
       "theme": "economie",
       "action_verb": "automatiser",
       "action_object": "versement des prestations sociales a la source",
-      "quantification": {"value": 20000000, "unit": "beneficiaires"},
-      "cost_announced": {"amount_eur": 6100000000, "periodicity": "annuel", "source": "institut_montaigne"},
+      "quantification": {
+        "value": 20000000,
+        "unit": "beneficiaires"
+      },
+      "cost_announced": {
+        "amount_eur": 6100000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "20 millions de Francais eligibles aux prestations sociales",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie la 'solidarite a la source' par la lutte contre le non-recours aux droits sociaux, qu'il qualifie de 'chose la plus injuste, car ce sont des economies sur le dos des plus fragiles'. La mesure vise a aider tous les Francais qui n'accedent pas aux prestations auxquelles ils ont droit parce que les demarches sont trop complexes ou les etapes trop nombreuses. Le versement automatique eliminerait les barrieres administratives et reduirait la fraude.",
+      "sources_croisees": [
+        {
+          "url": "https://www.europe1.fr/politique/macron-veut-le-versement-automatique-des-aides-sociales-a-la-source-4100077",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "macron_015",
-      "raw_text": "Investir 30 milliards d'euros dans les secteurs d'avenir : spatial, biomedical, semi-conducteurs, nucleaire de nouvelle generation, cloud, quantique et intelligence artificielle",
+      "raw_text": "Investir 30 milliards d'euros dans les secteurs d'avenir via le plan France 2030 (54 milliards au total sur 5 ans): spatial, biomedical, semi-conducteurs, nucleaire de nouvelle generation, cloud, quantique et intelligence artificielle. Le plan vise a faire emerger les futurs champions technologiques, avec la moitie des financements destines a des acteurs emergents et la moitie aux actions de decarbonation.",
       "source_url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-2022-que-retenir-du-programme-d-emmanuel-macron-198600",
       "source_type": "presse",
       "theme": "economie",
       "action_verb": "investir",
       "action_object": "secteurs d'avenir strategiques",
-      "quantification": {"value": 30000000000, "unit": "EUR"},
-      "cost_announced": {"amount_eur": 30000000000, "periodicity": "quinquennat", "source": "candidat"},
+      "quantification": {
+        "value": 30000000000,
+        "unit": "EUR"
+      },
+      "cost_announced": {
+        "amount_eur": 30000000000,
+        "periodicity": "quinquennat",
+        "source": "candidat"
+      },
       "funding_source": "plan France 2030",
       "timeline": "quinquennat 2022-2027",
       "target_population": "filiere industrielle francaise",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Macron justifie le plan France 2030 par la necessite de reindustrialiser la France et de reconquerir sa souverainete dans les secteurs strategiques. Annonce le 12 octobre 2021 a l'Elysee, le plan repond aux grands defis du siecle, en particulier la transition ecologique, et vise a faire emerger les futurs champions technologiques. Les 10 objectifs du plan s'articulent autour de trois enjeux: mieux produire (nucleaire, hydrogene vert, vehicules electriques), mieux vivre (alimentation saine, biomedicaments) et mieux comprendre le monde.",
+      "sources_croisees": [
+        {
+          "url": "https://www.economie.gouv.fr/france-2030",
+          "type": "institutionnel",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "macron_016",
-      "raw_text": "Augmenter de 50% l'allocation de soutien familial pour les familles monoparentales, de 116 a 174 euros par enfant",
+      "raw_text": "Augmenter de 50% l'allocation de soutien familial (ASF) pour les familles monoparentales, de 116 a 174 euros par mois par enfant. La revalorisation effective depuis novembre 2022 beneficie aux familles monoparentales dont le second parent ne verse pas de pension alimentaire. La mesure s'accompagne de l'extension de l'aide a la garde d'enfants (CMG) de 6 a 12 ans.",
       "source_url": "https://www.franceinfo.fr/elections/presidentielle/reforme-du-rsa-retraite-a-65-ans-simplification-de-l-hopital-ce-qu-il-faut-retenir-du-programme-d-emmanuel-macron-pour-la-presidentielle_5021106.html",
       "source_type": "presse",
       "theme": "economie",
       "action_verb": "augmenter",
       "action_object": "allocation de soutien familial",
-      "quantification": {"value": 174, "unit": "EUR/mois/enfant"},
+      "quantification": {
+        "value": 174,
+        "unit": "EUR/mois/enfant"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "familles monoparentales",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie cette revalorisation par le soutien aux familles monoparentales, identifiees comme parmi les plus vulnerables economiquement. L'augmentation de 50% de l'ASF vise a compenser l'absence de pension alimentaire du second parent et a ameliorer le niveau de vie des enfants concernes. La mesure s'accompagne de l'extension de l'aide a la garde d'enfants jusqu'a l'entree au college, reconnaissant les difficultes specifiques de conciliation vie professionnelle-vie familiale pour les parents seuls.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/augmenter-de-50-lallocation-de-soutien-familial-pour-les-familles-monoparentales/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        }
+      ]
     },
     {
       "id": "macron_017",
-      "raw_text": "Transformer Pole Emploi en France Travail, guichet unique d'accompagnement",
+      "raw_text": "Transformer Pole Emploi en France Travail, guichet unique d'accompagnement mutualisant les moyens de l'Etat, des regions, des departements et des communes. L'objectif est de coordonner au niveau territorial Pole Emploi, missions locales, departements et regions pour eliminer la segmentation de l'accompagnement au retour a l'emploi. Investissement estime a 400 millions d'euros sur 5 ans.",
       "source_url": "https://www.franceinfo.fr/elections/presidentielle/reforme-du-rsa-retraite-a-65-ans-simplification-de-l-hopital-ce-qu-il-faut-retenir-du-programme-d-emmanuel-macron-pour-la-presidentielle_5021106.html",
       "source_type": "presse",
       "theme": "emploi",
@@ -280,55 +524,104 @@
       "timeline": "quinquennat 2022-2027",
       "target_population": "demandeurs d'emploi",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "precis"
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie cette transformation par le constat d'une trop grande segmentation des acteurs de l'accompagnement au retour a l'emploi. Annoncee le 17 mars 2022, la reforme vise a mutualiser au niveau territorial toutes les expertises: Pole Emploi, regions, communes, missions locales. L'objectif est de consolider les aides (aide a la reprise d'activite, allocation chomage, frais de formation) au sein d'une organisation unique pour simplifier les parcours des demandeurs d'emploi.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/transformer-pole-emploi-en-un-guichet-unique-appele-france-travail/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        }
+      ]
     },
     {
       "id": "macron_018",
-      "raw_text": "Recruter 1 500 cyber-patrouilleurs pour lutter contre la cybercriminalite",
+      "raw_text": "Recruter 1 500 cyber-patrouilleurs supplementaires repartis entre gendarmerie, police et services de renseignement, avec creation d'une ecole de formation au sein du ministere de l'Interieur. Un milliard d'euros supplementaires sur 5 ans serait dedie a la cyber-defense, en reponse a l'explosion des cyberattaques depuis la pandemie.",
       "source_url": "https://www.franceinfo.fr/elections/presidentielle/reforme-du-rsa-retraite-a-65-ans-simplification-de-l-hopital-ce-qu-il-faut-retenir-du-programme-d-emmanuel-macron-pour-la-presidentielle_5021106.html",
       "source_type": "presse",
       "theme": "securite",
       "action_verb": "recruter",
       "action_object": "cyber-patrouilleurs",
-      "quantification": {"value": 1500, "unit": "postes"},
+      "quantification": {
+        "value": 1500,
+        "unit": "postes"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "ensemble de la population",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie le recrutement de cyber-patrouilleurs par l'explosion des cyberattaques depuis la pandemie, visant particulierement les entreprises, les hopitaux et les particuliers. Annonce le 10 janvier 2022 a Nice, la mesure repond a la multiplication des arnaques en ligne et des attaques informatiques. Les cyber-patrouilleurs seraient affectes a la gendarmerie, la police et les services de renseignement, avec une part significative de reservistes civils participant ponctuellement aux missions.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/creer-1-500-postes-de-cyberpatrouilleurs-supplementaires/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        }
+      ]
     },
     {
       "id": "macron_019",
-      "raw_text": "Porter le budget de la defense a 50 milliards d'euros d'ici 2025",
+      "raw_text": "Porter le budget de la defense a 50 milliards d'euros d'ici 2025, dans le cadre de la loi de programmation militaire (LPM). Le budget est passe de 32,2 milliards en 2017 a 50,5 milliards en 2025 (hors pensions), avec une trajectoire visant 67,4 milliards en 2030 selon la LPM 2024-2030 qui prevoit 413 milliards d'euros pour les armees.",
       "source_url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-2022-que-retenir-du-programme-d-emmanuel-macron-198600",
       "source_type": "presse",
       "theme": "international",
       "action_verb": "porter",
       "action_object": "budget de la defense",
-      "quantification": {"value": 50000000000, "unit": "EUR/an"},
+      "quantification": {
+        "value": 50000000000,
+        "unit": "EUR/an"
+      },
       "cost_announced": null,
       "funding_source": "budget de l'Etat",
       "timeline": "d'ici 2025",
       "target_population": "armees francaises",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Macron justifie la hausse du budget de la defense par les nouvelles menaces geopolitiques et la necessite de maintenir la souverainete strategique de la France. L'effort de defense s'inscrit dans la continuite de la LPM 2019-2025, avec un objectif de reparation et de modernisation des armees. La guerre en Ukraine a renforce la justification de cette trajectoire budgetaire, conduisant a la LPM 2024-2030 prevoyant 413 milliards d'euros et un objectif de 67,4 milliards annuels en 2030.",
+      "sources_croisees": [
+        {
+          "url": "https://www.defense.gouv.fr/ministere/politique-defense/loi-programmation-militaire-2024-2030/projet-loi-finances-armees-2025-lpm-annee-2",
+          "type": "institutionnel",
+          "orientation": "neutre"
+        }
+      ]
     },
     {
       "id": "macron_020",
-      "raw_text": "Recruter 50 000 infirmiers et aides-soignants dans les etablissements de sante",
+      "raw_text": "Recruter 50 000 infirmiers et aides-soignants supplementaires dans les etablissements de sante et les EHPAD d'ici 2027, en complement des 20 000 postes deja crees lors du premier quinquennat. La mesure s'inscrit dans la continuite du Segur de la sante et de la feuille de route Ma Sante 2022, pour renforcer le lien entre soins de ville et hopital.",
       "source_url": "https://www.franceinfo.fr/elections/presidentielle/reforme-du-rsa-retraite-a-65-ans-simplification-de-l-hopital-ce-qu-il-faut-retenir-du-programme-d-emmanuel-macron-pour-la-presidentielle_5021106.html",
       "source_type": "presse",
       "theme": "sante",
       "action_verb": "recruter",
       "action_object": "infirmiers et aides-soignants",
-      "quantification": {"value": 50000, "unit": "postes"},
+      "quantification": {
+        "value": 50000,
+        "unit": "postes"
+      },
       "cost_announced": null,
       "funding_source": null,
       "timeline": "quinquennat 2022-2027",
       "target_population": "systeme de sante",
       "classification": "PROMESSE_CONCRETE",
-      "precision_level": "tres_precis"
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Macron justifie ces recrutements par la crise du systeme hospitalier mise en evidence par la pandemie de Covid-19 et la penurie chronique de personnels soignants dans les EHPAD et les hopitaux. Presente le 17 mars 2022 a Aubervilliers, le plan vise a renforcer les effectifs en complement des 20 000 postes deja crees et des revalorisations salariales du Segur de la sante. La mesure repond aux alertes des professionnels sur le manque de personnel, bien que certains acteurs comme l'AD-PA jugent l'objectif insuffisant (100 000 postes necessaires en EHPAD).",
+      "sources_croisees": [
+        {
+          "url": "https://www.infirmiers.com/etudiants/le-president-candidat-macron-devoile-enfin-son-programme-pour-la-sante",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
     }
   ]
 }

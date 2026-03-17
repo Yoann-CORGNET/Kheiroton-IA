@@ -28,7 +28,14 @@ function truncate(text: string, maxLen: number): string {
 function formatCost(cost: Record<string, unknown> | null): string {
   if (!cost) return "-";
   const amount = cost.amount_eur ?? cost.amount ?? cost.value;
-  if (typeof amount === "number") return fmt.format(amount) + " EUR";
+  if (typeof amount === "number") {
+    const abs = Math.abs(amount);
+    const sign = amount < 0 ? "-" : "+";
+    if (abs >= 1_000_000_000) return `${sign}${(abs / 1_000_000_000).toFixed(1)} Md\u00a0\u20ac`;
+    if (abs >= 1_000_000) return `${sign}${(abs / 1_000_000).toFixed(0)} M\u00a0\u20ac`;
+    if (abs >= 1_000) return `${sign}${fmt.format(abs)} \u20ac`;
+    return `${sign}${abs} \u20ac`;
+  }
   if (typeof amount === "string") return amount;
   const label = cost.label ?? cost.description;
   if (typeof label === "string") return label;

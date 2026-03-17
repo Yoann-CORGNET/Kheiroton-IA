@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-from functools import lru_cache
-
 from adapters.party_mapping.mapping import PartyMapping
 from adapters.ches.ches_adapter import CHESAdapter
 from adapters.parlgov.parlgov_adapter import ParlGovAdapter
@@ -15,8 +13,15 @@ from domain.services.aggregator import Aggregator
 from domain.services.comparator import Comparator
 
 
-@lru_cache(maxsize=1)
+_aggregator: Aggregator | None = None
+_comparator: Comparator | None = None
+
+
 def get_aggregator() -> Aggregator:
+    global _aggregator
+    if _aggregator is not None:
+        return _aggregator
+
     party_repo = PartyMapping()
 
     # Enrich family from ParlGov
@@ -28,7 +33,7 @@ def get_aggregator() -> Aggregator:
             if family:
                 identity.family = family
 
-    return Aggregator(
+    _aggregator = Aggregator(
         party_repo=party_repo,
         positioning=CHESAdapter(),
         elections=DataGouvAdapter(),
@@ -36,8 +41,11 @@ def get_aggregator() -> Aggregator:
         promises=LocalJsonPromiseSource(),
         parliamentary=NosDeputesAdapter(),
     )
+    return _aggregator
 
 
-@lru_cache(maxsize=1)
 def get_comparator() -> Comparator:
-    return Comparator()
+    global _comparator
+    if _comparator is None:
+        _comparator = Comparator()
+    return _comparator

@@ -1,0 +1,765 @@
+{
+  "candidate": "Yannick Jadot",
+  "party": "Europe Ecologie Les Verts (EELV)",
+  "election": "Presidentielle 2022",
+  "source_urls": [
+    "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/",
+    "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-yannick-jadot",
+    "https://www.publicsenat.fr/actualites/non-classe/presidentielle-yannick-jadot-detaille-les-120-propositions-de-son-programme-192165",
+    "https://www.franceinfo.fr/politique/yannick-jadot/presidentielle-2022-yannick-jadot-presente-son-programme-et-sa-republique-ecologiste_4934249.html",
+    "https://vert.eco/articles/les-principales-mesures-ecologiques-du-programme-de-yannick-jadot",
+    "https://www.linfodurable.fr/energies-renouvelables-isf-climatique-et-isolation-thermique-au-programme-de-jadot-30611",
+    "https://i4ce.org/presidentielle-2022-budget-climat/yannick-jadot-analyse-complete/"
+  ],
+  "promises": [
+    {
+      "id": "jadot_001",
+      "raw_text": "Sortir progressivement du nucleaire et fermer au moins 10 reacteurs d'ici 2035, sans construire de nouvelles centrales, pour atteindre 100% d'electricite renouvelable en 2050. La sortie serait responsable, en fermant les reacteurs les plus anciens en priorite et uniquement sur avis de l'ASN, avec un investissement massif dans les energies renouvelables estime entre 2 et 4 milliards d'euros par an sur cinq ans.",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/sortir-de-lenergie-nucleaire-en-vingt-ans/",
+      "source_type": "institut_montaigne",
+      "theme": "environnement",
+      "action_verb": "fermer",
+      "action_object": "reacteurs nucleaires et transition vers les renouvelables",
+      "quantification": {
+        "value": 10,
+        "unit": "reacteurs fermes d'ici 2035"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "10 reacteurs d'ici 2035, 100% renouvelable en 2050",
+      "target_population": "ensemble de la population",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot justifie la sortie du nucleaire par le cout exorbitant de la filiere, citant l'EPR de Flamanville passe de 3 a 20 milliards d'euros avec plus de dix ans de retard. Il denonce le nucleaire comme une 'pompe a fric' et un 'mur d'investissements' menant a la quasi-faillite d'EDF. Il propose une sortie responsable sur vingt ans, sans fermer de reacteur sans avis de l'ASN, pour atteindre un scenario 100% renouvelable base sur les travaux de RTE.",
+      "sources_croisees": [
+        {
+          "url": "https://www.europe1.fr/politique/le-programme-de-yannick-jadot-en-matiere-de-nucleaire-temoigne-dun-certain-aveuglement-4090627",
+          "type": "presse",
+          "orientation": "centre-droit"
+        },
+        {
+          "url": "https://www.lejdd.fr/Politique/larret-du-nucleaire-que-promet-jadot-couterait-cher-a-la-france-4069505",
+          "type": "presse",
+          "orientation": "centre-droit"
+        }
+      ]
+    },
+    {
+      "id": "jadot_002",
+      "raw_text": "Investir 25 milliards d'euros supplementaires par an en financement public climat pour decarboner la societe, repartis entre 7 milliards pour la renovation des batiments, 7,4 milliards pour la decarbonation des transports, 4,7 milliards pour la decarbonation de l'energie, et 2,5 milliards pour un fonds de decarbonation et relocalisation de l'industrie.",
+      "source_url": "https://i4ce.org/presidentielle-2022-budget-climat/yannick-jadot-analyse-complete/",
+      "source_type": "programme_officiel",
+      "theme": "environnement",
+      "action_verb": "investir",
+      "action_object": "financement public climat supplementaire",
+      "quantification": {
+        "value": 25000000000,
+        "unit": "EUR/an"
+      },
+      "cost_announced": {
+        "amount_eur": 25000000000,
+        "periodicity": "annuel",
+        "source": "i4ce"
+      },
+      "funding_source": "dette souveraine verte via BCE et ISF climatique",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble de la population",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Jadot justifie cet investissement massif par la necessite d'augmenter fortement les financements publics consacres au climat dans les secteurs les plus emetteurs. Il s'appuie sur les analyses d'I4CE montrant un deficit d'investissement climat en France et propose de mobiliser reformes fiscales, redirection de depenses publiques et endettement aupres de la BCE pour financer cette hausse.",
+      "sources_croisees": [
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-yannick-jadot",
+          "type": "think_tank",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "jadot_003",
+      "raw_text": "Retablir l'ISF et le transformer en ISF climatique avec bonus-malus selon l'impact environnemental des actifs, taxant les patrimoines superieurs a 2 millions d'euros, pour un rendement de 15 milliards d'euros par an. Le taux serait de 1% entre 2 et 8 millions, 2% entre 8 millions et 1 milliard, 3% au-dela, avec une surtaxe de 0,5 a 1% sur les actifs polluants et une exemption pour les investissements responsables.",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/retablir-lisf-et-le-transformer-en-isf-climatique/",
+      "source_type": "institut_montaigne",
+      "theme": "economie",
+      "action_verb": "retablir",
+      "action_object": "ISF transforme en ISF climatique",
+      "quantification": {
+        "value": 15000000000,
+        "unit": "EUR/an de rendement"
+      },
+      "cost_announced": {
+        "amount_eur": -15000000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
+      "funding_source": "recette fiscale nouvelle",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "patrimoines superieurs a 2 millions d'euros",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Jadot justifie l'ISF climatique par un double objectif de justice fiscale et de transition ecologique. Il prevoit un malus pour les plus riches qui financent 'par exemple les projets de Total', penalisant les investissements polluants tout en incitant a reorienter les capitaux vers des actifs responsables. Le seuil releve a 2 millions d'euros cible le 1% des menages les plus aises.",
+      "sources_croisees": [
+        {
+          "url": "https://www.contrepoints.org/2022/02/07/421016-leffrayante-republique-ecologiste-de-yannick-jadot",
+          "type": "media",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "jadot_004",
+      "raw_text": "Investir 10 milliards d'euros par an dans la renovation thermique des logements passoires energetiques avec reste a charge zero pour les menages modestes. L'objectif est d'eradiquer 5 millions de passoires energetiques en 10 ans et de reduire de 50% la consommation energetique des batiments, avec un prefinancement par les energeticiens rembourse sur les economies de factures.",
+      "source_url": "https://www.linfodurable.fr/energies-renouvelables-isf-climatique-et-isolation-thermique-au-programme-de-jadot-30611",
+      "source_type": "presse",
+      "theme": "logement",
+      "action_verb": "investir",
+      "action_object": "renovation thermique des logements",
+      "quantification": {
+        "value": 10000000000,
+        "unit": "EUR/an"
+      },
+      "cost_announced": {
+        "amount_eur": 10000000000,
+        "periodicity": "annuel",
+        "source": "programme_officiel"
+      },
+      "funding_source": "plan climat 25 Md/an",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "menages en logements passoires energetiques",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Jadot presente la renovation thermique comme un levier majeur de la transition ecologique et de la lutte contre la precarite energetique. Il insiste sur le 'zero reste a charge pour les plus pauvres', car les familles modestes ne doivent pas avoir a depenser un seul euro. Les couts seraient prefinances par les energeticiens, se remboursant directement sur les economies de factures realisees.",
+      "sources_croisees": [
+        {
+          "url": "https://www.batiactu.com/edito/yannick-jadot-veut-consacrer-10-mds-par-an-a-renovation-63463.php",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_005",
+      "raw_text": "Construire 700 000 nouveaux logements sociaux sur le quinquennat dont la moitie de logements tres sociaux, soit 140 000 logements par an dont 60 000 tres sociaux, avec un investissement estime entre 110 et 120 milliards d'euros sur cinq ans. Jadot veut egalement renover 800 000 logements sociaux existants et imposer leur maintien dans le parc social pendant 20 ans.",
+      "source_url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-yannick-jadot-detaille-les-120-propositions-de-son-programme-192165",
+      "source_type": "presse",
+      "theme": "logement",
+      "action_verb": "construire",
+      "action_object": "logements sociaux dont moitie tres sociaux",
+      "quantification": {
+        "value": 700000,
+        "unit": "logements sur le quinquennat"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "menages a revenus modestes",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot justifie ce plan massif par la crise du logement en France et la necessite de creer un 'ministere du Droit au Logement'. Il souligne que la construction actuelle (environ 65 000 HLM par an) est insuffisante face a la demande. La renovation de 800 000 logements sociaux accompagne la construction neuve, avec l'exigence que les logements restent dans le parc social pendant au moins 20 ans pour eviter la privatisation.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/construire-700-000-logements-sociaux-et-en-renover-800-000-a-condition-quils-restent-20-ans-dans-le-parc-social/",
+          "type": "think_tank",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "jadot_006",
+      "raw_text": "Augmenter le SMIC de 125 euros nets des l'ete 2022 (soit +10% immediat) et le porter a 1 500 euros nets par mois d'ici 2027",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/augmenter-le-smic-de-125-euros-nets-en-2022-et-le-porter-a-1-500-euros-nets-en-2027/",
+      "source_type": "institut_montaigne",
+      "theme": "emploi",
+      "action_verb": "augmenter",
+      "action_object": "SMIC net mensuel",
+      "quantification": {
+        "value": 1500,
+        "unit": "EUR/mois net en 2027"
+      },
+      "cost_announced": {
+        "amount_eur": 4700000000,
+        "periodicity": "annuel_en_2027",
+        "source": "institut_montaigne"
+      },
+      "funding_source": null,
+      "timeline": "+125 EUR ete 2022, 1500 EUR net en 2027",
+      "target_population": "salaries au SMIC",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot presente la hausse du SMIC comme une mesure de justice sociale indispensable face a l'inflation et la precarite. Sa premiere mesure sociale serait d'augmenter immediatement le SMIC de 10%, puis de le porter progressivement a 1 500 euros nets d'ici 2027, pour que 'le travail paie' et que les travailleurs les plus modestes vivent dignement.",
+      "sources_croisees": [
+        {
+          "url": "https://www.ifrap.org/emploi-et-politiques-sociales/laugmentation-du-smic-1-600-euros-detruirait-240-000-emplois",
+          "type": "think_tank",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "jadot_007",
+      "raw_text": "Creer un revenu citoyen de 918 euros par mois des 18 ans, fusionnant RSA (rehausse de 565 a 740 euros), prime d'activite et allocations logement (environ 250 euros), verse automatiquement a toute personne fiscalement independante sous ce seuil, correspondant au seuil de pauvrete a 50% du revenu median, pour que personne ne vive sous le seuil de pauvrete.",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/fusionner-le-rsa-et-la-prime-dactivite-afin-de-creer-un-revenu-citoyen/",
+      "source_type": "institut_montaigne",
+      "theme": "economie",
+      "action_verb": "creer",
+      "action_object": "revenu citoyen universel des 18 ans",
+      "quantification": {
+        "value": 918,
+        "unit": "EUR/mois"
+      },
+      "cost_announced": null,
+      "funding_source": "fusion RSA, prime d'activite, allocations logement",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "tous les residents de plus de 18 ans sous le seuil de pauvrete",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Jadot presente le revenu citoyen comme un outil de lutte contre la pauvrete, notamment chez les jeunes. Il fixe le montant a 918 euros car il correspond au seuil de pauvrete a 50% du revenu median. Le versement automatique des 18 ans vise a lutter contre le non-recours aux aides sociales, estime a 30% pour le RSA. La fusion des prestations simplifie le systeme tout en garantissant qu'aucun citoyen ne vive sous le seuil de pauvrete.",
+      "sources_croisees": [
+        {
+          "url": "https://www.letudiant.fr/lifestyle/presidentielle-2022-yannick-jadot-je-mettrais-en-place-un-revenu-citoyen-pour-lutter-contre-la-pauvrete-de-la-jeunesse.html",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_008",
+      "raw_text": "Maintenir l'age legal de depart a la retraite a 62 ans et mettre la penibilite au coeur des regimes de retraites, avec un systeme a la carte permettant un depart echelonne entre 55 et 65 ans selon la penibilite des metiers, le retablissement du Compte personnel de prevention de la penibilite et un minimum de pension a 1 063 euros par mois.",
+      "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-de-yannick-jadot-europe-ecologie-les-verts-en-matiere-de-protection-sociale-infographie.html",
+      "source_type": "presse",
+      "theme": "retraites",
+      "action_verb": "maintenir",
+      "action_object": "age legal de depart a la retraite a 62 ans",
+      "quantification": {
+        "value": 62,
+        "unit": "ans"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des actifs et retraites",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot qualifie le report de l'age de la retraite a 65 ans de mesure 'extremement injuste', soulignant les inegalites d'esperance de vie entre cadres et ouvriers. Il propose un systeme a la carte base sur la penibilite, permettant aux carrieres les plus difficiles de partir des 55 ans, avec le retablissement et la simplification du Compte personnel de prevention incluant droits a la formation, passage a temps partiel et depart anticipe.",
+      "sources_croisees": [
+        {
+          "url": "https://www.europe1.fr/politique/report-de-lage-de-la-retraite-a-65-ans-je-trouve-ca-extremement-injuste-reagit-yannick-jadot-4098533",
+          "type": "presse",
+          "orientation": "centre-droit"
+        }
+      ]
+    },
+    {
+      "id": "jadot_009",
+      "raw_text": "Recruter 65 000 enseignants supplementaires, augmenter les salaires des enseignants de 20% sur le quinquennat en reconnaissant le temps de concertation comme partie integrante du travail, et recruter 2 000 medecins scolaires, 1 000 assistants sociaux et 3 000 infirmieres scolaires. Jadot souhaite egalement reorganiser le calendrier scolaire et accorder davantage de temps aux savoirs pratiques.",
+      "source_url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-yannick-jadot-detaille-les-120-propositions-de-son-programme-192165",
+      "source_type": "presse",
+      "theme": "education",
+      "action_verb": "recruter",
+      "action_object": "enseignants et personnels scolaires",
+      "quantification": {
+        "value": 65000,
+        "unit": "enseignants supplementaires"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "eleves et personnels de l'Education nationale",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot justifie ces recrutements massifs par la necessite d'ameliorer les conditions d'apprentissage et la sante des eleves. La revalorisation salariale de 20% vise a rendre le metier attractif face a la crise des vocations. Il souhaite reconnaitre le temps de deliberation et de concertation comme 'partie integrante du travail' des enseignants et reorganiser le systeme pour davantage de temps consacre a la nature, la culture, le sport et le travail manuel.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/recruter-65-000-enseignants-et-revaloriser-leur-salaire/",
+          "type": "think_tank",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "jadot_010",
+      "raw_text": "Remplacer Parcoursup par un systeme transparent excluant les criteres discriminatoires lies a l'origine sociale, et creer entre 60 000 et 100 000 places supplementaires dans l'enseignement superieur, en particulier dans les filieres BTS et IUT preparant aux metiers de la transition et dans les formations sante-social. Cout estime a 1 milliard d'euros par an.",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/remplacer-parcoursup-par-un-systeme-transparent-et-creer-60-000-places-dans-le-superieur/",
+      "source_type": "institut_montaigne",
+      "theme": "education",
+      "action_verb": "remplacer",
+      "action_object": "Parcoursup et creation de places dans le superieur",
+      "quantification": {
+        "value": 60000,
+        "unit": "places supplementaires"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "etudiants et lyceens",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot denonce Parcoursup comme un systeme opaque et socialement discriminant, ou les criteres de selection reproduisent les inegalites sociales. Le nouveau systeme prendrait en compte les priorites de choix des etudiants pour qu'aucun bachelier ne soit laisse sans inscription dans l'un de ses voeux. Les places supplementaires seraient concentrees dans les formations courtes (BTS, IUT) preparant aux metiers de la transition ecologique.",
+      "sources_croisees": [
+        {
+          "url": "https://www.aefinfo.fr/depeche/666987-fin-de-parcoursup-10-000-postes-d-ec-1-du-pib-pour-la-recherche-publique-en-2025-le-programme-esr-de-yannick-jadot",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_011",
+      "raw_text": "Supprimer le numerus clausus et doubler les capacites d'accueil des universites de medecine pour mettre fin aux deserts medicaux. Imposer deux ans d'exercice en zone sous-dotee pour les jeunes medecins, conditionner toute nouvelle installation en zone bien dotee au depart d'un praticien, et promouvoir le salariat en centres de sante.",
+      "source_url": "https://www.placedelasante.fr/candidats/yannick-jadot/",
+      "source_type": "presse",
+      "theme": "sante",
+      "action_verb": "supprimer",
+      "action_object": "numerus clausus et doublement des capacites en medecine",
+      "quantification": {
+        "value": 2,
+        "unit": "multiplicateur des capacites"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "etudiants en medecine et patients en zones sous-dotees",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot fait de la lutte contre les deserts medicaux sa principale ambition en matiere de sante. Il propose une approche globale combinant la formation de davantage de medecins (doublement des capacites), la regulation de l'installation (exercice obligatoire de deux ans en zone sous-dotee et conditionnement des nouvelles installations en zones bien dotees) et la promotion du salariat en centres de sante pour offrir une alternative a l'exercice liberal.",
+      "sources_croisees": [
+        {
+          "url": "https://www.egora.fr/actus-pro/politiques/je-sais-le-sacrifice-que-cest-yannick-jadot-veut-deux-ans-dexercice",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_012",
+      "raw_text": "Etablir une loi 100% bio dans chaque cantine publique (ecoles, hopitaux, administrations) d'ici 2027, pour un cout estime a 2,3 milliards d'euros par an par l'Institut Montaigne, base sur un ecart de prix moyen de 75% entre bio et conventionnel pour 1,7 milliard de repas servis annuellement.",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/etablir-une-loi-100-bio-dans-chaque-cantine-dici-2027/",
+      "source_type": "institut_montaigne",
+      "theme": "agriculture",
+      "action_verb": "imposer",
+      "action_object": "100% bio dans les cantines publiques",
+      "quantification": {
+        "value": 100,
+        "unit": "% bio dans les cantines"
+      },
+      "cost_announced": {
+        "amount_eur": 2300000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
+      "funding_source": null,
+      "timeline": "d'ici 2027",
+      "target_population": "usagers de la restauration collective publique",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot inscrit cette mesure dans sa vision d'une agriculture 100% biologique et locale. Il veut que la restauration collective publique devienne un levier pour structurer la filiere bio en garantissant des debouches aux agriculteurs en conversion. La mesure s'accompagne d'une reduction de TVA sur les produits bio et d'une augmentation sur les produits nocifs pour la sante, visant a rendre l'alimentation saine accessible a tous.",
+      "sources_croisees": [
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-yannick-jadot",
+          "type": "think_tank",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "jadot_013",
+      "raw_text": "Interdire les neonicotinoides et le glyphosate des 2022, diviser par deux l'usage des pesticides et engrais de synthese d'ici 2027, supprimer progressivement tous les pesticides de synthese d'ici 2030, et eliminer tous les pesticides en Europe d'ici 2035. Les memes exigences seraient appliquees aux produits importes pour eviter la concurrence deloyale.",
+      "source_url": "https://vert.eco/articles/les-principales-mesures-ecologiques-du-programme-de-yannick-jadot",
+      "source_type": "presse",
+      "theme": "agriculture",
+      "action_verb": "interdire",
+      "action_object": "pesticides dangereux et reduction des intrants chimiques",
+      "quantification": {
+        "value": 50,
+        "unit": "% de reduction des pesticides d'ici 2027"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "interdiction immediate en 2022, -50% en 2027, suppression en 2035",
+      "target_population": "agriculteurs et consommateurs",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot justifie l'interdiction des pesticides par la protection de la biodiversite et de la sante des agriculteurs et consommateurs. Il s'oppose fermement au retour des neonicotinoides vote par l'Assemblee, demandant 'aux deputes de ne pas voter cette loi'. Il propose d'utiliser la PAC pour mieux remunerer les agriculteurs et organiser la sortie des pesticides et de l'elevage intensif, avec les memes exigences pour les produits importes.",
+      "sources_croisees": [
+        {
+          "url": "https://www.agriculture-environnement.fr/2022/03/28/yannick-jadot-programme-agricole-presidentielle-2022",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_014",
+      "raw_text": "Installer 100 000 agriculteurs bio sur le quinquennat avec une prime a l'installation ouverte jusqu'a 50 ans, en reorientant 30% des fonds de la PAC vers des contrats de transition agricole et alimentaire avec les agriculteurs, et en mettant en place un soutien massif a l'agriculture biologique avec des criteres d'aides publiques renforces.",
+      "source_url": "https://jadot2022.fr/une_agriculture_et_une_alimentation_respectueuses_du_climat_et_du_vivant",
+      "source_type": "programme_officiel",
+      "theme": "agriculture",
+      "action_verb": "installer",
+      "action_object": "agriculteurs en agriculture biologique",
+      "quantification": {
+        "value": 100000,
+        "unit": "agriculteurs bio installes"
+      },
+      "cost_announced": null,
+      "funding_source": "aides publiques agricoles reorientees",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "futurs agriculteurs jusqu'a 50 ans",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Jadot justifie cet objectif par la necessite d'inverser la disparition des paysans (plus d'un million en 50 ans) causee par les politiques de modernisation productiviste. Il propose des aides financieres a la transmission avec une prime au vendeur pour les installations en systeme agro-ecologique, et veut reorienter 30% des fonds PAC vers des contrats de transition agricole et alimentaire pour accompagner les agriculteurs vers le bio.",
+      "sources_croisees": [
+        {
+          "url": "https://www.reussir.fr/election-presidentielle-2022-le-programme-agricole-de-yannick-jadot",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_015",
+      "raw_text": "Interdire la vente de voitures diesel et thermiques classiques a partir de 2030, soit cinq ans avant l'echeance europeenne de 2035, pour un cout estime entre 1,8 et 3,8 milliards d'euros par an selon l'Institut Montaigne, necessitant une reconfiguration massive des infrastructures routieres et du parc automobile.",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/interdire-la-vente-de-voitures-diesel-et-thermique-classiques-a-partir-de-2030/",
+      "source_type": "institut_montaigne",
+      "theme": "environnement",
+      "action_verb": "interdire",
+      "action_object": "vente de voitures diesel et thermiques",
+      "quantification": null,
+      "cost_announced": {
+        "amount_eur": 2800000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
+      "funding_source": null,
+      "timeline": "a partir de 2030",
+      "target_population": "constructeurs automobiles et consommateurs",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot avance de cinq ans l'interdiction europeenne de 2035 pour accelerer la transition vers la mobilite electrique et reduire les emissions de gaz a effet de serre du secteur des transports. Il affirme ne pas vouloir etre 'le President anti-voiture' mais souhaite accompagner la transition par des aides a l'achat de vehicules propres et le deploiement massif de bornes de recharge, dans le cadre de son plan climat a 25 milliards.",
+      "sources_croisees": [
+        {
+          "url": "https://www.ifrap.org/agriculture-et-energie/stop-la-folie-de-linterdiction-des-vehicules-thermiques-en-2035",
+          "type": "think_tank",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "jadot_016",
+      "raw_text": "Deployer 3 000 eoliennes terrestres supplementaires et installer 340 km2 de panneaux solaires supplementaires d'ici 2027, dans le cadre d'un objectif de 100% d'electricite renouvelable en 2050 et du plan d'investissement climat de 25 milliards d'euros par an.",
+      "source_url": "https://vert.eco/articles/les-principales-mesures-ecologiques-du-programme-de-yannick-jadot",
+      "source_type": "presse",
+      "theme": "environnement",
+      "action_verb": "deployer",
+      "action_object": "eoliennes terrestres et panneaux solaires",
+      "quantification": {
+        "value": 3000,
+        "unit": "eoliennes + 340 km2 solaire"
+      },
+      "cost_announced": null,
+      "funding_source": "plan climat 25 Md/an",
+      "timeline": "d'ici 2027",
+      "target_population": "ensemble de la population",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Jadot inscrit le deploiement massif des renouvelables dans son objectif de sortie du nucleaire et d'atteinte de 100% d'electricite renouvelable en 2050. Il s'appuie sur les scenarios de RTE pour justifier la faisabilite technique d'un mix 100% renouvelable. Les 4,7 milliards annuels dedies a la decarbonation de l'energie dans son plan climat financeraient ce deploiement, en favorisant les projets avec participation citoyenne et partage des benefices.",
+      "sources_croisees": [
+        {
+          "url": "https://www.pv-magazine.fr/2022/04/05/speciale-presidentielle-2022-le-programme-de-yannick-jadot-dans-les-enr-et-le-solaire/",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_017",
+      "raw_text": "Regulariser les sans-papiers justifiant d'un emploi, d'une vie familiale ou d'enfants scolarises, et creer des cartes de sejour humanitaires. Accueillir les mineurs non accompagnes dignement, interdire les tests osseux, et remplacer Frontex par une agence de sauvetage en mer.",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/immigration/",
+      "source_type": "institut_montaigne",
+      "theme": "immigration",
+      "action_verb": "regulariser",
+      "action_object": "sans-papiers integres et creation de titres humanitaires",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "personnes en situation irreguliere avec emploi ou famille",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot affirme que 'l'immigration n'est pas un probleme' et souhaite rompre avec les logiques securitaires. Il propose une regularisation ciblee (et non generale) des sans-papiers integres via l'emploi, la famille ou la scolarisation des enfants. Il veut creer un 'grand ministere de la Solidarite', interdire les tests osseux pour determiner l'age des mineurs isoles, et remplacer Frontex par une agence dont la mission premiere serait le sauvetage en mer.",
+      "sources_croisees": [
+        {
+          "url": "https://www.infomigrants.net/fr/post/38975/presidentielle-2022--regularisations-sauvetages-en-mer-les-principales-propositions-de-la-gauche-sur-limmigration",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_018",
+      "raw_text": "Recruter 3 000 magistrats et 8 000 agents de justice supplementaires et investir 1 milliard d'euros supplementaires dans la justice par an d'ici 2027, soit une augmentation de 12% du budget actuel de 8,2 milliards d'euros, hors administration penitentiaire.",
+      "source_url": "https://www.lemondedudroit.fr/decryptages/79822-presidentielle-2022-quelles-sont-les-propositions-en-matiere-de-justice-de-yannick-jadot.html",
+      "source_type": "presse",
+      "theme": "securite",
+      "action_verb": "recruter",
+      "action_object": "magistrats et agents de justice",
+      "quantification": {
+        "value": 3000,
+        "unit": "magistrats + 8000 agents"
+      },
+      "cost_announced": {
+        "amount_eur": 1000000000,
+        "periodicity": "sur_5_ans",
+        "source": "programme_officiel"
+      },
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "justiciables et professionnels de la justice",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot declare que 'la justice est un pilier de notre Republique' et s'engage a lui donner 'les moyens humains, materiels et financiers necessaires pour faire appliquer la loi et rendre la justice'. Il denonce le sous-investissement chronique dans l'institution judiciaire et propose un plan de recrutement massif avec 1 000 magistrats et 2 000 greffiers par an, en tenant compte des durees de formation.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/augmenter-le-budget-de-la-justice-d1-mde-et-embaucher-3-000-magistrats-et-8-000-agents-de-tribunaux/",
+          "type": "think_tank",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "jadot_019",
+      "raw_text": "Creer une police de l'environnement avec des personnels specifiquement formes et un pole environnement compose d'au moins 3 magistrats formes et reconnus dans chaque parquet de tribunal judiciaire, pour constituer une 'chaine penale environnementale' complete.",
+      "source_url": "https://www.lemondedudroit.fr/decryptages/79822-presidentielle-2022-quelles-sont-les-propositions-en-matiere-de-justice-de-yannick-jadot.html",
+      "source_type": "presse",
+      "theme": "securite",
+      "action_verb": "creer",
+      "action_object": "police de l'environnement et poles environnement dans les tribunaux",
+      "quantification": {
+        "value": 3,
+        "unit": "magistrats par tribunal minimum"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble de la population et pollueurs",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot veut creer une 'chaine penale environnementale' complete, de l'enquete au jugement. Il propose une police de l'environnement avec des personnels specifiquement formes, et dans chaque parquet, un pole environnement d'au moins trois magistrats formes et reconnus dont l'engagement serait perenne. Cette mesure s'inscrit dans sa vision d'une justice qui protege effectivement l'environnement, au-dela des seules declarations.",
+      "sources_croisees": [
+        {
+          "url": "https://www.lemondedudroit.fr/interviews/79796-presidentielle-2022-yannick-jadot-justice.html",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_020",
+      "raw_text": "Octroyer les allocations familiales des le premier enfant, pour un cout estime a 1,1 milliard d'euros par an selon l'Institut Montaigne.",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/octroyer-les-allocations-familiales-des-le-1er-enfant/",
+      "source_type": "institut_montaigne",
+      "theme": "economie",
+      "action_verb": "octroyer",
+      "action_object": "allocations familiales des le 1er enfant",
+      "quantification": null,
+      "cost_announced": {
+        "amount_eur": 1100000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "familles avec un enfant",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot propose d'etendre les allocations familiales des le premier enfant comme mesure de justice sociale et de soutien aux familles. Actuellement, les allocations familiales ne sont versees qu'a partir du deuxieme enfant, ce qui penalise les familles monoparentales et les jeunes couples avec un seul enfant. Cette mesure s'inscrit dans son programme plus large de lutte contre la pauvrete, incluant le revenu citoyen a 918 euros.",
+      "sources_croisees": [
+        {
+          "url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-de-yannick-jadot-europe-ecologie-les-verts-en-matiere-de-protection-sociale-infographie.html",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_021",
+      "raw_text": "Revenir sur la baisse des impots de production des dernieres annees pour financer la transition ecologique, generant entre 8 et 8,8 milliards d'euros de recettes supplementaires pour l'Etat et 0,11 milliard pour les collectivites locales. Les recettes resteraient aux collectivites pour creer des fonds souverains regionaux d'investissement dans le capital des entreprises locales.",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/revenir-sur-la-baisse-des-impots-de-production-de-ces-dernieres-annees/",
+      "source_type": "institut_montaigne",
+      "theme": "economie",
+      "action_verb": "retablir",
+      "action_object": "impots de production au niveau anterieur",
+      "quantification": null,
+      "cost_announced": {
+        "amount_eur": -10000000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
+      "funding_source": "recette fiscale retablie",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "entreprises",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Jadot souhaite 'rehabiliter l'impot' en retablissant les impots de production baisses sous Macron. Il propose que les sommes collectees restent dans les mains des collectivites locales pour creer des fonds souverains regionaux capables d'investir dans le capital des entreprises et favoriser l'ancrage economique territorial. Cette mesure s'inscrit dans un programme fiscal plus large incluant la suppression de la flat tax et la fusion CSG-impot sur le revenu.",
+      "sources_croisees": [
+        {
+          "url": "https://www.usinenouvelle.com/editorial/presidentielle-ce-que-l-on-sait-du-programme-economique-de-yannick-jadot.N1775192",
+          "type": "presse_specialisee",
+          "orientation": "centre-droit"
+        }
+      ]
+    },
+    {
+      "id": "jadot_022",
+      "raw_text": "Augmenter le budget du ministere de la Culture de 1 milliard d'euros par an avec 25% dedie a la creation, instaurer un revenu garanti pour les artistes-auteurs non couverts par le regime de l'intermittence, decentraliser la politique culturelle en associant Etat, collectivites et acteurs culturels, et soutenir la transition ecologique du secteur culturel.",
+      "source_url": "https://leclaireur.fnac.com/article/78740-presidentielles-2022-quel-est-le-programme-culturel-des-candidats/",
+      "source_type": "presse",
+      "theme": "culture",
+      "action_verb": "augmenter",
+      "action_object": "budget du ministere de la Culture",
+      "quantification": {
+        "value": 1000000000,
+        "unit": "EUR/an supplementaires"
+      },
+      "cost_announced": {
+        "amount_eur": 1000000000,
+        "periodicity": "annuel",
+        "source": "programme_officiel"
+      },
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "artistes, auteurs et public",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot presente la culture comme 'creatrice des imaginaires de demain' et veut lui donner les moyens de son ambition avec un milliard supplementaire par an, dont 25% pour la creation. Il propose un revenu garanti pour les artistes-auteurs non couverts par l'intermittence, une nouvelle etape de decentralisation culturelle et un soutien aux espaces culturels independants. La 'Google tax' sur les geants du numerique financerait la creation en ligne et la diversite culturelle.",
+      "sources_croisees": [
+        {
+          "url": "https://www.olyrix.com/articles/economie/5614/programme-presidentiel-culture-yannick-jadot-parti-europe-ecologie-les-verts-eelv-2022",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_023",
+      "raw_text": "Accorder le droit au travail des le depot de la demande d'asile et rendre les demarches d'immigration plus transparentes depuis les pays d'origine. Maintenir l'AME et la CMU, creer un grand ministere de la Solidarite et rompre avec les logiques securitaires dans la gestion de l'immigration.",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/immigration/",
+      "source_type": "institut_montaigne",
+      "theme": "immigration",
+      "action_verb": "accorder",
+      "action_object": "droit au travail pour les demandeurs d'asile",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "demandeurs d'asile",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot justifie le droit au travail des demandeurs d'asile par l'integration economique et la dignite humaine. Il souligne que l'interdiction actuelle de travailler pendant la procedure d'asile genere de la precarite et du travail clandestin. Il veut rompre avec les 'logiques securitaires' et etablir un 'grand ministere de la Solidarite', estimant que l'immigration n'est pas un probleme mais une realite a gerer humainement.",
+      "sources_croisees": [
+        {
+          "url": "https://www.europe1.fr/politique/presidentielle-que-proposent-les-candidats-sur-limmigration-4100347",
+          "type": "presse",
+          "orientation": "centre-droit"
+        }
+      ]
+    },
+    {
+      "id": "jadot_024",
+      "raw_text": "Instaurer une taxe sur les geants du numerique (Google tax) pour financer la creation en ligne et la diversite culturelle, defendre le modele d'exception culturelle et le droit d'auteur face a la logique de consommation, et integrer la responsabilite environnementale et sociale dans le secteur numerique pour reduire la dependance aux Big Tech.",
+      "source_url": "https://actualitte.com/article/104341/politique-publique/statut-des-auteurs-ecotaxe-et-diversite-editoriale-dans-le-programme-de-yannick-jadot",
+      "source_type": "presse",
+      "theme": "numerique",
+      "action_verb": "instaurer",
+      "action_object": "taxe sur les geants du numerique (Google tax)",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": "recette fiscale nouvelle sur les GAFAM",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "geants du numerique et createurs en ligne",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Jadot veut defendre le modele d'exception culturelle et le droit d'auteur face a la logique de consommation des plateformes numeriques. La Google tax obligerait les geants du numerique a financer la creation en ligne et la diversite culturelle. Il souhaite egalement integrer la responsabilite environnementale et sociale dans le secteur numerique, reduire la dependance aux Big Tech et garantir la diversite dans le secteur.",
+      "sources_croisees": [
+        {
+          "url": "https://www.ladn.eu/tech-a-suivre/programme-numerique-candidats-election-presidentielle/",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "jadot_025",
+      "raw_text": "Degel du point d'indice des fonctionnaires dans les 100 premiers jours et revalorisation des salaires dans la fonction publique, avec une augmentation de 20% en moyenne sur le quinquennat pour les secteurs essentiels comme l'ecole et l'hopital. Jadot souligne que le rattrapage s'impose particulierement en debut de carriere ou les salaires sont 'indigents'.",
+      "source_url": "https://www.usinenouvelle.com/editorial/presidentielle-ce-que-l-on-sait-du-programme-economique-de-yannick-jadot.N1775192",
+      "source_type": "presse",
+      "theme": "emploi",
+      "action_verb": "degeler",
+      "action_object": "point d'indice des fonctionnaires",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "fonctionnaires",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Jadot denonce le gel du point d'indice qui dure depuis des annees et erode le pouvoir d'achat des fonctionnaires. Il promet le degel 'dans les 100 jours' suivant son election et une revalorisation de 20% en moyenne sur le quinquennat dans les secteurs essentiels (ecole, hopital). Il insiste sur le rattrapage necessaire en debut de carriere ou les salaires sont 'indigents' et sur la reconnaissance du travail dans les services publics.",
+      "sources_croisees": [
+        {
+          "url": "https://acteurspublics.fr/articles/yannick-jadot-veut-degeler-le-point-dindice-de-la-fonction-publique/",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    }
+  ]
+}

@@ -68,8 +68,9 @@ export interface Promise {
   feasibility: {
     overall: number;
     label: string;
-    uncertainty: number;
-    ci_95: [number, number];
+    uncertainty?: number;
+    ci_95?: [number, number];
+    dimensions?: Record<string, Record<string, unknown>>;
   } | null;
 }
 

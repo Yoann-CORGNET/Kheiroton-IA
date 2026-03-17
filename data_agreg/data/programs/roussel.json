@@ -1,0 +1,880 @@
+{
+  "candidate": "Fabien Roussel",
+  "party": "Parti Communiste Francais (PCF)",
+  "election": "Presidentielle 2022",
+  "source_urls": [
+    "https://www.fabienroussel2022.fr/le_programme",
+    "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+    "https://www.cnews.fr/france/2022-01-24/presidentielle-2022-fabien-roussel-presente-les-grandes-mesures-de-son-programme",
+    "https://www.lejdd.fr/Politique/presidentielle-2022-quelles-sont-les-mesures-phares-du-candidat-communiste-fabien-roussel-4085917",
+    "https://www.publicsenat.fr/actualites/politique/presidentielle-fabien-roussel-presente-180-propositions-pour-une-france-des-jours",
+    "https://cerfia.fr/programme-roussel/",
+    "https://www.fabienroussel2022.fr/nos_solutions_pour_l_emploi_et_le_pouvoir_d_achat",
+    "https://www.fabienroussel2022.fr/la_sante_notre_bien_commun",
+    "https://www.fabienroussel2022.fr/ruralite_agriculture_alimentation",
+    "https://www.fabienroussel2022.fr/le_plan_climat_de_fabien_roussel"
+  ],
+  "promises": [
+    {
+      "id": "roussel_001",
+      "raw_text": "Augmenter le SMIC a 1500 euros net par mois (soit 1923 euros brut), dans le cadre de la theorie du 'roussellement' visant a relancer l'economie par la hausse du pouvoir d'achat des categories populaires",
+      "source_url": "https://www.fabienroussel2022.fr/nos_solutions_pour_l_emploi_et_le_pouvoir_d_achat",
+      "source_type": "programme_officiel",
+      "theme": "economie",
+      "action_verb": "augmenter",
+      "action_object": "SMIC net mensuel",
+      "quantification": {
+        "value": 1500,
+        "unit": "EUR_net/mois"
+      },
+      "cost_announced": null,
+      "funding_source": "hausse de la valeur ajoutee redistribuee aux salaries",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "salaries au SMIC",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel defend la theorie du 'roussellement' : augmenter le pouvoir d'achat des categories populaires en portant le SMIC a 1923 euros brut (1500 euros net), soit une revalorisation de 18,2%. Selon lui, cette hausse des bas salaires libere un revenu disponible auparavant capte par les ultra-riches, qui sera reinvesti dans l'economie reelle par la consommation. Il oppose cette logique au 'ruissellement' par le haut qu'il juge inefficace.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/fabien-roussel/augmenter-le-smic-net-a-1-500e-net/",
+          "type": "think_tank",
+          "orientation": "centre-droit"
+        },
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+          "type": "think_tank",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "roussel_002",
+      "raw_text": "Retablir la retraite a 60 ans a taux plein avec une pension minimale de 1200 euros net, calculee sur les 10 meilleures annees, avec une pension representant 75% du revenu net d'activite dans le public comme le prive",
+      "source_url": "https://www.fabienroussel2022.fr/nos_solutions_pour_l_emploi_et_le_pouvoir_d_achat",
+      "source_type": "programme_officiel",
+      "theme": "retraites",
+      "action_verb": "retablir",
+      "action_object": "age legal de depart a la retraite a 60 ans",
+      "quantification": {
+        "value": 60,
+        "unit": "ans"
+      },
+      "cost_announced": null,
+      "funding_source": "hausse des cotisations patronales et elargissement de l'assiette de cotisation",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des actifs et retraites",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel justifie le retour a la retraite a 60 ans en soulignant que 'l'allongement de l'esperance de vie doit ameliorer l'existence plutot que prolonger le temps de travail'. Il met en avant l'ecart d'esperance de vie en bonne sante : 69 ans pour les cadres contre 59 ans pour les ouvriers. Le financement reposerait sur une taxation de 10% des revenus financiers (environ 300 milliards), generant 30 milliards d'euros, completes par les cotisations liees aux creations massives d'emplois.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/fabien-roussel/restaurer-la-retraite-a-60-ans-a-taux-plein-porter-la-pension-a-75-du-revenu-net-des-dix-meilleures-annees-pour-le-public-et-le-prive/",
+          "type": "think_tank",
+          "orientation": "centre-droit"
+        },
+        {
+          "url": "https://www.boursorama.com/patrimoine/actualites/la-proposition-de-fabien-roussel-d-une-retraite-a-60-ans-62b90ade474b6d6484f18cf92c38e5ed",
+          "type": "presse_economique",
+          "orientation": "centre"
+        }
+      ]
+    },
+    {
+      "id": "roussel_003",
+      "raw_text": "Reduire le temps de travail a 32 heures par semaine sans perte de salaire, dans le cadre d'un droit universel au travail permettant d'alterner emploi bien remunere et periodes de formation tout au long de la vie",
+      "source_url": "https://www.fabienroussel2022.fr/nos_solutions_pour_l_emploi_et_le_pouvoir_d_achat",
+      "source_type": "programme_officiel",
+      "theme": "emploi",
+      "action_verb": "reduire",
+      "action_object": "duree legale du temps de travail hebdomadaire",
+      "quantification": {
+        "value": 32,
+        "unit": "heures/semaine"
+      },
+      "cost_announced": null,
+      "funding_source": "gains de productivite et partage de la valeur ajoutee",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des salaries",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel presente le passage aux 32 heures comme un moyen de 'restituer aux salaries les gains de productivite qu'ils realisent'. La mesure reduirait la duree annuelle du travail a 1469 heures (-138 heures, soit -8,6%) et s'inscrit dans un objectif d'eradication du chomage par le partage du travail. La mesure serait imposee par la loi mais son application varierait selon les entreprises.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/fabien-roussel/passer-a-la-semaine-de-travail-a-32h/",
+          "type": "think_tank",
+          "orientation": "centre-droit"
+        },
+        {
+          "url": "https://www.journal-du-btp.com/les-32-h-par-semaine-de-fabien-roussel-la-cgt-applaudit-la-cpme-n-en-veut-pas-105415.html",
+          "type": "presse_professionnelle",
+          "orientation": "patronal"
+        }
+      ]
+    },
+    {
+      "id": "roussel_004",
+      "raw_text": "Recruter 500 000 fonctionnaires dans les services publics (dont 100 000 a l'hopital et 90 000 dans l'Education nationale)",
+      "source_url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+      "source_type": "ifrap",
+      "theme": "emploi",
+      "action_verb": "recruter",
+      "action_object": "fonctionnaires dans les services publics",
+      "quantification": {
+        "value": 500000,
+        "unit": "postes"
+      },
+      "cost_announced": {
+        "amount_eur": 18000000000,
+        "periodicity": "annuel",
+        "source": "ifrap"
+      },
+      "funding_source": "hausse des recettes fiscales et lutte contre l'evasion fiscale",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "services publics (hopital, education, justice, police)",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel considere que des decennies de reduction des effectifs publics ont degrade les services publics essentiels. Le recrutement massif de 500 000 fonctionnaires vise a restaurer un service public de qualite dans la sante (100 000 postes hospitaliers), l'education (90 000 enseignants), la justice et la securite. Cette mesure s'inscrit dans le programme 'La France des Jours Heureux' qui place les services publics au coeur de la reconstruction nationale.",
+      "sources_croisees": [
+        {
+          "url": "https://www.contrepoints.org/2022/02/14/421578-presidentielle-2022-plusieurs-nuances-de-communisme",
+          "type": "presse_opinion",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.usinenouvelle.com/editorial/presidentielle-ce-que-l-on-sait-du-programme-economique-de-fabien-roussel.N1777147",
+          "type": "presse_economique",
+          "orientation": "centre"
+        }
+      ]
+    },
+    {
+      "id": "roussel_005",
+      "raw_text": "Nationaliser a 100% EDF et Engie pour constituer un pole public unifie de l'energie, fixer les tarifs du gaz et de l'electricite, et diviser par deux la facture energetique des menages avec un cheque energie de 700 euros par an",
+      "source_url": "https://www.fabienroussel2022.fr/le_programme",
+      "source_type": "programme_officiel",
+      "theme": "economie",
+      "action_verb": "nationaliser",
+      "action_object": "EDF et Engie",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": "rachat des parts privees et tarifs regules",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des menages francais",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel veut 'nationaliser a 100% EDF' et Engie pour 'avoir la maitrise de la distribution et retrouver un grand operateur de l'electricite et du gaz de l'energie en France'. Il argue que la liberalisation du marche de l'energie a provoque une flambee des prix et que seul un service public unifie peut garantir des tarifs accessibles. Le financement de la nationalisation reposerait selon lui sur 'l'argent de la BCE'.",
+      "sources_croisees": [
+        {
+          "url": "https://www.lessurligneurs.eu/fabien-roussel-propose-de-re-nationaliser-edf-afin-dobtenir-une-baisse-de-50-des-factures-denergie/",
+          "type": "fact_checking",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.franceinfo.fr/monde/europe/union-europeenne/video-fabien-roussel-veut-financer-la-nationalisation-d-entreprises-notamment-edf-par-l-argent-de-la-bce_4930059.html",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "roussel_006",
+      "raw_text": "Lancer la construction de 6 a 8 EPR et relancer le projet Astrid (reacteur a neutrons rapides de 4e generation) pour un mix energetique 100% public et 100% decarbone nucleaire-renouvelables, garantissant l'independance energetique et la decarbonation totale d'ici 2040-2050",
+      "source_url": "https://www.fabienroussel2022.fr/le_plan_climat_de_fabien_roussel",
+      "source_type": "programme_officiel",
+      "theme": "environnement",
+      "action_verb": "construire",
+      "action_object": "reacteurs EPR et projet de reacteur a neutrons rapides Astrid",
+      "quantification": {
+        "value": 8,
+        "unit": "EPR"
+      },
+      "cost_announced": null,
+      "funding_source": "investissement public via le pole energetique nationalise",
+      "timeline": "quinquennat 2022-2027 (lancement)",
+      "target_population": "ensemble de la population",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel defend le nucleaire comme energie decarbonee indispensable a la reindustrialisation de la France et a l'independance energetique. Il souligne que la France maitrise l'ensemble de la chaine de valeur de la production nucleaire, y compris le retraitement du combustible. La relance d'Astrid (abandonne par l'Etat apres 13 ans de recherche et 1,2 milliard d'euros investis) permettrait selon lui de valoriser les dechets nucleaires et de preparer la 4e generation de reacteurs.",
+      "sources_croisees": [
+        {
+          "url": "https://www.greenpeace.fr/presidentielle-2022-fabien-roussel/",
+          "type": "ONG",
+          "orientation": "ecologiste"
+        },
+        {
+          "url": "https://revue-progressistes.org/2022/02/16/entretien-nucleaire-climat-edf-fabien-roussel-expose-sa-vision/",
+          "type": "revue",
+          "orientation": "gauche"
+        }
+      ]
+    },
+    {
+      "id": "roussel_007",
+      "raw_text": "Decreter un moratoire immediat sur la fermeture des 14 reacteurs nucleaires prevue d'ici 2035, afin de preserver la capacite de production electrique decarbonee et la souverainete energetique de la France",
+      "source_url": "https://www.cnews.fr/france/2022-01-24/presidentielle-2022-fabien-roussel-presente-les-grandes-mesures-de-son-programme",
+      "source_type": "presse",
+      "theme": "environnement",
+      "action_verb": "decreter",
+      "action_object": "moratoire sur les fermetures de reacteurs nucleaires",
+      "quantification": {
+        "value": 14,
+        "unit": "reacteurs maintenus"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "immediat",
+      "target_population": "filiere nucleaire et population",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Roussel s'oppose a la fermeture de reacteurs nucleaires prevue dans la programmation pluriannuelle de l'energie (PPE), arguant que ces centrales produisent une electricite decarbonee indispensable a la lutte contre le changement climatique. Il considere que fermer des reacteurs fonctionnels reviendrait a augmenter la dependance aux energies fossiles importees et a fragiliser la souverainete energetique francaise.",
+      "sources_croisees": [
+        {
+          "url": "https://www.sortirdunucleaire.org/Fabien-Roussel",
+          "type": "ONG",
+          "orientation": "antinucleaire"
+        },
+        {
+          "url": "https://www.pv-magazine.fr/2022/04/06/speciale-presidentielle-2022-le-programme-de-fabien-roussel-dans-les-enr-et-le-solaire/",
+          "type": "presse_specialisee",
+          "orientation": "pro-renouvelables"
+        }
+      ]
+    },
+    {
+      "id": "roussel_008",
+      "raw_text": "Retablir et tripler l'impot sur la fortune (ISF) en augmentant son taux et sa progressivite, supprimer les niches fiscales qui minent son rendement, et augmenter les impots sur les hauts revenus et grandes entreprises pour generer 13 milliards d'euros supplementaires par rapport a l'ancien ISF",
+      "source_url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+      "source_type": "ifrap",
+      "theme": "economie",
+      "action_verb": "retablir et tripler",
+      "action_object": "impot de solidarite sur la fortune (ISF)",
+      "quantification": {
+        "value": 3,
+        "unit": "multiplicateur de l'ancien ISF"
+      },
+      "cost_announced": {
+        "amount_eur": -152000000000,
+        "periodicity": "annuel",
+        "source": "ifrap (ensemble hausses impots)"
+      },
+      "funding_source": "recettes fiscales sur les hauts patrimoines",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "menages les plus fortunes et grandes entreprises",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Lors de son meeting a Marseille, Roussel a declare : 'Il est temps de s'attaquer au mur de l'argent, de reprendre le pouvoir a la finance. Nous rendrons l'impot plus juste. Avec nous, le petit paiera petit et le gros paiera gros.' Le triplement de l'ISF dans sa version 2017 genererait 13 milliards d'euros supplementaires par rapport a l'actuel IFI, grace a des taux plus progressifs et la suppression des niches fiscales.",
+      "sources_croisees": [
+        {
+          "url": "https://www.moneyvox.fr/actu/87996/impot-quel-candidat-a-la-presidentielle-veut-le-retour-de-isf",
+          "type": "presse_economique",
+          "orientation": "centre"
+        },
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/impots-isf-ce-que-coutent-ou-font-gagner-les-propositions-des-candidats-la-presidentielle",
+          "type": "think_tank",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "roussel_009",
+      "raw_text": "Revaloriser de 30% les salaires des fonctionnaires en degelant le point d'indice, pour rattraper onze annees de gel salarial ayant reduit le pouvoir d'achat des agents publics de pres de 10%",
+      "source_url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+      "source_type": "ifrap",
+      "theme": "emploi",
+      "action_verb": "revaloriser",
+      "action_object": "grille salariale de la fonction publique",
+      "quantification": {
+        "value": 30,
+        "unit": "pourcent"
+      },
+      "cost_announced": {
+        "amount_eur": 60000000000,
+        "periodicity": "annuel",
+        "source": "ifrap"
+      },
+      "funding_source": "hausse des recettes fiscales",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des fonctionnaires",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel justifie cette revalorisation par le besoin de 'rattraper onze annees de gel salarial qui a reduit le pouvoir d'achat des fonctionnaires de pres de 10%'. L'Institut Montaigne estime le cout a au moins 61,5 milliards d'euros supplementaires par an, montant a 91,2 milliards en incluant les cotisations sociales patronales. A titre de comparaison, le gouvernement n'a accorde que 3,5% de hausse du point d'indice en juillet 2022.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/fabien-roussel/augmenter-les-salaires-de-la-fonction-publique-de-30-2/",
+          "type": "think_tank",
+          "orientation": "centre-droit"
+        },
+        {
+          "url": "https://acteurspublics.fr/articles/salaires-des-agents-publics-des-promesses-daugmentation-a-tout-va-chez-les-candidats/",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "roussel_010",
+      "raw_text": "Creer 100 000 emplois a l'hopital public avec titularisation de tous les contractuels, mettre fin a la tarification a l'activite (T2A), et construire un hopital de proximite a moins de 30 minutes de chaque bassin de vie avec maternite, urgences et chirurgie",
+      "source_url": "https://www.fabienroussel2022.fr/la_sante_notre_bien_commun",
+      "source_type": "programme_officiel",
+      "theme": "sante",
+      "action_verb": "creer",
+      "action_object": "emplois hospitaliers et hopitaux de proximite",
+      "quantification": {
+        "value": 100000,
+        "unit": "postes hospitaliers"
+      },
+      "cost_announced": null,
+      "funding_source": "fin de la tarification a l'activite (T2A)",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "patients et personnels hospitaliers",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel veut rompre avec la logique de l'hopital-entreprise en supprimant la T2A (tarification a l'activite), qu'il considere comme la cause principale de la degradation de l'hopital public. Il propose de la remplacer par un budget de fonctionnement couvrant les charges sur la base d'une obligation de moyens et non de resultats. Les 100 000 postes viseraient a reconstituer les equipes soignantes et a ameliorer les conditions de travail. Le conventionnement selectif des medecins liberaux et la fin des depassements d'honoraires completent la mesure.",
+      "sources_croisees": [
+        {
+          "url": "https://www.allodocteurs.fr/presidentielle-2022-que-proposent-les-candidates-pour-sauver-lhopital-public-32725.html",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.egora.fr/actus-pro/politiques/conventionnement-selectif-suppression-des-depassements-dhonoraires-le",
+          "type": "presse_medicale",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "roussel_011",
+      "raw_text": "Creer un pole public du medicament pour gerer la production et la distribution, finance par une taxe de 1% sur le chiffre d'affaires des laboratoires pharmaceutiques, afin de lutter contre les penuries de medicaments et de garantir la souverainete sanitaire",
+      "source_url": "https://www.fabienroussel2022.fr/la_sante_notre_bien_commun",
+      "source_type": "programme_officiel",
+      "theme": "sante",
+      "action_verb": "creer",
+      "action_object": "pole public du medicament",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": "taxe de 1% sur le chiffre d'affaires des laboratoires pharmaceutiques",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble de la population",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel inscrit cette mesure dans une logique de souverainete sanitaire revelee par la crise du Covid-19. Les penuries recurrentes de medicaments essentiels (antibiotiques, anticancereux, vaccins) resultent selon lui de la logique de profit des laboratoires qui delocalisent la production. Le pole public assurerait une production nationale des medicaments strategiques et une distribution equitable sur le territoire, finance par une taxe de 1% sur le chiffre d'affaires de l'industrie pharmaceutique.",
+      "sources_croisees": [
+        {
+          "url": "https://hupfront.fr/presidentielle-2022-decouvrez-le-programme-sante-des-12-candidat%C2%B7e%C2%B7s/",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.france24.com/fr/france/20220216-pr%C3%A9sidentielle-que-proposent-les-candidats-en-mati%C3%A8re-de-sant%C3%A9",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "roussel_012",
+      "raw_text": "Recruter 90 000 enseignants et augmenter leur salaire de 30%, supprimer Parcoursup, revaloriser le budget de l'Education nationale a 80 milliards d'euros",
+      "source_url": "https://www.fabienroussel2022.fr/ecole",
+      "source_type": "programme_officiel",
+      "theme": "education",
+      "action_verb": "recruter",
+      "action_object": "enseignants avec revalorisation salariale",
+      "quantification": {
+        "value": 90000,
+        "unit": "postes enseignants"
+      },
+      "cost_announced": null,
+      "funding_source": "budget de l'Education nationale revalorise",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "enseignants et eleves",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel considere que la crise des vocations enseignantes resulte de la degradation des conditions de travail et des salaires. Le recrutement de 90 000 enseignants vise a reduire les effectifs par classe et a garantir le remplacement, tandis que la hausse de 30% des salaires rendrait le metier attractif. La suppression de Parcoursup s'inscrit dans une vision egalitaire de l'acces a l'enseignement superieur. L'IFRAP estime le budget global de l'Education nationale porte a 80 milliards d'euros dans le programme Roussel.",
+      "sources_croisees": [
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.cnews.fr/france/2022-01-24/presidentielle-2022-fabien-roussel-presente-les-grandes-mesures-de-son-programme",
+          "type": "presse",
+          "orientation": "droite"
+        }
+      ]
+    },
+    {
+      "id": "roussel_013",
+      "raw_text": "Mettre en place un repas a 1 euro dans toutes les cantines scolaires avec des produits bio et locaux, grace a un fonds alimentaire national de 10 milliards d'euros par an permettant aux maires de restaurer les cuisines dans les ecoles et de s'approvisionner en circuits courts",
+      "source_url": "https://www.fabienroussel2022.fr/nos_propositions_pour_l_alimentation",
+      "source_type": "programme_officiel",
+      "theme": "education",
+      "action_verb": "mettre en place",
+      "action_object": "repas a 1 euro dans les cantines scolaires",
+      "quantification": {
+        "value": 1,
+        "unit": "EUR/repas"
+      },
+      "cost_announced": null,
+      "funding_source": "fonds alimentaire de 10 milliards d'euros",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "eleves et etudiants",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel presente l'alimentation comme un droit fondamental et un enjeu de sante publique. Le fonds national de 10 milliards couvrirait le surcout lie a l'achat de produits locaux et bio, plus chers que les produits d'importation. Il souligne le double benefice : garantir aux enfants l'acces a une alimentation saine via la cantine a 1 euro maximum, tout en offrant un debouche important aux agriculteurs de tous les territoires par la vente directe en circuits courts.",
+      "sources_croisees": [
+        {
+          "url": "https://www.reussir.fr/garantir-tout-le-monde-de-bien-manger-le-projet-revolutionnaire-de-fabien-roussel",
+          "type": "presse_agricole",
+          "orientation": "centre"
+        },
+        {
+          "url": "https://www.politique-animaux.fr/elevage/fabien-roussel-s-engage-rendre-les-cantines-bio-et-donc-en-exclure-de-fait-les-produits-issu",
+          "type": "association",
+          "orientation": "ecologiste"
+        }
+      ]
+    },
+    {
+      "id": "roussel_014",
+      "raw_text": "Atteindre 500 000 agriculteurs en France a l'horizon 2030, developper la formation agricole publique et l'agroecologie, en inversant la tendance a la perte de 100 000 exploitants d'ici 2030 pour garantir la souverainete alimentaire",
+      "source_url": "https://www.fabienroussel2022.fr/nos_propositions_pour_l_agriculture",
+      "source_type": "programme_officiel",
+      "theme": "agriculture",
+      "action_verb": "atteindre",
+      "action_object": "nombre d'agriculteurs en France",
+      "quantification": {
+        "value": 500000,
+        "unit": "agriculteurs"
+      },
+      "cost_announced": null,
+      "funding_source": "fonds de soutien a la transition agroecologique",
+      "timeline": "horizon 2030",
+      "target_population": "agriculteurs et candidats a l'installation",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel defend 'une agriculture a taille humaine' et alerte sur le fait que sans inversion de tendance, la France perdra 100 000 agriculteurs d'ici 2030, compromettant sa capacite a se nourrir. L'objectif de 500 000 agriculteurs serait atteint par le developpement de l'enseignement agricole public, la creation de postes d'enseignement et de formation, l'investissement massif dans la recherche agroecologique et le soutien a l'installation des jeunes agriculteurs.",
+      "sources_croisees": [
+        {
+          "url": "https://www.reussir.fr/election-presidentielle-2022-le-programme-agricole-de-fabien-roussel",
+          "type": "presse_agricole",
+          "orientation": "centre"
+        },
+        {
+          "url": "https://terres-et-territoires.com/cest-tout-frais/politique-syndicalisme/programme-agricole-de-fabien-roussel-lalimentaire-sinvite-dans-la-pac",
+          "type": "presse_agricole",
+          "orientation": "centre"
+        }
+      ]
+    },
+    {
+      "id": "roussel_015",
+      "raw_text": "Creer un fonds de 10 milliards d'euros par an pour la securite alimentaire et la transition agroecologique, interdire l'importation de produits ne respectant pas les normes francaises",
+      "source_url": "https://www.fabienroussel2022.fr/ruralite_agriculture_alimentation",
+      "source_type": "programme_officiel",
+      "theme": "agriculture",
+      "action_verb": "creer",
+      "action_object": "fonds pour la securite alimentaire",
+      "quantification": {
+        "value": 10000000000,
+        "unit": "EUR/an"
+      },
+      "cost_announced": {
+        "amount_eur": 10000000000,
+        "periodicity": "annuel",
+        "source": "programme_officiel"
+      },
+      "funding_source": "taxation des multinationales de l'agroalimentaire",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "agriculteurs et consommateurs",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel inscrit ce fonds dans une double logique de souverainete alimentaire et de transition ecologique. Les 10 milliards financeraient la generalisation du repas a 1 euro en cantine avec des produits bio locaux, le soutien aux agriculteurs en transition agroecologique et la protection des consommateurs contre les importations ne respectant pas les normes francaises (pesticides interdits en France, conditions d'elevage). Le fonds serait alimente par la taxation des multinationales de l'agroalimentaire.",
+      "sources_croisees": [
+        {
+          "url": "https://www.reussir.fr/garantir-tout-le-monde-de-bien-manger-le-projet-revolutionnaire-de-fabien-roussel",
+          "type": "presse_agricole",
+          "orientation": "centre"
+        },
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+          "type": "think_tank",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "roussel_016",
+      "raw_text": "Construire 200 000 logements sociaux par an dont 60 000 tres sociaux, doubler le parc de logements etudiants avec 175 000 logements sur le quinquennat, renover 700 000 logements par an, et plafonner les loyers a 20% du revenu des menages",
+      "source_url": "https://www.batiactu.com/edito/fabien-roussel-pcf-veut-investir-10-a-13-milliards-63500.php",
+      "source_type": "presse",
+      "theme": "logement",
+      "action_verb": "construire",
+      "action_object": "logements sociaux par an",
+      "quantification": {
+        "value": 200000,
+        "unit": "logements/an"
+      },
+      "cost_announced": {
+        "amount_eur": 13000000000,
+        "periodicity": "annuel",
+        "source": "presse"
+      },
+      "funding_source": "investissement public dans le logement social",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "menages modestes et etudiants",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel propose une grande loi de programmation pour le logement avec un investissement de 10 a 13 milliards d'euros par an. Il veut au minimum doubler la construction de HLM pour atteindre 200 000 par an (dont 60 000 tres sociaux) afin de tendre vers 30% de logements sociaux en zone urbaine. La renovation de 700 000 logements par an et le plafonnement des loyers a 20% des revenus completent le dispositif. Il propose aussi 175 000 logements etudiants et jeunes travailleurs sur le quinquennat.",
+      "sources_croisees": [
+        {
+          "url": "https://enavantlemanifeste.fr/2022/03/07/le-logement-social-nest-pas-le-grand-oublie-de-la-campagne-pour-fabien-roussel/",
+          "type": "blog_politique",
+          "orientation": "gauche"
+        },
+        {
+          "url": "https://www.lejdd.fr/Politique/presidentielle-2022-ce-que-proposent-les-candidats-sur-le-logement-4091718",
+          "type": "presse",
+          "orientation": "centre"
+        }
+      ]
+    },
+    {
+      "id": "roussel_017",
+      "raw_text": "Recruter 30 000 policiers et gendarmes pour une police nationale de proximite bien formee et bien encadree, renover les commissariats et gendarmeries, et creer 20 000 postes d'educateurs specialises et travailleurs sociaux pour la prevention de la delinquance juvenile",
+      "source_url": "https://www.fabienroussel2022.fr/droit_la_s_curit_fabien_roussel_d_fend_une_police_nationale_de_proximit",
+      "source_type": "programme_officiel",
+      "theme": "securite",
+      "action_verb": "recruter",
+      "action_object": "policiers et gendarmes pour la police de proximite",
+      "quantification": {
+        "value": 30000,
+        "unit": "agents"
+      },
+      "cost_announced": null,
+      "funding_source": "budget du ministere de l'Interieur",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble de la population",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel considere la securite comme 'un droit fondamental qui doit etre garanti a tous les citoyens' et refuse que ce service public soit 'vendu aux entreprises privees'. Il propose la creation d'une veritable police nationale de proximite avec 30 000 agents formes, bien encadres et correctement remuneres. Privilegiant la prevention a la repression, il lie sa politique de securite a l'education, la justice sociale et l'insertion professionnelle, avec 20 000 postes d'educateurs specialises et travailleurs sociaux.",
+      "sources_croisees": [
+        {
+          "url": "https://www.revolutionpermanente.fr/Surenchere-securitaire-au-PCF-Fabien-Roussel-propose-30-000-policiers-de-proximite",
+          "type": "presse_opinion",
+          "orientation": "extreme-gauche"
+        },
+        {
+          "url": "https://www.france24.com/fr/france/20220316-pr%C3%A9sidentielle-que-proposent-les-candidats-en-mati%C3%A8re-de-s%C3%A9curit%C3%A9",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "roussel_018",
+      "raw_text": "Lancer un grand plan de sauvetage de la justice : porter le nombre de magistrats a 20 000 d'ici 2027 (contre 9 192 en janvier 2022), supprimer le verrou de Bercy pour mieux poursuivre les fraudeurs fiscaux, remplacer le CSM par un Conseil superieur de la Justice garantissant l'independance judiciaire",
+      "source_url": "https://www.lemondedudroit.fr/decryptages/79871-presidentielle-2022-quelles-sont-les-propositions-de-fabien-roussel-en-matiere-de-justice.html",
+      "source_type": "presse",
+      "theme": "securite",
+      "action_verb": "recruter",
+      "action_object": "magistrats et reformer l'institution judiciaire",
+      "quantification": {
+        "value": 25000,
+        "unit": "magistrats"
+      },
+      "cost_announced": null,
+      "funding_source": "budget du ministere de la Justice",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "systeme judiciaire et justiciables",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel denonce une justice 'sinistree' avec seulement 8 483 magistrats en exercice dans les juridictions en janvier 2022 (sur 9 192 au total). Son plan de sauvetage vise a porter ce nombre a 20 000 d'ici 2027. La suppression du verrou de Bercy permettrait a la justice de poursuivre directement les fraudeurs fiscaux sans autorisation prealable du ministere des Finances. Le remplacement du CSM par un Conseil superieur de la Justice vise a renforcer l'independance du pouvoir judiciaire vis-a-vis de l'executif.",
+      "sources_croisees": [
+        {
+          "url": "https://www.dalloz-actualite.fr/interview/presidentielle-2022-candidats-et-justice-reponses-de-fabien-roussel",
+          "type": "presse_juridique",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.fabienroussel2022.fr/142_un_grand_plan_de_sauvetage_de_notre_justice_sera_labor",
+          "type": "programme_officiel",
+          "orientation": "gauche"
+        }
+      ]
+    },
+    {
+      "id": "roussel_019",
+      "raw_text": "Regulariser tous les travailleurs sans papiers qui travaillent en France (entre 600 000 et 700 000 personnes dans le BTP, les plateformes de livraison et le nettoyage), renforcer les moyens de l'Ofpra et de l'Ofii, garantir le droit d'asile et ouvrir des voies legales et securisees pour les migrants",
+      "source_url": "https://www.fabienroussel2022.fr/162_des_voies_l_gales_et_s_curis_es_devront_tre_ouvertes_pour_les_migrant_e_s_en_respect_du_droit_international",
+      "source_type": "programme_officiel",
+      "theme": "immigration",
+      "action_verb": "regulariser",
+      "action_object": "travailleurs sans papiers et renforcer le droit d'asile",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "travailleurs sans papiers et demandeurs d'asile",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Roussel propose de regulariser 'tous les sans-papiers qui travaillent', soulignant que dans le BTP, les plateformes de livraison et le nettoyage, entre 600 000 et 700 000 personnes sans papiers travaillent et sont exploitees par de grandes entreprises qui refusent de remplir les formulaires CERFA permettant leur regularisation. Il denonce une situation de 'clandestinite forcee' qui profite au patronat et precarise les travailleurs.",
+      "sources_croisees": [
+        {
+          "url": "https://www.publicsenat.fr/actualites/non-classe/immigration-fabien-roussel-propose-la-regularisation-de-tous-les-travailleurs-sans",
+          "type": "presse",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://frontpopulaire.fr/politique/contents/regularisation-des-sans-papiers-fabien-roussel-dans-les-bras-du-capital_tco_24719153",
+          "type": "presse_opinion",
+          "orientation": "souverainiste"
+        }
+      ]
+    },
+    {
+      "id": "roussel_020",
+      "raw_text": "Investir 5 milliards d'euros supplementaires par an dans le ferroviaire pour rouvrir les petites lignes SNCF, renationaliser la SNCF et mettre fin a la concurrence ferroviaire, plus 3 milliards pour les transports en commun urbains gratuits et nationaliser les autoroutes",
+      "source_url": "https://www.fabienroussel2022.fr/le_plan_climat_de_fabien_roussel",
+      "source_type": "programme_officiel",
+      "theme": "environnement",
+      "action_verb": "investir",
+      "action_object": "reseau ferroviaire et transports en commun",
+      "quantification": {
+        "value": 8000000000,
+        "unit": "EUR/an (5 Mds ferroviaire + 3 Mds transports)"
+      },
+      "cost_announced": {
+        "amount_eur": 8000000000,
+        "periodicity": "annuel",
+        "source": "programme_officiel"
+      },
+      "funding_source": "investissement public et nationalisation SNCF",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "usagers des transports",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel veut renationaliser la SNCF et abandonner 'la concurrence destructrice des transports publics'. Il propose un plan de relance industrielle du secteur ferroviaire base sur un schema national de livraison de fret par le rail couvrant l'ensemble du territoire. La reouverture des petites lignes et la gratuite des transports urbains s'inscrivent dans une double logique ecologique (decarbonation des transports) et sociale (mobilite accessible a tous). La nationalisation des autoroutes complete le dispositif.",
+      "sources_croisees": [
+        {
+          "url": "https://www.contexte.com/actualite/transports/fin-de-la-concurrence-ferroviaire-gratuite-des-transports-urbains-nationalisation-des-autoroutes-le-programme-complet-de-fabien-roussel_145027.html",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.contrepoints.org/2022/02/14/421578-presidentielle-2022-plusieurs-nuances-de-communisme",
+          "type": "presse_opinion",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "roussel_021",
+      "raw_text": "Investir 6% du PIB par an pour le climat soit 65 milliards d'investissements publics supplementaires, dont 25 milliards pour decarboner les transports, dans un plan visant la decarbonation totale de la production energetique d'ici 2040-2050",
+      "source_url": "https://reseauactionclimat.org/presidentielle-que-vaut-fabien-roussel-pour-le-climat/",
+      "source_type": "presse",
+      "theme": "environnement",
+      "action_verb": "investir",
+      "action_object": "plan climat national",
+      "quantification": {
+        "value": 6,
+        "unit": "pourcent du PIB"
+      },
+      "cost_announced": {
+        "amount_eur": 65000000000,
+        "periodicity": "annuel",
+        "source": "programme_officiel"
+      },
+      "funding_source": "reorientation budgetaire et recettes fiscales nouvelles",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble de la population",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel propose un plan climat de 140 milliards d'euros (selon l'IFRAP) articulant nucleaire et renouvelables pour atteindre un mix energetique 100% decarbone d'ici 2040-2050. Les 65 milliards d'investissements publics supplementaires annuels incluent 25 milliards pour la decarbonation des transports. Il defend une approche qui ne separe pas ecologie et justice sociale, refusant que la transition ecologique pese sur les classes populaires.",
+      "sources_croisees": [
+        {
+          "url": "https://www.greenpeace.fr/presidentielle-2022-fabien-roussel/",
+          "type": "ONG",
+          "orientation": "ecologiste"
+        },
+        {
+          "url": "https://reseauactionclimat.org/presidentielle-que-vaut-fabien-roussel-pour-le-climat/",
+          "type": "ONG",
+          "orientation": "ecologiste"
+        }
+      ]
+    },
+    {
+      "id": "roussel_022",
+      "raw_text": "Supprimer l'article 49-3 de la Constitution (qui permet a l'executif de s'affranchir des deliberations parlementaires) et l'article 40 (qui interdit aux parlementaires de proposer des hausses du budget de l'Etat), instaurer la proportionnelle integrale pour toutes les elections, garantir la parite dans toutes les institutions elues, et engager une reflexion sur la transformation democratique du Senat",
+      "source_url": "https://www.fabienroussel2022.fr/moyen_2",
+      "source_type": "programme_officiel",
+      "theme": "institutions",
+      "action_verb": "supprimer",
+      "action_object": "articles 49-3 et 40 de la Constitution, instaurer la proportionnelle",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des citoyens",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Roussel denonce le 49-3 comme un outil qui 'blesse la Republique' en permettant a l'executif d'imposer des lois sans vote parlementaire. La suppression de l'article 40 vise a redonner au Parlement la capacite de proposer des augmentations budgetaires. La proportionnelle integrale permettrait 'la juste representation des courants politiques en fonction de leur influence electorale'. Ces reformes s'inscrivent dans la vision d'une nouvelle Republique renforçant le pouvoir du Parlement face a l'executif.",
+      "sources_croisees": [
+        {
+          "url": "https://www.encrage.media/politique/les-reformes-constitutionnelles-envisagees-par-fabien-roussel-1645138664",
+          "type": "presse",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://socialistesuniversitaires.fr/fabien-roussel-face-au-cycle-presidentiel-du-pole-institutions-%EF%BF%BC/",
+          "type": "think_tank",
+          "orientation": "gauche"
+        }
+      ]
+    },
+    {
+      "id": "roussel_023",
+      "raw_text": "Baisser la TVA sur les produits de premiere necessite (energie, alimentation) pour un cout estime a 5 milliards d'euros, et instaurer une taxe flottante sur les carburants, dans le cadre d'une reforme fiscale globale augmentant les prelevements de 131,4 milliards d'euros sur les hauts patrimoines et grandes entreprises",
+      "source_url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+      "source_type": "ifrap",
+      "theme": "economie",
+      "action_verb": "baisser",
+      "action_object": "TVA sur les produits de premiere necessite",
+      "quantification": null,
+      "cost_announced": {
+        "amount_eur": 20000000000,
+        "periodicity": "annuel",
+        "source": "ifrap"
+      },
+      "funding_source": "compensation par la hausse de l'ISF et de l'impot sur les grandes entreprises",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des consommateurs",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Roussel propose de baisser la TVA sur les produits de premiere necessite (energie, alimentation) pour soulager directement le pouvoir d'achat des menages les plus modestes, pour qui ces depenses representent une part proportionnellement plus importante du budget. La taxe flottante sur les carburants vise a amortir les variations des cours du petrole. Ces baisses (-5 milliards selon l'IFRAP) seraient plus que compensees par les hausses d'impots sur les hauts patrimoines et grandes entreprises (+131,4 milliards au total).",
+      "sources_croisees": [
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/impots-les-hausses-et-les-baisses-proposees-par-les-candidats",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.selexium.com/actualites/programme-fiscal-propositions-candidats-presidentielle-2022/",
+          "type": "conseil_financier",
+          "orientation": "centre-droit"
+        }
+      ]
+    },
+    {
+      "id": "roussel_024",
+      "raw_text": "Adopter une loi contre la surveillance numerique de masse, maitriser les choix technologiques dans l'interet public avec un plan de renforcement du controle public associant operateurs telecom et autorites du secteur, et garantir une fiscalite plus juste des geants du numerique",
+      "source_url": "https://www.lemondeinformatique.fr/actualites/lire-presidentielle-2022-fabien-roussel-veut-un-numerique-mieux-regule-86359.html",
+      "source_type": "presse",
+      "theme": "numerique",
+      "action_verb": "adopter",
+      "action_object": "loi contre la surveillance numerique de masse",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des citoyens",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Roussel veut 'maitriser nos choix technologiques' estimant que le domaine numerique est entrave par une 'obsession de maximisation du profit'. Il propose un plan de renforcement du controle public reunissant operateurs telecom, autorites du secteur et services de securite interieure pour evaluer les protections techniques et juridiques en place. Il plaide aussi pour une fiscalite plus juste des geants du numerique et un meilleur amenagement territorial garantissant l'acces aux services publics de proximite.",
+      "sources_croisees": [
+        {
+          "url": "https://siecledigital.fr/2022/03/22/quelle-place-pour-le-numerique-dans-le-programme-des-candidats-a-la-presidentielle/",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.clubic.com/antivirus-securite-informatique/actualite-415971-cybersecurite-et-souverainete-numerique-les-candidats-a-la-presidentielle-devoilent-leurs-propositions.html",
+          "type": "presse_tech",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "roussel_025",
+      "raw_text": "Garantir l'acces aux loisirs, sport et culture pour toutes les familles avec des tarifs gratuits ou accessibles, et defendre la creation artistique",
+      "source_url": "https://www.fabienroussel2022.fr/le_programme",
+      "source_type": "programme_officiel",
+      "theme": "culture",
+      "action_verb": "garantir",
+      "action_object": "acces universel a la culture, au sport et aux loisirs",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des familles",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Roussel inscrit l'acces a la culture, au sport et aux loisirs dans la vision des 'Jours Heureux', considerant que l'epanouissement personnel ne doit pas etre reserve aux plus aises. Le programme prevoit des tarifs gratuits ou accessibles pour toutes les familles, le soutien a la creation artistique et le developpement des equipements culturels et sportifs de proximite, dans une logique d'egalite territoriale et sociale.",
+      "sources_croisees": [
+        {
+          "url": "https://www.lejdd.fr/Politique/presidentielle-2022-quelles-sont-les-mesures-phares-du-candidat-communiste-fabien-roussel-4085917",
+          "type": "presse",
+          "orientation": "centre"
+        },
+        {
+          "url": "https://media-web.fr/presidentielle-2022-le-resume-du-programme-de-fabien-roussel-pcf/",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    }
+  ]
+}

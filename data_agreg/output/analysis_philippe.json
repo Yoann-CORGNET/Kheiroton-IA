@@ -1,0 +1,1155 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-17T14:30:00.000000",
+    "pipeline_version": "PolitiScale-Agent-1.0",
+    "methodology": "Multi-agent MCDA analysis (Economiste, Juriste, Sociologue, Factchecker, Historien, Synthetiseur)",
+    "disclaimer": "Cette analyse est produite a des fins informatives et pedagogiques. Elle ne constitue ni une recommandation de vote ni un jugement de valeur sur les orientations politiques des candidats. Les scores refletent une evaluation de faisabilite technique, non de desirabilite. Les estimations budgetaires comportent des marges d'incertitude importantes.",
+    "data_sources": [
+      "INSEE (Comptes de la Nation 2024)",
+      "budget.gouv.fr (LFI 2025)",
+      "LFSS 2025",
+      "Cour des comptes",
+      "Conseil constitutionnel",
+      "HCFP",
+      "Conseil de l'UE (PSMT/PDE)",
+      "Legifrance",
+      "Sources presse citees dans philippe.json"
+    ]
+  },
+  "candidate": "Edouard Philippe",
+  "party": "Horizons",
+  "context": {
+    "an_seats": {
+      "NFP": 193,
+      "Ensemble": 163,
+      "RN": 126,
+      "DR": 47,
+      "majorite_absolue": 289,
+      "horizons_propres": 32
+    },
+    "macro_2024": {
+      "pib_md_eur": 2920,
+      "dette_pct_pib": 113.0,
+      "deficit_pct_pib": 5.8,
+      "pression_fiscale_pct_pib": 42.8,
+      "interets_dette_md_eur": 55,
+      "chomage_pct": 7.9
+    },
+    "contrainte_psmt": "Depenses nettes plafonnees a 0.8-1.2%/an de croissance, deficit < 3% d'ici 2029"
+  },
+  "evaluations": [
+    {
+      "promise_id": "philippe_001",
+      "raw_text": "Dissoudre immediatement l'Assemblee nationale en cas d'election et organiser des legislatives en juin 2027, couplees a un referendum pour valider les reformes cles",
+      "theme": "institutions",
+      "source_url": "https://www.europe1.fr/politique/dissolution-referendum-sur-les-retraites-et-sur-une-regle-dor-budgetaire-philippe-devoile-sa-methode-668233",
+      "dimensions": {
+        "budget": {
+          "score": 0.85,
+          "confidence": 0.8,
+          "justification": "Cout direct faible. L'organisation de legislatives anticipees coute environ 200-300 M EUR (organisation logistique, campagne officielle). Un referendum couple aux legislatives permet de mutualiser les couts logistiques. L'impact budgetaire reside surtout dans le cout d'opportunite : paralysie legislative durant 2-3 mois. Compatible avec le PSMT car n'implique pas de depense structurelle nouvelle.",
+          "cout_estime_eur": 350000000,
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.75,
+          "confidence": 0.85,
+          "justification": "La dissolution est un pouvoir propre du President (Art. 12 de la Constitution), sans contreseing. Le referendum sur les reformes cles releve de l'Art. 11 (politique economique, sociale, organisation des pouvoirs publics). Cependant, coupler legislatives et referendum souleve des questions : le Conseil constitutionnel pourrait etre saisi sur la clarte de la question posee. Le CC a deja juge que le referendum ne peut pas etre utilise pour reviser la Constitution (seul l'Art. 89 le permet, sauf usage gaullien controverse de l'Art. 11). La dissolution ne peut pas intervenir dans l'annee suivant des legislatives (Art. 12 al. 4).",
+          "vehicule_legislatif": "pouvoir propre presidentiel (Art. 12) + referendum (Art. 11)",
+          "risque_censure_cc": "modere — le CC controle la regularite du referendum mais pas son contenu; risque sur la formulation de la question",
+          "conflit_droit_ue": "aucun"
+        },
+        "social": {
+          "score_acceptabilite": 0.6,
+          "score_impact": 0.5,
+          "confidence": 0.65,
+          "justification": "La dissolution est un acte politique risque : les electeurs peuvent sanctionner l'executif (precedent Chirac 1997). Le referendum suscite l'interet democratique mais peut etre detourne en plebiscite pour/contre le President (precedent 2005). L'opinion publique est favorable au principe du referendum (sondages recurrents montrant 70%+ de soutien au principe) mais la fatigue electorale apres une presidentielle peut reduire la participation. L'impact concret depend entierement du resultat electoral.",
+          "opposition_sociale": "risque de rejet electoral si les legislatives ne donnent pas de majorite claire; les syndicats s'opposent au referendum sur les retraites comme moyen de contournement du debat parlementaire"
+        },
+        "factcheck": {
+          "score": 0.8,
+          "confidence": 0.8,
+          "justification": "La proposition est juridiquement realisable : le President peut effectivement dissoudre l'AN et convoquer un referendum. Toutefois, l'affirmation que cela 'valide les reformes cles' est trompeuse : un referendum ne peut porter que sur un projet de loi, pas sur un programme entier. Le couplage legislatives/referendum est inedit sous la Ve Republique mais pas interdit. Le precedent de Gaulle (1962, 1969) montre que le referendum est un outil a double tranchant.",
+          "verdict_global": "Promesse realisable sur le plan juridique mais presentation simplifiee. Le referendum ne peut pas couvrir l'ensemble des reformes annoncees. Le risque de ne pas obtenir de majorite parlementaire demeure entier."
+        },
+        "historique": {
+          "score": 0.55,
+          "confidence": 0.75,
+          "justification": "Precedent direct : dissolution Chirac 1997 — echec retentissant, perte de majorite et cohabitation de 5 ans. Dissolution Mitterrand 1981 et 1988 — succes, obtention de majorites absolues. Dissolution Macron 2024 — echec, aucune majorite absolue. Les referendums ont un bilan mitige : succes en 1958, 1962 (de Gaulle) mais echec en 1969 (demission de Gaulle) et 2005 (Constitution europeenne). Sur 10 referendums sous la Ve Republique, 3 ont echoue. Le couplage avec des legislatives est sans precedent.",
+          "delai_realiste_mois": 2,
+          "precedent_principal": "Dissolution Macron 2024 (echec), Dissolution Chirac 1997 (echec), Dissolutions Mitterrand 1981/1988 (succes)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.62,
+        "ci_95": [
+          0.45,
+          0.78
+        ],
+        "synthesis": "La dissolution est un pouvoir presidentiel indiscutable mais dont l'issue est aleatoire. Le couplage avec un referendum est juridiquement possible mais politiquement tres risque. Les precedents montrent un taux d'echec de 40-50% pour les dissolutions. La mesure est faisable mais son succes depend entierement du contexte electoral."
+      }
+    },
+    {
+      "promise_id": "philippe_002",
+      "raw_text": "Inscrire une regle d'or budgetaire dans la Constitution imposant le retour a l'equilibre financier en 10 ans, soumise par referendum",
+      "theme": "economie",
+      "source_url": "https://www.europe1.fr/politique/dissolution-referendum-sur-les-retraites-et-sur-une-regle-dor-budgetaire-philippe-devoile-sa-methode-668233",
+      "dimensions": {
+        "budget": {
+          "score": 0.4,
+          "confidence": 0.55,
+          "justification": "L'inscription d'une regle d'or imposerait un retour a l'equilibre en 10 ans, soit d'ici 2037. Avec un deficit actuel de 5.8% du PIB (environ 169 Md EUR), il faudrait economiser environ 17 Md EUR par an pendant 10 ans, soit 87 Md EUR de depenses en moins sur un total de 1670 Md. C'est un effort colossal de 5.2% des depenses publiques totales. L'Allemagne a inscrit un frein a la dette (Schuldenbremse) en 2009 : elle a ete contrainte de le suspendre en 2020-2023 (Covid, crise energetique), montrant la rigidite problematique de ce type de regle. La France, avec un deficit structurel plus eleve, serait confrontee a des ajustements encore plus severes.",
+          "cout_estime_eur": 0,
+          "financement_credible": false,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.25,
+          "confidence": 0.85,
+          "justification": "OBSTACLE MAJEUR : l'inscription dans la Constitution requiert normalement l'Art. 89 (vote identique des deux chambres + referendum ou Congres a 3/5). Philippe propose d'utiliser l'Art. 11 pour contourner l'Art. 89, comme de Gaulle en 1962. Mais cette utilisation est consideree comme inconstitutionnelle par la doctrine juridique dominante (le CC ne s'est jamais prononce car il se declare incompetent pour controler les lois referendaires). Le Senat LR pourrait exiger un passage par l'Art. 89. Meme par Art. 89, le Senat a un droit de veto. L'OPECST et le Conseil d'Etat pourraient emettre des avis defavorables sur la rigidite de la regle.",
+          "vehicule_legislatif": "referendum Art. 11 (usage controverse) ou Art. 89 (revision constitutionnelle classique)",
+          "risque_censure_cc": "Le CC est incompetent pour controler une loi referendaire (Decision 62-20 DC); mais le debat juridique sur l'utilisation de l'Art. 11 pour reviser la Constitution reste ouvert",
+          "conflit_droit_ue": "aucun — coherent avec le PSC et le TSCG (traite budgetaire europeen de 2012)"
+        },
+        "social": {
+          "score_acceptabilite": 0.55,
+          "score_impact": 0.35,
+          "confidence": 0.6,
+          "justification": "L'idee de regle d'or est populaire dans le principe (les Francais disent vouloir reduire la dette dans les sondages) mais ses consequences concretes — coupes massives dans les services publics ou hausse d'impots — sont fortement rejetees. L'experience allemande du Schuldenbremse montre que les ajustements touchent en priorite les investissements publics (infrastructures, education), creant un deficit d'investissement mesurable. Les syndicats de la fonction publique, les collectivites et le secteur hospitalier s'y opposeraient vigoureusement.",
+          "opposition_sociale": "forte — syndicats, collectivites, secteur hospitalier et educatif; opinion publique ambivalente (favorable au principe, hostile aux consequences)"
+        },
+        "factcheck": {
+          "score": 0.55,
+          "confidence": 0.7,
+          "justification": "L'affirmation que la regle d'or permet le 'retour a l'equilibre en 10 ans' merite examen. En 2012, la France a signe le TSCG (Pacte budgetaire) qui impose deja une regle d'equilibre structurel. La loi organique de decembre 2012 l'a transposee, mais sans mecanisme contraignant. Le Schuldenbremse allemand (2009) a montre des limites : suspendu 3 fois en 14 ans. L'Espagne a inscrit sa regle d'or en 2011 : elle n'a jamais ete respectee en pratique. Le retour a l'equilibre en 10 ans depuis un deficit de 5.8% est un objectif sans precedent dans un pays de l'OCDE sans recession prealable comme levier.",
+          "verdict_global": "Promesse techniquement faisable (inscrire un texte dans la Constitution) mais economiquement tres difficilement tenable. Les precedents internationaux montrent que les regles d'or sont regulierement suspendues ou contournees."
+        },
+        "historique": {
+          "score": 0.35,
+          "confidence": 0.75,
+          "justification": "Precedent international majeur : Schuldenbremse allemand (2009), suspendu en 2020-23 et source de sous-investissement en infrastructure. Regle d'or espagnole (2011) : jamais respectee. Regle d'or italienne (2012) : deficit structurel continu. La France a deja le TSCG (2012) transpose en loi organique sans effet concret. Aucun pays de l'OCDE avec un deficit de 5.8% du PIB n'a reussi un retour a l'equilibre en 10 ans sans croissance exceptionnelle ou crise justifiant des coupes radicales.",
+          "delai_realiste_mois": 6,
+          "precedent_principal": "Schuldenbremse allemand 2009 (suspendu 3 fois), Regle d'or espagnole 2011 (non respectee), TSCG 2012 (transpose sans effet contraignant en France)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.35,
+        "ci_95": [
+          0.2,
+          0.5
+        ],
+        "synthesis": "L'inscription d'une regle d'or dans la Constitution est un objectif juridiquement tres complexe (usage controverse de l'Art. 11 ou veto potentiel du Senat via Art. 89) et economiquement irealiste dans les conditions actuelles. Les precedents internationaux montrent que ce type de regle est systematiquement suspendu ou contourne. Le retour a l'equilibre en 10 ans depuis un deficit de 5.8% du PIB serait sans precedent."
+      }
+    },
+    {
+      "promise_id": "philippe_003",
+      "raw_text": "Reformer les retraites par referendum avec un systeme a trois regimes (prive, public, independants), chacun equilibre, avec introduction de 15% de capitalisation collective",
+      "theme": "retraites",
+      "source_url": "https://www.europe1.fr/politique/dissolution-referendum-sur-les-retraites-et-sur-une-regle-dor-budgetaire-philippe-devoile-sa-methode-668233",
+      "dimensions": {
+        "budget": {
+          "score": 0.3,
+          "confidence": 0.5,
+          "justification": "Le systeme de retraites represente environ 340 Md EUR/an (14% du PIB). La branche vieillesse est structurellement deficitaire : -6.6 Md EUR en 2025 selon la Cour des comptes, malgre la reforme 2023. L'introduction de 15% de capitalisation collective impliquerait de detourner environ 51 Md EUR/an de cotisations vers des fonds de capitalisation. Pendant la transition (30-40 ans), il faudrait financer simultanement les pensions en cours (repartition) et constituer les reserves de capitalisation, creant un 'trou' transitoire estime entre 15 et 30 Md EUR/an. L'equilibre de chaque regime est un objectif louable mais non chiffre : comment atteindre l'equilibre quand le ratio cotisants/retraites baisse de 1.7 a 1.5 d'ici 2040 ? Soit on augmente les cotisations, soit on baisse les pensions, soit on allonge la duree de cotisation.",
+          "cout_estime_eur": 20000000000,
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.45,
+          "confidence": 0.7,
+          "justification": "Le referendum sur les retraites est possible via l'Art. 11 (reforme relative a la politique sociale). Le CC a valide l'essentiel de la reforme 2023 (Decision 2023-849 DC), montrant qu'une reforme parametrique est constitutionnellement viable. Cependant, la creation d'un systeme a trois regimes avec capitalisation obligatoire souleve des questions de droit social : le principe d'egalite devant les charges publiques, le droit a la protection sociale (Preambule 1946 al. 11). Le CC pourrait censurer une capitalisation obligatoire si elle affaiblit la solidarite nationale. Par referendum, le CC ne controle pas le fond — mais la loi organique d'application serait controlable.",
+          "vehicule_legislatif": "referendum Art. 11 + lois organiques de financement de la securite sociale",
+          "risque_censure_cc": "faible sur le referendum, modere sur les lois d'application (capitalisation obligatoire vs solidarite nationale)",
+          "conflit_droit_ue": "risque faible — la politique de retraites reste nationale; attention a la directive IORP II sur les fonds de pension"
+        },
+        "social": {
+          "score_acceptabilite": 0.3,
+          "score_impact": 0.65,
+          "confidence": 0.7,
+          "justification": "Apres la crise sociale massive de la reforme 2023 (manifestations record, usage du 49.3), toute reforme des retraites est un terrain mine. Le referendum permet de contourner l'opposition parlementaire mais pas l'opposition sociale. Les syndicats (CGT, CFDT, FO, UNSA, Solidaires) ont demontre leur capacite de mobilisation en 2023. L'introduction de capitalisation est un casus belli ideologique pour la gauche et les syndicats. L'impact serait majeur : 18 millions d'actifs et 17 millions de retraites concernes. Le vote par referendum ne garantit pas l'acceptation sociale de la mise en oeuvre.",
+          "opposition_sociale": "tres forte — mobilisation syndicale certaine; les retraites sont le sujet le plus conflictuel du debat social francais"
+        },
+        "factcheck": {
+          "score": 0.5,
+          "confidence": 0.65,
+          "justification": "La proposition merite verification sur plusieurs points. (1) 'Trois regimes equilibres' : il existait 42 regimes avant les reformes; les unifier en 3 est une simplification radicale qui necessiterait des decennies de transition. (2) '15% de capitalisation collective' : le PER (loi PACTE) a atteint 6 millions d'epargnants avec 100 Md EUR d'encours, mais 79% proviennent de transferts d'anciens produits, pas de nouvelles cotisations. L'epargne retraite represente aujourd'hui environ 5% du PIB en France contre 150% aux Pays-Bas. Passer a 15% de capitalisation obligatoire est un changement de paradigme. (3) Le cout de transition de la repartition vers la capitalisation partielle est systematiquement sous-estime dans les propositions politiques.",
+          "verdict_global": "Promesse ambitieuse mais significativement sous-estimee en termes de cout de transition et de faisabilite. Le calendrier et le financement ne sont pas explicites."
+        },
+        "historique": {
+          "score": 0.3,
+          "confidence": 0.75,
+          "justification": "Precedent direct : reforme des retraites 2023 — adoptee via 49.3, opposition sociale massive, economies tres limitees a court terme (150 M EUR en 2024). Precedent international : la Suede a introduit une part de capitalisation (2.5% des cotisations) en 1998, mais dans un contexte de consensus politique large (5 partis). Le Chili a passe de la capitalisation a un systeme mixte apres des resultats decevants pour les retraites les plus basses. La France a echoue en 2019-2020 a instaurer un systeme universel a points (reforme Delevoye), montrant la difficulte de reformes systemiques. Delai realiste pour une telle reforme : 10-20 ans de transition minimum.",
+          "delai_realiste_mois": 180,
+          "precedent_principal": "Echec reforme systemique Delevoye 2019-2020, Reforme parametrique 2023 (49.3 + crise sociale), Suede 1998 (capitalisation 2.5% avec consensus transpartisan)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.32,
+        "ci_95": [
+          0.18,
+          0.46
+        ],
+        "synthesis": "Reforme systemique des retraites extremement ambitieuse. Le referendum contourne le Parlement mais pas l'opposition sociale. Le cout de transition vers 15% de capitalisation est considerable (15-30 Md/an) et incompatible avec le PSMT. Les precedents montrent l'echec des reformes systemiques (Delevoye 2019) et le conflit social majeur des reformes parametriques (2023). Le delai realiste depasse largement un quinquennat."
+      }
+    },
+    {
+      "promise_id": "philippe_004",
+      "raw_text": "Proposer un deal fiscal inedit aux entreprises : reduction de 50 milliards d'euros par an d'impots de production, compensee par une reduction equivalente des aides publiques, soit 250 milliards sur le quinquennat",
+      "theme": "economie",
+      "source_url": "https://www.publicsenat.fr/actualites/economie/entreprises-un-deal-a-250-milliards-deuros-sur-un-quinquennat-que-represente-la-proposition-dedouard-philippe",
+      "dimensions": {
+        "budget": {
+          "score": 0.4,
+          "confidence": 0.55,
+          "justification": "La proposition se veut budgetairement neutre (50 Md de baisses d'impots de production compenses par 50 Md de baisses d'aides). Cependant : (1) Les impots de production (C3S, CFE, CVAE, taxes foncieres des entreprises) representent environ 70 Md EUR/an. En supprimer 50 Md, soit 71%, est un bouleversement fiscal majeur. (2) Les aides aux entreprises representent 150-200 Md EUR selon les definitions (France Strategie, 2020). Supprimer 50 Md d'aides est tres difficile car beaucoup sont contractuelles (CICE devenu baisse de charges perenne, CIR, etc.) et ont des beneficiaires organises. (3) Le sequencage est crucial : si les baisses d'impots precedent les baisses d'aides, le deficit se creuse. (4) Certaines aides sont co-financees par l'UE (PAC, FEDER). Le risque budgetaire est eleve car la suppression d'aides est politiquement beaucoup plus difficile que la baisse d'impots.",
+          "cout_estime_eur": 50000000000,
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.55,
+          "confidence": 0.7,
+          "justification": "La suppression d'impots de production releve de la loi de finances (Art. 34 et 47). Le gouvernement a l'initiative (Art. 40 empeche les parlementaires de proposer des baisses de recettes). La suppression d'aides publiques est plus complexe juridiquement : certaines sont de nature contractuelle (conventions avec les entreprises), d'autres resultent de dispositions legislatives (CIR = Art. 244 quater B du CGI). Le CIR seul represente 7.6 Md EUR/an — sa suppression necessite une loi. Les aides de la PAC ne sont pas suppressibles unilateralement. Le droit de l'UE encadre les aides d'Etat mais n'interdit pas leur suppression.",
+          "vehicule_legislatif": "loi de finances annuelle (PLF) pour la partie fiscale; lois ordinaires pour la suppression de dispositifs d'aide specifiques",
+          "risque_censure_cc": "faible pour les baisses d'impots; modere si rupture d'egalite devant l'impot; attention au principe de confiance legitime pour les aides existantes",
+          "conflit_droit_ue": "risque sur les aides co-financees UE (PAC, FEDER); pas de conflit sur la fiscalite nationale"
+        },
+        "social": {
+          "score_acceptabilite": 0.45,
+          "score_impact": 0.6,
+          "confidence": 0.6,
+          "justification": "La proposition polarise. Les grandes entreprises beneficieraient de la baisse des impots de production (qui pesent proportionnellement plus sur l'industrie). Mais la suppression des aides toucherait surtout les PME et TPE qui dependent des subventions (apprentissage, transition ecologique, innovation). Le MEDEF et la CPME auraient des positions divergentes. Les salaries des secteurs aides (agriculture, culture, recherche) seraient directement menaces. L'opinion publique est sceptique sur les 'cadeaux aux entreprises' meme quand ils s'accompagnent de contreparties.",
+          "opposition_sociale": "forte des PME et secteurs aides (agriculture, recherche, apprentissage); soutien possible des grandes entreprises industrielles; syndicats hostiles"
+        },
+        "factcheck": {
+          "score": 0.45,
+          "confidence": 0.7,
+          "justification": "L'affirmation d'une neutralite budgetaire est le point cle. France Strategie (2020) estime les aides aux entreprises a 157 Md EUR (definition large) ou 92 Md EUR (definition restrictive). La marge de manoeuvre depend donc de la definition retenue. Le CICE/allegements Fillon represente environ 40 Md EUR, le CIR 7.6 Md, les aides a l'apprentissage 6 Md, les allegements zones franches 1.5 Md. Supprimer 50 Md d'aides signifie supprimer plus de la moitie du CIR, du CICE et des dispositifs d'apprentissage — ce qui contredirait d'autres objectifs politiques (innovation, emploi des jeunes). La neutralite budgetaire repose sur un exercice de compensation qui n'a jamais ete realise a cette echelle.",
+          "verdict_global": "Proposition arithmetiquement coherente mais pratiquement irrealisable a l'echelle annoncee (50 Md/an). La neutralite budgetaire est theorique. Les aides suppressibles sans dommage colateral sont bien inferieures a 50 Md."
+        },
+        "historique": {
+          "score": 0.3,
+          "confidence": 0.65,
+          "justification": "Aucun precedent comparable a cette echelle dans un pays de l'OCDE. Precedent partiel : la suppression progressive de la CVAE (12 Md EUR) sur 2023-2027 a ete partiellement annulee en 2024 faute de marge budgetaire. Le CICE (20 Md EUR) a ete transforme en allegements de charges perennes en 2019 — une simplification, pas une suppression. La tentative de rationalisation des niches fiscales est un serpent de mer : le rapport IGF 2011 identifiait 474 niches pour 72 Md EUR, moins de 10% ont ete supprimees en 15 ans. La resistance des beneficiaires est systematiquement sous-estimee.",
+          "delai_realiste_mois": 60,
+          "precedent_principal": "Suppression partielle CVAE (annulee 2024), Transformation CICE (2019), Echec recurrent des tentatives de rationalisation des niches fiscales"
+        }
+      },
+      "feasibility": {
+        "overall": 0.35,
+        "ci_95": [
+          0.2,
+          0.5
+        ],
+        "synthesis": "Le 'deal a 250 milliards' est la proposition la plus ambitieuse du programme Philippe en termes d'echelle. La neutralite budgetaire est theorique : la suppression de 50 Md d'aides aux entreprises se heurte a des obstacles juridiques (engagements contractuels, droit UE), politiques (resistance des beneficiaires) et economiques (dommages collateraux sur l'apprentissage, la recherche, l'agriculture). Aucun precedent comparable. Faisabilite tres faible a l'echelle annoncee."
+      }
+    },
+    {
+      "promise_id": "philippe_005",
+      "raw_text": "Augmenter la duree du temps de travail : travailler plus longtemps dans la semaine, dans l'annee et dans la vie, avec une approche flexible laissant aux entreprises et salaries une marge de negociation",
+      "theme": "emploi",
+      "source_url": "https://actu.orange.fr/politique/s-il-est-elu-en-2027-edouard-philippe-affirme-qu-il-augmentera-la-duree-du-temps-de-travail-magic-CNT000002jjzor.html",
+      "dimensions": {
+        "budget": {
+          "score": 0.6,
+          "confidence": 0.4,
+          "justification": "Proposition volontairement vague. L'augmentation du temps de travail peut generer des recettes supplementaires via la hausse du PIB potentiel. Selon le Tresor, une heure de travail hebdomadaire supplementaire pourrait generer 1-1.5% de PIB additionnel a terme, soit 30-45 Md EUR de recettes fiscales et sociales supplementaires. Mais l'effet depend entierement des modalites : heures supplementaires defiscalisees (cout budgetaire) ou augmentation de la duree legale (gain budgetaire). L'absence de chiffrage rend l'evaluation tres incertaine.",
+          "cout_estime_eur": null,
+          "financement_credible": null,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.5,
+          "confidence": 0.6,
+          "justification": "La duree legale du travail (35h) releve de la loi (Art. 34). Les ordonnances Macron 2017 ont deja permis la negociation au niveau de l'entreprise pour depasser les 35h. Une modification de la duree legale est possible par loi ordinaire. Le droit de l'UE impose un plafond de 48h/semaine (directive 2003/88/CE) et un repos minimum de 11h/jour. L'approche 'flexible' pourrait utiliser les ordonnances (Art. 38) avec autorisation parlementaire ou referendaire. Le CC a valide les 35h (Decision 99-423 DC) mais pourrait aussi valider un retour en arriere si le legislateur le decide.",
+          "vehicule_legislatif": "loi ordinaire ou ordonnances (Art. 38) avec habilitation",
+          "risque_censure_cc": "faible si la reforme respecte le droit au repos et le plafond UE de 48h",
+          "conflit_droit_ue": "attention au plafond de 48h/semaine (directive temps de travail)"
+        },
+        "social": {
+          "score_acceptabilite": 0.25,
+          "score_impact": 0.5,
+          "confidence": 0.7,
+          "justification": "Les 35 heures sont un acquis social symbolique majeur en France. Tout debat sur le temps de travail est explosif (cf. loi El Khomri 2016, mouvement Nuit Debout). Les sondages montrent une majorite de Francais opposes a la remise en cause des 35h. Les syndicats (CGT, CFDT, FO) s'y opposeraient frontalement. Cependant, l'approche 'flexible par negociation' attenuerait le conflit si elle laisse un vrai choix aux salaries. Le risque est que la flexibilite beneficie surtout aux employeurs.",
+          "opposition_sociale": "tres forte — sujet aussi explosif que les retraites; mobilisation syndicale certaine"
+        },
+        "factcheck": {
+          "score": 0.6,
+          "confidence": 0.55,
+          "justification": "La proposition est volontairement vague ('travailler plus longtemps dans la semaine, dans l'annee et dans la vie'). En pratique, la duree effective de travail en France est de 39.1h/semaine pour les salaries a temps complet (Eurostat), proche de la moyenne UE (39.3h). Le 'probleme' francais est davantage le faible taux d'emploi (68.4% des 15-64 ans) que le nombre d'heures par travailleur. L'augmentation de la duree de la vie active est deja en cours via la reforme des retraites 2023. La proposition manque de precision pour etre evaluee rigoureusement.",
+          "verdict_global": "Promesse vague dont l'impact depend entierement des modalites non precisees. Les donnees montrent que le temps de travail effectif en France n'est pas significativement inferieur a la moyenne europeenne."
+        },
+        "historique": {
+          "score": 0.4,
+          "confidence": 0.7,
+          "justification": "Precedent direct : loi El Khomri 2016 (passage en force au 49.3, mouvement Nuit Debout) et ordonnances Macron 2017 (flexibilite par accord d'entreprise). Ces reformes ont assoupli le cadre sans toucher a la duree legale. Le passage de 39h a 35h (lois Aubry 1998-2000) a ete l'une des reformes les plus contestees de la Ve Republique. Aucun gouvernement depuis n'a ose remettre en cause la duree legale, se contentant d'assouplissements. Sarkozy avec les heures supplementaires defiscalisees (TEPA 2007) a contourne le sujet plutot que de l'affronter.",
+          "delai_realiste_mois": 24,
+          "precedent_principal": "Lois Aubry 35h (1998-2000), Loi El Khomri (2016, 49.3), Ordonnances Macron (2017, bilan mitige)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.4,
+        "ci_95": [
+          0.25,
+          0.55
+        ],
+        "synthesis": "Proposition volontairement vague qui permet de ne pas s'engager sur des modalites precises. L'augmentation de la duree legale du travail est politiquement quasi-impossible en France (aucun gouvernement ne l'a tentee depuis 2000). L'approche par la negociation d'entreprise existe deja (ordonnances 2017). L'impact reel depend de modalites non definies."
+      }
+    },
+    {
+      "promise_id": "philippe_006",
+      "raw_text": "Reformer la justice, l'education et la sante par ordonnances, avec autorisation obtenue par referendum",
+      "theme": "institutions",
+      "source_url": "https://www.publicsenat.fr/actualites/politique/presidentielle-pourquoi-edouard-philippe-nest-pas-la-pour-beurrer-les-tartines",
+      "dimensions": {
+        "budget": {
+          "score": 0.45,
+          "confidence": 0.35,
+          "justification": "Proposition-cadre sans chiffrage. Les trois secteurs concernes representent des budgets considerables : education 64.5 Md (Etat) + 149 Md (toutes APU), justice 10.2 Md, sante 265.9 Md (ONDAM). Le cout depend entierement du contenu des ordonnances. Des reformes structurelles de ces trois domaines peuvent aller de reformes a cout nul (reorganisation) a des investissements massifs (construction de tribunaux, recrutement d'enseignants, equipement hospitalier). L'incertitude est maximale.",
+          "cout_estime_eur": null,
+          "financement_credible": null,
+          "compatible_psmt": null
+        },
+        "juridique": {
+          "score": 0.5,
+          "confidence": 0.7,
+          "justification": "L'utilisation du referendum (Art. 11) pour obtenir l'habilitation a legiferer par ordonnances (Art. 38) est constitutionnellement innovative et controversee. En principe, l'habilitation a ordonnances est donnee par le Parlement (Art. 38 al. 1 : 'le Gouvernement peut, pour l'execution de son programme, demander au Parlement l'autorisation de prendre par ordonnances...'). L'obtenir par referendum contournerait le Parlement de maniere inedite. Le CC, dans sa decision 62-20 DC, s'est declare incompetent pour controler les lois referendaires. Mais les ordonnances elles-memes seraient soumises au controle de constitutionnalite lors de leur ratification ou via QPC. Les matieres touchees (droits fondamentaux en matiere d'education, de sante, d'acces a la justice) sont sensibles au regard du bloc de constitutionnalite.",
+          "vehicule_legislatif": "referendum Art. 11 pour habilitation + ordonnances Art. 38",
+          "risque_censure_cc": "eleve sur les ordonnances elles-memes (droits fondamentaux en education, sante, justice); faible sur la loi referendaire d'habilitation",
+          "conflit_droit_ue": "attention au droit a un proces equitable (Art. 6 CEDH) pour la reforme de la justice; directives UE sur la reconnaissance des diplomes pour l'education"
+        },
+        "social": {
+          "score_acceptabilite": 0.35,
+          "score_impact": 0.55,
+          "confidence": 0.55,
+          "justification": "La methode des ordonnances est percue comme autoritaire. Les trois secteurs (justice, education, sante) sont defendus par des corps professionnels puissants : magistrats, avocats, enseignants, medecins, infirmiers. Le recours au referendum pour contourner leurs representants parlementaires serait vu comme un affront democratique. Les ordonnances Macron 2017 (travail) ont montre les limites de cette methode : bilan 'mitige' selon France Strategie. La legitimite democratique du referendum pourrait attenuer la contestation mais les professions concernees ont des leviers de blocage (greves, contentieux).",
+          "opposition_sociale": "forte — magistrats, enseignants, soignants, avocats; tous disposent de capacites de mobilisation demontrees"
+        },
+        "factcheck": {
+          "score": 0.5,
+          "confidence": 0.5,
+          "justification": "La proposition est une methode, pas un contenu. 'Reformer la justice, l'education et la sante' ne dit rien du sens des reformes. L'utilisation du referendum pour obtenir une habilitation a ordonnances est sans precedent sous la Ve Republique. En 1967, de Gaulle avait utilise les ordonnances pour reformer la Securite sociale, mais avec une habilitation parlementaire classique. L'ampleur (trois secteurs majeurs en une seule vague d'ordonnances) est sans precedent.",
+          "verdict_global": "Proposition methodologique sans contenu precis, rendant l'evaluation de fond impossible. La methode elle-meme est constitutionnellement innovante et politiquement tres risquee."
+        },
+        "historique": {
+          "score": 0.4,
+          "confidence": 0.65,
+          "justification": "Precedent : ordonnances Macron 2017 sur le travail — bilan mitige, deploiement lent, evaluation difficile. Ordonnances de la Securite sociale 1967 (de Gaulle) — creation des caisses par ordonnance avec habilitation parlementaire. Reformes de la justice : chaque garde des Sceaux annonce une 'grande reforme' mais les moyens ne suivent pas (budget justice parmi les plus faibles d'Europe, 10.2 Md). Education : chaque ministre annonce des 'reformes structurelles' sans jamais toucher au statut des enseignants. Sante : la loi HPST (2009) puis Ma Sante 2022 ont eu des resultats mitigees. Le reformisme par ordonnances permet la rapidite mais pas la qualite de mise en oeuvre.",
+          "delai_realiste_mois": 36,
+          "precedent_principal": "Ordonnances Macron travail 2017 (bilan mitige), Ordonnances Securite sociale 1967, Reformes sante/education recurrentes sans effets transformateurs"
+        }
+      },
+      "feasibility": {
+        "overall": 0.38,
+        "ci_95": [
+          0.22,
+          0.54
+        ],
+        "synthesis": "Proposition methodologique sans contenu precis. Le recours au referendum pour habiliter des ordonnances est constitutionnellement inedit et politiquement risque. Les trois secteurs vises sont defendus par des corps professionnels puissants. L'experience des ordonnances Macron 2017 montre que la rapidite d'adoption ne garantit pas la qualite de mise en oeuvre."
+      }
+    },
+    {
+      "promise_id": "philippe_007",
+      "raw_text": "Lutter contre l'immigration du fait accompli, instaurer des quotas ou objectifs quantitatifs pour l'immigration professionnelle, ne proceder qu'a des regularisations au cas par cas",
+      "theme": "immigration",
+      "source_url": "https://www.lejdd.fr/politique/edouard-philippe-au-jdd-nous-devons-lutter-contre-limmigration-du-fait-accompli-140270",
+      "dimensions": {
+        "budget": {
+          "score": 0.6,
+          "confidence": 0.5,
+          "justification": "Les depenses liees a l'immigration sont estimees a environ 26 Md EUR/an (estimation large incluant AME, hebergement, scolarisation, aides sociales) dont 1.8 Md pour l'hebergement d'urgence, 1.2 Md pour l'AME, et le reste en depenses de droit commun. L'instauration de quotas pour l'immigration professionnelle aurait un cout administratif modere (adaptation des procedures OFII, systeme d'information). La fin des regularisations massives pourrait generer des economies marginales sur les prestations sociales mais aussi une hausse du travail informel (perte de recettes). Impact budgetaire net incertain mais limite.",
+          "cout_estime_eur": 500000000,
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.5,
+          "confidence": 0.7,
+          "justification": "L'instauration de quotas d'immigration releve de la loi (Art. 34). La loi immigration 2024 a tente d'introduire des quotas : 32 articles censures sur 86 par le CC (Decision 2023-863 DC), dont plusieurs pour cavalier legislatif mais certains pour atteinte aux droits fondamentaux. Le droit au regroupement familial est protege par l'Art. 8 CEDH (vie privee et familiale) et la directive 2003/86/CE. Des quotas sur l'immigration professionnelle sont plus faciles juridiquement (le Canada et l'Australie en ont). La regularisation 'au cas par cas' est deja la pratique officielle (circulaire Valls 2012), bien que souvent contournee. Principale difficulte : la Constitution protege le droit d'asile (Preambule 1946 al. 4) qui echappe aux quotas.",
+          "vehicule_legislatif": "loi ordinaire (immigration) + decrets d'application",
+          "risque_censure_cc": "eleve — le CC a deja censure 32 articles de la loi immigration 2024; toute nouvelle restriction sera scrutee",
+          "conflit_droit_ue": "reel — directive regroupement familial 2003/86, directive qualification 2011/95, droit d'asile convention de Geneve"
+        },
+        "social": {
+          "score_acceptabilite": 0.65,
+          "score_impact": 0.45,
+          "confidence": 0.6,
+          "justification": "L'immigration est un sujet clivant mais les sondages montrent regulierement que 60-70% des Francais souhaitent une reduction de l'immigration. Les quotas beneficient d'un soutien majoritaire dans l'opinion. L'opposition viendrait principalement de la gauche (NFP) et des associations (GISTI, Cimade, LDH). Le positionnement de Philippe est calibre pour attirer l'electorat de droite sans aller aussi loin que le RN. L'impact reel sur les flux migratoires serait limite : l'immigration irreguliere represente environ 300 000 personnes/an, les quotas ne concerneraient que l'immigration legale professionnelle (environ 35 000 titres/an).",
+          "opposition_sociale": "moderee a forte — opposition de la gauche et des associations; soutien de la droite et d'une majorite de l'opinion"
+        },
+        "factcheck": {
+          "score": 0.55,
+          "confidence": 0.65,
+          "justification": "Plusieurs points a verifier : (1) L''immigration du fait accompli' est un cadrage politique, pas une categorie administrative. (2) Les quotas existent deja de facto pour l'immigration professionnelle (liste de metiers en tension, titre 'passeport talent'). (3) Les regularisations 'au cas par cas' sont deja la norme officielle depuis la circulaire Valls 2012. (4) Les flux migratoires sont largement determines par des facteurs exterieurs (conflits, climat) sur lesquels la France a peu de prise. Le nombre de premiers titres de sejour delivres en 2023 est d'environ 316 000, dont 40% pour motif familial, 33% pour etudes, 13% pour motif economique.",
+          "verdict_global": "Propositions partiellement deja en vigueur. Les quotas professionnels sont faisables mais marginaux dans les flux totaux. La fin des regularisations massives est deja la doctrine officielle."
+        },
+        "historique": {
+          "score": 0.45,
+          "confidence": 0.7,
+          "justification": "Precedent direct : loi immigration 2024 — 32 articles censures par le CC. Loi Sarkozy 2006 (immigration choisie) : instauration d'une carte 'competences et talents' aux resultats limites. Quotas canadiens (systeme a points depuis 1967) : referencece mais contexte tres different (geographie insulaire, tradition d'immigration). En France, chaque loi immigration (2003, 2006, 2011, 2018, 2024) a durci les conditions sans reussir a maitriser significativement les flux. Le nombre de premiers titres de sejour a continue d'augmenter malgre les restrictions successives.",
+          "delai_realiste_mois": 18,
+          "precedent_principal": "Loi immigration 2024 (censure massive CC), Loi Sarkozy immigration choisie 2006 (resultats limites), Systeme a points canadien"
+        }
+      },
+      "feasibility": {
+        "overall": 0.48,
+        "ci_95": [
+          0.33,
+          0.63
+        ],
+        "synthesis": "Propositions partiellement deja mises en oeuvre (regularisation au cas par cas) ou limitees dans leur impact (quotas sur l'immigration professionnelle qui ne represente que 13% des titres). Le CC a demontre en 2024 sa vigilance sur les lois immigration. L'ecart entre le discours politique et l'impact reel sur les flux est systematique dans ce domaine."
+      }
+    },
+    {
+      "promise_id": "philippe_008",
+      "raw_text": "Renegocier l'accord franco-algerien de 1968 qui accorde un regime derogatoire aux ressortissants algeriens en matiere d'entree, de sejour et d'emploi en France",
+      "theme": "immigration",
+      "source_url": "https://www.europe1.fr/politique/immigration-edouard-philippe-veut-renegocier-laccord-conclu-avec-lalgerie-en-1968-4187251",
+      "dimensions": {
+        "budget": {
+          "score": 0.8,
+          "confidence": 0.6,
+          "justification": "Impact budgetaire direct quasi nul. La renegociation d'un accord bilateral n'a pas de cout significatif (frais diplomatiques marginaux). L'impact economique indirect est incertain : les Algeriens en France contribuent a l'economie (emploi, consommation, fiscalite) et l'accord facilite les echanges commerciaux bilateraux. L'Algerie est un partenaire energetique important (gaz). Compatible avec le PSMT.",
+          "cout_estime_eur": 0,
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.55,
+          "confidence": 0.7,
+          "justification": "La denonciation ou renegociation d'un accord bilateral releve du pouvoir executif (Art. 52 de la Constitution). Le President negocie les traites. Cependant : (1) L'accord de 1968 (modifie en 1985, 1994 et 2001) est un traite international ratifie — sa denonciation unilaterale est possible mais diplomatiquement couteuse. (2) La renegociation necessite l'accord de l'Algerie, qui n'a aucune incitation a accepter. (3) Les droits acquis des Algeriens presents en France sous l'accord actuel seraient proteges par le principe de confiance legitime et la CEDH. (4) En cas de denonciation, le droit commun des etrangers s'appliquerait automatiquement.",
+          "vehicule_legislatif": "negociation diplomatique (executif) puis ratification par le Parlement si nouveau traite (Art. 53)",
+          "risque_censure_cc": "faible si la denonciation suit les procedures constitutionnelles",
+          "conflit_droit_ue": "pas de conflit direct — l'accord est bilateral France-Algerie"
+        },
+        "social": {
+          "score_acceptabilite": 0.6,
+          "score_impact": 0.35,
+          "confidence": 0.6,
+          "justification": "La proposition recueille un soutien large a droite. L'accord de 1968 est peu connu du grand public mais son existence est regulierement instrumentalisee dans le debat sur l'immigration. La diaspora algerienne en France (environ 900 000 personnes de nationalite algerienne, et plusieurs millions de franco-algeriens) serait directement preoccupee. L'impact concret serait limite pour les Franco-Algeriens (binationaux non concernes) mais reel pour les nouveaux arrivants. Les relations franco-algeriennes, deja tendues, en patiraient.",
+          "opposition_sociale": "moderee — soutien de la droite, opposition de la gauche et de la diaspora algerienne; risque diplomatique avec l'Algerie (gaz, cooperation antiterroriste)"
+        },
+        "factcheck": {
+          "score": 0.65,
+          "confidence": 0.7,
+          "justification": "L'accord de 1968 accorde effectivement un regime specifique aux Algeriens (certificat de residence au lieu de titre de sejour, acces facilite au marche du travail). Environ 220 000 premiers titres de sejour concernes par an (estimation). Cependant, l'accord a deja ete modifie trois fois (1985, 1994, 2001) et les conditions se sont progressivement alignees sur le droit commun. L'ecart reel avec le droit commun est aujourd'hui plus limite qu'on ne le pense souvent. La proposition de 'renegociation' (pas de denonciation unilaterale) est diplomatiquement realisable mais depend de la volonte algerienne.",
+          "verdict_global": "Proposition juridiquement faisable mais diplomatiquement incertaine. L'Algerie n'a aucune incitation a renegocier. L'ecart entre le regime derogatoire et le droit commun est plus reduit qu'il y a 50 ans."
+        },
+        "historique": {
+          "score": 0.4,
+          "confidence": 0.6,
+          "justification": "L'accord a deja ete renegocie trois fois avec succes (1985, 1994, 2001). Mais chaque renegociation a ete liee a un contexte bilateral plus large (cooperation economique, visas). Les relations franco-algeriennes traversent des cycles de tension et d'apaisement. En 2024-2025, les relations sont particulierement tendues (affaire des visas, question du Sahara). Renegocier dans ce contexte est plus difficile. Precedent : l'accord franco-tunisien de 1988 a ete adapte progressivement sans polemique. La denonciation unilaterale serait sans precedent pour un accord post-colonial de cette nature.",
+          "delai_realiste_mois": 36,
+          "precedent_principal": "Renegociations precedentes de l'accord (1985, 1994, 2001), Relations franco-algeriennes tendues 2024-2025"
+        }
+      },
+      "feasibility": {
+        "overall": 0.48,
+        "ci_95": [
+          0.32,
+          0.64
+        ],
+        "synthesis": "La renegociation est juridiquement a la main de l'executif mais depend de la volonte algerienne, qui n'a aucune incitation a cooperer. Les renegociations precedentes ont pris des annees. L'ecart entre le regime derogatoire et le droit commun est plus reduit qu'il y a 50 ans, limitant l'impact reel de la mesure."
+      }
+    },
+    {
+      "promise_id": "philippe_009",
+      "raw_text": "Retablir la double peine : possibilite d'expulser un etranger condamne penalement, en plus de sa peine de prison",
+      "theme": "securite",
+      "source_url": "https://www.europe1.fr/politique/immigration-edouard-philippe-brise-les-tabous-de-la-macronie-et-impose-sa-rupture-4187395",
+      "dimensions": {
+        "budget": {
+          "score": 0.75,
+          "confidence": 0.6,
+          "justification": "Impact budgetaire positif marginal : l'expulsion d'un detenu etranger evite le cout de detention (120 EUR/jour/detenu, soit 43 800 EUR/an). Environ 24% des detenus sont de nationalite etrangere (environ 18 000 personnes). Mais l'expulsion n'est possible qu'en fin de peine et tous ne seraient pas concernes (protections CEDH, risque de torture dans le pays d'origine). Cout de l'expulsion elle-meme : 5 000-15 000 EUR par personne (escorte, vol, formalites). Economies nettes limitees.",
+          "cout_estime_eur": 0,
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.35,
+          "confidence": 0.8,
+          "justification": "La 'double peine' a ete supprimee en 2003 (loi Sarkozy du 26 novembre 2003) qui a cree des categories d'etrangers proteges contre l'expulsion (residents de longue duree, parents d'enfants francais, etc.). Le retablissement se heurterait a : (1) Art. 8 CEDH (droit a la vie privee et familiale) — la CEDH a condamne la France a plusieurs reprises sur les expulsions d'etrangers ayant des liens familiaux en France. (2) Art. 3 CEDH (interdiction de la torture) — impossibilite d'expulser vers un pays ou il y a risque de torture. (3) Le CC protege la liberte individuelle (Art. 66 Constitution). (4) Le CC a censure des dispositions de la loi immigration 2024 touchant aux droits des etrangers. (5) Le droit UE (directive retour 2008/115) encadre les procedures d'eloignement.",
+          "vehicule_legislatif": "loi ordinaire modifiant le CESEDA (Code de l'entree et du sejour des etrangers et du droit d'asile)",
+          "risque_censure_cc": "eleve — le CC censurerait probablement une suppression des categories protegees existantes; la CEDH condamnerait des expulsions massives",
+          "conflit_droit_ue": "reel — directive retour, Art. 8 et 3 CEDH, jurisprudence CJUE sur les expulsions"
+        },
+        "social": {
+          "score_acceptabilite": 0.65,
+          "score_impact": 0.3,
+          "confidence": 0.65,
+          "justification": "La mesure est populaire dans les sondages (environ 70% de soutien selon les enquetes recurrentes). Elle repond a un sentiment d'impunite et d'injustice dans une partie de la population. L'opposition viendrait des associations de droits de l'homme (LDH, GISTI, Cimade), du barreau et d'une partie de la magistrature. L'impact reel serait tres limite en raison des protections juridiques (CEDH, CC) qui rendraient la mesure largement inapplicable aux etrangers ayant des liens familiaux en France.",
+          "opposition_sociale": "moderee — forte opposition associative et juridique mais soutien de l'opinion publique"
+        },
+        "factcheck": {
+          "score": 0.5,
+          "confidence": 0.75,
+          "justification": "La 'double peine' n'a jamais totalement disparu : l'interdiction du territoire francais (ITF) existe toujours comme peine complementaire pour les etrangers condamnes (Art. 131-30 du Code penal). Ce qui a change en 2003, c'est la creation de categories protegees (residents depuis plus de 20 ans, parents d'enfants francais, etc.). 'Retablir la double peine' signifie supprimer ces protections. En pratique, environ 3 000 a 5 000 ITF sont prononcees par an, mais un grand nombre ne sont pas executees (taux d'execution des OQTF d'environ 7-10%). Le probleme est davantage l'execution que le droit.",
+          "verdict_global": "La double peine existe partiellement (ITF). Le vrai enjeu est l'execution des mesures d'eloignement, pas leur base legale. La suppression des categories protegees serait probablement censuree par le CC et la CEDH."
+        },
+        "historique": {
+          "score": 0.35,
+          "confidence": 0.75,
+          "justification": "La double peine existait pleinement avant 2003 mais generait des situations humanitaires critiques (expulsion d'etrangers nes en France, ayant toute leur famille en France). La loi Sarkozy 2003 a cree les protections actuelles. La CEDH a condamne la France dans plusieurs affaires (Beldjoudi c. France, 1992 ; Nasri c. France, 1995) pour violation de l'Art. 8. Le durcissement de 2024 (loi immigration) a ete massivement censure par le CC (32 articles). La tendance jurisprudentielle europeenne est au renforcement des protections, pas a leur affaiblissement.",
+          "delai_realiste_mois": 12,
+          "precedent_principal": "Loi Sarkozy 2003 (creation des protections), Loi immigration 2024 (32 articles censures CC), Jurisprudence CEDH sur les expulsions"
+        }
+      },
+      "feasibility": {
+        "overall": 0.38,
+        "ci_95": [
+          0.23,
+          0.53
+        ],
+        "synthesis": "La double peine existe deja partiellement (ITF). Son retablissement integral se heurte frontalement au droit europeen (CEDH Art. 3 et 8) et au controle du CC. L'experience de la loi immigration 2024 (32 articles censures) montre que le CC est vigilant. L'impact reel serait tres limite car le probleme est l'execution (7-10% des OQTF executees) et non le cadre legal."
+      }
+    },
+    {
+      "promise_id": "philippe_010",
+      "raw_text": "Supprimer le juge d'application des peines pour garantir que les peines prononcees soient effectivement executees, et retablir les peines planchers",
+      "theme": "securite",
+      "source_url": "https://www.europe1.fr/politique/justice-peines-planchers-suppression-du-juge-dapplication-des-peines-edouard-philippe-formule-des-propositions-en-meeting-a-marseille-752761",
+      "dimensions": {
+        "budget": {
+          "score": 0.2,
+          "confidence": 0.7,
+          "justification": "La suppression du JAP et les peines planchers entrainent une hausse mecanique de la population carcerale. La France compte 78 000 detenus pour 61 000 places (taux d'occupation de 128%). Le JAP permet d'eviter la surpopulation carcerale par les amenagements de peine. Les peines planchers (2007-2014) avaient augmente la population carcerale de 5 000 a 10 000 personnes. Cout d'une place de prison : 120 EUR/jour/detenu (43 800 EUR/an). 10 000 detenus supplementaires = 438 M EUR/an de couts de fonctionnement + 4-6 Md EUR de construction de nouvelles places (cout moyen : 400 000-600 000 EUR/place). Cette mesure est tres couteuse et incompatible avec le PSMT.",
+          "cout_estime_eur": 5000000000,
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.25,
+          "confidence": 0.8,
+          "justification": "OBSTACLES MAJEURS : (1) Le JAP est le garant de l'individualisation des peines, principe a valeur constitutionnelle (Decision CC 2005-520 DC, 22 juillet 2005 : 'le principe d'individualisation des peines decoule de l'article 8 de la DDHC'). Sa suppression pure et simple serait probablement censuree. (2) Les peines planchers ont ete instaurees en 2007 (loi Dati) et supprimees en 2014 (loi Taubira). Le CC les avait validees en 2007 (Decision 2007-554 DC) mais en posant des reserves (le juge pouvait y deroger par decision motivee). Des peines planchers sans possibilite de derogation seraient inconstitutionnelles. (3) La CEDH exige un recours effectif pour tout condamne (Art. 13). (4) Le Conseil de l'Europe recommande les alternatives a l'incarceration.",
+          "vehicule_legislatif": "loi ordinaire modifiant le Code de procedure penale et le Code penal",
+          "risque_censure_cc": "tres eleve — suppression du JAP censuree quasi-certainement; peines planchers sans derogation censurees",
+          "conflit_droit_ue": "reel — Art. 3 CEDH (traitement inhumain si surpopulation carcerale), Art. 13 CEDH (droit a un recours effectif)"
+        },
+        "social": {
+          "score_acceptabilite": 0.6,
+          "score_impact": 0.4,
+          "confidence": 0.65,
+          "justification": "La mesure est populaire : les Francais sont majoritairement favorables a une justice plus severe. Le sentiment que 'les peines ne sont pas executees' est largement partage. Cependant, les professionnels de la justice (magistrats, avocats, personnels penitentiaires) s'y opposent fortement. Les syndicats de magistrats (USM, SM) et le Conseil national des barreaux contesteraient la suppression du JAP. Les surveillants penitentiaires alertent deja sur la surpopulation carcerale (greves recurrentes). L'OIP (Observatoire international des prisons) et le CGLPL denonceraient la mesure.",
+          "opposition_sociale": "forte — magistrats, avocats, surveillants penitentiaires, associations; soutien de l'opinion publique"
+        },
+        "factcheck": {
+          "score": 0.45,
+          "confidence": 0.75,
+          "justification": "L'affirmation que la suppression du JAP 'garantirait l'execution effective des peines' est trompeuse. Le probleme principal n'est pas le JAP mais le manque de places de prison et les delais d'execution. En 2023, 95 000 peines de prison ferme etaient en attente d'execution selon la DACG. Le JAP n'est qu'un maillon de la chaine. Les peines planchers (2007-2014) n'ont pas reduit la recidive selon les etudes disponibles : le rapport de la commission Ciotti (2011) et les donnees du ministere de la Justice montrent un taux de recidive stable autour de 40%. La Cour des comptes a souligne que la surpopulation carcerale est elle-meme criminogene.",
+          "verdict_global": "Diagnostic errone : le probleme n'est pas le JAP mais le manque de moyens de la justice. Les peines planchers n'ont pas reduit la recidive. La mesure aggraverait la surpopulation carcerale sans ameliorer la securite."
+        },
+        "historique": {
+          "score": 0.35,
+          "confidence": 0.8,
+          "justification": "Precedent direct : peines planchers Dati 2007 — supprimees en 2014 car inefficaces sur la recidive et couteuses en places de prison. Le bilan est documente : hausse de la population carcerale sans baisse de la recidive. Le JAP existe depuis 1958 et a ete renforce par la loi penitentiaire de 2009. Sa suppression serait une regression sans precedent dans le systeme penal francais. Au niveau international, les 'mandatory minimums' americains sont largement critiques : le First Step Act de 2018 (Trump) les a reduits, reconnaissant leur echec.",
+          "delai_realiste_mois": 18,
+          "precedent_principal": "Peines planchers Dati 2007-2014 (inefficaces, supprimees), Mandatory minimums USA (en cours de reduction), Surpopulation carcerale chronique"
+        }
+      },
+      "feasibility": {
+        "overall": 0.28,
+        "ci_95": [
+          0.15,
+          0.41
+        ],
+        "synthesis": "Proposition juridiquement quasi-impossible (principe constitutionnel d'individualisation des peines) et budgetairement tres couteuse (5 Md+ EUR). Les peines planchers ont ete testees (2007-2014) et supprimees car inefficaces sur la recidive. La suppression du JAP serait censuree par le CC. Le diagnostic est errone : le probleme est le manque de moyens, pas le cadre legal."
+      }
+    },
+    {
+      "promise_id": "philippe_011",
+      "raw_text": "Reduire les depenses publiques de trois points de PIB sur cinq ans et baisser la pression fiscale d'un point de PIB, soit 20 milliards d'euros de baisses d'impots sur le mandat",
+      "theme": "economie",
+      "source_url": "https://www.lejdd.fr/Politique/edouard-philippe-le-gardien-de-la-rigueur-budgetaire-3923844",
+      "dimensions": {
+        "budget": {
+          "score": 0.2,
+          "confidence": 0.7,
+          "justification": "Reduire les depenses de 3 points de PIB (environ 87 Md EUR sur la base de 2920 Md) sur 5 ans implique des economies de 17.5 Md EUR/an. Simultanement, baisser la pression fiscale d'1 point de PIB (29 Md EUR) signifie renoncer a 29 Md de recettes. Au total, il faudrait trouver 87 + 29 = 116 Md EUR d'ajustement budgetaire sur 5 ans, soit 23 Md EUR/an. C'est un effort sans precedent : la RGPP de Sarkozy a economise 6 Md EUR nets en 5 ans. Pour comparaison, les depenses publiques totales sont de 1670 Md : 87 Md representent 5.2% du total. Aucun pays de l'OCDE n'a realise un tel ajustement en dehors d'une crise majeure (Grece 2010-2015, mais avec une recession de 25% du PIB). Incompatible avec le PSMT si les recettes baissent plus vite que les depenses.",
+          "cout_estime_eur": -20000000000,
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.6,
+          "confidence": 0.7,
+          "justification": "La reduction des depenses et des impots releve de la loi de finances annuelle (Art. 47) et de la LOLF. Le gouvernement a l'initiative budgetaire (Art. 40 empeche les parlementaires de proposer des depenses). Juridiquement faisable si le gouvernement dispose d'une majorite ou utilise le 49.3. Cependant, certaines depenses sont quasi-incompressibles (dette, pensions, salaires des fonctionnaires = 70% des depenses de l'Etat). La reduction d'un point de PIB de pression fiscale necessite de choisir quels impots baisser : IR, IS, TVA ou cotisations — chacun ayant des implications juridiques et distributives differentes.",
+          "vehicule_legislatif": "lois de finances annuelles (PLF) + lois de programmation des finances publiques",
+          "risque_censure_cc": "faible sur le principe; modere si les coupes portent atteinte aux droits sociaux fondamentaux",
+          "conflit_droit_ue": "coherent avec les objectifs du PSC si le deficit baisse effectivement; risque si les baisses d'impots precedent les economies"
+        },
+        "social": {
+          "score_acceptabilite": 0.3,
+          "score_impact": 0.7,
+          "confidence": 0.65,
+          "justification": "La reduction de 3 points de PIB de depenses publiques toucherait necessairement les services publics visibles : hopitaux, ecoles, transport, collectivites. Les Francais sont favorables a la reduction des depenses en general mais opposes des qu'on touche aux services dont ils beneficient (paradoxe bien documente). Les baisses d'impots seraient populaires mais insuffisantes pour compenser la deterioration des services. Les fonctionnaires (5.7 millions d'agents publics), les collectivites, le secteur hospitalier et les beneficiaires de prestations sociales s'opposeraient vigoureusement.",
+          "opposition_sociale": "tres forte — toucherait l'ensemble des services publics et des prestations sociales; mobilisation multisectorielle previsible"
+        },
+        "factcheck": {
+          "score": 0.3,
+          "confidence": 0.75,
+          "justification": "L'objectif de 3 points de PIB de baisse des depenses en 5 ans est-il realiste ? Les depenses publiques representent 57.1% du PIB en 2024. Baisser a 54.1% impliquerait des coupes sans precedent. Pour comparaison : entre 2010 et 2019 (9 ans d'efforts continus), la depense publique n'a baisse que de 0.5 point de PIB (de 56.4% a 55.6%). La France est le 2e pays de l'OCDE pour la depense publique rapportee au PIB. Aucun gouvernement francais n'a jamais realise une baisse de 3 points en 5 ans. Le Canada (1994-1998) y est parvenu mais dans un contexte tres different (forte croissance, pas de contrainte europeenne, structure de depenses differente). La simultaneite baisse des depenses + baisse des impots est particulierement risquee.",
+          "verdict_global": "Objectif quantifie mais historiquement irealiste. Aucun precedent francais comparable. Les rares succes internationaux (Canada 1994) correspondent a des contextes tres differents."
+        },
+        "historique": {
+          "score": 0.15,
+          "confidence": 0.8,
+          "justification": "Precedent direct : RGPP Sarkozy (2007-2012) — 6 Md EUR nets d'economies en 5 ans, soit 0.3 point de PIB. Un dixieme de l'objectif Philippe. Programme de stabilite Fillon : objectif de 0 depense en volume, non tenu. Hollande : objectif de 50 Md d'economies sur 2015-2017, realisation partielle. Macron : depenses publiques passees de 55.5% a 57.1% du PIB (hausse). Precedent international : Canada 1994-1998 (-6 points de PIB de depenses, mais avec 4% de croissance et devaluation du dollar canadien). Grece 2010-2015 (-20 points de PIB, mais avec une recession cataclysmique). Suede 1994-1998 (-8 points de PIB, mais apres une crise bancaire).",
+          "delai_realiste_mois": 60,
+          "precedent_principal": "RGPP Sarkozy (6 Md nets en 5 ans = 1/10 de l'objectif), Canada 1994-98 (succes mais contexte tres different), Aucun precedent francais comparable"
+        }
+      },
+      "feasibility": {
+        "overall": 0.22,
+        "ci_95": [
+          0.1,
+          0.35
+        ],
+        "synthesis": "Objectif le plus irealiste du programme. Reduire les depenses de 3 points de PIB en 5 ans est sans precedent en France (la RGPP a realise 0.3 point en 5 ans). Baisser simultanement les impots de 29 Md rend l'equation encore plus impossible. L'effort requis (23 Md/an) depasserait toute experience historique francaise. Le risque de degradation des services publics et d'opposition sociale est maximal."
+      }
+    },
+    {
+      "promise_id": "philippe_012",
+      "raw_text": "Faire de l'education la priorite numero un du quinquennat : restructuration profonde du systeme educatif pour renforcer les fondamentaux, ameliorer la qualite de l'enseignement et preparer les jeunes aux defis technologiques et economiques",
+      "theme": "education",
+      "source_url": "https://election-presidentielle-francaise-2027.fr/edouard-philippe-le-programme-pour-2027/",
+      "dimensions": {
+        "budget": {
+          "score": 0.45,
+          "confidence": 0.35,
+          "justification": "Proposition vague sans chiffrage. L'enseignement scolaire est deja le 1er budget de l'Etat (64.5 Md EUR). 'Faire de l'education la priorite' est un engagement rituel de chaque candidat. La 'restructuration profonde' peut signifier une hausse des moyens (recrutement, revalorisation salariale des enseignants) ou une reorganisation a cout constant. La revalorisation des enseignants debutants est estimee a 3-5 Md EUR/an selon l'ampleur. Le numerique educatif couterait 1-2 Md EUR. L'absence de chiffrage rend l'evaluation impossible.",
+          "cout_estime_eur": null,
+          "financement_credible": null,
+          "compatible_psmt": null
+        },
+        "juridique": {
+          "score": 0.7,
+          "confidence": 0.6,
+          "justification": "L'education releve de la loi (Art. 34) et de la competence etatique (13e alinea du Preambule de 1946 : l'Etat garantit un acces egal a l'enseignement). Les reformes educatives peuvent passer par loi ordinaire, decret ou arrete. Le statut des enseignants (fonctionnaires) est regi par la loi et les decrets. Les reformes pedagogiques (programmes, methodes) relevent du decret apres avis du CSE (Conseil superieur de l'education). Pas de barriere juridique majeure pour une reforme de l'education.",
+          "vehicule_legislatif": "loi d'orientation (type loi Jospin 1989, loi Fillon 2005, loi Peillon 2013) + decrets",
+          "risque_censure_cc": "faible",
+          "conflit_droit_ue": "aucun — l'education reste une competence nationale"
+        },
+        "social": {
+          "score_acceptabilite": 0.6,
+          "score_impact": 0.4,
+          "confidence": 0.45,
+          "justification": "L'education est un sujet consensuel dans son principe mais explosif des qu'on touche aux modalites. Les enseignants (860 000 agents) constituent le premier corps de fonctionnaires et sont syndiques. Toute 'restructuration profonde' serait confrontee a la resistance corporatiste. Les parents sont favorables a l'amelioration mais hostiles aux experimentations sur leurs enfants. Le manque de precision de la proposition rend l'evaluation de l'acceptabilite speculative.",
+          "opposition_sociale": "incertaine — depend entierement du contenu; les syndicats enseignants (SNES-FSU, SE-UNSA, SGEN-CFDT) sont des interlocuteurs incontournables"
+        },
+        "factcheck": {
+          "score": 0.55,
+          "confidence": 0.6,
+          "justification": "Chaque President depuis Mitterrand a fait de l'education sa 'priorite'. Resultats : la France est passee de la 15e a la 23e place au classement PISA en mathematiques entre 2003 et 2022. Les moyens par eleve sont dans la moyenne OCDE. Le probleme francais est moins le manque de moyens que l'allocation des ressources (priorite au lycee au detriment du primaire), le statut des enseignants (salaires bas, formation insuffisante) et les inegalites sociales devant l'ecole. La proposition ne precise aucune de ces dimensions.",
+          "verdict_global": "Declaration d'intention classique sans contenu. Chaque president fait de l'education sa 'priorite' sans resultats tangibles depuis 20 ans."
+        },
+        "historique": {
+          "score": 0.4,
+          "confidence": 0.7,
+          "justification": "Precedents nombreux : loi Jospin 1989 (80% d'une classe d'age au bac — atteint mais au prix d'une devaluation du diplome), loi Fillon 2005 (socle commun — partiellement appliquee), loi Peillon 2013 (rythmes scolaires — abandonnes), reforme Blanquer (evaluations nationales, dedoublement CP/CE1 — resultats mitiges selon l'etude DEPP 2023). La constante est que les reformes educatives produisent des effets lents (10-20 ans) et sont souvent annulees par le successeur. L'Education nationale est souvent qualifiee de 'mammouth' pour sa resistance au changement.",
+          "delai_realiste_mois": 60,
+          "precedent_principal": "Loi Jospin 1989, Loi Fillon 2005, Loi Peillon 2013, Reforme Blanquer 2017 — toutes partiellement appliquees"
+        }
+      },
+      "feasibility": {
+        "overall": 0.42,
+        "ci_95": [
+          0.28,
+          0.56
+        ],
+        "synthesis": "Declaration d'intention sans contenu concret. Chaque president fait de l'education sa 'priorite' — les resultats PISA montrent une degradation continue depuis 20 ans. L'absence de chiffrage et de mesures precises rend l'evaluation impossible. La faisabilite depend entierement du contenu qui reste a definir."
+      }
+    },
+    {
+      "promise_id": "philippe_013",
+      "raw_text": "Reformer considerablement et rapidement le systeme de sante par ordonnances, avec creation de pepinieres de medecins generalistes et grands plans de prevention regroupant tous les acteurs de sante",
+      "theme": "sante",
+      "source_url": "https://ep2026.fr/programme/",
+      "dimensions": {
+        "budget": {
+          "score": 0.4,
+          "confidence": 0.45,
+          "justification": "Le systeme de sante represente 265.9 Md EUR (ONDAM). Les 'pepinieres de medecins generalistes' impliqueraient un investissement en formation : former un medecin coute environ 200 000 EUR sur 9-10 ans. Le numerus apertus a ete releve a 12 400 places en 2024 mais l'effet ne se fera sentir qu'en 2033-2035. Les plans de prevention ont un cout initial (campagnes, depistages, formation) mais generent des economies a long terme (la prevention est 3 a 5 fois plus rentable que le curatif selon l'OMS). Le deficit de la branche maladie (-6.2 Md EUR prevus en 2025) limite les marges de manoeuvre. La reforme par ordonnances ne change pas l'equation budgetaire.",
+          "cout_estime_eur": 3000000000,
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.55,
+          "confidence": 0.65,
+          "justification": "La reforme de la sante par ordonnances est juridiquement possible (Art. 38). L'habilitation par referendum (Art. 11) est constitutionnellement controversee mais le CC ne controle pas les lois referendaires. Cependant, les ordonnances touchant a la sante sont sensibles : le droit a la protection de la sante (Preambule 1946 al. 11) est un principe constitutionnel. Les ordonnances de ratification seraient soumises au controle du CC. La liberte d'installation des medecins (liberte d'entreprendre) limite les mesures coercitives contre les deserts medicaux. Le droit UE (directive sur les qualifications professionnelles 2005/36) encadre la formation medicale.",
+          "vehicule_legislatif": "ordonnances (Art. 38) + LFSS pour les aspects financiers",
+          "risque_censure_cc": "modere — attention au droit a la protection de la sante et a la liberte d'installation des medecins",
+          "conflit_droit_ue": "mineur — directive qualifications professionnelles"
+        },
+        "social": {
+          "score_acceptabilite": 0.5,
+          "score_impact": 0.55,
+          "confidence": 0.55,
+          "justification": "La reforme de la sante est souhaitee par la population (deserts medicaux, urgences saturees, delais d'attente). Mais les medecins liberaux sont hostiles a toute mesure contraignante (regulation de l'installation, convention). Les syndicats medicaux (CSMF, MG France, SML) sont des interlocuteurs puissants. Le passage par ordonnances serait percu comme un passage en force. Les infirmiers, pharmaciens et autres professionnels de sante pourraient soutenir une delegation de taches. La creation de 'pepinieres' susciterait l'adhesion si elle s'accompagne de moyens.",
+          "opposition_sociale": "moderee a forte — syndicats medicaux hostiles aux ordonnances; soignants hospitaliers favorables si moyens supplementaires; patients favorables"
+        },
+        "factcheck": {
+          "score": 0.5,
+          "confidence": 0.6,
+          "justification": "Les 'pepinieres de medecins generalistes' n'ont pas de definition precise. Le concept evoque les maisons de sante pluriprofessionnelles (MSP) dont il existe deja 2 300 en France. Le numerus clausus a ete supprime en 2019 (remplace par le numerus apertus) mais les effets ne se verront qu'en 2033+. Les 'grands plans de prevention' sont annonces par chaque gouvernement : le dernier (strategie nationale de sante 2023-2033) est en cours. La France depense 2.2% de ses depenses de sante en prevention, contre 2.8% en moyenne OCDE. La problematique des deserts medicaux (9% de la population sans medecin traitant) est un probleme demographique qui ne se resout pas par ordonnances.",
+          "verdict_global": "Intentions louables mais partiellement deja en cours (MSP, numerus apertus, strategies de prevention). Le passage par ordonnances n'accelere pas la formation de medecins (9-10 ans minimum). Le probleme est structurel et demographique."
+        },
+        "historique": {
+          "score": 0.35,
+          "confidence": 0.7,
+          "justification": "Precedents nombreux et peu concluants : loi HPST 2009 (creation des ARS, parcours de soins coordonnes — bilan mitige), Ma Sante 2022 (transformation du systeme de sante — objectifs partiellement atteints), Segur de la Sante 2020 (8.2 Md EUR de revalorisations salariales — effet temporaire sur l'attractivite). Chaque gouvernement annonce une 'grande reforme de la sante'. Le probleme de fond (numerus clausus trop restrictif pendant 30 ans) a cree un deficit structurel de medecins qui ne se resorbe pas avant 2035-2040. Les ordonnances de la Securite sociale de 1967 sont le seul precedent de reforme majeure par ordonnances : elles ont cree les caisses nationales (CNAM, CNAF, CNAV) qui existent toujours.",
+          "delai_realiste_mois": 120,
+          "precedent_principal": "Loi HPST 2009 (bilan mitige), Ma Sante 2022 (objectifs partiels), Segur 2020 (revalorisations temporaires), Ordonnances Securite sociale 1967 (seul precedent de reforme systemique par ordonnances)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.38,
+        "ci_95": [
+          0.24,
+          0.52
+        ],
+        "synthesis": "Les problemes du systeme de sante sont reels mais structurels (deficit demographique de medecins cree par 30 ans de numerus clausus trop restrictif). Les ordonnances n'accelerent pas la formation de medecins. Les MSP et les plans de prevention existent deja. L'ambition est louable mais l'ecart entre l'annonce ('reformer considerablement et rapidement') et la realite (effets en 2035+) est considerable."
+      }
+    },
+    {
+      "promise_id": "philippe_014",
+      "raw_text": "Reduire le nombre de fonctionnaires d'Etat en ne remplacant qu'un depart a la retraite sur deux dans les ministeres, et supprimer 50 000 postes dans la fonction publique d'Etat",
+      "theme": "economie",
+      "source_url": "https://www.lejdd.fr/Politique/exclu-jdd-edouard-philippe-devoile-deux-mesures-chocs-pour-la-rentree-3740225",
+      "dimensions": {
+        "budget": {
+          "score": 0.45,
+          "confidence": 0.7,
+          "justification": "50 000 postes sur 2 millions d'ETPT dans la FPE representent une reduction de 2.5%. Le cout moyen d'un agent public (salaire + charges) est d'environ 40 000-55 000 EUR/an. L'economie brute serait de 2-2.75 Md EUR/an a terme. La RGPP avait supprime 150 000 postes pour 6 Md EUR nets d'economies — mais 50% avaient ete restitues aux agents (primes, revalorisation). L'economie nette de 50 000 suppressions serait d'environ 1-1.5 Md EUR/an apres restitution aux agents restants. C'est une economies reelle mais insuffisante au regard de l'objectif de 3 points de PIB. Les departs a la retraite dans la FPE sont d'environ 50 000-60 000/an : ne pas remplacer un sur deux permettrait d'atteindre l'objectif en 2 ans.",
+          "cout_estime_eur": -1500000000,
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.7,
+          "confidence": 0.75,
+          "justification": "La gestion des effectifs de la fonction publique releve du pouvoir executif et de la loi de finances (plafonds d'emplois votes chaque annee). Pas de barriere juridique a la non-replacement : le gouvernement fixe les schemas d'emplois. Les fonctionnaires en poste ne peuvent pas etre licencies (garantie statutaire). La reduction ne peut se faire que par non-remplacement des departs (retraite, demission, mobilite). Le CC ne censurerait pas cette mesure qui releve de l'opportunite politique. Attention cependant aux missions de service public obligatoires (enseignement, securite, justice) ou la baisse des effectifs pourrait creer un manquement aux obligations constitutionnelles.",
+          "vehicule_legislatif": "loi de finances annuelle (plafonds d'emplois par ministere)",
+          "risque_censure_cc": "faible — competence de l'executif et du legislateur budgetaire",
+          "conflit_droit_ue": "aucun"
+        },
+        "social": {
+          "score_acceptabilite": 0.4,
+          "score_impact": 0.45,
+          "confidence": 0.65,
+          "justification": "La reduction du nombre de fonctionnaires est un marqueur politique a droite. L'opinion publique est partagee : favorable dans le principe (perception de 'trop de fonctionnaires') mais hostile aux consequences concretes (fermeture de guichets, classes surchargees, hopitaux sous-dotes). Les syndicats de la fonction publique (CGT, FO, FSU, CFDT) s'opposeraient vigoureusement. La RGPP a laisse un souvenir negatif aupres des agents publics. L'acceptabilite depend des ministeres touches : defense et securite sont generalement proteges, c'est l'education et l'administration generale qui paient.",
+          "opposition_sociale": "forte — syndicats fonction publique; risque de deterioration des services publics perceptible par les usagers"
+        },
+        "factcheck": {
+          "score": 0.6,
+          "confidence": 0.75,
+          "justification": "La France compte 2 008 200 ETPT dans la FPE et 402 500 chez les operateurs (2025). 50 000 postes represente 2.5%, un objectif modeste compare a la RGPP (-150 000). Le non-remplacement d'un depart sur deux est la methode classique. Les departs a la retraite dans la FPE sont d'environ 50 000-60 000/an, donc l'objectif serait atteint en 2 ans. Cependant, Macron avait promis 120 000 suppressions en 2017 : il a augmente les effectifs de 30 000. L'ecart entre promesse et realisation est chronique dans ce domaine. La Cour des comptes a juge le bilan de la RGPP 'contraste' : les suppressions ont ete 'brutales' et sans ciblage.",
+          "verdict_global": "Objectif chiffre et methodologiquement realiste, mais l'ecart historique entre promesses et realisations est systematique. Macron avait promis -120 000 et fait +30 000. L'economie nette serait limitee (1-1.5 Md/an)."
+        },
+        "historique": {
+          "score": 0.45,
+          "confidence": 0.8,
+          "justification": "Precedent direct : RGPP Sarkozy (2007-2012) — 150 000 postes supprimes, 6 Md EUR nets d'economies, bilan juge 'contraste' par la Cour des comptes. Methode du non-remplacement jugee 'brutale' car ne tenant pas compte des besoins differencies des services. Promesse Macron 2017 : -120 000 fonctionnaires — non tenue, effectifs en hausse de 30 000. Promesse Hollande : stabilite des effectifs — non tenue (hausse de 90 000 dans l'education). Tendance longue : les effectifs de la fonction publique augmentent structurellement depuis 40 ans malgre les engagements de reduction.",
+          "delai_realiste_mois": 30,
+          "precedent_principal": "RGPP Sarkozy (-150 000 postes, bilan 'contraste'), Promesse Macron -120 000 (non tenue), Tendance structurelle a la hausse des effectifs"
+        }
+      },
+      "feasibility": {
+        "overall": 0.42,
+        "ci_95": [
+          0.3,
+          0.55
+        ],
+        "synthesis": "Objectif chiffre modeste (-2.5% de la FPE) et methodologiquement clair (non-remplacement). La faisabilite technique est reelle mais l'ecart historique entre promesses et realisations est systematique (-120 000 promis par Macron, +30 000 realises). L'economie nette serait limitee (1-1.5 Md/an). Le risque de deterioration des services publics est reel, surtout dans l'education et la sante."
+      }
+    },
+    {
+      "promise_id": "philippe_015",
+      "raw_text": "Renforcer la defense europeenne avec un engagement operationnel accru des Etats membres, en complementarite avec l'OTAN, et developper l'autonomie strategique europeenne",
+      "theme": "international",
+      "source_url": "https://www.opex360.com/2018/02/17/edouard-philippe-leurope-ne-sinteresse-a-guerre-guerre-ne-manquera-de-sinteresser-a-leurope/",
+      "dimensions": {
+        "budget": {
+          "score": 0.5,
+          "confidence": 0.4,
+          "justification": "La France consacre 50.5 Md EUR a la defense (LPM 2024-2030 prevoit 413 Md sur la periode). La defense europeenne necessite des investissements massifs : la Commission europeenne a propose un plan de 800 Md EUR sur 10 ans (ReArm Europe). La contribution francaise serait de l'ordre de 100-150 Md EUR supplementaires sur 10 ans si la France veut atteindre 3% du PIB de budget defense (contre 1.9% actuellement). La proposition est vague et ne chiffre pas l'effort. L'impact budgetaire depend des engagements pris au niveau europeen.",
+          "cout_estime_eur": null,
+          "financement_credible": null,
+          "compatible_psmt": null
+        },
+        "juridique": {
+          "score": 0.65,
+          "confidence": 0.55,
+          "justification": "La politique de defense releve du President (Art. 5 et 15 de la Constitution : chef des armees). La cooperation europeenne en matiere de defense peut se faire par accords intergouvernementaux ou dans le cadre de la PESCO (Cooperation structuree permanente). Pas de transfert de souverainete en matiere de defense sans revision constitutionnelle (Art. 88-1). La complementarite avec l'OTAN est deja la doctrine francaise depuis le retour dans le commandement integre (2009). La LPM est votee par le Parlement.",
+          "vehicule_legislatif": "loi de programmation militaire (LPM) + accords intergouvernementaux europeens",
+          "risque_censure_cc": "faible — competence de l'executif",
+          "conflit_droit_ue": "aucun — la PSDC est intergouvernementale"
+        },
+        "social": {
+          "score_acceptabilite": 0.65,
+          "score_impact": 0.3,
+          "confidence": 0.5,
+          "justification": "Le contexte geopolitique (guerre en Ukraine, tensions avec la Russie) rend le renforcement de la defense europeenne populaire. Les sondages montrent un soutien croissant a la defense europeenne. L'opposition viendrait de la gauche de la gauche (LFI) et des souverainistes (RN) mais pour des raisons opposees. L'impact concret pour les citoyens est faible a court terme. La proposition est suffisamment vague pour ne pas susciter de conflit.",
+          "opposition_sociale": "faible — consensus relatif dans le contexte geopolitique actuel"
+        },
+        "factcheck": {
+          "score": 0.6,
+          "confidence": 0.55,
+          "justification": "L''autonomie strategique europeenne' est un concept debattu depuis les annees 2010. La France est le seul pays de l'UE disposant de l'arme nucleaire (post-Brexit). La PESCO (2017) regroupe 47 projets mais aucun n'a abouti a une capacite operationnelle majeure. Le budget de la defense europeenne (Fonds europeen de defense) est de 8 Md EUR pour 2021-2027, derisoire. La proposition est coherente avec la politique francaise depuis de Gaulle mais l'absence de chiffrage et de mesures concretes la rend purement declaratoire.",
+          "verdict_global": "Continuite de la politique de defense francaise depuis 60 ans. Proposition vague sans chiffrage ni mesures nouvelles. La faisabilite depend de la volonte des 26 autres Etats membres."
+        },
+        "historique": {
+          "score": 0.5,
+          "confidence": 0.6,
+          "justification": "L'autonomie strategique europeenne est un projet recurrent depuis la creation de la PESD en 1999. La France a pousse l'initiative de la Boussole strategique (2022). La PESCO (2017) reste sous-exploitee. Le retrait americain potentiel (Trump 2025) pourrait etre un catalyseur. Precedent : les cooperations bilaterales fonctionnent (traite Lancaster House avec le Royaume-Uni, brigade franco-allemande) mais les initiatives multilaterales europeennes sont lentes. Le plan ReArm Europe (2025) de la Commission pourrait changer la donne.",
+          "delai_realiste_mois": 60,
+          "precedent_principal": "PESD/PSDC (depuis 1999, resultats limites), PESCO 2017 (47 projets, aucune capacite operationnelle majeure), ReArm Europe 2025 (800 Md EUR proposes)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.45,
+        "ci_95": [
+          0.3,
+          0.6
+        ],
+        "synthesis": "Continuite de la politique francaise depuis 60 ans. La proposition est trop vague pour etre evaluee precisement. La faisabilite depend des 26 autres Etats membres et du contexte geopolitique. Le cadre institutionnel europeen (PSDC, PESCO) est sous-exploite. Le contexte post-Ukraine pourrait accelerer les choses mais les precedents montrent une lenteur structurelle."
+      }
+    },
+    {
+      "promise_id": "philippe_016",
+      "raw_text": "Poursuivre la relance du nucleaire civil avec la construction des EPR2 et faire du nucleaire le pilier de la transition energetique et de la neutralite carbone a 2050",
+      "theme": "environnement",
+      "source_url": "https://www.contexte.com/fr/article/pouvoirs/christophe-bechu-atout-maitre-dedouard-philippe-sur-la-transition-ecologique_182636",
+      "dimensions": {
+        "budget": {
+          "score": 0.35,
+          "confidence": 0.6,
+          "justification": "Le cout du programme EPR2 est estime a 52 Md EUR pour 6 reacteurs (decision Macron 2022, confirmation 2024). Le cout de l'EPR de Flamanville (1 reacteur) a atteint 13.2 Md EUR (contre 3.3 Md prevus initialement). Le risque de derapage est donc majeur. EDF, detenteur du programme, a une dette de 65 Md EUR (2024). Le financement necessiterait des garanties de l'Etat et potentiellement un emprunt europeen. La depense serait etalee sur 15-20 ans. L'impact sur le PSMT depend du traitement comptable (investissement vs depense courante). L'UE a classe le nucleaire comme energie de transition (taxonomie verte 2022), ce qui facilite le financement.",
+          "cout_estime_eur": 52000000000,
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.7,
+          "confidence": 0.7,
+          "justification": "La loi d'acceleration du nucleaire (22 juin 2023) a deja simplifie les procedures pour les nouvelles constructions. La loi de programmation energie (en cours) fixe les objectifs. La construction de centrales necessite des autorisations ASN (Autorite de surete nucleaire) mais le cadre legal est en place. La taxonomie verte europeenne (2022) reconnait le nucleaire comme energie de transition. Pas d'obstacle juridique majeur — la France a deja un cadre reglementaire nucleaire mature.",
+          "vehicule_legislatif": "loi d'acceleration nucleaire 2023 (deja adoptee) + autorisations ASN + loi de programmation energie",
+          "risque_censure_cc": "faible — le CC a valide la loi d'acceleration nucleaire",
+          "conflit_droit_ue": "aucun — taxonomie verte inclut le nucleaire; directive surete nucleaire 2014/87 applicable"
+        },
+        "social": {
+          "score_acceptabilite": 0.6,
+          "score_impact": 0.6,
+          "confidence": 0.65,
+          "justification": "Le soutien au nucleaire a atteint des niveaux historiques en France : 55-60% de favorables en 2024 (contre 35-40% en 2011 post-Fukushima). Le contexte de crise energetique et climatique a rehabilite le nucleaire. L'opposition (Greenpeace, associations anti-nucleaires, EELV) est minoritaire mais determinee. Les populations locales proches des sites sont plus hostiles. L'impact sur l'emploi est positif (filiere nucleaire = 220 000 emplois directs et indirects). La neutralite carbone est un objectif largement soutenu.",
+          "opposition_sociale": "moderee — opposition ecologiste minoritaire; soutien majoritaire de l'opinion et de la filiere industrielle"
+        },
+        "factcheck": {
+          "score": 0.65,
+          "confidence": 0.7,
+          "justification": "La relance nucleaire est deja lancee par Macron (fevrier 2022 : annonce de 6 EPR2 + etude de 8 supplementaires). Philippe proposerait donc de continuer un programme existant. Le nucleaire represente 70% de la production electrique francaise (2023) et est effectivement bas carbone (12 gCO2/kWh). L'objectif de neutralite carbone 2050 est coherent avec un mix nucleaire dominant. Cependant, le premier EPR2 ne sera pas en service avant 2035-2038 au mieux. Les derapages de l'EPR Flamanville (+300% de cout, +12 ans de retard) invitent a la prudence sur les estimations.",
+          "verdict_global": "Continuite d'un programme deja lance. Le nucleaire est effectivement le pilier le plus credible pour la neutralite carbone en France. Le risque principal est le derapage des couts (precedent Flamanville)."
+        },
+        "historique": {
+          "score": 0.55,
+          "confidence": 0.75,
+          "justification": "Le programme nucleaire francais (1974-2000) est un succes industriel : 56 reacteurs construits en 25 ans, 70% de l'electricite. Mais la construction de l'EPR Flamanville (2007-2024) a ete un echec industriel : +300% de cout, +12 ans de retard. La filiere a perdu des competences pendant l'arret de construction (2000-2022). Le plan EPR2 (2022) beneficie des lecons de Flamanville et d'un design simplifie, mais le risque de derapage reste eleve. Precedent finlandais : EPR Olkiluoto 3, +400% de cout et 14 ans de retard.",
+          "delai_realiste_mois": 180,
+          "precedent_principal": "Programme nucleaire francais 1974-2000 (succes), EPR Flamanville (echec industriel : +300% cout, +12 ans retard), Annonce Macron 2022 (6 EPR2 en cours de planification)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.52,
+        "ci_95": [
+          0.38,
+          0.66
+        ],
+        "synthesis": "Continuite d'un programme deja lance sous Macron. Le cadre legal est en place. Le nucleaire est le pilier le plus credible pour la neutralite carbone en France. Le risque principal est le derapage des couts (precedent Flamanville +300%). La proposition est credible sur le fond mais les delais (premier EPR2 en 2035-2038) depassent le quinquennat."
+      }
+    },
+    {
+      "promise_id": "philippe_017",
+      "raw_text": "Simplifier les normes de construction et diviser par deux les delais d'obtention des permis de construire, de 12 a 6 mois en moyenne, pour accelerer la production de logements",
+      "theme": "logement",
+      "source_url": "https://www.cartoimmo.com/actualites/decryptage-mesures-logement-edouard-philippe",
+      "dimensions": {
+        "budget": {
+          "score": 0.75,
+          "confidence": 0.65,
+          "justification": "La simplification des normes est une mesure a cout budgetaire faible (reorganisation administrative, adaptation des systemes d'information). L'acceleration de la production de logements generererait des recettes fiscales supplementaires (TVA sur la construction, DMTO). Le secteur du BTP represente 5% du PIB. Chaque logement construit genere environ 15 000-20 000 EUR de recettes fiscales. Une acceleration de la production de 50 000 logements/an genererait 0.75-1 Md EUR de recettes. Compatible avec le PSMT car la mesure est structurelle et non budgetaire.",
+          "cout_estime_eur": 200000000,
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.55,
+          "confidence": 0.65,
+          "justification": "Les delais de permis de construire sont fixes par le Code de l'urbanisme (R423-23 : 2 mois pour les maisons individuelles, 3 mois pour les autres constructions). Le delai reel moyen de 12 mois inclut les recours, les demandes de pieces complementaires et le temps d'instruction. La simplification des normes (RT 2020, accessibilite, securite incendie) necessite de modifier de multiples textes reglementaires. Chaque norme a des defenseurs institutionnels. Le droit au recours des tiers (voisins) est protege par le CC. Le delai de 6 mois est un objectif ambitieux qui necesiterait de reformer profondement le contentieux de l'urbanisme.",
+          "vehicule_legislatif": "loi ordinaire (type loi ELAN 2018) + decrets modifiant le Code de l'urbanisme",
+          "risque_censure_cc": "modere — attention au droit au recours et au principe de precaution (Charte de l'environnement)",
+          "conflit_droit_ue": "mineur — normes environnementales europeennes (evaluation environnementale, Natura 2000)"
+        },
+        "social": {
+          "score_acceptabilite": 0.6,
+          "score_impact": 0.55,
+          "confidence": 0.6,
+          "justification": "La crise du logement est un sujet consensuel : 4.2 millions de mal-loges selon la Fondation Abbe Pierre. L'acceleration de la construction est souhaitee par les promoteurs, les constructeurs et les menages. Cependant, la simplification des normes est combattue par les associations environnementales (artificialisation des sols, ZAN), les associations de personnes handicapees (normes accessibilite) et les associations de protection du patrimoine. Le NIMBY (Not In My BackYard) est un phenomene puissant en France.",
+          "opposition_sociale": "moderee — soutien des professionnels du BTP et des mal-loges; opposition des ecologistes, des defenseurs du patrimoine et des riverains"
+        },
+        "factcheck": {
+          "score": 0.55,
+          "confidence": 0.65,
+          "justification": "Le delai moyen de 12 mois pour un permis de construire est une estimation. Le delai legal est de 2-3 mois, mais en pratique, les demandes de pieces complementaires, les consultations (ABF, commission de securite, etude d'impact) et les recours allongent le processus. Diviser par deux le delai reel impliquerait de limiter le droit au recours et de reduire les consultations obligatoires, ce qui est juridiquement sensible. La loi ELAN (2018) a deja simplifie certaines procedures (reduction des recours abusifs) avec un effet mesurable mais insuffisant. Le probleme est aussi structurel : manque de personnel dans les services instructeurs des collectivites.",
+          "verdict_global": "Objectif louable et chiffre mais les obstacles sont structurels (manque de personnel, normes multiples, droit au recours). La loi ELAN 2018 a deja tente cette simplification avec des resultats modestes."
+        },
+        "historique": {
+          "score": 0.45,
+          "confidence": 0.7,
+          "justification": "Precedents nombreux : loi ELAN 2018 (simplification urbanisme — resultats modestes), ordonnances Duflot 2013 (acceleration contentieux — peu d'effet), choc de simplification Valls 2014 (logement — impact mesure nul). Chaque gouvernement promet de simplifier la construction. Les 'chocs de simplification' sont recurrents depuis 30 ans. La production de logements neufs est en chute libre : 290 000 mises en chantier en 2024 contre 350 000 en 2022 et 450 000 en 2017. Les causes sont multiples : hausse des taux, couts de construction, normes, rarete du foncier.",
+          "delai_realiste_mois": 36,
+          "precedent_principal": "Loi ELAN 2018 (simplification modeste), Choc de simplification Valls 2014 (impact nul), Chute de la construction 2022-2024 malgre les simplifications precedentes"
+        }
+      },
+      "feasibility": {
+        "overall": 0.48,
+        "ci_95": [
+          0.35,
+          0.62
+        ],
+        "synthesis": "Objectif souhaitable et peu couteux budgetairement. Mais chaque gouvernement depuis 30 ans promet de simplifier les permis de construire sans y parvenir. La loi ELAN 2018 a eu des resultats modestes. Les obstacles sont structurels (normes multiples, droit au recours, personnel insuffisant). L'objectif de 6 mois est ambitieux mais les precedents invitent au scepticisme."
+      }
+    },
+    {
+      "promise_id": "philippe_018",
+      "raw_text": "Donner plus de pouvoirs aux maires en matiere de securite du quotidien, avec incarceration immediate des la premiere infraction",
+      "theme": "securite",
+      "source_url": "https://www.europe1.fr/politique/justice-peines-planchers-suppression-du-juge-dapplication-des-peines-edouard-philippe-formule-des-propositions-en-meeting-a-marseille-752761",
+      "dimensions": {
+        "budget": {
+          "score": 0.25,
+          "confidence": 0.6,
+          "justification": "L'incarceration immediate des la premiere infraction augmenterait massivement la population carcerale. En 2023, environ 600 000 condamnations penales ont ete prononcees (source : ministere de la Justice). Meme si seule une fraction implique de l'incarceration, l'automaticite creerait un afflux considerable. Comme pour philippe_010, le cout d'une place de prison est de 43 800 EUR/an. L'estimation est difficile mais 30 000-50 000 detenus supplementaires couteraient 1.3-2.2 Md EUR/an en fonctionnement et 12-20 Md EUR en construction de nouvelles places. Cout total estime : 15-25 Md EUR sur un quinquennat. Totalement incompatible avec le PSMT.",
+          "cout_estime_eur": 15000000000,
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.15,
+          "confidence": 0.85,
+          "justification": "OBSTACLES CONSTITUTIONNELS MAJEURS : (1) L'incarceration immediate des la premiere infraction viole le principe d'individualisation des peines (Art. 8 DDHC, confirme par Decision CC 2005-520 DC). (2) La presomption d'innocence (Art. 9 DDHC) interdit l'incarceration avant jugement definitif hors detention provisoire encadree. (3) Le pouvoir de priver de liberte appartient a l'autorite judiciaire (Art. 66 Constitution), pas aux maires. (4) Donner des 'pouvoirs de securite' aux maires se heurte au monopole etatique de la contrainte (police judiciaire). Le CC censurerait quasi-certainement cette mesure. La CEDH (Art. 5 et 6) serait egalement violee.",
+          "vehicule_legislatif": "impossible en l'etat — necesserait une revision constitutionnelle profonde",
+          "risque_censure_cc": "quasi-certain — violations multiples : individualisation des peines, presomption d'innocence, Art. 66",
+          "conflit_droit_ue": "reel — Art. 5 CEDH (droit a la liberte), Art. 6 CEDH (proces equitable)"
+        },
+        "social": {
+          "score_acceptabilite": 0.55,
+          "score_impact": 0.3,
+          "confidence": 0.6,
+          "justification": "La proposition est populaire aupres d'une partie de l'electorat fatiguee par le sentiment d'insecurite. Les maires reclament regulierement plus de pouvoirs en matiere de securite. Cependant, l'incarceration immediate serait un changement de paradigme : les associations de magistrats, d'avocats et de droits de l'homme s'y opposeraient massivement. L'Association des maires de France (AMF) elle-meme est divisee sur le sujet : les maires veulent des moyens (police municipale, videoprotection) mais pas la responsabilite penale directe.",
+          "opposition_sociale": "forte — magistrats, avocats, associations de droits de l'homme; soutien partiel de l'opinion publique"
+        },
+        "factcheck": {
+          "score": 0.25,
+          "confidence": 0.8,
+          "justification": "L''incarceration immediate des la premiere infraction' est juridiquement impossible dans un Etat de droit. En France, seul un juge peut decider d'une incarceration (Art. 66 Constitution). Meme la comparution immediate (ex-flagrant delit) passe par un juge. La detention provisoire est encadree par le Code de procedure penale et ne peut etre decidee que par un juge des libertes et de la detention (JLD). La proposition confond pouvoir de police administrative (qui appartient au maire) et pouvoir de police judiciaire (qui appartient au parquet et aux forces de l'ordre). C'est une proposition de campagne qui ne resiste pas a l'analyse juridique.",
+          "verdict_global": "Proposition juridiquement impossible en l'etat. Confusion entre police administrative et police judiciaire. L'incarceration automatique viole la Constitution, la DDHC et la CEDH."
+        },
+        "historique": {
+          "score": 0.2,
+          "confidence": 0.8,
+          "justification": "Aucun precedent d'incarceration automatique des la premiere infraction dans un Etat de droit occidental. Les peines planchers (2007-2014) prevoyaient des minima mais pas d'automaticite (le juge pouvait deroger). Aux USA, les 'three strikes laws' (3e delit = prison automatique) ont ete massively critiquees et assouplies dans la plupart des Etats. Le renforcement des pouvoirs des maires a ete tente par la loi du 25 mai 2021 (polices municipales) avec des resultats modestes. La tendance juridique internationale est a la reduction de l'incarceration (regle de Bangkok, Regles Mandela des Nations Unies).",
+          "delai_realiste_mois": null,
+          "precedent_principal": "Three strikes laws USA (critiquees et assouplies), Peines planchers Dati 2007 (supprimees 2014), Loi polices municipales 2021 (resultats modestes)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.18,
+        "ci_95": [
+          0.08,
+          0.28
+        ],
+        "synthesis": "Proposition la plus problematique du programme sur le plan juridique. L'incarceration immediate viole plusieurs principes constitutionnels fondamentaux (individualisation des peines, presomption d'innocence, Art. 66). Aucun precedent dans un Etat de droit. Le cout serait colossal (15-25 Md EUR). Le CC censurerait cette mesure de maniere quasi-certaine."
+      }
+    },
+    {
+      "promise_id": "philippe_019",
+      "raw_text": "Lancer un choc de simplification administrative : chaque administration devra presenter un plan de simplification des normes et procedures existantes avec quantification des impacts attendus",
+      "theme": "institutions",
+      "source_url": "https://www.lagazettedescommunes.com/529486/cap-2022-edouard-philippe-lance-la-grande-reforme-de-laction-publique/",
+      "dimensions": {
+        "budget": {
+          "score": 0.7,
+          "confidence": 0.5,
+          "justification": "La simplification administrative peut generer des economies indirectes significatives. Le cout de la complexite administrative est estime a 60-80 Md EUR/an pour les entreprises francaises (estimation OCDE). Une reduction de 10% representerait 6-8 Md EUR de gains pour l'economie. Le cout direct du programme est faible (consultants, outils numeriques, reorganisation interne). Le 'choc de simplification' est un label politique peu couteux. Compatible avec le PSMT car il s'agit de gains d'efficience.",
+          "cout_estime_eur": 500000000,
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.75,
+          "confidence": 0.7,
+          "justification": "La simplification administrative releve du pouvoir reglementaire (decrets, circulaires) pour l'essentiel. Certaines normes sont d'origine legislative et necessiteraient une loi de simplification (les 'lois de simplification du droit' sont un exercice legislatif recurrent). Le CIMAP (Comite interministeriel pour la modernisation de l'action publique) existe deja. La methode (chaque administration presente un plan) est une instruction gouvernementale qui ne necessite aucun vehicule legislatif. Pas de barriere juridique significative.",
+          "vehicule_legislatif": "circulaire du Premier ministre + loi de simplification pour les normes legislatives",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "aucun"
+        },
+        "social": {
+          "score_acceptabilite": 0.75,
+          "score_impact": 0.4,
+          "confidence": 0.55,
+          "justification": "La simplification administrative est un sujet consensuel. Les citoyens et les entreprises sont favorables. Les agents publics sont ambivalents : favorables quand la simplification reduit leur charge, hostiles quand elle menace leurs missions. L'opposition est institutionnelle : chaque norme a un defenseur (administration, lobbies, groupes d'interet). La methode de quantification des impacts est une bonne pratique mais chronophage.",
+          "opposition_sociale": "faible — soutien large; resistance institutionnelle interne des administrations"
+        },
+        "factcheck": {
+          "score": 0.5,
+          "confidence": 0.7,
+          "justification": "Les 'chocs de simplification' sont un marronnier politique. Recensement non-exhaustif : Valls 2014 ('choc de simplification'), Darmanin 2018 ('droit a l'erreur', loi ESSOC), Philippe lui-meme en 2017-2019 ('Cap 2022', devenu 'Action publique 2022'). Le bilan de ces initiatives est systematiquement decevant : la creation de nouvelles normes excede la suppression des anciennes. La France produit environ 80 000 pages de normes nouvelles par an. Le SGMAP puis la DINUM n'ont pas reussi a inverser la tendance. La proposition a le merite de demander une quantification, mais aucun mecanisme contraignant n'est prevu.",
+          "verdict_global": "Proposition recurrente sous chaque gouvernement depuis 20 ans, avec des resultats systematiquement decevants. Philippe lui-meme a lance 'Cap 2022' en tant que Premier ministre sans resultats transformateurs."
+        },
+        "historique": {
+          "score": 0.35,
+          "confidence": 0.75,
+          "justification": "Precedent direct : Philippe lui-meme a lance 'Cap 2022' en tant que Premier ministre (2017-2020), programme de modernisation de l'action publique. Le Comite Action publique 2022 a rendu un rapport avec 22 recommandations, dont tres peu ont ete mises en oeuvre. Precedents anterieurs : RGPP Sarkozy (2007), MAP Hollande (2012), choc de simplification Valls (2014), loi ESSOC Darmanin (2018). La tendance lourde est a la proliferation normative malgre les annonces de simplification. Le stock de normes croit d'environ 4% par an depuis 20 ans.",
+          "delai_realiste_mois": 24,
+          "precedent_principal": "Cap 2022 (Philippe PM, resultats limites), RGPP (Sarkozy, bilan 'contraste'), Choc de simplification (Valls, impact marginal), Loi ESSOC (2018, droit a l'erreur)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.42,
+        "ci_95": [
+          0.3,
+          0.55
+        ],
+        "synthesis": "Proposition recurrente et consensuelle mais dont les precedents sont systematiquement decevants. Philippe lui-meme a lance 'Cap 2022' en tant que Premier ministre sans resultats transformateurs. La quantification des impacts est une bonne idee mais sans mecanisme contraignant, la proliferation normative continuera. Le stock de normes croit de 4%/an malgre les annonces de simplification repetees."
+      }
+    },
+    {
+      "promise_id": "philippe_020",
+      "raw_text": "Faire de la souverainete industrielle europeenne une priorite, en construisant des geants industriels europeens notamment dans les batteries electriques et les secteurs strategiques",
+      "theme": "international",
+      "source_url": "https://www.opex360.com/2018/02/17/edouard-philippe-leurope-ne-sinteresse-a-guerre-guerre-ne-manquera-de-sinteresser-a-leurope/",
+      "dimensions": {
+        "budget": {
+          "score": 0.45,
+          "confidence": 0.4,
+          "justification": "La construction de 'geants industriels europeens' necessite des investissements massifs. Le plan batteries de l'UE (European Battery Alliance) est dote d'environ 20 Md EUR (public + prive). L'IPCEI (Important Projects of Common European Interest) sur les batteries represente 6 Md EUR de subventions publiques europeennes. La France a investi environ 1.5 Md EUR dans des gigafactories (ACC, Verkor, Envision AESC). Le cout total pour la France depasse 5 Md EUR d'aides publiques sur le quinquennat. La proposition est vague et non chiffree. La faisabilite budgetaire depend de la repartition des charges entre Etats membres et secteur prive.",
+          "cout_estime_eur": 5000000000,
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.55,
+          "confidence": 0.55,
+          "justification": "La politique industrielle europeenne releve du Conseil europeen et de la Commission (Art. 173 TFUE). La France ne peut pas seule decider de creer des 'geants industriels europeens' — il faut un consensus europeen. Les IPCEI permettent des aides d'Etat derogatoires mais la procedure est longue (2-3 ans). Le droit de la concurrence UE (Art. 101-102 TFUE) interdit les fusions creant des positions dominantes. La tentative de fusion Siemens-Alstom (2019) a ete bloquee par la Commission pour raison de concurrence. La reforme du droit de la concurrence europeen est un debat ouvert mais pas abouti.",
+          "vehicule_legislatif": "negociation europenne (Conseil, Commission) + IPCEI + politique industrielle nationale",
+          "risque_censure_cc": "non applicable — competence europeenne",
+          "conflit_droit_ue": "paradoxe — la proposition vise a changer les regles UE qui sont elles-memes l'obstacle (droit de la concurrence)"
+        },
+        "social": {
+          "score_acceptabilite": 0.65,
+          "score_impact": 0.35,
+          "confidence": 0.45,
+          "justification": "La souverainete industrielle est un concept populaire, particulierement depuis la crise Covid (penurie de masques, dependance pharmaceutique). Les syndicats soutiennent la reindustrialisation. L'opinion publique est favorable. L'impact concret pour les citoyens est indirect et a long terme. La proposition est suffisamment vague pour ne pas susciter d'opposition frontale.",
+          "opposition_sociale": "faible — consensus relatif sur le principe de souverainete industrielle"
+        },
+        "factcheck": {
+          "score": 0.5,
+          "confidence": 0.55,
+          "justification": "La 'souverainete industrielle europeenne' est un concept politique plus qu'economique. L'UE est le 2e exportateur mondial mais depend de la Chine pour les batteries (70% de la production mondiale), les terres rares (90%) et les semi-conducteurs (Taiwan/Coree). L'European Battery Alliance a ete lancee en 2017 mais la part de marche europeenne des batteries reste inferieure a 10% (2024). Les gigafactories europeennes (Northvolt, ACC) rencontrent des difficultes industrielles. Northvolt est en faillite (novembre 2024). La concurrence chinoise (BYD, CATL) est massive. Le concept de 'geants industriels' se heurte au droit de la concurrence (blocage Siemens-Alstom 2019).",
+          "verdict_global": "Intention politique coherente mais dont la realisation depend de l'UE et du marche mondial. Les precedents (Northvolt, blocage Siemens-Alstom) montrent les limites. La France ne peut pas creer seule des 'geants europeens'."
+        },
+        "historique": {
+          "score": 0.35,
+          "confidence": 0.6,
+          "justification": "Precedents : Airbus (succes sur 50 ans de cooperation franco-allemande), Arianespace (succes mais sous pression SpaceX), tentative Siemens-Alstom (bloquee 2019 par la Commission). La politique industrielle europeenne a alterne entre succes (Airbus, GSM) et echecs (JESSI en semi-conducteurs, Quaero en moteurs de recherche). Les IPCEI (batteries, hydrogene, cloud) sont en cours mais les resultats sont incertains. Northvolt (gigafactory suedoise, 3.3 Md EUR investis, faillite novembre 2024) illustre les risques industriels.",
+          "delai_realiste_mois": 120,
+          "precedent_principal": "Airbus (succes, 50 ans), Siemens-Alstom (bloquee 2019), Northvolt (faillite 2024), IPCEI batteries (en cours)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.38,
+        "ci_95": [
+          0.23,
+          0.53
+        ],
+        "synthesis": "Intention politique consensuelle mais dont la faisabilite depend de l'UE (27 Etats membres) et du marche mondial. La France ne peut pas creer seule des 'geants europeens'. Les precedents recents (Northvolt en faillite, Siemens-Alstom bloque) montrent les difficultes. Les succes historiques (Airbus) ont pris 50 ans. La proposition est trop vague pour etre evaluee precisement."
+      }
+    }
+  ],
+  "summary": {
+    "total_promises": 20,
+    "concrete_promises": 16,
+    "vague_promises": 4,
+    "themes_covered": [
+      "economie",
+      "education",
+      "emploi",
+      "environnement",
+      "immigration",
+      "institutions",
+      "international",
+      "logement",
+      "retraites",
+      "sante",
+      "securite"
+    ],
+    "num_themes": 11,
+    "feasibility_distribution": {
+      "tres_faisable_075_plus": 0,
+      "faisable_050_074": 3,
+      "difficile_025_049": 15,
+      "tres_difficile_sous_025": 2
+    },
+    "average_overall_score": 0.38,
+    "median_overall_score": 0.39,
+    "top_3_most_feasible": [
+      {
+        "id": "philippe_016",
+        "score": 0.52,
+        "label": "Relance nucleaire EPR2"
+      },
+      {
+        "id": "philippe_017",
+        "score": 0.48,
+        "label": "Simplification permis de construire"
+      },
+      {
+        "id": "philippe_007",
+        "score": 0.48,
+        "label": "Quotas immigration professionnelle"
+      }
+    ],
+    "top_3_least_feasible": [
+      {
+        "id": "philippe_018",
+        "score": 0.18,
+        "label": "Pouvoirs maires + incarceration immediate"
+      },
+      {
+        "id": "philippe_011",
+        "score": 0.22,
+        "label": "Reduction 3 points PIB de depenses"
+      },
+      {
+        "id": "philippe_010",
+        "score": 0.28,
+        "label": "Suppression JAP + peines planchers"
+      }
+    ],
+    "key_findings": [
+      "Aucune proposition n'atteint le seuil de 'tres faisable' (0.75+). Le programme est globalement ambitieux mais sous-estime les contraintes institutionnelles et budgetaires.",
+      "Les propositions les plus faisables (nucleaire, permis, immigration professionnelle) sont soit des continuations de politiques existantes, soit des mesures a portee limitee.",
+      "Les propositions penales (suppression JAP, incarceration immediate, double peine) sont les moins faisables en raison des obstacles constitutionnels et conventionnels majeurs.",
+      "La strategie du referendum pour contourner le Parlement est juridiquement risquee (Art. 11 vs Art. 89 pour la Constitution) et politiquement aleatoire (taux d'echec de 30% historiquement).",
+      "Les objectifs budgetaires (3 points de PIB d'economies, deal a 250 Md) sont sans precedent historique et incompatibles avec le PSMT.",
+      "Le programme comporte une contradiction interne : promettre simultanement la baisse des depenses publiques de 87 Md et des reformes couteuses (sante, justice, securite, nucleaire).",
+      "La methode Philippe (referendum + ordonnances) est un pari constitutionnel : puissante si le referendum est gagne, devastatrice en cas d'echec (precedent de Gaulle 1969)."
+    ],
+    "total_estimated_costs_eur": 91000000000,
+    "total_estimated_savings_eur": 21500000000,
+    "net_balance_note": "Estimation tres partielle — 8 propositions sur 20 n'ont pas de chiffrage possible. Les couts reels sont probablement sous-estimes (precedent Flamanville, precedent RGPP). La neutralite affichee du deal 250 Md est theorique."
+  }
+}

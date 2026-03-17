@@ -1,0 +1,1169 @@
+{
+  "candidate": "Eric Zemmour",
+  "party": "Reconquete",
+  "election": "Presidentielle 2022",
+  "analysis_date": "2026-03-17",
+  "disclaimer": "Cette analyse est produite a titre informatique et pedagogique. Elle ne constitue ni un soutien ni une opposition a un candidat. Les scores refletent une evaluation technique de faisabilite, non un jugement de valeur politique. Les chiffrages s'appuient sur les donnees de l'Institut Montaigne, de l'IFRAP, de l'INSEE et des institutions publiques.",
+  "macro_context": {
+    "pib_md_eur": 2920,
+    "dette_pct_pib": 113,
+    "deficit_pct_pib": 5.8,
+    "budget_etat_recettes_md": 308,
+    "budget_etat_depenses_md": 445,
+    "secu_depenses_md": 666,
+    "secu_deficit_md": -22,
+    "interets_dette_md": 55,
+    "pression_fiscale_pct_pib": 42.8,
+    "chomage_pct": 7.9,
+    "psmt_plafond_depenses_pct": "0.8-1.2",
+    "deficit_cible_2029": "<3%"
+  },
+  "synthese_globale": {
+    "cout_total_estime_md_eur": 95.4,
+    "economies_annoncees_md_eur": 18.1,
+    "solde_net_annuel_md_eur": -5000000000,
+    "source_solde": "Institut Montaigne",
+    "note_methodologique": "Le solde net de -5 Md EUR selon l'Institut Montaigne repose sur des economies liees a l'immigration largement non chiffrables et juridiquement contestables. Les depenses de securite et de defense sont significatives. L'IFRAP confirme que les economies immigration sont les moins documentees.",
+    "score_faisabilite_globale": 0.32,
+    "confidence_globale": 0.55,
+    "ci_95_globale": [
+      0.22,
+      0.42
+    ]
+  },
+  "evaluations": [
+    {
+      "promise_id": "zemmour_001",
+      "raw_text": "Reporter l'age legal de depart a la retraite a 64 ans d'ici 2030 et aligner les regimes public et prive",
+      "theme": "retraites",
+      "feasibility": {
+        "overall": 0.82,
+        "confidence": 0.85,
+        "ci_95": [
+          0.72,
+          0.92
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.85,
+            "confidence": 0.85,
+            "justification": "Mesure generatrice d'economies estimees a 10,7 Md EUR/an par l'Institut Montaigne. La reforme de 2023 a deja porte l'age a 64 ans avec des economies projetees de 13 Md EUR a terme par le Tresor. Le chiffrage est coherent avec les precedents. Compatible avec la trajectoire PSMT puisque la mesure ameliore le solde des finances publiques.",
+            "cout_estime_eur": -10700000000,
+            "financement_credible": true,
+            "compatible_psmt": true
+          },
+          "juridique": {
+            "score": 0.8,
+            "confidence": 0.85,
+            "justification": "La reforme des retraites 2023 a deja ete validee par le Conseil constitutionnel (Decision 2023-849 DC). Le vehicule legislatif est connu : LFRSS ou PLFSS. L'alignement des regimes public/prive est plus complexe (regimes speciaux progressivement supprimes depuis 2023 pour les nouveaux entrants). Risque de censure faible sur le report d'age, plus eleve sur l'alignement complet.",
+            "vehicule_legislatif": "PLFSS / LFRSS",
+            "risque_censure_cc": "faible",
+            "conflit_droit_ue": "aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.25,
+            "score_impact": 0.65,
+            "confidence": 0.85,
+            "justification": "La reforme des retraites 2023 (report a 64 ans) a provoque une opposition sociale massive avec des manifestations repetees pendant plusieurs mois. L'alignement des regimes est cependant percu comme une mesure d'equite. L'impact sur les seniors et les carrieres longues est significatif mais les mecanismes de compensation (carrieres longues, penibilite) peuvent attenuer.",
+            "opposition_sociale": "tres_forte"
+          },
+          "factcheck": {
+            "score": 0.9,
+            "confidence": 0.9,
+            "justification": "Le chiffrage est coherent entre Institut Montaigne et IFRAP. La reforme a deja ete realisee en 2023 sous Macron. Les economies sont documentees par la Cour des comptes et le Tresor. Le precedent de 2023 valide la faisabilite technique.",
+            "verdict_global": "confirme"
+          },
+          "historique": {
+            "score": 0.85,
+            "confidence": 0.9,
+            "justification": "Trois reformes des retraites reussies en France : Woerth 2010 (60->62 ans), Touraine 2014 (allongement cotisations), Borne 2023 (62->64 ans). Toutes ont ete adoptees malgre une opposition sociale forte. L'age effectif de depart a recule de 2 ans entre 2010 et 2023. Le precedent direct de 2023 montre que la mesure est realisable, y compris par 49.3.",
+            "delai_realiste_mois": 18,
+            "precedent_principal": "Reforme des retraites 2023 (report a 64 ans)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_002",
+      "raw_text": "Baisser les impots de production des entreprises de 30 milliards d'euros",
+      "theme": "economie",
+      "feasibility": {
+        "overall": 0.35,
+        "confidence": 0.7,
+        "ci_95": [
+          0.25,
+          0.45
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.2,
+            "confidence": 0.8,
+            "justification": "Cout estime a 25,2 Md EUR/an par l'Institut Montaigne (ecart avec les 30 Md annonces car une partie des impots de production a deja ete supprimee). Cette baisse massive est incompatible avec la trajectoire PSMT qui plafonne la croissance des depenses nettes a 0.8-1.2%/an et exige un retour sous 3% de deficit d'ici 2029. La France est deja sous procedure de deficit excessif. Aucune source de financement identifiee.",
+            "cout_estime_eur": 25200000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.65,
+            "confidence": 0.75,
+            "justification": "La baisse des impots de production releve de la loi de finances (Art. 34 Constitution). Le gouvernement a l'initiative financiere (Art. 40). Pas de conflit avec le droit UE (les Etats sont souverains en matiere fiscale). Risque de censure faible car la mesure ne porte pas atteinte aux droits fondamentaux. Cependant, le Conseil constitutionnel pourrait censurer si la mesure degrade excessivement l'equilibre budgetaire (principe de sincerite, LOLF).",
+            "vehicule_legislatif": "PLF (loi de finances)",
+            "risque_censure_cc": "faible",
+            "conflit_droit_ue": "aucun directement, mais conflit avec les engagements budgetaires europeens"
+          },
+          "social": {
+            "score_acceptabilite": 0.5,
+            "score_impact": 0.55,
+            "confidence": 0.6,
+            "justification": "Mesure favorisant les entreprises, potentiellement impopulaire aupres d'une partie de l'opinion qui y voit un 'cadeau aux patrons'. Impact positif sur la competitivite et potentiellement l'emploi, mais les effets sont diffus et a moyen terme. Les precedents (CICE, baisse de CVAE) montrent des effets limites sur l'emploi a court terme.",
+            "opposition_sociale": "moderee"
+          },
+          "factcheck": {
+            "score": 0.65,
+            "confidence": 0.75,
+            "justification": "Le chiffrage de l'Institut Montaigne (25,2 Md EUR) est credible. La CVAE a deja ete partiellement supprimee sous Macron. L'objectif de 30 Md implique d'aller bien au-dela, en touchant des impots comme la C3S, la CFE, la TFPB entreprises. Mais aucun financement n'est propose. L'IFRAP classe les baisses d'impots de Zemmour a -10 Md EUR en 'credibilite haute' pour le chiffrage du cout.",
+            "verdict_global": "partiellement_confirme"
+          },
+          "historique": {
+            "score": 0.4,
+            "confidence": 0.65,
+            "justification": "La suppression partielle de la CVAE (8 Md EUR) sous Macron constitue un precedent mais a une echelle bien moindre. Le CICE puis sa transformation en allegement de charges representait 20 Md EUR mais etalee sur plusieurs annees. Une baisse de 30 Md d'un coup serait sans precedent en France. La RGPP (2007-2012) a degage 6 Md EUR nets en 5 ans, soit bien moins que les compensations necessaires.",
+            "delai_realiste_mois": 60,
+            "precedent_principal": "Suppression CVAE (2023-2024, 8 Md EUR)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_003",
+      "raw_text": "Porter le budget de la defense a 70 milliards d'euros par an d'ici 2030",
+      "theme": "international",
+      "feasibility": {
+        "overall": 0.4,
+        "confidence": 0.7,
+        "ci_95": [
+          0.3,
+          0.5
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.3,
+            "confidence": 0.8,
+            "justification": "Le budget defense 2025 est de 50,5 Md EUR. Atteindre 70 Md EUR represente une hausse de 19,5 Md EUR (+39%), soit 14,6 Md EUR de cout supplementaire annuel selon l'Institut Montaigne. L'IFRAP chiffre le budget defense a 3% du PIB a -20 Md EUR de depenses supplementaires. La LPM 2024-2030 prevoit deja une hausse a 69 Md EUR en 2030, mais dans un cadre budgetaire sous forte contrainte (PSMT, procedure deficit excessif). Incompatible avec le plafond PSMT sans economies compensatoires massives.",
+            "cout_estime_eur": 14600000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.75,
+            "confidence": 0.8,
+            "justification": "La defense releve de la competence exclusive de l'Etat. La LPM (loi de programmation militaire) est le vehicule legislatif adapte. La LPM 2024-2030 prevoit deja une trajectoire haussiere. Pas de conflit avec le droit UE (la defense reste une competence nationale). Aucun risque de censure constitutionnelle.",
+            "vehicule_legislatif": "Loi de programmation militaire (LPM)",
+            "risque_censure_cc": "nul",
+            "conflit_droit_ue": "aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.6,
+            "score_impact": 0.5,
+            "confidence": 0.55,
+            "justification": "Le contexte geopolitique (guerre en Ukraine, tensions internationales) rend l'opinion plus favorable aux depenses de defense. Cependant, des arbitrages au detriment d'autres postes (education, sante, social) pourraient generer de l'opposition. L'impact direct sur la population est limite (emplois dans la defense, souverainete).",
+            "opposition_sociale": "faible_a_moderee"
+          },
+          "factcheck": {
+            "score": 0.7,
+            "confidence": 0.75,
+            "justification": "L'objectif de 70 Md EUR est aligne avec la LPM 2024-2030 qui prevoit 69 Md EUR en 2030. Le chiffrage de l'Institut Montaigne (14,6 Md EUR de surcout) est coherent. Cependant, atteindre ce montant suppose de maintenir la trajectoire LPM dans un contexte de consolidation budgetaire severe, ce qui est contradictoire.",
+            "verdict_global": "partiellement_confirme"
+          },
+          "historique": {
+            "score": 0.45,
+            "confidence": 0.65,
+            "justification": "La hausse du budget defense est une tendance recente mais reelle : +3,3 Md EUR en 2025 par rapport a 2024. La LPM 2024-2030 prevoit une hausse de +3 Md EUR/an en moyenne. Cependant, les LPM precedentes n'ont souvent pas ete respectees en execution. La capacite d'absorption des armees (recrutement, industriel) est un goulet d'etranglement.",
+            "delai_realiste_mois": 60,
+            "precedent_principal": "LPM 2024-2030 (+3,3 Md EUR/an)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_004",
+      "raw_text": "Creer 400 000 places supplementaires en EHPAD d'ici 2030 dont 25% reservees aux familles modestes",
+      "theme": "sante",
+      "feasibility": {
+        "overall": 0.15,
+        "confidence": 0.7,
+        "ci_95": [
+          0.08,
+          0.22
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.1,
+            "confidence": 0.75,
+            "justification": "Cout estime a 12,4 Md EUR/an par l'Institut Montaigne, ce qui en fait l'une des mesures les plus couteuses du programme. La France compte environ 600 000 places en EHPAD. En creer 400 000 de plus representerait une augmentation de 67% du parc, un objectif sans precedent. Le cout inclut l'investissement immobilier (environ 120 000 EUR par place = 48 Md EUR en investissement) et le fonctionnement annuel. Totalement incompatible avec le PSMT.",
+            "cout_estime_eur": 12400000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.6,
+            "confidence": 0.65,
+            "justification": "La creation de places en EHPAD releve d'une loi de programmation de la dependance ou du PLFSS (branche autonomie). La reservation de 25% aux familles modestes pose des questions de criteres d'eligibilite mais pas de probleme constitutionnel majeur. La 5e branche de la Securite sociale (autonomie, creee en 2021) est le cadre institutionnel adapte.",
+            "vehicule_legislatif": "PLFSS / loi de programmation dependance",
+            "risque_censure_cc": "faible",
+            "conflit_droit_ue": "aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.8,
+            "score_impact": 0.75,
+            "confidence": 0.7,
+            "justification": "Le vieillissement de la population rend cette mesure socialement tres attendue. Le scandale Orpea (2022) a renforce la demande d'amelioration de la prise en charge des personnes agees. L'impact serait considerable pour les familles confrontees a la dependance. Tres peu d'opposition attendue sur le principe.",
+            "opposition_sociale": "nulle"
+          },
+          "factcheck": {
+            "score": 0.3,
+            "confidence": 0.7,
+            "justification": "Le chiffre de 400 000 places est extremement ambitieux. Le plan Solidarite Grand Age (2006) prevoyait 45 000 places sur 5 ans et n'a ete que partiellement realise. Le secteur fait face a une crise de recrutement majeure (aide-soignants, infirmiers). Le chiffrage de l'Institut Montaigne (12,4 Md EUR/an) semble meme optimiste compte tenu des couts de construction et de fonctionnement actuels. La promesse depasse largement ce qui est realiste industriellement et humainement.",
+            "verdict_global": "surestime"
+          },
+          "historique": {
+            "score": 0.15,
+            "confidence": 0.65,
+            "justification": "Aucun precedent de creation de places en EHPAD a cette echelle. Le plan Solidarite Grand Age (2006) a cree environ 30 000 places en 5 ans. La loi ASV (2015) a modernise le secteur mais sans creation massive. Le recrutement de personnel est le principal frein : il faudrait environ 400 000 a 600 000 emplois supplementaires (1 a 1,5 ETP par place), ce qui est totalement irrealiste dans un contexte de penurie de soignants.",
+            "delai_realiste_mois": "impossible dans le delai annonce",
+            "precedent_principal": "Plan Solidarite Grand Age 2006 (30 000 places en 5 ans)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_005",
+      "raw_text": "Reduire la CSG sur les revenus d'activite de 9,2% a 2,5% pour augmenter les salaires modestes (equivalent d'un 13e mois)",
+      "theme": "economie",
+      "feasibility": {
+        "overall": 0.15,
+        "confidence": 0.75,
+        "ci_95": [
+          0.08,
+          0.22
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.05,
+            "confidence": 0.85,
+            "justification": "Cout estime a 18,5 Md EUR/an par l'Institut Montaigne. La CSG est la principale recette affectee a la Securite sociale. La reduire de 9,2% a 2,5% represente une perte de recettes colossale pour la Secu, deja en deficit de 22 Md EUR. Cette mesure aggraverait le deficit public de pres d'un point de PIB. Aucune source de financement compensatoire identifiee. Totalement incompatible avec le PSMT et la procedure de deficit excessif.",
+            "cout_estime_eur": 18500000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.55,
+            "confidence": 0.7,
+            "justification": "La CSG releve de la loi (Art. 34). La modification du taux necessite un PLFSS. Le Conseil constitutionnel pourrait censurer si la mesure desequilibre gravement le financement de la Securite sociale sans compensation (principe de sincerite budgetaire). La decision 2012-662 DC (taxe a 75%) montre la vigilance du CC sur la rupture d'egalite devant les charges publiques. La limitation aux 'revenus d'activite' seulement pourrait poser un probleme d'egalite.",
+            "vehicule_legislatif": "PLFSS",
+            "risque_censure_cc": "moyen",
+            "conflit_droit_ue": "aucun directement, mais aggrave le deficit"
+          },
+          "social": {
+            "score_acceptabilite": 0.8,
+            "score_impact": 0.7,
+            "confidence": 0.65,
+            "justification": "Une hausse de pouvoir d'achat equivalente a un 13e mois serait tres bien accueillie par les salaries, surtout modestes. Cependant, l'impact sur le financement de la Securite sociale (maladie, retraites, famille) generera une forte opposition des syndicats et des defenseurs de la protection sociale. Le risque de degradation des prestations sociales est reel.",
+            "opposition_sociale": "moderee_a_forte"
+          },
+          "factcheck": {
+            "score": 0.5,
+            "confidence": 0.75,
+            "justification": "Le chiffrage de l'Institut Montaigne (18,5 Md EUR) est coherent avec le rendement de la CSG. La CSG rapporte environ 130 Md EUR/an au total ; une baisse de 6,7 points sur les seuls revenus d'activite represente effectivement un manque a gagner de cet ordre. La promesse d'un '13e mois' est cependant exageree : pour un salarie au SMIC, la baisse de CSG representerait environ 115 EUR/mois, soit environ 1380 EUR/an, en dessous d'un 13e mois net (1426 EUR).",
+            "verdict_global": "exagere"
+          },
+          "historique": {
+            "score": 0.2,
+            "confidence": 0.6,
+            "justification": "La CSG a ete creee en 1991 et n'a fait qu'augmenter depuis (de 1,1% a 9,2% en 2018). Aucune baisse significative n'a jamais ete mise en oeuvre. La reforme Macron de 2018 (hausse de 1,7 point compensee par la suppression des cotisations maladie/chomage) montre que les modifications de la CSG sont techniquement realisables mais politiquement et financierement extremement complexes.",
+            "delai_realiste_mois": 12,
+            "precedent_principal": "Hausse CSG Macron 2018 (dans le sens inverse)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_006",
+      "raw_text": "Augmenter les depenses de R&D a 3% du PIB",
+      "theme": "economie",
+      "feasibility": {
+        "overall": 0.25,
+        "confidence": 0.6,
+        "ci_95": [
+          0.15,
+          0.35
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.2,
+            "confidence": 0.65,
+            "justification": "Cout estime a 10,5 Md EUR/an par l'Institut Montaigne. La France depense actuellement environ 2,2% de son PIB en R&D (environ 64 Md EUR). Atteindre 3% represente 87,6 Md EUR, soit un surcout d'environ 24 Md EUR dont une partie provient du prive. La part publique additionnelle est estimee a 10,5 Md EUR. Incompatible avec le PSMT sans financement identifie.",
+            "cout_estime_eur": 10500000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.7,
+            "confidence": 0.65,
+            "justification": "L'augmentation des depenses de R&D releve des lois de finances et de programmation (loi de programmation de la recherche 2021-2030). Le CIR (Credit d'Impot Recherche) est le principal outil incitatif. Pas de conflit juridique particulier. L'objectif de 3% du PIB est un engagement europeen (Strategie de Lisbonne, puis Europe 2020) non contraignant.",
+            "vehicule_legislatif": "PLF / Loi de programmation recherche",
+            "risque_censure_cc": "nul",
+            "conflit_droit_ue": "aucun (objectif europeen partage)"
+          },
+          "social": {
+            "score_acceptabilite": 0.75,
+            "score_impact": 0.65,
+            "confidence": 0.55,
+            "justification": "L'investissement en R&D est generalement percu positivement par l'opinion. Les syndicats de chercheurs y sont favorables. L'impact est diffus et a long terme (innovations, brevets, competitivite). Peu d'opposition directe mais la mesure sera en concurrence avec d'autres priorites budgetaires.",
+            "opposition_sociale": "nulle"
+          },
+          "factcheck": {
+            "score": 0.55,
+            "confidence": 0.65,
+            "justification": "L'objectif de 3% du PIB est un engagement europeen que la France n'a jamais atteint. La loi de programmation de la recherche 2021-2030 prevoit une hausse progressive mais qui reste en deca de l'objectif. Le chiffrage de l'Institut Montaigne (10,5 Md EUR pour la part publique) est plausible mais suppose que le secteur prive suive, ce qui n'est pas garanti.",
+            "verdict_global": "partiellement_confirme"
+          },
+          "historique": {
+            "score": 0.25,
+            "confidence": 0.55,
+            "justification": "La France n'a jamais atteint l'objectif de 3% du PIB en R&D malgre des engagements repetes depuis la strategie de Lisbonne (2000). La depense stagne autour de 2,2-2,3% depuis 15 ans. Seuls l'Allemagne (3,1%), la Suede (3,4%) et la Coree du Sud (4,8%) y parviennent en OCDE. La loi de programmation de la recherche 2021-2030 prevoyait +5 Md EUR sur 10 ans, soit un rythme insuffisant.",
+            "delai_realiste_mois": 120,
+            "precedent_principal": "Loi de programmation recherche 2021-2030 (+5 Md EUR sur 10 ans)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_007",
+      "raw_text": "Limiter le droit d'asile a environ 100 individus par an",
+      "theme": "immigration",
+      "feasibility": {
+        "overall": 0.05,
+        "confidence": 0.85,
+        "ci_95": [
+          0.02,
+          0.1
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.5,
+            "confidence": 0.4,
+            "justification": "Impact budgetaire difficilement chiffrable. La France accorde environ 30 000 a 40 000 statuts de refugie par an. Limiter a 100 genererait des economies sur l'hebergement et les prestations, mais aussi des couts considerables d'application (controles, detention, contentieux, expulsions). L'Institut Montaigne ne chiffre pas specifiquement cette mesure. Les economies liees a la reduction de l'immigration sont jugees 'largement non chiffrables' tant par l'Institut Montaigne que par l'IFRAP.",
+            "cout_estime_eur": "non_chiffrable",
+            "financement_credible": false,
+            "compatible_psmt": "non_evaluable"
+          },
+          "juridique": {
+            "score": 0.02,
+            "confidence": 0.9,
+            "justification": "OBSTACLE JURIDIQUE MAJEUR MULTIPLE. 1) Le droit d'asile est un droit constitutionnel (Preambule 1946, alinea 4 : 'Tout homme persecute en raison de son action en faveur de la liberte a le droit d'asile'). 2) La Convention de Geneve de 1951 (ratifiee par la France) interdit les quotas sur l'asile : l'asile est un droit individuel examine au cas par cas. 3) Le droit UE (directive 2011/95/UE dite 'qualification', reglement Dublin III) impose une evaluation individuelle de chaque demande. 4) La CEDH (art. 3, interdiction des traitements inhumains) interdit le refoulement vers un pays de persecution. Necessite : sortie de la Convention de Geneve, revision constitutionnelle (Art. 89 : quasi-impossible), sortie du systeme d'asile europeen. La loi immigration 2024 a deja vu 32 articles censures sur 86 par le CC.",
+            "vehicule_legislatif": "Revision constitutionnelle (Art. 89) + denonciation Convention Geneve + sortie directive UE",
+            "risque_censure_cc": "quasi-certain",
+            "conflit_droit_ue": "frontal et multiple"
+          },
+          "social": {
+            "score_acceptabilite": 0.4,
+            "score_impact": 0.3,
+            "confidence": 0.55,
+            "justification": "L'opinion est divisee sur l'immigration mais une limitation aussi drastique (100 personnes/an vs 30 000+) heurterait les associations humanitaires, une partie significative de l'opinion et la communaute internationale. Les manifestations pro-refugies seraient probables. L'impact humanitaire serait considerable : des dizaines de milliers de personnes fuyant la persecution seraient refoulees.",
+            "opposition_sociale": "forte"
+          },
+          "factcheck": {
+            "score": 0.1,
+            "confidence": 0.85,
+            "justification": "Le chiffre de '100 individus par an' est sans fondement dans aucun pays democratique comparable. La France a accorde 56 179 protections en 2022 (OFPRA). Limiter a 100 represente une reduction de 99,8%. Aucun pays signataire de la Convention de Geneve n'a jamais applique un tel quota. Les economies revendiquees sur l'immigration sont jugees 'non chiffrables' par l'Institut Montaigne et l'IFRAP.",
+            "verdict_global": "irrealiste"
+          },
+          "historique": {
+            "score": 0.02,
+            "confidence": 0.9,
+            "justification": "Aucun precedent dans aucune democratie occidentale. Les tentatives de limitation stricte de l'asile ont toujours ete censurees par les juridictions constitutionnelles et europeennes. La loi immigration 2024 (bien plus moderee) a vu 32 articles censures par le CC. Le Danemark, souvent cite en exemple, a reduit ses demandes d'asile mais reste a environ 2 000 protections/an et n'a pas denonce la Convention de Geneve.",
+            "delai_realiste_mois": "impossible juridiquement en l'etat",
+            "precedent_principal": "Aucun precedent comparable dans une democratie"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_008",
+      "raw_text": "Supprimer le droit du sol et les aides sociales non contributives pour les etrangers extra-europeens",
+      "theme": "immigration",
+      "feasibility": {
+        "overall": 0.1,
+        "confidence": 0.8,
+        "ci_95": [
+          0.05,
+          0.18
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.35,
+            "confidence": 0.5,
+            "justification": "L'Institut Montaigne estime les economies a 6,7 Md EUR/an mais juge cette estimation 'largement non chiffrable et juridiquement contestable'. L'IFRAP classe les economies immigration a 'credibilite faible'. Le chiffrage repose sur des hypotheses tres incertaines sur le nombre d'etrangers beneficiant d'aides et l'effet comportemental (departs volontaires).",
+            "cout_estime_eur": -6700000000,
+            "financement_credible": false,
+            "compatible_psmt": "non_evaluable"
+          },
+          "juridique": {
+            "score": 0.05,
+            "confidence": 0.9,
+            "justification": "OBSTACLES JURIDIQUES MAJEURS. 1) Le droit du sol est un principe a valeur constitutionnelle ancre dans la tradition republicaine depuis 1889. Sa suppression necessite une revision constitutionnelle (Art. 89 : vote identique des deux chambres + referendum ou Congres 3/5). 2) La suppression des aides sociales pour les etrangers en situation reguliere viole le principe d'egalite devant la loi (Art. 1 DDHC 1789) et le droit UE (libre circulation, reglement 883/2004 sur la coordination des regimes de securite sociale). 3) La CEDH protege le droit a la vie familiale (art. 8) et interdit les discriminations (art. 14). 4) Le CC a censure 32 articles de la loi immigration 2024 pour atteinte aux droits fondamentaux. La preference nationale en matiere d'aides sociales a ete jugee inconstitutionnelle a plusieurs reprises.",
+            "vehicule_legislatif": "Revision constitutionnelle (Art. 89) obligatoire",
+            "risque_censure_cc": "quasi-certain sans revision constitutionnelle",
+            "conflit_droit_ue": "frontal (libre circulation, non-discrimination, coordination securite sociale)"
+          },
+          "social": {
+            "score_acceptabilite": 0.4,
+            "score_impact": 0.25,
+            "confidence": 0.55,
+            "justification": "L'opinion est divisee. Une partie significative soutient la 'preference nationale' en matiere d'aides sociales. Mais les associations humanitaires, les syndicats et les organisations internationales s'y opposeraient vigoureusement. L'impact humanitaire serait considerable : des centaines de milliers de personnes perdraient l'acces aux soins, au logement social, aux minima sociaux.",
+            "opposition_sociale": "forte"
+          },
+          "factcheck": {
+            "score": 0.25,
+            "confidence": 0.7,
+            "justification": "L'Institut Montaigne note que les economies liees a la reduction de l'immigration sont 'largement sureestimees et juridiquement fragiles'. Les etrangers extra-europeens en situation reguliere cotisent et paient des impots, donc contribuent au financement des aides. L'IFRAP confirme que les economies immigration sont 'les moins documentees et les plus incertaines'. Le chiffrage de 6,7 Md EUR est conteste par les economistes specialises.",
+            "verdict_global": "surestime_et_juridiquement_fragile"
+          },
+          "historique": {
+            "score": 0.08,
+            "confidence": 0.8,
+            "justification": "La suppression du droit du sol n'a jamais ete realisee en France. La tentative de reforme du droit du sol par le gouvernement Balladur (1993) a abouti a un compromis (declaration de volonte a la majorite, renforcee puis assouplie). La loi Pasqua-Debre a ete partiellement censuree par le CC. La loi immigration 2024, bien plus moderee, a vu 32 articles censures.",
+            "delai_realiste_mois": "impossible sans revision constitutionnelle",
+            "precedent_principal": "Reforme Balladur 1993 (compromis tres en deca) et censure CC loi immigration 2024"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_009",
+      "raw_text": "Supprimer l'aide medicale d'Etat (AME) sauf pour les urgences vitales",
+      "theme": "immigration",
+      "feasibility": {
+        "overall": 0.3,
+        "confidence": 0.7,
+        "ci_95": [
+          0.2,
+          0.4
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.55,
+            "confidence": 0.7,
+            "justification": "L'Institut Montaigne estime l'economie a 700 M EUR/an (cout direct de l'AME). L'IFRAP estime l'economie de la suppression de l'AME a 1,1 Md EUR pour Le Pen (mesure similaire). Cependant, les etudes de sante publique montrent que la suppression de l'AME entraine un report vers les urgences hospitalieres, plus couteuses. Le cout indirect pourrait annuler voire depasser l'economie directe. La Cour des comptes a note que l'AME permet de prevenir des epidemies et de reduire les couts hospitaliers.",
+            "cout_estime_eur": -700000000,
+            "financement_credible": true,
+            "compatible_psmt": true
+          },
+          "juridique": {
+            "score": 0.3,
+            "confidence": 0.75,
+            "justification": "La suppression totale de l'AME (hors urgences vitales) pose des problemes constitutionnels. Le CC protege le droit a la protection de la sante (alinea 11 du Preambule de 1946). Le Conseil d'Etat a rappele que l'acces aux soins des personnes en situation irreguliere est un imperatif de sante publique. La CEDH (art. 3) interdit les traitements inhumains et degradants, ce qui inclut le refus de soins medicaux necessaires. Une limitation aux seules urgences vitales pourrait etre censuree pour atteinte disproportionnee au droit a la sante.",
+            "vehicule_legislatif": "PLF / PLFSS",
+            "risque_censure_cc": "eleve",
+            "conflit_droit_ue": "possible (directive retour 2008/115, soins de sante d'urgence)"
+          },
+          "social": {
+            "score_acceptabilite": 0.5,
+            "score_impact": 0.3,
+            "confidence": 0.6,
+            "justification": "L'AME est un sujet clivant dans l'opinion. Une partie significative y est hostile (percue comme un 'appel d'air'). Mais les professionnels de sante (ordres, syndicats, hopitaux) y sont majoritairement favorables pour des raisons de sante publique et d'ethique medicale. Le debat lors de la loi immigration 2024 a montre l'intensite des oppositions.",
+            "opposition_sociale": "forte_dans_le_secteur_sante"
+          },
+          "factcheck": {
+            "score": 0.45,
+            "confidence": 0.7,
+            "justification": "Le cout de l'AME est bien de 700 M a 1,1 Md EUR/an. Mais les etudes de sante publique (IRDES, Medecins du Monde) montrent que la suppression entraine des couts indirects superieurs (urgences hospitalieres, epidemies non controlees). L'Espagne, apres avoir restreint l'acces aux soins des sans-papiers en 2012, a fait marche arriere en 2018 en raison des consequences sanitaires et des couts hospitaliers accrus.",
+            "verdict_global": "economies_sureestimees"
+          },
+          "historique": {
+            "score": 0.35,
+            "confidence": 0.7,
+            "justification": "L'AME a fait l'objet de multiples tentatives de restriction sans jamais etre supprimee. La loi immigration 2024 prevoyait sa transformation en AMU (aide medicale d'urgence) mais la mesure a ete censuree par le CC. L'Espagne (2012) constitue un contre-exemple : la restriction a entraine des consequences sanitaires negatives et un retour en arriere en 2018.",
+            "delai_realiste_mois": 6,
+            "precedent_principal": "Tentative AMU dans la loi immigration 2024 (censuree par le CC)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_010",
+      "raw_text": "Creer un ministere de la Remigration",
+      "theme": "immigration",
+      "feasibility": {
+        "overall": 0.12,
+        "confidence": 0.75,
+        "ci_95": [
+          0.05,
+          0.2
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.4,
+            "confidence": 0.4,
+            "justification": "La creation d'un ministere est relativement peu couteuse en soi (locaux, cabinet, administration). Le cout depend des politiques menees. Les expulsions massives implicites dans le concept de 'remigration' coutent extremement cher : le cout moyen d'une reconduite a la frontiere est estime entre 10 000 et 30 000 EUR par personne. Pour des centaines de milliers de personnes, le cout serait de plusieurs milliards.",
+            "cout_estime_eur": "non_chiffrable_sans_precision_politique",
+            "financement_credible": false,
+            "compatible_psmt": "non_evaluable"
+          },
+          "juridique": {
+            "score": 0.1,
+            "confidence": 0.85,
+            "justification": "La creation d'un ministere releve du pouvoir executif (decret). Mais la politique de 'remigration' impliquee contrevient massivement au droit : 1) La CEDH (art. 8, vie privee et familiale ; art. 3, traitements inhumains) interdit les expulsions collectives et arbitraires. 2) Le Protocole 4 de la CEDH interdit les expulsions collectives d'etrangers. 3) Le droit UE protege les ressortissants UE et les residents longue duree. 4) Le bloc de constitutionnalite protege la liberte individuelle et la surete. Le terme 'remigration' est associe aux mouvements identitaires et est considere comme une atteinte aux droits fondamentaux par les juridictions europeennes.",
+            "vehicule_legislatif": "Decret pour le ministere, mais revision constitutionnelle + sortie CEDH pour les politiques",
+            "risque_censure_cc": "quasi-certain pour les politiques associees",
+            "conflit_droit_ue": "frontal et multiple"
+          },
+          "social": {
+            "score_acceptabilite": 0.25,
+            "score_impact": 0.2,
+            "confidence": 0.6,
+            "justification": "Le terme 'remigration' est extremement clivant. Il est rejete par une majorite de l'opinion comme relevant d'une ideologie d'extreme-droite. Les associations, syndicats, eglises et organisations internationales s'y opposeraient vigoureusement. L'impact sur la cohesion sociale serait devastateur. Le risque de stigmatisation de communautes entieres est majeur.",
+            "opposition_sociale": "tres_forte"
+          },
+          "factcheck": {
+            "score": 0.15,
+            "confidence": 0.75,
+            "justification": "Aucun pays democratique n'a de 'ministere de la Remigration'. Le concept de remigration n'a pas de base dans le droit international. Les politiques d'expulsion massive sont irrealisables logistiquement (accords de readmission necessaires avec chaque pays, capacites de detention, transport) et prohibitivement couteuses.",
+            "verdict_global": "irrealiste_et_juridiquement_incompatible"
+          },
+          "historique": {
+            "score": 0.05,
+            "confidence": 0.85,
+            "justification": "Aucun precedent dans aucune democratie occidentale moderne. Les tentatives d'expulsion massive (programme Bracero inversion aux USA en 1954, 'Windrush scandal' au Royaume-Uni en 2018) ont ete des fiascos humains et politiques. L'operation Wetback (USA 1954) est consideree comme une des pages les plus sombres de la politique migratoire americaine.",
+            "delai_realiste_mois": "impossible juridiquement",
+            "precedent_principal": "Aucun precedent democratique"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_011",
+      "raw_text": "Organiser un referendum sur l'immigration, la securite et la justice des la prochaine election legislative",
+      "theme": "institutions",
+      "feasibility": {
+        "overall": 0.25,
+        "confidence": 0.7,
+        "ci_95": [
+          0.15,
+          0.35
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.7,
+            "confidence": 0.65,
+            "justification": "Le cout d'un referendum est modeste (environ 200-300 M EUR pour l'organisation du scrutin). L'impact budgetaire depend du contenu des mesures soumises au referendum, non du referendum lui-meme.",
+            "cout_estime_eur": 300000000,
+            "financement_credible": true,
+            "compatible_psmt": true
+          },
+          "juridique": {
+            "score": 0.25,
+            "confidence": 0.8,
+            "justification": "L'Art. 11 de la Constitution permet un referendum sur 'l'organisation des pouvoirs publics' et les 'reformes relatives a la politique economique, sociale ou environnementale'. L'immigration, la securite et la justice pourraient entrer dans ce champ. MAIS : 1) Le Conseil constitutionnel ne controle pas les lois referendaires (expression directe de la souverainete populaire), ce qui pourrait theoriquement permettre de contourner le bloc de constitutionnalite. 2) Toutefois, les mesures contraires aux traites internationaux (CEDH, traites UE) resteraient inapplicables. 3) Le referendum ne peut pas reviser la Constitution (Art. 89 pour cela). 4) La question de la conformite au droit UE persiste : un referendum national ne peut pas abroger le droit europeen. Le debat doctrinal sur la primaute du referendum est ouvert mais la pratique montre que les contraintes internationales persistent.",
+            "vehicule_legislatif": "Art. 11 Constitution (referendum legislatif)",
+            "risque_censure_cc": "non applicable (pas de controle des lois referendaires), mais inapplicabilite internationale",
+            "conflit_droit_ue": "probable selon le contenu"
+          },
+          "social": {
+            "score_acceptabilite": 0.55,
+            "score_impact": 0.45,
+            "confidence": 0.55,
+            "justification": "L'idee d'un referendum est generalement bien accueillie (aspiration democratique). Mais le risque politique est considerable : le dernier referendum (2005, Constitution europeenne) a abouti a un 'non' desavouant le president. Un referendum sur l'immigration diviserait profondement la societe. Les sujets de securite et justice sont moins clivants.",
+            "opposition_sociale": "moderee"
+          },
+          "factcheck": {
+            "score": 0.5,
+            "confidence": 0.65,
+            "justification": "Le referendum est un outil constitutionnel existant mais son usage est rare (dernier en 2005). La promesse de l'organiser 'des la prochaine election legislative' est irealiste car le referendum est a l'initiative du president, pas du calendrier legislatif. Le contenu des questions n'est pas precise, ce qui rend l'evaluation impossible sur le fond.",
+            "verdict_global": "partiellement_realiste_sur_la_forme"
+          },
+          "historique": {
+            "score": 0.3,
+            "confidence": 0.7,
+            "justification": "Dernier referendum legislatif : 2005 (Constitution europeenne, rejet). Avant : 2000 (quinquennat, 70% d'abstention). Les referendums sont risques politiquement (de Gaulle a demissionne apres le 'non' de 1969). Aucun referendum n'a jamais porte sur l'immigration en France. La Suisse organise regulierement des referendums sur l'immigration (initiative 'contre l'immigration de masse' 2014), mais dans un systeme institutionnel tres different.",
+            "delai_realiste_mois": 12,
+            "precedent_principal": "Referendum 2005 (Constitution europeenne)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_012",
+      "raw_text": "Exonerer d'impot et de charges sociales les heures supplementaires",
+      "theme": "emploi",
+      "feasibility": {
+        "overall": 0.5,
+        "confidence": 0.7,
+        "ci_95": [
+          0.4,
+          0.6
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.35,
+            "confidence": 0.65,
+            "justification": "Le cout d'une exoneration totale (impot + charges patronales et salariales) des heures supplementaires est estime entre 5 et 10 Md EUR/an selon les hypotheses de volume. Sous Sarkozy, la loi TEPA (2007) avait exonere partiellement les heures supplementaires pour un cout de 4,4 Md EUR/an. L'exoneration actuelle (depuis 2019) porte uniquement sur les cotisations salariales et l'IR dans la limite de 7 500 EUR/an. Aller plus loin (charges patronales) couterait considerablement plus. Pas de financement identifie.",
+            "cout_estime_eur": 8000000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.7,
+            "confidence": 0.75,
+            "justification": "L'exoneration des heures supplementaires a deja ete mise en oeuvre (loi TEPA 2007, validee par le CC). Le vehicule legislatif est le PLF/PLFSS. Pas de conflit avec le droit UE. Le CC a valide le principe en 2007. La mesure est techniquement realisable car elle s'appuie sur un precedent.",
+            "vehicule_legislatif": "PLF / PLFSS",
+            "risque_censure_cc": "faible (precedent TEPA)",
+            "conflit_droit_ue": "aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.7,
+            "score_impact": 0.55,
+            "confidence": 0.65,
+            "justification": "La mesure est populaire aupres des salaries (gain de pouvoir d'achat). Cependant, les syndicats sont divises : certains y voient une atteinte aux 35h et un encouragement a travailler plus sans embaucher. L'impact sur l'emploi est debattu : les heures supplementaires non taxees pourraient dissuader les embauches (substitution travail). L'effet sur le pouvoir d'achat est reel mais concentre sur les salaries en CDI temps plein.",
+            "opposition_sociale": "faible"
+          },
+          "factcheck": {
+            "score": 0.65,
+            "confidence": 0.7,
+            "justification": "La loi TEPA (2007) montre que la mesure est techniquement realisable. Cependant, les evaluations (rapport Bargain/Vicard 2012) montrent un effet limite sur le volume de travail et un effet de declaration (regularisation d'heures deja effectuees). Le cout budgetaire de 4,4 Md EUR/an sous Sarkozy est documente. L'extension aux charges patronales n'a pas de precedent chiffre.",
+            "verdict_global": "partiellement_confirme"
+          },
+          "historique": {
+            "score": 0.75,
+            "confidence": 0.8,
+            "justification": "Precedent direct : loi TEPA 2007 (exoneration IR et cotisations salariales des heures supplementaires). Mise en oeuvre rapide (des 2007). Supprimee par Hollande en 2012. Partiellement retablie par Macron (2019 : exoneration cotisations salariales + defiscalisation dans la limite de 7 500 EUR). Le precedent montre que c'est faisable mais instable politiquement (valse legislatif).",
+            "delai_realiste_mois": 6,
+            "precedent_principal": "Loi TEPA 2007 (exoneration heures supplementaires Sarkozy)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_013",
+      "raw_text": "Construire 14 nouveaux reacteurs nucleaires EPR d'ici 2050 et maintenir en service les 12 reacteurs menaces de fermeture",
+      "theme": "environnement",
+      "feasibility": {
+        "overall": 0.4,
+        "confidence": 0.6,
+        "ci_95": [
+          0.28,
+          0.52
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.25,
+            "confidence": 0.55,
+            "justification": "Le cout d'un EPR est estimes a 12-15 Md EUR (Flamanville : 19,1 Md EUR apres derapage). 14 EPR representent donc 170 a 270 Md EUR d'investissement sur 25 ans, soit 7 a 11 Md EUR/an. Le plan Macron (6 EPR2 + 8 en option) est plus modeste. Le maintien des 12 reacteurs menaces necessite des travaux de grand carenage estimes a 1-2 Md EUR par reacteur (12-24 Md EUR au total). L'investissement total serait de 200 a 300 Md EUR, un montant colossal meme reparti sur 25 ans. EDF (dette de 65 Md EUR fin 2022) ne peut pas porter seul cet investissement.",
+            "cout_estime_eur": "7 a 11 Md EUR/an sur 25 ans (investissement)",
+            "financement_credible": false,
+            "compatible_psmt": "depassement probable sans financement mixte (EDF + Etat + marches)"
+          },
+          "juridique": {
+            "score": 0.55,
+            "confidence": 0.6,
+            "justification": "La construction de reacteurs nucleaires est encadree par le Code de l'environnement et la loi relative a la transition energetique. La prolongation des reacteurs necessite l'avis de l'ASN (Autorite de Surete Nucleaire). Pas de conflit majeur avec le droit UE (le nucleaire est une competence nationale via Euratom). Cependant, les procedures d'autorisation (enquetes publiques, evaluations environnementales) prennent des annees. La loi acceleration du nucleaire (2023) a simplifie les procedures.",
+            "vehicule_legislatif": "Loi de programmation energetique + autorisations ASN",
+            "risque_censure_cc": "faible",
+            "conflit_droit_ue": "aucun (Euratom)"
+          },
+          "social": {
+            "score_acceptabilite": 0.55,
+            "score_impact": 0.65,
+            "confidence": 0.55,
+            "justification": "L'opinion francaise est devenue plus favorable au nucleaire post-crise energetique (2022). Cependant, les oppositions locales restent fortes (NIMBY) et les associations anti-nucleaires sont actives. Le maintien des vieux reacteurs suscite des inquietudes de surete. L'impact energetique serait positif (independance, decarbonation).",
+            "opposition_sociale": "moderee"
+          },
+          "factcheck": {
+            "score": 0.45,
+            "confidence": 0.55,
+            "justification": "Le plan Macron (2022) prevoit 6 EPR2 + 8 en option, soit 14 reacteurs au total, un chiffre identique. Cependant, le calendrier de 'Macron EPR' prevoit le premier EPR2 en service en 2035-2037 au plus tot. Construire 14 EPR d'ici 2050 suppose un rythme de construction de 1 EPR tous les 2 ans, ce qui est extremement ambitieux compte tenu des difficultés de Flamanville (12 ans de retard). La filiere industrielle (soudeurs, ingenieurs) n'est pas dimensionnee pour ce rythme.",
+            "verdict_global": "ambitieux_mais_partiellement_credible_sur_le_long_terme"
+          },
+          "historique": {
+            "score": 0.5,
+            "confidence": 0.65,
+            "justification": "La France a construit 58 reacteurs en 20 ans (1975-1995), soit un rythme de 3 reacteurs/an. Ce precedent montre que l'industrie nucleaire francaise est capable de construire a grande echelle. Mais depuis, la filiere s'est affaiblie (perte de competences, sous-investissement). Flamanville 3 (2007-2024, 19 Md EUR pour un cout initial de 3,3 Md) illustre les difficultes actuelles. Le 'grand carenage' pour prolonger les reacteurs existants a ete valide par l'ASN au cas par cas.",
+            "delai_realiste_mois": 300,
+            "precedent_principal": "Programme nucleaire francais 1975-1995 (58 reacteurs en 20 ans)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_014",
+      "raw_text": "Creer 10 000 places de prison supplementaires",
+      "theme": "securite",
+      "feasibility": {
+        "overall": 0.45,
+        "confidence": 0.7,
+        "ci_95": [
+          0.35,
+          0.55
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.35,
+            "confidence": 0.7,
+            "justification": "L'Institut Montaigne estime le cout a 2,8 Md EUR/an (investissement + fonctionnement). Le cout de construction d'une place de prison est d'environ 150 000 a 250 000 EUR (investissement). 10 000 places representent 1,5 a 2,5 Md EUR d'investissement. Le fonctionnement annuel (personnel, entretien) est d'environ 100 EUR/jour/detenu, soit 365 M EUR/an pour 10 000 places. L'IFRAP classe le renforcement securite-justice a 12 Md EUR (incluant d'autres mesures). Cout significatif dans un contexte de contrainte budgetaire.",
+            "cout_estime_eur": 2800000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.7,
+            "confidence": 0.75,
+            "justification": "La construction de prisons releve de la loi de programmation pour la justice et du budget de l'Etat. Le plan 15 000 places de Macron (2018) montre le cadre juridique existant. Pas de conflit avec le droit UE ni la Constitution. La CEDH a condamne la France pour conditions de detention indignes (arret JMB c. France 2020), ce qui soutient juridiquement la creation de places.",
+            "vehicule_legislatif": "Loi de programmation justice / PLF",
+            "risque_censure_cc": "nul",
+            "conflit_droit_ue": "aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.55,
+            "score_impact": 0.45,
+            "confidence": 0.6,
+            "justification": "L'opinion est generalement favorable a la construction de prisons (securite). Mais les oppositions locales (NIMBY) sont systematiques pour les sites d'implantation. L'impact sur la surpopulation carcerale serait positif (taux d'occupation actuel : 123%). Les associations de defense des droits contestent l'approche 'tout carceral'.",
+            "opposition_sociale": "moderee_locale"
+          },
+          "factcheck": {
+            "score": 0.5,
+            "confidence": 0.7,
+            "justification": "Le plan 15 000 places de Macron (2018) n'a abouti qu'a environ 4 500 places livrées en 6 ans (chiffres du ministere de la Justice). Le rythme de construction est systematiquement inferieur aux annonces. Les delais de construction (5-7 ans pour un etablissement), les oppositions locales et les contraintes budgetaires ralentissent considerablement les programmes. 10 000 places en 5 ans est un objectif ambitieux mais plus realiste que les 15 000 de Macron.",
+            "verdict_global": "partiellement_confirme_mais_delai_sous_estime"
+          },
+          "historique": {
+            "score": 0.4,
+            "confidence": 0.7,
+            "justification": "Le plan 15 000 places Macron (2018) = precedent direct : objectif ambitieux, realisation tres partielle (4 500 places en 6 ans). Le plan 13 200 places de Sarkozy (2012) n'a abouti qu'a environ 5 000 places. Chaque programme penitentiaire a historiquement livre 30-40% de l'objectif annonce dans les delais. Le recrutement de surveillants penitentiaires est un goulet d'etranglement majeur.",
+            "delai_realiste_mois": 84,
+            "precedent_principal": "Plan 15 000 places Macron 2018 (4 500 livrees en 6 ans)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_015",
+      "raw_text": "Accorder une prime de naissance de 10 000 euros pour les familles installees en milieu rural depuis plus de 2 ans",
+      "theme": "economie",
+      "feasibility": {
+        "overall": 0.45,
+        "confidence": 0.6,
+        "ci_95": [
+          0.33,
+          0.57
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.4,
+            "confidence": 0.55,
+            "justification": "Le cout depend du nombre de naissances en milieu rural et de la definition de 'milieu rural'. Environ 230 000 naissances/an en communes rurales (sur 700 000 au total). Si 50% des familles remplissent le critere de 2 ans, le cout serait d'environ 1,15 Md EUR/an. En ajoutant l'effet incitatif (plus de naissances rurales), le cout pourrait atteindre 1,5 a 2 Md EUR/an. Cout significatif mais pas hors de portee si finance.",
+            "cout_estime_eur": 1500000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.55,
+            "confidence": 0.6,
+            "justification": "Le critere territorial (milieu rural) et de duree de residence (2 ans) pose des questions de constitutionnalite : le CC protege le principe d'egalite (Art. 1 DDHC). Une differenciation territoriale est possible (precedent : zones de revitalisation rurale) mais doit etre justifiee par des criteres objectifs. Le critere de 2 ans de residence pourrait etre juge comme une atteinte a la liberte de circulation.",
+            "vehicule_legislatif": "PLFSS / PLF",
+            "risque_censure_cc": "moyen (criteres de differenciation)",
+            "conflit_droit_ue": "possible (discrimination indirecte liee a la nationalite)"
+          },
+          "social": {
+            "score_acceptabilite": 0.65,
+            "score_impact": 0.5,
+            "confidence": 0.55,
+            "justification": "Mesure populaire dans les zones rurales, coherente avec le sentiment d'abandon des territoires. Mais pourrait etre percue comme discriminatoire par les familles urbaines. L'impact sur la natalite rurale serait probablement modeste (les politiques natalistes ont des effets limites selon la recherche). L'impact sur la revitalisation rurale est incertain.",
+            "opposition_sociale": "faible"
+          },
+          "factcheck": {
+            "score": 0.5,
+            "confidence": 0.55,
+            "justification": "Aucun chiffrage officiel de cette mesure specifique. Les primes de naissance existantes (923 EUR actuellement) montrent un impact negligeable sur la natalite. La recherche (INED) montre que les aides financieres ont un effet marginal sur la decision d'avoir des enfants. Le montant de 10 000 EUR est cependant significatif et pourrait avoir un effet d'attraction vers le rural.",
+            "verdict_global": "impact_incertain"
+          },
+          "historique": {
+            "score": 0.45,
+            "confidence": 0.55,
+            "justification": "La prime de naissance actuelle (923 EUR) existe depuis longtemps. Les politiques natalistes francaises (quotient familial, allocations) sont documentees. Les ZRR (zones de revitalisation rurale) montrent que des aides territorialisees sont possibles mais ont des effets limites sur l'attractivite. Pas de precedent direct d'une prime de cette ampleur conditionnee a la residence rurale.",
+            "delai_realiste_mois": 12,
+            "precedent_principal": "Prime de naissance PAJE (923 EUR) + dispositifs ZRR"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_016",
+      "raw_text": "Doubler le plafond du quotient familial",
+      "theme": "economie",
+      "feasibility": {
+        "overall": 0.45,
+        "confidence": 0.7,
+        "ci_95": [
+          0.35,
+          0.55
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.3,
+            "confidence": 0.7,
+            "justification": "Le plafond du quotient familial est de 1 759 EUR par demi-part (2024). Le doubler a 3 518 EUR couterait environ 2 a 3 Md EUR/an selon les estimations (IFRAP : 3 Md EUR, credibilite haute). La mesure beneficie surtout aux familles aisees avec enfants (celles qui atteignent le plafond). Cout significatif sans financement identifie, mais ordre de grandeur gerable si isole.",
+            "cout_estime_eur": 3000000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.7,
+            "confidence": 0.75,
+            "justification": "La modification du quotient familial releve de la loi de finances (Art. 34). Le CC a valide le quotient familial comme un element du principe de capacite contributive. Le plafond avait ete abaisse par Hollande (2013, de 2 336 a 1 500 EUR) sans censure du CC. Le doublement inverse simplement cette tendance. Risque de censure faible.",
+            "vehicule_legislatif": "PLF (loi de finances)",
+            "risque_censure_cc": "faible",
+            "conflit_droit_ue": "aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.55,
+            "score_impact": 0.45,
+            "confidence": 0.6,
+            "justification": "Mesure beneficiant aux classes moyennes superieures et aisees avec enfants. Populaire chez les familles nombreuses et les classes moyennes. Critiquee par la gauche comme un 'cadeau fiscal' aux plus riches (le QF ne beneficie pas aux foyers non imposables). L'impact sur la natalite serait marginal selon la recherche.",
+            "opposition_sociale": "moderee"
+          },
+          "factcheck": {
+            "score": 0.7,
+            "confidence": 0.75,
+            "justification": "Le chiffrage de 3 Md EUR (IFRAP) est credible et coherent avec les estimations de la DGFiP. La mesure est techniquement simple a mettre en oeuvre (modification d'un parametre dans le bareme IR). Le doublement du plafond reverserait la baisse Hollande (2013-2014) et irait au-dela. L'impact redistributif est bien documente : les 20% de menages les plus aises captent l'essentiel de l'avantage.",
+            "verdict_global": "confirme"
+          },
+          "historique": {
+            "score": 0.7,
+            "confidence": 0.75,
+            "justification": "Le plafond du quotient familial a ete modifie a plusieurs reprises : baisse en 2013 (Hollande, de 2 336 a 1 500 EUR), puis revalorisation a 1 759 EUR. Les modifications sont frequentes en loi de finances. La mesure est techniquement simple et a des precedents directs. Sa reversibilite est totale.",
+            "delai_realiste_mois": 6,
+            "precedent_principal": "Abaissement du plafond QF par Hollande (2013, sens inverse)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_017",
+      "raw_text": "Recruter 50 000 accompagnants d'eleves en situation de handicap (AESH)",
+      "theme": "education",
+      "feasibility": {
+        "overall": 0.45,
+        "confidence": 0.65,
+        "ci_95": [
+          0.33,
+          0.57
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.35,
+            "confidence": 0.65,
+            "justification": "Le cout annuel d'un AESH est d'environ 20 000 EUR (temps partiel, remuneration faible). 50 000 AESH supplementaires couteraient environ 1 Md EUR/an en masse salariale. La France compte deja environ 130 000 AESH (2023). Le budget enseignement scolaire est le premier poste budgetaire (64,5 Md EUR). L'augmentation de 1 Md represente 1,5% du budget, un effort significatif mais pas deraisonnable. Cependant, sans financement identifie et dans le contexte PSMT, difficile.",
+            "cout_estime_eur": 1000000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.8,
+            "confidence": 0.8,
+            "justification": "Le recrutement d'AESH releve du budget de l'Education nationale (PLF). La loi de 2005 sur le handicap et la Convention relative aux droits des personnes handicapees (ONU, ratifiee par la France) imposent l'inclusion scolaire. Le recrutement d'AESH est une obligation legale partiellement remplie. Aucun obstacle juridique au recrutement supplementaire.",
+            "vehicule_legislatif": "PLF (credits de la mission enseignement scolaire)",
+            "risque_censure_cc": "nul",
+            "conflit_droit_ue": "aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.9,
+            "score_impact": 0.8,
+            "confidence": 0.75,
+            "justification": "Mesure consensuelle. Les familles d'enfants handicapes attendent depuis des annees un meilleur accompagnement. Les syndicats enseignants y sont favorables. Le Defenseur des droits a regulierement denonce le manque d'AESH. L'impact serait direct et mesurable pour des centaines de milliers d'eleves et leurs familles.",
+            "opposition_sociale": "nulle"
+          },
+          "factcheck": {
+            "score": 0.55,
+            "confidence": 0.65,
+            "justification": "Le nombre de 50 000 est ambitieux mais pas irrealiste : la France a recrute environ 80 000 AESH supplementaires entre 2017 et 2023. Le probleme principal n'est pas le recrutement mais la retention : les AESH sont mal payes (souvent a temps partiel, sous le SMIC), ce qui cree un turnover important. L'enjeu est autant la qualite des postes que la quantite.",
+            "verdict_global": "partiellement_confirme"
+          },
+          "historique": {
+            "score": 0.65,
+            "confidence": 0.7,
+            "justification": "Le nombre d'AESH a fortement augmente : de 50 000 en 2017 a 130 000 en 2023. Le recrutement massif est donc possible. Mais la precarite des postes (CDD, temps partiel, remuneration faible) est un probleme structurel recurrent. La CDisation des AESH (2022) a ameliore la situation mais sans resoudre le probleme salarial.",
+            "delai_realiste_mois": 36,
+            "precedent_principal": "Recrutement de 80 000 AESH supplementaires (2017-2023)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_018",
+      "raw_text": "Rembourser 50% des frais de carburant, avec un maximum de 40 euros par mois par automobiliste",
+      "theme": "economie",
+      "feasibility": {
+        "overall": 0.4,
+        "confidence": 0.6,
+        "ci_95": [
+          0.28,
+          0.52
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.3,
+            "confidence": 0.55,
+            "justification": "La France compte environ 40 millions d'automobilistes. Si 75% beneficient du remboursement a 40 EUR/mois max, le cout serait d'environ 14,4 Md EUR/an. Meme avec un taux de recours de 50%, le cout serait de 9,6 Md EUR/an. L'indemnite inflation Macron (2021-2022) et la remise sur les carburants (2022) ont coute environ 8 Md EUR sur un an. Cout tres eleve, incompatible avec le PSMT.",
+            "cout_estime_eur": 10000000000,
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.65,
+            "confidence": 0.65,
+            "justification": "La remise sur les carburants a deja ete mise en oeuvre (2022), validant le vehicule juridique. Le remboursement pourrait passer par un credit d'impot ou une aide directe. La mesure pourrait etre critiquee au regard des engagements climatiques (Loi climat europeenne) car elle incite a la consommation de carburants fossiles. Mais la France conserve sa souverainete fiscale sur les carburants.",
+            "vehicule_legislatif": "PLF / decret (aide exceptionnelle)",
+            "risque_censure_cc": "faible",
+            "conflit_droit_ue": "possible tension avec les objectifs climatiques"
+          },
+          "social": {
+            "score_acceptabilite": 0.75,
+            "score_impact": 0.55,
+            "confidence": 0.6,
+            "justification": "Mesure tres populaire aupres des automobilistes, surtout en zones rurales et periurbaines (gilets jaunes). L'impact sur le pouvoir d'achat serait direct mais modeste (max 40 EUR/mois). Les ecologistes s'y opposeraient (incitation aux energies fossiles). La mesure est anti-redistributive (beneficie plus aux gros rouleurs, souvent plus aises).",
+            "opposition_sociale": "faible"
+          },
+          "factcheck": {
+            "score": 0.55,
+            "confidence": 0.6,
+            "justification": "La remise sur les carburants de 2022 (18 a 30 centimes/litre) a coute environ 8 Md EUR et a ete jugee anti-redistributive par le Tresor (beneficiant davantage aux menages aises). Le plafond de 40 EUR/mois est plus cible mais le cout total reste tres eleve. Le chiffrage de 10 Md EUR est une estimation haute mais plausible.",
+            "verdict_global": "partiellement_confirme"
+          },
+          "historique": {
+            "score": 0.6,
+            "confidence": 0.65,
+            "justification": "Precedent direct : remise sur les carburants 2022 (18 puis 30 centimes/litre, puis ciblage sur les gros rouleurs). La mesure a ete mise en place rapidement (quelques semaines) mais abandonnee en raison de son cout. Le cheque energie et l'indemnite inflation constituent d'autres precedents. Les mesures temporaires de pouvoir d'achat sont techniquement realisables mais difficilement perennisables.",
+            "delai_realiste_mois": 3,
+            "precedent_principal": "Remise carburants 2022 (18-30 c/l, 8 Md EUR)"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_019",
+      "raw_text": "Exonerer les primo-accedants de moins de 30 ans des droits de mutation pour les biens de moins de 250 000 euros",
+      "theme": "logement",
+      "feasibility": {
+        "overall": 0.5,
+        "confidence": 0.65,
+        "ci_95": [
+          0.38,
+          0.62
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.45,
+            "confidence": 0.6,
+            "justification": "Les droits de mutation (DMTO) representent environ 5-7% du prix d'un bien immobilier. Les primo-accedants de moins de 30 ans achetant a moins de 250 000 EUR representent un segment significatif mais delimitee du marche. Le cout depend du nombre de transactions eligibles. Environ 350 000 primo-accedants/an dont une partie de moins de 30 ans (estimation : 100 000-150 000) achete a moins de 250 000 EUR. Le manque a gagner serait de 1 a 2 Md EUR/an. ATTENTION : les DMTO sont une recette des departements, deja en difficulte financiere (DMTO en baisse de 33% depuis 2023).",
+            "cout_estime_eur": 1500000000,
+            "financement_credible": false,
+            "compatible_psmt": "non directement (recette des collectivites)"
+          },
+          "juridique": {
+            "score": 0.55,
+            "confidence": 0.65,
+            "justification": "Les DMTO sont percu par les departements (Art. 1594 A du CGI). L'Etat peut modifier le taux mais doit compenser les collectivites (principe de compensation financiere). Le critere d'age (<30 ans) pose un probleme d'egalite devant la loi mais peut etre justifie par un objectif d'interet general (acces au logement des jeunes). Le CC tolere les differences de traitement fondees sur des criteres objectifs.",
+            "vehicule_legislatif": "PLF",
+            "risque_censure_cc": "moyen (critere d'age)",
+            "conflit_droit_ue": "aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.75,
+            "score_impact": 0.55,
+            "confidence": 0.6,
+            "justification": "Mesure populaire aupres des jeunes et des familles. L'acces a la propriete est une preoccupation majeure des 18-30 ans (crise du logement). Les departements s'y opposeraient vigoureusement car les DMTO representent 20-30% de leurs recettes, deja en chute. L'impact sur les prix immobiliers est debattu (effet inflationniste possible).",
+            "opposition_sociale": "faible_chez_les_jeunes_forte_chez_les_departements"
+          },
+          "factcheck": {
+            "score": 0.6,
+            "confidence": 0.6,
+            "justification": "L'estimation de 1 a 2 Md EUR de manque a gagner est plausible. L'impact sur l'acces a la propriete serait reel mais modeste (economie de 12 500 a 17 500 EUR pour un bien de 250 000 EUR). Le risque d'effet inflationniste existe (transfert aux vendeurs). Le seuil de 250 000 EUR exclut les grandes villes (ou les prix depassent largement ce montant), ciblant de facto les zones periurbaines et rurales.",
+            "verdict_global": "partiellement_confirme"
+          },
+          "historique": {
+            "score": 0.55,
+            "confidence": 0.6,
+            "justification": "Des exonerations de DMTO existent deja pour certains cas (logements neufs en zone ANRU, mutation a titre gratuit sous conditions). Le pret a taux zero (PTZ) est un precedent d'aide ciblee sur les primo-accedants. La reforme des DMTO est regulierement debattue mais les departements s'y opposent systematiquement car c'est leur principale recette autonome.",
+            "delai_realiste_mois": 12,
+            "precedent_principal": "Pret a taux zero (PTZ) pour primo-accedants"
+          }
+        }
+      }
+    },
+    {
+      "promise_id": "zemmour_020",
+      "raw_text": "Instaurer les 39 heures dans la fonction publique",
+      "theme": "emploi",
+      "feasibility": {
+        "overall": 0.35,
+        "confidence": 0.65,
+        "ci_95": [
+          0.25,
+          0.45
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.55,
+            "confidence": 0.55,
+            "justification": "L'instauration des 39h dans la fonction publique (au lieu de 35h) representerait une augmentation de 11,4% du temps de travail. Si cela se fait sans augmentation salariale (salaire inchange pour plus d'heures), les economies pourraient atteindre 4 a 6 Md EUR/an (equivalent de suppressions de postes en ETP). Avec compensation salariale partielle, les economies seraient moindres. Cependant, l'augmentation du temps de travail pourrait aussi generer des couts (heures supplementaires, absences accrues). La RGPP (2007-2012) avait degage 6 Md EUR nets en 5 ans par non-remplacement, un ordre de grandeur comparable.",
+            "cout_estime_eur": -5000000000,
+            "financement_credible": true,
+            "compatible_psmt": true
+          },
+          "juridique": {
+            "score": 0.4,
+            "confidence": 0.65,
+            "justification": "La duree du travail dans la fonction publique releve de la loi (statut general des fonctionnaires). La modification necessite une loi ordinaire. Cependant, la directive europeenne 2003/88/CE fixe un maximum de 48h/semaine avec des regles de repos. 39h ne pose pas de probleme en soi. Le risque juridique principal est le Conseil d'Etat : les organisations syndicales contesteraient la mesure. La question de la compensation salariale est centrale : pas de compensation = baisse du taux horaire, ce qui pose des problemes de droit du travail meme dans la fonction publique.",
+            "vehicule_legislatif": "Loi ordinaire modifiant le statut general des fonctionnaires",
+            "risque_censure_cc": "faible sur le principe, moyen si pas de compensation",
+            "conflit_droit_ue": "aucun (39h < plafond UE de 48h)"
+          },
+          "social": {
+            "score_acceptabilite": 0.2,
+            "score_impact": 0.4,
+            "confidence": 0.65,
+            "justification": "Opposition massive des syndicats de la fonction publique (CGT, FO, CFDT, FSU). Les 35h sont considerees comme un acquis social fondamental. Les mouvements de greve seraient importants et prolonges. L'impact sur les services publics dependrait de la mise en oeuvre (plus d'heures = meilleur service ou demotivation/absenteisme). Les precedents montrent que les reformes de la duree du travail des fonctionnaires generent des conflits sociaux majeurs.",
+            "opposition_sociale": "tres_forte"
+          },
+          "factcheck": {
+            "score": 0.5,
+            "confidence": 0.6,
+            "justification": "L'estimation d'economies de 4 a 6 Md EUR est credible si le passage se fait sans compensation salariale complete. Cependant, la duree effective du travail dans la fonction publique est deja superieure a 35h pour de nombreux agents (cadres A, enseignants). La Cour des comptes a note que de nombreuses collectivites n'appliquent pas les 1 607 heures annuelles legales (inferieur). L'enjeu est autant le respect des 35h existantes que le passage a 39h.",
+            "verdict_global": "partiellement_confirme"
+          },
+          "historique": {
+            "score": 0.25,
+            "confidence": 0.65,
+            "justification": "Les 35h ont ete instaurees par les lois Aubry (1998-2000). Les tentatives d'augmentation de la duree du travail se sont limitees a des assouplissements (loi TEPA 2007 : heures supplementaires defiscalisees, mais pas de retour aux 39h). Aucun pays europeen n'a reussi a augmenter la duree legale du travail dans sa fonction publique apres l'avoir baissee. En Allemagne, la duree conventionnelle dans le secteur public varie de 38,5 a 40h selon les Lander.",
+            "delai_realiste_mois": 24,
+            "precedent_principal": "Loi TEPA 2007 (assouplissement des 35h sans retour formel aux 39h)"
+          }
+        }
+      }
+    }
+  ],
+  "comparison_summary": {
+    "institut_montaigne_balance": {
+      "total_spending_cuts_eur": 50000000000,
+      "total_new_spending_eur": -32000000000,
+      "net_balance_annual_eur": -5000000000,
+      "assessment": "Programme presentant un deficit modere de 5 Md EUR mais reposant sur des economies liees a la reduction de l'immigration largement non chiffrables et juridiquement contestables.",
+      "source": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/synthese/"
+    },
+    "ifrap_balance": {
+      "total_new_spending_eur": -32000000000,
+      "total_spending_cuts_eur": 50000000000,
+      "assessment": "Programme reposant largement sur des economies liees a la reduction de l'immigration. Les economies sont les moins documentees et les plus incertaines de tous les candidats.",
+      "source": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-deric-zemmour"
+    },
+    "ranking_vs_other_candidates": {
+      "deficit_impact": "Egal avec Pecresse (-5 Md EUR/an), bien meilleur que Le Pen (-101,8 Md) et Melenchon (-218,9 Md), mais dependant d'economies immigration non credibles.",
+      "credibility_gap": "L'ecart entre les economies annoncees (50 Md EUR) et les economies credibles est le plus large de tous les candidats en proportion. Les 16-20 Md EUR d'economies immigration sont juges a credibilite faible tant par l'Institut Montaigne que par l'IFRAP."
+    },
+    "mesures_par_faisabilite": {
+      "plus_faisables": [
+        {
+          "id": "zemmour_001",
+          "score": 0.82,
+          "label": "Retraite a 64 ans (deja realisee en 2023)"
+        },
+        {
+          "id": "zemmour_012",
+          "score": 0.5,
+          "label": "Exoneration heures supplementaires"
+        },
+        {
+          "id": "zemmour_019",
+          "score": 0.5,
+          "label": "Exoneration DMTO primo-accedants <30 ans"
+        }
+      ],
+      "moins_faisables": [
+        {
+          "id": "zemmour_007",
+          "score": 0.05,
+          "label": "Limiter l'asile a 100 personnes/an"
+        },
+        {
+          "id": "zemmour_008",
+          "score": 0.1,
+          "label": "Supprimer droit du sol et aides aux etrangers"
+        },
+        {
+          "id": "zemmour_010",
+          "score": 0.12,
+          "label": "Ministere de la Remigration"
+        }
+      ]
+    },
+    "obstacles_structurels": [
+      "Les mesures phares sur l'immigration necessitent des revisions constitutionnelles (Art. 89) quasi-impossibles sans consensus transpartisan",
+      "Le programme cumule des depenses massives (defense +14,6 Md, EHPAD +12,4 Md, CSG -18,5 Md, impots production -25,2 Md) sans financement credible",
+      "Les economies liees a l'immigration (16-20 Md EUR) sont jugees non chiffrables par les deux instituts de reference",
+      "La France est sous procedure de deficit excessif : toute aggravation du deficit est soumise a la surveillance europeenne",
+      "L'Assemblee nationale (RN+NFP=319>289) rend l'adoption de mesures clivantes possible par coalition, mais les mesures immigration/identitaires ne trouveraient pas de majorite",
+      "Le Conseil constitutionnel a montre sa vigilance sur les lois immigration (32 articles censures en 2024)"
+    ]
+  },
+  "sources": [
+    {
+      "name": "Institut Montaigne",
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/synthese/"
+    },
+    {
+      "name": "IFRAP",
+      "url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-deric-zemmour"
+    },
+    {
+      "name": "INSEE",
+      "url": "https://www.insee.fr/fr/statistiques/8574492"
+    },
+    {
+      "name": "Cour des comptes",
+      "url": "https://www.ccomptes.fr/fr/publications/situation-financiere-et-perspectives-du-systeme-de-retraites"
+    },
+    {
+      "name": "HCFP",
+      "url": "https://www.hcfp.fr/en/liste-avis/opinion-ndeg2025-3-annual-progress-report-2025"
+    },
+    {
+      "name": "Conseil constitutionnel - Loi immigration 2024",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2024/2023863DC.htm"
+    },
+    {
+      "name": "Conseil constitutionnel - Retraites 2023",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023849DC.htm"
+    },
+    {
+      "name": "Budget.gouv.fr",
+      "url": "https://www.budget.gouv.fr/reperes/budget/articles/chiffres-cles-budget-etat-2025"
+    },
+    {
+      "name": "Conseil UE - Deficit excessif",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2024/07/26/stability-and-growth-pact-council-launches-excessive-deficit-procedures-against-seven-member-states/"
+    },
+    {
+      "name": "Convention de Geneve 1951",
+      "url": "https://www.unhcr.org/fr/a-propos/textes-fondateurs/convention-geneve-1951-relative-statut-refugies"
+    },
+    {
+      "name": "Programme Zemmour",
+      "url": "https://programme.ericzemmour.fr/"
+    },
+    {
+      "name": "Public Senat",
+      "url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme"
+    }
+  ]
+}

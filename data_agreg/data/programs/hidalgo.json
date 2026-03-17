@@ -1,0 +1,821 @@
+{
+  "candidate": "Anne Hidalgo",
+  "party": "Parti Socialiste (PS)",
+  "election": "Presidentielle 2022",
+  "source_urls": [
+    "https://www.2022avechidalgo.fr/notre_programme",
+    "https://www.institutmontaigne.org/presidentielle-2022/anne-hidalgo/",
+    "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-anne-hidalgo",
+    "https://www.franceinfo.fr/elections/presidentielle/revalorisation-du-smic-isf-climatique-droit-de-vote-a-16-ans-ce-que-contient-le-programme-d-anne-hidalgo-pour-la-presidentielle_4915085.html",
+    "https://www.franceinter.fr/politique/salaires-fin-de-vie-climat-voici-les-principales-mesures-du-programme-d-anne-hidalgo"
+  ],
+  "promises": [
+    {
+      "id": "hidalgo_001",
+      "raw_text": "Augmenter le SMIC net de 15%, soit environ 200 euros net supplementaires par mois, portant le SMIC net a 1469 euros, dans le cadre d'une revalorisation massive des salaires et d'une revision des grilles de qualification dans les conventions collectives",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/anne-hidalgo/augmenter-le-smic-net-a-1-469-e/",
+      "source_type": "institut_montaigne",
+      "theme": "economie",
+      "action_verb": "augmenter",
+      "action_object": "SMIC net mensuel",
+      "quantification": {
+        "value": 15,
+        "unit": "pourcent"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "debut de quinquennat 2022-2027",
+      "target_population": "salaries au SMIC",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo presentait la hausse du SMIC comme une priorite pour revaloriser le travail, en particulier pour les travailleurs essentiels reveles par la pandemie. Elle souhaitait que le travail permette de 'vivre dignement' et accompagnait cette mesure d'une revision des grilles de qualification dans les conventions collectives pour que les augmentations profitent au plus grand nombre.",
+      "sources_croisees": [
+        {
+          "url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-anne-hidalgo",
+          "type": "think_tank",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://2022avechidalgo.fr/augmenter_les_salaires",
+          "type": "programme_officiel",
+          "orientation": "gauche"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_002",
+      "raw_text": "Porter progressivement la remuneration des enseignants au niveau de celui des cadres, en commencant par les debuts de carriere, avec un salaire d'entree a 2300 euros pour les jeunes professeurs des ecoles, avec l'objectif d'atteindre le niveau de remuneration europeen des enseignants sur un quinquennat",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/anne-hidalgo/porter-progressivement-la-remuneration-des-enseignants-au-niveau-de-celui-des-cadres-en-commencant-par-les-debuts-de-carriere/",
+      "source_type": "institut_montaigne",
+      "theme": "education",
+      "action_verb": "porter",
+      "action_object": "remuneration des enseignants au niveau des cadres",
+      "quantification": {
+        "value": 2300,
+        "unit": "EUR/mois entree de carriere"
+      },
+      "cost_announced": {
+        "amount_eur": 7300000000,
+        "periodicity": "annuel a terme",
+        "source": "institut_montaigne"
+      },
+      "funding_source": null,
+      "timeline": "progressif sur le quinquennat 2022-2027",
+      "target_population": "enseignants de l'Education nationale",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo justifiait cette mesure par le retard salarial des enseignants francais par rapport a leurs homologues europeens, affirmant vouloir atteindre 'le niveau de remuneration des enseignants dans toute l'Europe, qui est le double de la remuneration de nos enseignants'. Elle en faisait une condition de l'attractivite du metier et de la qualite de l'ecole publique.",
+      "sources_croisees": [
+        {
+          "url": "https://www.franceinfo.fr/politique/anne-hidalgo/salaires-des-enseignants-anne-hidalgo-veut-demarrer-la-remuneration-d-entree-des-jeunes-professeurs-des-ecoles-a-2300euros_4915103.html",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_003",
+      "raw_text": "Instaurer un ISF climatique : Impot de solidarite sur la fortune climatique et biodiversite, avec surtaxation des placements lies aux energies fossiles, dont les recettes (environ 5 milliards d'euros par an) seraient integralement dediees a un fonds d'accompagnement de la transition ecologique pour les menages les plus modestes",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/anne-hidalgo/instaurer-un-isf-climatique/",
+      "source_type": "institut_montaigne",
+      "theme": "environnement",
+      "action_verb": "instaurer",
+      "action_object": "ISF climatique et biodiversite",
+      "quantification": null,
+      "cost_announced": {
+        "amount_eur": -3000000000,
+        "periodicity": "annuel",
+        "source": "ifrap"
+      },
+      "funding_source": "recettes fiscales nouvelles sur les patrimoines fossiles",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "menages aises detenant des placements fossiles",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Hidalgo voulait retablir l'ISF supprime en 2017, en le reorientant vers la transition ecologique. Les recettes devaient financer un fonds pour aider les menages modestes dans la transition (acquisition de vehicules electriques, isolation des logements), afin que les plus precaires ne supportent pas le cout de la transition ecologique. Les investissements lies aux energies fossiles seraient soumis a une taxation renforcee.",
+      "sources_croisees": [
+        {
+          "url": "https://www.franceinfo.fr/politique/anne-hidalgo/video-presidentielle-2022-l-isf-climatique-d-anne-hidalgo-alimentera-un-fonds-d-accompagnement-de-la-transition-ecologique_4820889.html",
+          "type": "presse",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.linfodurable.fr/politique/cinq-infos-cles-pour-tout-comprendre-lisf-climatique-30412",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_004",
+      "raw_text": "Maintenir l'age legal de depart a la retraite a 62 ans ('sanctuariser'), revaloriser les petites retraites en portant le minimum vieillesse a 1000 euros net et le minimum contributif a 1200 euros net, et retablir les 4 criteres de penibilite supprimes (manutention de charges lourdes, postures penibles, vibrations mecaniques, exposition aux agents chimiques)",
+      "source_url": "https://www.franceinfo.fr/elections/presidentielle/revalorisation-du-smic-isf-climatique-droit-de-vote-a-16-ans-ce-que-contient-le-programme-d-anne-hidalgo-pour-la-presidentielle_4915085.html",
+      "source_type": "presse",
+      "theme": "retraites",
+      "action_verb": "maintenir",
+      "action_object": "age legal de depart a la retraite a 62 ans et revalorisation des minima",
+      "quantification": {
+        "value": 62,
+        "unit": "ans"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "retraites et futurs retraites",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo s'opposait a tout recul de l'age legal de depart a la retraite, declarant vouloir 'sanctuariser a 62 ans l'age de depart'. Pour le financement, elle comptait sur l'augmentation generalisee des salaires et une lutte implacable contre la fraude et l'optimisation fiscale. Le retablissement des criteres de penibilite visait a corriger ce qu'elle considerait comme une injustice du quinquennat Macron.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/anne-hidalgo/porter-le-montant-net-du-minimum-vieillesse-a-1-000e-et-du-minimum-contributif-a-1-200e/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.lafinancepourtous.com/2022/03/25/elections-presidentielles-les-propositions-des-candidats-sur-la-retraite/",
+          "type": "association_pedagogique",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_005",
+      "raw_text": "Abroger la reforme de l'assurance-chomage decidee par le gouvernement et confier aux partenaires sociaux la negociation d'une assurance-chomage universelle adaptee aux besoins actuels, pleinement accessible aux jeunes, securisant les transitions professionnelles et facilitant la formation continue",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/anne-hidalgo/abroger-la-reforme-de-lassurance-chomage/",
+      "source_type": "institut_montaigne",
+      "theme": "emploi",
+      "action_verb": "abroger",
+      "action_object": "reforme de l'assurance-chomage de 2021",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "debut de quinquennat",
+      "target_population": "demandeurs d'emploi",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo qualifiait la reforme de l'assurance-chomage du gouvernement d''injuste' et souhaitait redonner la main aux partenaires sociaux pour negocier un systeme adapte aux realites du marche du travail. Le cout de l'abrogation etait estime entre 1,8 et 2,3 milliards d'euros. La nouvelle assurance-chomage devait etre universelle, accessible aux jeunes et favoriser les transitions professionnelles face aux mutations economiques.",
+      "sources_croisees": [
+        {
+          "url": "https://www.parti-socialiste.fr/abrogation_reforme_chomage",
+          "type": "parti_politique",
+          "orientation": "gauche"
+        },
+        {
+          "url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-danne-hidalgo-parti-socialiste-en-matiere-de-protection-sociale-infographie.html",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_006",
+      "raw_text": "Allouer 5000 euros a chaque jeune a ses 18 ans, sans critere social, pour financer ses projets professionnels et personnels (creation d'entreprise, mobilite, installation dans un logement, permis de conduire), comme mesure d'egalite, de justice et de confiance envers la jeunesse",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/anne-hidalgo/allouer-5-000-euros-aux-jeunes-a-leur-18-ans-sans-critere-social/",
+      "source_type": "institut_montaigne",
+      "theme": "economie",
+      "action_verb": "allouer",
+      "action_object": "dotation universelle de 5000 euros aux jeunes de 18 ans",
+      "quantification": {
+        "value": 5000,
+        "unit": "EUR par jeune"
+      },
+      "cost_announced": {
+        "amount_eur": 4000000000,
+        "periodicity": "annuel",
+        "source": "institut_montaigne"
+      },
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "tous les jeunes atteignant 18 ans (environ 800000 par an)",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo presentait cette dotation comme 'une mesure d'egalite et de justice, et de confiance envers la jeunesse'. L'objectif etait de donner a chaque jeune les moyens de son emancipation en finançant des projets concrets : creation d'entreprise, mobilite nationale ou internationale, installation dans un logement ou obtention du permis de conduire. La mesure etait universelle, sans condition de ressources.",
+      "sources_croisees": [
+        {
+          "url": "https://www.franceinfo.fr/economie/emploi/carriere/entreprendre/aides/video-dotation-de-5000-euros-a-18-ans-anne-hidalgo-sexplique-et-reconnait-une-imprecision_4929523.html",
+          "type": "presse",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://2022avechidalgo.fr/donner_aux_jeunes_les_moyens_de_leur_autonomie",
+          "type": "programme_officiel",
+          "orientation": "gauche"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_007",
+      "raw_text": "Generaliser l'encadrement des loyers dans toutes les zones tendues et mettre en place un bouclier logement, en s'appuyant sur l'experience reussie a Paris et a Lille pour proteger les locataires face a la hausse des loyers",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/anne-hidalgo/generaliser-lencadrement-des-loyers-a-lensemble-du-territoire/",
+      "source_type": "institut_montaigne",
+      "theme": "logement",
+      "action_verb": "generaliser",
+      "action_object": "encadrement des loyers en zones tendues",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "locataires en zones tendues",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "liberal",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo s'appuyait sur son experience de maire de Paris pour justifier cette mesure, declarant : 'Ce que nous avons fait a Paris, dans d'autres villes aussi, a Lille. Je proposerai une generalisation a toutes les zones tendues.' Elle souhaitait proteger les locataires face a l'envolee des prix et garantir l'acces au logement pour les classes moyennes et populaires.",
+      "sources_croisees": [
+        {
+          "url": "https://immopotam.com/actualites-informations-news-presidentielle-2022-analyses-conseils-immobilier-logement-patrimoine-real-estate/logement-le-programme-danne-hidalgo-parti-socialiste-redaction-0604202210004022333",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_008",
+      "raw_text": "Construire 150000 logements sociaux par an dont un tiers de logements tres sociaux (environ 60000), en s'appuyant sur les maires batisseurs, conformement a l'objectif porte par la Fondation Abbe Pierre",
+      "source_url": "https://www.batiactu.com/edito/logement-je-suis-cote-maires-batisseurs-promet-candidate-63487.php",
+      "source_type": "presse",
+      "theme": "logement",
+      "action_verb": "construire",
+      "action_object": "logements sociaux neufs par an",
+      "quantification": {
+        "value": 150000,
+        "unit": "logements/an"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "menages modestes et classes moyennes",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo declarait etre 'du cote des maires batisseurs' et reprenait l'objectif de la Fondation Abbe Pierre de 150000 logements sociaux par an dont 60000 tres sociaux. Elle justifiait cette mesure par la crise du logement et la necessite de garantir un toit digne a chaque famille, tout en s'appuyant sur les collectivites locales comme moteur de la construction.",
+      "sources_croisees": [
+        {
+          "url": "https://www.lejdd.fr/Politique/presidentielle-2022-ce-que-proposent-les-candidats-sur-le-logement-4091718",
+          "type": "presse",
+          "orientation": "centre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_009",
+      "raw_text": "Atteindre 100% d'energies renouvelables aussi rapidement que possible, sans construction de nouveaux EPR ni SMR, le nucleaire restant une energie de transition dont la duree de vie des centrales existantes serait definie sous le controle de l'ASN et du Parlement, avec la majorite des investissements energetiques orientes vers les renouvelables",
+      "source_url": "https://2022avechidalgo.fr/des_energies_renouvelables_a_cent_pour_cent_aussi_rapidement_que_possible",
+      "source_type": "programme_officiel",
+      "theme": "environnement",
+      "action_verb": "atteindre",
+      "action_object": "100% d'energies renouvelables",
+      "quantification": {
+        "value": 100,
+        "unit": "pourcent ENR"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "aussi rapidement que possible",
+      "target_population": "ensemble de la population",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo positionnait les energies renouvelables comme la solution pour decarboner l'industrie le plus rapidement possible, tout en gardant le nucleaire comme energie de transition sans sortie precipitee pour eviter une flambee des prix de l'energie. Elle refusait la construction de nouveaux EPR ou SMR et souhaitait presenter un pacte energetique dans les premiers mois de son mandat.",
+      "sources_croisees": [
+        {
+          "url": "https://www.batiactu.com/edito/a-hidalgo-ne-veut-pas-lacher-nucleaire-et-espere-massifier-63548.php",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://reseauactionclimat.org/presidentielle-que-vaut-anne-hidalgo-pour-le-climat/",
+          "type": "association",
+          "orientation": "ecologiste"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_010",
+      "raw_text": "Inscrire dans la Constitution la protection des biens communs et de la biodiversite, le principe de non-regression en matiere environnementale, et l'obligation de lutter contre le rechauffement climatique. Definir et punir le crime d'ecocide contre les atteintes graves et intentionnelles a l'environnement, et soutenir la creation d'une Cour penale internationale de l'Environnement au sein de l'ONU",
+      "source_url": "https://www.franceinfo.fr/elections/presidentielle/revalorisation-du-smic-isf-climatique-droit-de-vote-a-16-ans-ce-que-contient-le-programme-d-anne-hidalgo-pour-la-presidentielle_4915085.html",
+      "source_type": "presse",
+      "theme": "environnement",
+      "action_verb": "inscrire",
+      "action_object": "protection du climat et de la biodiversite dans la Constitution",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble de la population",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo souhaitait donner une valeur constitutionnelle a la lutte contre le rechauffement climatique et a la protection de la biodiversite, en inscrivant le principe de non-regression environnementale. Elle proposait egalement la creation d'un Defenseur de l'environnement sur le modele du Defenseur des droits, et soutenait l'instauration d'une Cour penale internationale de l'environnement pour poursuivre les atteintes graves au niveau mondial.",
+      "sources_croisees": [
+        {
+          "url": "https://2022avechidalgo.fr/l_ecologie_le_combat_du_siecle",
+          "type": "programme_officiel",
+          "orientation": "gauche"
+        },
+        {
+          "url": "https://www.greenpeace.fr/presidentielle-2022-anne-hidalgo/",
+          "type": "association",
+          "orientation": "ecologiste"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_011",
+      "raw_text": "Mettre en place un referendum d'initiative citoyenne (RIC) pouvant etre declenche apres un million de signatures, en abaissant le seuil du RIP de 4,5 millions a 1 million, pour faire du referendum un mode normal de participation citoyenne",
+      "source_url": "https://www.franceinfo.fr/elections/presidentielle/revalorisation-du-smic-isf-climatique-droit-de-vote-a-16-ans-ce-que-contient-le-programme-d-anne-hidalgo-pour-la-presidentielle_4915085.html",
+      "source_type": "presse",
+      "theme": "institutions",
+      "action_verb": "mettre en place",
+      "action_object": "referendum d'initiative citoyenne (RIC)",
+      "quantification": {
+        "value": 1000000,
+        "unit": "signatures"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des citoyens",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo justifiait cette mesure par la necessite de renouveler la democratie et de donner de nouveaux droits aux citoyens, declarant vouloir 'couper l'herbe sous le pied des populistes' en instaurant davantage de democratie directe. Le RIC et l'abaissement du seuil du RIP visaient a faire du referendum un mode normal de participation citoyenne durant le quinquennat.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/anne-hidalgo/creer-un-referendum-dinitiative-citoyenne/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-ric-rip-50-nuances-de-referendums-dans-les-programmes-des-candidats",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_012",
+      "raw_text": "Abaisser le droit de vote a 16 ans, accorder le droit de vote aux etrangers pour les elections locales, et prendre en compte le vote blanc dans les resultats electoraux avec la possibilite d'annuler une election si le vote blanc est majoritaire",
+      "source_url": "https://www.franceinfo.fr/elections/presidentielle/revalorisation-du-smic-isf-climatique-droit-de-vote-a-16-ans-ce-que-contient-le-programme-d-anne-hidalgo-pour-la-presidentielle_4915085.html",
+      "source_type": "presse",
+      "theme": "institutions",
+      "action_verb": "abaisser",
+      "action_object": "age du droit de vote a 16 ans et reconnaissance du vote blanc",
+      "quantification": {
+        "value": 16,
+        "unit": "ans"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "jeunes de 16-17 ans et etrangers residant en France",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo souhaitait moderniser le systeme electoral pour renforcer la participation democratique. Sur le vote blanc, elle declarait 'je souhaite le reconnaitre et le prendre en compte' avec 'plusieurs possibilites' dont l'annulation de l'election. L'abaissement du droit de vote a 16 ans s'inscrivait dans un mouvement porte par plusieurs candidats de gauche pour impliquer davantage la jeunesse dans la vie democratique.",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/anne-hidalgo/abaisser-lage-legal-du-droit-de-vote-a-16-ans-2/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        },
+        {
+          "url": "https://www.lejdd.fr/Politique/hidalgo-jadot-melenchon-pourquoi-ils-proposent-tous-le-droit-de-vote-a-16-ans-4073620",
+          "type": "presse",
+          "orientation": "centre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_013",
+      "raw_text": "Porter le conge paternite a 16 semaines dont 6 obligatoires, sur le modele espagnol, dans le cadre d'une politique d'egalite entre les femmes et les hommes et de soutien a la parentalite",
+      "source_url": "https://www.lejdd.fr/Politique/presidentielle-2022-quelles-sont-les-quatre-mesures-phares-de-la-candidate-socialiste-anne-hidalgo-4088361",
+      "source_type": "presse",
+      "theme": "emploi",
+      "action_verb": "porter",
+      "action_object": "conge paternite a 16 semaines",
+      "quantification": {
+        "value": 16,
+        "unit": "semaines"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "peres de nouveau-nes",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo s'inspirait du modele espagnol pour porter le conge paternite de 1 mois a 16 semaines dont 6 obligatoires, afin de promouvoir l'egalite entre les femmes et les hommes dans la sphere familiale et professionnelle. Cette mesure visait a mieux repartir les responsabilites parentales et a reduire les inegalites de carriere liees a la maternite.",
+      "sources_croisees": [
+        {
+          "url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-danne-hidalgo-parti-socialiste-en-matiere-de-protection-sociale-infographie.html",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.lejdd.fr/Politique/presidentielle-2022-ce-que-proposent-les-candidats-pour-reduire-les-inegalites-femmes-hommes-4091936",
+          "type": "presse",
+          "orientation": "centre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_014",
+      "raw_text": "Transformer le financement public hospitalier en remplacant l'ONDAM par des Objectifs nationaux de sante publique (ONSP) debattus par le Parlement chaque annee au premier semestre, garantissant un financement a la hauteur des besoins sanitaires et mettant fin a la logique de l'hopital-entreprise, avec modification des regles de tarification a l'activite",
+      "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-danne-hidalgo-parti-socialiste-en-matiere-de-protection-sociale-infographie.html",
+      "source_type": "presse",
+      "theme": "sante",
+      "action_verb": "transformer",
+      "action_object": "financement hospitalier en remplacant l'ONDAM par des ONSP",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble des usagers du systeme de sante",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo voulait mettre fin a la logique de l'hopital-entreprise qu'elle jugeait responsable de la degradation du service public hospitalier. Les ONSP devaient remplacer l'ONDAM pour fonder la gestion des depenses de sante sur des objectifs de sante publique plutot que sur des indicateurs purement budgetaires. Les regles de tarification a l'activite seraient modifiees pour garantir aux hopitaux publics des ressources correspondant aux besoins sanitaires.",
+      "sources_croisees": [
+        {
+          "url": "https://www.egora.fr/actus-pro/politique/73022-pdsa-4e-annee-d-internat-fin-de-l-ondam-le-programme-sante-d-anne-hidalgo",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://2022avechidalgo.fr/consolider_le_role_de_l_hopital_public_comme_pilier_de_la_sante_des_francais",
+          "type": "programme_officiel",
+          "orientation": "gauche"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_015",
+      "raw_text": "Revaloriser les salaires et les carrieres a l'hopital public pour rendre les metiers hospitaliers plus attractifs, en augmentant les capacites de formation (jusqu'a 15000 medecins par an, 1250 sages-femmes, 25000 infirmiers et aides-soignants, 5000 personnels logistiques et techniciens), dans la continuite du Segur de la sante",
+      "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-danne-hidalgo-parti-socialiste-en-matiere-de-protection-sociale-infographie.html",
+      "source_type": "presse",
+      "theme": "sante",
+      "action_verb": "revaloriser",
+      "action_object": "salaires et carrieres du personnel hospitalier",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "personnels hospitaliers",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo voulait poursuivre et amplifier les revalorisations du Segur de la sante pour rendre les metiers hospitaliers attractifs face a la crise des vocations. Elle proposait d'augmenter massivement les capacites de formation (jusqu'a 15000 medecins par an) et de revaloriser les carrieres de l'ensemble des personnels hospitaliers, des soignants aux techniciens, pour enrayer la fuite des competences vers le secteur prive.",
+      "sources_croisees": [
+        {
+          "url": "https://2022avechidalgo.fr/consolider_le_role_de_l_hopital_public_comme_pilier_de_la_sante_des_francais",
+          "type": "programme_officiel",
+          "orientation": "gauche"
+        },
+        {
+          "url": "https://www.argusdelassurance.com/assurance-de-personnes/sante/sante-anne-hidalgo-devoile-son-programme.193447",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_016",
+      "raw_text": "Lancer une conference salariale nationale reunissant organisations patronales et syndicats pour negocier des augmentations de salaires par branche, et limiter l'ecart de remuneration dans les entreprises de 1 a 20 en rendant non deductibles de l'impot sur les societes les remunerations depassant ce ratio, avec obligation de presence de salaries dans les comites de remuneration",
+      "source_url": "https://www.franceinter.fr/politique/salaires-fin-de-vie-climat-voici-les-principales-mesures-du-programme-d-anne-hidalgo",
+      "source_type": "presse",
+      "theme": "economie",
+      "action_verb": "lancer",
+      "action_object": "conference salariale nationale et plafonnement ecart 1 a 20",
+      "quantification": {
+        "value": 20,
+        "unit": "ratio max remuneration"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "debut de quinquennat",
+      "target_population": "salaries du secteur prive",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo voulait engager une grande conference salariale nationale pour negocier par branche des augmentations de salaires, accompagnee d'un mecanisme de limitation de l'ecart des remunerations de 1 a 20 dans les entreprises. Les remunerations depassant ce ratio ne seraient plus deductibles de l'impot sur les societes. Elle imposait aussi la presence de salaries dans les comites de remuneration et la publication des listes d'entreprises pratiquant des discriminations salariales femmes-hommes.",
+      "sources_croisees": [
+        {
+          "url": "https://2022avechidalgo.fr/augmenter_les_salaires",
+          "type": "programme_officiel",
+          "orientation": "gauche"
+        },
+        {
+          "url": "https://www.usinenouvelle.com/editorial/presidentielle-ce-que-l-on-sait-du-programme-economique-d-anne-hidalgo.N1781787",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_017",
+      "raw_text": "Lancer un vaste programme de renovation thermique des passoires energetiques avec une prime climat a la pierre determinee selon les revenus du menage, une avance des fonds par la Caisse des Depots remboursable lors de la vente ou succession, et un objectif de 760000 renovations par an pour renover 22 millions de logements d'ici 2050",
+      "source_url": "https://www.effy.fr/magazine/programme-anne-hidalgo-renovation-energetique",
+      "source_type": "presse",
+      "theme": "logement",
+      "action_verb": "lancer",
+      "action_object": "programme de renovation thermique des passoires energetiques",
+      "quantification": {
+        "value": 30,
+        "unit": "pourcent prise en charge (50% modestes)"
+      },
+      "cost_announced": null,
+      "funding_source": "avance Caisse des Depots, remboursement lors de la vente ou succession",
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "proprietaires de logements mal isoles",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Hidalgo proposait une 'prime climat a la pierre' modulee selon les revenus pour que les menages les plus precaires n'aient aucun reste a charge. L'Etat avancerait les frais via la Caisse des Depots, rembourses lors de la vente ou succession du bien. L'objectif etait de renover 22 millions de logements d'ici 2050, soit 760000 renovations par an, pour lutter contre la precarite energetique et reduire les emissions de CO2 du secteur residentiel.",
+      "sources_croisees": [
+        {
+          "url": "https://www.effy.fr/magazine/propositions-candidats-presidentielle-aides-financieres-renovation-energetique",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.linfodurable.fr/politique/le-programme-ecolo-danne-hidalgo-31014",
+          "type": "presse",
+          "orientation": "ecologiste"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_018",
+      "raw_text": "Legaliser l'aide active a mourir (euthanasie) par une nouvelle loi allant plus loin que la loi Claeys-Leonetti de 2016, des les premiers mois du quinquennat, reposant sur trois principes : respect de la volonte du patient via les directives anticipees, accompagnement dans les derniers instants par l'acces aux soins palliatifs, et droit d'acceder a une aide active a mourir pour tout adulte en phase avancee d'une maladie incurable",
+      "source_url": "https://www.franceinfo.fr/elections/presidentielle/revalorisation-du-smic-isf-climatique-droit-de-vote-a-16-ans-ce-que-contient-le-programme-d-anne-hidalgo-pour-la-presidentielle_4915085.html",
+      "source_type": "presse",
+      "theme": "sante",
+      "action_verb": "legaliser",
+      "action_object": "aide active a mourir (euthanasie)",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "premiers mois du quinquennat",
+      "target_population": "patients en fin de vie",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo, membre de longue date de l'Association pour le Droit de Mourir dans la Dignite (ADMD), declarait : 'Ce sera l'une des premieres lois que je porterai.' Sa loi reposait sur trois principes : respect de la volonte du patient par les directives anticipees, accompagnement par les soins palliatifs, et droit d'acces a l'aide active a mourir pour tout adulte 'faisant face a une phase avancee d'une maladie dont on ne peut guerir'.",
+      "sources_croisees": [
+        {
+          "url": "https://choisirmafindevie.org/2022/04/04/presidentielle-2022-aide-active-a-mourir-ce-quen-disent-les-candidats/",
+          "type": "association",
+          "orientation": "progressiste"
+        },
+        {
+          "url": "https://www.francebleu.fr/infos/societe/fin-de-vie-quelles-sont-les-propositions-des-candidats-a-la-presidentielle-1649101440",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_019",
+      "raw_text": "Renforcer la presence de police et gendarmerie sur le terrain par des recrutements cibles mieux repartis dans les quartiers et aux heures ou les habitants en ont le plus besoin, avec un budget equipement et immobilier pour chaque recrutement, une formation adaptee contre les discriminations (racisme, antisemitisme, homophobie, harcelement de rue), et une complementarite entre police municipale et nationale dans une logique de service public",
+      "source_url": "https://www.2022avechidalgo.fr/deux_grandes_priorites_pour_la_securite_des_francais_tranquillite_publique_lutte_contre_le_terrorisme_et_contre_la_criminalite_organisee",
+      "source_type": "programme_officiel",
+      "theme": "securite",
+      "action_verb": "renforcer",
+      "action_object": "effectifs de police et gendarmerie sur le terrain",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble de la population",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo fixait deux priorites : la tranquillite publique et la lutte contre le terrorisme et la criminalite organisee. Les recrutements devaient etre accompagnes d'un budget equipement et immobilier pour ameliorer les conditions de travail des forces de l'ordre. Elle pronait une reforme de la formation policiere incluant la lutte contre les discriminations et une complementarite entre police municipale et nationale dans une logique de service public.",
+      "sources_croisees": [
+        {
+          "url": "https://www.france24.com/fr/france/20220316-pr%C3%A9sidentielle-que-proposent-les-candidats-en-mati%C3%A8re-de-s%C3%A9curit%C3%A9",
+          "type": "presse",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.lejdd.fr/Politique/presidentielle-ce-que-proposent-les-candidats-sur-la-securite-4089533",
+          "type": "presse",
+          "orientation": "centre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_020",
+      "raw_text": "Lancer une loi de programmation sur 5 ans pour recruter 3000 magistrats (portant le total a 12000), des greffiers et des travailleurs sociaux dans la justice, avec un budget du ministere de la Justice porte a 10 milliards d'euros pour financer recrutements, plan technologique, refonte du systeme d'incarceration et revalorisations statutaires",
+      "source_url": "https://www.lemondedudroit.fr/decryptages/79731-presidentielle-2022-propositions-anne-hidalgo-justice.html",
+      "source_type": "presse",
+      "theme": "securite",
+      "action_verb": "lancer",
+      "action_object": "loi de programmation justice pour recruter magistrats et greffiers",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "loi de programmation sur 5 ans",
+      "target_population": "justiciables",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo voulait recruter 3000 magistrats pour atteindre un premier palier de 12000 et augmenter le budget de la Justice a 10 milliards d'euros. Elle proposait une revision constitutionnelle pour garantir l'independance de la justice vis-a-vis de l'executif, l'alignement des nominations des magistrats du parquet sur celles du siege, et la creation d'un grand campus du droit a Bordeaux pour accompagner l'effort de formation.",
+      "sources_croisees": [
+        {
+          "url": "https://www.dalloz-actualite.fr/interview/presidentielle-2022-candidats-et-justice-reponses-d-anne-hidalgo",
+          "type": "presse_specialisee_juridique",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.institutmontaigne.org/presidentielle-2022/securite-et-justice/",
+          "type": "institut_montaigne",
+          "orientation": "liberal"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_021",
+      "raw_text": "Adopter une loi pour l'accueil et l'integration des migrants, avec regularisation des personnes presentes depuis longtemps ayant un logement et un emploi, acces a l'emploi des le depot de la demande d'asile, augmentation des places en centres d'accueil de demandeurs d'asile (CADA) de 40000 a 75000, et retrait de la tutelle exclusive du ministere de l'Interieur sur la politique d'integration",
+      "source_url": "https://www.2022avechidalgo.fr/accompagner_au_plan_national_cette_politique_europeenne_d_asile_de_migration_et_d_aide_au_developpement",
+      "source_type": "programme_officiel",
+      "theme": "immigration",
+      "action_verb": "adopter",
+      "action_object": "loi accueil et integration des migrants",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "demandeurs d'asile et migrants en situation irreguliere",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo defendait une politique d'immigration fondee sur l'accueil et l'integration plutot que sur la seule gestion securitaire. Elle proposait de regulariser les personnes installees durablement ayant un emploi et un logement, d'ouvrir l'acces a l'emploi des le depot de la demande d'asile, et de quasiment doubler les places en CADA. Elle pronait une 'nouvelle organisation institutionnelle' en retirant a l'Interieur le monopole de cette politique.",
+      "sources_croisees": [
+        {
+          "url": "https://www.france-terre-asile.org/actualites/actualites-choisies/anne-hidalgo-veut-une-loi-pour-favoriser-l-accueil-et-l-integration-des-migrants",
+          "type": "association",
+          "orientation": "progressiste"
+        },
+        {
+          "url": "https://www.francebleu.fr/infos/politique/presidentielle-2022-comparez-les-programmes-des-candidats-sur-l-immigration-et-de-l-asile-1648735651",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_022",
+      "raw_text": "Interdire les pesticides les plus toxiques (glyphosate et neonicotinoides) dans les 100 premiers jours du quinquennat et reorienter les subventions agricoles vers l'agroecologie, en inscrivant l'objectif de sortie des pesticides dans la loi",
+      "source_url": "https://www.greenpeace.fr/presidentielle-2022-anne-hidalgo/",
+      "source_type": "presse",
+      "theme": "agriculture",
+      "action_verb": "interdire",
+      "action_object": "pesticides les plus toxiques (glyphosate, neonicotinoides)",
+      "quantification": {
+        "value": 100,
+        "unit": "jours"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "100 premiers jours du quinquennat",
+      "target_population": "agriculteurs et consommateurs",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo proposait d'interdire les pesticides les plus dangereux des les 100 premiers jours et de reorienter les subventions agricoles vers l'agroecologie. Cette mesure s'inscrivait dans son programme ecologique qualifiant l'ecologie de 'combat du siecle', avec un objectif de sortie des pesticides inscrit dans la loi et un soutien massif a la transition des exploitations agricoles vers des pratiques durables.",
+      "sources_croisees": [
+        {
+          "url": "https://reseauactionclimat.org/presidentielle-que-vaut-anne-hidalgo-pour-le-climat/",
+          "type": "association",
+          "orientation": "ecologiste"
+        },
+        {
+          "url": "https://www.reussir.fr/la-candidate-anne-hidalgo-devoile-ses-propositions-pour-une-agriculture-ecologique",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_023",
+      "raw_text": "Creer un ministere du Numerique autonome detache du ministere de la Cohesion des territoires, doubler le nombre de conseillers numeriques de 4000 a 8000, garantir l'acces a une Maison France Services a moins de 20 minutes en voiture, et instaurer un cheque equipement de 500 euros pour financer l'acquisition d'un ordinateur ou d'une tablette avec formation obligatoire a l'usage du numerique",
+      "source_url": "https://www.lemondeinformatique.fr/les-dossiers/lire-presidentielle-2022-anne-hidalgo-veut-concilier-numerique-et-territoires-1326.html",
+      "source_type": "presse",
+      "theme": "numerique",
+      "action_verb": "creer",
+      "action_object": "ministere du Numerique autonome et doublement des conseillers numeriques",
+      "quantification": {
+        "value": 8000,
+        "unit": "conseillers numeriques"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "citoyens en difficulte avec le numerique",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo souhaitait concilier numerique et territoires en creant un ministere autonome du Numerique pour affirmer la souverainete numerique de la France. Le doublement des conseillers numeriques (de 4000 a 8000) et l'acces garanti a une Maison France Services a moins de 20 minutes visaient a lutter contre la fracture numerique. Un cheque de 500 euros devait financer l'equipement et la formation des publics les plus eloignes du numerique.",
+      "sources_croisees": [
+        {
+          "url": "https://www.lemondeinformatique.fr/actualites/lire-presidentielle-2022-anne-hidalgo-veut-concilier-numerique-et-territoires-86183.html",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_024",
+      "raw_text": "Creer un service public de la petite enfance et augmenter les places en creche de 470000 a 600000 sur 10 ans pour repondre aux besoins des familles, avec prise en charge par l'Etat des depenses de fonctionnement et engagement a creer des creches dans tout le territoire pour garantir un egal acces a ce service public",
+      "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-danne-hidalgo-parti-socialiste-en-matiere-de-protection-sociale-infographie.html",
+      "source_type": "presse",
+      "theme": "emploi",
+      "action_verb": "augmenter",
+      "action_object": "places en creche",
+      "quantification": {
+        "value": 600000,
+        "unit": "places (contre 470000 actuellement)"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "sur 10 ans",
+      "target_population": "familles avec jeunes enfants",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo proposait la creation d'un veritable service public de la petite enfance pour repondre a la penurie criante de places en creche en France, qui freine l'acces a l'emploi des femmes. L'Etat assumerait les depenses de fonctionnement et s'engagerait a creer des creches dans tout le territoire, garantissant un egal acces a ce service public a un cout raisonnable pour toutes les familles.",
+      "sources_croisees": [
+        {
+          "url": "https://www.lessurligneurs.eu/anne-hidalgo-veut-creer-un-service-public-de-la-petite-enfance/",
+          "type": "fact_checking",
+          "orientation": "neutre"
+        },
+        {
+          "url": "https://www.choisir-ma-creche.com/elections-presidentielles-2022-petite-enfance/",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "hidalgo_025",
+      "raw_text": "Renforcer le controle parlementaire sur les operations exterieures de plus de 4 mois avec un vote de confirmation du Parlement, conformement a l'article 35 de la Constitution, pour mettre fin a la pratique de maintien d'operations militaires prolongees sans consultation parlementaire renouvelee",
+      "source_url": "https://www.2022avechidalgo.fr/notre_programme",
+      "source_type": "programme_officiel",
+      "theme": "international",
+      "action_verb": "renforcer",
+      "action_object": "controle parlementaire sur les operations militaires exterieures",
+      "quantification": {
+        "value": 4,
+        "unit": "mois avant vote parlementaire"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "quinquennat 2022-2027",
+      "target_population": "ensemble de la population et forces armees",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Hidalgo souhaitait renforcer le controle democratique sur les interventions militaires exterieures, notamment apres l'experience de l'operation Barkhane maintenue plus de 7 ans sans vote parlementaire renouvele. L'article 35 de la Constitution prevoit une information du Parlement mais la pratique a montre l'insuffisance de ce cadre. Un vote de confirmation apres 4 mois devait rendre le Parlement co-responsable de la poursuite des engagements militaires.",
+      "sources_croisees": [
+        {
+          "url": "https://www.vie-publique.fr/eclairage/18474-les-operations-militaires-exterieures-de-la-france-opex",
+          "type": "institutionnel",
+          "orientation": "neutre"
+        }
+      ]
+    }
+  ]
+}

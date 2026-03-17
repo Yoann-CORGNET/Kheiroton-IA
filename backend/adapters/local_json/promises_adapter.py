@@ -9,6 +9,7 @@ from domain.ports.promise_source import PromiseSource
 
 _BACKEND_DIR = Path(__file__).resolve().parent.parent.parent
 _PROGRAMS_DIR = _BACKEND_DIR.parent / "data_agreg" / "data" / "programs"
+_RESULTATS_PATH = _BACKEND_DIR.parent / "data_agreg" / "output" / "resultats.json"
 _PARTY_MAPPING_PATH = _BACKEND_DIR / "scripts" / "party_mapping.json"
 
 
@@ -19,11 +20,27 @@ def _load_party_mapping() -> dict[str, str | None]:
     return {slug: entry.get("local_json") for slug, entry in raw.items()}
 
 
+def _load_feasibility_index() -> dict[str, dict]:
+    """Load feasibility scores from resultats.json, keyed by promise id."""
+    if not _RESULTATS_PATH.exists():
+        return {}
+    with open(_RESULTATS_PATH, encoding="utf-8") as fh:
+        data = json.load(fh)
+    index: dict[str, dict] = {}
+    for prog in data.get("programs", {}).values():
+        for p in prog.get("promises", []):
+            feas = p.get("feasibility")
+            if feas and p.get("id"):
+                index[p["id"]] = feas
+    return index
+
+
 class LocalJsonPromiseSource(PromiseSource):
     """``PromiseSource`` implementation reading from local JSON program files."""
 
     def __init__(self) -> None:
         self._slug_to_filename: dict[str, str | None] = _load_party_mapping()
+        self._feasibility_index: dict[str, dict] = _load_feasibility_index()
 
     def get_promises(self, slug: str) -> list[Promise]:
         filename = self._slug_to_filename.get(slug)
@@ -56,7 +73,7 @@ class LocalJsonPromiseSource(PromiseSource):
                 target_population=p.get("target_population"),
                 classification=p["classification"],
                 precision_level=p["precision_level"],
-                feasibility=p.get("feasibility"),
+                feasibility=p.get("feasibility") or self._feasibility_index.get(p["id"]),
             )
             for p in promises
         ]

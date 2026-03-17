@@ -1,0 +1,1394 @@
+{
+  "candidate": "Yannick Jadot",
+  "party": "EELV",
+  "election": "Presidentielle 2022",
+  "metadata": {
+    "generated_at": "2026-03-17",
+    "methodology": "Analyse multi-dimensionnelle MCDA par 5 agents specialises (economiste, juriste, sociologue, factchecker, historien). Chaque score est compris entre 0 (infaisable) et 1 (parfaitement faisable). Confiance entre 0 et 1.",
+    "macro_context": {
+      "pib_md_eur": 2920,
+      "dette_pct_pib": 113,
+      "deficit_pct_pib": 5.8,
+      "budget_recettes_md": 308,
+      "budget_depenses_md": 445,
+      "pression_fiscale_pct_pib": 42.8,
+      "chomage_pct": 7.9,
+      "smic_net_eur": 1426,
+      "psmt_plafond_depenses_pct": "0.8-1.2",
+      "psmt_deficit_cible_2029": "<3%"
+    },
+    "context_parlementaire": {
+      "nfp": 193,
+      "ensemble": 163,
+      "rn": 126,
+      "dr": 47,
+      "majorite_absolue": 289,
+      "eelv_sieges": 38,
+      "senat": "majorite LR"
+    },
+    "disclaimer": "Cette analyse est produite a titre informatif et pedagogique. Elle ne constitue pas un avis politique. Les scores refletent une evaluation de faisabilite technique, budgetaire, juridique et sociale, et non un jugement de valeur sur le bien-fonde des mesures. Sources: Institut Montaigne, IFRAP, INSEE, Cour des comptes, i4ce, Legifrance, eur-lex."
+  },
+  "evaluations": [
+    {
+      "id": "jadot_001",
+      "raw_text": "Sortir progressivement du nucleaire et fermer au moins 10 reacteurs d'ici 2035, sans construire de nouvelles centrales, pour atteindre 100% d'electricite renouvelable en 2050",
+      "theme": "environnement",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/sortir-de-lenergie-nucleaire-en-vingt-ans/",
+      "feasibility": {
+        "overall": 0.22,
+        "label": "Tres difficilement faisable",
+        "ci_95": [
+          0.15,
+          0.3
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.15,
+            "confidence": 0.5,
+            "justification": "L'IFRAP estime le cout de la sortie du nucleaire a 10 Md EUR/an. Le demantelement de 10 reacteurs et le remplacement par des ENR represente un investissement colossal (estimations RTE: plusieurs centaines de Md EUR pour un mix 100% ENR). La France perd en meme temps une electricite a cout marginal tres bas. Incompatible avec le PSMT.",
+            "cout_estime_eur": 10000000000,
+            "periodicite_cout": "annuel (hors investissements ENR de remplacement)",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.45,
+            "confidence": 0.6,
+            "justification": "Necessite une loi de programmation energetique (Art. 34). Pas d'obstacle constitutionnel direct mais la fermeture de centrales rentables pourrait impliquer des indemnisations massives d'EDF (droit de propriete, DDHC). La loi Climat europeenne n'impose pas de sortie du nucleaire (energie bas carbone). Pas de conflit direct avec le droit UE sur le principe, mais la taxonomie verte europeenne inclut desormais le nucleaire.",
+            "vehicule_legislatif": "Loi de programmation energetique (projet de loi gouvernemental)",
+            "risque_censure_cc": "Moyen - indemnisations EDF contestables",
+            "conflit_droit_ue": "Non direct, mais va a rebours de la taxonomie verte UE incluant le nucleaire"
+          },
+          "social": {
+            "score_acceptabilite": 0.3,
+            "score_impact": 0.25,
+            "confidence": 0.6,
+            "justification": "Opposition forte des syndicats du nucleaire (CGT Energie), des territoires concernes et d'une majorite de l'opinion publique (sondages post-2022 montrant un soutien croissant au nucleaire, >60%). Risque de hausse des prix de l'electricite impactant les menages modestes. L'Allemagne (Energiewende) montre un precedent de hausse des prix et de maintien des emissions via le charbon.",
+            "opposition_sociale": "Forte (syndicats energie, opinion publique, salaries de la filiere nucleaire ~220 000 emplois)"
+          },
+          "factcheck": {
+            "score": 0.25,
+            "confidence": 0.65,
+            "justification": "L'objectif de 100% ENR en 2050 est techniquement tres ambitieux. RTE (Futurs energetiques 2050) a etudie ce scenario et le juge le plus couteux et le plus risque en termes de securite d'approvisionnement. L'Allemagne, qui a ferme ses dernieres centrales en 2023, n'a pas reduit ses emissions autant qu'espere et a maintenu le charbon. Le nucleaire represente ~70% de l'electricite francaise; le remplacer en 28 ans est un defi industriel sans precedent.",
+            "verdict_global": "Techniquement tres risque, economiquement tres couteux, contredit par le precedent allemand"
+          },
+          "historique": {
+            "score": 0.2,
+            "confidence": 0.6,
+            "justification": "Le precedent allemand (Energiewende 2011-2023) montre un cout cumule de >500 Md EUR et une non-reduction significative des emissions CO2 du secteur electrique. La France a tente de reduire le nucleaire a 50% du mix (loi de transition energetique 2015, objectif repousse de 2025 a 2035). Aucun pays comparable n'a reussi un mix 100% ENR sans hydraulique massive.",
+            "delai_realiste_mois": 336,
+            "precedent_principal": "Energiewende allemande: sortie du nucleaire realisee mais au prix d'un maintien des centrales a charbon et d'une hausse des prix de l'electricite"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_002",
+      "raw_text": "Investir 25 milliards d'euros supplementaires par an en financement public climat pour decarboner la societe",
+      "theme": "environnement",
+      "source_url": "https://i4ce.org/presidentielle-2022-budget-climat/yannick-jadot-analyse-complete/",
+      "feasibility": {
+        "overall": 0.22,
+        "label": "Tres difficilement faisable",
+        "ci_95": [
+          0.15,
+          0.3
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.08,
+            "confidence": 0.7,
+            "justification": "25 Md EUR/an represente 8.1% du budget de l'Etat (308 Md de recettes) et 0.86% du PIB. Avec un deficit de 5.8% du PIB et le PSMT imposant une croissance des depenses nettes de 0.8-1.2%/an, cette depense est totalement incompatible avec la trajectoire budgetaire. L'IFRAP chiffre le plan climat Jadot a 25 Md EUR/an de depenses. Le financement par 'dette verte' et ISF climatique (15 Md max) laisse un trou de 10 Md EUR/an minimum.",
+            "cout_estime_eur": 25000000000,
+            "periodicite_cout": "annuel",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.5,
+            "confidence": 0.5,
+            "justification": "Pas d'obstacle constitutionnel a un plan d'investissement public. Necessite inscription en LFI (Art. 47). Le financement par 'dette souveraine verte via BCE' est juridiquement impossible: les traites UE interdisent le financement monetaire des Etats (Art. 123 TFUE). Les obligations vertes souveraines sont possibles mais soumises aux memes contraintes de marche que la dette classique.",
+            "vehicule_legislatif": "Loi de finances (PLF annuel)",
+            "risque_censure_cc": "Faible sur le principe, mais le financement par BCE serait inconstitutionnel au regard des traites",
+            "conflit_droit_ue": "Oui sur le financement via BCE (Art. 123 TFUE); Non sur le principe des investissements climat"
+          },
+          "social": {
+            "score_acceptabilite": 0.55,
+            "score_impact": 0.6,
+            "confidence": 0.5,
+            "justification": "L'investissement climat est populaire dans le principe. Mais le financement par hausse d'impots et endettement suscite des resistances. L'i4ce estime le besoin d'investissement climat supplementaire a 25-34 Md EUR/an, validant l'ordre de grandeur. Impact potentiellement positif sur l'emploi (creation de 300 000-500 000 emplois dans la renovation et les ENR selon l'ADEME).",
+            "opposition_sociale": "Moderee sur le principe, forte sur le financement"
+          },
+          "factcheck": {
+            "score": 0.45,
+            "confidence": 0.6,
+            "justification": "Le chiffrage de 25 Md EUR/an est coherent avec les estimations de l'i4ce (25-34 Md EUR de besoins supplementaires). La reference a la 'dette souveraine verte via BCE' est trompeuse car le financement monetaire direct est interdit par les traites. L'ISF climatique a 15 Md EUR est surestime selon l'Institut Montaigne (l'ancien ISF rapportait ~5 Md EUR). L'ecart entre recettes annoncees et besoins est significatif.",
+            "verdict_global": "Besoin d'investissement correctement identifie, mais financement insuffisant et partiellement illusoire (BCE)"
+          },
+          "historique": {
+            "score": 0.3,
+            "confidence": 0.5,
+            "justification": "Le plan France 2030 (Macron) prevoyait 54 Md EUR sur 5 ans soit ~11 Md/an, deja difficilement deploye. Aucun precedent d'investissement public de cette ampleur hors contexte de guerre ou de crise (plan de relance Covid: 100 Md EUR sur 2 ans). Le deploiement effectif des fonds est historiquement plus lent que prevu (taux de consommation des credits souvent <70% la premiere annee).",
+            "delai_realiste_mois": 60,
+            "precedent_principal": "Plan France 2030: 54 Md EUR sur 5 ans, deploiement progressif avec retards"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_003",
+      "raw_text": "Retablir l'ISF et le transformer en ISF climatique avec bonus-malus selon l'impact environnemental des actifs, taxant les patrimoines superieurs a 2 millions d'euros, pour un rendement de 15 milliards d'euros par an",
+      "theme": "economie",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/retablir-lisf-et-le-transformer-en-isf-climatique/",
+      "feasibility": {
+        "overall": 0.3,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.22,
+          0.38
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.25,
+            "confidence": 0.65,
+            "justification": "L'ancien ISF rapportait ~5 Md EUR/an avant sa suppression en 2017. Annoncer 15 Md EUR de rendement suppose de tripler le taux et/ou d'elargir considerablement l'assiette. L'Institut Montaigne estime le rendement realiste entre 5 et 8 Md EUR/an en tenant compte de l'evasion fiscale et des effets comportementaux. Le mecanisme bonus-malus ajoute une complexite administrative considerable. La recette est surestimee d'un facteur 2 a 3.",
+            "cout_estime_eur": -5000000000,
+            "periodicite_cout": "annuel (recette realiste vs 15 Md annonces)",
+            "financement_credible": false,
+            "compatible_psmt": true
+          },
+          "juridique": {
+            "score": 0.4,
+            "confidence": 0.7,
+            "justification": "Le retablissement de l'ISF est juridiquement possible (Art. 34). Mais le CC a censure la taxe a 75% en 2012 (Decision 2012-662 DC) pour rupture d'egalite devant les charges publiques. Un ISF 'climatique' avec bonus-malus devrait respecter le principe d'egalite. Le mecanisme de modulation selon l'impact carbone des actifs est juridiquement nouveau et pourrait etre conteste. Risque de censure partielle eleve.",
+            "vehicule_legislatif": "Loi de finances (PLF, Art. 34)",
+            "risque_censure_cc": "Eleve - le bonus-malus climatique sur le patrimoine est un mecanisme sans precedent juridique, risque de rupture d'egalite",
+            "conflit_droit_ue": "Risque modere - libre circulation des capitaux (Art. 63 TFUE) pourrait etre invoquee"
+          },
+          "social": {
+            "score_acceptabilite": 0.65,
+            "score_impact": 0.4,
+            "confidence": 0.6,
+            "justification": "Le retablissement de l'ISF est populaire (sondages: 60-70% d'opinions favorables). La dimension 'climatique' ajoute une acceptabilite supplementaire. Mais l'opposition des detenteurs de patrimoine et du monde des affaires sera forte. Risque de fuite des capitaux et d'expatriation fiscale (precedent: hausse de l'exil fiscal apres la creation de l'ISF Rocard en 1989).",
+            "opposition_sociale": "Moderee (populaire dans l'opinion, mais forte opposition des milieux economiques et financiers)"
+          },
+          "factcheck": {
+            "score": 0.25,
+            "confidence": 0.7,
+            "justification": "Le rendement de 15 Md EUR/an est tres surestimé. L'ancien ISF rapportait 5.05 Md EUR en 2017 (derniere annee pleine). L'IFI (qui l'a remplace) rapporte ~1.8 Md EUR/an. Meme en retablissant l'ISF a son ancien bareme et en ajoutant un surbareme, les experts estiment le rendement maximal a 7-8 Md EUR/an avant effets comportementaux. Le chiffre de 15 Md EUR est un triplement irréaliste sans precedent fiscal.",
+            "verdict_global": "Rendement annonce irréaliste (x3 par rapport a l'ancien ISF). Le concept de bonus-malus climatique est innovant mais non chiffre"
+          },
+          "historique": {
+            "score": 0.35,
+            "confidence": 0.65,
+            "justification": "L'ISF a existe de 1989 a 2017. Son retablissement est techniquement possible car l'administration dispose encore des outils. Mais l'ISF avait des effets pervers documentes: exil fiscal (environ 600 departs/an avant 2017), cout de collecte eleve, rendement decevant. La transformation en ISF 'climatique' n'a aucun precedent dans un pays developpe. La classification carbone des actifs est un chantier colossal.",
+            "delai_realiste_mois": 24,
+            "precedent_principal": "ISF francais 1989-2017: rendement ~5 Md EUR/an, supprime pour des raisons de competitivite et d'exil fiscal"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_004",
+      "raw_text": "Investir 10 milliards d'euros par an dans la renovation thermique des logements passoires energetiques avec reste a charge zero pour les menages modestes",
+      "theme": "logement",
+      "source_url": "https://www.linfodurable.fr/energies-renouvelables-isf-climatique-et-isolation-thermique-au-programme-de-jadot-30611",
+      "feasibility": {
+        "overall": 0.35,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.27,
+          0.43
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.15,
+            "confidence": 0.65,
+            "justification": "10 Md EUR/an represente un triplement de MaPrimeRenov (3.4 Md EUR en 2024). Sous le PSMT, cette hausse de depenses est incompatible avec le plafond de 0.8-1.2% de croissance des depenses nettes. Le cout cumule sur 5 ans serait de 50 Md EUR. Le financement est renvoye au 'plan climat 25 Md/an' lui-meme non finance. La Cour des comptes a critique le rendement energetique reel des renovations (effet rebond, travaux partiels).",
+            "cout_estime_eur": 10000000000,
+            "periodicite_cout": "annuel",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.7,
+            "confidence": 0.7,
+            "justification": "Pas d'obstacle constitutionnel. MaPrimeRenov existe deja comme vehicule juridique. Le 'reste a charge zero' pour les menages modestes est une extension du dispositif existant. Necessite inscription en LFI annuelle. La loi Climat et Resilience de 2021 a deja pose le cadre reglementaire pour l'interdiction de location des passoires energetiques.",
+            "vehicule_legislatif": "Loi de finances + decrets d'application",
+            "risque_censure_cc": "Faible",
+            "conflit_droit_ue": "Aucun - conforme aux objectifs du Pacte vert europeen"
+          },
+          "social": {
+            "score_acceptabilite": 0.75,
+            "score_impact": 0.7,
+            "confidence": 0.6,
+            "justification": "Mesure tres populaire. La renovation thermique reduit les factures energetiques et ameliore le confort. Le 'reste a charge zero' pour les modestes repond a une demande sociale forte. Cependant, la filiere du batiment manque de main-d'oeuvre qualifiee (~100 000 postes vacants dans le BTP). Le passage a l'echelle risque de generer une inflation des couts des travaux.",
+            "opposition_sociale": "Faible (consensus large en faveur de la renovation)"
+          },
+          "factcheck": {
+            "score": 0.4,
+            "confidence": 0.6,
+            "justification": "L'i4ce et le Haut Conseil pour le Climat estiment le besoin supplementaire de renovation a 10-15 Md EUR/an, validant l'ordre de grandeur. Mais la Cour des comptes (2024) a souligne que les renovations partielles representent 90% des dossiers MaPrimeRenov et ont un impact energetique limite. Le reste a charge zero genere des effets d'aubaine documentes. Le goulot d'etranglement est la main-d'oeuvre, pas le financement.",
+            "verdict_global": "Ordre de grandeur coherent avec les besoins identifies, mais goulot d'etranglement humain et risque d'inefficacite des renovations partielles"
+          },
+          "historique": {
+            "score": 0.35,
+            "confidence": 0.6,
+            "justification": "MaPrimeRenov (2020) a distribue ~3.4 Md EUR/an avec des resultats mitiges selon la Cour des comptes. Le Grenelle de l'environnement (2007) avait deja annonce un plan massif de renovation qui n'a jamais atteint les objectifs. La loi Climat (2021) fixe l'objectif de 500 000 renovations globales/an, loin d'etre atteint (~70 000 en 2023). Aucun pays n'a reussi un passage a l'echelle de cette ampleur.",
+            "delai_realiste_mois": 36,
+            "precedent_principal": "MaPrimeRenov: 3.4 Md EUR/an avec resultats mitiges. Objectif de 500 000 renovations globales/an non atteint"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_005",
+      "raw_text": "Construire 700 000 nouveaux logements sociaux sur le quinquennat dont la moitie de logements tres sociaux",
+      "theme": "logement",
+      "source_url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-yannick-jadot-detaille-les-120-propositions-de-son-programme-192165",
+      "feasibility": {
+        "overall": 0.18,
+        "label": "Quasi infaisable",
+        "ci_95": [
+          0.12,
+          0.25
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.1,
+            "confidence": 0.6,
+            "justification": "700 000 logements sociaux en 5 ans = 140 000/an. Le rythme actuel est d'environ 80 000-90 000 agréments/an et 60 000-70 000 mises en service. Le cout moyen d'un logement social est de ~150 000-180 000 EUR. 140 000 logements x 160 000 EUR = ~22 Md EUR/an d'investissement total (dont subventions publiques ~30-40%). Cout pour l'Etat: ~6-8 Md EUR/an supplementaires. Pas de financement identifie. Totalement incompatible avec le PSMT.",
+            "cout_estime_eur": 7000000000,
+            "periodicite_cout": "annuel (part Etat supplementaire estimee)",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.6,
+            "confidence": 0.6,
+            "justification": "Pas d'obstacle constitutionnel a la construction de logements sociaux. Necessite des modifications de la loi SRU et des lois de finances pour augmenter les aides a la pierre. L'Etat peut agir via les bailleurs sociaux (HLM). Mais la decentralisation (loi NOTRe) donne aux collectivites un role central: les PLU et autorisations d'urbanisme sont locales. L'Etat ne peut pas imposer la construction.",
+            "vehicule_legislatif": "Loi de finances + loi logement",
+            "risque_censure_cc": "Faible",
+            "conflit_droit_ue": "Aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.55,
+            "score_impact": 0.65,
+            "confidence": 0.5,
+            "justification": "Forte demande de logements sociaux (2.4 millions de demandeurs en attente). Mais opposition des riverains (NIMBY) et de certains elus locaux. La moitie en logements tres sociaux (PLAI) implique des subventions encore plus elevees. Le secteur du BTP est deja sous tension (manque de main-d'oeuvre, hausse des couts des materiaux post-Covid +25%).",
+            "opposition_sociale": "Moderee (demande forte mais opposition NIMBY et contraintes de main-d'oeuvre)"
+          },
+          "factcheck": {
+            "score": 0.15,
+            "confidence": 0.7,
+            "justification": "Le rythme de 140 000 logements sociaux/an n'a jamais ete atteint en France. Le record historique est d'environ 130 000 agrements en 2016-2017 (pas de mises en service). L'annonce de 350 000 logements tres sociaux (PLAI) represente 70 000/an contre ~30 000 actuellement: un doublement sans precedent. Le BTP manque de ~100 000 salaries. Le foncier disponible dans les zones tendues est rare et cher.",
+            "verdict_global": "Objectif irrealiste au regard des capacites de production du secteur et de l'historique. Jamais atteint ni meme approche"
+          },
+          "historique": {
+            "score": 0.15,
+            "confidence": 0.65,
+            "justification": "Tous les gouvernements depuis 2005 ont annonce des plans ambitieux de construction de logements sociaux. Aucun n'a atteint ses objectifs. Hollande avait promis 150 000/an, le maximum atteint fut ~130 000 agrements. La loi SRU (2000) impose 25% de logements sociaux aux communes mais de nombreuses communes preferent payer l'amende. Le rythme de construction est en baisse tendancielle depuis 2017.",
+            "delai_realiste_mois": 60,
+            "precedent_principal": "Objectif Hollande 150 000/an: maximum 130 000 agrements atteint, mises en service ~80 000/an"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_006",
+      "raw_text": "Augmenter le SMIC de 125 euros nets des l'ete 2022 et le porter a 1 500 euros nets par mois d'ici 2027",
+      "theme": "emploi",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/augmenter-le-smic-de-125-euros-nets-en-2022-et-le-porter-a-1-500-euros-nets-en-2027/",
+      "feasibility": {
+        "overall": 0.38,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.3,
+          0.46
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.3,
+            "confidence": 0.6,
+            "justification": "L'Institut Montaigne estime le cout a 4.7 Md EUR/an en 2027. Ce cout se decompose en: hausse des remunerations dans la fonction publique (~2 Md EUR), baisse des cotisations compensee (~1.5 Md EUR), et effets induits sur les minima sociaux indexes. Le SMIC a 1500 EUR nets (vs 1426 EUR actuels) represente une hausse de ~5.2%. Cout reel probablement sous-estime (effet cascade sur les grilles salariales).",
+            "cout_estime_eur": 4700000000,
+            "periodicite_cout": "annuel en regime de croisiere (2027)",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.65,
+            "confidence": 0.7,
+            "justification": "Le gouvernement peut augmenter le SMIC par decret (aucune loi necessaire, Art. L3231-4 du Code du travail). Le coup de pouce presidentiel au SMIC est une pratique etablie. Pas de risque constitutionnel. Pas de conflit avec le droit UE (chaque Etat fixe son salaire minimum).",
+            "vehicule_legislatif": "Decret en Conseil des ministres",
+            "risque_censure_cc": "Nul",
+            "conflit_droit_ue": "Aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.7,
+            "score_impact": 0.5,
+            "confidence": 0.6,
+            "justification": "Mesure populaire aupres des salaries. Mais opposition patronale forte (risque sur l'emploi, competitivite des PME). L'effet cascade sur les grilles salariales pourrait generer des tensions dans les branches. Le SMIC actuel est deja eleve en comparaison europeenne (top 5). Le risque de 'trappe a SMIC' (tassement des salaires juste au-dessus) est documente.",
+            "opposition_sociale": "Opposition patronale forte (MEDEF, CPME). Soutien syndical (CGT, CFDT sur le principe)"
+          },
+          "factcheck": {
+            "score": 0.45,
+            "confidence": 0.65,
+            "justification": "Le SMIC net etait a ~1302 EUR en 2022 au moment de la promesse. La hausse a 1500 EUR representait +15.2% sur 5 ans. Avec l'inflation et les revalorisations automatiques, le SMIC est deja a 1426 EUR nets en 2026. L'ecart restant est de 74 EUR nets (+5.2%), plus modeste que l'annonce initiale. Le cout de 4.7 Md EUR (Institut Montaigne) est une estimation haute mais plausible.",
+            "verdict_global": "Partiellement rattrape par l'inflation. Le cout reel en 2027 serait moindre que l'estimation initiale. Faisable techniquement mais impact budgetaire non finance"
+          },
+          "historique": {
+            "score": 0.4,
+            "confidence": 0.65,
+            "justification": "Les coups de pouce au SMIC ont ete pratiques par plusieurs presidents (Mitterrand 1981: +10%, Jospin 1997-2002: harmonisation des 35h). La hausse Mitterrand de 1981 a ete associee a une degradation de la competitivite et des devaluations. Les economistes sont divises sur l'impact emploi: le rapport du groupe d'experts SMIC recommande regulierement de ne pas donner de coup de pouce.",
+            "delai_realiste_mois": 3,
+            "precedent_principal": "Coup de pouce SMIC Mitterrand 1981 (+10%): impact negatif sur la competitivite. Hausse Jospin 1997-2002: harmonisation reussie mais dans un contexte de croissance forte"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_007",
+      "raw_text": "Creer un revenu citoyen de 918 euros par mois des 18 ans, fusionnant RSA, prime d'activite et allocations logement, pour que personne ne vive sous le seuil de pauvrete",
+      "theme": "economie",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/fusionner-le-rsa-et-la-prime-dactivite-afin-de-creer-un-revenu-citoyen/",
+      "feasibility": {
+        "overall": 0.28,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.2,
+          0.36
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.2,
+            "confidence": 0.55,
+            "justification": "Le RSA coute ~15 Md EUR/an, la prime d'activite ~10 Md EUR, les aides au logement ~17 Md EUR. La fusion a 918 EUR/mois des 18 ans avec suppression du non-recours (34% actuellement) augmenterait mecaniquement les depenses de 15-25 Md EUR/an selon l'Institut Montaigne. Le seuil de pauvrete est a ~1 128 EUR/mois pour une personne seule: 918 EUR est en dessous. L'objectif 'personne sous le seuil de pauvrete' n'est donc pas atteint par le montant annonce.",
+            "cout_estime_eur": 20000000000,
+            "periodicite_cout": "annuel (surcout net par rapport aux dispositifs actuels)",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.45,
+            "confidence": 0.55,
+            "justification": "La fusion RSA + prime d'activite + APL est un chantier legislatif colossal (3 codes differents: action sociale, travail, construction). Necessite une loi ordinaire au minimum. L'ouverture des 18 ans rompt avec le principe actuel du RSA (25 ans sauf exceptions). Le CC protege le droit a une vie familiale normale et pourrait exiger des garanties sur les niveaux d'aide. La reforme des APL est techniquement tres complexe (modes de calcul differents).",
+            "vehicule_legislatif": "Loi ordinaire (probablement PLFSS + PLF combines)",
+            "risque_censure_cc": "Moyen - complexite juridique de la fusion, risque sur les droits acquis",
+            "conflit_droit_ue": "Aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.55,
+            "score_impact": 0.6,
+            "confidence": 0.5,
+            "justification": "L'idee d'un revenu minimum garanti est populaire a gauche. La reduction du non-recours est un objectif consensuel. Mais le montant de 918 EUR pourrait etre percu comme insuffisant (sous le seuil de pauvrete) ou excessif (desincitation au travail selon les critiques). L'impact sur la pauvrete serait significatif si le non-recours est effectivement reduit. Le risque d'effets desincitantifs est documente dans la litterature economique.",
+            "opposition_sociale": "Moderee (soutien a gauche, opposition liberale sur la desincitation au travail)"
+          },
+          "factcheck": {
+            "score": 0.35,
+            "confidence": 0.6,
+            "justification": "Le seuil de pauvrete (60% du revenu median) est a ~1 128 EUR/mois en 2024. Le revenu citoyen a 918 EUR ne sort donc pas les beneficiaires de la pauvrete, contrairement a l'affirmation. La fusion des prestations est preconisee par de nombreux rapports (Christophe Sirugue 2016, Fabrice Lenglart 2021) mais aucun gouvernement n'a reussi a la mettre en oeuvre. Le non-recours au RSA est estime a 34% (DREES), confirmant un probleme reel.",
+            "verdict_global": "Objectif de lutte contre la pauvrete louable mais le montant de 918 EUR ne permet pas d'atteindre le seuil de pauvrete. Fusion techniquement tres complexe et jamais realisee"
+          },
+          "historique": {
+            "score": 0.25,
+            "confidence": 0.6,
+            "justification": "Le RSA (2009) etait lui-meme une fusion du RMI et de l'API, jugee en demi-teinte par la Cour des comptes. La prime d'activite (2016, fusion RSA activite + PPE) a mieux fonctionne mais avec un non-recours de 25%. Aucun pays n'a reussi une fusion complete de toutes les prestations sociales en un seul dispositif. L'universite de Bath estime le delai d'implementation d'une telle reforme a 5-10 ans minimum.",
+            "delai_realiste_mois": 60,
+            "precedent_principal": "Fusion RMI/API en RSA (2009): 10 ans de mise en oeuvre, non-recours persiste. Fusion RSA activite/PPE en Prime d'activite (2016): mieux reussie mais limitee en portee"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_008",
+      "raw_text": "Maintenir l'age legal de depart a la retraite a 62 ans et mettre la penibilite au coeur des regimes de retraites",
+      "theme": "retraites",
+      "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-de-yannick-jadot-europe-ecologie-les-verts-en-matiere-de-protection-sociale-infographie.html",
+      "feasibility": {
+        "overall": 0.32,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.24,
+          0.4
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.2,
+            "confidence": 0.6,
+            "justification": "Revenir a 62 ans apres la reforme 2023 (64 ans) couterait ~13 Md EUR/an a terme selon les estimations du Tresor. La Cour des comptes prevoit deja un deficit du systeme de retraites de 6.6 Md EUR en 2025 et 30 Md EUR en 2045 AVEC la reforme de 2023. Sans elle, le deficit serait encore plus important. Aucun financement identifie. Totalement incompatible avec le PSMT.",
+            "cout_estime_eur": 13000000000,
+            "periodicite_cout": "annuel a terme (montee en charge progressive)",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.5,
+            "confidence": 0.6,
+            "justification": "Abroger la reforme 2023 necessite une loi (LFRSS ou loi ordinaire). Juridiquement possible. Le CC a valide la reforme 2023 (Decision 2023-849 DC); il pourrait valider son abrogation. Mais le Senat LR s'y opposerait, necessitant un 49.3 ou un passage en force. L'article 47-1 contraint le calendrier du PLFSS. La penibilite renforcee necessite des criteres objectifs pour eviter la censure du CC.",
+            "vehicule_legislatif": "LFRSS (loi de financement rectificative de la securite sociale) ou PLFSS",
+            "risque_censure_cc": "Faible sur le principe de l'abrogation, moyen sur les criteres de penibilite",
+            "conflit_droit_ue": "Indirect - aggravation du deficit contrevenant au PSMT"
+          },
+          "social": {
+            "score_acceptabilite": 0.7,
+            "score_impact": 0.5,
+            "confidence": 0.6,
+            "justification": "Le maintien a 62 ans est tres populaire (>70% des Francais opposes au recul a 64 ans). La penibilite est un sujet consensuel. Mais le cout budgetaire enorme impliquerait des compensations (hausse de cotisations?) qui pourraient etre impopulaires. Les syndicats soutiennent unanimement cette mesure. Le patronat s'y oppose fermement.",
+            "opposition_sociale": "Faible sur le principe (forte adhesion populaire), mais opposition patronale et institutionnelle (HCFP, Cour des comptes)"
+          },
+          "factcheck": {
+            "score": 0.3,
+            "confidence": 0.65,
+            "justification": "La promesse de 'maintenir' a 62 ans est devenue 'revenir' a 62 ans apres la reforme 2023. Le cout de l'abrogation est estime a 8-13 Md EUR/an a terme. La reforme 2023 ne genere que 150-300 M EUR d'economies les premieres annees (montee en charge). La 'penibilite au coeur du systeme' est vague: le C2P actuel est juge insuffisant mais aucun chiffrage de la reforme proposee n'est donne.",
+            "verdict_global": "Mesure couteuse dont le financement n'est pas identifie. La dimension penibilite est trop vague pour etre evaluee"
+          },
+          "historique": {
+            "score": 0.3,
+            "confidence": 0.65,
+            "justification": "La retraite a 60 ans (Mitterrand 1982) a ete progressivement remise en cause par toutes les reformes depuis 2003. La reforme 2023 a montre qu'un retour en arriere est politiquement inflammatoire mais techniquement possible. Le C2P (ex-compte penibilite) cree en 2014 n'a jamais fonctionne correctement (4 criteres supprimes sur 10 en 2017). Aucune reforme des retraites n'a jamais ete abrogee dans l'histoire francaise.",
+            "delai_realiste_mois": 18,
+            "precedent_principal": "Reforme retraites 2023: adoptee par 49.3 malgre opposition massive. Aucun precedent d'abrogation d'une reforme des retraites en France"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_009",
+      "raw_text": "Recruter 65 000 enseignants supplementaires, augmenter les salaires des enseignants de 20% sur le quinquennat, et recruter 2 000 medecins scolaires, 1 000 assistants sociaux et 3 000 infirmieres scolaires",
+      "theme": "education",
+      "source_url": "https://www.publicsenat.fr/actualites/non-classe/presidentielle-yannick-jadot-detaille-les-120-propositions-de-son-programme-192165",
+      "feasibility": {
+        "overall": 0.28,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.2,
+          0.36
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.15,
+            "confidence": 0.6,
+            "justification": "65 000 enseignants x ~35 000 EUR cout annuel moyen (avec charges) = ~2.3 Md EUR/an. 6 000 personnels complementaires = ~0.3 Md EUR/an. Revalorisation 20% des ~870 000 enseignants: masse salariale enseignante ~38 Md EUR, +20% = 7.6 Md EUR/an. Total: ~10 Md EUR/an supplementaires, soit +15.5% du budget de l'enseignement scolaire (64.5 Md EUR). L'IFRAP chiffre le cout du programme education Jadot comme l'un des plus eleves. Incompatible avec le PSMT.",
+            "cout_estime_eur": 10000000000,
+            "periodicite_cout": "annuel en regime de croisiere",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.7,
+            "confidence": 0.7,
+            "justification": "Le recrutement de fonctionnaires et la revalorisation salariale relevent du pouvoir reglementaire (decrets) et de la loi de finances. Pas d'obstacle constitutionnel. Le point d'indice est fixe par decret. L'Etat est competent exclusivement sur l'Education nationale (Art. 34). Pas de conflit avec le droit UE.",
+            "vehicule_legislatif": "Loi de finances (creation de postes) + decret (point d'indice)",
+            "risque_censure_cc": "Nul",
+            "conflit_droit_ue": "Aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.7,
+            "score_impact": 0.65,
+            "confidence": 0.6,
+            "justification": "L'education est la premiere preoccupation des Francais dans les sondages. La revalorisation des enseignants est consensuelle apres des annees de gel du point d'indice. Le recrutement repond aux besoins (classes surchargees, remplacement defaillant). Mais la crise du recrutement (postes non pourvus aux concours: ~4 000 en 2022) montre que l'attractivite du metier est le vrai probleme, pas seulement le nombre de postes offerts.",
+            "opposition_sociale": "Faible (consensus fort en faveur de l'education)"
+          },
+          "factcheck": {
+            "score": 0.3,
+            "confidence": 0.6,
+            "justification": "La crise du recrutement est reelle: en 2022, ~4 000 postes non pourvus aux concours. La revalorisation de 20% placerait les enseignants francais dans la moyenne OCDE (actuellement ~15% en dessous). Mais recruter 65 000 enseignants supplementaires quand les concours ne sont deja pas pourvus est contradictoire sans amelioration prealable de l'attractivite. Le vivier de candidats est insuffisant. 2 000 medecins scolaires represente un doublement du nombre actuel (~1 500): le deficit de medecins general rend cet objectif irrealiste.",
+            "verdict_global": "Besoins correctement identifies mais objectif de recrutement irrealiste vu la crise d'attractivite. Le chiffrage est probablement sous-estime"
+          },
+          "historique": {
+            "score": 0.25,
+            "confidence": 0.6,
+            "justification": "Hollande avait promis 60 000 postes dans l'education sur le quinquennat (2012-2017). Environ 54 000 ont ete crees mais une partie n'a pas ete pourvue (postes offerts mais non remplis). La RGPP (2007-2012) avait supprime 80 000 postes. La tendance demographique est a la baisse des effectifs scolaires (~12 000 eleves/an), ce qui relativise le besoin. La revalorisation Blanquer (2020-2022) de ~2 Md EUR/an n'a pas suffi a resoudre la crise d'attractivite.",
+            "delai_realiste_mois": 60,
+            "precedent_principal": "Plan 60 000 postes Hollande: ~54 000 crees sur 5 ans mais avec des postes non pourvus. Revalorisation Blanquer: 2 Md EUR/an sans regler la crise d'attractivite"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_010",
+      "raw_text": "Remplacer Parcoursup par un systeme transparent et creer 60 000 places supplementaires dans l'enseignement superieur",
+      "theme": "education",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/remplacer-parcoursup-par-un-systeme-transparent-et-creer-60-000-places-dans-le-superieur/",
+      "feasibility": {
+        "overall": 0.35,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.27,
+          0.43
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.3,
+            "confidence": 0.55,
+            "justification": "60 000 places supplementaires x ~8 000 EUR/etudiant/an (cout moyen en universite) = 480 M EUR/an. Le remplacement de Parcoursup par un nouveau systeme: 50-100 M EUR de developpement + fonctionnement. Cout total raisonnable (~0.6 Md EUR/an) mais s'additionne aux autres depenses education. Non finance explicitement.",
+            "cout_estime_eur": 600000000,
+            "periodicite_cout": "annuel",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.65,
+            "confidence": 0.6,
+            "justification": "Le remplacement de Parcoursup necessite une modification de la loi ORE de 2018 (loi ordinaire). La 'transparence' des algorithmes souleve des questions juridiques (CNIL, secret industriel des formations privees). La creation de places est budgetaire. Pas d'obstacle constitutionnel majeur. L'autonomie des universites (loi LRU) doit etre respectee.",
+            "vehicule_legislatif": "Loi ordinaire (modification de la loi ORE 2018) + loi de finances",
+            "risque_censure_cc": "Faible",
+            "conflit_droit_ue": "Aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.6,
+            "score_impact": 0.5,
+            "confidence": 0.5,
+            "justification": "Parcoursup est impopulaire chez les lyceens et les parents (opacite perçue, stress). Mais les enseignants du superieur sont divises (certains apprecient la selection sur dossier). Le remplacement par un systeme 'transparent' est vague et pourrait ramener au tirage au sort (APB). La creation de places est positive mais insuffisante face aux besoins structurels.",
+            "opposition_sociale": "Moderee (impopularite de Parcoursup mais pas de consensus sur l'alternative)"
+          },
+          "factcheck": {
+            "score": 0.4,
+            "confidence": 0.6,
+            "justification": "Parcoursup gere ~900 000 candidatures/an. Son remplacement est un projet informatique majeur (3-5 ans realistes). La 'transparence' est un objectif legitime mais le Conseil d'Etat a deja impose la transparence des algorithmes locaux. 60 000 places supplementaires representent +3% de l'offre actuelle (~1.8 million d'etudiants): modeste mais realiste. Le Senat (2023) a recommande des ameliorations de Parcoursup plutot que son remplacement.",
+            "verdict_global": "Remplacement de Parcoursup risque et long. 60 000 places est un objectif modeste et faisable. La 'transparence' reste un concept vague"
+          },
+          "historique": {
+            "score": 0.35,
+            "confidence": 0.6,
+            "justification": "Le passage d'APB a Parcoursup (2018) a pris 1 an de preparation et a ete tres chaotique la premiere annee. Revenir en arriere ou creer un troisieme systeme necessite au moins 3 ans. La creation de 60 000 places est coherente avec le plan 'bienvenue en France' de 2019 mais les universites manquent de locaux et d'enseignants. La loi ORE a deja fait l'objet de 15 recommandations de la Cour des comptes non mises en oeuvre.",
+            "delai_realiste_mois": 48,
+            "precedent_principal": "Passage APB -> Parcoursup (2018): 1 an de preparation, premiere annee chaotique, critiques persistantes 5 ans apres"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_011",
+      "raw_text": "Supprimer le numerus clausus et doubler les capacites d'accueil des universites de medecine pour mettre fin aux deserts medicaux",
+      "theme": "sante",
+      "source_url": "https://www.placedelasante.fr/candidats/yannick-jadot/",
+      "feasibility": {
+        "overall": 0.3,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.22,
+          0.38
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.25,
+            "confidence": 0.55,
+            "justification": "Doubler les capacites en medecine: ~10 000 etudiants admis/an actuellement -> 20 000. Cout annuel supplementaire: ~300-500 M EUR (formation clinique couteuse). Mais le cout majeur est en locaux, encadrement clinique (manque de maitres de stage), et stages hospitaliers. Le plan complet sur 10 ans couterait ~3-5 Md EUR. Non finance.",
+            "cout_estime_eur": 500000000,
+            "periodicite_cout": "annuel supplementaire en regime de croisiere",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.65,
+            "confidence": 0.65,
+            "justification": "Le numerus clausus a deja ete officiellement supprime par la loi 'Ma sante 2022' (2019) et remplace par le numerus apertus. Le doublement des capacites necessite des moyens, pas une nouvelle loi. Pas d'obstacle constitutionnel. L'autonomie des universites de medecine est un facteur: l'Etat fixe les objectifs mais les facs gerent les capacites.",
+            "vehicule_legislatif": "Arretes ministeriel (fixation du numerus apertus) + loi de finances",
+            "risque_censure_cc": "Nul",
+            "conflit_droit_ue": "Aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.7,
+            "score_impact": 0.35,
+            "confidence": 0.55,
+            "justification": "La lutte contre les deserts medicaux est une preoccupation majeure. Mais doubler les admissions ne produit des medecins supplementaires qu'au bout de 9-12 ans (duree des etudes). L'impact sur les deserts medicaux est donc nul a court terme. Les medecins en exercice s'opposent souvent a l'ouverture du numerus (risque de baisse des revenus). Les syndicats etudiants soutiennent l'ouverture.",
+            "opposition_sociale": "Moderee (syndicats de medecins opposes, opinion publique favorable)"
+          },
+          "factcheck": {
+            "score": 0.3,
+            "confidence": 0.65,
+            "justification": "Le numerus clausus a deja ete supprime en 2019 (loi Ma sante 2022). La promesse est donc partiellement obsolete. Le numerus apertus a deja augmente les admissions de ~30% depuis 2020. Doubler les capacites est un autre defi: il manque de maitres de stage, de locaux et d'encadrants cliniques. Surtout, former plus de medecins ne regle pas la repartition geographique (les jeunes medecins s'installent en zone urbaine). L'effet ne se ferait sentir qu'apres 2035.",
+            "verdict_global": "Numerus clausus deja supprime. Doublement des capacites irréaliste sans investissements massifs. L'impact sur les deserts medicaux ne serait visible qu'apres 2035"
+          },
+          "historique": {
+            "score": 0.25,
+            "confidence": 0.6,
+            "justification": "Le numerus clausus a ete progressivement assoupli depuis 2000 (de 3 500 a ~10 000). Sa suppression formelle en 2019 n'a pas encore produit d'effets visibles (delai de formation). Aucun pays n'a reussi a resorber les deserts medicaux uniquement par l'augmentation du nombre de medecins formes: la question est celle de la repartition geographique, pas du nombre total.",
+            "delai_realiste_mois": 120,
+            "precedent_principal": "Reforme numerus clausus 2019 (Ma sante 2022): +30% d'admissions, effets attendus apres 2030. Aucun impact mesurable sur les deserts medicaux a ce jour"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_012",
+      "raw_text": "Etablir une loi 100% bio dans chaque cantine publique (ecoles, hopitaux, administrations) d'ici 2027",
+      "theme": "agriculture",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/etablir-une-loi-100-bio-dans-chaque-cantine-dici-2027/",
+      "feasibility": {
+        "overall": 0.2,
+        "label": "Quasi infaisable",
+        "ci_95": [
+          0.13,
+          0.28
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.2,
+            "confidence": 0.6,
+            "justification": "L'Institut Montaigne chiffre le surcout a 2.3 Md EUR/an. La restauration collective publique sert ~3.5 milliards de repas/an. Le surcout bio moyen est de +30-60% par repas. A ce jour, la loi EGAlim impose 20% bio dans les cantines (objectif atteint a ~6% en pratique). Passer de 6% a 100% represente un effort colossal. Cout repartir entre Etat, collectivites et Secu (hopitaux). Non finance.",
+            "cout_estime_eur": 2300000000,
+            "periodicite_cout": "annuel",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.5,
+            "confidence": 0.6,
+            "justification": "La loi EGAlim 2018 impose deja 50% de produits durables et 20% bio en restauration collective publique. Passer a 100% bio necessite une modification legislative. Possible risque de conflit avec les regles de la commande publique (marches publics: obligation de mise en concurrence, pas de preference nationale). La PAC europeenne ne permet pas de subventionner la conversion bio au-dela des enveloppes prenegociees.",
+            "vehicule_legislatif": "Loi ordinaire (modification de la loi EGAlim)",
+            "risque_censure_cc": "Faible sur le principe, moyen sur les modalites de mise en oeuvre",
+            "conflit_droit_ue": "Possible - regles de concurrence des marches publics et limites de la PAC"
+          },
+          "social": {
+            "score_acceptabilite": 0.5,
+            "score_impact": 0.45,
+            "confidence": 0.5,
+            "justification": "Le bio dans les cantines est populaire aupres des parents. Mais l'agriculture biologique ne represente que ~10% de la surface agricole utile francaise. Passer a 100% des cantines en bio necessite un triplement de la production bio en 5 ans, ce qui est physiquement impossible. Les agriculteurs conventionnels perdraient un debouche majeur. Les collectivites locales (financeurs des cantines scolaires) s'opposeraient au surcout.",
+            "opposition_sociale": "Forte (collectivites locales, agriculteurs conventionnels, gestionnaires de restauration collective)"
+          },
+          "factcheck": {
+            "score": 0.1,
+            "confidence": 0.75,
+            "justification": "L'objectif de 20% bio en restauration collective (loi EGAlim 2018) est loin d'etre atteint (6-8% en pratique en 2023). Passer a 100% en 5 ans est physiquement impossible: la production bio francaise ne suffirait pas a approvisionner toutes les cantines publiques. Le bio represente 10% de la SAU et 6.5% du marche alimentaire. Multiplier par 10+ la demande de bio institutionnel sans production suffisante genererait une inflation massive des prix alimentaires bio et/ou des importations massives.",
+            "verdict_global": "Objectif physiquement irréaliste: la production bio francaise est insuffisante pour alimenter toutes les cantines publiques. L'objectif existant de 20% n'est meme pas atteint"
+          },
+          "historique": {
+            "score": 0.1,
+            "confidence": 0.7,
+            "justification": "La loi EGAlim (2018) fixait l'objectif de 20% bio pour 2022: non atteint. La conversion bio est un processus long (3 ans minimum de transition). La surface bio a progresse de 6% a 10% de la SAU en 10 ans. Un rythme similaire ne permettrait pas d'atteindre 100% avant 2050. Aucun pays au monde n'a atteint 100% bio dans la restauration collective publique.",
+            "delai_realiste_mois": 180,
+            "precedent_principal": "Loi EGAlim 2018: objectif 20% bio en cantines, realise a 6-8%. Aucun pays n'a atteint 100% bio en restauration collective"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_013",
+      "raw_text": "Interdire les neonicotinoides et le glyphosate des 2022, diviser par deux l'usage des pesticides et engrais de synthese d'ici 2027, et supprimer tous les pesticides en Europe d'ici 2035",
+      "theme": "agriculture",
+      "source_url": "https://vert.eco/articles/les-principales-mesures-ecologiques-du-programme-de-yannick-jadot",
+      "feasibility": {
+        "overall": 0.25,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.18,
+          0.33
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.35,
+            "confidence": 0.5,
+            "justification": "L'interdiction elle-meme ne coute pas directement au budget de l'Etat. Mais l'accompagnement des agriculteurs (compensation de pertes de rendement, transition vers des alternatives) couterait plusieurs milliards. Le plan Ecophyto (2008) a deja coute ~500 M EUR sans reduire l'usage des pesticides. La perte de rendement estimee a 10-30% pour le ble sans glyphosate genererait un manque a gagner pour la filiere agricole.",
+            "cout_estime_eur": 3000000000,
+            "periodicite_cout": "annuel (accompagnement et compensations)",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.3,
+            "confidence": 0.65,
+            "justification": "Les neonicotinoides sont deja partiellement interdits au niveau UE (reglement 2018/785). Le glyphosate a ete reapprouve par l'UE jusqu'en 2033. La France ne peut pas interdire unilateralement un produit autorise au niveau UE sauf a invoquer une clause de sauvegarde (Art. 71 du reglement CE 1107/2009), contestable devant la CJUE. L'objectif de supprimer tous les pesticides en Europe releve de la politique europeenne, pas francaise. La reduction de 50% est un objectif EU Farm to Fork non contraignant.",
+            "vehicule_legislatif": "Loi + reglementation UE necessaire pour une interdiction complete",
+            "risque_censure_cc": "Moyen - atteinte a la liberte d'entreprendre si alternatives insuffisantes",
+            "conflit_droit_ue": "Oui - le glyphosate est autorise au niveau UE jusqu'en 2033. Interdiction unilaterale contestable devant la CJUE"
+          },
+          "social": {
+            "score_acceptabilite": 0.45,
+            "score_impact": 0.5,
+            "confidence": 0.55,
+            "justification": "L'interdiction des pesticides est populaire chez les consommateurs urbains mais tres impopulaire chez les agriculteurs. Les manifestations agricoles de 2024 ont montre la capacite de mobilisation du monde agricole contre les normes environnementales. La FNSEA s'opposerait fermement. La reduction de 50% en 5 ans entrainerait des pertes de rendement significatives et un risque alimentaire.",
+            "opposition_sociale": "Tres forte (monde agricole, FNSEA, regions cerealières)"
+          },
+          "factcheck": {
+            "score": 0.15,
+            "confidence": 0.7,
+            "justification": "Le plan Ecophyto (2008) visait -50% de pesticides pour 2018: l'usage a augmente de 12% sur la periode. Le plan Ecophyto II (2015) a repousse l'objectif a 2025: toujours non atteint. L'affirmation 'supprimer tous les pesticides en Europe d'ici 2035' est hors de competence du president francais. Le glyphosate est autorise par l'UE jusqu'en 2033: l'interdiction nationale est juridiquement fragile. La reduction de 50% en 5 ans n'a jamais ete realisee dans aucun pays developpe.",
+            "verdict_global": "Objectifs irréalistes au vu des precedents (echec Ecophyto). Conflit juridique avec le droit UE sur le glyphosate. Suppression des pesticides en Europe hors competence nationale"
+          },
+          "historique": {
+            "score": 0.15,
+            "confidence": 0.7,
+            "justification": "Ecophyto I (2008): echec complet (-50% non atteint, usage en hausse). Ecophyto II (2015): objectif repousse, non atteint. Ecophyto II+ (2018): idem. Le Danemark a reussi une reduction de 40% en 20 ans avec un accompagnement intensif. Aucun grand pays agricole n'a reduit de 50% en 5 ans. La France est le 3e utilisateur mondial de pesticides.",
+            "delai_realiste_mois": 120,
+            "precedent_principal": "Plans Ecophyto I, II et II+: triple echec depuis 2008, usage de pesticides stable ou en hausse"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_014",
+      "raw_text": "Installer 100 000 agriculteurs bio sur le quinquennat avec une prime a l'installation ouverte jusqu'a 50 ans",
+      "theme": "agriculture",
+      "source_url": "https://jadot2022.fr/une_agriculture_et_une_alimentation_respectueuses_du_climat_et_du_vivant",
+      "feasibility": {
+        "overall": 0.2,
+        "label": "Quasi infaisable",
+        "ci_95": [
+          0.13,
+          0.28
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.25,
+            "confidence": 0.5,
+            "justification": "100 000 installations bio x prime moyenne d'installation ~50 000-70 000 EUR = 5-7 Md EUR sur 5 ans (1-1.4 Md/an). S'ajoute l'accompagnement technique, le foncier et les aides a la conversion (3 ans de transition). Cout total estime: 2-3 Md EUR/an. Le budget actuel des aides a l'installation est de ~350 M EUR/an (toutes installations confondues). Non finance.",
+            "cout_estime_eur": 2000000000,
+            "periodicite_cout": "annuel",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.55,
+            "confidence": 0.55,
+            "justification": "L'extension de la prime d'installation jusqu'a 50 ans (actuellement 40 ans) est juridiquement simple (modification reglementaire). Mais le financement releve en partie de la PAC (FEADER), dont l'enveloppe est prenegociee pour 2023-2027. La France ne peut pas unilateralement augmenter les aides PAC au-dela du budget europeen alloue. Les aides nationales complementaires doivent etre notifiees a la Commission (aides d'Etat).",
+            "vehicule_legislatif": "Decret (age limite) + loi de finances (aides nationales) + renégociation PAC pour 2028+",
+            "risque_censure_cc": "Faible",
+            "conflit_droit_ue": "Moyen - limites de la PAC et regles d'aides d'Etat"
+          },
+          "social": {
+            "score_acceptabilite": 0.5,
+            "score_impact": 0.45,
+            "confidence": 0.5,
+            "justification": "L'installation de nouveaux agriculteurs est un objectif partage. Mais 100 000 installations bio en 5 ans suppose de doubler le rythme actuel d'installation totale (tous modes confondus: ~15 000/an dont ~4 000 en bio). Le foncier agricole est rare et cher. Les agriculteurs conventionnels percevraient la mesure comme une concurrence deloyale. L'ouverture a 50 ans est bien accueillie par les reconversions professionnelles.",
+            "opposition_sociale": "Moderee (soutien du monde bio, opposition de l'agriculture conventionnelle)"
+          },
+          "factcheck": {
+            "score": 0.1,
+            "confidence": 0.7,
+            "justification": "Le rythme actuel d'installation en bio est de ~4 000/an. L'objectif de 100 000 en 5 ans (20 000/an) represente un quintuplement. Le nombre total d'installations aidees (DJA) est de ~6 000-7 000/an. Il n'y a pas 20 000 candidats a l'installation bio par an en France. Le foncier disponible est le premier obstacle: la SAU bio est de 2.8 millions d'hectares. Installer 100 000 agriculteurs (a 20-30 ha en moyenne) necesserait 2-3 millions d'hectares supplementaires, soit un doublement du foncier bio.",
+            "verdict_global": "Objectif irréaliste: quintuplement du rythme actuel, foncier insuffisant, vivier de candidats inexistant a cette echelle"
+          },
+          "historique": {
+            "score": 0.15,
+            "confidence": 0.6,
+            "justification": "Le Grenelle de l'environnement (2007) visait 20% de SAU en bio pour 2020: atteint a 10% en 2023. Le rythme de conversion bio a ralenti depuis 2022 (crise des debouches, decroissance du marche bio -4.6% en 2022). Le plan Ambition Bio 2022 n'a pas atteint ses objectifs. Aucun pays n'a installe 100 000 agriculteurs bio en 5 ans.",
+            "delai_realiste_mois": 120,
+            "precedent_principal": "Grenelle environnement: objectif 20% bio en 2020, atteint a 10% en 2023. Marche bio en crise depuis 2022"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_015",
+      "raw_text": "Interdire la vente de voitures diesel et thermiques classiques a partir de 2030",
+      "theme": "environnement",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/interdire-la-vente-de-voitures-diesel-et-thermique-classiques-a-partir-de-2030/",
+      "feasibility": {
+        "overall": 0.3,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.22,
+          0.38
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.25,
+            "confidence": 0.55,
+            "justification": "L'Institut Montaigne chiffre le cout a 2.8 Md EUR/an en aides a la transition (bonus ecologique, primes a la conversion). Le manque a gagner fiscal est majeur: la TICPE rapporte 16.5 Md EUR/an, qui disparaitraient progressivement avec l'electrification. L'infrastructure de bornes de recharge necessiterait 5-10 Md EUR d'investissement supplementaire. Cout total sur la decennie: >50 Md EUR.",
+            "cout_estime_eur": 2800000000,
+            "periodicite_cout": "annuel (aides) + perte de recettes TICPE progressive",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.4,
+            "confidence": 0.6,
+            "justification": "L'UE a deja vote l'interdiction de la vente de voitures thermiques neuves en 2035 (reglement CO2 2023). Avancer a 2030 unilateralement pour la France est possible en theorie mais contreviendrait a l'harmonisation du marche interieur (libre circulation des marchandises, Art. 34 TFUE). Les constructeurs pourraient contester devant la CJUE. Le droit francais actuel (loi Climat 2021) vise la fin du thermique en 2040.",
+            "vehicule_legislatif": "Loi ordinaire (modification de la loi Climat 2021)",
+            "risque_censure_cc": "Moyen - atteinte a la liberte du commerce et de l'industrie",
+            "conflit_droit_ue": "Probable - anticipation unilaterale de 5 ans par rapport au calendrier UE harmonise"
+          },
+          "social": {
+            "score_acceptabilite": 0.3,
+            "score_impact": 0.45,
+            "confidence": 0.55,
+            "justification": "L'interdiction du thermique en 2030 est percue comme brutale par les menages modestes et ruraux, dependants de la voiture et sans acces aux vehicules electriques (prix moyen: ~35 000 EUR). Les ZFE ont deja provoque des tensions sociales fortes. Le mouvement des Gilets jaunes (2018) a montre la sensibilite de la question mobilite/fiscalite carbone. Opposition forte attendue en zones rurales et periurbaines.",
+            "opposition_sociale": "Tres forte (menages modestes, ruraux, industrie automobile, periurbains)"
+          },
+          "factcheck": {
+            "score": 0.3,
+            "confidence": 0.6,
+            "justification": "L'UE a fixe 2035 comme date d'interdiction des ventes de voitures thermiques neuves. Avancer a 2030 pour la France seule represente un defi industriel majeur: les constructeurs francais (Stellantis, Renault) n'auraient pas le temps d'adapter leurs gammes. En 2023, les voitures electriques representent ~15% des ventes neuves en France. Atteindre 100% en 2030 necessite un triplement annuel du rythme de penetration. L'infrastructure de recharge est largement insuffisante (~100 000 bornes vs 400 000 necessaires).",
+            "verdict_global": "Anticipation de 5 ans par rapport a l'UE. Industriellement et socialement tres difficile. Infrastructure de recharge insuffisante"
+          },
+          "historique": {
+            "score": 0.25,
+            "confidence": 0.6,
+            "justification": "La Norvege a un objectif 100% electrique en 2025 mais avec des subventions massives (TVA 0%, peages gratuits) et un PIB/habitant 2x superieur a la France. La loi Climat francaise (2021) visait la fin du thermique en 2040, deja jugee ambitieuse. Aucun grand pays industriel n'a interdit le thermique avant la date UE de 2035. Le mouvement des Gilets jaunes montre le risque social d'une transition trop rapide.",
+            "delai_realiste_mois": 120,
+            "precedent_principal": "Norvege: quasi-100% electrique en 2024 pour les ventes neuves, mais avec subventions massives et PIB/hab 2x superieur. UE: interdiction harmonisee a 2035"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_016",
+      "raw_text": "Deployer 3 000 eoliennes terrestres supplementaires et installer 340 km2 de panneaux solaires supplementaires d'ici 2027",
+      "theme": "environnement",
+      "source_url": "https://vert.eco/articles/les-principales-mesures-ecologiques-du-programme-de-yannick-jadot",
+      "feasibility": {
+        "overall": 0.35,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.27,
+          0.43
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.3,
+            "confidence": 0.5,
+            "justification": "3 000 eoliennes x ~3 M EUR/unite = ~9 Md EUR d'investissement. 340 km2 de solaire = ~340 GWc x ~800 EUR/kWc = ~27 Md EUR. Total investissement ENR: ~36 Md EUR sur 5 ans (7.2 Md/an). L'essentiel serait porte par le prive (tarifs de rachat) mais avec garantie publique. Le surcout pour les finances publiques (subventions CSPE) pourrait atteindre 3-5 Md EUR/an. Finance partiellement par le plan climat.",
+            "cout_estime_eur": 4000000000,
+            "periodicite_cout": "annuel (part publique estimee en subventions et garanties)",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.45,
+            "confidence": 0.6,
+            "justification": "Le deploiement eolien se heurte a de nombreux recours contentieux (riverains, biodiversite). En moyenne, un projet eolien prend 7-10 ans entre conception et mise en service en France (dont 3-5 ans de contentieux). La loi d'acceleration des ENR (2023) a simplifie les procedures mais les recours restent nombreux. L'acceptabilite locale est un frein juridique majeur. Pour le solaire, les procedures sont plus rapides mais le foncier est un enjeu.",
+            "vehicule_legislatif": "Loi de finances + reglementation existante (loi ENR 2023)",
+            "risque_censure_cc": "Faible",
+            "conflit_droit_ue": "Aucun - conforme aux objectifs UE en matiere d'ENR"
+          },
+          "social": {
+            "score_acceptabilite": 0.4,
+            "score_impact": 0.5,
+            "confidence": 0.55,
+            "justification": "L'eolien terrestre suscite une opposition croissante en France (associations de riverains, defense du paysage, bruit). Le solaire est mieux accepte mais la concurrence sur le foncier agricole pose probleme (agrivoltaisme). Le deploiement de 3 000 eoliennes en 5 ans (600/an) est superieur au rythme actuel (~300-400/an). Les manifestations anti-eoliennes se multiplient dans les zones rurales.",
+            "opposition_sociale": "Forte pour l'eolien (riverains, associations paysage), moderee pour le solaire"
+          },
+          "factcheck": {
+            "score": 0.35,
+            "confidence": 0.6,
+            "justification": "La France compte ~9 000 eoliennes terrestres (2023). En ajouter 3 000 en 5 ans (+33%) est ambitieux mais pas impossible (600/an vs ~400 actuellement). Pour le solaire, 340 km2 equivalent a ~34 GWc supplementaires sur 5 ans (6.8 GWc/an). Le rythme actuel est de ~3-4 GWc/an. Doubler le rythme est un defi mais dans l'ordre du possible avec une acceleration des procedures. L'objectif est ambitieux mais plus realiste que d'autres promesses du programme.",
+            "verdict_global": "Objectifs ambitieux mais dans l'ordre du possible avec une acceleration forte des procedures. Le principal frein est l'acceptabilite locale et les delais de contentieux"
+          },
+          "historique": {
+            "score": 0.35,
+            "confidence": 0.6,
+            "justification": "La France a installe ~400 eoliennes/an en moyenne depuis 2018. Le rythme de deploiement solaire a accelere (3-4 GWc/an). La loi d'acceleration des ENR (2023) n'a pas encore produit ses pleins effets. L'Allemagne a reussi un deploiement massif d'ENR (80+ GW eolien + 80 GW solaire) mais sur 20 ans et avec des subventions colossales (EEG-Umlage). La France est en retard sur ses propres objectifs PPE (Programmation pluriannuelle de l'energie).",
+            "delai_realiste_mois": 60,
+            "precedent_principal": "PPE francaise: objectifs ENR regulierement non atteints. Allemagne: deploiement massif reussi mais sur 20 ans avec subventions elevees"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_017",
+      "raw_text": "Regulariser les sans-papiers justifiant d'un emploi, d'une vie familiale ou d'enfants scolarises, et creer des cartes de sejour humanitaires",
+      "theme": "immigration",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/immigration/",
+      "feasibility": {
+        "overall": 0.3,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.22,
+          0.38
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.45,
+            "confidence": 0.45,
+            "justification": "Le cout budgetaire direct est modeste: les regularisations existantes representent ~30 000/an. L'elargissement des criteres pourrait doubler ce nombre. Cout administratif supplementaire: ~200-300 M EUR/an (prefectures, OFII). Les regularises deviennent eligibles aux prestations sociales mais contribuent aussi fiscalement (emploi legal). L'effet net est debattu mais probablement faiblement positif a moyen terme.",
+            "cout_estime_eur": 300000000,
+            "periodicite_cout": "annuel (surcout administratif)",
+            "financement_credible": true,
+            "compatible_psmt": true
+          },
+          "juridique": {
+            "score": 0.5,
+            "confidence": 0.6,
+            "justification": "La regularisation est une competence discretionnaire du ministre de l'Interieur (circulaires Valls 2012). L'elargissement par la loi est possible mais se heurterait au Senat LR. La loi Immigration 2024 a vu 32 articles censures par le CC pour atteinte aux droits fondamentaux: le precedent montre la vigilance du CC. Les cartes de sejour humanitaires necessitent une base legislative. Le droit UE (directive 'retour') encadre le traitement des irreguliers.",
+            "vehicule_legislatif": "Loi ordinaire ou circulaire ministerielle (regularisation) + loi pour les cartes humanitaires",
+            "risque_censure_cc": "Faible sur la regularisation (discretion executive), moyen sur les cartes humanitaires",
+            "conflit_droit_ue": "Non - les Etats gardent une marge de manoeuvre sur l'immigration legale"
+          },
+          "social": {
+            "score_acceptabilite": 0.25,
+            "score_impact": 0.4,
+            "confidence": 0.5,
+            "justification": "La regularisation est un sujet tres clivant. Les sondages montrent une majorite hostile a une regularisation large (~55-65% defavorables). Le RN et LR s'y opposeraient vigoureusement. Meme au sein du NFP, le sujet divise. Impact positif pour les beneficiaires (sortie de la precarite, acces aux droits). Risque politique majeur pour le gouvernement.",
+            "opposition_sociale": "Tres forte (opinion publique majoritairement hostile, opposition parlementaire large)"
+          },
+          "factcheck": {
+            "score": 0.5,
+            "confidence": 0.5,
+            "justification": "Les regularisations existent deja (circulaire Valls 2012): ~30 000/an pour emploi, vie familiale, ou enfants scolarises. L'elargissement propose est une extension de criteres existants, pas une revolution. Le nombre de sans-papiers en France est estime a 600 000-700 000. L'impact budgetaire des regularisations est documente comme neutre a legerement positif a moyen terme (etudes OCDE). Les cartes humanitaires existent dans d'autres pays (Italie, Espagne).",
+            "verdict_global": "Extension de pratiques existantes. Faisabilite technique reelle mais acceptabilite politique tres faible"
+          },
+          "historique": {
+            "score": 0.3,
+            "confidence": 0.6,
+            "justification": "Regularisation Chevenement (1997-1998): 80 000 regularisations en 18 mois. Circulaire Valls (2012): ~30 000 regularisations/an en regime permanent. La regularisation espagnole de 2005 (Zapatero, 700 000 personnes) est le precedent europeen le plus ambitieux, avec des resultats mitiges (appel d'air conteste). L'opinion francaise s'est durcie sur l'immigration depuis 2015.",
+            "delai_realiste_mois": 12,
+            "precedent_principal": "Circulaire Valls 2012: ~30 000 regularisations/an. Regularisation Chevenement 1998: 80 000 en 18 mois. Regularisation Zapatero (Espagne 2005): 700 000 personnes"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_018",
+      "raw_text": "Recruter 3 000 magistrats et 8 000 agents de justice supplementaires et investir 1 milliard d'euros dans la justice en cinq ans",
+      "theme": "securite",
+      "source_url": "https://www.lemondedudroit.fr/decryptages/79822-presidentielle-2022-quelles-sont-les-propositions-en-matiere-de-justice-de-yannick-jadot.html",
+      "feasibility": {
+        "overall": 0.42,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.34,
+          0.5
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.35,
+            "confidence": 0.6,
+            "justification": "1 Md EUR sur 5 ans = 200 M EUR/an. Le budget actuel de la Justice est de 10.2 Md EUR, donc +2%/an: modeste et potentiellement absorbable. 3 000 magistrats x 70 000 EUR/an moyen = 210 M EUR/an. 8 000 agents x 35 000 EUR/an = 280 M EUR/an. Total personnel: ~490 M EUR/an, soit bien plus que les 200 M EUR annonces. Le chiffrage de 1 Md EUR sur 5 ans est sous-estime d'au moins un facteur 2.",
+            "cout_estime_eur": 500000000,
+            "periodicite_cout": "annuel (cout reel des recrutements, superieur au 1 Md/5 ans annonce)",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.75,
+            "confidence": 0.7,
+            "justification": "Le recrutement de magistrats et agents de justice releve du budget de l'Etat et du pouvoir executif. Pas d'obstacle constitutionnel. Le Conseil superieur de la magistrature doit etre consulte. L'ENM (Ecole nationale de la magistrature) peut augmenter ses promotions. La loi de programmation de la justice 2023-2027 prevoit deja des recrutements (+1 500 magistrats, +1 800 greffiers sur 5 ans).",
+            "vehicule_legislatif": "Loi de finances + loi de programmation de la justice",
+            "risque_censure_cc": "Nul",
+            "conflit_droit_ue": "Aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.7,
+            "score_impact": 0.6,
+            "confidence": 0.6,
+            "justification": "L'amelioration de la justice est consensuelle. Les delais de jugement sont parmi les pires d'Europe (France: 12-18 mois en moyenne vs 6 mois en Allemagne). Les magistrats et greffiers soutiennent les recrutements. L'opinion publique y est favorable. Peu d'opposition attendue.",
+            "opposition_sociale": "Faible (consensus large en faveur du renforcement de la justice)"
+          },
+          "factcheck": {
+            "score": 0.4,
+            "confidence": 0.6,
+            "justification": "La France compte ~8 800 magistrats (2023), soit 12 pour 100 000 habitants (moyenne UE: 21). 3 000 magistrats supplementaires (+34%) rapprocheraient la France de la moyenne europeenne. L'ENM forme ~300 magistrats/an: passer a 600/an est necessaire mais l'ecole n'a pas la capacite actuelle. Le chiffrage de 1 Md EUR sur 5 ans est clairement insuffisant (cout reel: 2.5+ Md EUR sur 5 ans). La loi de programmation 2023-2027 prevoit deja 1 500 magistrats mais peine au recrutement.",
+            "verdict_global": "Besoin reel et objectif louable. Chiffrage annonce sous-estime d'un facteur 2+. Capacite de formation de l'ENM insuffisante pour le rythme demande"
+          },
+          "historique": {
+            "score": 0.4,
+            "confidence": 0.6,
+            "justification": "La loi de programmation justice 2023-2027 (Dupond-Moretti) prevoyait +1 500 magistrats et +1 800 greffiers. Le recrutement est en cours mais plus lent que prevu (concours ENM: difficulte a pourvoir tous les postes). Le budget de la justice a augmente de 22% entre 2022 et 2027 (loi de programmation). La France reste sous-dotee en magistrats malgré des efforts recents.",
+            "delai_realiste_mois": 60,
+            "precedent_principal": "Loi de programmation justice 2023-2027: +1 500 magistrats prevus, recrutement en cours mais difficile. Budget +22% sur 5 ans"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_019",
+      "raw_text": "Creer une police de l'environnement et un pole environnement avec au moins 3 magistrats formes dans chaque tribunal judiciaire",
+      "theme": "securite",
+      "source_url": "https://www.lemondedudroit.fr/decryptages/79822-presidentielle-2022-quelles-sont-les-propositions-en-matiere-de-justice-de-yannick-jadot.html",
+      "feasibility": {
+        "overall": 0.45,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.37,
+          0.53
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.4,
+            "confidence": 0.5,
+            "justification": "164 tribunaux judiciaires x 3 magistrats = 492 magistrats specialises (a former ou recruter). Cout: ~35 M EUR/an. Creation d'une police de l'environnement: ~2 000-5 000 agents estimes, soit 100-250 M EUR/an. Total: 135-285 M EUR/an. Modeste par rapport aux budgets securite (17.2 Md EUR) et justice (10.2 Md EUR).",
+            "cout_estime_eur": 200000000,
+            "periodicite_cout": "annuel",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.7,
+            "confidence": 0.65,
+            "justification": "Des poles environnement existent deja dans certains TJ (pôles regionaux environnement - JIRS environnement depuis 2021). La creation d'une police de l'environnement peut s'appuyer sur l'OFB (Office Francais de la Biodiversite) existant. Le cadre legislatif est deja partiellement en place (loi Climat 2021, articles sur la justice environnementale). Extension realisable par decret ou loi ordinaire.",
+            "vehicule_legislatif": "Decret (reorganisation OFB et poles TJ) + loi de finances (moyens)",
+            "risque_censure_cc": "Nul",
+            "conflit_droit_ue": "Aucun - conforme aux directives environnementales UE"
+          },
+          "social": {
+            "score_acceptabilite": 0.55,
+            "score_impact": 0.5,
+            "confidence": 0.5,
+            "justification": "La justice environnementale est un sujet qui monte en puissance (affaire du siecle, Total en Ouganda). L'opinion y est globalement favorable. Les agriculteurs et industriels pourraient percevoir une police de l'environnement comme une menace supplementaire (inspections, sanctions). Les associations environnementales soutiennent fortement la mesure.",
+            "opposition_sociale": "Moderee (opposition sectorielle des agriculteurs et industriels, soutien des associations)"
+          },
+          "factcheck": {
+            "score": 0.55,
+            "confidence": 0.55,
+            "justification": "L'OFB existe deja (1 700 agents) et exerce des missions de police de l'environnement. Des JIRS environnement ont ete creees en 2021 dans 6 tribunaux. La proposition est donc une extension de dispositifs existants, pas une creation ex nihilo. Le chiffrage est plausible. La France est effectivement sous-dotee en capacite de repression des infractions environnementales (moins de 1% des infractions constatees donnent lieu a des poursuites).",
+            "verdict_global": "Extension de dispositifs existants. Faisable techniquement et budgetairement. Objectif de 3 magistrats par TJ est ambitieux mais pas irrealiste"
+          },
+          "historique": {
+            "score": 0.45,
+            "confidence": 0.55,
+            "justification": "L'OFB a ete cree en 2020 par fusion de l'ONCFS et de l'AFB. Les JIRS environnement (2021) sont trop recentes pour etre evaluees. La convention judiciaire d'interet public ecologique (CJIP environnementale) a ete creee en 2020 et commence a produire des resultats. Le mouvement vers une justice environnementale renforcee est reel et transpartisan.",
+            "delai_realiste_mois": 36,
+            "precedent_principal": "Creation OFB (2020) et JIRS environnement (2021): premiers pas vers une justice environnementale renforcee"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_020",
+      "raw_text": "Octroyer les allocations familiales des le premier enfant",
+      "theme": "economie",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/octroyer-les-allocations-familiales-des-le-1er-enfant/",
+      "feasibility": {
+        "overall": 0.45,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.37,
+          0.53
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.3,
+            "confidence": 0.7,
+            "justification": "L'Institut Montaigne chiffre la mesure a 1.1 Md EUR/an. La branche famille de la Secu est traditionnellement excedentaire. Le montant est modeste rapporte au budget famille (~50 Md EUR de prestations familiales). Mais dans le contexte de deficit de la Secu (-22 Md EUR), toute depense supplementaire non compensee aggrave le desequilibre. Non finance explicitement.",
+            "cout_estime_eur": 1100000000,
+            "periodicite_cout": "annuel",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.75,
+            "confidence": 0.7,
+            "justification": "Les allocations familiales sont fixees par le Code de la securite sociale. La modification du seuil (de 2 a 1 enfant) necessite une loi (PLFSS). Pas d'obstacle constitutionnel. Au contraire, le principe d'egalite pourrait plaider en faveur de l'extension au 1er enfant. Le CC a deja accepte la modulation des AF sous conditions de ressources (2014).",
+            "vehicule_legislatif": "PLFSS (loi de financement de la securite sociale)",
+            "risque_censure_cc": "Tres faible",
+            "conflit_droit_ue": "Aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.7,
+            "score_impact": 0.55,
+            "confidence": 0.65,
+            "justification": "Mesure populaire aupres des familles. 4.8 millions de familles avec un seul enfant beneficieraient de la mesure. Impact positif sur le pouvoir d'achat des jeunes parents. Le montant serait de ~140 EUR/mois pour les familles les plus modestes. Peu d'opposition attendue hormis des critiques sur le cout budgetaire.",
+            "opposition_sociale": "Faible (mesure consensuelle)"
+          },
+          "factcheck": {
+            "score": 0.6,
+            "confidence": 0.65,
+            "justification": "La France est l'un des rares pays europeens a ne pas verser d'allocations familiales des le premier enfant. Le chiffrage de 1.1 Md EUR (Institut Montaigne) est fiable et confirme par la CNAF. La mesure est simple a mettre en oeuvre techniquement (extension du bareme existant). L'impact sur la natalite est incertain mais les etudes montrent un effet positif modeste des aides financieres.",
+            "verdict_global": "Mesure chiffree, techniquement simple, et dans la moyenne europeenne. Cout reel bien documente"
+          },
+          "historique": {
+            "score": 0.5,
+            "confidence": 0.65,
+            "justification": "Les allocations familiales des le 1er enfant ont existe en France jusqu'en 1978 (complement familial). La plupart des pays europeens les versent des le 1er enfant. La modulation des AF sous conditions de ressources (2014) et l'ARS (allocation de rentree scolaire) des le 1er enfant montrent que le systeme est adaptable. La branche famille a une expertise technique solide.",
+            "delai_realiste_mois": 12,
+            "precedent_principal": "Allocations familiales des le 1er enfant jusqu'en 1978 en France. Pratique courante dans la plupart des pays UE"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_021",
+      "raw_text": "Revenir sur la baisse des impots de production des dernieres annees pour financer la transition ecologique",
+      "theme": "economie",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/yannick-jadot/revenir-sur-la-baisse-des-impots-de-production-de-ces-dernieres-annees/",
+      "feasibility": {
+        "overall": 0.38,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.3,
+          0.46
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.55,
+            "confidence": 0.65,
+            "justification": "L'Institut Montaigne estime la recette a 10 Md EUR/an (retablissement CVAE + impots de production baisses depuis 2020). C'est une recette credible car les impots existaient et leur rendement est connu. La CVAE seule rapportait 8 Md EUR/an avant sa suppression progressive. Le retablissement est techniquement simple. Contribue positivement au deficit mais deteriore la competitivite.",
+            "cout_estime_eur": -10000000000,
+            "periodicite_cout": "annuel (recette)",
+            "financement_credible": true,
+            "compatible_psmt": true
+          },
+          "juridique": {
+            "score": 0.65,
+            "confidence": 0.7,
+            "justification": "Le retablissement d'impots supprimes est juridiquement possible (Art. 34). La CVAE etait un impot legal. Pas de risque constitutionnel specifique. L'Art. 40 n'est pas un obstacle car c'est une hausse de recettes (initiative gouvernementale). Le Senat LR pourrait s'opposer mais le gouvernement peut passer en force via le 49.3 sur le PLF.",
+            "vehicule_legislatif": "Loi de finances (PLF)",
+            "risque_censure_cc": "Faible",
+            "conflit_droit_ue": "Aucun - les impots de production sont de competence nationale"
+          },
+          "social": {
+            "score_acceptabilite": 0.35,
+            "score_impact": 0.3,
+            "confidence": 0.6,
+            "justification": "Les impots de production sont detestes par les entreprises car ils taxent le chiffre d'affaires et non le benefice. Le MEDEF, la CPME et l'AFEP s'opposeront fermement. L'argument de la competitivite internationale sera fortement mobilise. L'opinion publique est moins sensible a ce sujet (impot invisible pour les particuliers). Le risque de delocalisations est reel pour l'industrie manufacturiere.",
+            "opposition_sociale": "Forte (monde patronal, organismes de competitivite)"
+          },
+          "factcheck": {
+            "score": 0.5,
+            "confidence": 0.65,
+            "justification": "La baisse des impots de production depuis 2020 represente effectivement ~10 Md EUR/an (CVAE, CFE, taxes foncières entreprises). L'impact sur la competitivite est debattu: le Conseil d'analyse economique estime un effet positif mais le France Strategie nuance. La France reste le pays avec les impots de production les plus eleves en Europe meme apres les baisses. Le retablissement replacerait la France comme outlier europeen.",
+            "verdict_global": "Recette chiffrable et credible. Mais risque de deterioration de la competitivite dans un contexte europeen concurrentiel"
+          },
+          "historique": {
+            "score": 0.35,
+            "confidence": 0.6,
+            "justification": "La suppression progressive de la CVAE a ete decidee en 2020-2023. Revenir en arriere serait un signal negatif pour l'attractivite de la France (classements 'ease of doing business'). Le precedent de la taxe a 75% (2012, censuree puis abandonnee) montre les limites des retours en arriere fiscaux. L'instabilite fiscale est elle-meme un facteur de desincitation a l'investissement.",
+            "delai_realiste_mois": 12,
+            "precedent_principal": "CVAE: creee en 2010, suppression progressive 2020-2024. Taxe a 75% (2012): censuree par le CC puis abandonnee"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_022",
+      "raw_text": "Augmenter le budget du ministere de la Culture de 1 milliard d'euros par an et instaurer un revenu garanti pour les artistes-auteurs",
+      "theme": "culture",
+      "source_url": "https://leclaireur.fnac.com/article/78740-presidentielles-2022-quel-est-le-programme-culturel-des-candidats/",
+      "feasibility": {
+        "overall": 0.35,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.27,
+          0.43
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.25,
+            "confidence": 0.6,
+            "justification": "Le budget du ministere de la Culture est de ~4.5 Md EUR. +1 Md EUR = +22%, une hausse considerable. Le revenu garanti pour les artistes-auteurs (~270 000 personnes) couterait 1-3 Md EUR/an supplementaires selon le montant. Total: 2-4 Md EUR/an. Non finance. Incompatible avec le PSMT dans le contexte actuel de reduction des depenses.",
+            "cout_estime_eur": 2000000000,
+            "periodicite_cout": "annuel (budget Culture + revenu garanti)",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.65,
+            "confidence": 0.6,
+            "justification": "L'augmentation du budget Culture releve de la loi de finances. Le revenu garanti pour les artistes necessite une loi specifique ou une integration dans le regime des intermittents/securite sociale des artistes-auteurs. Pas d'obstacle constitutionnel. Le statut des artistes-auteurs est deja partiellement codifie (regime social depuis 2019).",
+            "vehicule_legislatif": "Loi de finances + loi specifique pour le revenu garanti",
+            "risque_censure_cc": "Faible",
+            "conflit_droit_ue": "Aucun"
+          },
+          "social": {
+            "score_acceptabilite": 0.5,
+            "score_impact": 0.45,
+            "confidence": 0.5,
+            "justification": "La culture est un secteur ou la France investit deja plus que la moyenne europeenne. L'opinion publique est moderement favorable a une hausse du budget culturel. Le revenu garanti pour les artistes serait percu comme un privilege par certains. Le secteur culturel (270 000 artistes-auteurs + intermittents) soutient evidemment la mesure. Opposition potentielle des contribuables en periode d'austerite.",
+            "opposition_sociale": "Moderee (percu comme non prioritaire par rapport a la sante ou l'education)"
+          },
+          "factcheck": {
+            "score": 0.4,
+            "confidence": 0.55,
+            "justification": "Le budget Culture a augmente de ~15% sous Macron I et II. La promesse de +1 Md EUR est precise et chiffrable. Le revenu garanti pour les artistes-auteurs est en revanche tres vague: aucun montant, aucun mecanisme. Les artistes-auteurs ont un revenu median de ~1 200 EUR/mois; un revenu garanti significatif couterait cher. Le rapport Racine (2020) sur le statut des artistes-auteurs n'a ete que partiellement mis en oeuvre.",
+            "verdict_global": "Hausse du budget Culture chiffree et faisable techniquement. Revenu garanti artistes trop vague pour etre evalue"
+          },
+          "historique": {
+            "score": 0.35,
+            "confidence": 0.55,
+            "justification": "Le 1% culturel (Lang, 1981) est le precedent le plus celebre de hausse massive du budget Culture (doublement). Depuis, le budget oscille entre 0.8% et 1.1% du budget de l'Etat. Le rapport Racine (2020) sur les artistes-auteurs a formule 23 propositions dont moins de la moitie ont ete mises en oeuvre. Le statut des intermittents du spectacle montre la complexite des regimes specifiques.",
+            "delai_realiste_mois": 18,
+            "precedent_principal": "Doublement du budget Culture par Jack Lang (1981-1982). Rapport Racine (2020): propositions partiellement mises en oeuvre"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_023",
+      "raw_text": "Accorder le droit au travail des le depot de la demande d'asile et rendre les demarches d'immigration plus transparentes depuis les pays d'origine",
+      "theme": "immigration",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/immigration/",
+      "feasibility": {
+        "overall": 0.38,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.3,
+          0.46
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.5,
+            "confidence": 0.5,
+            "justification": "Le cout budgetaire direct est potentiellement negatif (economie): les demandeurs d'asile qui travaillent ne percoivent plus l'ADA (allocation pour demandeur d'asile, ~7 EUR/jour). Environ 130 000 demandes d'asile/an en France. L'acces au travail genere des cotisations sociales et des impots. Les consuls supplementaires dans les pays d'origine representeraient un surcout modeste (~50-100 M EUR/an).",
+            "cout_estime_eur": 0,
+            "periodicite_cout": "neutre a positif (economies ADA vs couts administratifs)",
+            "financement_credible": true,
+            "compatible_psmt": true
+          },
+          "juridique": {
+            "score": 0.45,
+            "confidence": 0.6,
+            "justification": "Actuellement, les demandeurs d'asile peuvent travailler apres 6 mois si l'OFPRA n'a pas statue (Art. L554-1 CESEDA). Reduire ce delai a 0 necessite une modification legislative. La directive UE 'conditions d'accueil' (2013/33/UE) permet aux Etats d'accorder le droit au travail immédiat. Pas de conflit avec le droit UE. Le Senat LR s'y opposerait vigoureusement. Le CC pourrait valider au nom du droit au travail (preambule 1946).",
+            "vehicule_legislatif": "Loi ordinaire (modification du CESEDA)",
+            "risque_censure_cc": "Faible (le droit au travail est un principe constitutionnel)",
+            "conflit_droit_ue": "Aucun - compatible avec la directive conditions d'accueil"
+          },
+          "social": {
+            "score_acceptabilite": 0.3,
+            "score_impact": 0.45,
+            "confidence": 0.5,
+            "justification": "Le droit au travail des demandeurs d'asile est un sujet extremement clivant. L'opposition politique (RN, LR) le presenterait comme un 'appel d'air'. Les sondages montrent une opinion partagee. Les employeurs (secteurs en tension: hotellerie, BTP, agriculture) y sont favorables. L'impact serait positif pour les demandeurs (autonomie, integration) mais le risque politique est eleve.",
+            "opposition_sociale": "Forte (opinion divisee, opposition parlementaire large)"
+          },
+          "factcheck": {
+            "score": 0.55,
+            "confidence": 0.55,
+            "justification": "Plusieurs pays UE accordent deja un acces rapide au travail (Suede: immediat; Allemagne: 6 mois reduit a 3). L'OCDE recommande un acces rapide au marche du travail pour les demandeurs d'asile. L'effet 'appel d'air' est debattu: les etudes academiques sont divisees mais suggerent un effet modeste. La France traite ~130 000 demandes/an avec un taux d'acceptation de ~30%. Les demandeurs non reconnus restent souvent en France comme sans-papiers.",
+            "verdict_global": "Pratique courante dans d'autres pays UE. Impact budgetaire neutre a positif. Faisabilite politique tres faible"
+          },
+          "historique": {
+            "score": 0.35,
+            "confidence": 0.55,
+            "justification": "Le droit au travail des demandeurs d'asile a ete progressivement restreint en France depuis les annees 1990. La tendance europeenne est a l'ouverture (Suede, Allemagne, Portugal). La France est plus restrictive que la moyenne UE sur ce point. Le precedent allemand (2015, ouverture massive) a montre la faisabilite operationnelle mais avec des tensions sociales significatives.",
+            "delai_realiste_mois": 12,
+            "precedent_principal": "Suede: acces immediat au travail pour les demandeurs d'asile. Allemagne: delai de 3 mois depuis 2023"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_024",
+      "raw_text": "Instaurer une taxe sur les geants du numerique (Google tax) pour financer la creation en ligne et la diversite culturelle",
+      "theme": "numerique",
+      "source_url": "https://actualitte.com/article/104341/politique-publique/statut-des-auteurs-ecotaxe-et-diversite-editoriale-dans-le-programme-de-yannick-jadot",
+      "feasibility": {
+        "overall": 0.42,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.34,
+          0.5
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.45,
+            "confidence": 0.55,
+            "justification": "La taxe GAFAM francaise (loi du 24 juillet 2019, dite taxe French Tech) rapporte ~600-700 M EUR/an. Le rendement est modeste. Une extension de l'assiette ou du taux pourrait rapporter 1-2 Md EUR/an. Le financement de la 'creation en ligne' serait cependant faible. Le Pillar 1 de l'OCDE (taxation internationale) pourrait a terme remplacer les taxes unilaterales.",
+            "cout_estime_eur": -700000000,
+            "periodicite_cout": "annuel (recette existante, extension possible)",
+            "financement_credible": true,
+            "compatible_psmt": true
+          },
+          "juridique": {
+            "score": 0.5,
+            "confidence": 0.6,
+            "justification": "La taxe GAFAM existe deja (loi 2019). Mais elle a ete suspendue en 2019-2020 sous pression americaine (menace de droits de douane). Le cadre OCDE Pillar 1/Pillar 2 est en cours de mise en oeuvre et pourrait rendre les taxes unilaterales obsoletes ou illegales. L'affectation a la 'creation en ligne' contreviendrait au principe de non-affectation des recettes (LOLF). Risque de represailles commerciales americaines.",
+            "vehicule_legislatif": "Loi de finances (extension de la taxe existante)",
+            "risque_censure_cc": "Faible sur le principe (deja valide), moyen sur l'affectation",
+            "conflit_droit_ue": "Moyen - en cours d'harmonisation au niveau OCDE/UE"
+          },
+          "social": {
+            "score_acceptabilite": 0.65,
+            "score_impact": 0.35,
+            "confidence": 0.5,
+            "justification": "La taxation des GAFAM est tres populaire (>70% d'opinions favorables). L'opinion percoit ces entreprises comme ne payant pas leur juste part d'impots. Peu d'opposition interieure attendue. Mais les represailles commerciales americaines (droits de douane) affecteraient d'autres secteurs (vin, luxe, agriculture).",
+            "opposition_sociale": "Faible en interne (populaire), risque externe (represailles US)"
+          },
+          "factcheck": {
+            "score": 0.45,
+            "confidence": 0.55,
+            "justification": "La taxe GAFAM existe et rapporte ~600-700 M EUR/an. L'affirmation qu'elle financerait la 'creation en ligne et la diversite culturelle' est vague: pas de mecanisme d'affectation precise. Le cadre OCDE Pillar 1 est cense remplacer les taxes unilaterales a terme, rendant l'approche potentiellement obsolete. La diversite culturelle est financee par d'autres mecanismes (CNC, CNM).",
+            "verdict_global": "Taxe existante qu'il suffit de maintenir/etendre. Rendement modeste. Affectation a la creation en ligne non detaillee. Risque d'obsolescence avec l'accord OCDE"
+          },
+          "historique": {
+            "score": 0.5,
+            "confidence": 0.55,
+            "justification": "La taxe GAFAM francaise (2019) a ete pionniere en Europe. L'Espagne, l'Italie et le Royaume-Uni ont suivi. Les negociations OCDE (Pillar 1) visent a remplacer ces taxes unilaterales. La suspension sous pression US (2019-2020) montre la vulnerabilite geopolitique de l'approche unilaterale. La taxe a ete retablie en 2021 apres l'accord politique OCDE.",
+            "delai_realiste_mois": 12,
+            "precedent_principal": "Taxe GAFAM francaise 2019: pionniere en UE, ~700 M EUR/an, suspendue puis retablie"
+          }
+        }
+      }
+    },
+    {
+      "id": "jadot_025",
+      "raw_text": "Degel du point d'indice des fonctionnaires et revalorisation des salaires dans la fonction publique",
+      "theme": "emploi",
+      "source_url": "https://www.usinenouvelle.com/editorial/presidentielle-ce-que-l-on-sait-du-programme-economique-de-yannick-jadot.N1775192",
+      "feasibility": {
+        "overall": 0.38,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.3,
+          0.46
+        ],
+        "dimensions": {
+          "budget": {
+            "score": 0.2,
+            "confidence": 0.6,
+            "justification": "La masse salariale de la fonction publique est de ~330 Md EUR/an (Etat + territoriale + hospitaliere). 1% de hausse du point d'indice = ~3.3 Md EUR/an. Une revalorisation significative (rattrapage de l'inflation depuis 2010: ~15-20%) couterait 50-65 Md EUR/an. Meme un degel modeste (+3.5% comme en 2022) coute ~12 Md EUR/an. Aucune precision sur l'ampleur. Probablement incompatible avec le PSMT.",
+            "cout_estime_eur": 12000000000,
+            "periodicite_cout": "annuel (estimation pour un rattrapage partiel de ~3.5%)",
+            "financement_credible": false,
+            "compatible_psmt": false
+          },
+          "juridique": {
+            "score": 0.8,
+            "confidence": 0.75,
+            "justification": "Le point d'indice est fixe par decret en Conseil des ministres. Aucune loi n'est necessaire. Le gouvernement a toute latitude pour le modifier. Pas d'obstacle constitutionnel. Le point a ete degele en 2022 (+3.5%) et 2023 (+1.5%) par le gouvernement Borne, montrant la faisabilite immediate.",
+            "vehicule_legislatif": "Decret en Conseil des ministres",
+            "risque_censure_cc": "Nul",
+            "conflit_droit_ue": "Indirect - impact sur le deficit si massif"
+          },
+          "social": {
+            "score_acceptabilite": 0.65,
+            "score_impact": 0.55,
+            "confidence": 0.6,
+            "justification": "Le degel du point d'indice est unanimement soutenu par les syndicats de la fonction publique. Les 5.7 millions de fonctionnaires ont subi une perte de pouvoir d'achat de ~15-20% depuis 2010 (gel quasi-continu). L'opinion publique est partagee (soutien des agents publics, critiques sur le cout). L'impact sur le deficit serait immediat et visible.",
+            "opposition_sociale": "Moderee (soutien syndical unanime, critiques budgetaires des economistes et du patronat)"
+          },
+          "factcheck": {
+            "score": 0.45,
+            "confidence": 0.6,
+            "justification": "Le point d'indice a ete gele de 2010 a 2016, puis de 2017 a 2022 (sauf +0.6% en 2016-2017). Le degel de 2022 (+3.5%) et 2023 (+1.5%) a montre que c'etait techniquement immediat. La promesse est vague ('degel et revalorisation') sans montant. Le rattrapage complet de l'inflation depuis 2010 est budgetairement irréaliste. Un degel modeste est faisable.",
+            "verdict_global": "Degel techniquement immediat (precedent 2022). Ampleur de la revalorisation non precisee, ce qui rend le chiffrage impossible. Cout potentiellement tres eleve"
+          },
+          "historique": {
+            "score": 0.45,
+            "confidence": 0.65,
+            "justification": "Le point d'indice a ete degele en juillet 2022 (+3.5%) et juillet 2023 (+1.5%) par le gouvernement Borne, totalisant +5% en 2 ans. C'est le plus fort degel depuis 2010. Avant 2010, le point etait revalorise annuellement (~0.5-1%/an). Le gel prolonge (2010-2022) est un precedent historique de compression salariale. La RGPP avait combine gel du point et suppressions de postes.",
+            "delai_realiste_mois": 3,
+            "precedent_principal": "Degel du point d'indice 2022 (+3.5%): immediat par decret. Gel 2010-2022: perte de pouvoir d'achat de ~15% pour les fonctionnaires"
+          }
+        }
+      }
+    }
+  ],
+  "synthese": {
+    "total_promesses": 25,
+    "promesses_concretes": 24,
+    "promesses_vagues": 1,
+    "score_global_faisabilite": 0.32,
+    "label_global": "Programme difficilement faisable dans son ensemble",
+    "cout_total_estime_annuel_eur": 70000000000,
+    "recettes_nouvelles_estimees_annuel_eur": 16000000000,
+    "deficit_supplementaire_estime_eur": 54000000000,
+    "repartition_scores": {
+      "quasi_infaisable_0_0.2": 3,
+      "tres_difficile_0.2_0.3": 8,
+      "difficile_0.3_0.4": 8,
+      "partiellement_faisable_0.4_0.5": 5,
+      "faisable_0.5_0.7": 1,
+      "tres_faisable_0.7_1": 0
+    },
+    "points_forts": [
+      "Diagnostic pertinent sur les besoins d'investissement climat (coherent avec i4ce et HCC)",
+      "Mesures de justice (magistrats, police environnementale) modestes et dans la continuite de politiques existantes",
+      "Allocations familiales des le 1er enfant: mesure chiffree, simple et dans la moyenne europeenne",
+      "Certaines mesures reposent sur des dispositifs existants extensibles (MaPrimeRenov, taxe GAFAM, OFB)"
+    ],
+    "points_faibles": [
+      "Cout total tres eleve (~70 Md EUR/an de depenses supplementaires) sans financement credible (~16 Md EUR/an de recettes)",
+      "ISF climatique surévalué d'un facteur 2-3 par rapport au rendement realiste",
+      "Plusieurs promesses physiquement irrealisables (100% bio cantines, 100 000 agriculteurs bio, 700 000 logements sociaux)",
+      "Sortie du nucleaire: cout colossal, contredit par le precedent allemand et la taxonomie verte UE",
+      "Financement par 'dette verte BCE' juridiquement impossible (Art. 123 TFUE)",
+      "Totalement incompatible avec le PSMT et la trajectoire de retour sous 3% de deficit",
+      "Plusieurs conflits avec le droit UE (glyphosate, interdiction thermique anticipee, libre circulation)",
+      "Arithmetique parlementaire defavorable: NFP a 193 sieges, loin des 289 necessaires"
+    ],
+    "compatibilite_psmt": "Le programme Jadot est fondamentalement incompatible avec le PSMT 2025-2029. Les depenses nettes augmenteraient de plusieurs dizaines de milliards EUR/an, depassant massivement le plafond de 0.8-1.2% de croissance. Le deficit s'aggraverait significativement au lieu de converger vers 3% en 2029. La Commission europeenne pourrait renforcer les sanctions dans le cadre de la procedure de deficit excessif.",
+    "note_methodologique": "Les scores refletent la faisabilite technique, budgetaire, juridique et sociale des mesures, et non leur desirabilite. Les estimations de couts proviennent de l'Institut Montaigne, de l'IFRAP, de l'i4ce et de nos propres calculs. L'IFRAP etant un think tank liberal, ses chiffrages peuvent etre plus severes sur les depenses publiques. L'Institut Montaigne est considere comme plus neutre methodologiquement."
+  }
+}

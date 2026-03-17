@@ -1,0 +1,708 @@
+{
+  "candidate": "Francois Bayrou",
+  "party": "Mouvement Democrate (MoDem)",
+  "election": "Positionnement 2024-2027",
+  "source_urls": [
+    "https://www.info.gouv.fr/actualite/ce-quil-faut-retenir-de-la-declaration-de-politique-generale-de-francois-bayrou",
+    "https://www.vie-publique.fr/discours/296842-francois-bayrou-14012025-declaration-politique-generale-l",
+    "https://www.mouvementdemocrate.fr/programme/propositions-2427",
+    "https://www.mouvementdemocrate.fr/programme/transition-ecologique-2432",
+    "https://www.mouvementdemocrate.fr/programme/fiscalite-et-depenses-publiques-2439",
+    "https://www.franceinfo.fr/politique/francois-bayrou/proportionnelle-aux-legislatives-francois-bayrou-estime-qu-il-y-a-une-majorite-pour-voter-cette-reforme-et-promet-un-texte-dans-les-prochains-mois_7345212.html",
+    "https://www.vie-publique.fr/discours/299435-francois-bayrou-08072025-refonder-l-etat-local",
+    "https://www.publicsenat.fr/actualites/politique/budget-2026-suivez-en-direct-les-annonces-de-francois-bayrou",
+    "https://www.info.gouv.fr/actualite/ce-quil-faut-retenir-du-comite-interministeriel-sur-limmigration",
+    "https://www.info.gouv.fr/actualite/former-plus-principe-de-solidarite-le-plan-du-gouvernement-face-aux-deserts-medicaux",
+    "https://www.vie-publique.fr/discours/299207-francois-bayrou-20062025-comite-interministeriel-aux-ruralites-2025",
+    "https://www.franceinfo.fr/economie/budget/budget-2026-francois-bayrou-presente-son-projet-pour-economiser-40-milliards-d-euros-et-met-sa-methode-a-l-epreuve_7369171.html"
+  ],
+  "promises": [
+    {
+      "id": "bayrou_001",
+      "raw_text": "Introduire la proportionnelle aux elections legislatives avec un scrutin proportionnel integral departemental et un seuil de 5%, sur le modele de 1986, pour que chaque sensibilite politique soit representee en proportion des voix recues",
+      "source_url": "https://www.franceinfo.fr/politique/francois-bayrou/proportionnelle-aux-legislatives-francois-bayrou-estime-qu-il-y-a-une-majorite-pour-voter-cette-reforme-et-promet-un-texte-dans-les-prochains-mois_7345212.html",
+      "source_type": "presse",
+      "theme": "institutions",
+      "action_verb": "introduire",
+      "action_object": "proportionnelle integrale departementale aux legislatives avec seuil de 5%",
+      "quantification": {
+        "value": 5,
+        "unit": "pourcent seuil electoral"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "texte promis apres debats budgetaires 2025-2026",
+      "target_population": "ensemble des electeurs",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Bayrou soutient que la France est le seul pays de l'Union europeenne a ne pas appliquer la proportionnelle, et que les pays l'ayant adoptee ont une vie civique plus apaisee. Il considere que la proportionnelle permet que chaque courant politique soit justement represente a la mesure de ce qu'il pese, ce qui constitue un acquis democratique essentiel. Le MoDem porte cette revendication depuis sa creation en 2007.",
+      "sources_croisees": [
+        {
+          "url": "https://lcp.fr/actualites/proportionnelle-aux-legislatives-francois-bayrou-consulte-les-avis-divergent-sur-le",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_002",
+      "raw_text": "Creer une Banque de la Democratie pour que le financement des partis politiques et des campagnes electorales ne depende plus des choix de banques privees",
+      "source_url": "https://www.info.gouv.fr/actualite/ce-quil-faut-retenir-de-la-declaration-de-politique-generale-de-francois-bayrou",
+      "source_type": "declaration_officielle",
+      "theme": "institutions",
+      "action_verb": "creer",
+      "action_object": "Banque de la Democratie pour financer partis et campagnes",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "mandat 2027-2032 (projection)",
+      "target_population": "partis politiques et candidats",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Bayrou affirme que l'argent ne doit pas diriger les consciences ni prendre le pas sur la libre volonte des citoyens. Il propose que cette banque soit un organisme public place sous le controle du Parlement, adosse a la Caisse des depots, pour que le financement de la vie politique ne depende plus de banques privees et eviter les strategies de contournement. Cette proposition etait une condition de son ralliement a Macron en 2017.",
+      "sources_croisees": [
+        {
+          "url": "https://www.publicsenat.fr/actualites/politique/discours-de-politique-generale-quest-ce-que-la-banque-de-la-democratie-relancee-par-francois-bayrou",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_003",
+      "raw_text": "Refonder l'Etat local en faisant du prefet le coordinateur unique de tous les services et operateurs de l'Etat au niveau departemental, avec pouvoir d'avis sur la carte scolaire, les finances publiques et l'offre de soins",
+      "source_url": "https://www.vie-publique.fr/discours/299435-francois-bayrou-08072025-refonder-l-etat-local",
+      "source_type": "declaration_officielle",
+      "theme": "institutions",
+      "action_verb": "refonder",
+      "action_object": "Etat local avec prefet coordinateur unique",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "decrets ete 2025, dispositions legislatives rentree 2025",
+      "target_population": "collectivites territoriales et citoyens",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Bayrou justifie cette reforme par le constat que l'action de l'Etat est divisee en un trop grand nombre d'acteurs (agences, operateurs, services) depuis pres de 20 ans, ce qui nuit a son efficacite et a sa lisibilite pour les usagers. Le prefet doit devenir le chef d'orchestre de l'action territoriale pour creer une coherence d'ensemble des services de l'Etat au niveau departemental.",
+      "sources_croisees": [
+        {
+          "url": "https://www.banquedesterritoires.fr/etat-deconcentre-ce-qui-change-avec-la-reforme-bayrou",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_004",
+      "raw_text": "Realiser 43,8 milliards d'euros d'economies dans le budget 2026, incluant une annee blanche (gel des prestations et baremes), le non-remplacement d'un fonctionnaire sur trois, et la suppression de deux jours feries",
+      "source_url": "https://www.publicsenat.fr/actualites/politique/budget-2026-suivez-en-direct-les-annonces-de-francois-bayrou",
+      "source_type": "declaration_officielle",
+      "theme": "economie",
+      "action_verb": "economiser",
+      "action_object": "43,8 milliards dans le budget 2026",
+      "quantification": {
+        "value": 43.8,
+        "unit": "milliards EUR"
+      },
+      "cost_announced": {
+        "amount_eur": -43800000000,
+        "periodicity": "annuel",
+        "source": "gouvernement"
+      },
+      "funding_source": "gel prestations, reduction effectifs, suppression jours feries",
+      "timeline": "budget 2026",
+      "target_population": "ensemble des citoyens et administration",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Bayrou justifie ce plan par l'urgence de la dette publique depassant 3 300 milliards d'euros et le risque de surendettement. L'objectif est de ramener le deficit a 4,6% du PIB en 2026, puis 2,8% en 2029. Le plan se repartit en 10 postes d'economies incluant le gel des prestations (7,1 Mds), la reduction des operateurs (5,2 Mds), la baisse des depenses sociales (5,5 Mds) et la suppression de deux jours feries (4,2 Mds).",
+      "sources_croisees": [
+        {
+          "url": "https://www.francebleu.fr/infos/politique/budget-2026-oppositions-et-syndicats-vent-debout-contre-les-annonces-de-francois-bayrou-5125844",
+          "type": "presse",
+          "orientation": "critique"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_005",
+      "raw_text": "Fusionner la CSG et l'impot sur le revenu en un impot unique avec un bareme progressif pour plus de clarte, de progressivite et d'efficacite, tout en decapant le quotient familial",
+      "source_url": "https://www.mouvementdemocrate.fr/programme/fiscalite-et-depenses-publiques-2439",
+      "source_type": "programme_parti",
+      "theme": "economie",
+      "action_verb": "fusionner",
+      "action_object": "CSG et impot sur le revenu en impot unique progressif",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "mandat 2027-2032 (projection)",
+      "target_population": "ensemble des contribuables",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "La fusion vise a simplifier le systeme fiscal en remplacant trois prelevements par un seul, a elargir et standardiser l'assiette fiscale pour plus d'equite, et a revoir la progressivite du systeme. Le MoDem considere que rien ne justifie qu'une partie des depenses publiques repose sur un prelevement proportionnel (CSG) et une autre sur un prelevement progressif (IR).",
+      "sources_croisees": [
+        {
+          "url": "https://www.institutmontaigne.org/expressions/fusion-impot-sur-le-revenucsg-une-fausse-bonne-idee",
+          "type": "think_tank",
+          "orientation": "centre-droit"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_006",
+      "raw_text": "Sanctuariser le budget de l'Education nationale comme premiere priorite, annuler la suppression des 4000 postes d'enseignants et faire de l'ecole le pilier central de la politique gouvernementale",
+      "source_url": "https://www.francebleu.fr/infos/education/video-budget-nous-n-allons-pas-supprimer-les-4-000-postes-d-enseignants-confirme-francois-bayrou-4427675",
+      "source_type": "declaration_officielle",
+      "theme": "education",
+      "action_verb": "sanctuariser",
+      "action_object": "budget Education nationale et postes d'enseignants",
+      "quantification": {
+        "value": 4000,
+        "unit": "postes d'enseignants maintenus"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "budget 2025",
+      "target_population": "eleves et enseignants",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Bayrou a annule la suppression des 4 000 postes d'enseignants prevue par le gouvernement precedent de Michel Barnier, qualifiant cette decision de geste de bonne volonte. Cette annulation represente un cout de 150 millions d'euros en annee pleine selon la ministre de l'Education. Elle s'inscrit dans les negociations avec les socialistes pour eviter une censure du gouvernement.",
+      "sources_croisees": [
+        {
+          "url": "https://www.publicsenat.fr/actualites/politique/direct-suivez-la-declaration-de-politique-generale-de-francois-bayrou-devant-le-senat",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_007",
+      "raw_text": "Ouvrir l'acces en premiere annee d'etudes de sante dans chaque departement et deployer des options sante dans les lycees des territoires sous-dotes pour lutter contre les deserts medicaux",
+      "source_url": "https://www.info.gouv.fr/actualite/former-plus-principe-de-solidarite-le-plan-du-gouvernement-face-aux-deserts-medicaux",
+      "source_type": "declaration_officielle",
+      "theme": "sante",
+      "action_verb": "ouvrir",
+      "action_object": "acces etudes de sante dans chaque departement",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "a partir de septembre 2025",
+      "target_population": "etudiants et territoires en desert medical",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "En 2024, six millions de Francais n'avaient pas de medecin traitant et 87% du territoire etait classe en desert medical. Le gouvernement considere que former davantage de medecins en proximite, avec une obligation de stage en zone sous-dense, permettra d'ancrer les futurs praticiens dans les territoires qui en ont besoin. Le plan prevoit aussi le deploiement de 3 700 internes en 4e annee de medecine generale a partir de la rentree 2026.",
+      "sources_croisees": [
+        {
+          "url": "https://www.franceinfo.fr/sante/deserts-medicaux/le-gouvernement-veut-imposer-jusqu-a-deux-jours-par-mois-aux-medecins-dans-les-deserts-medicaux-dans-le-cadre-du-pacte-de-lutte-annonce-par-francois-bayrou_7210275.html",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_008",
+      "raw_text": "Instaurer un principe de solidarite territoriale obligeant les medecins a consacrer jusqu'a deux jours par mois dans les territoires les plus sous-dotes, avec compensation financiere et remplacement assure, pour garantir jusqu'a 30 millions de consultations annuelles supplementaires",
+      "source_url": "https://www.franceinfo.fr/sante/deserts-medicaux/le-gouvernement-veut-imposer-jusqu-a-deux-jours-par-mois-aux-medecins-dans-les-deserts-medicaux-dans-le-cadre-du-pacte-de-lutte-annonce-par-francois-bayrou_7210275.html",
+      "source_type": "declaration_officielle",
+      "theme": "sante",
+      "action_verb": "instaurer",
+      "action_object": "solidarite territoriale medecins 2 jours/mois en desert medical",
+      "quantification": {
+        "value": 30000000,
+        "unit": "consultations supplementaires par an"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "a partir de septembre 2025",
+      "target_population": "medecins et patients en zone sous-dotee",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Le gouvernement justifie cette mesure par le fait que six millions de Francais n'ont pas de medecin traitant. Le dispositif commence par l'incitation avec compensation financiere, mais prevoit de passer a l'obligation en cas d'echec. Le choix de la solidarite territoriale est prefere a la regulation de l'installation, dans une logique pragmatique d'exigence de resultats.",
+      "sources_croisees": [
+        {
+          "url": "https://www.lequotidiendumedecin.fr/sante-societe/politique-de-sante/plan-bayrou-anti-deserts-pas-de-regulation-linstallation-mais-une-solidarite-obligatoire-des",
+          "type": "presse_specialisee",
+          "orientation": "corporatiste_medical"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_009",
+      "raw_text": "Recruter 15 000 assistants medicaux d'ici 2028 avec des competences elargies pour liberer du temps medical dans les cabinets",
+      "source_url": "https://www.info.gouv.fr/actualite/former-plus-principe-de-solidarite-le-plan-du-gouvernement-face-aux-deserts-medicaux",
+      "source_type": "declaration_officielle",
+      "theme": "sante",
+      "action_verb": "recruter",
+      "action_object": "assistants medicaux",
+      "quantification": {
+        "value": 15000,
+        "unit": "assistants medicaux"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "d'ici 2028",
+      "target_population": "professionnels de sante et patients",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Le gouvernement estime qu'un assistant medical permet de liberer deux consultations supplementaires par jour pour le medecin, soit plus de 3,5 millions de consultations supplementaires par an d'ici 2028. Les assistants medicaux auront des competences elargies au-dela de la preparation administrative, incluant certains actes du quotidien, pour mieux soutenir l'activite clinique des medecins.",
+      "sources_croisees": [
+        {
+          "url": "https://www.caducee.net/actualite-medicale/16580/francois-bayrou-annonce-un-pacte-contre-les-deserts-medicaux.html",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_010",
+      "raw_text": "Remettre en chantier la reforme des retraites avec les partenaires sociaux sans tabou y compris sur l'age, avec pour avancees concretes l'abaissement de l'age du taux plein de 67 a 66 ans et demi et la prise en compte amelioree des carrieres des meres de famille",
+      "source_url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/retraites-francois-bayrou-donnera-jeudi-apres-midi-le-resultat-de-ses-discussions-avec-les-partenaires-sociaux_7336911.html",
+      "source_type": "presse",
+      "theme": "retraites",
+      "action_verb": "renogocier",
+      "action_object": "reforme des retraites via concertation sociale",
+      "quantification": {
+        "value": 66.5,
+        "unit": "ans age taux plein (contre 67)"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "conclave printemps 2025, inscription PLFSS automne 2025",
+      "target_population": "ensemble des actifs et retraites",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Bayrou a organise un conclave avec les partenaires sociaux en fixant trois objectifs : retablir l'equilibre financier du systeme de retraites d'ici 2030, ne pas augmenter le cout du travail, et proposer une meilleure justice pour les femmes dont la maternite a heurte la carriere et les travailleurs exposes a la penibilite. L'abaissement de l'age du taux plein de 67 a 66 ans et demi est presente comme un signe d'ecoute sociale.",
+      "sources_croisees": [
+        {
+          "url": "https://www.publicsenat.fr/actualites/economie/retraites-francois-bayrou-charge-les-partenaires-sociaux-de-saccorder-sur-une-nouvelle-reforme-en-trois-mois",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_011",
+      "raw_text": "Construire 15 000 logements etudiants par an pendant trois ans en mobilisant le foncier disponible de l'Etat",
+      "source_url": "https://www.info.gouv.fr/actualite/ce-quil-faut-retenir-de-la-declaration-de-politique-generale-de-francois-bayrou",
+      "source_type": "declaration_officielle",
+      "theme": "logement",
+      "action_verb": "construire",
+      "action_object": "logements etudiants sur foncier public",
+      "quantification": {
+        "value": 15000,
+        "unit": "logements/an pendant 3 ans"
+      },
+      "cost_announced": null,
+      "funding_source": "foncier disponible de l'Etat",
+      "timeline": "2025-2028",
+      "target_population": "etudiants",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Bayrou justifie cette mesure par la precarite etudiante, notamment lorsque les etudiants doivent trouver un logement dans les grandes villes ou les loyers depassent les moyens de leurs familles. Le parc social etudiant reste limite a 240 000 places dont 175 000 gerees par les Crous, tandis que la population etudiante continue de croitre. La mobilisation du foncier public sous-utilise permettrait de contourner les obstacles lies a la rarete et au cout du foncier en zone urbaine.",
+      "sources_croisees": [
+        {
+          "url": "https://www.batiactu.com/edito/francois-bayrou-promet-creation-45000-logements-etudiants-70387.php",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_012",
+      "raw_text": "Generaliser la Force frontiere a l'ensemble des frontieres de l'hexagone, avec un etat-major national mobilisant police, gendarmerie, douanes, armees et reservistes pour controler l'immigration irreguliere",
+      "source_url": "https://www.info.gouv.fr/actualite/ce-quil-faut-retenir-du-comite-interministeriel-sur-limmigration",
+      "source_type": "declaration_officielle",
+      "theme": "immigration",
+      "action_verb": "generaliser",
+      "action_object": "Force frontiere sur toutes les frontieres",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "2025-2026",
+      "target_population": "forces de securite et zones frontalieres",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Le dispositif Force frontiere repose sur un etat-major national et une doctrine d'emploi permettant de mobiliser plusieurs centaines de renforts issus de la police, gendarmerie, douanes et armees, avec possibilite de faire appel a des reservistes. Bayrou le presente comme une mutualisation des competences necessaires a la lutte contre l'immigration irreguliere, annoncee lors du comite interministeriel de controle de l'immigration en fevrier 2025.",
+      "sources_croisees": [
+        {
+          "url": "https://www.lejdd.fr/Societe/immigration-bayrou-veut-generaliser-la-force-frontiere-mais-avec-quels-moyens-155530",
+          "type": "presse",
+          "orientation": "centre-droit"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_013",
+      "raw_text": "Atteindre la cible de 3000 places de retention administrative en 2027 et preparer des evolutions juridiques pour maintenir en retention les publics dangereux jusqu'a leur expulsion effective",
+      "source_url": "https://www.info.gouv.fr/actualite/ce-quil-faut-retenir-du-comite-interministeriel-sur-limmigration",
+      "source_type": "declaration_officielle",
+      "theme": "immigration",
+      "action_verb": "augmenter",
+      "action_object": "places de retention administrative a 3000",
+      "quantification": {
+        "value": 3000,
+        "unit": "places de retention"
+      },
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "d'ici 2027",
+      "target_population": "personnes en situation irreguliere",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Le gouvernement justifie le doublement de la capacite de retention par la necessite de maintenir en detention les publics dangereux jusqu'a leur expulsion effective. Un rapport du Senat indique que 86% des profils en centres de retention administrative sont consideres comme dangereux. La capacite actuelle est de 1 959 places (octobre 2025), ce qui rend l'objectif de 3 000 places en 2027 difficilement atteignable selon les projections.",
+      "sources_croisees": [
+        {
+          "url": "https://www.infomigrants.net/fr/post/63104/france--francois-bayrou-annonce-de-nouvelles-mesures-pour-reprendre-le-controle-de-limmigration",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_014",
+      "raw_text": "Lancer des conferences territoriales sur l'eau de juin a octobre 2025 dans chaque bassin, avec 475 millions d'euros supplementaires pour le plan eau, en integrant une trajectoire de rechauffement a +4 degres dans toutes les politiques de l'eau",
+      "source_url": "https://www.info.gouv.fr/communique/lancement-des-conferences-territoriales-sur-leau",
+      "source_type": "declaration_officielle",
+      "theme": "environnement",
+      "action_verb": "lancer",
+      "action_object": "conferences territoriales eau et plan eau renforce",
+      "quantification": {
+        "value": 475,
+        "unit": "millions EUR supplementaires"
+      },
+      "cost_announced": {
+        "amount_eur": 475000000,
+        "periodicity": "ponctuel",
+        "source": "gouvernement"
+      },
+      "funding_source": "budget ecologie",
+      "timeline": "juin-octobre 2025",
+      "target_population": "ensemble des usagers de l'eau et territoires",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Bayrou justifie ces conferences par les perturbations profondes du cycle de l'eau, marquees par les secheresses de 2022-2023 et les inondations de 2024-2025. Les 475 millions supplementaires par an pour les agences de l'eau visent a reequilibrer le financement du plan eau. Les conferences abordent la gestion du partage de la ressource et la prevention des conflits d'usage, dans un contexte d'adaptation au rechauffement climatique a +4 degres.",
+      "sources_croisees": [
+        {
+          "url": "https://www.actu-environnement.com/ae/news/lancement-conference-territoriales-eau-46137.php4",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_015",
+      "raw_text": "Adapter la transition ecologique a la realite des territoires avec des objectifs de mobilite propre et de reduction des emissions plus eleves en ville et plus souples en zones rurales, en soutenant l'hydrogene, le bioethanol et le plan velo",
+      "source_url": "https://www.mouvementdemocrate.fr/programme/transition-ecologique-2432",
+      "source_type": "programme_parti",
+      "theme": "environnement",
+      "action_verb": "adapter",
+      "action_object": "transition ecologique differenciee ville/campagne",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "mandat 2027-2032 (projection)",
+      "target_population": "ensemble des citoyens, urbains et ruraux",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Bayrou considere que la transition energetique doit promouvoir les mobilites les mieux adaptees a chaque territoire, en soutenant l'hydrogene pour le transport lourd et le plan velo pour les deplacements courts. En tant que maire de Pau, il a mis en place une ligne de bus a hydrogene et poursuit une politique ambitieuse de neutralite carbone et de doublement des energies renouvelables a l'echelle de son agglomeration.",
+      "sources_croisees": [
+        {
+          "url": "https://hydrogentoday.info/francois-bayrou-hydrogene/",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_016",
+      "raw_text": "Mener un mouvement puissant de debureaucratisation en inversant le processus administratif : les administrations pre-remplissent les documents et l'usager controle, plutot que l'inverse, avec simplification par ordonnances secteur par secteur",
+      "source_url": "https://www.franceinfo.fr/economie/entreprises/simplification-administrative-francois-bayrou-veut-mettre-l-usager-en-situation-de-decideur_7115838.html",
+      "source_type": "declaration_officielle",
+      "theme": "emploi",
+      "action_verb": "inverser",
+      "action_object": "processus administratif pour entreprises et citoyens",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "ordonnances a partir de l'automne 2025",
+      "target_population": "entreprises et citoyens",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Bayrou s'appuie sur une etude de l'Institut Bruegel montrant que le poids des normes penalisant la croissance est de 4% en France contre 0,3% en Espagne et 0,17% en Allemagne, soit dix fois plus que les pays voisins. Il cite l'exemple des parents d'enfants handicapes qui doivent refaire chaque annee les memes dossiers, et propose d'inverser la charge en demandant a l'administration de pre-remplir les documents que l'usager controle.",
+      "sources_croisees": [
+        {
+          "url": "https://www.publicsenat.fr/actualites/politique/au-senat-francois-bayrou-defend-le-chantier-de-la-simplification-de-la-presence-de-letat-dans-les-territoires",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_017",
+      "raw_text": "Investir 5 milliards d'euros dans l'intelligence artificielle dont 400 millions supplementaires en 2025, identifier 35 sites pour data centers (1200 hectares), former 100 000 professionnels par an a l'IA, et deployer un agent IA pour les 5,7 millions d'agents publics",
+      "source_url": "https://www.mac4ever.com/ia/186972-francois-bayrou-devoile-la-strategie-ia-de-la-france",
+      "source_type": "declaration_officielle",
+      "theme": "numerique",
+      "action_verb": "investir",
+      "action_object": "strategie nationale IA avec data centers et formation",
+      "quantification": {
+        "value": 5,
+        "unit": "milliards EUR enveloppe globale IA"
+      },
+      "cost_announced": {
+        "amount_eur": 5000000000,
+        "periodicity": "pluriannuel",
+        "source": "gouvernement"
+      },
+      "funding_source": "France 2030 reoriente",
+      "timeline": "2025-2030",
+      "target_population": "entreprises, agents publics, professionnels",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "propose_vague",
+      "candidate_justification": "Le gouvernement justifie ces investissements par la necessite de consolider la position de la France dans le paysage mondial de l'IA, en misant simultanement sur l'investissement, la formation et le deploiement d'infrastructures adaptees. Les 35 sites identifies representent environ 1 200 hectares selectionnes sur leur capacite fonciere, leur acces a l'electricite et l'acceptabilite locale. Un budget de 360 millions d'euros est dedie a la formation de 100 000 professionnels par an pour eviter une penurie de competences.",
+      "sources_croisees": [
+        {
+          "url": "https://www.economie.gouv.fr/actualites/strategie-nationale-intelligence-artificielle",
+          "type": "institutionnel",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_018",
+      "raw_text": "Promouvoir une Europe federale cooperative et decentralisee respectant les nations, avec une defense commune europeenne, une harmonisation fiscale (TVA, taxation GAFAM, impot sur les societes) et une voix unique dans le monde",
+      "source_url": "https://www.mouvementdemocrate.fr/programme/propositions-2427",
+      "source_type": "programme_parti",
+      "theme": "international",
+      "action_verb": "promouvoir",
+      "action_object": "Europe federale cooperative avec defense commune",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "mandat 2027-2032 (projection)",
+      "target_population": "citoyens europeens",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": null,
+      "sources_croisees": []
+    },
+    {
+      "id": "bayrou_019",
+      "raw_text": "Relancer une politique de souverainete alimentaire et de reconquete agricole, avec debureaucratisation des normes pesant sur les agriculteurs et reduction du poids reglementaire (4% en France contre 0,3% en Espagne)",
+      "source_url": "https://www.reussir.fr/discours-de-politique-generale-de-francois-bayrou-les-cinq-points-concernant-lagriculture",
+      "source_type": "declaration_officielle",
+      "theme": "agriculture",
+      "action_verb": "relancer",
+      "action_object": "souverainete alimentaire et simplification normes agricoles",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "adoption rapide projet loi simplification economique",
+      "target_population": "agriculteurs et monde rural",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Bayrou a denonce une bureaucratie jugee trop lourde et nuisible, soulignant que le poids des normes est de 4% en France contre 0,3% en Espagne et 0,17% en Allemagne. La loi d'orientation pour la souverainete alimentaire et le renouvellement des generations en agriculture a ete promulguee le 24 mars 2025, comportant 44 articles de mesures concretes. Bayrou s'est felicite au Salon de l'agriculture d'un sentiment de confiance retrouve avec le monde agricole.",
+      "sources_croisees": [
+        {
+          "url": "https://www.vie-publique.fr/loi/293610-agriculture-loi-24-mars-2025-dorientation-souverainete-agricole",
+          "type": "institutionnel",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_020",
+      "raw_text": "Relancer le Comite interministeriel aux ruralites et le Plan France ruralites 2023-2027 pour faire de la ruralite un espace de developpement economique avec renforcement des filieres industrielles et agricoles locales",
+      "source_url": "https://www.vie-publique.fr/discours/299207-francois-bayrou-20062025-comite-interministeriel-aux-ruralites-2025",
+      "source_type": "declaration_officielle",
+      "theme": "institutions",
+      "action_verb": "relancer",
+      "action_object": "Comite interministeriel ruralites et Plan France ruralites",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "juin 2025 et au-dela",
+      "target_population": "territoires ruraux et leurs habitants",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Bayrou justifie cette relance par le sentiment d'abandon ou de relegation ressenti par les 22 millions de Francais vivant en zone rurale. Plus de 21 000 communes (62% du total) n'ont aucun commerce en 2025 contre 25% en 1980. Le premier comite interministeriel aux ruralites depuis 2021, tenu a Mirecourt (Vosges) le 20 juin 2025 avec sept ministres, s'articule autour de trois piliers : proximite, vitalite et attractivite.",
+      "sources_croisees": [
+        {
+          "url": "https://www.banquedesterritoires.fr/le-gouvernement-dans-les-vosges-pour-conforter-le-plan-france-ruralites",
+          "type": "presse_specialisee",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_021",
+      "raw_text": "Lutter contre la fraude sociale et fiscale pour un gain estime de 2,3 milliards d'euros en 2026, dans le cadre du plan de redressement des comptes publics",
+      "source_url": "https://www.franceinfo.fr/economie/budget/budget-2026-francois-bayrou-presente-son-projet-pour-economiser-40-milliards-d-euros-et-met-sa-methode-a-l-epreuve_7369171.html",
+      "source_type": "presse",
+      "theme": "economie",
+      "action_verb": "lutter",
+      "action_object": "fraude sociale et fiscale",
+      "quantification": {
+        "value": 2.3,
+        "unit": "milliards EUR de gains"
+      },
+      "cost_announced": {
+        "amount_eur": -2300000000,
+        "periodicity": "annuel",
+        "source": "gouvernement"
+      },
+      "funding_source": null,
+      "timeline": "budget 2026",
+      "target_population": "fraudeurs sociaux et fiscaux",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "tres_precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "En 2024, 20 milliards d'euros de fraude fiscale et sociale ont ete detectes et 13 milliards collectes par l'Etat. Le gouvernement vise 15 milliards de recettes supplementaires grace a l'intensification de la lutte contre la fraude, representant un levier pour reduire le deficit sans augmenter les impots. Un projet de loi contre la fraude fiscale et sociale sera presente a l'automne, confie a une mission de trois parlementaires.",
+      "sources_croisees": [
+        {
+          "url": "https://www.publicsenat.fr/actualites/parlementaire/fraude-fiscale-et-sociale-le-nouveau-plan-de-lutte-que-le-gouvernement-veut-proposer-au-parlement",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_022",
+      "raw_text": "Faire de la lutte contre le narcotrafic une priorite absolue de securite avec cooperation renforcee entre Justice et Interieur, et elargir les pouvoirs des polices municipales pour l'inspection des vehicules et l'acces a la videosurveillance",
+      "source_url": "https://www.lagazettedescommunes.com/964950/francois-bayrou-fixe-les-priorites-de-sa-politique-de-securite/",
+      "source_type": "presse",
+      "theme": "securite",
+      "action_verb": "renforcer",
+      "action_object": "lutte anti-narcotrafic et pouvoirs police municipale",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "2025-2026",
+      "target_population": "forces de securite et citoyens",
+      "classification": "PROMESSE_CONCRETE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Le gouvernement justifie l'extension des prerogatives des polices municipales par l'evolution de la delinquance et les mutations de la criminalite, notamment le fleau du narcotrafic, qui rendent le cadre juridique actuel depasse et inefficace. La loi visant a sortir la France du piege du narcotrafic a ete promulguee le 13 juin 2025. Les polices municipales auront acces permanent aux parties communes des immeubles pour lutter contre le narcotrafic.",
+      "sources_croisees": [
+        {
+          "url": "https://www.vie-publique.fr/loi/297230-loi-du-13-juin-2025-visant-sortir-la-france-du-piege-du-narcotrafic",
+          "type": "institutionnel",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_023",
+      "raw_text": "Encourager le lancement de plans anti-solitude au niveau local pour combattre l'isolement et retisser le lien social, en rendant les prestations sociales propices a la vie en commun",
+      "source_url": "https://www.mouvementdemocrate.fr/une-societe-unie-et-solidaire-7924",
+      "source_type": "programme_parti",
+      "theme": "sante",
+      "action_verb": "lancer",
+      "action_object": "plans anti-solitude locaux",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "mandat 2027-2032 (projection)",
+      "target_population": "personnes isolees",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": null,
+      "sources_croisees": []
+    },
+    {
+      "id": "bayrou_024",
+      "raw_text": "Sensibiliser les citoyens des le plus jeune age a l'urgence ecologique par un enseignement sur le climat et la biodiversite, et developper l'economie circulaire par le recyclage et le reemploi",
+      "source_url": "https://www.mouvementdemocrate.fr/programme/transition-ecologique-2432",
+      "source_type": "programme_parti",
+      "theme": "education",
+      "action_verb": "integrer",
+      "action_object": "enseignement climat et biodiversite des le jeune age",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "mandat 2027-2032 (projection)",
+      "target_population": "eleves et jeunes citoyens",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "vague",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": null,
+      "sources_croisees": [
+        {
+          "url": "https://www.education.gouv.fr/20-mesures-pour-la-transition-ecologique-l-ecole-378545",
+          "type": "institutionnel",
+          "orientation": "neutre"
+        }
+      ]
+    },
+    {
+      "id": "bayrou_025",
+      "raw_text": "Reformer la fiscalite fonciere pour reduire les couts de construction et les prix du logement, et encourager la densification douce pour construire plus tout en respectant l'objectif zero artificialisation nette des sols d'ici 2050",
+      "source_url": "https://www.mouvementdemocrate.fr/programme/fiscalite-et-depenses-publiques-2439",
+      "source_type": "programme_parti",
+      "theme": "logement",
+      "action_verb": "reformer",
+      "action_object": "fiscalite fonciere et densification douce",
+      "quantification": null,
+      "cost_announced": null,
+      "funding_source": null,
+      "timeline": "mandat 2027-2032 (projection)",
+      "target_population": "proprietaires, constructeurs et locataires",
+      "classification": "PROMESSE_VAGUE",
+      "precision_level": "precis",
+      "source_orientation": "neutre",
+      "funding_status": "non_capture",
+      "candidate_justification": "Bayrou promeut la densification raisonnee pour construire plus de logements en France tout en respectant l'objectif zero artificialisation nette d'ici 2050. La surelevation de batiments existants est une solution privilegiee face a la rarete et au cout du foncier. Des senateurs ont cependant accuse Bayrou d'immobilisme sur l'assouplissement de la loi ZAN, demandant l'inscription urgente du texte TRACE a l'Assemblee nationale.",
+      "sources_croisees": [
+        {
+          "url": "https://www.publicsenat.fr/actualites/parlementaire/assouplissement-du-zan-dans-une-lettre-les-auteurs-du-texte-accusent-francois-bayrou-d-immobilisme",
+          "type": "presse",
+          "orientation": "neutre"
+        }
+      ]
+    }
+  ]
+}

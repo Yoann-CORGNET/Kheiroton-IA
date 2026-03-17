@@ -12,7 +12,7 @@
     "cnccfp_name": "PARTI SOCIALISTE",
     "nosdeputes_group": "SOC",
     "nuance_mi": "SOC",
-    "local_json": null
+    "local_json": "hidalgo"
   },
   "lr": {
     "name": "Les Républicains",
@@ -27,7 +27,7 @@
     "cnccfp_name": "LE RASSEMBLEMENT - LES RÉPUBLICAINS",
     "nosdeputes_group": "DR",
     "nuance_mi": "LR",
-    "local_json": null
+    "local_json": "pecresse"
   },
   "rn": {
     "name": "Rassemblement National",
@@ -87,7 +87,7 @@
     "cnccfp_name": "LES ÉCOLOGISTES",
     "nosdeputes_group": "ECO",
     "nuance_mi": "VEC",
-    "local_json": null
+    "local_json": "jadot"
   },
   "pcf": {
     "name": "Parti Communiste Français",
@@ -102,7 +102,7 @@
     "cnccfp_name": "PARTI COMMUNISTE FRANÇAIS",
     "nosdeputes_group": "GDR",
     "nuance_mi": "COM",
-    "local_json": null
+    "local_json": "roussel"
   },
   "modem": {
     "name": "Mouvement Démocrate",
@@ -117,7 +117,7 @@
     "cnccfp_name": "MOUVEMENT DÉMOCRATE",
     "nosdeputes_group": "DEM",
     "nuance_mi": "MDM",
-    "local_json": null
+    "local_json": "bayrou"
   },
   "horizons": {
     "name": "Horizons",
@@ -132,7 +132,7 @@
     "cnccfp_name": "HORIZONS",
     "nosdeputes_group": "HOR",
     "nuance_mi": "HOR",
-    "local_json": null
+    "local_json": "philippe"
   },
   "reconquete": {
     "name": "Reconquête",

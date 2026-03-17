@@ -1,0 +1,843 @@
+{
+  "candidate": "Emmanuel Macron",
+  "party": "Renaissance",
+  "metadata": {
+    "analysis_date": "2026-03-17",
+    "methodology": "Analyse multi-dimensionnelle MCDA : budget (25%), juridique (15%), social (acceptabilite 10% + impact 15%), fact-check (transversal), historique (technique 15% + timeline 10%). Sources croisees : Institut Montaigne, IFRAP, INSEE, Cour des comptes, Legifrance, vie-publique.fr.",
+    "macro_context": {
+      "pib_md_eur": 2920,
+      "dette_pct_pib": 113.0,
+      "deficit_pct_pib": 5.8,
+      "deficit_md_eur": 168.6,
+      "interets_dette_md_eur": 55,
+      "pression_fiscale_pct_pib": 42.8,
+      "depenses_publiques_pct_pib": 57.1,
+      "chomage_pct": 7.9,
+      "psmt_croissance_depenses_max_pct": 1.2,
+      "deficit_cible_2029_pct_pib": 3.0
+    },
+    "disclaimer": "Cette analyse est produite a titre informatif et pedagogique. Elle ne constitue pas une prise de position politique. Les scores refletent une evaluation technique de faisabilite, non un jugement de valeur sur l'opportunite des mesures. Les donnees macro-economiques datent de 2024-2025. Les chiffrages s'appuient sur les evaluations de l'Institut Montaigne et de l'IFRAP, dont les methodologies et orientations differentes sont prises en compte."
+  },
+  "evaluations": [
+    {
+      "promise_id": "macron_001",
+      "raw_text": "Reporter progressivement l'age legal de depart a la retraite a 65 ans",
+      "theme": "retraites",
+      "budget": {
+        "score": 0.82,
+        "confidence": 0.85,
+        "justification": "La mesure genere des economies nettes estimees entre 7,7 Md EUR (source candidat) et 9 Md EUR (Institut Montaigne/IFRAP) par an a terme. C'est l'une des rares mesures qui ameliore les finances publiques. Toutefois, la montee en charge est lente : seulement 150 M EUR d'economies en 2024 pour la reforme a 64 ans effectivement mise en oeuvre. La Cour des comptes alerte sur un deficit persistant du systeme de retraites malgre la reforme (6,6 Md EUR en 2025, 30 Md EUR en 2045).",
+        "cout_estime_eur": -9000000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.9,
+        "justification": "La reforme a 64 ans a ete adoptee via le 49.3 (LFRSS 2023) et validee par le CC (Decision 2023-849 DC). Pour un report a 65 ans, le meme vehicule serait necessaire (LFSS ou LFRSS). Toutefois, la coalition RN(126)+NFP(193)=319 depasse largement le seuil de censure (289), rendant un nouveau 49.3 extremement risque apres la chute du gouvernement Barnier en decembre 2024.",
+        "vehicule_legislatif": "loi_financement_securite_sociale",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.15,
+        "score_impact": 0.6,
+        "confidence": 0.9,
+        "justification": "L'opposition sociale a la reforme des retraites 2023 (report a 64 ans) a ete massive, avec des manifestations repetees atteignant jusqu'a 3,5 millions de participants selon les syndicats. Un report supplementaire a 65 ans serait encore plus impopulaire. L'impact est positif sur les finances publiques mais negatif pour les travailleurs aux carrieres penibles et les seniors eloignes de l'emploi.",
+        "opposition_sociale": "massive"
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.85,
+        "justification": "Les economies annoncees sont corroborees par l'Institut Montaigne et l'IFRAP (9 Md EUR/an). Toutefois, la reforme effectivement mise en oeuvre s'est arretee a 64 ans et non 65 ans. La Cour des comptes confirme que meme avec la reforme, le systeme reste structurellement deficitaire a moyen terme (30 Md EUR de deficit en 2045).",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.9,
+        "justification": "La reforme des retraites 2023 a bien ete adoptee mais seulement a 64 ans (pas 65). Les reformes precedentes (Woerth 2010, Touraine 2014) montrent que les reports d'age legal sont faisables techniquement mais au prix d'une opposition sociale majeure. Le passage de 64 a 65 ans se heurterait a un contexte parlementaire encore plus defavorable qu'en 2023.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Reforme des retraites 2023 (report a 64 ans)"
+      }
+    },
+    {
+      "promise_id": "macron_002",
+      "raw_text": "Porter la pension de retraite minimale a 1100 euros pour une carriere complete",
+      "theme": "retraites",
+      "budget": {
+        "score": 0.6,
+        "confidence": 0.6,
+        "justification": "Le cout de la revalorisation du minimum contributif n'est pas precisement chiffre dans les sources disponibles. L'Institut Montaigne l'integre dans l'enveloppe globale de la reforme des retraites. L'estimation varie entre 1 et 3 Md EUR/an selon le nombre de beneficiaires et les conditions d'application. La mesure est partiellement compensee par les economies de la reforme des retraites mais ajoute une charge sur la branche vieillesse deja deficitaire.",
+        "cout_estime_eur": 2000000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.8,
+        "confidence": 0.8,
+        "justification": "La revalorisation du minimum contributif peut etre integree a une LFSS ou a un decret de revalorisation. Le vehicule legislatif est classique et ne presente pas de risque constitutionnel particulier. La mesure est compatible avec le droit europeen.",
+        "vehicule_legislatif": "loi_financement_securite_sociale",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.9,
+        "score_impact": 0.75,
+        "confidence": 0.75,
+        "justification": "La revalorisation des petites retraites est populaire et consensuelle. Elle beneficie directement aux retraites les plus modestes ayant cotise une carriere complete. L'impact est positif sur le pouvoir d'achat des retraites concernes mais limite en nombre (environ 1,8 million de beneficiaires potentiels).",
+        "opposition_sociale": "aucune"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "La promesse de 1100 EUR bruts a ete partiellement mise en oeuvre dans le cadre de la reforme 2023, mais le montant effectivement verse reste inferieur aux annonces dans de nombreux cas en raison des conditions de carriere complete et de la proratisation. Plusieurs associations de retraites ont conteste le decalage entre la promesse et la realite.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.65,
+        "confidence": 0.75,
+        "justification": "Le minimum contributif a deja ete revalorise a plusieurs reprises. La loi du 21 aout 2003 (reforme Fillon) avait deja prevu une revalorisation. La reforme 2023 inclut une clause de revalorisation. La mise en oeuvre concrete depend du systeme informatique des caisses de retraite (CNAV), dont la modernisation est lente.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Reforme Fillon 2003 (revalorisation minimum contributif)"
+      }
+    },
+    {
+      "promise_id": "macron_003",
+      "raw_text": "Conditionner le RSA a 15 a 20 heures d'activite hebdomadaire d'insertion professionnelle",
+      "theme": "emploi",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.55,
+        "justification": "L'Institut Montaigne et l'IFRAP estiment le cout de mise en oeuvre a 2 Md EUR/an (accompagnement, formation, suivi). Les economies potentielles par radiation ou retour a l'emploi sont incertaines. Le RSA represente environ 15 Md EUR/an. L'experimentation France Travail est trop recente pour des resultats robustes. Le cout d'accompagnement pourrait etre superieur aux economies generees a court terme.",
+        "cout_estime_eur": 2000000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.65,
+        "confidence": 0.8,
+        "justification": "La loi pour le plein emploi du 18 decembre 2023 a deja pose le cadre legislatif (inscription automatique des beneficiaires RSA a France Travail, obligation de 15h d'activite). Le CC n'a pas censure cette disposition. Le risque reside dans l'application concrete : la conditionnalite ne peut pas conduire a une suppression arbitraire du RSA qui violerait le principe de dignite humaine (preambule de 1946).",
+        "vehicule_legislatif": "loi_ordinaire",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.55,
+        "score_impact": 0.45,
+        "confidence": 0.65,
+        "justification": "La mesure divise l'opinion : soutenue par ceux qui y voient un outil d'insertion, contestee par les associations de lutte contre la pauvrete qui craignent une logique punitive. Le taux de non-recours au RSA est deja de 34% selon la Cour des comptes. L'impact reel sur l'emploi est incertain : les beneficiaires du RSA font souvent face a des freins multiples (sante, logement, transport).",
+        "opposition_sociale": "moderee"
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.65,
+        "justification": "La mesure a bien ete inscrite dans la loi (loi plein emploi 2023) et mise en experimentation dans 47 departements. Toutefois, le comite scientifique d'evaluation note des resultats trop precoces pour etre conclusifs. Le passage a la generalisation reste incertain. La promesse est en cours de realisation mais loin d'etre pleinement deployee.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "justification": "Le RSA existe depuis 2009. La Cour des comptes souligne l'echec historique de l'accompagnement et de la contractualisation des beneficiaires. Les dispositifs anterieurs (contrats d'insertion du RMI) ont montre les limites de la conditionnalite sans moyens d'accompagnement adequats. Les precedents internationaux (workfare au Royaume-Uni, Hartz IV en Allemagne) montrent des resultats mitiges.",
+        "delai_realiste_mois": 48,
+        "precedent_principal": "Loi pour le plein emploi / France Travail (2023)"
+      }
+    },
+    {
+      "promise_id": "macron_004",
+      "raw_text": "Tripler le plafond de la prime de partage de la valeur (prime Macron) a 3000 euros, sans charges ni impots",
+      "theme": "economie",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.75,
+        "justification": "L'Institut Montaigne chiffre le cout a 6 Md EUR/an en manque a gagner de cotisations sociales et d'impot sur le revenu. C'est un cout significatif dans un contexte de deficit a 5,8% du PIB. La mesure beneficie surtout aux entreprises qui versaient deja des primes, avec un effet d'aubaine important. L'IFRAP note que le financement n'est pas identifie. Le dispositif est incompatible avec l'objectif de retour sous 3% de deficit d'ici 2029.",
+        "cout_estime_eur": 6000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.85,
+        "justification": "Le mecanisme existe deja dans le code du travail et le code de la securite sociale. Le triplement du plafond peut etre fait par loi de finances ou LFSS. Pas de risque constitutionnel identifie. La mesure est compatible avec le droit europeen des aides d'Etat car elle s'applique a toutes les entreprises sans discrimination.",
+        "vehicule_legislatif": "loi_finances",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.5,
+        "confidence": 0.7,
+        "justification": "La mesure est populaire car elle augmente le pouvoir d'achat immediat sans cout pour les salaries. Toutefois, l'impact reel est limite : seuls les salaries dont l'employeur choisit de verser la prime en beneficient, ce qui favorise les grandes entreprises et les secteurs rentables. L'effet de substitution (remplacement de hausses salariales par des primes defiscalisees) est documente.",
+        "opposition_sociale": "aucune"
+      },
+      "factcheck": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Le plafond de la prime a bien ete releve a 3000 EUR (6000 EUR avec accord d'interessement) par la loi du 16 aout 2022. Le dispositif est operationnel. Les chiffres de versement confirment un usage reel mais inegalement reparti : les grandes entreprises et les secteurs les plus profitables sont surrepresentes.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.85,
+        "confidence": 0.85,
+        "justification": "La prime exceptionnelle de pouvoir d'achat (PEPA) a ete creee en decembre 2018 en reponse aux Gilets Jaunes, puis perennisee et rebaptisee prime de partage de la valeur (PPV) en 2022. Le precedent est direct et la mise en oeuvre a ete rapide. En 2019, 5,5 millions de salaries avaient touche la prime pour un montant moyen de 450 EUR.",
+        "delai_realiste_mois": 3,
+        "precedent_principal": "Prime exceptionnelle de pouvoir d'achat PEPA (2018-2022)"
+      }
+    },
+    {
+      "promise_id": "macron_005",
+      "raw_text": "Supprimer la CVAE (Cotisation sur la Valeur Ajoutee des Entreprises)",
+      "theme": "economie",
+      "budget": {
+        "score": 0.35,
+        "confidence": 0.85,
+        "justification": "La suppression de la CVAE represente un cout de 7,4 Md EUR/an (Institut Montaigne) a 8 Md EUR/an (IFRAP) de recettes fiscales perdues. Le financement est renvoye a la 'croissance economique et le plein emploi', ce qui n'est pas un mecanisme de financement credible. La mesure degrade significativement le deficit dans un contexte de procedure de deficit excessif. Elle a ete partiellement mise en oeuvre (reduction de moitie en 2023, suppression totale reportee).",
+        "cout_estime_eur": 7400000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.9,
+        "justification": "La suppression d'un impot releve du domaine de la loi (article 34). La LFI 2023 a deja acte la suppression progressive de la CVAE. Le CC n'a pas formule d'objection. La suppression d'un impot ne pose pas de probleme constitutionnel en soi. La compensation aux collectivites (fraction de TVA) est un enjeu technique mais pas un obstacle juridique.",
+        "vehicule_legislatif": "loi_finances",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.5,
+        "score_impact": 0.55,
+        "confidence": 0.65,
+        "justification": "La mesure est soutenue par le patronat mais critiquee par les collectivites territoriales qui perdent une recette importante. Les citoyens sont largement indifferents a un impot technique qu'ils ne paient pas directement. L'impact sur l'emploi et l'investissement est incertain : les etudes montrent un effet modeste des baisses d'impots de production sur l'investissement.",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.65,
+        "confidence": 0.85,
+        "justification": "La CVAE a ete reduite de moitie en 2023 (LFI 2023). La suppression totale, initialement prevue pour 2024, a ete reportee a 2027 dans le PLF 2025, puis la suppression complete a ete de nouveau repoussee dans le cadre des contraintes budgetaires. La promesse est en cours d'execution mais avec un retard significatif.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.7,
+        "confidence": 0.8,
+        "justification": "La CVAE a remplace la taxe professionnelle en 2010 (reforme Sarkozy). Les reformes de la fiscalite locale sont frequentes mais complexes car elles necessitent des mecanismes de compensation. Le precedent de la suppression de la taxe d'habitation (2018-2023) montre qu'une suppression progressive est faisable mais couteuse et longue.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Suppression de la taxe d'habitation (2018-2023)"
+      }
+    },
+    {
+      "promise_id": "macron_006",
+      "raw_text": "Supprimer la redevance audiovisuelle (contribution a l'audiovisuel public)",
+      "theme": "economie",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.85,
+        "justification": "Le cout est de 3,2 Md EUR/an (Institut Montaigne) a 3,7 Md EUR/an (IFRAP). La mesure a ete effectivement mise en oeuvre en 2022 par la LFI pour 2022 rectificative, avec un financement de substitution par affectation d'une fraction de TVA. Toutefois, ce financement est precaire car il depend de l'affectation annuelle en loi de finances et ne garantit pas l'independance de l'audiovisuel public.",
+        "cout_estime_eur": 3200000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "justification": "La suppression a ete realisee par la LFI rectificative pour 2022. Le CC a valide le dispositif. Le financement de substitution (fraction de TVA) a ete juge conforme. Un debat persiste sur la perennite du financement et le respect de l'independance de l'audiovisuel public au sens de la jurisprudence constitutionnelle.",
+        "vehicule_legislatif": "loi_finances",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.4,
+        "confidence": 0.8,
+        "justification": "La suppression de la redevance TV est tres populaire (138 EUR de pouvoir d'achat restitue par foyer). Toutefois, l'impact budgetaire est reel et le debat sur le financement perenne de l'audiovisuel public reste ouvert. Les professionnels du secteur alertent sur le risque de fragilisation de France Televisions et Radio France.",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.95,
+        "confidence": 0.95,
+        "justification": "La mesure a ete integralement mise en oeuvre. La contribution a l'audiovisuel public a ete supprimee par la LFI rectificative pour 2022, effective a compter de 2022. Les 27,6 millions de foyers qui la payaient ont ete exoneres. Le remplacement par une fraction de TVA est operationnel.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.95,
+        "confidence": 0.95,
+        "justification": "La mesure a ete integralement realisee en 2022, dans un delai record (quelques mois apres l'election). C'est l'une des promesses les plus rapidement tenues du programme. Le precedent est donc le cas lui-meme.",
+        "delai_realiste_mois": 6,
+        "precedent_principal": "Suppression de la redevance audiovisuelle (LFI rectificative 2022)"
+      }
+    },
+    {
+      "promise_id": "macron_007",
+      "raw_text": "Construire 6 nouveaux reacteurs nucleaires EPR2, avec l'etude de 8 reacteurs supplementaires",
+      "theme": "environnement",
+      "budget": {
+        "score": 0.35,
+        "confidence": 0.55,
+        "justification": "Le cout des 6 EPR2 est estime entre 52 et 56 Md EUR selon EDF et la Cour des comptes, soit environ 9 Md EUR par reacteur. Avec l'etude de 8 supplementaires, l'enveloppe totale pourrait depasser 100 Md EUR sur 20-25 ans. L'experience de l'EPR de Flamanville (12,7 Md EUR pour un cout initial de 3,3 Md EUR, 12 ans de retard) illustre les risques majeurs de derapage. Le financement n'est pas detaille. La compatibilite PSMT est incertaine car l'investissement s'etale sur 15-20 ans.",
+        "cout_estime_eur": 56000000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.75,
+        "justification": "La loi d'acceleration du nucleaire du 22 juin 2023 a simplifie les procedures administratives et d'urbanisme pour les projets nucleaires. Le cadre juridique existe. Toutefois, les autorisations de l'ASN (Autorite de Surete Nucleaire) restent requises et le processus est long. Pas de conflit majeur avec le droit europeen (Euratom).",
+        "vehicule_legislatif": "loi_ordinaire",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.6,
+        "score_impact": 0.75,
+        "confidence": 0.65,
+        "justification": "L'opinion publique francaise est divisee mais plutot favorable au nucleaire (55-60% selon les sondages). L'impact en termes de souverainete energetique et d'emplois industriels est significatif (chaque EPR genere environ 5000 emplois directs pendant la construction). Les oppositions sont localisees (sites d'implantation) plutot que nationales.",
+        "opposition_sociale": "moderee"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.6,
+        "justification": "La decision de construire 6 EPR2 a bien ete annoncee par le President en fevrier 2022 a Belfort. La loi d'acceleration du nucleaire a ete adoptee en 2023. Toutefois, aucun chantier EPR2 n'a encore debute concretement. Le calendrier annonce (premiere mise en service vers 2035-2037) est juge optimiste par les experts du secteur, compte tenu du retour d'experience de Flamanville.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.75,
+        "justification": "L'EPR de Flamanville illustre les difficultes majeures : cout multiplie par 4 (3,3 a 12,7 Md EUR), delai de 12 ans de retard (livraison 2024 au lieu de 2012). Le programme EPR est un des plus grands derapages industriels europeens. Les EPR2 sont censes incorporer les lecons de Flamanville avec un design simplifie, mais aucun precedent de construction en serie n'existe encore.",
+        "delai_realiste_mois": 180,
+        "precedent_principal": "EPR Flamanville (2007-2024, 12 ans de retard)"
+      }
+    },
+    {
+      "promise_id": "macron_008",
+      "raw_text": "Multiplier par dix la capacite de production d'energie solaire",
+      "theme": "environnement",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.5,
+        "justification": "La France disposait d'environ 15 GW de capacite solaire installee fin 2022. Multiplier par 10 signifie atteindre 150 GW d'ici 2050, un investissement de l'ordre de 100-150 Md EUR sur 25 ans (hors raccordement reseau). L'Institut Montaigne integre cet objectif dans l'enveloppe 'transition ecologique' a 10 Md EUR/an. Le financement repose sur un mix public-prive, mais la part publique (subventions, tarifs de rachat) n'est pas precisee. Compatible avec le PSMT si l'effort est etale sur 25 ans.",
+        "cout_estime_eur": 5000000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.8,
+        "confidence": 0.8,
+        "justification": "La loi d'acceleration des energies renouvelables du 10 mars 2023 a simplifie les procedures d'autorisation. Le cadre juridique est favorable. Les objectifs de la Programmation Pluriannuelle de l'Energie (PPE) peuvent integrer cet objectif. Pas d'obstacle constitutionnel. La conformite avec les objectifs europeens (directive RED III) renforce la legitimite.",
+        "vehicule_legislatif": "loi_ordinaire",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.7,
+        "confidence": 0.6,
+        "justification": "Le solaire est l'energie renouvelable la mieux acceptee par l'opinion publique. Les oppositions locales (artificialisation des terres agricoles) existent mais restent limitees. L'impact en termes d'emplois et de souverainete energetique est positif, mais l'objectif x10 est extremement ambitieux et sa realisation complete d'ici 2050 reste incertaine.",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.55,
+        "justification": "L'objectif a ete annonce dans le discours de Belfort en fevrier 2022. La capacite solaire installee a progresse (de 15 GW en 2022 a environ 22 GW fin 2025), mais le rythme actuel (2-3 GW/an) est insuffisant pour atteindre 150 GW en 2050. Il faudrait installer 5-6 GW/an, soit le double du rythme actuel. L'objectif est ambitieux mais pas encore sur la bonne trajectoire.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.55,
+        "justification": "L'Allemagne a installe plus de 80 GW de solaire en 20 ans, montrant qu'un deploiement massif est techniquement possible. La Chine depasse les 600 GW. Toutefois, la France est historiquement en retard sur le solaire par rapport a ses voisins europeens. Le rythme necessaire (x2 par rapport a l'actuel) est ambitieux mais pas sans precedent au niveau international.",
+        "delai_realiste_mois": 300,
+        "precedent_principal": "Energiewende allemande (deploiement solaire 2000-2024)"
+      }
+    },
+    {
+      "promise_id": "macron_009",
+      "raw_text": "Deployer 50 parcs eoliens en mer d'ici 2050",
+      "theme": "environnement",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.5,
+        "justification": "Chaque parc eolien offshore coute entre 2 et 4 Md EUR. Pour 50 parcs, l'investissement total serait de 100 a 200 Md EUR sur 25 ans. Le financement repose sur des appels d'offres et des contrats de rachat garantis par l'Etat (complement de remuneration). Le cout pour les finances publiques depend du prix de marche de l'electricite. Dans un contexte de deficit eleve, la charge est significative mais etalee.",
+        "cout_estime_eur": 4000000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "Le cadre juridique existe (code de l'energie, loi littorale avec derogation pour l'eolien en mer). La planification maritime est en cours via les documents strategiques de facade. Les procedures d'autorisation sont longues (5-7 ans typiquement). Les recours contentieux sont frequents et allongent les delais. La loi d'acceleration des ENR de 2023 a simplifie certaines procedures.",
+        "vehicule_legislatif": "loi_ordinaire",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.45,
+        "score_impact": 0.65,
+        "confidence": 0.6,
+        "justification": "L'eolien offshore suscite des oppositions locales significatives (pecheurs, riverains du littoral, associations environnementales concernees par l'impact sur la faune marine). L'impact en termes d'emplois industriels est positif (Saint-Nazaire, Le Havre). L'acceptabilite varie fortement selon les sites. 50 parcs d'ici 2050 represente environ 2 parcs par an, un rythme tres soutenu.",
+        "opposition_sociale": "moderee"
+      },
+      "factcheck": {
+        "score": 0.45,
+        "confidence": 0.55,
+        "justification": "La France a mis en service son premier parc eolien offshore a Saint-Nazaire en 2022 (480 MW). Seuls 2-3 parcs sont en service ou en construction en 2025. L'objectif de 50 parcs d'ici 2050 implique un rythme de deploiement jamais atteint en France. Le Royaume-Uni, leader europeen, a mis 20 ans pour deployer environ 45 parcs. L'objectif est techniquement possible mais le calendrier est tres ambitieux.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.55,
+        "justification": "Le premier parc eolien offshore francais (Saint-Nazaire) a ete attribue en 2012 et mis en service en 2022, soit 10 ans de delai. Le Royaume-Uni a deploye plus de 40 parcs en 20 ans avec une filiere industrielle mature. La France part avec un retard considerable et une filiere industrielle en construction. Le rythme necessaire (2 parcs/an) est sans precedent en France.",
+        "delai_realiste_mois": 300,
+        "precedent_principal": "Parc eolien offshore de Saint-Nazaire (2012-2022, 10 ans)"
+      }
+    },
+    {
+      "promise_id": "macron_010",
+      "raw_text": "Renover au minimum 700 000 logements par an pour l'isolation thermique",
+      "theme": "logement",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.65,
+        "justification": "L'Institut Montaigne estime le surcout a 2,2 Md EUR/an d'aides publiques supplementaires (MaPrimeRenov' et CEE). Le cout total des travaux est de l'ordre de 15-20 Md EUR/an dont une part significative a la charge des menages. En 2023, environ 670 000 logements ont fait l'objet de travaux via MaPrimeRenov', mais les renovations globales performantes restent rares (moins de 100 000). Le financement est fragile et le fonds vert a ete reduit de 60% dans le PLF 2025.",
+        "cout_estime_eur": 2200000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.85,
+        "justification": "Le cadre juridique est en place : loi Climat et Resilience (2021), MaPrimeRenov', Certificats d'Economies d'Energie (CEE), interdiction progressive de location des passoires energetiques (DPE F et G). Les obligations reglementaires sont deja adoptees. Pas de risque constitutionnel.",
+        "vehicule_legislatif": "decret",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.8,
+        "confidence": 0.7,
+        "justification": "La renovation energetique est tres populaire car elle combine economies d'energie, confort et lutte contre le changement climatique. L'impact est directement perceptible par les menages (baisse de facture). Toutefois, le reste a charge pour les proprietaires modestes et les coproprietes reste un frein majeur. La mesure cible les 5,2 millions de passoires energetiques.",
+        "opposition_sociale": "aucune"
+      },
+      "factcheck": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "justification": "En 2023, environ 670 000 logements ont beneficie de MaPrimeRenov', mais ce chiffre inclut des gestes de renovation simples (changement de chaudiere) et non des renovations globales. Selon le Haut Conseil pour le Climat, le rythme des renovations performantes est tres insuffisant. L'objectif de 700 000 renovations globales/an n'est pas atteint si l'on retient une definition ambitieuse de la renovation.",
+        "verdict_global": "trompeur"
+      },
+      "historique": {
+        "score": 0.4,
+        "confidence": 0.65,
+        "justification": "Le plan de renovation energetique existe depuis le Grenelle de l'environnement (2007). Les objectifs de 500 000 puis 700 000 renovations/an n'ont jamais ete atteints en renovations globales performantes. La Cour des comptes a critique l'eclatement des aides et la faiblesse du suivi. Le taux d'application de la loi Climat et Resilience n'est que de 70% apres 3 ans.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Plan de renovation energetique des batiments (Grenelle 2007 - loi Climat 2021)"
+      }
+    },
+    {
+      "promise_id": "macron_011",
+      "raw_text": "Creer 200 nouvelles brigades de gendarmerie dans les territoires ruraux",
+      "theme": "securite",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.6,
+        "justification": "L'Institut Montaigne chiffre l'ensemble du renforcement securitaire a environ 2 Md EUR/an. La creation de 200 brigades implique le recrutement d'environ 2000-3000 gendarmes supplementaires, la construction ou la renovation de casernes, et des couts de fonctionnement recurrents. Le budget de la mission 'Securites' est de 17,2 Md EUR en 2025. Le surcout annuel est estimable a 300-500 M EUR, ce qui est significatif mais pas excessif.",
+        "cout_estime_eur": 400000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "justification": "La creation de brigades de gendarmerie releve de la competence du gouvernement (organisation des forces de securite). C'est une mesure d'organisation administrative qui ne necessite pas de loi specifique mais peut etre integree dans une loi de programmation de la securite interieure (LOPMI). La LOPMI 2023-2027 a deja prevu un renforcement des effectifs. Pas de risque constitutionnel.",
+        "vehicule_legislatif": "decret",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.7,
+        "confidence": 0.75,
+        "justification": "La mesure est tres populaire dans les territoires ruraux ou le sentiment d'abandon et d'insecurite est fort. Le maillage territorial de la gendarmerie est un enjeu consensuel. L'impact est positif sur la securite de proximite et le lien social dans les communes rurales. Toutefois, l'efficacite depend de la taille et des moyens des brigades, pas seulement de leur nombre.",
+        "opposition_sociale": "aucune"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.65,
+        "justification": "La LOPMI 2023-2027 a prevu la creation de 200 brigades de gendarmerie. En 2024-2025, une centaine de brigades ont ete creees ou sont en cours de creation. Le rythme est inferieur aux annonces initiales mais le processus est engage. Le calendrier de livraison complete d'ici 2027 est tendu compte tenu des delais immobiliers.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.65,
+        "confidence": 0.7,
+        "justification": "La gendarmerie a deja connu des phases d'expansion (plan de renforcement 2003-2007) et de contraction (RGPP 2008-2012 avec 6000 postes supprimes). La creation de brigades est un processus connu et maitrise. Le principal frein est immobilier (construction de casernes) et budgetaire. La LOPMI fournit le cadre financier necessaire.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "LOPMI 2023-2027 (loi d'orientation et de programmation du ministere de l'Interieur)"
+      }
+    },
+    {
+      "promise_id": "macron_012",
+      "raw_text": "Doubler la presence des forces de securite sur le terrain d'ici 2030",
+      "theme": "securite",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.5,
+        "justification": "Doubler la presence sur le terrain implique soit de doubler les effectifs (environ +150 000 postes, cout superieur a 6 Md EUR/an), soit de reorganiser profondement les taches administratives pour liberer des agents. La seconde option est plus realiste mais ses gains sont incertains. L'Institut Montaigne chiffre l'enveloppe securitaire globale a 2 Md EUR/an. Un doublement reel de la presence terrain necessite un effort budgetaire tres superieur a ce qui est prevu.",
+        "cout_estime_eur": 3000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.8,
+        "justification": "La reorganisation des forces de securite releve du pouvoir reglementaire (decrets, arretes). La suppression des taches administratives (procedures simplifiees, numerisation) est un chantier de modernisation qui ne necessite pas de loi. La LOPMI 2023-2027 fournit le cadre legislatif et budgetaire.",
+        "vehicule_legislatif": "decret",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.6,
+        "confidence": 0.55,
+        "justification": "La demande de securite est forte dans l'opinion. Toutefois, le concept de 'doublement de la presence terrain' est flou et difficile a mesurer. L'impact reel dependra de la definition retenue et des modalites de mise en oeuvre. Les syndicats de police alertent sur le manque de moyens materiel et la surcharge de travail.",
+        "opposition_sociale": "aucune"
+      },
+      "factcheck": {
+        "score": 0.35,
+        "confidence": 0.55,
+        "justification": "La promesse de 'doubler la presence sur le terrain' est vague et difficilement verifiable. Il n'existe pas de metrique officielle de 'presence terrain'. La Cour des comptes a documente que les policiers passent 30-40% de leur temps sur des taches administratives. La LOPMI prevoit des recrutements et de la numerisation, mais aucun indicateur ne permet de mesurer un doublement effectif de la presence.",
+        "verdict_global": "inverifiable"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.5,
+        "justification": "Les tentatives de liberation des policiers des taches administratives sont recurrentes (plan Darmanin 2020, protocol de simplification procedurale). Les gains sont toujours inferieurs aux attentes. Le rapport Bonelli-Fereboeuf (2018) estimait que seuls 10-15% des effectifs pouvaient etre liberes par la numerisation. Un doublement est historiquement sans precedent.",
+        "delai_realiste_mois": 96,
+        "precedent_principal": "Plans de simplification administrative Police/Gendarmerie (2015-2024)"
+      }
+    },
+    {
+      "promise_id": "macron_013",
+      "raw_text": "Recruter 8 500 magistrats et personnels de justice",
+      "theme": "securite",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.65,
+        "justification": "Le budget de la mission Justice est de 10,2 Md EUR en 2025. Le recrutement de 8500 postes (magistrats : environ 80 000 EUR/an en moyenne ; greffiers et personnels : 35 000-45 000 EUR/an) represente un surcout annuel de 400-600 M EUR en regime de croisiere. C'est un effort significatif mais pas disproportionne dans le cadre d'un budget Justice qui a connu une hausse de +26% entre 2020 et 2025.",
+        "cout_estime_eur": 500000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "justification": "Le recrutement de magistrats et personnels de justice releve de la loi de finances (creation d'emplois) et des concours nationaux (ENM, ecoles de greffiers). La loi de programmation de la justice 2023-2027 a deja prevu la creation de 10 000 emplois. Pas de risque constitutionnel. Le cadre legislatif est en place.",
+        "vehicule_legislatif": "loi_finances",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.75,
+        "confidence": 0.75,
+        "justification": "Le renforcement de la justice est largement consensuel. Les delais de jugement (12-18 mois en moyenne pour un tribunal judiciaire) et la surpopulation carcerale (150% d'occupation) sont des problemes reconnus. L'impact serait positif sur les delais de traitement et la qualite de la justice rendue.",
+        "opposition_sociale": "aucune"
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.65,
+        "justification": "La loi de programmation de la justice 2023-2027 prevoit la creation de 10 000 emplois dans la justice. Les recrutements sont en cours mais le rythme est contraint par la capacite de formation de l'ENM (350 auditeurs/an environ) et des ecoles de greffiers. L'objectif est atteignable mais la montee en charge est lente. Environ 3000-4000 recrutements auraient ete realises entre 2022 et 2025.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "La justice francaise est historiquement sous-dotee par rapport aux moyennes europeennes (67 EUR/habitant vs 86 EUR en moyenne UE selon la CEPEJ). Les plans de recrutement precedents (plan Taubira 2013-2017) ont ete partiellement realises. La capacite de l'ENM a former des magistrats est un goulot d'etranglement structurel. La loi de programmation 2023-2027 est la plus ambitieuse en termes de moyens depuis 20 ans.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Loi de programmation de la justice 2023-2027"
+      }
+    },
+    {
+      "promise_id": "macron_014",
+      "raw_text": "Verser automatiquement a la source le RSA, la prime d'activite, les aides au logement et les allocations familiales a 20 millions de Francais eligibles",
+      "theme": "economie",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.55,
+        "justification": "L'Institut Montaigne estime le surcout a 6,1 Md EUR/an, principalement du au rattrapage du non-recours (34% pour le RSA, 20-30% pour les APL). Si 20 millions de personnes touchent effectivement leurs droits au lieu de 14-15 millions actuellement, le surcout est massif. Le budget de la protection sociale est de 693 Md EUR mais les marges sont inexistantes. Cette mesure est la plus couteuse du programme en depenses nouvelles.",
+        "cout_estime_eur": 6100000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.6,
+        "confidence": 0.6,
+        "justification": "Le versement automatique 'a la source' necessite une reforme majeure du systeme d'information des CAF, de la CNAF et du systeme fiscal (DSN, DGFiP). Juridiquement, il faut modifier les codes de la securite sociale, de l'action sociale et de la construction. La question de la protection des donnees personnelles (RGPD, CNIL) est sensible. Le rapprochement des fichiers fiscaux et sociaux est un chantier juridique et technique complexe.",
+        "vehicule_legislatif": "loi_ordinaire",
+        "risque_censure_cc": "moyen",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.85,
+        "confidence": 0.65,
+        "justification": "La lutte contre le non-recours est consensuelle. L'impact serait tres positif pour les plus precaires (1-2 millions de personnes toucheraient des droits dont elles sont aujourd'hui privees). La mesure reduirait les inegalites et la pauvrete. Toutefois, la crainte d'une augmentation du controle social (croisement automatique des fichiers) pourrait susciter des inquietudes.",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.3,
+        "confidence": 0.6,
+        "justification": "La 'solidarite a la source' a ete annoncee mais n'est pas mise en oeuvre. Le chantier informatique (dispositif de ressources mutualisees, DRM) est en cours mais tres loin d'etre operationnel. La CNAF et la DGFiP travaillent au rapprochement des bases de donnees mais la complexite technique est enorme. Aucun pays comparable n'a mis en oeuvre un tel systeme de maniere complete.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.25,
+        "confidence": 0.55,
+        "justification": "Le prelevement a la source de l'impot sur le revenu (2019) a ete un succes technique mais il a necessite 3 ans de preparation. La solidarite a la source est beaucoup plus complexe car elle implique de calculer automatiquement des droits a partir de situations multiples (composition familiale, logement, revenus). Le RSI (regime social des independants) a montre les risques d'une fusion informatique mal preparee (fusion avec le regime general en 2018).",
+        "delai_realiste_mois": 84,
+        "precedent_principal": "Prelevement a la source de l'IR (2019)"
+      }
+    },
+    {
+      "promise_id": "macron_015",
+      "raw_text": "Investir 30 milliards d'euros dans les secteurs d'avenir : spatial, biomedical, semi-conducteurs, nucleaire de nouvelle generation, cloud, quantique et intelligence artificielle",
+      "theme": "economie",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "Le plan France 2030 de 30 Md EUR sur le quinquennat (6 Md EUR/an) est un investissement significatif. L'IFRAP le chiffre a 15 Md EUR dans l'enveloppe globale d'investissement. La depense est etalee sur 5 ans et ciblee sur des secteurs a fort effet de levier. Une partie provient de redeploi de credits existants (PIA). La compatibilite PSMT est assuree si les credits sont hors norme de depenses (investissements). Le plan a ete effectivement dote et engage.",
+        "cout_estime_eur": 30000000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "justification": "Le plan France 2030 a ete lance par decret et dote en loi de finances. Les investissements sont geres par les operateurs de l'Etat (SGPI, Bpifrance, ADEME). Le cadre juridique est en place depuis les PIA (programmes d'investissements d'avenir). La conformite avec le droit europeen des aides d'Etat est geree au cas par cas via les PIIEC (projets importants d'interet europeen commun) pour les semi-conducteurs et le cloud.",
+        "vehicule_legislatif": "loi_finances",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.65,
+        "confidence": 0.6,
+        "justification": "L'investissement dans l'innovation et les technologies d'avenir est generalement bien percu. L'impact en termes d'emplois qualifies et de souverainete technologique est positif a moyen terme. Toutefois, les retombees sont concentrees dans les metropoles et les secteurs a haute qualification, ce qui peut alimenter le sentiment d'abandon des territoires peripheriques.",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.8,
+        "confidence": 0.8,
+        "justification": "Le plan France 2030 a bien ete lance en octobre 2021 avec une enveloppe de 34 Md EUR (dont 4 Md EUR de redeploi). Selon le SGPI, environ 20 Md EUR avaient ete engages fin 2024. Les projets finances incluent les gigafactories de batteries (ACC, Verkor), les semi-conducteurs (STMicroelectronics/GlobalFoundries), le quantique (PASQAL). Le plan est operationnel et en cours d'execution.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.7,
+        "confidence": 0.75,
+        "justification": "La France a une tradition de grands plans d'investissement industriel (PIA 1 en 2010 : 35 Md EUR, PIA 2 en 2014 : 12 Md EUR, PIA 3 en 2017 : 10 Md EUR). Les bilans sont mitiges : les PIA ont finance des projets innovants mais l'effet global sur la competitivite est difficile a mesurer. Le plan France 2030 s'inscrit dans cette continuite avec une gouvernance plus centralisee.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Programme d'Investissements d'Avenir PIA (2010-2021)"
+      }
+    },
+    {
+      "promise_id": "macron_016",
+      "raw_text": "Augmenter de 50% l'allocation de soutien familial pour les familles monoparentales, de 116 a 174 euros par enfant",
+      "theme": "economie",
+      "budget": {
+        "score": 0.65,
+        "confidence": 0.65,
+        "justification": "L'ASF est versee a environ 800 000 familles monoparentales. Une hausse de 58 EUR/mois/enfant represente un cout annuel de l'ordre de 700 M a 1 Md EUR. C'est une mesure moderee budgetairement. La branche famille de la securite sociale est traditionnellement excedentaire, ce qui offre une marge de financement. L'Institut Montaigne integre cette mesure dans l'enveloppe 'politique familiale' a 5 Md EUR/an.",
+        "cout_estime_eur": 800000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "justification": "La revalorisation de l'ASF peut etre faite par decret (fixation du montant) ou par LFSS. Le cadre juridique est simple et la mesure ne presente aucun risque constitutionnel. La branche famille de la securite sociale gere deja l'ASF.",
+        "vehicule_legislatif": "decret",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.9,
+        "score_impact": 0.8,
+        "confidence": 0.8,
+        "justification": "Les familles monoparentales sont parmi les populations les plus exposees a la pauvrete (35% de taux de pauvrete contre 15% en moyenne). La mesure est socialement tres populaire et cible un public particulierement fragile. L'impact direct sur le pouvoir d'achat est significatif (696 EUR/an par enfant supplementaire).",
+        "opposition_sociale": "aucune"
+      },
+      "factcheck": {
+        "score": 0.85,
+        "confidence": 0.85,
+        "justification": "L'ASF a effectivement ete revalorisee de 50% au 1er novembre 2022 (de 116,11 EUR a 184,41 EUR, depassant meme la promesse initiale de 174 EUR). La mesure a ete integralement mise en oeuvre dans les delais annonces. Elle beneficie a environ 800 000 families monoparentales.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "justification": "La mesure a ete integralement mise en oeuvre en 2022, quelques mois apres l'election. Les revalorisations de prestations familiales sont des mesures classiques, rapides a deployer car elles passent par le systeme existant de la CAF. Le precedent direct est la revalorisation realisee.",
+        "delai_realiste_mois": 6,
+        "precedent_principal": "Revalorisation de l'ASF au 1er novembre 2022"
+      }
+    },
+    {
+      "promise_id": "macron_017",
+      "raw_text": "Transformer Pole Emploi en France Travail, guichet unique d'accompagnement",
+      "theme": "emploi",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.6,
+        "justification": "Le budget de France Travail (ex-Pole Emploi) est d'environ 6 Md EUR/an. La transformation en guichet unique implique des couts de reorganisation (systemes d'information, formation, coordination avec les missions locales et Cap Emploi). Le surcout de transition est estime a quelques centaines de millions d'euros. A moyen terme, la rationalisation pourrait generer des economies, mais les fusions administratives produisent rarement les gains esperes (cf. fusion des regions).",
+        "cout_estime_eur": 500000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "justification": "La loi pour le plein emploi du 18 decembre 2023 a cree France Travail, le reseau pour l'emploi et l'inscription automatique des beneficiaires du RSA. Le cadre legislatif est integralement en place. La transformation a ete validee par le CC. La mise en oeuvre releve desormais du decret et de l'organisation interne.",
+        "vehicule_legislatif": "loi_ordinaire",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.65,
+        "score_impact": 0.55,
+        "confidence": 0.6,
+        "justification": "La creation d'un guichet unique est generalement bien percue par les usagers. Toutefois, les agents de Pole Emploi et des missions locales craignent une perte de specialisation et une surcharge de travail. L'impact reel sur le retour a l'emploi reste a demontrer. Le comite scientifique d'evaluation a publie des resultats preliminaires positifs mais non generalasables.",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.8,
+        "confidence": 0.85,
+        "justification": "Pole Emploi a ete officiellement rebaptise France Travail au 1er janvier 2024. Le reseau pour l'emploi est en cours de deploiement. La loi du 18 decembre 2023 a ete promulguee et les decrets d'application publies. La transformation administrative est en cours mais l'objectif de guichet unique effectif est loin d'etre atteint.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "La fusion ANPE-Assedic en Pole Emploi (2008) est le precedent direct. Le bilan est mitige : la fusion a pris 3-4 ans pour etre operationnelle et les gains d'efficience ont ete limites. La Cour des comptes avait juge la fusion reussie sur le plan organisationnel mais sans impact mesurable sur le retour a l'emploi. La transformation en France Travail est moins ambitieuse (pas de fusion mais un reseau) mais le defi de coordination reste entier.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Fusion ANPE-Assedic en Pole Emploi (2008-2012)"
+      }
+    },
+    {
+      "promise_id": "macron_018",
+      "raw_text": "Recruter 1 500 cyber-patrouilleurs pour lutter contre la cybercriminalite",
+      "theme": "securite",
+      "budget": {
+        "score": 0.65,
+        "confidence": 0.65,
+        "justification": "Le recrutement de 1500 cyber-patrouilleurs represente un cout annuel de l'ordre de 100-150 M EUR (salaires, formation, equipements). C'est une mesure budgetairement modeste rapportee au budget de la mission Securites (17,2 Md EUR). Le financement peut etre integre dans la LOPMI 2023-2027 qui prevoit 15 Md EUR supplementaires pour la securite interieure.",
+        "cout_estime_eur": 120000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "justification": "Le recrutement d'agents de securite specialises en cybercriminalite releve du pouvoir reglementaire et de la loi de finances (creation de postes). La LOPMI 2023-2027 prevoit le cadre legislatif et budgetaire. Les outils juridiques de lutte contre la cybercriminalite existent (loi Godfrain, loi informatique et libertes). Pas de risque constitutionnel.",
+        "vehicule_legislatif": "loi_finances",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.65,
+        "confidence": 0.7,
+        "justification": "La cybercriminalite est un sujet consensuel et la demande de protection est forte (arnaques en ligne, cyberharcelement, ransomware). L'impact est positif mais depend de la qualite de la formation et de la coordination avec les services existants (ANSSI, C3N, OCLCTIC). Le recrutement de profils cyber est un defi en raison de la concurrence du secteur prive.",
+        "opposition_sociale": "aucune"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.55,
+        "justification": "La LOPMI prevoit 1500 'cyber-patrouilleurs' supplementaires. Les recrutements sont en cours mais les chiffres exacts ne sont pas publics. Le principal defi est le vivier de candidats : les profils cyber sont rares et le secteur prive offre des remunerations 2 a 3 fois superieures. La promesse est en cours de realisation mais la cible de 1500 postes est incertaine.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.6,
+        "confidence": 0.6,
+        "justification": "La gendarmerie et la police ont deja developpe des capacites cyber (C3N, OCLCTIC, plateformes Pharos et Thesee). L'extension de ces capacites est un processus connu. Le principal defi n'est pas organisationnel mais lie au marche du travail : les profils cyber sont extremement demandes et les grilles salariales publiques sont peu competitives.",
+        "delai_realiste_mois": 48,
+        "precedent_principal": "Creation du Centre de lutte contre les criminalites numeriques C3N (2015)"
+      }
+    },
+    {
+      "promise_id": "macron_019",
+      "raw_text": "Porter le budget de la defense a 50 milliards d'euros d'ici 2025",
+      "theme": "international",
+      "budget": {
+        "score": 0.7,
+        "confidence": 0.85,
+        "justification": "Le budget de la defense est effectivement passe de 40,9 Md EUR en 2022 a 50,5 Md EUR en 2025, conformement a la Loi de Programmation Militaire (LPM) 2024-2030. L'objectif est atteint. Le financement est assure par la LPM qui prevoit 413 Md EUR sur 2024-2030. L'impact sur le deficit est reel (+3,3 Md EUR en 2025 vs 2024) mais integre dans la trajectoire budgetaire. La compatibilite PSMT est assuree car la defense est un poste prioritaire.",
+        "cout_estime_eur": 50500000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.95,
+        "confidence": 0.95,
+        "justification": "La LPM 2024-2030 a ete adoptee par le Parlement le 13 juillet 2023. Le cadre legislatif est en place. Le budget de la defense releve de la loi de finances annuelle dans le cadre de la programmation pluriannuelle. Pas de risque constitutionnel. La defense est une competence exclusive de l'Etat.",
+        "vehicule_legislatif": "loi_programmation_militaire",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.65,
+        "confidence": 0.75,
+        "justification": "Le contexte geopolitique (guerre en Ukraine, tensions au Moyen-Orient) a renforce le soutien a la hausse du budget de defense. L'impact en termes d'emplois industriels (base industrielle et technologique de defense, BITD) est positif. Toutefois, certains estiment que l'effort defense se fait au detriment d'autres priorites (sante, education).",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.95,
+        "confidence": 0.95,
+        "justification": "Le budget de la defense a atteint 50,5 Md EUR dans la LFI 2025, conformement a la trajectoire de la LPM 2024-2030. L'objectif de 50 Md EUR d'ici 2025 est integralement atteint. C'est l'une des promesses les plus clairement realisees du programme.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "justification": "La hausse du budget de defense est continue depuis 2017 (32,7 Md EUR en 2017 a 50,5 Md EUR en 2025). La France respecte desormais l'engagement OTAN de 2% du PIB. La LPM 2024-2030 est la plus ambitieuse depuis les annees 1960. Le precedent direct est la LPM 2019-2025 qui avait deja amorce la hausse et ete integralement respectee.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "LPM 2019-2025 (hausse continue du budget defense)"
+      }
+    },
+    {
+      "promise_id": "macron_020",
+      "raw_text": "Recruter 50 000 infirmiers et aides-soignants dans les etablissements de sante",
+      "theme": "sante",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.65,
+        "justification": "Le recrutement de 50 000 soignants represente un cout annuel de 1,5 a 2 Md EUR (salaire moyen infirmier : 2200 EUR net/mois + charges). L'ONDAM hospitalier est de l'ordre de 100 Md EUR et le surout represente 1,5-2% de l'ONDAM. L'Institut Montaigne chiffre le renforcement du systeme de sante a 8 Md EUR/an. Le financement par l'ONDAM est possible mais contraint par la croissance plafonnee a 3,4%/an.",
+        "cout_estime_eur": 1800000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.85,
+        "justification": "Le recrutement de soignants ne necessite pas de loi specifique. Il passe par les etablissements de sante (publics et prives) et la LFSS (ONDAM). Le Segur de la sante (2020) a deja augmente les remunerations. Le cadre juridique est en place. La difficulte n'est pas juridique mais operationnelle (vivier de candidats, conditions de travail).",
+        "vehicule_legislatif": "loi_financement_securite_sociale",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.9,
+        "score_impact": 0.85,
+        "confidence": 0.75,
+        "justification": "Le manque de soignants est un sujet de preoccupation majeur pour la population. L'impact serait tres positif sur la qualite des soins, les delais de prise en charge et les conditions de travail des soignants. La crise Covid a renforce la prise de conscience collective. La mesure est extremement populaire.",
+        "opposition_sociale": "aucune"
+      },
+      "factcheck": {
+        "score": 0.35,
+        "confidence": 0.6,
+        "justification": "Le Segur de la sante (2020) a revalorise les salaires mais n'a pas resolu la crise du recrutement. En 2024, les hopitaux publics comptaient environ 60 000 postes vacants de soignants. Le probleme n'est pas le financement mais l'attractivite du metier (conditions de travail, horaires, stress). Les instituts de formation en soins infirmiers (IFSI) peinent a remplir leurs promotions. L'objectif de 50 000 recrutements nets est tres ambitieux dans ce contexte.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.65,
+        "justification": "Les plans de recrutement hospitalier se heurtent systematiquement a la crise d'attractivite du metier. Le plan Hopital 2007, le Segur de la sante (2020) et les plans successifs n'ont pas resolu le deficit structurel de soignants. La France forme environ 30 000 infirmiers par an mais les departs (retraites, reconversions) sont du meme ordre. Le solde net est quasi nul. Sans amelioration structurelle des conditions de travail, le recrutement de 50 000 postes nets est historiquement sans precedent.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Segur de la sante (2020, revalorisation salariale)"
+      }
+    }
+  ]
+}
