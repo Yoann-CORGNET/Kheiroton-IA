@@ -20,3 +20,10 @@ class Promise:
     classification: str
     precision_level: str
     feasibility: dict | None
+    source_url: str | None = None
+    source_type: str | None = None
+    source_orientation: str | None = None
+    funding_status: str | None = None
+    candidate_justification: str | None = None
+    sources_croisees: list | None = None
+    factcheck_verdict: str | None = None

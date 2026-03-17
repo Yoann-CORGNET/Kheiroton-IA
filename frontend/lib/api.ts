@@ -1,4 +1,4 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8002/api";
 
 export interface PartySummary {
   slug: string;
@@ -50,6 +50,13 @@ export interface PartyFinance {
   assets: number | null;
 }
 
+export interface FeasibilityDimension {
+  score: number;
+  confidence: number;
+  justification: string;
+  source?: string;
+}
+
 export interface Promise {
   id: string;
   party_slug: string;
@@ -70,8 +77,25 @@ export interface Promise {
     label: string;
     uncertainty?: number;
     ci_95?: [number, number];
-    dimensions?: Record<string, Record<string, unknown>>;
+    dimensions?: Record<string, FeasibilityDimension>;
+    monte_carlo?: {
+      mean: number;
+      std: number;
+      p5: number;
+      p95: number;
+    };
   } | null;
+  source_url: string | null;
+  source_type: string | null;
+  source_orientation: string | null;
+  funding_status: string | null;
+  candidate_justification: string | null;
+  sources_croisees: {
+    url: string;
+    type: string;
+    orientation: string;
+  }[] | null;
+  factcheck_verdict: string | null;
 }
 
 export interface ParliamentaryActivity {

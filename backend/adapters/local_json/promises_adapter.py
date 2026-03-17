@@ -20,19 +20,26 @@ def _load_party_mapping() -> dict[str, str | None]:
     return {slug: entry.get("local_json") for slug, entry in raw.items()}
 
 
-def _load_feasibility_index() -> dict[str, dict]:
-    """Load feasibility scores from resultats.json, keyed by promise id."""
+def _load_resultats_index() -> tuple[dict[str, dict], dict[str, str]]:
+    """Load feasibility scores and factcheck verdicts from resultats.json, keyed by promise id."""
     if not _RESULTATS_PATH.exists():
-        return {}
+        return {}, {}
     with open(_RESULTATS_PATH, encoding="utf-8") as fh:
         data = json.load(fh)
-    index: dict[str, dict] = {}
+    feasibility_index: dict[str, dict] = {}
+    factcheck_index: dict[str, str] = {}
     for prog in data.get("programs", {}).values():
         for p in prog.get("promises", []):
+            pid = p.get("id")
+            if not pid:
+                continue
             feas = p.get("feasibility")
-            if feas and p.get("id"):
-                index[p["id"]] = feas
-    return index
+            if feas:
+                feasibility_index[pid] = feas
+            verdict = p.get("factcheck_verdict")
+            if verdict:
+                factcheck_index[pid] = verdict
+    return feasibility_index, factcheck_index
 
 
 class LocalJsonPromiseSource(PromiseSource):
@@ -40,7 +47,7 @@ class LocalJsonPromiseSource(PromiseSource):
 
     def __init__(self) -> None:
         self._slug_to_filename: dict[str, str | None] = _load_party_mapping()
-        self._feasibility_index: dict[str, dict] = _load_feasibility_index()
+        self._feasibility_index, self._factcheck_index = _load_resultats_index()
 
     def get_promises(self, slug: str) -> list[Promise]:
         filename = self._slug_to_filename.get(slug)
@@ -74,6 +81,13 @@ class LocalJsonPromiseSource(PromiseSource):
                 classification=p["classification"],
                 precision_level=p["precision_level"],
                 feasibility=p.get("feasibility") or self._feasibility_index.get(p["id"]),
+                source_url=p.get("source_url"),
+                source_type=p.get("source_type"),
+                source_orientation=p.get("source_orientation"),
+                funding_status=p.get("funding_status"),
+                candidate_justification=p.get("candidate_justification"),
+                sources_croisees=p.get("sources_croisees"),
+                factcheck_verdict=p.get("factcheck_verdict") or self._factcheck_index.get(p["id"]),
             )
             for p in promises
         ]
