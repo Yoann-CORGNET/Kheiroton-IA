@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "description": "Key macroeconomic indicators for France",
+    "last_updated": "2026-03-17",
+    "primary_sources": [
+      "INSEE (Institut National de la Statistique et des Études Économiques)",
+      "Banque de France",
+      "Agence France Trésor (AFT)",
+      "Direction Générale des Douanes et Droits Indirects (DGDDI)"
+    ]
+  },
+  "indicators": {
+    "gdp_nominal": {
+      "value": 2919.9,
+      "unit": "milliards EUR",
+      "date": "2024 (année complète)",
+      "source": "INSEE, Comptes de la Nation 2024 (Insee Première n°2053)",
+      "url": "https://www.insee.fr/fr/statistiques/8574058",
+      "trend": "increasing",
+      "notes": "PIB en valeur (prix courants), base 2020 des comptes nationaux"
+    },
+    "gdp_growth_rate": {
+      "value_2024": 1.1,
+      "value_2025": 0.9,
+      "unit": "% (variation annuelle en volume)",
+      "date": "2024-2025",
+      "source": "INSEE, Informations rapides n°25 (PIB 2025)",
+      "url": "https://www.insee.fr/fr/statistiques/8732913",
+      "trend": "decreasing",
+      "notes": "Croissance en volume. 2024: +1,1% révisé ; 2025: +0,9% (Q4 2025: +0,2% après +0,5% au Q3)"
+    },
+    "public_debt": {
+      "value_eur": 3305.3,
+      "value_pct_gdp": 113.0,
+      "unit_eur": "milliards EUR",
+      "unit_pct": "% du PIB",
+      "date": "fin 2024",
+      "source": "INSEE, Informations rapides n°82 (dette publique T4 2024)",
+      "url": "https://www.insee.fr/fr/statistiques/8540321",
+      "trend": "increasing",
+      "latest_quarterly": {
+        "q3_2025_eur": 3482.2,
+        "q3_2025_pct_gdp": 117.4,
+        "source": "INSEE, Informations rapides n°322",
+        "url": "https://www.insee.fr/fr/statistiques/8686951"
+      },
+      "notes": "Dette au sens de Maastricht. En hausse continue: 109,8% fin 2023 -> 113,0% fin 2024 -> 117,4% T3 2025"
+    },
+    "public_deficit": {
+      "value_eur": 168.6,
+      "value_pct_gdp": 5.8,
+      "unit_eur": "milliards EUR",
+      "unit_pct": "% du PIB",
+      "date": "2024",
+      "source": "INSEE, Le compte des administrations publiques en 2024 (Insee Première n°2054)",
+      "url": "https://www.insee.fr/fr/statistiques/8574492",
+      "trend": "increasing",
+      "notes": "En hausse : 4,7% en 2022, 5,4% en 2023, 5,8% en 2024. Très au-dessus du seuil de Maastricht de 3%",
+      "breakdown_by_subsector": {
+        "central_government": -152.5,
+        "local_government": -16.7,
+        "social_security": 2.3,
+        "unit": "milliards EUR"
+      }
+    },
+    "unemployment_rate": {
+      "value": 7.9,
+      "unit": "% de la population active (au sens du BIT)",
+      "date": "T4 2025",
+      "source": "INSEE, Informations rapides n°34",
+      "url": "https://www.insee.fr/fr/statistiques/8735266",
+      "trend": "increasing",
+      "quarterly_detail": {
+        "q1_2025": 7.4,
+        "q2_2025": 7.5,
+        "q3_2025": 7.7,
+        "q4_2025": 7.9
+      },
+      "notes": "Hausse de 0,6 point sur un an au T4 2025. France hors Mayotte"
+    },
+    "inflation_rate": {
+      "value_annual_2024": 2.0,
+      "value_annual_2025": 0.9,
+      "value_december_2025_yoy": 0.8,
+      "unit": "% (variation annuelle moyenne de l'IPC)",
+      "date": "2025 (moyenne annuelle)",
+      "source": "INSEE, Informations rapides n°8 (inflation moyenne annuelle 2025)",
+      "url": "https://www.insee.fr/fr/statistiques/8726461",
+      "trend": "decreasing",
+      "notes": "Fort ralentissement: 5,2% en 2022, 4,9% en 2023, 2,0% en 2024, 0,9% en 2025. IPCH: 0,9% en 2025. Inflation sous-jacente: 1,2% en 2025"
+    },
+    "population": {
+      "value": 68600000,
+      "value_formatted": "68,6 millions",
+      "unit": "habitants",
+      "date": "1er janvier 2025",
+      "source": "INSEE, Bilan démographique 2025 (Insee Première n°2087)",
+      "url": "https://www.insee.fr/fr/statistiques/8719824",
+      "trend": "increasing",
+      "notes": "66,4 millions en France métropolitaine + 2,3 millions dans les DOM. Au 1er janvier 2026: 69,1 millions estimés (+0,25% sur un an). Taux de fécondité: 1,56 enfant par femme en 2025 (plus bas depuis fin de la Première Guerre mondiale)"
+    },
+    "active_population": {
+      "value": 30900000,
+      "value_formatted": "30,9 millions",
+      "unit": "personnes",
+      "date": "2023 (dernière donnée annuelle complète)",
+      "source": "INSEE, Enquête Emploi, France portrait social 2024",
+      "url": "https://www.insee.fr/fr/statistiques/8612528?sommaire=8612596",
+      "trend": "stable",
+      "notes": "Population active au sens du BIT, France hors Mayotte. Taux d'activité des 15-64 ans: 73,9% en 2023, plus haut niveau depuis 1975"
+    },
+    "interest_payments_on_debt": {
+      "value_2024": 50.9,
+      "value_2025_estimated": 54.9,
+      "value_2026_estimated": 59.3,
+      "unit": "milliards EUR / an",
+      "date": "2024 (exécuté), 2025-2026 (prévisions)",
+      "source": "Agence France Trésor (AFT)",
+      "url": "https://www.aft.gouv.fr/en/state-budget",
+      "trend": "increasing",
+      "notes": "Charge de la dette de l'État. Taux moyen pondéré des émissions de moyen-long terme: 2,92% en 2024 vs 3,03% en 2023. La charge de la dette est le 2e poste de dépenses de l'État"
+    },
+    "tax_revenue_pct_gdp": {
+      "value": 42.8,
+      "unit": "% du PIB",
+      "date": "2024",
+      "source": "INSEE, Le compte des administrations publiques en 2024",
+      "url": "https://www.insee.fr/fr/statistiques/8574492",
+      "trend": "decreasing",
+      "notes": "Taux de prélèvements obligatoires (net des crédits d'impôt). En baisse de 0,4 point par rapport à 2023 (43,2%). Montant: 1 318,9 milliards EUR"
+    },
+    "government_spending_pct_gdp": {
+      "value": 57.1,
+      "unit": "% du PIB",
+      "date": "2024",
+      "source": "INSEE, Dépenses et recettes des administrations publiques en 2024",
+      "url": "https://www.insee.fr/fr/statistiques/8574705?sommaire=8574832",
+      "trend": "increasing",
+      "notes": "Dépenses publiques totales: 1 670,2 milliards EUR (+3,9% vs 2023). 56,9% en 2023, 57,1% en 2024. La France a le ratio dépenses/PIB le plus élevé de l'UE"
+    },
+    "trade_balance": {
+      "value_2024": -79.5,
+      "value_2025": -69.2,
+      "unit": "milliards EUR",
+      "date": "2025 (année complète)",
+      "source": "Direction Générale des Douanes et Droits Indirects (DGDDI)",
+      "url": "https://www.douane.gouv.fr/actualites/resultats-du-commerce-exterieur-de-la-france-pour-le-mois-de-decembre-et-pour-lannee",
+      "trend": "improving",
+      "notes": "Amélioration de 10 Md€ en 2025. Exportations 2025: 614,7 Md€ (+2,5%), Importations 2025: 703,6 Md€ (+0,7%). Tirée par aéronautique et baisse prix énergie. Reste 11,1 Md€ au-dessus du niveau pré-Covid (2019)"
+    },
+    "smic": {
+      "monthly_gross": 1801.80,
+      "monthly_net": 1426.30,
+      "hourly_gross": 11.88,
+      "unit": "EUR",
+      "date": "2025 (depuis le 1er novembre 2024, pas de revalorisation au 1er janvier 2025)",
+      "source": "INSEE / Service-Public.fr",
+      "url": "https://www.insee.fr/fr/statistiques/1375188",
+      "trend": "increasing",
+      "notes": "Base 35h/semaine (151,67h/mois). Revalorisation de +1,97% au 1er novembre 2024. Au 1er janvier 2026: SMIC brut mensuel porté à 1 823,03 EUR (+1,18%)"
+    },
+    "median_salary": {
+      "value_net_monthly": 2190,
+      "value_mean_net_monthly": 2733,
+      "unit": "EUR net mensuel (EQTP, secteur privé)",
+      "date": "2024",
+      "source": "INSEE, Les salaires dans le secteur privé en 2024 (Insee Première n°2079)",
+      "url": "https://www.insee.fr/fr/statistiques/8657156",
+      "trend": "increasing",
+      "notes": "Salaire net médian en équivalent temps plein dans le secteur privé. Le médian est inférieur de 19,9% au salaire moyen, reflétant la concentration des salaires dans le bas de la distribution"
+    },
+    "poverty_rate": {
+      "value": 15.4,
+      "unit": "% de la population",
+      "date": "2023",
+      "source": "INSEE, Niveau de vie et pauvreté en 2023 (Insee Première n°2063)",
+      "url": "https://www.insee.fr/fr/statistiques/8600989",
+      "trend": "increasing",
+      "notes": "Seuil de pauvreté à 60% du niveau de vie médian, soit 1 288 EUR/mois/UC. 9,8 millions de personnes en France métropolitaine. Forte hausse de +0,9 point par rapport à 2022, plus haut niveau depuis 30 ans"
+    }
+  }
+}

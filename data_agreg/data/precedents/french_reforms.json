@@ -1,0 +1,357 @@
+{
+  "metadata": {
+    "last_updated": "2025-03",
+    "methodology": "Each reform verified against official sources (Cour des Comptes, vie-publique.fr, Senat, Assemblee nationale, Legifrance). Cost figures from official reports where available; marked source_needed when not verifiable."
+  },
+  "reforms": [
+    {
+      "name": "Reforme des retraites 2023 (report de l'age legal a 64 ans)",
+      "year": 2023,
+      "source_urls": [
+        "https://www.vie-publique.fr/loi/287916-loi-reforme-des-retraites-2023-plfss-rectificatif",
+        "https://www.ccomptes.fr/fr/publications/situation-financiere-et-perspectives-du-systeme-de-retraites",
+        "https://www.vie-publique.fr/en-bref/297429-retraites-un-deficit-de-30-milliards-deuros-en-2045-cour-des-comptes",
+        "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/reforme-des-retraites-plfrss-pour-2023-rejet-de-deux-motions-de-censure-et-adoption-du-texte-lecture-cmp"
+      ],
+      "president": "Emmanuel Macron",
+      "domain": "retraites / protection sociale",
+      "description": "Report de l'age legal de depart a la retraite de 62 a 64 ans. Suppression des principaux regimes speciaux pour les nouveaux embauches. Acceleration de la reforme Touraine (43 annuites des la generation 1965).",
+      "legislative_vehicle": "49.3",
+      "social_opposition": "massive",
+      "outcome": "Reforme adoptee le 20 mars 2023 apres usage du 49.3 le 16 mars et rejet de deux motions de censure. Validee partiellement par le Conseil constitutionnel le 14 avril 2023. Economies estimees a 150 M EUR en 2024 et 300 M EUR en 2025 (montee en charge progressive). Selon la Cour des comptes (fevrier 2025), malgre la reforme, le deficit du systeme atteindrait 6,6 Md EUR en 2025, 15 Md EUR en 2035 et 30 Md EUR en 2045.",
+      "cost_initial_estimate_eur": null,
+      "cost_actual_eur": null,
+      "savings_projected_annual_eur": 13000000000,
+      "savings_projected_note": "13 Md EUR a terme selon le Tresor (0,5 point de PIB); 8-9 Md EUR en fin de quinquennat selon le ministere de l'economie",
+      "key_lessons": [
+        "L'usage du 49.3 a permis l'adoption mais au prix d'une crise de legitimite democratique majeure",
+        "L'opposition sociale massive (manifestations repetees) n'a pas empeche l'adoption mais a durablement affecte la confiance dans l'executif",
+        "Les economies reelles en phase de montee en charge sont tres inferieures aux projections de long terme"
+      ]
+    },
+    {
+      "name": "Reforme des retraites 2010 (reforme Woerth - report a 62 ans)",
+      "year": 2010,
+      "source_urls": [
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000023022127",
+        "https://www.vie-publique.fr/loi/20599-reforme-des-retraites-systeme-de-retraite-protection-sociale",
+        "https://www.vie-publique.fr/eclairage/19237-les-reformes-des-regimes-de-retraite-de-1982-2023-chronologie"
+      ],
+      "president": "Nicolas Sarkozy",
+      "domain": "retraites / protection sociale",
+      "description": "Report de l'age legal de depart de 60 a 62 ans (2018). Age du taux plein automatique de 65 a 67 ans. Objectif affiche : supprimer le deficit des retraites des 2018.",
+      "legislative_vehicle": "loi ordinaire",
+      "social_opposition": "massive",
+      "outcome": "Le taux d'activite a 60 ans a augmente de 24 points pour les hommes et 22 points pour les femmes entre les generations concernees et les precedentes. L'age effectif de depart a recule de 2 ans et 2 mois entre 2010 et 2023 (cumul des reformes depuis 2003). L'objectif de retour a l'equilibre financier complet en 2018 n'a pas ete atteint.",
+      "cost_initial_estimate_eur": null,
+      "cost_actual_eur": null,
+      "savings_projected_annual_eur": "source_needed",
+      "key_lessons": [
+        "Impact significatif sur le comportement d'activite des seniors",
+        "Les objectifs financiers trop ambitieux (equilibre en 2018) n'ont pas ete atteints",
+        "L'acceleration du calendrier en 2012 montre la dependance aux ajustements parametriques successifs"
+      ]
+    },
+    {
+      "name": "Reforme des retraites 2014 (reforme Touraine)",
+      "year": 2014,
+      "source_urls": [
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028493476",
+        "https://www.vie-publique.fr/eclairage/20111-retraites-les-differentes-reformes-de-1993-2023"
+      ],
+      "president": "Francois Hollande",
+      "domain": "retraites / protection sociale",
+      "description": "Allongement progressif de la duree d'assurance a 43 ans (172 trimestres) pour la generation 1973. Un trimestre supplementaire tous les trois ans de 2020 a 2035. Prise en compte de la penibilite (compte penibilite).",
+      "legislative_vehicle": "loi ordinaire",
+      "social_opposition": "moderate",
+      "outcome": "L'allongement de la duree de cotisation a ete applique progressivement. Le compte penibilite a ete cree puis simplifie et renomme 'compte professionnel de prevention' (C2P) en 2017. La reforme de 2023 a accelere le calendrier prevu par la loi Touraine.",
+      "cost_initial_estimate_eur": null,
+      "cost_actual_eur": null,
+      "key_lessons": [
+        "Approche parametrique progressive moins conflictuelle qu'un report brutal de l'age legal",
+        "Le dispositif penibilite, innovant sur le papier, a ete juge trop complexe a mettre en oeuvre",
+        "La reforme a ete partiellement absorbee par la reforme suivante de 2023"
+      ]
+    },
+    {
+      "name": "Ordonnances travail 2017 (ordonnances Macron)",
+      "year": 2017,
+      "source_urls": [
+        "https://www.vie-publique.fr/en-bref/282982-ordonnances-macron-un-bilan-mitige-mais-provisoire",
+        "https://www.vie-publique.fr/loi/20777-loi-15-septembre-2017-dhabilitation-ordonnances-travail-macron",
+        "https://www.senat.fr/rap/r20-722/r20-7224.html",
+        "https://www.vie-publique.fr/loi/20477-ordonnance-macron-2017-bareme-indemnite-licenciement"
+      ],
+      "president": "Emmanuel Macron",
+      "domain": "travail / emploi",
+      "description": "Cinq ordonnances reformant le Code du travail : creation du CSE (fusion des instances representatives), bareme des indemnites prud'homales, primaute de l'accord d'entreprise sur l'accord de branche pour certains sujets, simplification du dialogue social.",
+      "legislative_vehicle": "ordonnance",
+      "social_opposition": "moderate",
+      "outcome": "Bilan mitige selon France Strategie (rapport decembre 2021). En 2019, un tiers des entreprises de 10+ salaries couvertes par un CSE. Au 31/12/2020, environ 90 000 CSE pour 49 000 situations de non-conformite. L'evaluation complete a ete perturbee par la crise sanitaire Covid-19. Le bareme prud'homal a ete conteste devant les juridictions mais valide par la Cour de cassation.",
+      "cost_initial_estimate_eur": null,
+      "cost_actual_eur": null,
+      "key_lessons": [
+        "L'usage des ordonnances a permis une adoption rapide mais le deploiement reel dans les entreprises prend des annees",
+        "La crise Covid a rendu l'evaluation causale quasi impossible",
+        "La fusion des instances (CSE) a simplifie la structure mais suscite des critiques sur la perte de specialisation"
+      ]
+    },
+    {
+      "name": "Loi El Khomri (loi Travail 2016)",
+      "year": 2016,
+      "source_urls": [
+        "https://www.vie-publique.fr/loi/20761-loi-el-khomri-8-aout-2016-travail-dialogue-social-parcours-professionnel",
+        "https://www.senat.fr/rap/r20-722/r20-722_mono.html",
+        "https://www.senat.fr/salle-de-presse/201605/loi-relative-au-travail-a-la-modernisation-du-dialogue-social-et-a-la-securisation-des-parcours-professionnels.html"
+      ],
+      "president": "Francois Hollande",
+      "domain": "travail / emploi",
+      "description": "Reforme du code du travail : assouplissement des conditions de licenciement economique, renforcement de la negociation collective d'entreprise, plafonnement indicatif des indemnites prud'homales, compte personnel d'activite (CPA).",
+      "legislative_vehicle": "49.3",
+      "social_opposition": "strong",
+      "outcome": "Pres de 90% des mesures d'application publiees. La loi a ete le precurseur des ordonnances Macron de 2017 qui ont approfondi la meme logique. Le mouvement social 'Nuit Debout' a accompagne les debats. L'objectif de restructuration des branches professionnelles vers environ 200 branches a ete engage.",
+      "cost_initial_estimate_eur": null,
+      "cost_actual_eur": null,
+      "key_lessons": [
+        "L'usage repete du 49.3 par le gouvernement Valls a profondement fracture la majorite parlementaire",
+        "La reforme a ete vecue comme une trahison par une partie de l'electorat de gauche, contribuant a la defaite de 2017",
+        "Certaines mesures ont servi de base aux ordonnances Macron, illustrant la continuite entre mandatures"
+      ]
+    },
+    {
+      "name": "Loi PACTE (Plan d'Action pour la Croissance et la Transformation des Entreprises)",
+      "year": 2019,
+      "source_urls": [
+        "https://www.vie-publique.fr/rapport/291271-comite-de-suivi-et-devaluation-de-la-loi-pacte-quatrieme-rapport",
+        "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique/explorer-evaluations/comite-de-0",
+        "https://www.vie-publique.fr/en-bref/287058-loi-pacte-quel-bilan-pour-le-plan-depargne-retraite",
+        "https://www.assemblee-nationale.fr/dyn/15/dossiers/Croissance_transformation_des_entreprises"
+      ],
+      "president": "Emmanuel Macron",
+      "domain": "economie / entreprises",
+      "description": "Simplification de la creation, gestion et transmission d'entreprises. Refonte de l'epargne retraite (PER). Renforcement de l'interessement et de la participation. Privatisations (ADP, FDJ, Engie). Possibilite de definir une 'raison d'etre' dans les statuts (societe a mission).",
+      "legislative_vehicle": "loi ordinaire",
+      "social_opposition": "moderate",
+      "outcome": "Suivi par un comite d'evaluation (comite Impacte) avec 4 rapports annuels. Le PER a atteint plus de 6 millions d'epargnants, mais 79% des encours proviennent de transferts d'anciens produits. L'interessement reste concentre dans les grandes entreprises. La privatisation d'ADP a ete bloquee par un referendum d'initiative partagee puis par la crise Covid.",
+      "cost_initial_estimate_eur": null,
+      "cost_actual_eur": null,
+      "key_lessons": [
+        "Le suivi systematique par un comite d'evaluation est un modele de bonne pratique legislative",
+        "Les effets de simplification administrative sont reels mais lents a se materialiser",
+        "La privatisation d'ADP a montre les limites politiques des reformes structurelles face a la mobilisation citoyenne"
+      ]
+    },
+    {
+      "name": "Reforme de l'assurance chomage 2019-2021",
+      "year": 2019,
+      "source_urls": [
+        "https://www.vie-publique.fr/rapport/298088-rapport-comite-d-evaluation-reforme-de-lassurance-chomage-2019-2021",
+        "https://www.vie-publique.fr/en-bref/293223-assurance-chomage-bilan-intermediaire-de-la-reforme-de-2019",
+        "https://www.vie-publique.fr/en-bref/297680-contrats-courts-limpact-du-systeme-de-bonus-malus-sur-lemploi",
+        "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique/explorer-evaluations/rapport-6",
+        "https://www.vie-publique.fr/en-bref/297893-reforme-de-lassurance-chomage-2019-2021-des-resultats-limites"
+      ],
+      "president": "Emmanuel Macron",
+      "domain": "travail / emploi / protection sociale",
+      "description": "Durcissement des conditions d'acces (duree minimale d'affiliation), reforme du calcul du salaire journalier de reference, introduction de la degressivite des allocations pour les hauts revenus, bonus-malus sur les cotisations employeurs pour lutter contre les contrats courts.",
+      "legislative_vehicle": "decret (reforme par voie reglementaire)",
+      "social_opposition": "strong",
+      "outcome": "Resultats juges 'limites' par le comite d'evaluation. Le bonus-malus a entraine une baisse de 8% des fins de contrat dans les secteurs concernes entre 2023-2024, mais d'autres facteurs (ralentissement economique) ont pu contribuer. Demandeurs d'emploi et employeurs ont une connaissance limitee des nouvelles regles. Mise en oeuvre perturbee par la crise Covid (entree pleine en vigueur reportee au 1er decembre 2021).",
+      "cost_initial_estimate_eur": null,
+      "cost_actual_eur": null,
+      "key_lessons": [
+        "La complexite des regles limite leur effet comportemental quand les acteurs ne les connaissent pas",
+        "L'interference de la crise Covid a rendu l'evaluation tres difficile",
+        "La reforme par voie reglementaire (decret) evite le debat parlementaire mais fragilise la legitimite"
+      ]
+    },
+    {
+      "name": "RGPP (Revision Generale des Politiques Publiques)",
+      "year": 2007,
+      "source_urls": [
+        "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique/explorer-evaluations/bilan-de-la-4",
+        "https://www.vie-publique.fr/rapport/32183-evaluation-de-la-revision-generale-des-politiques-publiques-rgpp",
+        "https://www.senat.fr/rap/r10-666-1/r10-666-1_mono.html",
+        "https://www.vie-publique.fr/parole-dexpert/269764-la-reforme-de-letat-politique-publique"
+      ],
+      "president": "Nicolas Sarkozy",
+      "domain": "reforme de l'Etat / fonction publique",
+      "description": "Programme de modernisation de l'administration publique. Principe du non-remplacement d'un fonctionnaire sur deux partant a la retraite. Fusion des services (ex: DGI et DGCP en DGFiP). Reorganisation territoriale de l'Etat.",
+      "legislative_vehicle": "decisions administratives / lois de finances",
+      "social_opposition": "strong",
+      "outcome": "Economies brutes de 7,7 Md EUR (6 Md EUR nets apres restitution de 50% aux agents). Environ 150 000 postes supprimes en 5 ans (-5,4% des effectifs de l'Etat). La Cour des comptes juge le bilan 'contraste' : les mesures de simplification (fusion DGI/DGCP) ont ete bien accueillies par les entreprises, mais la methode a ete jugee 'brutale' en raison de l'absence de concertation. L'Etat est reste centralise malgre l'ambition initiale.",
+      "cost_initial_estimate_eur": null,
+      "cost_actual_eur": null,
+      "savings_realized_eur": 6000000000,
+      "savings_note": "6 Md EUR nets sur la periode 2008-2012, 7,7 Md EUR bruts",
+      "key_lessons": [
+        "Le non-remplacement arithmetique d'un fonctionnaire sur deux est un outil brutal qui ne tient pas compte des besoins differencies des services",
+        "Les fusions de services (DGFiP) peuvent reussir quand elles sont bien accompagnees",
+        "L'absence de concertation a genere une hostilite durable des agents publics"
+      ]
+    },
+    {
+      "name": "Reforme territoriale (loi NOTRe et fusion des regions)",
+      "year": 2015,
+      "source_urls": [
+        "https://www.vie-publique.fr/en-bref/288564-rapport-2023-de-la-cour-des-comptes-40-ans-de-decentralisation",
+        "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-2019-fascicule-2",
+        "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-2017",
+        "https://www.senat.fr/compte-rendu-commissions/20151130/mi_reforme.html"
+      ],
+      "president": "Francois Hollande",
+      "domain": "organisation territoriale / decentralisation",
+      "description": "Fusion des 22 regions metropolitaines en 13. Loi NOTRe (7 aout 2015) : suppression de la clause generale de competence pour departements et regions, renforcement des intercommunalites, transfert de competences.",
+      "legislative_vehicle": "loi ordinaire",
+      "social_opposition": "moderate",
+      "outcome": "Selon la Cour des comptes : aucun niveau d'administration n'a ete supprime malgre l'ambition initiale. L'enchevetrement des competences demeure. Les fusions de regions ont entraine des surcouts importants : depenses indemnitaires en hausse de pres de 12% entre 2017 et 2018 dans les regions fusionnees. Pas de gains d'efficience mesurables a court terme. La simplification institutionnelle n'a pas ete realisee.",
+      "cost_initial_estimate_eur": null,
+      "cost_actual_eur": null,
+      "savings_projected_note": "Des economies d'echelle etaient attendues de la fusion des regions mais non realisees selon la Cour des comptes",
+      "key_lessons": [
+        "Fusionner des collectivites sans supprimer de niveau administratif ne produit pas d'economies",
+        "Les surcouts de transition (harmonisation salariale, demenagements) sont systematiquement sous-estimes",
+        "La reforme de la carte territoriale ne suffit pas sans reforme des competences et des moyens"
+      ]
+    },
+    {
+      "name": "Loi ORE / Parcoursup (reforme de l'acces a l'enseignement superieur)",
+      "year": 2018,
+      "source_urls": [
+        "https://www.ccomptes.fr/fr/publications/acces-lenseignement-superieur-premier-bilan-de-la-loi-orientation-et-reussite-des",
+        "https://www.vie-publique.fr/en-bref/273710-parcoursup-les-reserves-de-la-cour-des-comptes",
+        "https://www.vie-publique.fr/rapport/290138-rapport-d-information-sur-la-procedure-parcoursup-bilan-cinq-ans",
+        "https://www.senat.fr/rap/r22-793/r22-793_mono.html",
+        "https://www.vie-publique.fr/loi/20786-loi-8-mars-2018-ore-orientation-et-reussite-des-etudiants-parcoursup"
+      ],
+      "president": "Emmanuel Macron",
+      "domain": "education / enseignement superieur",
+      "description": "Remplacement d'APB par Parcoursup. Introduction de pre-requis pour les filieres universitaires. Creation du dispositif 'Oui si' (acceptation conditionnelle avec parcours d'accompagnement). Second professeur principal en terminale.",
+      "legislative_vehicle": "loi ordinaire",
+      "social_opposition": "strong",
+      "outcome": "La Cour des comptes (2020) a formule 15 recommandations. La plateforme Parcoursup fonctionne sans heurts majeurs mais souleve des questions de transparence des algorithmes. 69% des eleves ont beneficie d'un accompagnement du professeur principal (contre 41% en 2016-2017). Le Senat (2023) souligne l'urgence a 'gagner la confiance des lyceens et des etudiants'. Le financement de la loi ORE est juge insuffisant par les parlementaires.",
+      "cost_initial_estimate_eur": "source_needed",
+      "cost_actual_eur": "source_needed",
+      "key_lessons": [
+        "La transparence des algorithmes d'affectation est un enjeu democratique majeur",
+        "L'amelioration de l'orientation necessite des moyens humains (professeurs principaux, psychologues EN) que la reforme n'a pas suffisamment finances",
+        "Le passage d'un tirage au sort (APB) a une selection sur dossier a change la nature du systeme sans debat explicite"
+      ]
+    },
+    {
+      "name": "Loi Climat et Resilience",
+      "year": 2021,
+      "source_urls": [
+        "https://www.vie-publique.fr/loi/278460-loi-22-aout-2021-climat-et-resilience-convention-citoyenne-climat",
+        "https://www.ccomptes.fr/fr/publications/evaluation-annuelle-de-la-mise-en-oeuvre-des-mesures-prevues-par-la-loi-climat-et",
+        "https://www.vie-publique.fr/eclairage/281953-loi-climat-et-resilience-des-avancees-et-des-limites",
+        "https://www.ccomptes.fr/sites/default/files/2024-03/20240315-Evaluation-loi-climat-resilience.pdf"
+      ],
+      "president": "Emmanuel Macron",
+      "domain": "environnement / climat",
+      "description": "Traduction legislative (partielle) des propositions de la Convention Citoyenne pour le Climat. Mesures sur la renovation energetique, ZFE (zones a faibles emissions), artificialisation des sols (ZAN), affichage environnemental, vols interieurs courts.",
+      "legislative_vehicle": "loi ordinaire",
+      "social_opposition": "moderate",
+      "outcome": "Trois ans apres, taux d'application de 70% seulement malgre l'urgence climatique. Le Haut Conseil pour le Climat juge les mesures d'impact limite en raison de leur champ restreint et de delais trop longs (2024, 2025, 2030). La Cour des comptes evalue annuellement la mise en oeuvre (article 298 de la loi). Plus de 100 textes d'application necessaires, avec des effets mesurables s'etendant jusqu'en 2050.",
+      "cost_initial_estimate_eur": "source_needed",
+      "cost_actual_eur": "source_needed",
+      "key_lessons": [
+        "La Convention Citoyenne a produit 149 propositions mais la traduction legislative en a largement reduit la portee",
+        "Les delais d'application (2024-2050) sont juges incompatibles avec le rythme de l'action climatique",
+        "Le ZAN (zero artificialisation nette) suscite une forte opposition des elus locaux et ruraux"
+      ]
+    },
+    {
+      "name": "RSA (Revenu de Solidarite Active)",
+      "year": 2009,
+      "source_urls": [
+        "https://www.ccomptes.fr/fr/publications/le-revenu-de-solidarite-active-rsa",
+        "https://www.vie-publique.fr/en-bref/283279-rsa-evaluation-et-recommandations-de-la-cour-des-comptes",
+        "https://www.vie-publique.fr/rapport/283258-le-revenu-de-solidarite-active-rsa-rapport-cour-des-comptes",
+        "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique/explorer-evaluations/rapport-final"
+      ],
+      "president": "Nicolas Sarkozy",
+      "domain": "solidarite / lutte contre la pauvrete",
+      "description": "Remplacement du RMI et de l'API par le RSA. Volet 'socle' (minimum social) et volet 'activite' (complement pour les travailleurs pauvres, devenu Prime d'activite en 2016). Objectifs : lutte contre la pauvrete, suppression des trappes a inactivite, incitation au retour a l'emploi.",
+      "legislative_vehicle": "loi ordinaire",
+      "social_opposition": "none",
+      "outcome": "Budget annuel de 15 Md EUR (RSA + prime d'activite + accompagnement) en 2019, pres de 2 millions de foyers beneficiaires. Nombre de beneficiaires en hausse de 50% depuis 2009. Deux succes reconnus par la Cour des comptes : protection contre la grande pauvrete et suppression des trappes a inactivite. Trois faiblesses majeures : non-recours important, faiblesse de l'accompagnement et de la contractualisation, acces difficile a l'emploi. Effet de ciseau pour les departements : recettes +20% vs depenses +69% depuis 2009. Aucune evaluation d'efficacite pendant plus de 10 ans.",
+      "cost_initial_estimate_eur": "source_needed",
+      "cost_actual_eur": 15000000000,
+      "cost_actual_note": "15 Md EUR/an en 2019 (RSA + prime d'activite + accompagnement)",
+      "key_lessons": [
+        "Le non-recours massif (estimee a 34% des ayants droit) limite l'efficacite de tout dispositif social",
+        "L'absence d'evaluation pendant 10 ans est un echec de pilotage",
+        "Le transfert de charges aux departements sans compensation adequate cree un desequilibre financier structurel"
+      ]
+    },
+    {
+      "name": "Loi confortant le respect des principes de la Republique (dite loi separatisme)",
+      "year": 2021,
+      "source_urls": [
+        "https://www.vie-publique.fr/loi/277621-loi-separatisme-respect-des-principes-de-la-republique-24-aout-2021",
+        "https://www.vie-publique.fr/en-bref/297035-laicite-et-lutte-contre-le-separatisme-bilan-de-la-loi-du-24-aout-2021",
+        "https://www.senat.fr/rap/r23-383/r23-3830.html"
+      ],
+      "president": "Emmanuel Macron",
+      "domain": "laicite / securite / libertes publiques",
+      "description": "Delit de separatisme, encadrement de l'instruction en famille (regime d'autorisation), contrat d'engagement republicain pour les associations, renforcement de la transparence des cultes, lutte contre la haine en ligne.",
+      "legislative_vehicle": "loi ordinaire",
+      "social_opposition": "moderate",
+      "outcome": "Bilan du Senat (2024) : paradoxe - les dispositions les plus utilisees ne le sont pas pour lutter contre le separatisme religieux, et les autres sont difficiles a deployer. 17 000 referents laicite dans les administrations. Instruction en famille : baisse de 72 369 eleves (2021-22) a 30 644 (2024-25). 23 dissolutions d'associations prononcees de sept. 2021 a janv. 2025. 6 500 atteintes a la laicite en milieu scolaire en 2023-24 (triple de 2020-21).",
+      "cost_initial_estimate_eur": "source_needed",
+      "cost_actual_eur": "source_needed",
+      "key_lessons": [
+        "Les instruments legislatifs de lutte contre le separatisme sont difficiles a deployer sans moyens humains adequats",
+        "L'encadrement de l'instruction en famille a eu un effet quantitatif mesurable mais contestable sur le plan des libertes",
+        "La hausse des signalements d'atteintes a la laicite peut refleter autant une meilleure detection qu'une aggravation du phenomene"
+      ]
+    },
+    {
+      "name": "Loi pour le plein emploi / France Travail",
+      "year": 2023,
+      "source_urls": [
+        "https://www.vie-publique.fr/loi/289715-loi-plein-emploi-france-travail-rsa-handicap-du-18-decembre-2023",
+        "https://www.vie-publique.fr/rapport/301326-comite-scientifique-d-evaluation-de-la-loi-pour-le-plein-emploi",
+        "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/projet-de-loi-pour-le-plein-emploi.html"
+      ],
+      "president": "Emmanuel Macron",
+      "domain": "travail / emploi / protection sociale",
+      "description": "Transformation de Pole Emploi en France Travail (1er janvier 2024). Creation d'un reseau pour l'emploi (France Travail, departements, Missions locales, Cap Emploi). Inscription automatique des beneficiaires du RSA. 15h minimum d'activite par semaine pour les beneficiaires du RSA. Objectif : taux de chomage a 5% en 2027.",
+      "legislative_vehicle": "loi ordinaire",
+      "social_opposition": "moderate",
+      "outcome": "Reforme recente, evaluation en cours. Comite scientifique d'evaluation installe le 9 janvier 2024. Rapport intermediaire publie : indicateurs de satisfaction et de retour a l'emploi 'deja positifs' grace a l'accompagnement intensif, mais trop tot pour des conclusions robustes et generalisables. L'obligation de 15h d'activite pour les beneficiaires du RSA est en experimentation.",
+      "cost_initial_estimate_eur": "source_needed",
+      "cost_actual_eur": "source_needed",
+      "key_lessons": [
+        "La creation d'un reseau unifie pour l'emploi est un objectif ambitieux dont le deploiement prendra des annees",
+        "Le conditionnement du RSA a des heures d'activite est ideologiquement charge et son efficacite reste a demontrer",
+        "La mise en place d'un comite scientifique d'evaluation des le debut est une bonne pratique"
+      ]
+    },
+    {
+      "name": "Loi LRU (Liberte et Responsabilite des Universites)",
+      "year": 2007,
+      "source_urls": [
+        "https://www.senat.fr/rap/r12-446/r12-446_mono.html",
+        "https://www.senat.fr/rap/r14-715/r14-715_mono.html",
+        "https://www.vie-publique.fr/loi/20504-libertes-des-universites-autonomie-des-universites-gouvernance-des-un",
+        "https://www.ccomptes.fr/sites/default/files/2018-01/11-dix-ans-apres-lancement-operation-Campus-premier-bilan-demi-teinte-Tome-1.pdf"
+      ],
+      "president": "Nicolas Sarkozy",
+      "domain": "education / enseignement superieur / recherche",
+      "description": "Autonomie des universites : passage aux responsabilites et competences elargies (RCE). Transfert de la gestion de la masse salariale et du patrimoine immobilier. Reforme de la gouvernance (renforcement du president d'universite).",
+      "legislative_vehicle": "loi ordinaire",
+      "social_opposition": "strong",
+      "outcome": "Toutes les universites sont passees aux RCE dans le delai de 5 ans. Le Senat (2013) juge le bilan 'en demi-teinte' : la loi a heurte la confiance des personnels et usagers. L'autonomie financiere a ete transferee sans les moyens correspondants, mettant certaines universites en difficulte budgetaire. La Cour des comptes (2018) dresse un 'premier bilan en demi-teinte' de l'operation Campus (plan immobilier universitaire).",
+      "cost_initial_estimate_eur": 5000000000,
+      "cost_initial_note": "Operation Campus : 5 Md EUR annonces en 2008",
+      "cost_actual_eur": "source_needed",
+      "key_lessons": [
+        "Transferer des responsabilites sans les moyens financiers correspondants met les institutions en difficulte",
+        "L'autonomie de gestion ne se decrete pas : elle necessite des competences que les universites n'avaient pas",
+        "Le calendrier contraint (5 ans) a force des transferts prematures pour certains etablissements"
+      ]
+    }
+  ]
+}

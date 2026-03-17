@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "source": "Constitution, reglements des assemblees",
+    "source_urls": [
+      "https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/role/la-procedure-legislative",
+      "https://www.vie-publique.fr/fiches/19478-les-etapes-de-la-procedure-legislative",
+      "https://www.senat.fr/role/fiche/navette.html"
+    ],
+    "last_updated": "2025-03"
+  },
+  "procedures": [
+    {
+      "type": "loi_ordinaire",
+      "name": "Loi ordinaire",
+      "source_url": "https://www.assemblee-nationale.fr/dyn/decouvrir-l-assemblee/role/la-procedure-legislative",
+      "steps": [
+        "Depot du texte (projet par le gouvernement, proposition par un parlementaire)",
+        "Examen en commission permanente",
+        "Discussion et vote en seance publique (1ere lecture)",
+        "Transmission a l'autre chambre",
+        "Navette parlementaire (2 lectures max par chambre)",
+        "Commission mixte paritaire (CMP) en cas de desaccord",
+        "Vote definitif (l'Assemblee nationale a le dernier mot, Art. 45)"
+      ],
+      "typical_timeline_months": "3-12",
+      "majority_required": "Majorite simple des votants",
+      "examples": ["Loi PACTE (2019)", "Loi climat et resilience (2021)"]
+    },
+    {
+      "type": "loi_organique",
+      "name": "Loi organique",
+      "source_url": "https://www.vie-publique.fr/fiches/19468-quest-ce-quune-loi-organique",
+      "steps": [
+        "Memes etapes que la loi ordinaire",
+        "Delai de 15 jours entre depot et discussion en seance",
+        "En cas de desaccord entre chambres, l'Assemblee doit voter a la majorite absolue (289 voix)",
+        "Saisine obligatoire du Conseil constitutionnel avant promulgation"
+      ],
+      "typical_timeline_months": "4-18",
+      "majority_required": "Majorite absolue de l'Assemblee (289) si desaccord",
+      "examples": ["LOLF (2001)", "Loi organique relative aux lois de finances"]
+    },
+    {
+      "type": "revision_constitutionnelle",
+      "name": "Revision constitutionnelle (Art. 89)",
+      "source_url": "https://www.vie-publique.fr/fiches/19530-la-revision-de-la-constitution-article-89",
+      "steps": [
+        "Initiative du President (sur proposition du PM) ou des parlementaires",
+        "Vote en termes identiques par l'Assemblee ET le Senat",
+        "Approbation par referendum OU par le Congres a la majorite des 3/5"
+      ],
+      "typical_timeline_months": "6-24",
+      "majority_required": "Accord des deux chambres + 3/5 du Congres (555 voix sur 925) ou referendum",
+      "examples": ["Quinquennat (2000, referendum)", "Revision de 2008 (Congres, 539 contre 357)"],
+      "note": "Aucune revision constitutionnelle reussie depuis 2008. Le Senat a un droit de veto effectif."
+    },
+    {
+      "type": "ordonnance",
+      "name": "Ordonnance (Art. 38)",
+      "source_url": "https://www.vie-publique.fr/fiches/19502-les-ordonnances-de-larticle-38-de-la-constitution",
+      "steps": [
+        "Loi d'habilitation votee par le Parlement",
+        "Redaction des ordonnances par le gouvernement",
+        "Avis du Conseil d'Etat",
+        "Signature par le President en Conseil des ministres",
+        "Loi de ratification (sinon les ordonnances restent des actes reglementaires)"
+      ],
+      "typical_timeline_months": "2-6",
+      "majority_required": "Majorite simple pour la loi d'habilitation",
+      "examples": ["Ordonnances travail 2017"]
+    },
+    {
+      "type": "decret",
+      "name": "Decret",
+      "source_url": "https://www.vie-publique.fr/fiches/20224-quels-sont-les-differents-types-de-decrets",
+      "steps": [
+        "Redaction par le ministere concerne",
+        "Avis du Conseil d'Etat (pour les decrets en Conseil d'Etat)",
+        "Signature et publication au Journal officiel"
+      ],
+      "typical_timeline_months": "1-3",
+      "majority_required": "Aucune (pouvoir executif seul)",
+      "examples": ["Decrets d'application des lois", "Revalorisation annuelle du SMIC"]
+    },
+    {
+      "type": "referendum",
+      "name": "Referendum (Art. 11)",
+      "source_url": "https://www.vie-publique.fr/fiches/19498-le-referendum-legislatif-article-11-de-la-constitution",
+      "steps": [
+        "Proposition au President par le gouvernement pendant les sessions ou par les deux assemblees conjointement",
+        "Decision du President de soumettre au referendum",
+        "Campagne referendaire (debat contradictoire)",
+        "Vote populaire",
+        "Promulgation si approuve"
+      ],
+      "typical_timeline_months": "2-6",
+      "majority_required": "Majorite simple des suffrages exprimes",
+      "scope": "Organisation des pouvoirs publics, reformes economiques/sociales/environnementales, ratification de traites",
+      "note": "Dernier referendum : 29 mai 2005 (Constitution europeenne, rejete a 54.7%)"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "source": "Institut Montaigne",
+    "election": "Présidentielle 2022",
+    "url": "https://www.institutmontaigne.org/presidentielle-2022/",
+    "last_updated": "2026-03-17",
+    "methodology": "L'Institut Montaigne a analysé et chiffré plus de 250 propositions des principaux candidats à l'élection présidentielle 2022. Chaque mesure publiquement annoncée a été chiffrée par un expert indépendant selon une méthodologie rigoureuse, puis revue avant d'être transmise à l'équipe de campagne du candidat pour d'éventuels commentaires. Le chiffrage évalue l'impact sur les finances publiques en année pleine (effet annuel une fois la mesure pleinement déployée).",
+    "scope": "5 candidats principaux : Macron, Le Pen, Mélenchon, Pécresse, Zemmour",
+    "key_finding": "Les programmes de tous les candidats contiennent davantage de mesures dégradant les finances publiques que de mesures les améliorant. Presque tous proposent à la fois des dépenses supplémentaires et des baisses de prélèvements obligatoires."
+  },
+  "candidates": {
+    "Macron": {
+      "total_new_spending_eur": -50000000000,
+      "total_new_revenue_eur": 12700000000,
+      "net_balance_annual_eur": -44500000000,
+      "candidate_claimed_balance_eur": 0,
+      "credibility_assessment": "Programme jugé réalisable sur le plan technique mais avec un bouclage budgétaire déficitaire de 44,5 milliards d'euros par an. Les économies et recettes sont surestimées par le candidat-président (12,7 milliards réels contre 50 milliards revendiqués).",
+      "key_measures_costed": [
+        {
+          "measure": "Baisse des prélèvements obligatoires pour les ménages et entreprises",
+          "cost_eur": -15000000000,
+          "credibility": "high",
+          "detail": "Suppression de la CVAE et réforme de l'impôt sur les successions"
+        },
+        {
+          "measure": "Report de l'âge de départ à la retraite (65 ans promis)",
+          "cost_eur": 9000000000,
+          "credibility": "high",
+          "detail": "Économies estimées via le report progressif de l'âge légal. Finalement mis en oeuvre à 64 ans."
+        },
+        {
+          "measure": "Transition écologique",
+          "cost_eur": -10000000000,
+          "credibility": "medium",
+          "detail": "Investissements dans la rénovation thermique, les énergies renouvelables et la mobilité verte"
+        },
+        {
+          "measure": "Renforcement du système de santé",
+          "cost_eur": -8000000000,
+          "credibility": "medium",
+          "detail": "Investissements dans l'hôpital public, recrutement de soignants, prévention"
+        },
+        {
+          "measure": "Renforcement du système éducatif",
+          "cost_eur": -12000000000,
+          "credibility": "medium",
+          "detail": "Revalorisation des enseignants, dédoublement des classes, SNU"
+        },
+        {
+          "measure": "Politique familiale et enfance",
+          "cost_eur": -5000000000,
+          "credibility": "medium",
+          "detail": "Complément de libre choix du mode de garde, places en crèche"
+        },
+        {
+          "measure": "Mesures de compétitivité pour les entreprises",
+          "cost_eur": -7400000000,
+          "credibility": "high",
+          "detail": "Baisses de cotisations et allègements fiscaux"
+        },
+        {
+          "measure": "Économies sur le fonctionnement des collectivités locales",
+          "cost_eur": 10000000000,
+          "credibility": "low",
+          "detail": "Objectif de 10 milliards d'économies jugé irréaliste sans mécanisme contraignant"
+        }
+      ]
+    },
+    "Le_Pen": {
+      "total_new_spending_eur": -58000000000,
+      "total_revenue_cuts_eur": -40000000000,
+      "total_new_revenue_eur": 31000000000,
+      "spending_cuts_eur": 39000000000,
+      "net_balance_annual_eur": -101800000000,
+      "candidate_claimed_balance_eur": null,
+      "credibility_assessment": "Programme jugé virtuellement irréaliste dans sa forme actuelle. Le déficit annuel supplémentaire de 101,8 milliards d'euros est considérable. De nombreuses mesures reposent sur des hypothèses économiques fragiles (effets supposés de la 'préférence nationale').",
+      "key_measures_costed": [
+        {
+          "measure": "Exonération d'impôt sur le revenu pour les moins de 30 ans",
+          "cost_eur": -5000000000,
+          "credibility": "high",
+          "detail": "Coût estimé fiable mais impact économique discutable"
+        },
+        {
+          "measure": "Baisse de la TVA sur les carburants et l'énergie (5,5%)",
+          "cost_eur": -12000000000,
+          "credibility": "high",
+          "detail": "Coût très élevé, mesure anti-redistributive (bénéficie plus aux gros consommateurs)"
+        },
+        {
+          "measure": "Retraite à 60 ans pour ceux ayant commencé à travailler avant 20 ans",
+          "cost_eur": -9000000000,
+          "credibility": "medium",
+          "detail": "Retour partiel sur la réforme de 2010"
+        },
+        {
+          "measure": "Suppression de l'aide médicale d'État (AME)",
+          "cost_eur": 1100000000,
+          "credibility": "medium",
+          "detail": "Économie directe limitée, mais coûts indirects potentiels (urgences hospitalières)"
+        },
+        {
+          "measure": "Politique de préférence nationale (prestations sociales)",
+          "cost_eur": 15000000000,
+          "credibility": "low",
+          "detail": "Économies très incertaines, probablement inconstitutionnelles et contraires au droit européen"
+        },
+        {
+          "measure": "Renforcement des forces de sécurité et de la justice",
+          "cost_eur": -8000000000,
+          "credibility": "medium",
+          "detail": "Recrutement de policiers, places de prison, magistrats"
+        }
+      ]
+    },
+    "Melenchon": {
+      "total_new_spending_eur": -273000000000,
+      "spending_cuts_eur": 13000000000,
+      "total_new_revenue_eur": 208000000000,
+      "revenue_cuts_eur": -15000000000,
+      "net_balance_annual_eur": -218900000000,
+      "candidate_claimed_balance_eur": 0,
+      "credibility_assessment": "Programme jugé virtuellement irréaliste. Le déficit annuel supplémentaire de 218,9 milliards d'euros représente environ 8% du PIB. Les recettes fiscales supposées (ISF renforcé, hausse des cotisations) reposent sur des hypothèses d'absence de fuite des capitaux et de maintien de l'activité économique jugées non crédibles.",
+      "key_measures_costed": [
+        {
+          "measure": "Retraite à 60 ans avec 40 annuités",
+          "cost_eur": -80000000000,
+          "credibility": "high",
+          "detail": "Chiffrage du coût fiable. Mesure phare du programme."
+        },
+        {
+          "measure": "Garantie d'emploi par l'État",
+          "cost_eur": -50000000000,
+          "credibility": "low",
+          "detail": "Coût très incertain, dépend du nombre de bénéficiaires et du salaire proposé"
+        },
+        {
+          "measure": "Recrutement d'un million d'agents publics",
+          "cost_eur": -40000000000,
+          "credibility": "medium",
+          "detail": "Coût estimé en masse salariale"
+        },
+        {
+          "measure": "SMIC à 1600 euros nets",
+          "cost_eur": -18000000000,
+          "credibility": "medium",
+          "detail": "Surcoût pour les finances publiques via les allègements de cotisations"
+        },
+        {
+          "measure": "Rétablissement de l'ISF renforcé",
+          "cost_eur": 15000000000,
+          "credibility": "low",
+          "detail": "Recette surestimée sans prise en compte des effets de fuite fiscale"
+        },
+        {
+          "measure": "Réforme de l'impôt sur le revenu (14 tranches)",
+          "cost_eur": 5000000000,
+          "credibility": "medium",
+          "detail": "Hausse pour les hauts revenus, baisse pour les bas revenus. Solde positif."
+        },
+        {
+          "measure": "Hausse des cotisations patronales",
+          "cost_eur": 50000000000,
+          "credibility": "low",
+          "detail": "Rendement incertain en raison de l'impact sur l'emploi et la compétitivité"
+        },
+        {
+          "measure": "Suppression des complémentaires santé (Sécu intégrale)",
+          "cost_eur": -13000000000,
+          "credibility": "medium",
+          "detail": "Coût de transfert vers la Sécurité sociale, économies sur les frais de gestion"
+        }
+      ]
+    },
+    "Pecresse": {
+      "total_spending_cuts_eur": 54000000000,
+      "total_new_spending_eur": -24000000000,
+      "net_balance_annual_eur": -5000000000,
+      "candidate_claimed_balance_eur": 30000000000,
+      "credibility_assessment": "Programme jugé ambitieux mais faisable sur le plan technique. L'écart entre le solde revendiqué par la candidate (+30 milliards) et l'estimation de l'Institut Montaigne (-5 milliards) illustre la surestimation des économies structurelles. Les baisses d'impôts sont chiffrables mais les économies de dépenses reposent sur des hypothèses optimistes.",
+      "key_measures_costed": [
+        {
+          "measure": "Suppression de 150 000 postes de fonctionnaires",
+          "cost_eur": 4500000000,
+          "credibility": "low",
+          "detail": "Objectif jugé irréaliste sur un quinquennat sans dégradation des services publics"
+        },
+        {
+          "measure": "Baisses d'impôts (IR, impôts de production)",
+          "cost_eur": -20000000000,
+          "credibility": "high",
+          "detail": "Coût bien chiffré mais non financé"
+        },
+        {
+          "measure": "Réforme des retraites (report à 65 ans)",
+          "cost_eur": 12000000000,
+          "credibility": "high",
+          "detail": "Économie crédible mais politiquement très coûteuse"
+        },
+        {
+          "measure": "Économies sur les prestations sociales (RSA conditionné)",
+          "cost_eur": 5000000000,
+          "credibility": "medium",
+          "detail": "Économies possibles mais dépendantes de la mise en oeuvre effective"
+        }
+      ]
+    },
+    "Zemmour": {
+      "total_spending_cuts_eur": 50000000000,
+      "total_new_spending_eur": -32000000000,
+      "net_balance_annual_eur": -5000000000,
+      "candidate_claimed_balance_eur": null,
+      "credibility_assessment": "Programme présentant un déficit modéré de 5 milliards mais reposant sur des économies liées à la réduction de l'immigration largement non chiffrables et juridiquement contestables. Les dépenses de sécurité et de défense sont importantes.",
+      "key_measures_costed": [
+        {
+          "measure": "Réduction drastique de l'immigration",
+          "cost_eur": 16000000000,
+          "credibility": "low",
+          "detail": "Économies supposées sur les prestations sociales et l'AME, largement surestimées et juridiquement fragiles"
+        },
+        {
+          "measure": "Renforcement massif de la sécurité et de la défense",
+          "cost_eur": -32000000000,
+          "credibility": "medium",
+          "detail": "Places de prison, recrutement police/armée, budget défense à 3% du PIB"
+        },
+        {
+          "measure": "Suppression de postes de fonctionnaires (hors régalien)",
+          "cost_eur": 8000000000,
+          "credibility": "low",
+          "detail": "Mêmes problèmes de faisabilité que pour Pécresse"
+        },
+        {
+          "measure": "Baisses d'impôts ciblées (familles, entreprises)",
+          "cost_eur": -10000000000,
+          "credibility": "high",
+          "detail": "Coût bien estimé"
+        }
+      ]
+    }
+  },
+  "cross_candidate_analysis": {
+    "deficit_ranking_worst_to_best": [
+      {"candidate": "Mélenchon", "annual_deficit_impact_eur": -218900000000},
+      {"candidate": "Le Pen", "annual_deficit_impact_eur": -101800000000},
+      {"candidate": "Macron", "annual_deficit_impact_eur": -44500000000},
+      {"candidate": "Pécresse", "annual_deficit_impact_eur": -5000000000},
+      {"candidate": "Zemmour", "annual_deficit_impact_eur": -5000000000}
+    ],
+    "common_patterns": [
+      "Tous les candidats surestiment leurs recettes et sous-estiment leurs dépenses",
+      "Les promesses de baisse de la fiscalité ne sont jamais financées par des économies suffisantes",
+      "Les effets de second tour (impact sur la croissance, l'emploi) sont systématiquement surévalués",
+      "Les réformes structurelles (fonction publique, collectivités) produisent des économies bien inférieures aux annonces"
+    ],
+    "methodology_limitations": [
+      "Le chiffrage est statique (pas d'effets dynamiques sur la croissance)",
+      "Certaines mesures sont difficiles à chiffrer (changements comportementaux, effets de confiance)",
+      "Les mesures institutionnelles (VIe République, référendum, etc.) ne sont pas chiffrées"
+    ]
+  }
+}
