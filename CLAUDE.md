@@ -48,19 +48,20 @@ politiscale/
 Le schema est garanti et documente dans `.claude/commands/politiscale.md`.
 
 Cles racine: `metadata`, `programs`, `comparison`.
-Chaque promesse a: `id`, `raw_text`, `theme`, `source_url`, `feasibility.overall`, `feasibility.dimensions`, `feasibility.ci_95`.
+Chaque promesse a: `id`, `raw_text`, `candidate_justification`, `theme`, `source_url`, `source_orientation`, `sources_croisees`, `funding_status`, `feasibility.overall`, `feasibility.dimensions`, `feasibility.ci_95`.
 
 ## Flux de donnees
 
 ```
-Phase 1 (agreg)           Phase 2 (analyse)          Phase 3 (rapport)
-4 agents collecteurs      5 agents analystes         1 agent synthetiseur
-WebSearch → JSON          JSON → scoring MCDA        scores → rapport + JSON
-        │                         │                          │
-        ▼                         ▼                          ▼
-    data_agreg/data/      evaluations par agent      data_agreg/output/
-    (16 fichiers JSON)    (5 rapports/promesse)      resultats.json ← contrat
-                                                     rapport_faisabilite.md
+Phase 1 (agreg)           Phase 1b (audit)           Phase 2 (analyse)          Phase 3 (rapport)
+4 agents collecteurs      audit qualite              5 agents analystes         1 agent synthetiseur
+WebSearch → JSON          donnees existantes?        JSON → scoring MCDA        scores → rapport + JSON
+        │                 ├─ ✓ OK → Phase 2          guard data quality                 │
+        ▼                 └─ ⚠ → enrichissement             │                          ▼
+    data_agreg/data/         agents enrichissement   evaluations par agent      data_agreg/output/
+    (16+ fichiers JSON)      (candidate_justif,      (5 rapports/promesse)      resultats.json ← contrat
+                              sources croisees,                                 rapport_faisabilite.md
+                              funding_status)
 ```
 
 ## Conventions
@@ -69,5 +70,8 @@ WebSearch → JSON          JSON → scoring MCDA        scores → rapport + JS
 - Pas de donnee = pas d'inclusion (jamais inventer)
 - Chaque score a un score (0-1) ET une confiance (0-1)
 - Neutralite politique stricte
+- **Diversite des sources**: au moins 2 orientations (liberal + gauche/institutionnel) par promesse
+- **Guard fact-check**: `financement_non_capture` ≠ `financement_non_propose` — ne jamais penaliser pour un manque dans nos donnees
+- **Audit des donnees existantes**: si data/ contient deja des programmes, les auditer et enrichir avant analyse
 - Disclaimer obligatoire sur chaque rapport
 - `output/resultats.json` respecte toujours le schema garanti
