@@ -1,37 +1,82 @@
 @import "tailwindcss";
 
+/* Marianne — Système de Design de l'État */
+@font-face {
+  font-family: "Marianne";
+  src: url("https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/fonts/Marianne-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Marianne";
+  src: url("https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/fonts/Marianne-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Marianne";
+  src: url("https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/fonts/Marianne-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Marianne";
+  src: url("https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.12.1/dist/fonts/Marianne-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DSFR Color Tokens */
 :root {
-  --background: #09090b;
-  --foreground: #f4f4f5;
+  --background: #ffffff;
+  --background-alt: #f6f6f6;
+  --background-contrast: #eeeeee;
+  --foreground: #161616;
+  --text-mention: #666666;
+  --text-disabled: #929292;
+  --border-default: #e5e5e5;
+  --border-strong: #cecece;
+  --bleu-france: #000091;
+  --bleu-france-hover: #1212ff;
+  --bleu-france-active: #2323ff;
+  --rouge-marianne: #e1000f;
+  --success: #18753c;
+  --warning: #b34000;
+  --error: #ce0500;
+  --info: #0063cb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  font-family: "Marianne", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
-/* Smooth scrollbar for dark theme */
+/* Scrollbar — light theme */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #18181b;
+  background: var(--background-alt);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3f3f46;
-  border-radius: 4px;
+  background: var(--border-strong);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #52525b;
+  background: var(--text-disabled);
 }

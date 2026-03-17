@@ -22,7 +22,7 @@ const AXES = [
 ] as const;
 
 const AXIS_LABELS: Record<string, string> = {
-  lrecon: "Economique",
+  lrecon: "Économique",
   galtan: "GAL-TAN",
   eu_position: "Pro-UE",
   immigration: "Immigration",
@@ -47,28 +47,28 @@ export default function CompareRadar({ data, parties }: CompareRadarProps) {
 
   if (selectedParties.length === 0) {
     return (
-      <div className="flex h-64 items-center justify-center text-zinc-500">
-        Aucune donnee de positionnement disponible.
+      <div className="flex h-64 items-center justify-center text-[#929292]">
+        Aucune donnée de positionnement disponible.
       </div>
     );
   }
 
   return (
     <div className="w-full">
-      <h2 className="mb-4 text-lg font-semibold text-zinc-100">
-        Positionnement ideologique
+      <h2 className="mb-4 text-lg font-bold text-[#161616]">
+        Positionnement idéologique
       </h2>
       <ResponsiveContainer width="100%" height={420}>
         <RadarChart data={radarData} cx="50%" cy="50%" outerRadius="75%">
-          <PolarGrid stroke="#3f3f46" />
+          <PolarGrid stroke="#e5e5e5" />
           <PolarAngleAxis
             dataKey="axis"
-            tick={{ fill: "#a1a1aa", fontSize: 12 }}
+            tick={{ fill: "#161616", fontSize: 12, fontWeight: 500 }}
           />
           <PolarRadiusAxis
             angle={90}
             domain={[0, 10]}
-            tick={{ fill: "#71717a", fontSize: 10 }}
+            tick={{ fill: "#929292", fontSize: 10 }}
             axisLine={false}
           />
           {selectedParties.map((party) => (
@@ -83,14 +83,15 @@ export default function CompareRadar({ data, parties }: CompareRadarProps) {
             />
           ))}
           <Legend
-            wrapperStyle={{ color: "#d4d4d8", fontSize: 13 }}
+            wrapperStyle={{ color: "#161616", fontSize: 13 }}
           />
           <Tooltip
             contentStyle={{
-              backgroundColor: "#18181b",
-              border: "1px solid #3f3f46",
-              borderRadius: "8px",
-              color: "#e4e4e7",
+              backgroundColor: "#ffffff",
+              border: "1px solid #e5e5e5",
+              borderRadius: "0",
+              color: "#161616",
+              boxShadow: "0 2px 6px rgba(0,0,0,0.08)",
               fontSize: 13,
             }}
             formatter={(value) => Number(value).toFixed(1)}

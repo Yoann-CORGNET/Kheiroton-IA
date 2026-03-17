@@ -19,11 +19,11 @@ const fmt = new Intl.NumberFormat("fr-FR", {
   maximumFractionDigits: 0,
 });
 
-const COLORS = ["#3b82f6", "#22c55e", "#f59e0b", "#8b5cf6"];
+const COLORS = ["#000091", "#18753C", "#B34000", "#A558A0"];
 
 const LABELS: { key: keyof PartyFinance; label: string }[] = [
   { key: "public_funding", label: "Financement public" },
-  { key: "private_donations", label: "Dons prives" },
+  { key: "private_donations", label: "Dons privés" },
   { key: "membership_fees", label: "Cotisations" },
 ];
 
@@ -42,15 +42,15 @@ export default function FinanceSummary({ finance }: FinanceSummaryProps) {
   const balance = finance.total_revenue - finance.total_expenses;
 
   return (
-    <div className="rounded-xl bg-zinc-900 p-6">
-      <h3 className="mb-4 text-lg font-semibold text-zinc-100">
+    <div className="border border-[#e5e5e5] bg-white p-6">
+      <h3 className="mb-4 text-lg font-bold text-[#161616]">
         Finances ({finance.year})
       </h3>
 
       <div className="grid gap-6 md:grid-cols-2">
         {/* Pie chart */}
         <div>
-          <p className="mb-2 text-sm font-medium text-zinc-400">Repartition des revenus</p>
+          <p className="mb-2 text-xs font-bold uppercase tracking-wide text-[#666666]">Répartition des revenus</p>
           <ResponsiveContainer width="100%" height={260}>
             <PieChart>
               <Pie
@@ -72,10 +72,11 @@ export default function FinanceSummary({ finance }: FinanceSummaryProps) {
               </Pie>
               <Tooltip
                 contentStyle={{
-                  backgroundColor: "#27272a",
-                  border: "1px solid #3f3f46",
-                  borderRadius: "8px",
-                  color: "#f4f4f5",
+                  backgroundColor: "#ffffff",
+                  border: "1px solid #e5e5e5",
+                  borderRadius: "0",
+                  color: "#161616",
+                  boxShadow: "0 2px 6px rgba(0,0,0,0.08)",
                 }}
                 formatter={(value) => [fmt.format(Number(value)), "Montant"]}
               />
@@ -83,25 +84,25 @@ export default function FinanceSummary({ finance }: FinanceSummaryProps) {
           </ResponsiveContainer>
         </div>
 
-        {/* Summary text */}
+        {/* Summary cards */}
         <div className="flex flex-col justify-center gap-4">
-          <div className="rounded-lg bg-zinc-800 p-4">
-            <p className="text-sm text-zinc-400">Revenus totaux</p>
-            <p className="text-xl font-bold text-zinc-100">
+          <div className="border border-[#e5e5e5] bg-[#f6f6f6] p-4">
+            <p className="text-xs font-bold uppercase tracking-wide text-[#666666]">Revenus totaux</p>
+            <p className="mt-1 text-xl font-bold text-[#161616]">
               {fmt.format(finance.total_revenue)}
             </p>
           </div>
-          <div className="rounded-lg bg-zinc-800 p-4">
-            <p className="text-sm text-zinc-400">Depenses totales</p>
-            <p className="text-xl font-bold text-zinc-100">
+          <div className="border border-[#e5e5e5] bg-[#f6f6f6] p-4">
+            <p className="text-xs font-bold uppercase tracking-wide text-[#666666]">Dépenses totales</p>
+            <p className="mt-1 text-xl font-bold text-[#161616]">
               {fmt.format(finance.total_expenses)}
             </p>
           </div>
-          <div className="rounded-lg bg-zinc-800 p-4">
-            <p className="text-sm text-zinc-400">Solde</p>
+          <div className="border border-[#e5e5e5] bg-[#f6f6f6] p-4">
+            <p className="text-xs font-bold uppercase tracking-wide text-[#666666]">Solde</p>
             <p
-              className={`text-xl font-bold ${
-                balance >= 0 ? "text-green-400" : "text-red-400"
+              className={`mt-1 text-xl font-bold ${
+                balance >= 0 ? "text-[#18753C]" : "text-[#CE0500]"
               }`}
             >
               {balance >= 0 ? "+" : ""}
@@ -109,9 +110,9 @@ export default function FinanceSummary({ finance }: FinanceSummaryProps) {
             </p>
           </div>
           {finance.assets !== null && (
-            <div className="rounded-lg bg-zinc-800 p-4">
-              <p className="text-sm text-zinc-400">Patrimoine</p>
-              <p className="text-xl font-bold text-zinc-100">
+            <div className="border border-[#e5e5e5] bg-[#f6f6f6] p-4">
+              <p className="text-xs font-bold uppercase tracking-wide text-[#666666]">Patrimoine</p>
+              <p className="mt-1 text-xl font-bold text-[#161616]">
                 {fmt.format(finance.assets)}
               </p>
             </div>

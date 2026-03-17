@@ -9,15 +9,15 @@ interface PromiseListProps {
 const fmt = new Intl.NumberFormat("fr-FR");
 
 function feasibilityColor(score: number): string {
-  if (score < 0.3) return "bg-red-500";
-  if (score < 0.6) return "bg-orange-400";
-  return "bg-green-500";
+  if (score < 0.3) return "bg-[#CE0500]";
+  if (score < 0.6) return "bg-[#B34000]";
+  return "bg-[#18753C]";
 }
 
 function feasibilityTextColor(score: number): string {
-  if (score < 0.3) return "text-red-400";
-  if (score < 0.6) return "text-orange-400";
-  return "text-green-400";
+  if (score < 0.3) return "text-[#CE0500]";
+  if (score < 0.6) return "text-[#B34000]";
+  return "text-[#18753C]";
 }
 
 function truncate(text: string, maxLen: number): string {
@@ -47,26 +47,26 @@ export default function PromiseList({ promises }: PromiseListProps) {
 
   if (sorted.length === 0) {
     return (
-      <div className="rounded-xl bg-zinc-900 p-6">
-        <h3 className="mb-4 text-lg font-semibold text-zinc-100">Promesses</h3>
-        <p className="text-zinc-400">Aucune promesse disponible.</p>
+      <div className="border border-[#e5e5e5] bg-white p-6">
+        <h3 className="mb-4 text-lg font-bold text-[#161616]">Promesses</h3>
+        <p className="text-[#666666]">Aucune promesse disponible.</p>
       </div>
     );
   }
 
   return (
-    <div className="rounded-xl bg-zinc-900 p-6">
-      <h3 className="mb-4 text-lg font-semibold text-zinc-100">
+    <div className="border border-[#e5e5e5] bg-white p-6">
+      <h3 className="mb-4 text-lg font-bold text-[#161616]">
         Promesses ({sorted.length})
       </h3>
       <div className="overflow-x-auto">
         <table className="w-full text-left text-sm">
           <thead>
-            <tr className="border-b border-zinc-700 text-zinc-400">
-              <th className="pb-3 pr-4 font-medium">Theme</th>
-              <th className="pb-3 pr-4 font-medium">Promesse</th>
-              <th className="pb-3 pr-4 font-medium">Faisabilite</th>
-              <th className="pb-3 font-medium">Cout</th>
+            <tr className="border-b-2 border-[#000091] text-[#161616]">
+              <th className="pb-3 pr-4 text-xs font-bold uppercase tracking-wide">Thème</th>
+              <th className="pb-3 pr-4 text-xs font-bold uppercase tracking-wide">Promesse</th>
+              <th className="pb-3 pr-4 text-xs font-bold uppercase tracking-wide">Faisabilité</th>
+              <th className="pb-3 text-xs font-bold uppercase tracking-wide">Coût</th>
             </tr>
           </thead>
           <tbody>
@@ -75,36 +75,36 @@ export default function PromiseList({ promises }: PromiseListProps) {
               return (
                 <tr
                   key={p.id}
-                  className="border-b border-zinc-800 transition-colors hover:bg-zinc-800/50"
+                  className="border-b border-[#e5e5e5] transition-colors hover:bg-[#f6f6f6]"
                 >
                   <td className="py-3 pr-4 whitespace-nowrap">
-                    <span className="rounded-full bg-zinc-800 px-2.5 py-1 text-xs font-medium text-zinc-300">
+                    <span className="bg-[#f6f6f6] border border-[#e5e5e5] px-2.5 py-1 text-xs font-medium text-[#3a3a3a]">
                       {p.theme}
                     </span>
                   </td>
-                  <td className="py-3 pr-4 text-zinc-200">
+                  <td className="py-3 pr-4 text-[#3a3a3a]">
                     {truncate(p.raw_text, 100)}
                   </td>
                   <td className="py-3 pr-4 whitespace-nowrap">
                     {score !== null ? (
                       <div className="flex items-center gap-2">
-                        <div className="h-2 w-20 overflow-hidden rounded-full bg-zinc-700">
+                        <div className="h-2 w-20 overflow-hidden bg-[#eeeeee]">
                           <div
-                            className={`h-full rounded-full ${feasibilityColor(score)}`}
+                            className={`h-full ${feasibilityColor(score)}`}
                             style={{ width: `${Math.round(score * 100)}%` }}
                           />
                         </div>
                         <span
-                          className={`text-xs font-medium ${feasibilityTextColor(score)}`}
+                          className={`text-xs font-bold ${feasibilityTextColor(score)}`}
                         >
                           {Math.round(score * 100)}%
                         </span>
                       </div>
                     ) : (
-                      <span className="text-xs text-zinc-500">N/A</span>
+                      <span className="text-xs text-[#929292]">N/A</span>
                     )}
                   </td>
-                  <td className="py-3 text-zinc-300">
+                  <td className="py-3 font-mono text-[#3a3a3a]">
                     {formatCost(p.cost_announced)}
                   </td>
                 </tr>

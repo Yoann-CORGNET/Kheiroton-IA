@@ -27,36 +27,37 @@ export default function ElectionResults({ elections, color }: ElectionResultsPro
   }));
 
   return (
-    <div className="rounded-xl bg-zinc-900 p-6">
-      <h3 className="mb-4 text-lg font-semibold text-zinc-100">
-        Resultats electoraux
+    <div className="border border-[#e5e5e5] bg-white p-6">
+      <h3 className="mb-4 text-lg font-bold text-[#161616]">
+        Résultats électoraux
       </h3>
       {data.length === 0 ? (
-        <p className="text-zinc-400">Aucun resultat electoral disponible.</p>
+        <p className="text-[#666666]">Aucun résultat électoral disponible.</p>
       ) : (
         <ResponsiveContainer width="100%" height={Math.max(300, data.length * 50)}>
           <BarChart data={data} layout="vertical" margin={{ left: 20 }}>
             <XAxis
               type="number"
-              tick={{ fill: "#a1a1aa", fontSize: 12 }}
-              axisLine={{ stroke: "#3f3f46" }}
-              tickLine={{ stroke: "#3f3f46" }}
+              tick={{ fill: "#666666", fontSize: 12 }}
+              axisLine={{ stroke: "#e5e5e5" }}
+              tickLine={{ stroke: "#e5e5e5" }}
               tickFormatter={(v: number) => `${v.toFixed(1)}%`}
             />
             <YAxis
               type="category"
               dataKey="label"
               width={220}
-              tick={{ fill: "#a1a1aa", fontSize: 11 }}
-              axisLine={{ stroke: "#3f3f46" }}
+              tick={{ fill: "#3a3a3a", fontSize: 11 }}
+              axisLine={{ stroke: "#e5e5e5" }}
               tickLine={false}
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: "#27272a",
-                border: "1px solid #3f3f46",
-                borderRadius: "8px",
-                color: "#f4f4f5",
+                backgroundColor: "#ffffff",
+                border: "1px solid #e5e5e5",
+                borderRadius: "0",
+                color: "#161616",
+                boxShadow: "0 2px 6px rgba(0,0,0,0.08)",
               }}
               formatter={(value, name) => {
                 const v = Number(value);
@@ -68,7 +69,7 @@ export default function ElectionResults({ elections, color }: ElectionResultsPro
             <Bar
               dataKey="percentage"
               fill={color}
-              radius={[0, 4, 4, 0]}
+              radius={[0, 0, 0, 0]}
               barSize={24}
             />
           </BarChart>

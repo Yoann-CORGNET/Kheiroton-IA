@@ -17,7 +17,7 @@ interface PositioningRadarProps {
 }
 
 const AXES = [
-  { key: "lrecon", label: "Economique" },
+  { key: "lrecon", label: "Économique" },
   { key: "galtan", label: "GAL-TAN" },
   { key: "eu_position", label: "Pro-UE" },
   { key: "immigration", label: "Immigration" },
@@ -31,24 +31,24 @@ export default function PositioningRadar({ positioning, color }: PositioningRada
     value: positioning[axis.key] ?? 0,
   }));
 
-  const fillColor = color + "4D"; // 30% opacity hex
+  const fillColor = color + "33"; // 20% opacity hex
 
   return (
-    <div className="rounded-xl bg-zinc-900 p-6">
-      <h3 className="mb-4 text-lg font-semibold text-zinc-100">
-        Positionnement ideologique ({positioning.year})
+    <div className="border border-[#e5e5e5] bg-white p-6">
+      <h3 className="mb-4 text-lg font-bold text-[#161616]">
+        Positionnement idéologique ({positioning.year})
       </h3>
       <ResponsiveContainer width="100%" height={360}>
         <RadarChart data={data} cx="50%" cy="50%" outerRadius="75%">
-          <PolarGrid stroke="#3f3f46" />
+          <PolarGrid stroke="#e5e5e5" />
           <PolarAngleAxis
             dataKey="axis"
-            tick={{ fill: "#a1a1aa", fontSize: 12 }}
+            tick={{ fill: "#161616", fontSize: 12, fontWeight: 500 }}
           />
           <PolarRadiusAxis
             domain={[0, 10]}
             tickCount={6}
-            tick={{ fill: "#71717a", fontSize: 10 }}
+            tick={{ fill: "#929292", fontSize: 10 }}
             axisLine={false}
           />
           <Radar
@@ -60,10 +60,11 @@ export default function PositioningRadar({ positioning, color }: PositioningRada
           />
           <Tooltip
             contentStyle={{
-              backgroundColor: "#27272a",
-              border: "1px solid #3f3f46",
-              borderRadius: "8px",
-              color: "#f4f4f5",
+              backgroundColor: "#ffffff",
+              border: "1px solid #e5e5e5",
+              borderRadius: "0",
+              color: "#161616",
+              boxShadow: "0 2px 6px rgba(0,0,0,0.08)",
             }}
             formatter={(value) => [Number(value).toFixed(1), "Score"]}
           />

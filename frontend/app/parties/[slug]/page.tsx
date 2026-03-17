@@ -13,7 +13,7 @@ import ParliamentaryStats from "@/components/ParliamentaryStats";
 
 const TABS = [
   { id: "positionnement", label: "Positionnement" },
-  { id: "elections", label: "Elections" },
+  { id: "elections", label: "Élections" },
   { id: "finance", label: "Finance" },
   { id: "promesses", label: "Promesses" },
   { id: "parlement", label: "Parlement" },
@@ -59,10 +59,10 @@ export default function PartyPage({
 
   if (loading) {
     return (
-      <main className="mx-auto max-w-7xl px-4 py-12">
+      <main className="mx-auto max-w-7xl px-6 py-12">
         <div className="flex items-center justify-center py-32">
-          <div className="h-8 w-8 animate-spin rounded-full border-2 border-zinc-600 border-t-zinc-100" />
-          <span className="ml-3 text-zinc-400">Chargement...</span>
+          <div className="h-8 w-8 animate-spin border-2 border-[#e5e5e5] border-t-[#000091]" />
+          <span className="ml-3 text-[#666666]">Chargement...</span>
         </div>
       </main>
     );
@@ -70,18 +70,18 @@ export default function PartyPage({
 
   if (error || !party) {
     return (
-      <main className="mx-auto max-w-7xl px-4 py-12">
+      <main className="mx-auto max-w-7xl px-6 py-12">
         <Link
           href="/"
-          className="mb-6 inline-flex items-center gap-1 text-sm text-zinc-400 transition-colors hover:text-zinc-100"
+          className="mb-6 inline-flex items-center gap-1 text-sm text-[#000091] transition-colors hover:text-[#1212FF]"
         >
           &larr; Retour aux partis
         </Link>
-        <div className="rounded-xl bg-zinc-900 p-8 text-center">
-          <p className="text-lg font-semibold text-red-400">
+        <div className="border border-[#e5e5e5] bg-white p-8 text-center">
+          <p className="text-lg font-semibold text-[#CE0500]">
             {error || "Parti introuvable"}
           </p>
-          <p className="mt-2 text-sm text-zinc-400">
+          <p className="mt-2 text-sm text-[#666666]">
             Impossible de charger le profil du parti.
           </p>
         </div>
@@ -92,40 +92,40 @@ export default function PartyPage({
   const { identity } = party;
 
   return (
-    <main className="mx-auto max-w-7xl px-4 py-8">
+    <main className="mx-auto max-w-7xl px-6 py-8">
       {/* Back link */}
       <Link
         href="/"
-        className="mb-6 inline-flex items-center gap-1 text-sm text-zinc-400 transition-colors hover:text-zinc-100"
+        className="mb-6 inline-flex items-center gap-1 text-sm font-medium text-[#000091] transition-colors hover:text-[#1212FF]"
       >
         &larr; Retour aux partis
       </Link>
 
       {/* Party header */}
-      <div className="mb-8 rounded-xl bg-zinc-900 p-6">
+      <div className="mb-8 border border-[#e5e5e5] bg-white p-6">
         <div className="flex items-start gap-4">
           <div
-            className="mt-1 h-4 w-4 shrink-0 rounded-full"
+            className="mt-1 h-4 w-4 shrink-0"
             style={{ backgroundColor: identity.color }}
           />
           <div className="flex-1">
-            <h1 className="text-2xl font-bold text-zinc-100">
+            <h1 className="text-2xl font-bold text-[#161616]">
               {identity.name}
-              <span className="ml-2 text-lg font-normal text-zinc-400">
+              <span className="ml-2 text-lg font-normal text-[#666666]">
                 ({identity.short_name})
               </span>
             </h1>
-            <div className="mt-2 flex flex-wrap gap-x-6 gap-y-1 text-sm text-zinc-400">
+            <div className="mt-2 flex flex-wrap gap-x-6 gap-y-1 text-sm text-[#666666]">
               <span>
-                Leader : <span className="text-zinc-200">{identity.leader}</span>
+                Leader : <span className="font-medium text-[#161616]">{identity.leader}</span>
               </span>
               <span>
-                Fonde en :{" "}
-                <span className="text-zinc-200">{identity.founded}</span>
+                Fondé en :{" "}
+                <span className="font-medium text-[#161616]">{identity.founded}</span>
               </span>
               <span>
                 Famille :{" "}
-                <span className="text-zinc-200">{identity.family}</span>
+                <span className="font-medium text-[#161616]">{identity.family}</span>
               </span>
             </div>
           </div>
@@ -133,21 +133,16 @@ export default function PartyPage({
       </div>
 
       {/* Tab navigation */}
-      <div className="mb-6 flex gap-1 overflow-x-auto border-b border-zinc-800">
+      <div className="mb-6 flex gap-0 overflow-x-auto border-b-2 border-[#e5e5e5]">
         {TABS.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`whitespace-nowrap px-4 py-2.5 text-sm font-medium transition-colors ${
+            className={`whitespace-nowrap px-5 py-3 text-sm font-medium transition-colors ${
               activeTab === tab.id
-                ? "border-b-2 text-zinc-100"
-                : "text-zinc-400 hover:text-zinc-200"
+                ? "border-b-[3px] border-[#000091] text-[#000091] -mb-[2px]"
+                : "text-[#666666] hover:text-[#161616] hover:bg-[#f6f6f6]"
             }`}
-            style={
-              activeTab === tab.id
-                ? { borderBottomColor: identity.color }
-                : undefined
-            }
           >
             {tab.label}
           </button>
@@ -172,9 +167,9 @@ export default function PartyPage({
                 )}
               </>
             ) : (
-              <div className="rounded-xl bg-zinc-900 p-6">
-                <p className="text-zinc-400">
-                  Donnees de positionnement non disponibles.
+              <div className="border border-[#e5e5e5] bg-white p-6">
+                <p className="text-[#666666]">
+                  Données de positionnement non disponibles.
                 </p>
               </div>
             )}
@@ -193,9 +188,9 @@ export default function PartyPage({
             {party.finance ? (
               <FinanceSummary finance={party.finance} />
             ) : (
-              <div className="rounded-xl bg-zinc-900 p-6">
-                <p className="text-zinc-400">
-                  Donnees financieres non disponibles.
+              <div className="border border-[#e5e5e5] bg-white p-6">
+                <p className="text-[#666666]">
+                  Données financières non disponibles.
                 </p>
               </div>
             )}
@@ -211,9 +206,9 @@ export default function PartyPage({
             {party.parliamentary ? (
               <ParliamentaryStats parliamentary={party.parliamentary} />
             ) : (
-              <div className="rounded-xl bg-zinc-900 p-6">
-                <p className="text-zinc-400">
-                  Donnees parlementaires non disponibles.
+              <div className="border border-[#e5e5e5] bg-white p-6">
+                <p className="text-[#666666]">
+                  Données parlementaires non disponibles.
                 </p>
               </div>
             )}

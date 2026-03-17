@@ -19,11 +19,11 @@ export default function PositioningTimeline({ history, color }: PositioningTimel
   const sorted = [...history].sort((a, b) => a.year - b.year);
 
   return (
-    <div className="rounded-xl bg-zinc-900 p-6">
-      <h3 className="mb-4 text-lg font-semibold text-zinc-100">
-        Evolution ideologique
+    <div className="border border-[#e5e5e5] bg-white p-6">
+      <h3 className="mb-4 text-lg font-bold text-[#161616]">
+        Évolution idéologique
       </h3>
-      <div className="mb-3 flex items-center gap-6 text-sm text-zinc-400">
+      <div className="mb-3 flex items-center gap-6 text-sm text-[#666666]">
         <span className="flex items-center gap-2">
           <span
             className="inline-block h-0.5 w-5"
@@ -43,22 +43,23 @@ export default function PositioningTimeline({ history, color }: PositioningTimel
         <LineChart data={sorted}>
           <XAxis
             dataKey="year"
-            tick={{ fill: "#a1a1aa", fontSize: 12 }}
-            axisLine={{ stroke: "#3f3f46" }}
-            tickLine={{ stroke: "#3f3f46" }}
+            tick={{ fill: "#666666", fontSize: 12 }}
+            axisLine={{ stroke: "#e5e5e5" }}
+            tickLine={{ stroke: "#e5e5e5" }}
           />
           <YAxis
             domain={[0, 10]}
-            tick={{ fill: "#a1a1aa", fontSize: 12 }}
-            axisLine={{ stroke: "#3f3f46" }}
-            tickLine={{ stroke: "#3f3f46" }}
+            tick={{ fill: "#666666", fontSize: 12 }}
+            axisLine={{ stroke: "#e5e5e5" }}
+            tickLine={{ stroke: "#e5e5e5" }}
           />
           <Tooltip
             contentStyle={{
-              backgroundColor: "#27272a",
-              border: "1px solid #3f3f46",
-              borderRadius: "8px",
-              color: "#f4f4f5",
+              backgroundColor: "#ffffff",
+              border: "1px solid #e5e5e5",
+              borderRadius: "0",
+              color: "#161616",
+              boxShadow: "0 2px 6px rgba(0,0,0,0.08)",
             }}
           />
           <Line

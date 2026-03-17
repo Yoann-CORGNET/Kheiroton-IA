@@ -15,7 +15,6 @@ export default function ComparePage() {
   const [loadingComparison, setLoadingComparison] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch party list on mount
   useEffect(() => {
     let cancelled = false;
     api
@@ -34,7 +33,6 @@ export default function ComparePage() {
     };
   }, []);
 
-  // Toggle party selection (clamp to 4)
   const toggleParty = useCallback((slug: string) => {
     setSelected((prev) => {
       const next = new Set(prev);
@@ -47,7 +45,6 @@ export default function ComparePage() {
     });
   }, []);
 
-  // Fetch comparison when clicking the button
   const handleCompare = useCallback(async () => {
     const slugs = Array.from(selected);
     if (slugs.length < 2) return;
@@ -66,22 +63,21 @@ export default function ComparePage() {
     }
   }, [selected]);
 
-  // Selected parties metadata (for child components)
   const selectedParties = parties.filter((p) => selected.has(p.slug));
 
   return (
-    <main className="mx-auto max-w-7xl px-4 py-8">
+    <main className="mx-auto max-w-7xl px-6 py-10">
       {/* Header */}
       <div className="mb-8 flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-white">Comparer les partis</h1>
-          <p className="mt-1 text-sm text-zinc-400">
-            Selectionnez 2 a 4 partis pour les comparer
+          <h1 className="text-2xl font-bold text-[#161616]">Comparer les partis</h1>
+          <p className="mt-1 text-sm text-[#666666]">
+            Sélectionnez 2 à 4 partis pour les comparer
           </p>
         </div>
         <Link
           href="/"
-          className="text-sm text-zinc-400 transition-colors hover:text-white"
+          className="text-sm font-medium text-[#000091] transition-colors hover:text-[#1212FF]"
         >
           &larr; Retour
         </Link>
@@ -89,14 +85,14 @@ export default function ComparePage() {
 
       {/* Error */}
       {error && (
-        <div className="mb-6 rounded-lg border border-red-800/50 bg-red-950/30 px-4 py-3 text-sm text-red-300">
+        <div className="mb-6 border-l-4 border-[#CE0500] bg-[#FEF4F4] px-4 py-3 text-sm text-[#CE0500]">
           {error}
         </div>
       )}
 
       {/* Party selection */}
       {loadingParties ? (
-        <div className="flex h-24 items-center justify-center text-zinc-500">
+        <div className="flex h-24 items-center justify-center text-[#929292]">
           Chargement des partis...
         </div>
       ) : (
@@ -111,17 +107,17 @@ export default function ComparePage() {
                   key={party.slug}
                   onClick={() => toggleParty(party.slug)}
                   disabled={isDisabled}
-                  className={`flex items-center gap-2 rounded-lg border px-4 py-2 text-sm font-medium transition-all ${
+                  className={`flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all ${
                     isSelected
-                      ? "border-zinc-500 bg-zinc-800 text-white"
+                      ? "border-[#000091] bg-[#000091] text-white"
                       : isDisabled
-                        ? "cursor-not-allowed border-zinc-800 bg-zinc-900/30 text-zinc-600"
-                        : "border-zinc-800 bg-zinc-900/50 text-zinc-300 hover:border-zinc-600 hover:text-white"
+                        ? "cursor-not-allowed border-[#e5e5e5] bg-[#f6f6f6] text-[#929292]"
+                        : "border-[#e5e5e5] bg-white text-[#3a3a3a] hover:border-[#000091] hover:text-[#000091]"
                   }`}
                 >
                   <span
-                    className="inline-block h-3 w-3 shrink-0 rounded-full"
-                    style={{ backgroundColor: party.color }}
+                    className="inline-block h-3 w-3 shrink-0"
+                    style={{ backgroundColor: isSelected ? "white" : party.color }}
                   />
                   {party.short_name || party.name}
                 </button>
@@ -134,17 +130,17 @@ export default function ComparePage() {
             <button
               onClick={handleCompare}
               disabled={selected.size < 2 || loadingComparison}
-              className={`rounded-lg px-6 py-2.5 text-sm font-semibold transition-all ${
+              className={`px-6 py-2.5 text-sm font-bold uppercase tracking-wide transition-all ${
                 selected.size < 2
-                  ? "cursor-not-allowed bg-zinc-800 text-zinc-600"
+                  ? "cursor-not-allowed border border-[#e5e5e5] bg-[#f6f6f6] text-[#929292]"
                   : loadingComparison
-                    ? "cursor-wait bg-zinc-700 text-zinc-300"
-                    : "bg-white text-zinc-950 hover:bg-zinc-200"
+                    ? "cursor-wait bg-[#000091]/70 text-white"
+                    : "bg-[#000091] text-white hover:bg-[#1212FF]"
               }`}
             >
               {loadingComparison
                 ? "Chargement..."
-                : `Comparer (${selected.size} selectionne${selected.size > 1 ? "s" : ""})`}
+                : `Comparer (${selected.size} sélectionné${selected.size > 1 ? "s" : ""})`}
             </button>
           </div>
         </div>
@@ -153,16 +149,14 @@ export default function ComparePage() {
       {/* Results */}
       {comparison && (
         <div className="space-y-10">
-          {/* Radar chart */}
-          <section className="rounded-xl border border-zinc-800 bg-zinc-900/30 p-6">
+          <section className="border border-[#e5e5e5] bg-white p-6">
             <CompareRadar
               data={comparison.positioning_radar}
               parties={selectedParties}
             />
           </section>
 
-          {/* Comparison table */}
-          <section className="rounded-xl border border-zinc-800 bg-zinc-900/30 p-6">
+          <section className="border border-[#e5e5e5] bg-white p-6">
             <CompareTable
               comparison={comparison}
               parties={selectedParties}
@@ -171,12 +165,12 @@ export default function ComparePage() {
         </div>
       )}
 
-      {/* Empty state when no comparison yet */}
+      {/* Empty state */}
       {!comparison && !loadingComparison && !loadingParties && (
-        <div className="flex h-48 items-center justify-center rounded-xl border border-dashed border-zinc-800 text-zinc-600">
+        <div className="flex h-48 items-center justify-center border-2 border-dashed border-[#e5e5e5] text-[#929292]">
           {selected.size < 2
-            ? "Selectionnez au moins 2 partis pour lancer la comparaison"
-            : "Cliquez sur \"Comparer\" pour voir les resultats"}
+            ? "Sélectionnez au moins 2 partis pour lancer la comparaison"
+            : "Cliquez sur \"Comparer\" pour voir les résultats"}
         </div>
       )}
     </main>

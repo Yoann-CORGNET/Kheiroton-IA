@@ -16,60 +16,60 @@ interface MetricCardProps {
 
 function MetricCard({ label, value, subtitle }: MetricCardProps) {
   return (
-    <div className="rounded-lg bg-zinc-800 p-4">
-      <p className="text-sm text-zinc-400">{label}</p>
-      <p className="mt-1 text-2xl font-bold text-zinc-100">{value}</p>
-      {subtitle && <p className="mt-0.5 text-xs text-zinc-500">{subtitle}</p>}
+    <div className="border border-[#e5e5e5] bg-[#f6f6f6] p-4">
+      <p className="text-xs font-bold uppercase tracking-wide text-[#666666]">{label}</p>
+      <p className="mt-1 text-2xl font-bold text-[#161616]">{value}</p>
+      {subtitle && <p className="mt-0.5 text-xs text-[#929292]">{subtitle}</p>}
     </div>
   );
 }
 
 export default function ParliamentaryStats({ parliamentary }: ParliamentaryStatsProps) {
   return (
-    <div className="rounded-xl bg-zinc-900 p-6">
-      <h3 className="mb-2 text-lg font-semibold text-zinc-100">
-        Activite parlementaire
+    <div className="border border-[#e5e5e5] bg-white p-6">
+      <h3 className="mb-2 text-lg font-bold text-[#161616]">
+        Activité parlementaire
       </h3>
-      <p className="mb-4 text-sm text-zinc-400">
-        {parliamentary.group_name} &middot; Legislature {parliamentary.legislature}
+      <p className="mb-4 text-sm text-[#666666]">
+        {parliamentary.group_name} &middot; Législature {parliamentary.legislature}
       </p>
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <MetricCard
           label="Taille du groupe"
           value={fmt.format(parliamentary.group_size)}
-          subtitle="deputes"
+          subtitle="députés"
         />
         <MetricCard
           label="Interventions"
           value={fmt.format(parliamentary.total_interventions)}
         />
         <MetricCard
-          label="Amendements deposes"
+          label="Amendements déposés"
           value={fmt.format(parliamentary.total_amendments)}
         />
         <MetricCard
-          label="Amendements adoptes"
+          label="Amendements adoptés"
           value={`${parliamentary.amendments_adopted_pct.toFixed(1)}%`}
         />
         <MetricCard
-          label="Presence moyenne"
+          label="Présence moyenne"
           value={`${parliamentary.avg_presence_pct.toFixed(1)}%`}
         />
         <MetricCard
-          label="Questions posees"
+          label="Questions posées"
           value={fmt.format(parliamentary.total_questions)}
         />
       </div>
 
       {parliamentary.top_themes.length > 0 && (
         <div className="mt-4">
-          <p className="mb-2 text-sm font-medium text-zinc-400">Themes principaux</p>
+          <p className="mb-2 text-xs font-bold uppercase tracking-wide text-[#666666]">Thèmes principaux</p>
           <div className="flex flex-wrap gap-2">
             {parliamentary.top_themes.map((theme) => (
               <span
                 key={theme}
-                className="rounded-full bg-zinc-800 px-3 py-1 text-xs text-zinc-300"
+                className="border border-[#e5e5e5] bg-[#f6f6f6] px-3 py-1 text-xs font-medium text-[#3a3a3a]"
               >
                 {theme}
               </span>

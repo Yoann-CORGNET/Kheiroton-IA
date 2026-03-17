@@ -18,13 +18,13 @@ interface RowDef {
 
 const POSITIONING_ROWS: RowDef[] = [
   { label: "Gauche-Droite (lrgen)", key: "lrgen", source: "positioning" },
-  { label: "Economique (lrecon)", key: "lrecon", source: "positioning" },
+  { label: "Économique (lrecon)", key: "lrecon", source: "positioning" },
   { label: "GAL-TAN", key: "galtan", source: "positioning" },
   { label: "Pro-UE", key: "eu_position", source: "positioning" },
   { label: "Immigration", key: "immigration", source: "positioning" },
   { label: "Environnement", key: "environment", source: "positioning" },
   { label: "Redistribution", key: "redistribution", source: "positioning" },
-  { label: "Anti-elites", key: "antielite", source: "positioning" },
+  { label: "Anti-élites", key: "antielite", source: "positioning" },
 ];
 
 const EXTRA_ROWS: RowDef[] = [
@@ -36,7 +36,7 @@ const EXTRA_ROWS: RowDef[] = [
     max: 100,
   },
   {
-    label: "Faisabilite moy.",
+    label: "Faisabilité moy.",
     key: "avg_feasibility",
     source: "promises",
     format: (v) => (v != null ? v.toFixed(2) : "-"),
@@ -52,7 +52,7 @@ const EXTRA_ROWS: RowDef[] = [
       if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)} M`;
       return v.toLocaleString("fr-FR");
     },
-    max: 0, // no bar for budget
+    max: 0,
   },
   {
     label: "Groupe AN",
@@ -62,7 +62,7 @@ const EXTRA_ROWS: RowDef[] = [
     max: 0,
   },
   {
-    label: "Presence moy. (%)",
+    label: "Présence moy. (%)",
     key: "avg_presence_pct",
     source: "parliamentary",
     format: (v) => (v != null ? `${v.toFixed(1)}%` : "-"),
@@ -102,7 +102,7 @@ function BarCell({
 }) {
   if (value == null || max <= 0) {
     return (
-      <span className="text-sm text-zinc-400">{formatted}</span>
+      <span className="text-sm text-[#666666]">{formatted}</span>
     );
   }
 
@@ -110,13 +110,13 @@ function BarCell({
 
   return (
     <div className="flex items-center gap-2">
-      <div className="relative h-3 w-20 overflow-hidden rounded-full bg-zinc-800">
+      <div className="relative h-3 w-20 overflow-hidden bg-[#eeeeee]">
         <div
-          className="absolute inset-y-0 left-0 rounded-full transition-all"
+          className="absolute inset-y-0 left-0 transition-all"
           style={{ width: `${pct}%`, backgroundColor: color }}
         />
       </div>
-      <span className="text-sm text-zinc-300 tabular-nums">{formatted}</span>
+      <span className="text-sm text-[#3a3a3a] tabular-nums">{formatted}</span>
     </div>
   );
 }
@@ -128,15 +128,14 @@ export default function CompareTable({ comparison, parties }: CompareTableProps)
 
   if (selectedParties.length === 0) {
     return (
-      <div className="flex h-32 items-center justify-center text-zinc-500">
-        Aucune donnee de comparaison disponible.
+      <div className="flex h-32 items-center justify-center text-[#929292]">
+        Aucune donnée de comparaison disponible.
       </div>
     );
   }
 
   const allRows = [...POSITIONING_ROWS, ...EXTRA_ROWS];
 
-  // Filter extra rows: only show if at least one party has data
   const visibleRows = allRows.filter((row) => {
     if (POSITIONING_ROWS.includes(row)) return true;
     return selectedParties.some((p) => getValue(comparison, p.slug, row) != null);
@@ -144,22 +143,22 @@ export default function CompareTable({ comparison, parties }: CompareTableProps)
 
   return (
     <div className="w-full">
-      <h2 className="mb-4 text-lg font-semibold text-zinc-100">
-        Comparaison detaillee
+      <h2 className="mb-4 text-lg font-bold text-[#161616]">
+        Comparaison détaillée
       </h2>
-      <div className="overflow-x-auto rounded-lg border border-zinc-800">
+      <div className="overflow-x-auto border border-[#e5e5e5]">
         <table className="w-full text-left text-sm">
           <thead>
-            <tr className="border-b border-zinc-800 bg-zinc-900/50">
-              <th className="px-4 py-3 font-medium text-zinc-400">Dimension</th>
+            <tr className="border-b-2 border-[#000091] bg-[#f6f6f6]">
+              <th className="px-4 py-3 text-xs font-bold uppercase tracking-wide text-[#161616]">Dimension</th>
               {selectedParties.map((party) => (
-                <th key={party.slug} className="px-4 py-3 font-medium">
+                <th key={party.slug} className="px-4 py-3">
                   <div className="flex items-center gap-2">
                     <span
-                      className="inline-block h-3 w-3 shrink-0 rounded-full"
+                      className="inline-block h-3 w-3 shrink-0"
                       style={{ backgroundColor: party.color }}
                     />
-                    <span className="text-zinc-100">
+                    <span className="text-xs font-bold uppercase tracking-wide text-[#161616]">
                       {party.short_name || party.name}
                     </span>
                   </div>
@@ -170,7 +169,6 @@ export default function CompareTable({ comparison, parties }: CompareTableProps)
           <tbody>
             {visibleRows.map((row, idx) => {
               const isPositioning = POSITIONING_ROWS.includes(row);
-              // Show divider before the first non-positioning row
               const prevRow = idx > 0 ? visibleRows[idx - 1] : null;
               const showDivider =
                 !isPositioning &&
@@ -183,16 +181,16 @@ export default function CompareTable({ comparison, parties }: CompareTableProps)
                     <tr>
                       <td
                         colSpan={selectedParties.length + 1}
-                        className="border-t border-zinc-700 bg-zinc-900/30 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-500"
+                        className="border-t-2 border-[#000091] bg-[#f6f6f6] px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#666666]"
                       >
-                        Donnees supplementaires
+                        Données supplémentaires
                       </td>
                     </tr>
                   )}
                   <tr
-                    className="border-t border-zinc-800/50 transition-colors hover:bg-zinc-900/40"
+                    className="border-t border-[#e5e5e5] transition-colors hover:bg-[#f6f6f6]"
                   >
-                    <td className="whitespace-nowrap px-4 py-3 text-zinc-400">
+                    <td className="whitespace-nowrap px-4 py-3 text-[#666666]">
                       {row.label}
                     </td>
                     {selectedParties.map((party) => {
