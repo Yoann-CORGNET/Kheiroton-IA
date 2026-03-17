@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.git/
+.gitignore
+.env
+.env.*
+*.swp
+*.swo
+.DS_Store
+tests/
