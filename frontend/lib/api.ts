@@ -1,4 +1,4 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8002/api";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8003/api";
 
 export interface PartySummary {
   slug: string;

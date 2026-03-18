@@ -9,6 +9,7 @@ import PositioningTimeline from "@/components/PositioningTimeline";
 import ElectionResults from "@/components/ElectionResults";
 import FinanceSummary from "@/components/FinanceSummary";
 import PromiseList from "@/components/PromiseList";
+import PromiseGraph from "@/components/PromiseGraph";
 import ParliamentaryStats from "@/components/ParliamentaryStats";
 
 const TABS = [
@@ -16,6 +17,7 @@ const TABS = [
   { id: "elections", label: "Élections" },
   { id: "finance", label: "Finance" },
   { id: "promesses", label: "Promesses" },
+  { id: "graphe", label: "Graphe" },
   { id: "parlement", label: "Parlement" },
 ] as const;
 
@@ -199,6 +201,10 @@ export default function PartyPage({
 
         {activeTab === "promesses" && (
           <PromiseList promises={party.promises} />
+        )}
+
+        {activeTab === "graphe" && (
+          <PromiseGraph promises={party.promises} />
         )}
 
         {activeTab === "parlement" && (

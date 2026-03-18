@@ -6,28 +6,30 @@ $ARGUMENTS
 
 Modes:
 - `agreg <election> [candidats]` — Phase 1 seule: collecter les donnees
-- `analyse [programmes]` — Phase 2+3: analyser les programmes existants dans data/
-- (sans argument) — Pipeline complete: agreg si data/ vide, puis analyse
+- `analyse [programmes]` — Phase 2+3: analyser les programmes existants dans MongoDB
+- (sans argument) — Pipeline complete: agreg si MongoDB vide, puis analyse
 
-## Structure des donnees
+## Stockage des donnees
 
-```
-data_agreg/
-├── data/                    # INPUT pour l'analyse, OUTPUT de l'agregation
-│   ├── programs/            # 1 JSON par candidat (promesses sourcees)
-│   ├── economic/            # macro INSEE, budget PLF, contraintes UE
-│   ├── legal/               # Constitution, droit UE, procedures, arithmetique AN
-│   ├── precedents/          # reformes FR + internationales
-│   └── evaluations/         # chiffrages Inst. Montaigne, IFRAP, CdC
-├── output/                  # OUTPUT de l'analyse
-│   ├── resultats.json       # Donnees structurees completes (contrat d'interface)
-│   └── rapport_faisabilite.md
-└── CONTEXT.md               # Resume compile des donnees de reference
-```
+Toutes les donnees sont stockees dans **MongoDB** via le serveur MCP `politiscale`.
+Les agents utilisent les outils MCP pour lire et ecrire les donnees.
 
-### Contrat d'interface: `output/resultats.json`
+### Collections MongoDB
 
-Ce fichier est consomme par d'autres programmes. Schema garanti:
+| Collection | Contenu | Outils MCP |
+|-----------|---------|------------|
+| `programs` | 1 doc par candidat (promesses sourcees) | `store_program` / `get_programs` |
+| `economic` | macro INSEE, budget PLF, contraintes UE | `store_economic_data` / `get_economic_data` |
+| `legal` | Constitution, droit UE, procedures, arithmetique AN | `store_legal_data` / `get_legal_data` |
+| `precedents` | reformes FR + internationales | `store_precedents` / `get_precedents` |
+| `evaluations` | chiffrages Inst. Montaigne, IFRAP, CdC | `store_evaluation` / `get_evaluations` |
+| `results` | Donnees structurees completes (contrat d'interface) | `store_results` / `get_results` |
+
+Utiliser `mcp__politiscale__list_collections()` pour verifier l'etat des donnees.
+
+### Contrat d'interface: collection `results`
+
+Ce document est consomme par l'API backend. Schema garanti:
 
 ```json
 {
@@ -35,7 +37,7 @@ Ce fichier est consomme par d'autres programmes. Schema garanti:
     "generated_at": "ISO8601",
     "pipeline_version": "string",
     "methodology": "string",
-    "data_sources": ["liste des fichiers data/ utilises"]
+    "data_sources": ["liste des collections utilisees"]
   },
   "programs": {
     "<program_id>": {
@@ -112,15 +114,10 @@ Les 14 themes: economie, emploi, retraites, sante, education, securite, immigrat
 ## PHASE 1 — Agregation des donnees (`agreg`)
 
 ### Prerequis
-Aucun — cette phase collecte tout depuis le web.
+Aucun — cette phase collecte tout depuis le web et pousse vers MongoDB via MCP.
+MongoDB doit etre accessible (verifier avec `mcp__politiscale__list_collections()`).
 
 ### Process
-
-#### Etape 1.0 — Creer la structure si absente
-```bash
-mkdir -p data_agreg/data/{programs,economic,legal,precedents,evaluations}
-mkdir -p data_agreg/output
-```
 
 #### Etape 1.1 — Lancer 4 agents collecteurs EN PARALLELE
 
@@ -128,45 +125,53 @@ mkdir -p data_agreg/output
 - WebSearch: programmes officiels, chiffrages Institut Montaigne, IFRAP, presse
 - Extraire 15-25 promesses concretes par candidat
 - CHAQUE promesse DOIT avoir une `source_url` verifiable
-- Ecrire `data/programs/{nom}.json`
+- Pousser via `mcp__politiscale__store_program(party_slug, candidate, party, election, source_urls, promises)`
 
 **Agent Economie**:
 - WebSearch: INSEE (api.insee.fr), budget.gouv.fr, AFT, Eurostat, HCFP
-- Ecrire 3 fichiers: `macro_indicators.json`, `budget_structure.json`, `fiscal_constraints.json`
+- Pousser 3 documents via:
+  - `mcp__politiscale__store_economic_data(data_type="macro_indicators", data={...})`
+  - `mcp__politiscale__store_economic_data(data_type="budget_structure", data={...})`
+  - `mcp__politiscale__store_economic_data(data_type="fiscal_constraints", data={...})`
 - CHAQUE indicateur DOIT avoir une `url` source
 
 **Agent Legal**:
 - WebSearch: legifrance.gouv.fr, assemblee-nationale.fr, vie-publique.fr, eur-lex.europa.eu
-- Ecrire 4 fichiers: `constitutional_constraints.json`, `eu_legal_constraints.json`, `legislative_procedures.json`, `parliamentary_arithmetic.json`
-- NOTE: cet agent peut etre bloque par les filtres de contenu. Si c'est le cas, ecrire manuellement avec URLs Legifrance.
+- Pousser 4 documents via:
+  - `mcp__politiscale__store_legal_data(data_type="constitutional_constraints", data={...})`
+  - `mcp__politiscale__store_legal_data(data_type="eu_legal_constraints", data={...})`
+  - `mcp__politiscale__store_legal_data(data_type="legislative_procedures", data={...})`
+  - `mcp__politiscale__store_legal_data(data_type="parliamentary_arithmetic", data={...})`
+- NOTE: cet agent peut etre bloque par les filtres de contenu. Si c'est le cas, utiliser les outils MCP manuellement avec URLs Legifrance.
 
 **Agent Precedents + Evaluations**:
 - WebSearch: ccomptes.fr, vie-publique.fr, OCDE, FMI
-- Ecrire: `french_reforms.json`, `international_precedents.json`, `institut_montaigne_20XX.json`, `ifrap_20XX.json`, `cour_des_comptes_key_findings.json`
+- Pousser via:
+  - `mcp__politiscale__store_precedents(data_type="french_reforms", data={...})`
+  - `mcp__politiscale__store_precedents(data_type="international_precedents", data={...})`
+  - `mcp__politiscale__store_evaluation(source="institut_montaigne", year=20XX, data={...})`
+  - `mcp__politiscale__store_evaluation(source="ifrap", year=20XX, data={...})`
+  - `mcp__politiscale__store_evaluation(source="cour_des_comptes", year=20XX, data={...})`
 - CHAQUE reforme/evaluation DOIT avoir des `source_urls`
 
 #### Etape 1.2 — Validation
 
-```bash
-# Verifier que tous les JSON sont valides
-find data_agreg/data -name "*.json" -exec python3 -c "import json; json.load(open('{}'))" \;
+Verifier les donnees poussees via MCP:
 
-# Compter les promesses sourcees
-python3 -c "
-import json, glob
-for f in glob.glob('data_agreg/data/programs/*.json'):
-    d = json.load(open(f))
-    total = len(d['promises'])
-    sourced = len([p for p in d['promises'] if p.get('source_url')])
-    print(f'{f}: {sourced}/{total} sourcees')
-"
+```
+# Verifier le nombre de documents par collection
+mcp__politiscale__list_collections()
+
+# Verifier les promesses sourcees
+mcp__politiscale__get_programs()
+# Pour chaque programme, verifier que chaque promesse a une source_url
 ```
 
-Si des promesses n'ont pas de `source_url`, les SUPPRIMER.
+Si des promesses n'ont pas de `source_url`, les retirer et repousser le programme corrige.
 
 #### Etape 1.3 — Compiler CONTEXT.md
 
-Generer `data_agreg/CONTEXT.md` avec un resume des donnees collectees (voir le fichier existant comme modele). Ce fichier est utilise comme reference rapide par les agents d'analyse.
+Generer `data_agreg/CONTEXT.md` avec un resume des donnees collectees (voir le fichier existant comme modele). Ce fichier est utilise comme reference rapide. Les donnees sous-jacentes sont dans MongoDB.
 
 ---
 
@@ -174,43 +179,36 @@ Generer `data_agreg/CONTEXT.md` avec un resume des donnees collectees (voir le f
 
 ### Prerequis
 
-Verifier que `data_agreg/data/` contient les donnees necessaires:
+Verifier que MongoDB contient les donnees necessaires:
 
-```python
-required = [
-    "data_agreg/data/programs/",        # au moins 1 fichier
-    "data_agreg/data/economic/macro_indicators.json",
-    "data_agreg/data/economic/budget_structure.json",
-    "data_agreg/data/legal/constitutional_constraints.json",
-    "data_agreg/data/legal/parliamentary_arithmetic.json",
-    "data_agreg/data/precedents/french_reforms.json",
-]
+```
+mcp__politiscale__list_collections()
+# Verifier: programs >= 1, economic >= 1, legal >= 1, precedents >= 1
 ```
 
-Si des fichiers manquent: proposer de lancer la Phase 1 d'abord.
+Si des collections sont vides: proposer de lancer la Phase 1 d'abord.
 
 ### Etape 2.0 — Charger le contexte
 
-1. Lire `data_agreg/CONTEXT.md` pour le resume
-2. Lire TOUS les fichiers `data_agreg/data/programs/*.json`
-3. Lire les fichiers de contexte pertinents pour les agents
-4. Compter les promesses concretes a analyser
+1. Appeler `mcp__politiscale__get_programs()` pour recuperer tous les programmes
+2. Compter les promesses concretes a analyser
+3. Les agents chargeront leurs donnees de reference directement via MCP (voir "Contexte a charger" dans chaque agent)
 
 ### Etape 2.1 — Preparer les prompts des agents
 
 Pour chaque agent, lire son fichier `.claude/agents/{nom}.md` et y injecter:
-- Les donnees de contexte lues depuis `data_agreg/data/`
 - Les promesses a analyser (par batch thematique de 3-5)
+- Les agents recupereront eux-memes les donnees de reference via les outils MCP
 
-**Donnees a injecter par agent:**
+**Donnees recuperees par chaque agent via MCP:**
 
-| Agent | Fichiers de contexte a lire et injecter |
-|-------|-----------------------------------------|
-| Economiste | `economic/macro_indicators.json`, `economic/budget_structure.json`, `economic/fiscal_constraints.json`, `evaluations/institut_montaigne_*.json`, `evaluations/ifrap_*.json` |
-| Juriste | `legal/constitutional_constraints.json`, `legal/eu_legal_constraints.json`, `legal/legislative_procedures.json`, `legal/parliamentary_arithmetic.json` |
-| Sociologue | `economic/macro_indicators.json` (chomage, SMIC, pauvrete), `precedents/french_reforms.json` (opposition sociale) |
-| Fact-checker | `economic/macro_indicators.json`, `economic/budget_structure.json`, `evaluations/*.json`, programme complet du candidat |
-| Historien | `precedents/french_reforms.json`, `precedents/international_precedents.json` |
+| Agent | Outils MCP utilises |
+|-------|---------------------|
+| Economiste | `get_economic_data`, `get_evaluations` |
+| Juriste | `get_legal_data` |
+| Sociologue | `get_precedents`, `get_economic_data` |
+| Fact-checker | `get_economic_data`, `get_evaluations`, `get_programs` |
+| Historien | `get_precedents` |
 
 ### Etape 2.2 — Lancer les agents EN PARALLELE
 
@@ -218,28 +216,29 @@ Pour chaque batch de promesses (groupees par theme, 3-5 par batch):
 
 ```
 Agent(
-  prompt="[contenu .claude/agents/economiste.md]\n\n## Donnees\n{economic_data}\n\n## Promesses a analyser\n{batch_json}",
+  prompt="[contenu .claude/agents/economiste.md]\n\n## Promesses a analyser\n{batch_json}",
   description="Budget: {theme} {candidate}"
 )
 Agent(
-  prompt="[contenu .claude/agents/juriste.md]\n\n## Donnees\n{legal_data}\n\n## Promesses a analyser\n{batch_json}",
+  prompt="[contenu .claude/agents/juriste.md]\n\n## Promesses a analyser\n{batch_json}",
   description="Juridique: {theme} {candidate}"
 )
 Agent(
-  prompt="[contenu .claude/agents/sociologue.md]\n\n## Donnees\n{social_data}\n\n## Promesses a analyser\n{batch_json}",
+  prompt="[contenu .claude/agents/sociologue.md]\n\n## Promesses a analyser\n{batch_json}",
   description="Social: {theme} {candidate}"
 )
 Agent(
-  prompt="[contenu .claude/agents/factchecker.md]\n\n## Donnees\n{factcheck_data}\n\n## Promesses a analyser\n{batch_json}",
+  prompt="[contenu .claude/agents/factchecker.md]\n\n## Promesses a analyser\n{batch_json}",
   description="Factcheck: {theme} {candidate}"
 )
 Agent(
-  prompt="[contenu .claude/agents/historien.md]\n\n## Donnees\n{precedents_data}\n\n## Promesses a analyser\n{batch_json}",
+  prompt="[contenu .claude/agents/historien.md]\n\n## Promesses a analyser\n{batch_json}",
   description="Precedents: {theme} {candidate}"
 )
 ```
 
 Les 5 agents retournent chacun un JSON par promesse (schema defini dans chaque `.claude/agents/*.md`).
+Les agents chargent eux-memes les donnees de reference via les outils MCP PolitiScale.
 
 ### Etape 2.3 — Synthese (Agent Synthetiseur)
 
@@ -284,9 +283,10 @@ Echelle:
 
 ### Etape 3.2 — Generer les outputs
 
-**`output/resultats.json`** — Schema garanti (voir contrat d'interface ci-dessus). Ce fichier est la source de verite pour les programmes en aval.
+**Collection `results` (MongoDB)** — Pousser via `mcp__politiscale__store_results(metadata, programs, comparison)`.
+Schema garanti (voir contrat d'interface ci-dessus). Ce document est la source de verite pour l'API backend.
 
-**`output/rapport_faisabilite.md`** — Rapport lisible:
+**`data_agreg/output/rapport_faisabilite.md`** — Rapport lisible (fichier local):
 1. Resume executif (classement, forces/faiblesses par candidat)
 2. Comparaison par theme (14 themes)
 3. Analyse budgetaire (depenses, economies, solde, credibilite)
@@ -298,32 +298,23 @@ Echelle:
 
 ### Etape 3.3 — Valider les outputs
 
-```bash
-# Verifier que resultats.json est valide et contient les cles requises
-python3 -c "
-import json
-d = json.load(open('data_agreg/output/resultats.json'))
-assert 'metadata' in d
-assert 'programs' in d
-assert 'comparison' in d
-for prog in d['programs'].values():
-    for p in prog['promises']:
-        assert p.get('source_url'), f'{p[\"id\"]} manque source_url'
-        assert p.get('feasibility'), f'{p[\"id\"]} manque feasibility'
-print(f'OK: {sum(len(p[\"promises\"]) for p in d[\"programs\"].values())} promesses analysees')
-"
+```
+# Verifier que les resultats sont bien stockes
+mcp__politiscale__get_results()
+# Verifier les cles requises: metadata, programs, comparison
+# Pour chaque promesse: verifier source_url et feasibility
 ```
 
 ---
 
 ## Regles
 
-- **SOURCER TOUT**: chaque affirmation cite une source (fichier JSON de reference ou URL)
+- **SOURCER TOUT**: chaque affirmation cite une source (donnee MCP + URL d'origine)
 - **DISTINGUER FAITS ET ESTIMATIONS**: ne jamais presenter une estimation comme un fait
 - **DOCUMENTER L'INCERTITUDE**: chaque score a une confiance (0-1)
 - **NEUTRALITE**: traiter tous les programmes avec la meme rigueur
-- **CONTRAT D'INTERFACE**: `output/resultats.json` respecte toujours le schema ci-dessus
-- **DONNEES MANQUANTES**: si data/ est vide ou incomplet, proposer d'executer la phase agreg d'abord
+- **CONTRAT D'INTERFACE**: la collection `results` respecte toujours le schema ci-dessus
+- **DONNEES MANQUANTES**: si MongoDB est vide ou incomplet, proposer d'executer la phase agreg d'abord
 - **DISCLAIMER**: toujours inclure en fin de rapport:
 
 > Cette analyse est produite par un systeme automatise utilisant l'intelligence artificielle.

@@ -8,7 +8,7 @@ from adapters.parlgov.parlgov_adapter import ParlGovAdapter
 from adapters.datagouv.datagouv_adapter import DataGouvAdapter
 from adapters.cnccfp.cnccfp_adapter import CnccfpAdapter
 from adapters.nosdeputes.nosdeputes_adapter import NosDeputesAdapter
-from adapters.local_json.promises_adapter import LocalJsonPromiseSource
+from adapters.mongodb.promises_adapter import MongoPromiseSource
 from domain.services.aggregator import Aggregator
 from domain.services.comparator import Comparator
 
@@ -38,7 +38,7 @@ def get_aggregator() -> Aggregator:
         positioning=CHESAdapter(),
         elections=DataGouvAdapter(),
         finance=CnccfpAdapter(),
-        promises=LocalJsonPromiseSource(),
+        promises=MongoPromiseSource(),
         parliamentary=NosDeputesAdapter(),
     )
     return _aggregator

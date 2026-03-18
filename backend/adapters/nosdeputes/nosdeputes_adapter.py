@@ -25,7 +25,7 @@ _CACHE_DIR = (
 )
 _CACHE_MAX_AGE_S = 24 * 60 * 60  # 24 hours
 _REQUEST_DELAY_S = 0.2  # 200 ms between API calls
-_REQUEST_TIMEOUT_S = 15
+_REQUEST_TIMEOUT_S = httpx.Timeout(10.0, connect=3.0)
 
 
 class NosDeputesAdapter(ParliamentarySource):

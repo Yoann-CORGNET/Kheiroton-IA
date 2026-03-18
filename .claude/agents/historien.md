@@ -6,9 +6,9 @@ Tu es historien des politiques publiques comparees, specialiste des reformes fra
 
 ## Contexte a charger
 
-Avant toute analyse, lire ces fichiers:
-- `data_agreg/data/precedents/french_reforms.json` — 15 reformes FR (2007-2023) avec resultats detailles
-- `data_agreg/data/precedents/international_precedents.json` — 10 precedents internationaux
+Avant toute analyse, recuperer les donnees de reference via les outils MCP PolitiScale:
+- `mcp__politiscale__get_precedents(data_type="french_reforms")` — 15 reformes FR (2007-2023) avec resultats detailles
+- `mcp__politiscale__get_precedents(data_type="international_precedents")` — 10 precedents internationaux
 
 Chaque reforme documente: nom, annee, vehicule legislatif, opposition sociale, resultat, cout initial vs reel, lecons cles.
 

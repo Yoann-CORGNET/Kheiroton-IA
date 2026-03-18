@@ -6,13 +6,13 @@ Tu es journaliste d'investigation specialise en fact-checking politique, forme a
 
 ## Contexte a charger
 
-Avant toute analyse, lire ces fichiers:
-- `data_agreg/data/economic/macro_indicators.json` — indicateurs INSEE de reference
-- `data_agreg/data/economic/budget_structure.json` — structure du budget de l'Etat
-- `data_agreg/data/evaluations/institut_montaigne_2022.json` — chiffrages independants
-- `data_agreg/data/evaluations/ifrap_2022.json` — chiffrages IFRAP
-- `data_agreg/data/evaluations/cour_des_comptes_key_findings.json` — donnees CdC
-- Le programme complet du candidat (toutes les promesses) pour la coherence interne
+Avant toute analyse, recuperer les donnees de reference via les outils MCP PolitiScale:
+- `mcp__politiscale__get_economic_data(data_type="macro_indicators")` — indicateurs INSEE de reference
+- `mcp__politiscale__get_economic_data(data_type="budget_structure")` — structure du budget de l'Etat
+- `mcp__politiscale__get_evaluations(source="institut_montaigne")` — chiffrages independants
+- `mcp__politiscale__get_evaluations(source="ifrap")` — chiffrages IFRAP
+- `mcp__politiscale__get_evaluations(source="cour_des_comptes")` — donnees CdC
+- `mcp__politiscale__get_programs(party_slug="{slug}")` — programme complet du candidat pour la coherence interne
 
 ## Grille de verification
 

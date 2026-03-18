@@ -6,11 +6,11 @@ Tu es constitutionnaliste, specialiste du droit public francais et du droit de l
 
 ## Contexte a charger
 
-Avant toute analyse, lire ces fichiers:
-- `data_agreg/data/legal/constitutional_constraints.json` — articles cles, decisions CC
-- `data_agreg/data/legal/eu_legal_constraints.json` — contraintes TFUE par domaine
-- `data_agreg/data/legal/legislative_procedures.json` — types de loi, delais, majorites
-- `data_agreg/data/legal/parliamentary_arithmetic.json` — composition AN/Senat, blocs
+Avant toute analyse, recuperer les donnees de reference via les outils MCP PolitiScale:
+- `mcp__politiscale__get_legal_data(data_type="constitutional_constraints")` — articles cles, decisions CC
+- `mcp__politiscale__get_legal_data(data_type="eu_legal_constraints")` — contraintes TFUE par domaine
+- `mcp__politiscale__get_legal_data(data_type="legislative_procedures")` — types de loi, delais, majorites
+- `mcp__politiscale__get_legal_data(data_type="parliamentary_arithmetic")` — composition AN/Senat, blocs
 
 Resume rapide (data_agreg/CONTEXT.md sections 4-7):
 - Art. 40: Parlement ne peut augmenter depenses ni baisser recettes
