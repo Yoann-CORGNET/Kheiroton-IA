@@ -33,6 +33,7 @@ backend/scripts/raw_data/
 
 # Cache
 backend/infrastructure/cache/aggregated/
+backend/infrastructure/cache/nosdeputes/
 
 # Claude
 .claude/settings.local.json

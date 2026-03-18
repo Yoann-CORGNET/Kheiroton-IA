@@ -1,0 +1,1109 @@
+{
+  "candidate": "Anne Hidalgo",
+  "party": "Parti Socialiste",
+  "election": "Presidentielle 2022",
+  "analysis_date": "2026-03-17",
+  "disclaimer": "Cette analyse est produite a des fins informatives et pedagogiques. Elle ne constitue pas une prise de position politique. Les scores refletent une evaluation technique de faisabilite, non un jugement de valeur sur l'opportunite des mesures. Les chiffrages s'appuient sur les donnees de l'Institut Montaigne, de l'IFRAP, de l'INSEE et des sources officielles disponibles.",
+  "macro_context": {
+    "pib_md_eur": 2920,
+    "dette_pct_pib": 113.0,
+    "deficit_pct_pib": 5.8,
+    "pression_fiscale_pct_pib": 42.8,
+    "chomage_pct": 7.9,
+    "smic_net_eur": 1426,
+    "interets_dette_md_eur": 55,
+    "contrainte_psmt_deficit_cible_2029": "<3.0% PIB",
+    "contrainte_psmt_depenses_plafond_pct": "0.8-1.2%/an"
+  },
+  "programme_global_ifrap": {
+    "total_depenses_nouvelles_eur": -55000000000,
+    "total_recettes_nouvelles_eur": 30000000000,
+    "solde_net_estime_eur": -25000000000,
+    "source": "IFRAP 2022"
+  },
+  "evaluations": [
+    {
+      "promise_id": "hidalgo_001",
+      "raw_text": "Augmenter le SMIC net de 15%, soit environ 200 euros net supplementaires par mois, portant le SMIC net a 1469 euros",
+      "theme": "economie",
+      "budget": {
+        "score": 0.35,
+        "confidence": 0.7,
+        "justification": "Une hausse de 15% du SMIC net represente un cout significatif pour les finances publiques via le mecanisme des allegements de cotisations (trap Fillon). L'Institut Montaigne a chiffre le cout de la mesure equivalente de Melenchon (SMIC a 1600 EUR) a 18 Md EUR/an. En proportion, une hausse de 15% couterait environ 5-7 Md EUR/an en allegements supplementaires et cout employeur pour le secteur public. Aucun financement specifique n'est propose. La mesure aggraverait le deficit dans un contexte de procedure de deficit excessif (5.8% PIB). Incompatible avec le PSMT qui plafonne la croissance des depenses a 0.8-1.2%/an.",
+        "cout_estime_eur": 6000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.72,
+        "confidence": 0.8,
+        "justification": "Le SMIC est revalorise par decret apres consultation de la Commission nationale de la negociation collective. Cependant, une hausse de 15% depassant la revalorisation legale (inflation + pouvoir d'achat) necessite un coup de pouce gouvernemental par decret. Le vehicule legislatif est simple mais les effets en chaine sur les grilles salariales de la fonction publique requierent des lois de finances. Pas de risque CC direct ni de conflit UE.",
+        "vehicule_legislatif": "decret + loi de finances pour la fonction publique",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.55,
+        "confidence": 0.7,
+        "justification": "Mesure tres populaire aupres des salaries modestes et de l'opinion publique. L'acceptabilite sociale est elevee. Cependant, l'impact reel est nuance : les economistes alertent sur les effets de compression salariale (tassement des grilles au-dessus du SMIC) et sur le risque de destruction d'emplois dans les TPE/PME. L'effet sur la pauvrete est limite car de nombreux pauvres ne sont pas salaries au SMIC.",
+        "opposition_sociale": "Opposition patronale (MEDEF, CPME) forte. Syndicats favorables."
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.8,
+        "justification": "Le chiffre de 15% et le montant de 200 EUR nets supplementaires sont coherents mathematiquement (SMIC net 2022 ~1269 EUR + 15% = ~1460 EUR, proche des 1469 annonces). Cependant, le SMIC net actuel (2026) est de 1426 EUR, ce qui relativise l'ambition initiale puisque les revalorisations successives ont deja comble une partie de l'ecart. Le cout pour les finances publiques est systematiquement sous-estime dans le discours de campagne.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.5,
+        "confidence": 0.7,
+        "justification": "Les coups de pouce au SMIC sont une tradition politique francaise. Le dernier coup de pouce significatif date de 2012 (+2% par Hollande). Les hausses massives du SMIC ont historiquement ete accompagnees d'allegements de charges pour limiter l'impact sur l'emploi (loi Fillon 2003). Le precedent espagnol (hausse de 22% en 2019) est souvent cite mais dans un contexte de SMIC tres bas (900 EUR). L'impact sur l'emploi reste debattu.",
+        "delai_realiste_mois": 3,
+        "precedent_principal": "Coup de pouce SMIC 2012 (+2%), hausse SMIC espagnol 2019 (+22%)"
+      }
+    },
+    {
+      "promise_id": "hidalgo_002",
+      "raw_text": "Porter progressivement la remuneration des enseignants au niveau de celui des cadres, en commencant par les debuts de carriere, avec un salaire d'entree a 2300 euros pour les jeunes professeurs des ecoles",
+      "theme": "education",
+      "budget": {
+        "score": 0.25,
+        "confidence": 0.8,
+        "justification": "L'Institut Montaigne chiffre cette mesure a 7.3 Md EUR/an a terme. L'IFRAP evalue la revalorisation massive des enseignants a 12 Md EUR/an. Avec ~870 000 enseignants, porter les salaires au niveau des cadres (ecart moyen de ~20-30%) represente un cout colossal. Le budget de l'enseignement scolaire est deja le premier poste (64.5 Md EUR). Aucune source de financement identifiee. Totalement incompatible avec le PSMT.",
+        "cout_estime_eur": 7300000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.65,
+        "confidence": 0.75,
+        "justification": "La revalorisation des enseignants passe par des decrets statutaires et la loi de finances. Le vehicule legislatif est connu et maitrise (PLF + decrets portant revalorisation des grilles indiciaires). Pas de risque CC particulier. La progressivite annoncee (quinquennat) est un facteur attenuant juridiquement.",
+        "vehicule_legislatif": "loi de finances + decrets statutaires",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.7,
+        "confidence": 0.75,
+        "justification": "La revalorisation enseignante fait l'objet d'un large consensus social. Les enquetes montrent que 70%+ des Francais jugent les enseignants insuffisamment payes. L'impact sur l'attractivite du metier et la qualite de l'enseignement est potentiellement fort. Cependant, la revalorisation seule ne suffit pas sans reforme des conditions de travail.",
+        "opposition_sociale": "Faible opposition. Consensus transpartisan sur le diagnostic."
+      },
+      "factcheck": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Le constat est exact : les enseignants francais sont payes 7-20% de moins que la moyenne OCDE a experience comparable (source : Education at a Glance 2022). Le salaire d'entree a 2300 EUR net est un objectif precis et verifiable. Cependant, la promesse de porter tous les enseignants au niveau des cadres est tres vague sur le calendrier et le chiffrage reel.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.4,
+        "confidence": 0.7,
+        "justification": "Les revalorisations enseignantes sont un serpent de mer politique. Macron avait promis la meme chose en 2017 et 2022 avec des resultats partiels (prime d'attractivite, pacte enseignant). Le Segur de la sante (2020, +8.2 Md EUR pour les soignants) est le precedent le plus proche en termes d'echelle. La mise en oeuvre complete d'une telle revalorisation n'a jamais ete realisee en France.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Segur de la sante 2020 (8.2 Md EUR), revalorisations partielles Macron 2022-2024"
+      }
+    },
+    {
+      "promise_id": "hidalgo_003",
+      "raw_text": "Instaurer un ISF climatique : Impot de solidarite sur la fortune climatique et biodiversite, avec surtaxation des placements lies aux energies fossiles",
+      "theme": "environnement",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.55,
+        "justification": "L'ISF rapportait environ 5 Md EUR/an avant sa suppression en 2017. L'IFRAP chiffre le retablissement de l'ISF a 5 Md EUR de recettes pour Hidalgo. Cependant, un ISF 'climatique' avec surtaxation des placements fossiles est un concept nouveau dont le rendement est incertain. La composante 'climatique' pourrait reduire l'assiette par rapport a l'ancien ISF. L'IFRAP et l'Institut Montaigne s'accordent sur un rendement de 3-5 Md EUR. Cette recette contribuerait positivement au deficit mais reste insuffisante pour financer l'ensemble du programme.",
+        "cout_estime_eur": -3000000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.5,
+        "confidence": 0.7,
+        "justification": "La creation d'un nouvel impot releve de l'article 34 de la Constitution (loi ordinaire). Cependant, le CC a censure la taxe a 75% en 2012 pour rupture d'egalite devant les charges publiques. Un ISF climatique avec surtaxation ciblee des placements fossiles pourrait soulever des questions de discrimination fiscale. Le CC exige que les differences de traitement soient justifiees par un motif d'interet general et proportionnees. Le precedent de la taxe carbone (censuree en 2009) est un signal d'alerte. Risque CC modere.",
+        "vehicule_legislatif": "loi de finances (PLF)",
+        "risque_censure_cc": "modere - risque de rupture d'egalite si la surtaxation fossile est mal calibree",
+        "conflit_droit_ue": "faible - la fiscalite directe reste une competence nationale, mais les regles sur la libre circulation des capitaux s'appliquent"
+      },
+      "social": {
+        "score_acceptabilite": 0.65,
+        "score_impact": 0.5,
+        "confidence": 0.6,
+        "justification": "Le retablissement d'une forme d'ISF est populaire (65-70% d'opinions favorables dans les sondages). La dimension climatique ajoute une justification supplementaire. Cependant, l'impact reel sur la transition ecologique est incertain : taxer les placements fossiles pourrait inciter les detenteurs a delocaliser leurs actifs plutot qu'a verdir leurs investissements. Opposition forte du patronat et des milieux financiers.",
+        "opposition_sociale": "Opposition forte des milieux patronaux et financiers. Soutien large de l'opinion publique."
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.6,
+        "justification": "Le concept d'ISF climatique est innovant mais reste flou dans ses modalites. Le rendement annonce de 3 Md EUR est plausible par comparaison avec l'ancien ISF, mais les effets de fuite fiscale (que l'IFI a reduits) pourraient resurgir. L'idee d'une surtaxation des placements fossiles est seduisante mais la definition precise de l'assiette (quels placements ? quels seuils ?) n'est pas detaillee.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.5,
+        "confidence": 0.65,
+        "justification": "L'ISF a existe de 1989 a 2017, remplace par l'IFI (impot sur la fortune immobiliere). Sa suppression a ete tres debattue. Aucun pays n'a instaure un ISF specifiquement 'climatique'. La taxe carbone a ete censure par le CC en 2009 puis reinstauree sous une autre forme. La faisabilite technique d'un ciblage des placements fossiles est reelle mais complexe.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "ISF 1989-2017, taxe carbone censuree 2009, Green Taxonomy UE"
+      }
+    },
+    {
+      "promise_id": "hidalgo_004",
+      "raw_text": "Maintenir l'age legal de depart a la retraite a 62 ans et revaloriser les petites retraites en portant le minimum vieillesse a 1000 euros et le minimum contributif a 1200 euros",
+      "theme": "retraites",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.75,
+        "justification": "Le maintien a 62 ans implique de renoncer aux economies de la reforme 2023 (13 Md EUR a terme selon le Tresor). La Cour des comptes estime le deficit du systeme de retraites a 6.6 Md EUR en 2025, 15 Md en 2035, 30 Md en 2045, meme avec la reforme. Sans elle, les chiffres exploseraient. La revalorisation du minimum vieillesse a 1000 EUR et du minimum contributif a 1200 EUR represente un cout additionnel de 2-4 Md EUR/an. Cout total : 15-17 Md EUR/an a terme. Totalement incompatible avec le PSMT.",
+        "cout_estime_eur": 16000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "L'abrogation de la reforme des retraites 2023 necessite une loi de financement rectificative de la securite sociale (LFRSS). Le vehicule est connu. Cependant, le passage parlementaire serait difficile : la majorite actuelle (Ensemble + LR) ne soutient pas le retour a 62 ans. Le 49.3 pourrait etre necessaire mais une motion de censure est probable (RN+NFP = 319 > 289). Risque politique eleve.",
+        "vehicule_legislatif": "LFRSS (loi de financement rectificative de la securite sociale)",
+        "risque_censure_cc": "faible sur le fond (le legislateur peut modifier les parametres de retraite)",
+        "conflit_droit_ue": "indirect - aggravation du deficit en contradiction avec la procedure de deficit excessif"
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.65,
+        "confidence": 0.75,
+        "justification": "Le maintien a 62 ans est tres populaire : 70%+ des Francais etaient opposes a la reforme 2023. La revalorisation des petites retraites fait consensus. L'impact social est significatif pour les retraites modestes. Cependant, l'absence de financement perenne fait peser un risque sur les generations futures.",
+        "opposition_sociale": "Opposition patronale et de la droite. Fort soutien syndical et populaire."
+      },
+      "factcheck": {
+        "score": 0.65,
+        "confidence": 0.7,
+        "justification": "Le minimum vieillesse (ASPA) est actuellement a ~961 EUR/mois (2024). Le porter a 1000 EUR est modeste. Le minimum contributif est a ~747 EUR/mois ; le porter a 1200 EUR est ambitieux. Les chiffres annonces sont verifiables mais le cout reel de l'ensemble de la mesure (maintien a 62 ans + revalorisations) est systematiquement minimise dans le discours.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.75,
+        "justification": "La France a connu 6 reformes des retraites depuis 1993, toutes dans le sens du durcissement. Aucune n'a ete abrogee. L'age legal est passe de 60 a 62 ans en 2010, puis a 64 en 2023. Un retour en arriere serait sans precedent. Le precedent le plus proche est le decret Mitterrand de 1982 (passage de 65 a 60 ans), dans un contexte demographique et budgetaire radicalement different.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Decret retraite a 60 ans (1982), reforme Woerth 2010, reforme 2023"
+      }
+    },
+    {
+      "promise_id": "hidalgo_005",
+      "raw_text": "Abroger la reforme de l'assurance-chomage decidee par le gouvernement et confier aux partenaires sociaux la negociation d'une assurance-chomage universelle",
+      "theme": "emploi",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.6,
+        "justification": "L'abrogation de la reforme de l'assurance-chomage 2019-2021 augmenterait les depenses de l'UNEDIC. Le durcissement des conditions avait pour objectif de generer 2-3 Md EUR d'economies. L'abrogation annule ces economies. Une assurance-chomage universelle (couvrant les independants, les demissionnaires, etc.) ajouterait 5-10 Md EUR de depenses selon le perimetre retenu. Toutefois, l'UNEDIC est un organisme paritaire dont le budget est distinct de celui de l'Etat, attenuant l'impact direct sur les finances publiques.",
+        "cout_estime_eur": 5000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "La reforme de l'assurance-chomage de 2019 a ete faite par decret (voie reglementaire). Son abrogation peut donc se faire par un simple decret, sans passage parlementaire. Cependant, la creation d'une assurance-chomage 'universelle' necessite une loi pour modifier le perimetre des beneficiaires et les conditions d'acces. Le retour a la negociation paritaire est une decision politique qui ne pose pas de probleme juridique en soi.",
+        "vehicule_legislatif": "decret pour l'abrogation, loi ordinaire pour l'assurance universelle",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.55,
+        "confidence": 0.65,
+        "justification": "L'abrogation de la reforme de l'assurance-chomage serait bien accueillie par les syndicats et les demandeurs d'emploi. Le comite d'evaluation a juge les resultats de la reforme 'limites'. Cependant, le patronat et la droite s'opposeraient a un retour en arriere. L'impact sur l'emploi est incertain : les etudes montrent que le durcissement n'a eu qu'un effet marginal sur le retour a l'emploi.",
+        "opposition_sociale": "Opposition patronale. Soutien syndical (CGT, CFDT en partie)."
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "Il est exact que la reforme de l'assurance-chomage de 2019 a ete imposee par decret sans accord paritaire, ce qui est une rupture avec la tradition francaise. Le comite d'evaluation (Cour des comptes, France Strategie) a effectivement juge les resultats 'limites'. La notion d'assurance-chomage 'universelle' reste vague sur les modalites concretes.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.5,
+        "confidence": 0.65,
+        "justification": "La gestion paritaire de l'assurance-chomage est la norme historique en France (convention UNEDIC). La reprise en main par l'Etat en 2019 est un precedent recent. Aucun pays europeen n'a mis en place une assurance-chomage veritablement 'universelle' couvrant tous les actifs. Le systeme danois de flexicurite est souvent cite mais reste lie a un systeme de cotisations specifique.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Reforme assurance-chomage 2019 (par decret), systeme paritaire traditionnel UNEDIC"
+      }
+    },
+    {
+      "promise_id": "hidalgo_006",
+      "raw_text": "Allouer 5000 euros a chaque jeune a ses 18 ans, sans critere social, pour financer ses projets professionnels et personnels",
+      "theme": "economie",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.8,
+        "justification": "Avec environ 800 000 jeunes atteignant 18 ans chaque annee, le cout est de 4 Md EUR/an (chiffrage Institut Montaigne). Cette depense est recurrente et permanente. Aucun financement specifique n'est identifie. L'absence de critere social rend la mesure couteuse et mal ciblee. Incompatible avec le PSMT et la trajectoire de reduction du deficit.",
+        "cout_estime_eur": 4000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.75,
+        "justification": "La creation d'une dotation universelle aux jeunes necessite une loi ordinaire (creation d'une prestation nouvelle). Le vehicule legislatif est classique. Pas de risque CC particulier : le principe d'universalite (sans critere social) est constitutionnellement valide. L'absence de critere social pourrait meme etre un atout juridique (pas de rupture d'egalite).",
+        "vehicule_legislatif": "loi ordinaire + loi de finances",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.65,
+        "score_impact": 0.4,
+        "confidence": 0.6,
+        "justification": "La mesure est populaire chez les jeunes mais critiquee pour son universalite (beneficie aussi aux jeunes aises). L'impact reel sur l'insertion professionnelle est incertain : 5000 EUR sont insuffisants pour financer une formation ou un projet d'entreprise significatif. Le risque d'effet d'aubaine (depenses de consommation courante) est eleve. Des dispositifs cibles (bourses, aides a l'apprentissage) seraient potentiellement plus efficaces.",
+        "opposition_sociale": "Opposition de la droite et des liberaux (effet d'aubaine). Soutien jeunesse."
+      },
+      "factcheck": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Le chiffrage de 4 Md EUR/an est coherent avec le nombre de jeunes (800 000 x 5000 EUR). Le concept de 'dotation universelle' est attribue a Thomas Piketty dans ses travaux sur l'heritage pour tous. Le montant de 5000 EUR est precis et verifiable. La promesse est transparente sur le cout.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.6,
+        "justification": "Aucun pays comparable n'a mis en place une dotation universelle a 18 ans de cette ampleur. Le Royaume-Uni avait cree le 'Child Trust Fund' (250-500 GBP a la naissance) en 2005, supprime en 2011. L'Italie a experimente un 'bonus cultura' de 500 EUR pour les 18 ans en 2016. En France, le 'Pass Culture' (300 EUR) est le dispositif le plus proche mais d'une ampleur 15 fois moindre.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Child Trust Fund UK (2005-2011), Bonus Cultura Italie (500 EUR), Pass Culture France (300 EUR)"
+      }
+    },
+    {
+      "promise_id": "hidalgo_007",
+      "raw_text": "Generaliser l'encadrement des loyers dans toutes les zones tendues et mettre en place un bouclier logement",
+      "theme": "logement",
+      "budget": {
+        "score": 0.7,
+        "confidence": 0.6,
+        "justification": "L'encadrement des loyers est une mesure reglementaire dont le cout direct pour les finances publiques est faible (couts administratifs de mise en oeuvre et de controle). Le 'bouclier logement' est plus flou dans sa definition. L'impact budgetaire indirect pourrait etre negatif si l'encadrement decourage l'investissement locatif et reduit les recettes fiscales associees (revenus fonciers, plus-values). Cout budgetaire direct modeste.",
+        "cout_estime_eur": 500000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "L'encadrement des loyers est deja prevu par la loi ELAN (2018) et la loi ALUR (2014) a titre experimental dans certaines villes. La generalisation a toutes les zones tendues necessite un decret ou une loi ordinaire etendant le dispositif. Le CC a valide le principe d'encadrement des loyers. Cependant, le droit de propriete (art. 17 DDHC) impose des limites a l'encadrement. Le risque CC est modere si les loyers de reference sont calibres de maniere raisonnable.",
+        "vehicule_legislatif": "loi ordinaire ou decret d'extension du dispositif ELAN",
+        "risque_censure_cc": "modere - le droit de propriete impose des limites",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.5,
+        "confidence": 0.65,
+        "justification": "L'encadrement des loyers est populaire chez les locataires (54% de la population) mais tres conteste par les proprietaires-bailleurs. L'experience parisienne montre un effet modere : l'observatoire des loyers note un respect partiel des plafonds. L'impact sur la construction neuve et l'offre locative est un risque : les economistes soulignent que l'encadrement reduit l'offre a moyen terme.",
+        "opposition_sociale": "Opposition forte des proprietaires bailleurs et des professionnels de l'immobilier."
+      },
+      "factcheck": {
+        "score": 0.65,
+        "confidence": 0.65,
+        "justification": "L'encadrement des loyers existe effectivement a Paris, Lyon, Montpellier, Bordeaux et d'autres villes depuis les lois ALUR et ELAN. Les etudes sur l'efficacite sont mitigees : Berlin l'a applique puis partiellement annule par la Cour constitutionnelle allemande. Le concept de 'bouclier logement' n'est pas defini precisement, rendant l'evaluation difficile.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.5,
+        "confidence": 0.65,
+        "justification": "L'encadrement des loyers a une longue histoire en France (loi de 1948, puis deregulation progressive). Le retour a l'encadrement avec la loi ALUR (2014) a ete un precedent recent. L'experience parisienne depuis 2019 montre des resultats mitiges. Le delai de generalisation est realiste car le cadre juridique existe deja.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Loi ALUR 2014, encadrement Paris 2019, Mietendeckel Berlin 2020 (annule)"
+      }
+    },
+    {
+      "promise_id": "hidalgo_008",
+      "raw_text": "Construire 150000 logements par an dont un tiers de logements tres sociaux, en s'appuyant sur les maires batisseurs",
+      "theme": "logement",
+      "budget": {
+        "score": 0.35,
+        "confidence": 0.6,
+        "justification": "La construction de 150 000 logements sociaux par an (dont 50 000 tres sociaux) represente un investissement massif. Le cout moyen d'un logement social neuf est d'environ 150 000 EUR (subvention publique ~40 000 EUR/logement). Le cout annuel en subventions publiques serait de 6-8 Md EUR. Actuellement, environ 80 000 logements sociaux sont finances par an. Doubler ce chiffre est tres couteux. Le financement via les bailleurs sociaux et Action Logement n'est pas detaille.",
+        "cout_estime_eur": 7000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.65,
+        "confidence": 0.7,
+        "justification": "Les objectifs de construction de logements sociaux relevent de la loi SRU (art. 55) et des lois de programmation. Le vehicule legislatif est classique. Cependant, le respect effectif depend des maires (competence urbanisme = competence communale). Forcer les maires a construire se heurte au principe de libre administration des collectivites territoriales (art. 72 Constitution). Le mecanisme de sanction SRU existe mais est peu efficace.",
+        "vehicule_legislatif": "loi ordinaire + loi de finances + conventions avec collectivites",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.55,
+        "score_impact": 0.65,
+        "confidence": 0.6,
+        "justification": "La construction de logements sociaux est souhaitee par les demandeurs (2.4 millions de demandes en attente) mais rencontre une forte opposition locale (NIMBYisme). Les maires sont souvent reticents a construire du logement tres social dans leurs communes. L'impact sur le mal-logement serait significatif si l'objectif etait atteint.",
+        "opposition_sociale": "Opposition locale forte (riverains, maires). Soutien des associations de locataires."
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.7,
+        "justification": "L'objectif de 150 000 logements sociaux/an est tres ambitieux. La France n'a jamais atteint ce niveau. Le record recent est d'environ 125 000 agrement/an (2017). Depuis 2020, la production oscille entre 80 000 et 100 000. Le chiffre d'un tiers de 'tres sociaux' (PLAI) est precisement defini mais l'objectif global est irrealiste au vu des tendances actuelles et des contraintes foncieres.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.65,
+        "justification": "La France a connu un pic de construction de logements sociaux dans les annees 1960-70 (150 000-200 000/an) mais dans un contexte de croissance et d'urbanisation tres different. La loi SRU (2000) a impose des quotas mais les sanctions restent insuffisantes (1 200 communes ne respectent pas le seuil de 25%). L'objectif de 150 000/an est comparable aux ambitions de Hollande en 2012 (150 000/an) qui n'ont jamais ete atteintes.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Objectif Hollande 2012 (150 000 logements sociaux/an, non atteint), loi SRU 2000"
+      }
+    },
+    {
+      "promise_id": "hidalgo_009",
+      "raw_text": "Atteindre 100% d'energies renouvelables aussi rapidement que possible, sans construction de nouveaux EPR ni SMR, le nucleaire restant une energie de transition",
+      "theme": "environnement",
+      "budget": {
+        "score": 0.15,
+        "confidence": 0.5,
+        "justification": "La sortie du nucleaire et le passage a 100% ENR representent un investissement colossal. RTE a chiffre le scenario 100% renouvelable a plus de 200 Md EUR d'investissements d'ici 2050 (rapport Futurs energetiques 2050). Le surcout annuel par rapport au mix actuel est estime a 20-30 Md EUR/an pendant plusieurs decennies. Le renoncement aux EPR et SMR signifie la fermeture programmee de 56 reacteurs existants sans remplacement nucleaire. Aucun financement n'est detaille. Mesure la plus couteuse du programme.",
+        "cout_estime_eur": 25000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.6,
+        "justification": "La politique energetique releve de la loi (loi de programmation energetique). La loi Climat et Resilience (2021) et la loi relative a l'acceleration de la production d'energies renouvelables (2023) fournissent un cadre. Cependant, inverser la politique nucleaire de la France necessiterait d'abroger la loi sur l'acceleration du nucleaire (2023). Les contrats d'exploitation des centrales existantes et le statut d'EDF (controlee par l'Etat a 100%) compliquent le tableau. Pas de conflit UE direct (Euratom ne contraint pas les choix de mix).",
+        "vehicule_legislatif": "loi de programmation energetique + loi de finances",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "faible - la politique energetique est une competence nationale (art. 194 TFUE)"
+      },
+      "social": {
+        "score_acceptabilite": 0.4,
+        "score_impact": 0.55,
+        "confidence": 0.55,
+        "justification": "L'opinion publique francaise est divisee sur le nucleaire. Les enquetes montrent un attachement croissant au nucleaire (55-60% favorables) dans le contexte de la crise energetique post-Ukraine. La sortie du nucleaire est impopulaire dans les territoires concernes (emplois, retombees economiques). Le deploiement massif d'eoliennes genere des oppositions locales fortes. L'impact environnemental positif est conteste par les defenseurs du nucleaire bas-carbone.",
+        "opposition_sociale": "Opposition forte : salaries du nucleaire, collectivites d'accueil des centrales, une majorite de l'opinion publique."
+      },
+      "factcheck": {
+        "score": 0.35,
+        "confidence": 0.65,
+        "justification": "Le nucleaire fournit actuellement environ 65-70% de l'electricite francaise. Atteindre 100% ENR 'aussi rapidement que possible' est extremement vague. Le rapport RTE 'Futurs energetiques 2050' montre qu'un scenario 100% ENR est techniquement envisageable mais au prix d'investissements massifs, de problemes de stockage d'electricite non resolus, et d'une dependance accrue aux importations de materiaux rares. L'absence de calendrier precis rend la promesse difficilement evaluable.",
+        "verdict_global": "trompeur"
+      },
+      "historique": {
+        "score": 0.2,
+        "confidence": 0.6,
+        "justification": "L'Allemagne a ferme ses dernieres centrales nucleaires en avril 2023, mais son mix electrique reste dependant du charbon et du gaz (40-50%). Aucun grand pays industrialise comparable a la France n'a reussi un passage a 100% ENR. Le Danemark (62% eolien) et le Costa Rica (~99% ENR) sont des cas specifiques non transposables (taille, geographie). Le delai realiste depasse largement un quinquennat.",
+        "delai_realiste_mois": 360,
+        "precedent_principal": "Energiewende allemande (sortie nucleaire 2023), scenarios RTE 2050"
+      }
+    },
+    {
+      "promise_id": "hidalgo_010",
+      "raw_text": "Inscrire la lutte contre le rechauffement climatique et la degradation de la biodiversite dans la Constitution, en definissant un crime d'ecocide",
+      "theme": "environnement",
+      "budget": {
+        "score": 0.85,
+        "confidence": 0.8,
+        "justification": "La revision constitutionnelle et la creation d'un crime d'ecocide n'ont pas de cout budgetaire direct significatif. Les couts sont limites a l'adaptation du systeme judiciaire (formation des magistrats, creation de juridictions specialisees). Estimation : 50-100 M EUR. Mesure budgetairement neutre.",
+        "cout_estime_eur": 100000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.2,
+        "confidence": 0.85,
+        "justification": "L'inscription dans la Constitution necessite une revision constitutionnelle (article 89). Cela requiert un vote en termes identiques par les deux assemblees puis un referendum ou un vote du Congres a la majorite des 3/5e. Le Senat (a majorite LR) a deja bloque en 2021 le projet Macron d'inscrire le climat a l'article 1er. Aucune revision constitutionnelle n'a abouti depuis 2008. Le veto effectif du Senat rend cette mesure quasi-impossible sans consensus transpartisan. La creation du crime d'ecocide par loi ordinaire est plus realiste mais a ete videe de sa substance dans la loi Climat et Resilience 2021.",
+        "vehicule_legislatif": "revision constitutionnelle (art. 89) + loi penale pour l'ecocide",
+        "risque_censure_cc": "non applicable (revision constitutionnelle echappe au controle du CC)",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.4,
+        "confidence": 0.6,
+        "justification": "La constitutionnalisation du climat est soutenue par l'opinion publique (Convention Citoyenne pour le Climat l'avait proposee). L'idee d'ecocide est populaire. Cependant, l'impact reel est debattu : une inscription symbolique dans la Constitution ne change pas les politiques publiques concretes. Les opposants soulignent que la Charte de l'environnement (2004) existe deja dans le bloc de constitutionnalite.",
+        "opposition_sociale": "Opposition du monde agricole (crainte de judiciarisation) et du patronat."
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "Le projet de revision constitutionnelle pour le climat a effectivement ete abandonne en 2021 apres le refus du Senat. La loi Climat et Resilience a cree un 'delit d'ecocide' (pas un crime), tres en deca de ce que reclamaient les ONG. La Charte de l'environnement est deja integree au bloc de constitutionnalite depuis 2005. La promesse est partiellement redondante avec le droit existant.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.2,
+        "confidence": 0.8,
+        "justification": "Le projet Macron d'inscription du climat a l'article 1er a echoue en 2021 (refus du Senat). Aucune revision constitutionnelle n'a abouti depuis 2008. Le veto du Senat est un obstacle structurel quasi-infranchissable. Le crime d'ecocide existe dans le droit de certains pays (Vietnam, Ukraine) mais pas dans les grandes democraties occidentales. La directive UE sur la protection de l'environnement par le droit penal (2024) est le cadre le plus avance.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Echec revision constitutionnelle climat 2021, Charte de l'environnement 2005, loi Climat et Resilience 2021"
+      }
+    },
+    {
+      "promise_id": "hidalgo_011",
+      "raw_text": "Mettre en place un referendum d'initiative citoyenne (RIC) pouvant etre declenche apres un million de signatures, en abaissant le seuil du RIP de 4,5 millions a 1 million",
+      "theme": "institutions",
+      "budget": {
+        "score": 0.8,
+        "confidence": 0.75,
+        "justification": "Le cout direct est modeste : organisation de referendums (environ 100-200 M EUR par consultation). La modification du seuil du RIP n'engendre pas de depense structurelle. Le cout depend du nombre de referendums effectivement organises.",
+        "cout_estime_eur": 200000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.15,
+        "confidence": 0.85,
+        "justification": "L'abaissement du seuil du referendum d'initiative partagee (RIP, art. 11) necessite une revision constitutionnelle (art. 89). Meme obstacle que pour la promesse hidalgo_010 : vote en termes identiques des deux assemblees + referendum/Congres. Le Senat LR bloquerait quasi-certainement une telle reforme qui renforce la democratie directe au detriment de la democratie representative. Le RIC pur (sans filtre parlementaire) est encore plus ambitieux constitutionnellement.",
+        "vehicule_legislatif": "revision constitutionnelle (art. 89)",
+        "risque_censure_cc": "non applicable (revision constitutionnelle)",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.55,
+        "confidence": 0.65,
+        "justification": "Le RIC est tres populaire dans l'opinion publique (80%+ de soutien selon les sondages post-Gilets jaunes). L'abaissement du seuil du RIP repond a une attente democratique forte. L'impact institutionnel serait significatif : passage d'un RIP quasiment inaccessible (4.5 millions = 10% de l'electorat) a un seuil plus realiste. Cependant, les parlementaires de tous bords sont generalement hostiles au RIC.",
+        "opposition_sociale": "Opposition du monde politique (Senat, parlementaires). Fort soutien populaire."
+      },
+      "factcheck": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Le seuil actuel du RIP est bien de 1/5e des parlementaires + 1/10e des electeurs (environ 4.8 millions). Un seul RIP a ete tente (privatisation ADP, 2019), sans atteindre le seuil. L'abaissement a 1 million de signatures est un chiffre precis et verifiable. La comparaison avec d'autres pays (Suisse, Italie) est pertinente.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.15,
+        "confidence": 0.75,
+        "justification": "Le RIP a ete cree par la revision constitutionnelle de 2008 mais n'a jamais abouti. Le seul essai (ADP 2019-2020) a echoue avec 1.1 million de signatures sur 4.8 millions requises. Aucune revision constitutionnelle n'a abouti depuis 2008. La Suisse est le seul pays europeen avec un systeme de referendum d'initiative populaire fonctionnel (100 000 signatures pour 8.8 millions d'habitants). L'obstacle du Senat rend la mesure quasi-impossible.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "RIP ADP 2019 (echec), revision constitutionnelle 2008, referendums suisses"
+      }
+    },
+    {
+      "promise_id": "hidalgo_012",
+      "raw_text": "Abaisser le droit de vote a 16 ans, accorder le droit de vote aux etrangers pour les elections locales, et prendre en compte le vote blanc",
+      "theme": "institutions",
+      "budget": {
+        "score": 0.85,
+        "confidence": 0.8,
+        "justification": "Le cout budgetaire est negligeable : adaptation des listes electorales, impression de bulletins supplementaires. Le cout d'une election est deja supporte par l'Etat ; l'ajout de quelques millions d'electeurs (1.5 million de 16-17 ans, ~3 millions d'etrangers non-UE potentiellement concernes) n'augmente les couts que marginalement.",
+        "cout_estime_eur": 50000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.1,
+        "confidence": 0.9,
+        "justification": "Les trois mesures necessitent une revision constitutionnelle (art. 89). Le droit de vote a 16 ans modifie l'article 3 de la Constitution. Le droit de vote des etrangers aux elections locales a ete promis par Mitterrand en 1981, Hollande en 2012, et jamais adopte en raison du veto du Senat. La prise en compte du vote blanc modifie les regles electorales fondamentales. Le triple obstacle constitutionnel (3 revisions distinctes) rend cette promesse la moins faisable juridiquement du programme.",
+        "vehicule_legislatif": "revision constitutionnelle (art. 89) pour les 3 volets",
+        "risque_censure_cc": "non applicable (revision constitutionnelle)",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.45,
+        "score_impact": 0.5,
+        "confidence": 0.65,
+        "justification": "Le vote a 16 ans est modere en termes d'acceptabilite (50-55% d'opinions favorables). Le droit de vote des etrangers est tres clive : 40-45% de soutien, forte opposition a droite et a l'extreme droite. La prise en compte du vote blanc est populaire (70%+). L'ensemble est politiquement explosif. L'impact democratique serait significatif mais le risque de polarisation est eleve.",
+        "opposition_sociale": "Opposition tres forte de la droite et de l'extreme droite sur le vote des etrangers. Opposition moderee sur les autres volets."
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.75,
+        "justification": "Le vote a 16 ans existe dans plusieurs pays europeens (Autriche depuis 2007, Ecosse, Malte). Le droit de vote des etrangers aux elections locales existe dans 12 pays de l'UE. Le vote blanc est deja comptabilise separement depuis 2014 mais n'est pas pris en compte comme suffrage exprime. Les faits presentes sont exacts.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.1,
+        "confidence": 0.85,
+        "justification": "Le droit de vote des etrangers est la plus ancienne promesse non tenue de la gauche francaise (programme commun 1981, engagement Hollande 2012). Le vote a 16 ans n'a jamais ete serieusement debattu au Parlement francais. La prise en compte du vote blanc est un debat recurrent sans aboutissement. Le triple verrou constitutionnel (Senat LR + art. 89) rend l'ensemble completement irrealiste dans le contexte politique actuel.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Promesse Mitterrand 1981 (vote etrangers, non tenue), Autriche 2007 (vote 16 ans), loi 2014 (vote blanc comptabilise)"
+      }
+    },
+    {
+      "promise_id": "hidalgo_013",
+      "raw_text": "Porter le conge paternite a 16 semaines dont 6 obligatoires, sur le modele espagnol",
+      "theme": "emploi",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.7,
+        "justification": "Le conge paternite actuel est de 28 jours (depuis juillet 2021). Le porter a 16 semaines (112 jours) represente un quadruplement. Avec environ 700 000 naissances/an et un cout moyen journalier (IJ) d'environ 60 EUR, le cout additionnel est de l'ordre de 3-4 Md EUR/an pour la branche famille de la Securite sociale (deja deficitaire). Le modele espagnol est finance par la Securite sociale. Aucune source de financement specifique n'est identifiee.",
+        "cout_estime_eur": 3500000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.65,
+        "confidence": 0.75,
+        "justification": "L'extension du conge paternite releve de la loi (Code du travail + Code de la Securite sociale). Le vehicule legislatif est classique (PLFSS + loi ordinaire). Pas de risque CC : le CC a valide le principe du conge paternite obligatoire. La directive UE sur l'equilibre vie pro/perso (2019/1158) prevoit un minimum de 10 jours, la France irait bien au-dela.",
+        "vehicule_legislatif": "PLFSS + loi ordinaire",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun (depasse les minima europeens)"
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.7,
+        "confidence": 0.7,
+        "justification": "Le conge paternite allonge est populaire et repond a une demande societe d'egalite entre les sexes. L'Espagne a mis en place les 16 semaines en 2021 avec un taux de recours eleve (80%+). L'impact sur l'egalite professionnelle femmes-hommes est potentiellement significatif. L'opposition viendrait principalement du patronat (PME) qui craint les absences prolongees.",
+        "opposition_sociale": "Opposition patronale (TPE/PME). Large soutien societal et syndical."
+      },
+      "factcheck": {
+        "score": 0.85,
+        "confidence": 0.85,
+        "justification": "L'Espagne a effectivement porte le conge paternite a 16 semaines en 2021, alignant sa duree sur celle du conge maternite. Le chiffre de 6 semaines obligatoires est coherent avec le modele espagnol (6 semaines obligatoires immediatement apres la naissance). La reference est exacte et verifiable.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "Le conge paternite francais est passe de 14 a 28 jours en 2021 (mesure Macron). L'Espagne est passee de 2 jours (2007) a 16 semaines (2021) progressivement. Les pays nordiques offrent des conges parentaux longs mais avec des modalites differentes. Le precedent espagnol montre que la mesure est techniquement realisable. Le principal defi est le financement dans un contexte de deficit de la Securite sociale (-22 Md EUR).",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Espagne 16 semaines (2021), reforme conge paternite 28 jours France (2021)"
+      }
+    },
+    {
+      "promise_id": "hidalgo_014",
+      "raw_text": "Transformer le financement public hospitalier en remplacant l'ONDAM par des Objectifs nationaux de sante publique (ONSP) garantissant un financement a la hauteur des besoins sanitaires",
+      "theme": "sante",
+      "budget": {
+        "score": 0.25,
+        "confidence": 0.55,
+        "justification": "Remplacer l'ONDAM (plafond de depenses = 265.9 Md EUR en 2025) par des 'ONSP' bases sur les besoins sanitaires revient a supprimer le principal mecanisme de maitrise des depenses de sante. Sans plafond, les depenses de sante exploseraient. L'IFRAP estime l'investissement supplementaire dans l'hopital public a 10 Md EUR/an pour le programme Hidalgo. Si les besoins sont le seul critere, le surcout pourrait depasser 20-30 Md EUR/an. Le deficit de la Securite sociale est deja de -22 Md EUR. Mesure extremement couteuse et incompatible avec tout cadre budgetaire.",
+        "cout_estime_eur": 15000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.65,
+        "justification": "L'ONDAM est defini annuellement dans la LFSS (loi de financement de la securite sociale). La modification de ce mecanisme releve de la loi organique (LOLFSS). Le remplacement par des ONSP est juridiquement faisable mais necessite une refonte profonde du cadre organique. Le CC controle le respect de l'objectif d'equilibre des comptes de la securite sociale (objectif constitutionnel). Un mecanisme sans plafond pourrait etre censure pour non-respect de cet objectif.",
+        "vehicule_legislatif": "loi organique + LFSS",
+        "risque_censure_cc": "eleve - objectif d'equilibre des comptes sociaux",
+        "conflit_droit_ue": "indirect - aggravation du deficit public global"
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.6,
+        "confidence": 0.55,
+        "justification": "La promesse d'un financement 'a la hauteur des besoins' est tres populaire dans un contexte de crise hospitaliere (urgences saturees, deserts medicaux). Le soutien des soignants et de l'opinion publique est fort. Cependant, la notion de 'besoins sanitaires' est extensible a l'infini et ne constitue pas un critere operationnel de pilotage budgetaire.",
+        "opposition_sociale": "Faible opposition sociale directe. Opposition technocratique et budgetaire."
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.6,
+        "justification": "Le diagnostic sur l'insuffisance du financement hospitalier est largement partage. L'ONDAM est effectivement critique pour sa logique de rationnement. Cependant, le concept d'ONSP n'est defini nulle part de maniere precise. La promesse de 'financement a la hauteur des besoins' est une tautologie qui ne constitue pas une proposition operationnelle. L'experience internationale montre qu'aucun pays ne finance la sante sans mecanisme de plafonnement.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.6,
+        "justification": "L'ONDAM existe depuis 1996 (ordonnances Juppe). Il n'a jamais ete remplace par un mecanisme base sur les besoins. Le Segur de la sante (2020) a apporte 8.2 Md EUR supplementaires mais sans modifier le cadre. Le NHS britannique fonctionne theoriquement sur un financement base sur les besoins mais est en crise permanente de sous-financement. Aucun modele international ne valide l'approche proposee.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Creation ONDAM 1996, Segur de la sante 2020, NHS britannique"
+      }
+    },
+    {
+      "promise_id": "hidalgo_015",
+      "raw_text": "Revaloriser les salaires et les carrieres a l'hopital public pour rendre les metiers hospitaliers plus attractifs",
+      "theme": "sante",
+      "budget": {
+        "score": 0.35,
+        "confidence": 0.55,
+        "justification": "Le Segur de la sante (2020) a deja coute 8.2 Md EUR/an. Les soignants hospitaliers demandent une revalorisation supplementaire. L'IFRAP chiffre l'investissement hospitalier total a 10 Md EUR/an. Le cout depend de l'ampleur de la revalorisation mais un effort significatif representerait 3-8 Md EUR/an supplementaires. La promesse est vague, ce qui rend le chiffrage incertain.",
+        "cout_estime_eur": 5000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "La revalorisation des personnels hospitaliers passe par des protocoles d'accord (type Segur) et des decrets statutaires. Le vehicule est connu et ne pose pas de difficulte juridique particuliere. Le financement passe par la LFSS (ONDAM). Pas de risque CC.",
+        "vehicule_legislatif": "LFSS + decrets statutaires + protocoles d'accord",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.65,
+        "confidence": 0.7,
+        "justification": "La revalorisation des soignants fait l'objet d'un tres large consensus social post-Covid. L'impact sur l'attractivite des metiers serait reel si la revalorisation est substantielle. Le Segur a montre qu'une revalorisation ponctuelle ne suffit pas a resoudre la crise d'attractivite sans reforme des conditions de travail.",
+        "opposition_sociale": "Quasi-aucune opposition sociale directe."
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.6,
+        "justification": "La promesse est vague ('revaloriser les salaires') sans chiffre precis ni objectif mesurable. Le diagnostic est exact (salaires inferieurs aux pays comparables, fuite des soignants) mais la proposition n'est pas assez detaillee pour etre veritablement evaluee. Le Segur de la sante a deja partiellement repondu a cette demande.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "Le Segur de la sante (2020) est le precedent direct. Il a abouti a une revalorisation de 183 EUR nets/mois pour les soignants hospitaliers. Cependant, la crise d'attractivite persiste (40% de postes vacants dans certains services). Les revalorisations salariales seules ne suffisent pas sans amelioration des conditions de travail (precedent : protocole Hopkins de 1991).",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Segur de la sante 2020 (8.2 Md EUR, +183 EUR/mois)"
+      }
+    },
+    {
+      "promise_id": "hidalgo_016",
+      "raw_text": "Lancer une conference salariale nationale reunissant organisations patronales et syndicats pour negocier des augmentations de salaires par branche, et limiter l'ecart de remuneration dans les entreprises de 1 a 20",
+      "theme": "economie",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.5,
+        "justification": "La conference salariale elle-meme a un cout negligeable. Le plafonnement de l'ecart de remuneration a 1 a 20 n'a pas de cout direct pour l'Etat. Les augmentations de salaires negociees par branche auraient un impact indirect sur les finances publiques : hausse des cotisations (recette) mais aussi hausse de la masse salariale de la fonction publique si les grilles sont revisees. L'impact net est incertain mais la mesure n'est pas structurellement couteuse pour l'Etat.",
+        "cout_estime_eur": 1000000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.5,
+        "confidence": 0.65,
+        "justification": "La conference salariale releve de l'initiative gouvernementale (pas de vehicule legislatif necessaire). En revanche, le plafonnement de l'ecart de remuneration a 1 a 20 est une atteinte a la liberte contractuelle et au droit de propriete. Le CC a deja censure des dispositifs de plafonnement des remunerations (taxe a 75%, decision 2012-662 DC). Le risque de censure est eleve si le mecanisme est contraignant. Un dispositif incitatif (malus fiscal) serait plus robuste juridiquement.",
+        "vehicule_legislatif": "loi ordinaire pour le plafonnement, dialogue social pour la conference",
+        "risque_censure_cc": "eleve pour le plafonnement a 1/20 (liberte contractuelle, droit de propriete)",
+        "conflit_droit_ue": "possible - libre circulation des travailleurs et liberte d'etablissement"
+      },
+      "social": {
+        "score_acceptabilite": 0.6,
+        "score_impact": 0.45,
+        "confidence": 0.55,
+        "justification": "La conference salariale est un concept consensuel dans la tradition sociale francaise. Le plafonnement a 1/20 est plus clive : populaire dans l'opinion (65%+) mais vivement conteste par le patronat et les cadres dirigeants. L'impact reel est incertain : les entreprises pourraient contourner le plafond via des filiales, la remuneration a l'etranger ou les stock-options. L'effet sur les inegalites serait limite si les contournements sont possibles.",
+        "opposition_sociale": "Opposition tres forte du patronat (MEDEF, AFEP). Soutien syndical et populaire."
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.6,
+        "justification": "Le ratio 1 a 20 est inspire des travaux de Pierre Larrouturou et du Parti socialiste. En France, le ratio median entre les plus hauts et les plus bas salaires dans les grandes entreprises est d'environ 1 a 200-300. Un ratio de 1 a 20 impliquerait une reduction drastique des remunerations dirigeantes. Le concept est precis mais les modalites d'application (perimetres, sanctions) ne sont pas detaillees.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.6,
+        "justification": "Des conferences salariales nationales ont ete organisees sous Sarkozy (2009) et Hollande (2014) avec des resultats limites. Le plafonnement des ecarts de remuneration n'a jamais ete mis en oeuvre dans un pays de l'OCDE de maniere contraignante. La Suisse a rejete par referendum en 2013 l'initiative '1:12' (rapport de 1 a 12). En France, la loi 'Thomas Piketty' sur la transparence des ecarts est la seule avancee concrete.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Referendum suisse 1:12 (2013, rejete), conferences salariales Sarkozy/Hollande, taxe 75% censuree"
+      }
+    },
+    {
+      "promise_id": "hidalgo_017",
+      "raw_text": "Lancer un vaste programme de renovation thermique des passoires energetiques, avec avance des fonds par la Caisse des Depots et une prime climat couvrant 30% des couts (50% pour les menages modestes)",
+      "theme": "logement",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.55,
+        "justification": "Il y a environ 5 millions de passoires energetiques en France (etiquettes F et G). Le cout moyen d'une renovation globale est de 30 000-50 000 EUR. Avec une prime climat de 30% (50% pour les modestes), le cout public est de 10 000-25 000 EUR par logement. Pour renover 500 000 logements/an (objectif implicite), le cout annuel serait de 5-12 Md EUR. L'avance par la Caisse des Depots est un mecanisme d'emprunt qui reporte le cout sans le supprimer. Le mecanisme de remboursement a la vente ou succession reduit le cout net mais sur un horizon tres long.",
+        "cout_estime_eur": 8000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "MaPrimeRenov' et les CEE (certificats d'economies d'energie) fournissent deja un cadre juridique. L'extension et le renforcement de ces dispositifs relevent de la loi de finances. Le role de la Caisse des Depots comme avanceur de fonds est juridiquement possible (precedent : prets CDC pour le logement social). La creation d'une 'prime climat' necessite une loi de finances. Pas de difficulte juridique majeure.",
+        "vehicule_legislatif": "loi de finances + conventions CDC",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun (compatible avec les objectifs Green Deal)"
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.7,
+        "confidence": 0.65,
+        "justification": "La renovation thermique est populaire et repond a un double enjeu : climat et pouvoir d'achat. L'impact sur les menages modestes (50% de prise en charge) est significatif. Le principal frein est la capacite du secteur du batiment a absorber la demande (manque d'artisans qualifies). Les proprietaires-bailleurs pourraient etre reticents si la renovation est obligatoire.",
+        "opposition_sociale": "Faible opposition. Difficultes pratiques (main d'oeuvre, complexite administrative)."
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.65,
+        "justification": "Il y a effectivement environ 5 millions de passoires thermiques en France (DPE F et G). Le taux de couverture de 30% (50% pour les modestes) est precis. Le mecanisme d'avance CDC avec remboursement a la vente/succession est un concept financier coherent. Cependant, MaPrimeRenov' montre les limites des dispositifs existants (complexite, reste a charge trop eleve, fraude).",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.65,
+        "justification": "MaPrimeRenov' (2020) et le CITE (avant 2020) sont les precedents directs. L'Allemagne (KfW) et le Royaume-Uni (Green Deal, echec) fournissent des comparaisons internationales. Le programme MaPrimeRenov' a ete critique pour ses resultats limites (renovations mono-geste, peu de renovations globales). Le mecanisme d'avance CDC est innovant mais n'a pas de precedent a grande echelle.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "MaPrimeRenov' 2020, KfW allemand, Green Deal UK (echec), loi Climat et Resilience 2021"
+      }
+    },
+    {
+      "promise_id": "hidalgo_018",
+      "raw_text": "Legaliser l'aide active a mourir (euthanasie) par une nouvelle loi allant plus loin que la loi Claeys-Leonetti de 2016, des les premiers mois du quinquennat",
+      "theme": "sante",
+      "budget": {
+        "score": 0.85,
+        "confidence": 0.75,
+        "justification": "La legalisation de l'aide active a mourir n'a pas de cout budgetaire significatif. Le cout est limite a l'adaptation du cadre legal, la formation des soignants et la mise en place de commissions d'evaluation. L'impact sur les depenses de sante pourrait meme etre legerement positif (reduction des couts de fin de vie pour les cas concernes). Estimation : 50-100 M EUR de mise en oeuvre.",
+        "cout_estime_eur": 100000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "La legalisation de l'euthanasie necessite une loi ordinaire (droit penal et droit de la sante). Le sujet est constitutionnellement sensible : le droit a la vie est protege par l'article 2 de la CEDH, mais la CEDH reconnait une marge d'appreciation des Etats. Le CC n'a jamais statue directement sur la question. Le passage parlementaire serait complexe : le sujet traverse les clivages politiques. Le vote libre (hors consignes de parti) est probable. Le Senat pourrait bloquer ou amender significativement.",
+        "vehicule_legislatif": "loi ordinaire (modification du code de la sante publique et du code penal)",
+        "risque_censure_cc": "modere - equilibre entre droit a la vie et liberte personnelle",
+        "conflit_droit_ue": "aucun (competence nationale)"
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.6,
+        "confidence": 0.7,
+        "justification": "Les sondages montrent que 80-90% des Francais sont favorables a l'aide active a mourir. Cependant, le corps medical est divise (opposition d'une partie des medecins, notamment en soins palliatifs). Les cultes religieux s'opposent. Le CCNE a rendu un avis nuance en 2022, ouvrant la porte sous conditions strictes. L'impact concerne un nombre limite de personnes mais repond a une attente societal forte.",
+        "opposition_sociale": "Opposition du corps medical (en partie), des religions, et de certains parlementaires conservateurs."
+      },
+      "factcheck": {
+        "score": 0.8,
+        "confidence": 0.8,
+        "justification": "La loi Claeys-Leonetti de 2016 autorise la sedation profonde et continue mais pas l'aide active a mourir. La Convention citoyenne sur la fin de vie (2023) a recommande l'ouverture de l'aide active a mourir sous conditions strictes. Le projet de loi Macron sur la fin de vie a ete presente en 2024. Les faits sont exacts et le sujet est d'actualite legislative concrete.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.6,
+        "confidence": 0.75,
+        "justification": "La Belgique (2002), les Pays-Bas (2002), le Luxembourg (2009), l'Espagne (2021) et le Portugal (2023) ont legalise l'euthanasie ou le suicide assiste. Ces precedents montrent que la legalisation est juridiquement et socialement faisable. En France, le projet de loi Macron (2024) a ete depose mais interrompu par la dissolution de l'AN. Le calendrier de 'premiers mois du quinquennat' est ambitieux mais pas irrealiste.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Belgique/Pays-Bas (2002), Espagne (2021), projet de loi francais (2024, interrompu)"
+      }
+    },
+    {
+      "promise_id": "hidalgo_019",
+      "raw_text": "Renforcer la presence de police et gendarmerie sur le terrain par des recrutements cibles, avec un budget equipement et immobilier pour chaque recrutement, et formation adaptee contre les discriminations",
+      "theme": "securite",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.5,
+        "justification": "Le cout depend du nombre de recrutements, non precise. Le budget securite interieure est de 17.2 Md EUR. Chaque poste de policier coute environ 50 000-60 000 EUR/an (masse salariale + equipement). Le recrutement de 10 000 policiers supplementaires couterait 500-600 M EUR/an. Avec le budget equipement et immobilier, le cout total pourrait atteindre 1-2 Md EUR/an. La promesse est vague ce qui rend le chiffrage incertain.",
+        "cout_estime_eur": 1500000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.75,
+        "justification": "Les recrutements de policiers et gendarmes relevent de la loi de finances (ouverture de postes) et de decrets. La formation contre les discriminations releve de l'autorite hierarchique. Le vehicule legislatif est simple et ne pose pas de difficulte juridique. La LOPMI 2023-2027 (loi d'orientation et de programmation) fournit deja un cadre.",
+        "vehicule_legislatif": "loi de finances + LOPMI",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.6,
+        "score_impact": 0.5,
+        "confidence": 0.55,
+        "justification": "Le renforcement de la presence policiere est generalement populaire mais l'accent mis sur la formation contre les discriminations peut diviser. Les syndicats de police sont hostiles aux formations jugees 'moralisatrices'. L'impact sur la securite depend de la doctrine d'emploi (police de proximite vs police d'intervention). Les precedents montrent que plus de policiers ne signifie pas automatiquement moins de criminalite.",
+        "opposition_sociale": "Opposition partielle des syndicats de police sur le volet formation. Soutien general sur les effectifs."
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.5,
+        "justification": "La promesse est trop vague pour etre precisement fact-checkee. Le nombre de recrutements n'est pas specifie. Le principe de 'budget equipement et immobilier pour chaque recrutement' est une bonne pratique mais sa mise en oeuvre concrete n'est pas detaillee. Le volet formation anti-discriminations est un engagement symbolique.",
+        "verdict_global": "inverifiable"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.65,
+        "justification": "La police de proximite (Jospin 1997) est le precedent le plus proche en termes de philosophie. Elle a ete supprimee par Sarkozy en 2003 au profit d'une logique d'intervention. La LOPMI 2023 prevoit deja 8 500 postes supplementaires. Les promesses de recrutements policiers sont recurrentes a chaque election mais les delais de formation (1-2 ans) limitent la montee en charge.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Police de proximite Jospin (1997-2003), LOPMI 2023-2027"
+      }
+    },
+    {
+      "promise_id": "hidalgo_020",
+      "raw_text": "Lancer une loi de programmation sur 5 ans pour recruter magistrats, greffiers et travailleurs sociaux dans la justice",
+      "theme": "securite",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.6,
+        "justification": "Le budget de la justice est de 10.2 Md EUR. La France compte environ 11 magistrats pour 100 000 habitants (vs 20+ en Allemagne). Combler l'ecart necessiterait de doubler les effectifs de magistrats (~9 000 actuellement). Une loi de programmation ambitieuse (recrutement de 5 000 magistrats et 10 000 greffiers) couterait 2-4 Md EUR/an. La mesure est couteuse mais le budget justice est relativement modeste et des marges existent. Financement non precise.",
+        "cout_estime_eur": 3000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Les lois de programmation sont un vehicule legislatif courant (LOPMI 2023 pour l'interieur, LPM 2024 pour la defense). La loi de programmation pour la justice d'E. Dupond-Moretti (2023) fournit un precedent direct. Le vehicule est maitrise et ne pose aucune difficulte constitutionnelle. Le CC a valide les lois de programmation pluriannuelles.",
+        "vehicule_legislatif": "loi de programmation pluriannuelle",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.65,
+        "confidence": 0.7,
+        "justification": "Le renforcement de la justice est un consensus transpartisan. Les delais de traitement des affaires (14 mois en moyenne, jusqu'a 30 mois en penal) sont unanimement juges inacceptables. L'impact sur la qualite de la justice serait significatif si les recrutements sont effectifs. Le principal defi est l'attractivite des metiers judiciaires et la capacite de formation (ENM).",
+        "opposition_sociale": "Tres faible opposition. Consensus large."
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "Le sous-effectif de la justice francaise est un constat partage par tous les rapports (CEPEJ, Cour des comptes, Senat). La loi de programmation Dupond-Moretti (2023) prevoit deja 10 000 recrutements sur 5 ans et 7.5 Md EUR. La promesse d'Hidalgo est coherente avec le diagnostic mais ne precis pas les chiffres au-dela de ce qui est deja programme.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "La loi de programmation justice Dupond-Moretti (2023-2027) est le precedent direct. Elle prevoit 10 000 recrutements et 7.5 Md EUR de budget supplementaire. Les precedentes tentatives de rattrapage (plan Rachida Dati 2007, plan Taubira 2014) ont donne des resultats limites en raison des contraintes budgetaires. L'ENM ne forme que 350-400 auditeurs de justice par an.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Loi programmation justice 2023-2027 (10 000 recrutements), loi LPM defense 2024-2030"
+      }
+    },
+    {
+      "promise_id": "hidalgo_021",
+      "raw_text": "Adopter une loi pour l'accueil et l'integration des migrants, avec regularisation des personnes presentes depuis longtemps ayant un logement et un emploi, et acces a l'emploi des le depot de la demande d'asile",
+      "theme": "immigration",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.5,
+        "justification": "La regularisation des personnes en situation irreguliere ayant un emploi et un logement genererait des recettes fiscales et sociales (cotisations) tout en augmentant les depenses (droits sociaux elargis). L'impact net est incertain mais potentiellement positif a moyen terme selon les etudes economiques. L'acces a l'emploi des le depot de la demande d'asile reduirait les couts d'hebergement. Cout net estime modere.",
+        "cout_estime_eur": 500000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "justification": "La regularisation par la loi est juridiquement possible (art. L435-1 du CESEDA). Cependant, le CC a censure 32 articles sur 86 de la loi immigration 2024, montrant la sensibilite constitutionnelle du sujet. Le droit de vote des etrangers aux elections locales mentionner dans la loi Hidalgo souleve des questions constitutionnelles. L'acces a l'emploi des le depot d'asile est conforme a la directive europeenne 2013/33 (9 mois max). Le Senat LR bloquerait probablement une loi d'accueil migratoire.",
+        "vehicule_legislatif": "loi ordinaire",
+        "risque_censure_cc": "modere a eleve - precedent de la loi immigration 2024 censuree partiellement",
+        "conflit_droit_ue": "faible - conforme aux directives europeennes d'asile"
+      },
+      "social": {
+        "score_acceptabilite": 0.3,
+        "score_impact": 0.5,
+        "confidence": 0.65,
+        "justification": "L'immigration est le sujet le plus clive de la politique francaise. Une loi de regularisation serait fortement contestee par la droite et l'extreme droite (RN+LR representent une majorite parlementaire). L'opinion publique est majoritairement hostile a la regularisation massive (60-70% opposes). L'impact sur les personnes concernees serait positif (sortie de la precarite) mais le risque d'appel d'air est un argument recurrent.",
+        "opposition_sociale": "Opposition tres forte (droite, extreme droite, une partie de l'opinion). Soutien des associations, de la gauche et des syndicats."
+      },
+      "factcheck": {
+        "score": 0.65,
+        "confidence": 0.65,
+        "justification": "La regularisation sous conditions (emploi, logement, duree de presence) est une pratique existante mais au cas par cas (circulaire Valls 2012). L'acces a l'emploi des demandeurs d'asile est effectivement limite en France (9 mois d'attente) alors que d'autres pays le permettent plus rapidement. Les propositions sont factuellement coherentes.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.4,
+        "confidence": 0.7,
+        "justification": "La France a connu des regularisations massives sous Mitterrand (1981, 130 000 personnes), Jospin (1997, 80 000), et des regularisations au cas par cas sous tous les gouvernements. La circulaire Valls (2012) est le precedent recent. La loi immigration Darmanin (2024) a ete tres partiellement censuree par le CC. L'opposition parlementaire (RN+LR = majorite) rend le passage legislatif tres difficile.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Regularisations 1981 et 1997, circulaire Valls 2012, loi immigration 2024 (censuree partiellement)"
+      }
+    },
+    {
+      "promise_id": "hidalgo_022",
+      "raw_text": "Interdire les pesticides les plus toxiques (glyphosate et neonicotinoides) dans les 100 premiers jours et reorienter les subventions agricoles vers l'agroecologie",
+      "theme": "agriculture",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.55,
+        "justification": "L'interdiction des pesticides n'a pas de cout direct pour l'Etat. Cependant, les mesures d'accompagnement des agriculteurs (aide a la transition, compensation de perte de rendement) peuvent couter 1-3 Md EUR. La reorientation des subventions agricoles (PAC : ~9 Md EUR/an pour la France) est un transfert budgetaire, pas une depense supplementaire nette. Le cout net depend de l'ampleur de l'accompagnement.",
+        "cout_estime_eur": 2000000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.35,
+        "confidence": 0.7,
+        "justification": "L'interdiction du glyphosate en France serait une decision unilaterale alors que l'UE a renouvele l'autorisation du glyphosate pour 10 ans en novembre 2023. Une interdiction nationale se heurterait au droit UE (reglement CE 1107/2009 sur les produits phytopharmaceutiques). La France pourrait invoquer le principe de precaution (art. 191 TFUE) mais le risque de condamnation par la CJUE est eleve. Les neonicotinoides sont deja partiellement interdits par l'UE (2018) mais des derogations existent.",
+        "vehicule_legislatif": "arrete ministeriel (interdiction nationale) ou loi ordinaire",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "eleve - contradiction avec le renouvellement de l'autorisation EU du glyphosate"
+      },
+      "social": {
+        "score_acceptabilite": 0.5,
+        "score_impact": 0.55,
+        "confidence": 0.6,
+        "justification": "L'interdiction des pesticides est soutenue par les consommateurs et les associations environnementales mais vivement contestee par le monde agricole (FNSEA). Les manifestations agricoles de 2024 ont montre la force de l'opposition du secteur a toute contrainte supplementaire. La reorientation vers l'agroecologie est un processus de long terme qui necessite un accompagnement financier et technique important.",
+        "opposition_sociale": "Opposition tres forte du monde agricole (FNSEA, JA). Soutien des associations environnementales et des consommateurs."
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "Le glyphosate est effectivement classe 'probablement cancerogene' par le CIRC (2015) mais l'EFSA a conclu a l'absence de risque cancerogene aux doses d'exposition habituelles. Les neonicotinoides sont effectivement tres toxiques pour les pollinisateurs. Le calendrier de '100 jours' est extremement ambitieux et ignore la complexite reglementaire (consultations obligatoires, droit UE). La promesse est partiellement exacte sur les faits mais trompeuse sur la faisabilite.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "Macron avait promis l'interdiction du glyphosate en 3 ans (2017), non tenue. L'UE a renouvele l'autorisation en 2023. L'Autriche a tente une interdiction nationale en 2019 mais a du reculer face au droit UE. Les neonicotinoides sont partiellement interdits dans l'UE depuis 2018. La reorientation de la PAC est un processus negocier tous les 7 ans au niveau europeen. Le delai de 100 jours est completement irrealiste.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Promesse Macron glyphosate 2017 (non tenue), interdiction neonicotinoides UE 2018, renouvellement glyphosate UE 2023"
+      }
+    },
+    {
+      "promise_id": "hidalgo_023",
+      "raw_text": "Creer un ministere du Numerique autonome et doubler le nombre de conseillers numeriques de 4000 a 8000 pour lutter contre la fracture numerique",
+      "theme": "numerique",
+      "budget": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "La creation d'un ministere autonome n'a qu'un cout administratif modeste (cabinet ministeriel, restructuration). Le doublement des conseillers numeriques de 4000 a 8000 represente environ 200 M EUR/an (25 000 EUR/conseiller en moyenne). Le cout total est modere et financable dans le cadre budgetaire existant (dotation France Numerique). Compatible avec le PSMT sous reserve d'arbitrages budgetaires.",
+        "cout_estime_eur": 250000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.85,
+        "justification": "La creation d'un ministere releve du pouvoir d'organisation du gouvernement (decret d'attribution). Aucune loi n'est necessaire. Le doublement des conseillers numeriques passe par la loi de finances (ouverture de credits). Le vehicule est simple et ne pose aucune difficulte juridique.",
+        "vehicule_legislatif": "decret (ministere) + loi de finances (credits)",
+        "risque_censure_cc": "aucun",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.55,
+        "confidence": 0.65,
+        "justification": "La lutte contre la fracture numerique fait consensus. 13 millions de Francais sont en difficulte avec le numerique. Les conseillers numeriques France Services sont bien accueillis. L'impact est positif mais modeste : 8 000 conseillers pour 13 millions de personnes en difficulte est un ratio faible. La creation d'un ministere autonome a un impact symbolique et organisationnel.",
+        "opposition_sociale": "Quasi-aucune opposition."
+      },
+      "factcheck": {
+        "score": 0.8,
+        "confidence": 0.75,
+        "justification": "Le nombre de 4 000 conseillers numeriques est exact (programme lance en 2021). Le chiffre de 13 millions de Francais eloignes du numerique provient de l'enquete INSEE/Credoc. Le doublement a 8 000 est un objectif precis et verifiable. La mesure est bien documentee.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "Le programme Conseillers Numeriques France Services a ete lance en 2021 avec 4 000 postes. Des ministres delegues ou secretaires d'Etat au numerique ont existe sous differents gouvernements (Axelle Lemaire 2014-2017, Cedric O 2019-2022). Un ministere de plein exercice serait une nouveaute mais le perimetre est bien identifie. Le delai est court car le dispositif existe deja.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Programme Conseillers Numeriques 2021, secretariat d'Etat au Numerique"
+      }
+    },
+    {
+      "promise_id": "hidalgo_024",
+      "raw_text": "Augmenter les places en creche de 470000 a 600000 sur 10 ans pour repondre aux besoins des familles",
+      "theme": "emploi",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.65,
+        "justification": "La creation de 130 000 places de creche supplementaires represente un investissement d'environ 4-5 Md EUR en construction (35 000 EUR/place en investissement) et un cout de fonctionnement recurrent de 2-3 Md EUR/an (20 000 EUR/place/an). Sur 10 ans, le cout total d'investissement + fonctionnement cumule est de l'ordre de 20-25 Md EUR. Le financement passe par la branche famille de la Secu et les collectivites locales. La branche famille est excedentaire mais les montants sont considerables.",
+        "cout_estime_eur": 3000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.75,
+        "justification": "La creation de places de creche releve de la LFSS (branche famille) et de la politique de la petite enfance des collectivites. Le vehicule legislatif est classique. Le service public de la petite enfance a ete institue par la loi plein emploi de 2023 (obligation pour les communes de plus de 3 500 habitants). Le cadre juridique existe donc deja.",
+        "vehicule_legislatif": "LFSS + convention d'objectifs et de gestion CNAF",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.75,
+        "confidence": 0.7,
+        "justification": "La creation de places de creche fait consensus. 200 000 familles sont en attente d'une place. L'impact sur l'emploi des femmes et l'egalite professionnelle est documente. Le principal frein est le recrutement de personnel qualifie (auxiliaires de puericulture, educateurs de jeunes enfants). La penurie de professionnels est le goulot d'etranglement principal.",
+        "opposition_sociale": "Quasi-aucune opposition de principe. Difficultes de recrutement de personnel."
+      },
+      "factcheck": {
+        "score": 0.75,
+        "confidence": 0.75,
+        "justification": "Le chiffre de 470 000 places d'accueil collectif est approximativement correct (456 000 en 2021 selon la DREES). L'objectif de 600 000 est ambitieux mais pas invraisemblable sur 10 ans. Le manque de places est reel et documente. Le calendrier de 10 ans est realiste compte tenu des contraintes de construction et de recrutement.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.65,
+        "justification": "Les objectifs de creation de places de creche sont recurrents a chaque quinquennat : Sarkozy (200 000 places, non atteint), Hollande (100 000, partiellement atteint ~30 000), Macron (30 000, partiellement atteint). L'objectif de 130 000 places en 10 ans est de 13 000/an, un rythme legerement superieur aux tendances recentes. La loi plein emploi 2023 a cree l'obligation pour les communes, ce qui est un levier nouveau.",
+        "delai_realiste_mois": 120,
+        "precedent_principal": "COG CNAF 2018-2022, loi plein emploi 2023, plans precedents (Sarkozy, Hollande, Macron)"
+      }
+    },
+    {
+      "promise_id": "hidalgo_025",
+      "raw_text": "Renforcer le controle parlementaire sur les operations exterieures de plus de 4 mois avec un vote de confirmation du Parlement",
+      "theme": "international",
+      "budget": {
+        "score": 0.9,
+        "confidence": 0.85,
+        "justification": "La mesure est quasi-neutre budgetairement. Le cout est limite a l'organisation de debats parlementaires supplementaires. Les operations exterieures (OPEX) coutent environ 1-1.5 Md EUR/an mais la mesure ne modifie pas ce budget, elle renforce seulement le controle democratique.",
+        "cout_estime_eur": 10000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.3,
+        "confidence": 0.8,
+        "justification": "L'article 35 de la Constitution prevoit deja que le Parlement est informe des interventions des forces armees et autorise leur prolongation au-dela de 4 mois. Un vote de 'confirmation' (qui pourrait bloquer l'operation) irait plus loin et toucherait aux prerogatives du President (art. 15 : chef des armees). Cela necessite probablement une revision constitutionnelle (art. 89) ou au minimum une loi organique. Le Senat serait probablement hostile a une limitation des pouvoirs presidentiels en matiere de defense. L'obstacle constitutionnel est significatif.",
+        "vehicule_legislatif": "revision constitutionnelle (art. 89) ou loi organique",
+        "risque_censure_cc": "eleve si loi ordinaire (atteinte aux prerogatives presidentielles art. 15)",
+        "conflit_droit_ue": "aucun"
+      },
+      "social": {
+        "score_acceptabilite": 0.65,
+        "score_impact": 0.45,
+        "confidence": 0.55,
+        "justification": "Le renforcement du controle parlementaire sur les OPEX est un sujet relativement consensuel dans l'opinion publique mais peu mobilisateur. L'impact concret est limite : le Parlement autorise deja la prolongation au-dela de 4 mois, mais par un vote non contraignant. Rendre le vote contraignant changerait l'equilibre institutionnel de la Ve Republique.",
+        "opposition_sociale": "Opposition des milieux militaires et des partisans d'un executif fort. Soutien des parlementaires."
+      },
+      "factcheck": {
+        "score": 0.75,
+        "confidence": 0.75,
+        "justification": "Il est exact que l'article 35 prevoit l'information du Parlement et l'autorisation de prolongation. Le vote actuel est une autorisation de prolongation, pas un mecanisme de controle retroactif. La mesure propose d'aller plus loin que le droit actuel. Les faits presentes sont corrects.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.7,
+        "justification": "La revision constitutionnelle de 2008 a renforce le controle parlementaire sur les OPEX (art. 35 al. 3). Avant 2008, le Parlement n'avait aucun role formel. Le Bundestag allemand dispose d'un droit de vote contraignant sur les OPEX (modele invoque). Cependant, la Ve Republique francaise donne au President un role preponderant en matiere de defense (art. 15) et aucune revision n'a abouti depuis 2008.",
+        "delai_realiste_mois": 48,
+        "precedent_principal": "Revision constitutionnelle 2008 (art. 35), modele allemand (Parlamentsvorbehalt)"
+      }
+    }
+  ],
+  "synthese_globale": {
+    "nombre_promesses_evaluees": 25,
+    "scores_moyens": {
+      "budget": 0.5,
+      "juridique": 0.53,
+      "social_acceptabilite": 0.68,
+      "social_impact": 0.56,
+      "factcheck": 0.66,
+      "historique": 0.4
+    },
+    "promesses_les_plus_faisables": [
+      {
+        "id": "hidalgo_023",
+        "titre": "Ministere du Numerique et conseillers numeriques",
+        "score_global_pondere": 0.73
+      },
+      {
+        "id": "hidalgo_018",
+        "titre": "Aide active a mourir",
+        "score_global_pondere": 0.68
+      },
+      {
+        "id": "hidalgo_007",
+        "titre": "Encadrement des loyers generalise",
+        "score_global_pondere": 0.6
+      }
+    ],
+    "promesses_les_moins_faisables": [
+      {
+        "id": "hidalgo_012",
+        "titre": "Vote a 16 ans, vote des etrangers, vote blanc",
+        "score_global_pondere": 0.23
+      },
+      {
+        "id": "hidalgo_009",
+        "titre": "100% energies renouvelables sans nucleaire",
+        "score_global_pondere": 0.28
+      },
+      {
+        "id": "hidalgo_011",
+        "titre": "Referendum d'initiative citoyenne (RIC)",
+        "score_global_pondere": 0.31
+      }
+    ],
+    "cout_total_estime_programme_eur": 100000000000,
+    "recettes_nouvelles_estimees_eur": 30000000000,
+    "solde_net_estime_eur": -70000000000,
+    "note_methodologique": "Le cout total est une estimation agregee des couts individuels des 25 promesses, en evitant les doubles comptes. Les recettes nouvelles (ISF climatique, cotisations) sont estimees de maniere conservatrice. Le solde net de -70 Md EUR est coherent avec les estimations IFRAP (-55 Md depenses, +30 Md recettes = -25 Md net, hors cout de la non-reforme des retraites et du passage a 100% ENR).",
+    "compatibilite_psmt": "Le programme d'Anne Hidalgo est globalement incompatible avec le PSMT 2025-2029 qui plafonne la croissance des depenses nettes a 0.8-1.2%/an et vise un deficit sous 3% du PIB d'ici 2029. Le cout net du programme aggraverait le deficit de 2-3 points de PIB supplementaires.",
+    "principales_sources": [
+      "Institut Montaigne - Presidentielle 2022 (https://www.institutmontaigne.org/presidentielle-2022/)",
+      "IFRAP - Chiffrage des programmes 2022 (https://www.ifrap.org/budget-et-fiscalite/presidentielle-2022-le-chiffrage-des-programmes)",
+      "INSEE - Comptes de la Nation 2024 (https://www.insee.fr/fr/statistiques/8574492)",
+      "Conseil de l'UE - Procedure de deficit excessif (https://www.consilium.europa.eu/en/press/press-releases/2025/01/21/)",
+      "HCFP - Avis sur le PSMT 2025 (https://www.hcfp.fr/en/liste-avis/opinion-ndeg2025-3-annual-progress-report-2025)",
+      "Cour des comptes - Finances publiques (https://www.ccomptes.fr/)"
+    ]
+  }
+}

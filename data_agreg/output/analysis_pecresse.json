@@ -1,0 +1,1508 @@
+{
+  "candidate": "Valerie Pecresse",
+  "party": "Les Republicains",
+  "election": "Presidentielle 2022",
+  "metadata": {
+    "generated_at": "2026-03-17T00:00:00Z",
+    "methodology": "Analyse multi-dimensionnelle de faisabilite. Chaque promesse evaluee sur 5 dimensions par des agents specialises (economiste, juriste, sociologue, fact-checker, historien). Scores 0-1, confiance 0-1. Sources: Institut Montaigne, IFRAP, INSEE, budget.gouv.fr, Legifrance, Cour des comptes.",
+    "data_sources": [
+      "data_agreg/data/programs/pecresse.json",
+      "data_agreg/data/economic/budget_structure.json",
+      "data_agreg/data/economic/fiscal_constraints.json",
+      "data_agreg/data/legal/constitutional_constraints.json",
+      "data_agreg/data/precedents/french_reforms.json",
+      "data_agreg/data/evaluations/institut_montaigne_2022.json",
+      "data_agreg/data/evaluations/ifrap_2022.json"
+    ],
+    "macro_context": {
+      "pib_md_eur": 2920,
+      "dette_pct_pib": 113.0,
+      "deficit_pct_pib": 5.8,
+      "budget_recettes_md": 308,
+      "budget_depenses_md": 445,
+      "secu_depenses_md": 666,
+      "secu_deficit_md": -22,
+      "interets_dette_md": 55,
+      "pression_fiscale_pct_pib": 42.8,
+      "chomage_pct": 7.9,
+      "smic_net_eur": 1426,
+      "pauvrete_pct": 15.4,
+      "psmt_croissance_depenses_max_pct": "0.8-1.2",
+      "deficit_cible_2029": "<3.0% PIB"
+    },
+    "political_context": {
+      "an_seats": {
+        "nfp": 193,
+        "ensemble": 163,
+        "rn": 126,
+        "dr_lr": 47,
+        "majorite_absolue": 289
+      },
+      "senat": "majorite LR (allie potentiel)",
+      "note": "LR dispose de 47 sieges AN. Alliance LR+Ensemble = ~210 sieges, insuffisant pour majorite absolue (289). Necessite soit un accord elargi soit le 49.3."
+    },
+    "disclaimer": "Cette analyse est produite par un systeme automatise utilisant l'intelligence artificielle. Elle s'appuie sur des donnees publiques et des methodologies transparentes, mais ne remplace pas l'expertise humaine, le debat democratique ou le jugement citoyen. Les scores de faisabilite sont des estimations avec des marges d'incertitude."
+  },
+  "summary": {
+    "total_promises": 25,
+    "concrete_promises": 25,
+    "total_new_spending_annual_eur": -24000000000,
+    "total_spending_cuts_eur": 40000000000,
+    "total_tax_cuts_eur": -20000000000,
+    "net_balance_institut_montaigne_eur": -5000000000,
+    "candidate_claimed_balance_eur": 30000000000,
+    "credibility_gap_eur": 35000000000,
+    "overall_feasibility_mean": 0.47,
+    "overall_feasibility_label": "Partiellement faisable",
+    "source": "Institut Montaigne & IFRAP chiffrages 2022"
+  },
+  "evaluations": [
+    {
+      "promise_id": "pecresse_001",
+      "raw_text": "Augmenter de 10% les salaires nets de tous les salaries gagnant moins de 2.2 SMIC, via la suppression des cotisations vieillesse salariales (2.4 points)",
+      "theme": "economie",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/synthese/",
+      "budget": {
+        "score": 0.25,
+        "confidence": 0.85,
+        "justification": "Cout estime a 20.7 Md EUR/an par l'Institut Montaigne, soit environ 6.7% des recettes de l'Etat (308 Md). La suppression de 2.4 points de cotisations vieillesse cree un trou dans le financement des retraites deja deficitaires (branche vieillesse structurellement deficitaire). Le financement suppose par la fin des 35h est tres incertain: aucun chiffrage credible de l'impact budgetaire d'un passage aux 39h. Incompatible avec le PSMT (croissance depenses plafonnee a 0.8-1.2%/an) et l'objectif de deficit < 3% d'ici 2029.",
+        "cout_estime_eur": 20700000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "Necessite une loi ordinaire (LF ou LFSS) modifiant les taux de cotisations (Art. 34 Constitution). Le vehicule legislatif est standard. Risque CC modere: la mesure beneficie aux salaries modestes, pas de rupture d'egalite evidente. Cependant, le transfert de charge vers d'autres branches de la Secu pourrait etre requalifie. Le Senat LR serait favorable. Difficulte a l'AN sans majorite.",
+        "vehicule_legislatif": "LFSS (loi de financement de la securite sociale)",
+        "risque_censure_cc": "modere",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.65,
+        "confidence": 0.7,
+        "justification": "Mesure tres populaire aupres des salaries modestes (cible large: tous les salaires < 2.2 SMIC). Impact reel sur le pouvoir d'achat. Neanmoins, la perte de recettes pour la branche vieillesse pourrait aggraver le deficit des retraites, reportant le probleme sur les generations futures. Opposition potentielle des syndicats sur le lien avec la fin des 35h.",
+        "opposition_sociale": "faible sur la hausse de salaire, forte sur la fin des 35h"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.8,
+        "justification": "Le mecanisme technique (suppression de 2.4 points de cotisations) produit bien ~10% de hausse nette pour les salaires concernes. Le chiffrage de 20.7 Md EUR par l'Institut Montaigne est fiable. Cependant, la promesse de financement par la fin des 35h est un element non chiffre et contestable. L'IFRAP estime les baisses d'impots totales a 20 Md EUR pour Pecresse, confirmant l'ordre de grandeur.",
+        "verdict_global": "mecanisme credible, financement non credible"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.7,
+        "justification": "Aucun precedent de hausse de salaire net de cette ampleur par baisse de cotisations en France. Les allegements de cotisations (Fillon, CICE, Pacte de responsabilite) ont cible les employeurs, pas les salaries. La fin des 35h n'a jamais ete mise en oeuvre malgre les annonces repetees (Sarkozy 2007-2012). Le passage aux 39h par defaut se heurte a des obstacles pratiques considerables (negociation branche par branche).",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Allegements Fillon (cotisations employeurs) - mecanisme different"
+      },
+      "feasibility": {
+        "overall": 0.42,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.3,
+          0.54
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_002",
+      "raw_text": "Repousser l'age legal de depart a la retraite a 65 ans, avec des exemptions pour les situations de penibilite et de carrieres longues",
+      "theme": "retraites",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/repousser-lage-de-la-retraite-a-65-ans/",
+      "budget": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Economies estimees a 4.6 Md EUR/an (Montaigne) a 12 Md EUR a terme (IFRAP). La reforme Macron de 2023 (report a 64 ans) genere deja des economies. Le report a 65 ans ajouterait des economies marginales supplementaires. Mesure structurellement positive pour les finances publiques. Compatible avec le PSMT: reduit le deficit a moyen terme. Le chiffrage Montaigne de -4.6 Md/an semble conservateur (Institut Montaigne prend en compte les exemptions penibilite/carrieres longues).",
+        "cout_estime_eur": -4600000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.5,
+        "confidence": 0.8,
+        "justification": "Necessite une LFSS rectificative ou un PLFSS. Le precedent de 2023 montre que le vehicule LFSS + 49.3 est juridiquement valide (Decision CC 2023-849 DC). Cependant, le CC a valide le report a 64 ans; un report supplementaire a 65 ans passerait le meme controle. Le Senat LR serait favorable. A l'AN, le 49.3 serait probablement necessaire. Risque de motion de censure non negligeable (precedent Barnier dec. 2024).",
+        "vehicule_legislatif": "LFSS (49.3 probable)",
+        "risque_censure_cc": "faible (precedent 2023)",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.15,
+        "score_impact": 0.55,
+        "confidence": 0.9,
+        "justification": "Opposition sociale massive garantie. Le report a 64 ans en 2023 a genere les plus grandes manifestations sociales depuis 2010. Un report supplementaire a 65 ans provoquerait une mobilisation au moins equivalente. Tous les syndicats (CFDT incluse) s'y opposeraient. Impact positif sur les finances publiques mais negatif sur les travailleurs ages dans les metiers penibles malgre les exemptions annoncees.",
+        "opposition_sociale": "massive (tous syndicats, opinion publique majoritairement hostile)"
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.85,
+        "justification": "Le chiffrage est credible: l'Institut Montaigne estime 12 Md EUR d'economies a terme pour le report a 65 ans, l'IFRAP confirme. La Cour des comptes note cependant que meme avec la reforme 2023 (64 ans), le deficit du systeme atteindrait 30 Md EUR en 2045. Les exemptions penibilite/carrieres longues reduisent significativement les economies reelles. Le lien entre report de l'age et equilibre financier est confirme mais les projections a long terme sont fragiles.",
+        "verdict_global": "chiffrage globalement credible, economies a terme confirmees"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.9,
+        "justification": "Precedents directs: reforme Woerth 2010 (60->62 ans, opposition massive, adoptee), reforme Macron 2023 (62->64 ans, opposition massive, adoptee via 49.3). Les deux reformes montrent que le report est faisable techniquement mais au prix politique enorme. La RGPP de Sarkozy (2008) fournit un precedent administratif complementaire. Delai realiste: 18-24 mois pour l'adoption, montee en charge sur 8-10 ans.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Reforme retraites 2023 (report 62->64 via 49.3, opposition massive, validee CC)"
+      },
+      "feasibility": {
+        "overall": 0.49,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.38,
+          0.6
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_003",
+      "raw_text": "Supprimer 200 000 postes de fonctionnaires administratifs sur le quinquennat, tout en creant 50 000 postes dans les fonctions regaliennes (police, enseignants, soignants)",
+      "theme": "economie",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/supprimer-200-000-postes-de-fonctionnaires-administratifs/",
+      "budget": {
+        "score": 0.25,
+        "confidence": 0.75,
+        "justification": "Economies estimees a 5.9 Md EUR/an (Montaigne) pour la suppression nette de 150 000 postes. L'IFRAP estime 4.5 Md EUR avec une credibilite 'low'. La RGPP de Sarkozy (2007-2012) n'a supprime que 150 000 postes en 5 ans avec le principe 1-sur-2, generant 6 Md EUR nets d'economies. Le rythme de 40 000 suppressions/an est sans precedent. Les 2 millions d'ETPT de l'Etat (hors operateurs) offrent une base, mais les fonctions administratives pures representent une fraction. Les creations dans le regalien (50 000 postes) annulent partiellement les economies.",
+        "cout_estime_eur": -5900000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "justification": "Le non-remplacement des departs en retraite ne necessite pas de loi specifique: il s'applique via les lois de finances (plafonds d'emploi par mission). Les creations dans le regalien sont egalement budgetaires. Pas de risque CC specifique. Le Senat LR appuierait. La difficulte est surtout administrative: les collectivites territoriales (fonction publique territoriale) ne sont pas sous autorite directe de l'Etat et ne peuvent etre contraintes de supprimer des postes.",
+        "vehicule_legislatif": "Lois de finances annuelles (plafonds d'emploi)",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.3,
+        "score_impact": 0.35,
+        "confidence": 0.75,
+        "justification": "Opposition forte des syndicats de fonctionnaires. La RGPP a ete jugee 'brutale' par la Cour des comptes en raison de l'absence de concertation. Les usagers des services publics subiraient potentiellement une degradation (accueil, delais). Les creations dans le regalien (police, enseignants, soignants) attenuent partiellement la critique. Risque de greves dans la fonction publique.",
+        "opposition_sociale": "forte (syndicats de fonctionnaires, usagers des services publics)"
+      },
+      "factcheck": {
+        "score": 0.35,
+        "confidence": 0.8,
+        "justification": "L'objectif de 200 000 suppressions est juge 'irrealiste' par l'Institut Montaigne et l'IFRAP (credibilite 'low'). La RGPP de Sarkozy a atteint 150 000 en 5 ans avec la regle du 1-sur-2, mais au prix d'une degradation de certains services. L'objectif de Pecresse impliquerait de ne remplacer aucun depart en retraite dans les fonctions administratives pendant 5 ans, ce qui est pratiquement impossible (certains postes sont indispensables). Le chiffrage des economies est surestime car il ne tient pas compte des couts de reorganisation.",
+        "verdict_global": "objectif historiquement jamais atteint a cette echelle, economies surestimees"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.85,
+        "justification": "Precedent direct: RGPP Sarkozy 2007-2012, 150 000 postes supprimes en 5 ans, economies de 6 Md EUR nets. Bilan 'contraste' selon la Cour des comptes. La methode du non-remplacement a ete jugee trop mecanique et sans lien avec les besoins reels. Macron avait promis 120 000 suppressions en 2017 et n'en a realise qu'une fraction. Aucun pays europeen n'a supprime 200 000 postes publics en 5 ans sans crise budgetaire majeure.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "RGPP Sarkozy 2007-2012: 150 000 postes, 6 Md EUR nets, bilan contraste (Cour des comptes)"
+      },
+      "feasibility": {
+        "overall": 0.31,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.2,
+          0.42
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_004",
+      "raw_text": "Supprimer la Contribution Sociale de Solidarite des Societes (C3S), soit un allegement de 3 milliards d'euros pour les entreprises",
+      "theme": "economie",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/supprimer-la-contribution-sociale-de-solidarite-des-entreprises/",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.85,
+        "justification": "Cout direct et bien chiffre: 3 Md EUR/an de recettes en moins pour la Securite sociale. Dans un contexte de deficit de la Secu de -22 Md EUR (LFSS 2025), cette suppression aggraverait le deficit de 14% supplementaires. Pas de source de financement identifiee. Incompatible avec le PSMT sans compensation. La mesure vise a ameliorer la competitivite des entreprises, mais l'effet dynamique est incertain.",
+        "cout_estime_eur": 3000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.85,
+        "justification": "Vehicule legislatif standard: LFSS pour supprimer une contribution sociale. Pas de risque CC (suppression d'un impot, pas de rupture d'egalite). Le Senat LR serait favorable. A l'AN, mesure potentiellement soutenue par Ensemble et RN (favorables aux baisses d'impots de production). Precedent: suppression partielle de la CVAE sous Macron.",
+        "vehicule_legislatif": "LFSS ou LFI",
+        "risque_censure_cc": "tres faible",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.5,
+        "score_impact": 0.45,
+        "confidence": 0.65,
+        "justification": "Mesure peu visible pour le grand public (impot sur les entreprises). Soutenue par les organisations patronales (MEDEF, CPME). Opposition de la gauche et des syndicats qui y verront un 'cadeau aux entreprises' sans contrepartie. Impact economique incertain: la C3S est un impot de production penalisant la competitivite, sa suppression pourrait favoriser l'investissement, mais l'effet emploi est difficilement mesurable.",
+        "opposition_sociale": "moderee (gauche, syndicats)"
+      },
+      "factcheck": {
+        "score": 0.75,
+        "confidence": 0.9,
+        "justification": "Le montant de 3 Md EUR correspond bien au rendement de la C3S (donne fiable). La suppression de la C3S etait deja discutee sous Hollande puis Macron dans le cadre de la reduction des impots de production. L'IFRAP et l'Institut Montaigne confirment le chiffrage. L'argument de competitivite est etaye par les comparaisons europeennes (la France a les impots de production les plus eleves de la zone euro).",
+        "verdict_global": "chiffrage exact, impact economique reel mais pas de financement"
+      },
+      "historique": {
+        "score": 0.65,
+        "confidence": 0.8,
+        "justification": "Precedents: suppression progressive de la CVAE (Macron 2022-2027), suppression de la taxe professionnelle (Sarkozy 2010). Ces reformes ont ete menees a bien mais sur plusieurs annees. La suppression de la C3S est techniquement plus simple (un seul impot, un seul acte legislatif). Delai realiste: 6-12 mois.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Suppression CVAE (Macron 2022-2027) et taxe professionnelle (Sarkozy 2010)"
+      },
+      "feasibility": {
+        "overall": 0.55,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.43,
+          0.67
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_005",
+      "raw_text": "Creer des quotas d'immigration par metier et par pays, votes chaque annee par le Parlement via une loi constitutionnelle",
+      "theme": "immigration",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/creer-des-quotas-dimmigration-par-metier-et-par-pays-votes-chaque-annee-par-le-parlement-par-une-loi-constitutionnelle/",
+      "budget": {
+        "score": 0.6,
+        "confidence": 0.5,
+        "justification": "Cout budgetaire direct faible (organisation administrative des quotas). Cout indirect potentiel: revision constitutionnelle, adaptation des services consulaires. Impact sur les recettes de cotisations sociales incertain (reduction de l'immigration de travail pourrait reduire les cotisations). Le chiffrage des economies liees a l'immigration est tres contestable (l'IFRAP et Montaigne notent une credibilite 'low' pour ce type d'economies).",
+        "cout_estime_eur": null,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.15,
+        "confidence": 0.85,
+        "justification": "CONTRAINTE MAJEURE: necessite une revision constitutionnelle (Art. 89). Le Senat LR serait favorable mais il faut les 3/5 du Congres ou un referendum. Le referendum est risque politiquement (dernier referendum: 2005, echec). Des quotas par pays seraient contraires au droit de l'UE (liberte de circulation pour les ressortissants UE, principe de non-discrimination). La Decision CC 2024-863 DC (loi immigration) a censure 32 articles sur 86 pour atteinte aux droits fondamentaux. La CJUE pourrait sanctionner des quotas discriminatoires par pays.",
+        "vehicule_legislatif": "Revision constitutionnelle (Art. 89) + referendum ou Congres 3/5",
+        "risque_censure_cc": "eleve (discrimination par pays)",
+        "conflit_droit_ue": "oui (libre circulation, non-discrimination, droit d'asile)"
+      },
+      "social": {
+        "score_acceptabilite": 0.6,
+        "score_impact": 0.4,
+        "confidence": 0.6,
+        "justification": "Soutien majoritaire dans l'opinion publique pour un controle accru de l'immigration. Cependant, les quotas par pays seraient vus comme discriminatoires par une partie de la population et les associations. L'impact reel sur les flux migratoires est incertain: les quotas ne s'appliquent pas a l'asile (Convention de Geneve) ni aux ressortissants UE.",
+        "opposition_sociale": "divisee (soutien populaire large, opposition associative et syndicale)"
+      },
+      "factcheck": {
+        "score": 0.4,
+        "confidence": 0.75,
+        "justification": "Les systemes de quotas existent dans d'autres pays (Canada, Australie) mais ne sont pas comparables au contexte UE francais. Le droit europeen (directive 2003/86/CE regroupement familial, directive 2003/109/CE residents longue duree) impose des obligations que des quotas nationaux ne peuvent contourner sans sortie du cadre juridique europeen. Les quotas par pays sont sans precedent en droit europeen et poseraient un probleme de compatibilite avec la CEDH.",
+        "verdict_global": "objectif populaire mais juridiquement quasi-impossible sans sortie du cadre UE"
+      },
+      "historique": {
+        "score": 0.2,
+        "confidence": 0.8,
+        "justification": "Aucune revision constitutionnelle reussie depuis 2008. La loi immigration 2024 a ete massivement censuree par le CC (32 articles sur 86). Les quotas d'immigration par pays n'ont jamais ete mis en oeuvre en France ni dans aucun pays de l'UE. Le systeme canadien de points (souvent cite en reference) fonctionne dans un cadre juridique tres different (pas de droit d'asile europeen, pas de libre circulation).",
+        "delai_realiste_mois": 48,
+        "precedent_principal": "Loi immigration 2024 censuree (32/86 articles). Aucune revision constitutionnelle depuis 2008."
+      },
+      "feasibility": {
+        "overall": 0.28,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.15,
+          0.41
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_006",
+      "raw_text": "Diviser par trois le regroupement familial en conditionnant l'acces aux quotas annuels votes par le Parlement",
+      "theme": "immigration",
+      "source_url": "https://valeriepecresse.fr/projet/immigration/",
+      "budget": {
+        "score": 0.6,
+        "confidence": 0.5,
+        "justification": "Impact budgetaire marginal a court terme. Le regroupement familial represente ~30 000 titres/an. Sa reduction genererait des economies limitees sur les prestations sociales. Les economies liees a la reduction de l'immigration sont jugees non chiffrables et de faible credibilite par Montaigne et l'IFRAP.",
+        "cout_estime_eur": null,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.15,
+        "confidence": 0.85,
+        "justification": "Le regroupement familial est protege par le droit europeen (directive 2003/86/CE) et par le droit constitutionnel francais (droit de mener une vie familiale normale, principe a valeur constitutionnelle). La Decision CC 2024-863 DC a censure des dispositions limitant le regroupement familial. Diviser par 3 le regroupement familial serait presque certainement censure par le CC et/ou contraire a la directive europeenne. Necessite une revision constitutionnelle ET une renegociation europeenne.",
+        "vehicule_legislatif": "Revision constitutionnelle + renegociation directive UE 2003/86/CE",
+        "risque_censure_cc": "tres eleve (droit a la vie familiale)",
+        "conflit_droit_ue": "oui (directive 2003/86/CE regroupement familial)"
+      },
+      "social": {
+        "score_acceptabilite": 0.55,
+        "score_impact": 0.35,
+        "confidence": 0.6,
+        "justification": "Mesure soutenue par une partie de l'opinion publique favorable a la reduction de l'immigration. Opposition forte des associations humanitaires, du Defenseur des droits, et de la gauche. Impact humain significatif: separation de familles. Impact economique marginal.",
+        "opposition_sociale": "divisee (soutien populaire, opposition associative forte)"
+      },
+      "factcheck": {
+        "score": 0.35,
+        "confidence": 0.75,
+        "justification": "Le regroupement familial en France concerne environ 30 000 titres/an (source: ministere de l'Interieur). Le diviser par 3 impliquerait de le ramener a ~10 000. Les conditions actuelles (18 mois de sejour regulier, logement adapte, ressources stables) sont deja parmi les plus strictes de l'UE. L'affirmation que cette mesure genererait des economies significatives n'est pas etayee par les chiffrages independants.",
+        "verdict_global": "objectif chiffre mais juridiquement intenable en l'etat du droit"
+      },
+      "historique": {
+        "score": 0.15,
+        "confidence": 0.8,
+        "justification": "Aucun pays de l'UE n'a reussi a diviser par 3 le regroupement familial tout en respectant la directive 2003/86/CE. Les tentatives de restriction massives ont ete censurees par les juridictions nationales et europeennes (CJUE, CEDH). La loi immigration 2024 a montre les limites constitutionnelles de la restriction du regroupement familial.",
+        "delai_realiste_mois": 48,
+        "precedent_principal": "Loi immigration 2024: censure CC des dispositions restrictives sur le regroupement familial"
+      },
+      "feasibility": {
+        "overall": 0.25,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.12,
+          0.38
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_007",
+      "raw_text": "Ouvrir 20 000 places de prison supplementaires et renover les prisons existantes",
+      "theme": "securite",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/ouvrir-20-000-places-de-prison-supplementaires-et-renover-les-prisons-deja-baties/",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "Cout d'investissement estime a 4-6 Md EUR pour la construction (200 000-300 000 EUR/place de prison). Cout de fonctionnement additionnel de 600-900 M EUR/an (30 000-45 000 EUR/detenu/an). L'ensemble s'inscrit dans le plan ORSEC justice a 9 Md EUR (pecresse_008). Le budget actuel de la mission Justice est de 10.2 Md EUR. Doubler quasi la capacite penitentiaire represente un effort budgetaire colossal, difficilement compatible avec le PSMT.",
+        "cout_estime_eur": 5000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.65,
+        "confidence": 0.75,
+        "justification": "Pas d'obstacle constitutionnel a la construction de prisons. Vehicule: loi de programmation + lois de finances annuelles. Le Senat LR serait favorable. Consensus transpartisan possible a l'AN sur le renforcement penitentiaire (sauf gauche radicale). Les difficultes sont surtout administratives (foncier, permis de construire, opposition locale - syndrome NIMBY).",
+        "vehicule_legislatif": "Loi de programmation pour la justice + LFI",
+        "risque_censure_cc": "tres faible",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.55,
+        "score_impact": 0.4,
+        "confidence": 0.65,
+        "justification": "Soutien majoritaire dans l'opinion pour la construction de prisons (surpopulation carcerale reconnue comme probleme). Opposition locale forte (NIMBY) pour chaque projet de construction. Les associations de defense des droits des detenus soutiennent le desengorgement mais privilegient les alternatives a l'incarceration. L'impact sur la securite est debattu: la correlation prison/baisse de la criminalite n'est pas etablie.",
+        "opposition_sociale": "moderee (NIMBY local, associations pour peines alternatives)"
+      },
+      "factcheck": {
+        "score": 0.45,
+        "confidence": 0.75,
+        "justification": "Le parc penitentiaire compte ~60 000 places pour ~73 000 detenus (surpopulation de ~120%). 20 000 places supplementaires representeraient un tiers du parc actuel. Le plan 15 000 places de Macron (2018-2027) a pris un retard considerable: seules ~2 500 places effectivement livrees en 5 ans. L'objectif de 20 000 places en un quinquennat est donc tres ambitieux au regard des precedents. Les delais de construction penitentiaire sont de 5-8 ans par etablissement.",
+        "verdict_global": "objectif desirable mais historiquement jamais atteint, delais sous-estimes"
+      },
+      "historique": {
+        "score": 0.2,
+        "confidence": 0.85,
+        "justification": "Le plan 15 000 places de Macron (2018) n'a livre que ~2 500 places en 5 ans. Le programme de construction penitentiaire de Sarkozy a egalement pris du retard. La construction de prisons prend 5-8 ans par etablissement (etudes, foncier, permis, construction). Aucun pays europeen comparable n'a construit 20 000 places de prison en 5 ans. Le Royaume-Uni, souvent cite, a mis 10 ans pour construire 20 000 places.",
+        "delai_realiste_mois": 96,
+        "precedent_principal": "Plan 15 000 places Macron: 2 500 livrees en 5 ans (retard massif)"
+      },
+      "feasibility": {
+        "overall": 0.32,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.2,
+          0.44
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_008",
+      "raw_text": "Mettre en place un plan ORSEC pour la justice: augmenter de 50% les moyens des tribunaux avec 9 milliards d'euros et recruter 16 000 juges, procureurs et greffiers",
+      "theme": "securite",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/mettre-en-place-un-plan-orsec-pour-la-justice-9-milliards-deuros-pour-les-tribunaux-et-les-prisons/",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.75,
+        "justification": "9 Md EUR sur le quinquennat (1.8 Md/an) represente une hausse de ~18% du budget annuel de la Justice (10.2 Md). Recruter 16 000 magistrats et greffiers ajouterait ~800 M-1 Md EUR/an en masse salariale perenne. L'Institut Montaigne estime le cout a 8.8 Md EUR annuels (chiffrage different car incluant prisons + fonctionnement). Mesure tres couteuse, difficilement compatible avec le PSMT sans coupes majeures ailleurs.",
+        "cout_estime_eur": 9000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.8,
+        "justification": "Vehicule standard: loi de programmation pour la justice + lois de finances. Pas de risque CC. Consensus transpartisan fort sur le sous-financement de la justice. Le Senat LR et l'AN (toutes tendances sauf economies) soutiendraient. La difficulte est budgetaire, pas juridique.",
+        "vehicule_legislatif": "Loi de programmation pluriannuelle de la justice + LFI",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.7,
+        "confidence": 0.75,
+        "justification": "Large consensus sur le sous-financement de la justice francaise (derniere de l'UE en depenses par habitant). Les magistrats, greffiers et avocats soutiennent. L'opinion publique est favorable a une justice plus rapide et efficace. Impact potentiellement tres positif sur les delais de jugement (actuellement 12-18 mois en moyenne). L'enjeu est le financement, pas l'acceptabilite.",
+        "opposition_sociale": "tres faible (consensus transpartisan)"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "La France est effectivement l'un des pays d'Europe qui depense le moins pour sa justice (72 EUR/habitant contre 120 EUR en Allemagne, source CEPEJ). Recruter 16 000 personnels de justice est ambitieux: la formation d'un magistrat dure 31 mois (ENM). Le flux annuel de l'ENM est de ~300-400 auditeurs. Il faudrait multiplier par 8-10 les promotions, ce qui est physiquement impossible sans reforme de la formation.",
+        "verdict_global": "diagnostic correct, objectif chiffre coherent mais rythme de recrutement irealiste"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.8,
+        "justification": "La loi de programmation pour la justice 2023-2027 prevoyait deja +1 500 magistrats et 1 800 greffiers. Les ecoles de formation (ENM, ENG) ont des capacites limitees. Aucun plan de recrutement de cette ampleur n'a jamais ete realise en France. Les Etats generaux de la justice (2022) ont recommande un rattrapage budgetaire progressif, pas un choc de 9 Md EUR.",
+        "delai_realiste_mois": 72,
+        "precedent_principal": "Loi de programmation justice 2023-2027: +1 500 magistrats prevus, rythme deja tendu"
+      },
+      "feasibility": {
+        "overall": 0.39,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.27,
+          0.51
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_009",
+      "raw_text": "Construire 6 nouveaux reacteurs EPR dans le cadre d'un plan de relance gaullien pour le nucleaire, et relancer le programme Astrid de recherche sur la 4e generation",
+      "theme": "environnement",
+      "source_url": "https://www.franceinfo.fr/elections/presidentielle/candidats/presidentielle-2022-valerie-pecresse-veut-un-plan-de-relance-gaullien-pour-le-nucleaire_4934017.html",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.65,
+        "justification": "Le cout d'un EPR est estime a 13-20 Md EUR unitaire (Flamanville a coute ~19 Md EUR apres depassements). Six EPR representeraient 50-80 Md EUR d'investissement total. Macron a annonce un plan similaire (6 EPR2) avec un cout estime a 52 Md EUR. Le financement passe par EDF (detenue a 100% par l'Etat), les marches financiers, et potentiellement des garanties d'Etat. Le programme Astrid (4e generation) avait ete arrete en 2019 pour des raisons de cout. L'impact sur les finances publiques est differe (investissement sur 15-20 ans).",
+        "cout_estime_eur": 52000000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.65,
+        "confidence": 0.75,
+        "justification": "Pas d'obstacle constitutionnel. Vehicule: loi de programmation energetique + decrets d'autorisation de l'ASN. Le nucleaire est soutenu par un consensus transpartisan (sauf EELV). Le Senat LR et une majorite AN (LR + Ensemble + RN) soutiendraient. Les procedures ASN et les enquetes publiques sont longues mais ne constituent pas un blocage juridique. Compatibilite UE: le nucleaire est inclus dans la taxonomie verte europeenne.",
+        "vehicule_legislatif": "Loi de programmation energetique + decrets ASN",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": "non (taxonomie verte UE inclut le nucleaire)"
+      },
+      "social": {
+        "score_acceptabilite": 0.6,
+        "score_impact": 0.65,
+        "confidence": 0.65,
+        "justification": "Le nucleaire beneficie d'un soutien majoritaire dans l'opinion francaise (55-60% selon sondages recurrents). Opposition forte d'EELV et des associations antinucleaires. Opposition locale possible pour les sites de construction (NIMBY). Impact positif sur la decarbonation du mix energetique et l'independance energetique. Creation d'emplois qualifies dans la filiere industrielle.",
+        "opposition_sociale": "moderee (ecologistes, opposition locale)"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "L'objectif de 6 EPR est coherent avec le plan annonce par Macron en fevrier 2022 (6 EPR2 + 8 en option). Le cout de Flamanville (19 Md EUR, 12 ans de retard) montre les risques de depassement. La filiere EPR2 est theoriquement plus standardisee. Le programme Astrid a ete arrete en 2019 en raison de couts eleves et de la disponibilite suffisante d'uranium. La mise en service du premier reacteur ne pourrait pas intervenir avant 2035-2037 au plus tot.",
+        "verdict_global": "objectif coherent avec la politique actuelle, mais delais et couts systematiquement sous-estimes"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.75,
+        "justification": "Precedent: programme nucleaire francais des annees 1970-1990 (58 reacteurs en 20 ans). Mais la filiere industrielle a perdu des competences depuis (dernier reacteur commande en 1991). Flamanville EPR: 12 ans de retard, cout triple. Olkiluoto (Finlande) et Hinkley Point C (UK): memes problemes. Le programme EPR2 de Macron est en cours mais aucun chantier n'a demarre fin 2025.",
+        "delai_realiste_mois": 180,
+        "precedent_principal": "Flamanville EPR: 12 ans de retard, 19 Md EUR (cout initial: 3.4 Md). Programme historique 1970-1990 reussi mais contexte different."
+      },
+      "feasibility": {
+        "overall": 0.5,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.37,
+          0.63
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_010",
+      "raw_text": "Construire 500 000 logements par an dont 125 000 logements sociaux",
+      "theme": "logement",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/construire-500-000-logements-sociaux/",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.6,
+        "justification": "Le financement du logement social passe par Action Logement, la CDC, les bailleurs sociaux et les aides de l'Etat (APL, exonerations). Atteindre 500 000 logements/an necessiterait des aides publiques massives (exonerations de TVA, foncier, garanties). Le budget logement de l'Etat (mission Cohesion des territoires) est de 20.5 Md EUR. L'objectif est hors de portee sans mobilisation financiere extraordinaire. La construction a chute a ~300 000 logements/an en 2023-2024.",
+        "cout_estime_eur": null,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.65,
+        "justification": "Pas d'obstacle constitutionnel direct. Vehicules multiples: lois de finances (aides), lois urbanisme (simplification permis), decrets. La loi SRU impose deja 25% de logements sociaux. Le probleme est moins juridique que pratique: foncier rare, couts de construction en hausse, normes environnementales contraignantes. Le ZAN (zero artificialisation nette) limite les terrains disponibles.",
+        "vehicule_legislatif": "Lois de finances + loi urbanisme/logement",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.65,
+        "confidence": 0.65,
+        "justification": "Forte attente sociale pour le logement (crise du logement, hausse des loyers, difficultes d'acces). L'objectif de 500 000 logements repond a un besoin reel. Opposition potentielle des riverains (NIMBY) et des ecologistes (artificialisation). Impact positif sur l'emploi dans le BTP et sur l'acces au logement des classes moyennes et populaires.",
+        "opposition_sociale": "moderee (ecologistes, riverains)"
+      },
+      "factcheck": {
+        "score": 0.25,
+        "confidence": 0.85,
+        "justification": "L'objectif de 500 000 logements/an est un 'marronnier' politique: promis par Hollande (2012), jamais atteint. Le pic de construction en France a ete atteint en 2017 avec ~430 000 logements commences. En 2023-2024, la construction est tombee a ~300 000 logements/an. Le secteur fait face a des contraintes structurelles: cout du foncier, normes RE2020, hausse des taux d'interet, rarete de la main d'oeuvre dans le BTP. L'objectif de 125 000 logements sociaux/an n'a jamais ete atteint (record: ~110 000 en 2017).",
+        "verdict_global": "objectif jamais atteint historiquement, contraintes structurelles majeures"
+      },
+      "historique": {
+        "score": 0.15,
+        "confidence": 0.9,
+        "justification": "Promesse recurrente: Hollande (500 000 logements), Macron (amelioration implicite). Jamais atteint. Le pic est de ~430 000 (2017). La construction de logements sociaux a atteint un maximum de ~110 000/an. Les contraintes foncières, normatives et financieres rendent cet objectif structurellement inatteignable a court terme.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Promesse Hollande 2012: 500 000 logements/an, jamais atteint (pic 430 000 en 2017)"
+      },
+      "feasibility": {
+        "overall": 0.28,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.16,
+          0.4
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_011",
+      "raw_text": "Creer un revenu jeune actif de 670 euros par mois pour les jeunes de 18-25 ans souhaitant se former dans les metiers en tension",
+      "theme": "emploi",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/creer-un-revenu-jeune-actif-dun-montant-de-670-euros-pour-les-jeunes-souhaitant-se-former-dans-les-metiers-qui-recrutent/",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.6,
+        "justification": "Le cout depend du nombre de beneficiaires. Si 200 000 jeunes en beneficient: ~1.6 Md EUR/an. Si 500 000: ~4 Md EUR/an. Le montant de 670 EUR/mois est proche du RSA (607 EUR). Le financement pourrait provenir de la reforme de l'assurance chomage et des economies sur les dispositifs existants (Garantie Jeunes transformee en CEJ). Le budget Travail et emploi est de 20.7 Md EUR. Mesure couteuse mais potentiellement compensee par le retour a l'emploi des beneficiaires.",
+        "cout_estime_eur": 2000000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.8,
+        "justification": "Vehicule standard: loi ordinaire ou decret (reforme des dispositifs d'insertion professionnelle). Pas de risque CC. Le Contrat d'Engagement Jeune (CEJ) de Macron est un precedent juridique direct. Le conditionnement a la formation dans les metiers en tension est juridiquement valide. Soutien transpartisan previsible.",
+        "vehicule_legislatif": "Loi ordinaire ou decret",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.6,
+        "confidence": 0.7,
+        "justification": "Mesure populaire aupres des jeunes et des familles. Le conditionnement a la formation dans les metiers en tension est politiquement habile (evite la critique du 'RSA jeunes'). Impact potentiellement positif sur l'emploi des jeunes et la resolution des penuries de main d'oeuvre dans les metiers en tension (BTP, sante, numerique). Risque d'effet d'aubaine limite.",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "Le montant de 670 EUR/mois est coherent avec les dispositifs existants (CEJ: ~500 EUR, RSA: 607 EUR). Les metiers en tension sont identifies par France Travail (ex-Pole Emploi). Le dispositif est techniquement faisable. L'incertitude porte sur le nombre de beneficiaires et l'efficacite reelle sur le retour a l'emploi. Le CEJ de Macron a montre des resultats 'deja positifs' selon le comite d'evaluation (loi plein emploi).",
+        "verdict_global": "mesure coherente et chiffrable, efficacite dependante de la mise en oeuvre"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "Precedents: Garantie Jeunes (2013-2022, transformee en CEJ), Contrat d'Engagement Jeune (2022-present). Ces dispositifs ont montre des resultats positifs mais limites sur le retour a l'emploi. Le ciblage sur les metiers en tension est un ajout pertinent. Delai de mise en oeuvre: 6-12 mois (infrastructure France Travail existante).",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Contrat d'Engagement Jeune (2022): dispositif similaire, resultats en cours d'evaluation"
+      },
+      "feasibility": {
+        "overall": 0.57,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.45,
+          0.69
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_012",
+      "raw_text": "Creer 10 000 nouveaux postes d'enseignants et augmenter les heures dediees au francais et aux mathematiques a l'ecole primaire",
+      "theme": "education",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/creer-10-000-nouveaux-postes-denseignants/",
+      "budget": {
+        "score": 0.35,
+        "confidence": 0.75,
+        "justification": "L'Institut Montaigne estime le cout a 5.4 Md EUR/an (incluant probablement la revalorisation salariale). Le budget enseignement scolaire est de 64.5 Md EUR. 10 000 postes representeraient ~400-500 M EUR/an en masse salariale brute (cout moyen enseignant: 40 000-50 000 EUR charges). Le chiffrage Montaigne de 5.4 Md semble inclure des mesures connexes (revalorisation). Mesure couteuse dans un contexte de PSMT contraint.",
+        "cout_estime_eur": 5400000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.85,
+        "justification": "Vehicule standard: loi de finances (creation de postes). L'augmentation des heures de francais et maths releve du pouvoir reglementaire du ministre (programmes scolaires). Pas de risque CC. Consensus transpartisan fort sur le renforcement des fondamentaux. Le Senat LR et l'AN soutiendraient largement.",
+        "vehicule_legislatif": "LFI (postes) + arrete ministeriel (programmes)",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.65,
+        "confidence": 0.75,
+        "justification": "Mesure tres populaire. Les parents et les enseignants soutiennent le renforcement des fondamentaux. Les syndicats enseignants soutiendraient les creations de postes. Le recentrage sur francais et maths pourrait susciter des reservations des enseignants d'autres matieres. Impact positif demontrable: les evaluations nationales montrent une baisse du niveau en francais et maths.",
+        "opposition_sociale": "tres faible"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "Le diagnostic est fonde: les evaluations PISA et nationales montrent une baisse du niveau en lecture et mathematiques. Les effectifs de l'Education nationale (~870 000 enseignants) permettraient d'absorber 10 000 postes supplementaires. La difficulte est le recrutement: les concours de l'Education nationale peinent a pourvoir tous les postes ouverts (deficit de candidats). Le vivier de candidats est insuffisant, surtout en mathematiques.",
+        "verdict_global": "diagnostic correct, financement couteux, difficulte de recrutement reelle"
+      },
+      "historique": {
+        "score": 0.5,
+        "confidence": 0.8,
+        "justification": "Precedent: Hollande avait promis 60 000 postes dans l'Education en 2012, objectif globalement atteint mais au prix de recrutements de moindre qualite. Macron a promis le dedoublement des classes (CP/CE1 en REP), effectivement realise. Les creations de postes sont faisables si le budget suit. Le delai depend du rythme des concours.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "60 000 postes Hollande (2012-2017): objectif atteint. Dedoublement CP/CE1 Macron: realise."
+      },
+      "feasibility": {
+        "overall": 0.53,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.41,
+          0.65
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_013",
+      "raw_text": "Creer une reserve educative nationale composee de professeurs retraites et etudiants pour du soutien scolaire gratuit",
+      "theme": "education",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/creer-une-reserve-educative-nationale-avec-les-professeurs-retraites-et-les-etudiants-pour-du-soutien-scolaire-gratuit/",
+      "budget": {
+        "score": 0.65,
+        "confidence": 0.55,
+        "justification": "Cout relativement modeste par rapport aux autres mesures. Indemnisation des reservistes (professeurs retraites, etudiants): 100-300 M EUR/an selon l'ampleur. Cout de coordination administrative. Compatible avec le PSMT si l'echelle reste limitee. Financement possible via le budget Education nationale (64.5 Md EUR).",
+        "cout_estime_eur": 200000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.8,
+        "confidence": 0.85,
+        "justification": "Vehicule simple: decret ou arrete ministeriel. La reserve civique existe deja (loi Egalite et Citoyennete 2017). Il suffit de creer une branche 'education' de la reserve civique. Pas de risque CC. Pas de conflit UE. Consensus transpartisan total.",
+        "vehicule_legislatif": "Decret ou arrete ministeriel",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.5,
+        "confidence": 0.65,
+        "justification": "Mesure consensuelle. Soutien large des parents, enseignants retraites, etudiants. Impact reel dependant du taux de participation effectif. Les professeurs retraites sont souvent sollicites mais leur mobilisation a grande echelle est incertaine. Les etudiants beneficieraient d'une indemnisation (revenus complementaires). Impact modeste sur la reduction des inegalites scolaires si l'echelle reste limitee.",
+        "opposition_sociale": "quasi-nulle"
+      },
+      "factcheck": {
+        "score": 0.65,
+        "confidence": 0.65,
+        "justification": "Le concept de reserve educative existe dans d'autres pays (Teach First au Royaume-Uni, City Year aux USA). En France, le service civique inclut deja des missions d'accompagnement scolaire. Le dispositif 'Devoirs faits' (college) mobilise deja des etudiants. La valeur ajoutee d'une 'reserve nationale' par rapport aux dispositifs existants est incertaine.",
+        "verdict_global": "mesure faisable mais valeur ajoutee incertaine par rapport a l'existant"
+      },
+      "historique": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "Precedents: Service civique (depuis 2010), Devoirs faits (2017), reserve civique (2017). Ces dispositifs montrent que la mobilisation de benevoles/indemnises pour l'education est possible mais limitee en echelle. Le tutorat par les pairs (etudiants) a des resultats positifs selon les evaluations (effet significatif mais modeste). Delai de mise en oeuvre court.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Devoirs faits (2017) et Service civique: mobilisation effective mais echelle limitee"
+      },
+      "feasibility": {
+        "overall": 0.65,
+        "label": "Faisable",
+        "ci_95": [
+          0.53,
+          0.77
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_014",
+      "raw_text": "Attribuer des allocations familiales de 900 euros par an (75 euros/mois) des le premier enfant, versees jusqu'a sa majorite (prime a la natalite)",
+      "theme": "economie",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/attribuer-des-allocations-familiales-dun-montant-de-900-e-par-an-des-le-premier-enfant/",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "La France compte environ 7.5 millions de familles avec enfants dont un premier enfant n'ouvrant actuellement pas droit aux allocations familiales (qui commencent au 2e enfant). Cout estime: 3-5 Md EUR/an selon le nombre de beneficiaires. La branche Famille de la Secu est traditionnellement excedentaire, ce qui offre une marge. Cependant, dans un contexte de deficit global de la Secu (-22 Md), cette depense supplementaire est difficile a justifier. Pas de source de financement identifiee.",
+        "cout_estime_eur": 4000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.85,
+        "justification": "Vehicule standard: LFSS. Extension des allocations familiales au premier enfant = modification du Code de la securite sociale. Pas de risque CC (mesure favorable aux familles, pas de rupture d'egalite). Le Senat LR serait favorable (politique familiale traditionnelle LR). Soutien transpartisan probable a l'AN.",
+        "vehicule_legislatif": "LFSS",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.55,
+        "confidence": 0.75,
+        "justification": "Mesure tres populaire aupres des familles. Le montant de 75 EUR/mois est modeste mais symboliquement fort (allocations des le 1er enfant). Impact sur la natalite incertain: les etudes montrent que les allocations familiales ont un effet marginal sur la fecondite. Impact redistributif modere (900 EUR/an = 2.5 EUR/jour). Soutien large de la droite, du centre et d'une partie de la gauche.",
+        "opposition_sociale": "tres faible"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "L'effet des allocations familiales sur la natalite est debattu dans la litterature economique. L'INSEE note que la fecondite francaise baisse depuis 2014 (1.68 enfant/femme en 2023 contre 2.00 en 2012). Les politiques natalistes ont un effet marginal et differe. Le chiffrage de 900 EUR/an est modeste et l'impact demographique serait probablement negligeable. En revanche, l'impact sur le pouvoir d'achat des familles est reel mais limite.",
+        "verdict_global": "mesure faisable techniquement, impact nataliste non demontre"
+      },
+      "historique": {
+        "score": 0.65,
+        "confidence": 0.75,
+        "justification": "La France a une longue tradition de politique familiale. Les allocations familiales existent depuis 1945. L'extension au premier enfant a ete debattue a de nombreuses reprises. Le complement de libre choix du mode de garde (PAJE) couvre deja les jeunes enfants. Plusieurs pays (Allemagne, Suede) versent des allocations des le 1er enfant. Delai de mise en oeuvre court (modification des systemes CAF).",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Politique familiale francaise (depuis 1945), Kindergeld allemand (des le 1er enfant)"
+      },
+      "feasibility": {
+        "overall": 0.55,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.43,
+          0.67
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_015",
+      "raw_text": "Reformer l'assurance chomage avec un retrait progressif des allocations au bout de 3 refus d'offre d'emploi",
+      "theme": "emploi",
+      "source_url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/reformer-lassurance-chomage-avec-un-retrait-progressif-des-allocations-au-bout-de-3-refus-doffre-demploi/",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.55,
+        "justification": "Economies potentielles de 1-3 Md EUR/an selon l'IFRAP (RSA conditionne + reforme chomage = 3 Md). Cependant, la reforme chomage 2019-2021 a montre des 'resultats limites' selon son comite d'evaluation. Les economies reelles dependent du nombre de sanctions effectivement appliquees. L'experience montre que les conseillers France Travail sont reticents a sanctionner. Compatible avec le PSMT.",
+        "cout_estime_eur": -2000000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.6,
+        "confidence": 0.75,
+        "justification": "La reforme peut etre faite par decret (voie reglementaire, comme la reforme chomage 2019). Le critere des '3 refus d'offre raisonnable' existe deja dans le Code du travail (art. L5412-1). Le renforcement de la sanction est juridiquement possible. Risque CC: le retrait 'progressif' doit respecter le droit a un minimum vital (principe constitutionnel de dignite humaine). Le CC pourrait censurer un retrait total.",
+        "vehicule_legislatif": "Decret (voie reglementaire)",
+        "risque_censure_cc": "modere (droit a un minimum vital)",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.5,
+        "score_impact": 0.4,
+        "confidence": 0.7,
+        "justification": "Opinion publique divisee: une majorite soutient le principe de contrepartie, mais les syndicats et la gauche s'opposent au durcissement. La reforme chomage 2019 a fait l'objet d'une contestation sociale 'forte'. L'impact sur le retour a l'emploi est debattu: les etudes internationales montrent que les sanctions augmentent la sortie du chomage mais vers des emplois de moindre qualite.",
+        "opposition_sociale": "moderee a forte (syndicats, associations de chomeurs)"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.7,
+        "justification": "Le mecanisme de radiation apres refus existe deja. En pratique, les sanctions sont rarement appliquees (moins de 50 000 radiations/an pour 6 millions d'inscrits). Le comite d'evaluation de la reforme 2019-2021 note que 'demandeurs d'emploi et employeurs ont une connaissance limitee des nouvelles regles'. L'efficacite comportementale d'un renforcement est donc incertaine. L'IFRAP estime les economies a 3 Md EUR, mais ce chiffre inclut le RSA conditionne.",
+        "verdict_global": "mecanisme existant, renforcement possible mais economies surestimees"
+      },
+      "historique": {
+        "score": 0.5,
+        "confidence": 0.8,
+        "justification": "Precedent direct: reforme assurance chomage 2019-2021 (durcissement conditions, degressivite hauts revenus, bonus-malus). Resultats 'limites' selon le comite d'evaluation. La loi plein emploi 2023 (France Travail) renforce deja le conditionnement du RSA. Le Royaume-Uni (sanctions strictes) et le Danemark ('flexicurite') offrent des modeles contrastes.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Reforme assurance chomage 2019-2021: resultats limites (comite d'evaluation)"
+      },
+      "feasibility": {
+        "overall": 0.5,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.38,
+          0.62
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_016",
+      "raw_text": "Supprimer l'Aide Medicale d'Etat (AME) et la remplacer par une aide limitee aux soins d'urgence et maladies contagieuses",
+      "theme": "immigration",
+      "source_url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-valerie-pecresse",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.7,
+        "justification": "L'AME coute environ 1.2 Md EUR/an. L'Institut Montaigne estime l'economie a 1.1 Md EUR (Le Pen, mesure similaire). Cependant, la restriction aux soins d'urgence pourrait augmenter les couts hospitaliers d'urgence (les pathologies non traitees en amont se degradent et necessitent des soins plus couteux). L'Academie de medecine et l'IGAS ont alerte sur ce risque de transfert de couts. Economie nette incertaine.",
+        "cout_estime_eur": -1100000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.35,
+        "confidence": 0.8,
+        "justification": "Le CC a censure des dispositions de la loi immigration 2024 portant atteinte aux droits fondamentaux des etrangers (Decision 2024-863 DC). La suppression de l'AME pourrait etre censuree au titre du droit a la protection de la sante (alinea 11 du Preambule de 1946). Le CC considere que ce droit s'applique a toute personne sur le territoire francais, y compris en situation irreguliere. La CEDH (art. 3, prohibition des traitements inhumains) pourrait egalement etre invoquee. Vehicule: LFSS, mais risque de censure eleve.",
+        "vehicule_legislatif": "LFSS",
+        "risque_censure_cc": "eleve (droit a la protection de la sante)",
+        "conflit_droit_ue": "risque CEDH (art. 3)"
+      },
+      "social": {
+        "score_acceptabilite": 0.55,
+        "score_impact": 0.25,
+        "confidence": 0.75,
+        "justification": "Opinion divisee: soutien populaire pour la suppression de l'AME, opposition forte du corps medical (Academie de medecine, syndicats de medecins), des associations humanitaires (MSF, MDM) et de la gauche. L'impact sanitaire serait negatif: augmentation du recours aux urgences (plus couteux), risque de propagation de maladies contagieuses non traitees, degradation de la sante publique. Impact humain direct sur ~400 000 beneficiaires.",
+        "opposition_sociale": "forte (corps medical, associations humanitaires, gauche)"
+      },
+      "factcheck": {
+        "score": 0.45,
+        "confidence": 0.75,
+        "justification": "Le cout de l'AME (1.2 Md EUR) est exact. L'argument de l'economie nette est conteste: l'IGAS (2019) a montre que la suppression de l'AME engendrerait des surcouts hospitaliers significatifs (soins d'urgence plus couteux que soins preventifs). L'Academie de medecine a denonce le projet comme contraire a la sante publique. Le nombre de beneficiaires (~400 000) est stable depuis 2015, contrairement a l'idee d'un 'appel d'air'.",
+        "verdict_global": "economie directe reelle mais surcouts hospitaliers probables, impact sanitaire negatif"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.8,
+        "justification": "L'AME existe depuis 2000 (remplacement de l'aide sociale). Sa suppression a ete proposee par la droite a de multiples reprises mais jamais votee. La loi immigration 2024 contenait des dispositions restrictives sur les soins aux etrangers, censurees par le CC. L'Espagne a supprime la couverture sante des sans-papiers en 2012 puis l'a retablie en 2018 apres constat d'effets sanitaires deleteres.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Espagne: suppression 2012, retablissement 2018 apres effets sanitaires negatifs"
+      },
+      "feasibility": {
+        "overall": 0.36,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.24,
+          0.48
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_017",
+      "raw_text": "Deployer la reconnaissance faciale dans les aeroports et les transports en commun pour lutter contre le terrorisme, en croisant avec les fichiers antiterroristes",
+      "theme": "securite",
+      "source_url": "https://www.francebleu.fr/infos/politique/les-grandes-lignes-du-programme-de-valerie-pecresse-candidate-lr-a-la-presidentielle-1638629929",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.5,
+        "justification": "Cout d'investissement estime a 500 M-1 Md EUR (equipements, integration systemes). Cout de fonctionnement annuel: 100-300 M EUR (maintenance, personnel, stockage donnees). Rapporte au budget Securites (17.2 Md), la mesure est financement proportionnee. Le financement pourrait s'inscrire dans le budget securite interieure.",
+        "cout_estime_eur": 800000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.25,
+        "confidence": 0.8,
+        "justification": "CONTRAINTE MAJEURE: la reconnaissance faciale en temps reel dans l'espace public est tres encadree. Le RGPD (art. 9) interdit le traitement de donnees biometriques sauf exceptions strictes. L'AI Act europeen (2024) interdit la reconnaissance faciale en temps reel dans l'espace public sauf exceptions antiterroristes tres encadrees. La CNIL a emis des reserves majeures (rapport 2022). Le CC pourrait censurer au titre du droit a la vie privee et de la liberte d'aller et venir. La loi JO 2024 a autorise la videosurveillance algorithmique SANS reconnaissance faciale, montrant la sensibilite du sujet.",
+        "vehicule_legislatif": "Loi ordinaire avec garanties renforcees",
+        "risque_censure_cc": "eleve (vie privee, liberte d'aller et venir)",
+        "conflit_droit_ue": "oui (RGPD art. 9, AI Act)"
+      },
+      "social": {
+        "score_acceptabilite": 0.4,
+        "score_impact": 0.35,
+        "confidence": 0.7,
+        "justification": "Opinion divisee sur la reconnaissance faciale: soutien dans un contexte antiterroriste, mais inquietude sur les libertes publiques. Opposition forte des associations de defense des libertes (La Quadrature du Net, Ligue des droits de l'Homme), de la CNIL, et d'une partie du spectre politique (gauche, certains centristes). L'efficacite antiterroriste n'est pas demontree (taux de faux positifs eleve dans les etudes). Risque de normalisation de la surveillance de masse.",
+        "opposition_sociale": "forte (associations libertes, CNIL, gauche)"
+      },
+      "factcheck": {
+        "score": 0.4,
+        "confidence": 0.65,
+        "justification": "L'efficacite de la reconnaissance faciale pour la prevention du terrorisme est contestee. Les etudes montrent des taux de faux positifs de 1-5% (proportion enorme dans les lieux de passage massif). Le croisement avec les fichiers antiterroristes (FSPRT: ~21 000 personnes) est techniquement faisable mais pose des problemes de fiabilite. La Chine et le Royaume-Uni utilisent cette technologie a grande echelle avec des resultats debattus en termes de libertes publiques.",
+        "verdict_global": "techniquement possible, efficacite antiterroriste non demontree, problemes juridiques majeurs"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "La loi JO 2024 a introduit la videosurveillance algorithmique SANS reconnaissance faciale, montrant les limites de l'acceptable. Le Parlement europeen a vote l'AI Act (2024) avec des restrictions fortes sur la reconnaissance faciale. San Francisco a interdit la reconnaissance faciale publique en 2019. Le Royaume-Uni l'utilise mais fait l'objet de contestations judiciaires permanentes.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Loi JO 2024: videosurveillance algorithmique sans reconnaissance faciale (ligne rouge maintenue)"
+      },
+      "feasibility": {
+        "overall": 0.33,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.21,
+          0.45
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_018",
+      "raw_text": "Retablir les peines planchers pour les personnes agressant des representants de la Republique (policiers, elus, enseignants)",
+      "theme": "securite",
+      "source_url": "https://www.europe1.fr/politique/presidentielle-que-faut-il-retenir-du-programme-de-valerie-pecresse-4099294",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.6,
+        "justification": "Cout indirect: augmentation de la population carcerale (peines plus longues). Dans un contexte de surpopulation carcerale (120%), chaque detenu supplementaire coute 30 000-45 000 EUR/an. Impact budgetaire modere mais cumulatif. Necessite des places de prison supplementaires (lien avec pecresse_007).",
+        "cout_estime_eur": 300000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.8,
+        "justification": "Les peines planchers ont existe en France (loi du 10 aout 2007, abrogee en 2014). Leur retablissement ciblé (agressions contre agents publics) est juridiquement possible par loi ordinaire. Cependant, le CC a pose des limites: le principe d'individualisation des peines (Decision 2007-554 DC) impose que le juge puisse toujours deroger aux peines planchers pour des motifs lies a la personnalite du prevenu. Un retablissement devra inclure cette derogation pour passer le controle CC.",
+        "vehicule_legislatif": "Loi ordinaire (code penal)",
+        "risque_censure_cc": "modere (individualisation des peines)",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.6,
+        "score_impact": 0.35,
+        "confidence": 0.7,
+        "justification": "Soutien des syndicats de police et de la droite. Opposition des magistrats (atteinte a l'individualisation), des avocats et de la gauche. L'opinion publique est majoritairement favorable a la protection des forces de l'ordre et des agents publics. L'impact sur la dissuasion est debattu: les etudes criminologiques sont mitigees sur l'effet dissuasif des peines planchers.",
+        "opposition_sociale": "moderee (magistrats, avocats, gauche)"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.75,
+        "justification": "Les peines planchers ont existe de 2007 a 2014. L'evaluation par le ministere de la Justice a montre un effet limite sur la recidive. Les tribunaux ont largement utilise les derogations (dans ~60% des cas, le juge derogait au plancher). L'effet dissuasif n'a pas ete demontre. La mesure a surtout eu un effet d'alourdissement des peines sans reduction mesurable de la delinquance.",
+        "verdict_global": "mesure techniquement faisable, efficacite non demontree par le precedent 2007-2014"
+      },
+      "historique": {
+        "score": 0.65,
+        "confidence": 0.85,
+        "justification": "Precedent direct: loi Dati 2007 (peines planchers), abrogee par Taubira en 2014. La mise en oeuvre a montre que les juges derogent massivement. Le retablissement est techniquement simple. Delai court: 6-12 mois.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Loi Dati 2007 (peines planchers): en vigueur 2007-2014, derogation dans 60% des cas"
+      },
+      "feasibility": {
+        "overall": 0.53,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.41,
+          0.65
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_019",
+      "raw_text": "Defiscaliser les donations familiales jusqu'a 100 000 euros tous les six ans (choc de transmission du patrimoine)",
+      "theme": "economie",
+      "source_url": "https://www.usinenouvelle.com/editorial/presidentielle-ce-que-l-on-sait-du-programme-economique-de-valerie-pecresse.N1173772",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.65,
+        "justification": "L'abattement actuel est deja de 100 000 EUR tous les 15 ans (art. 779 CGI). Le passage a 6 ans represente un manque a gagner de 1-2 Md EUR/an pour l'Etat (estimation). Les droits de mutation a titre gratuit rapportent environ 16 Md EUR/an. La mesure reduit les recettes fiscales sans financement identifie. Impact sur le deficit non negligeable.",
+        "cout_estime_eur": 1500000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.85,
+        "justification": "Vehicule standard: LFI (modification art. 779 CGI). Pas de risque CC (avantage fiscal general). Le Senat LR serait favorable (reduction de la fiscalite successorale = ADN LR). Possible soutien d'Ensemble et du RN a l'AN. Mesure techniquement simple a mettre en oeuvre.",
+        "vehicule_legislatif": "LFI",
+        "risque_censure_cc": "tres faible",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.55,
+        "score_impact": 0.4,
+        "confidence": 0.65,
+        "justification": "Soutien des classes moyennes superieures et des familles patrimoniales. Opposition de la gauche (avantage aux plus aises). L'impact redistributif est negatif: la mesure beneficie principalement aux menages disposant d'un patrimoine > 100 000 EUR a transmettre, soit les 30-40% les plus aises. Impact marginal sur la classe moyenne inferieure. Debat recurrent en France sur la fiscalite successorale.",
+        "opposition_sociale": "moderee (gauche, associations egalitaires)"
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.8,
+        "justification": "L'abattement actuel est bien de 100 000 EUR tous les 15 ans. Le passage a 6 ans triplerait la frequence des donations defiscalisees. La mesure favoriserait la transmission anticipee du patrimoine (effet positif sur la consommation et l'investissement des jeunes generations). Le chiffrage du manque a gagner est incertain car il depend du comportement des menages (acceleration des donations).",
+        "verdict_global": "mecanisme clair, chiffrage plausible, impact inegalitaire"
+      },
+      "historique": {
+        "score": 0.7,
+        "confidence": 0.8,
+        "justification": "L'abattement a deja ete modifie a plusieurs reprises: 100 000 EUR tous les 6 ans (avant 2012), passe a 15 ans par Hollande en 2012. La mesure de Pecresse est donc un retour a la situation anterieure a 2012. Precedent direct et faisable. Delai: 6 mois (LFI).",
+        "delai_realiste_mois": 6,
+        "precedent_principal": "Abattement 100 000 EUR tous les 6 ans en vigueur avant 2012 (revenu a 15 ans par Hollande)"
+      },
+      "feasibility": {
+        "overall": 0.61,
+        "label": "Faisable",
+        "ci_95": [
+          0.49,
+          0.73
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_020",
+      "raw_text": "Defiscaliser l'investissement dans les petites entreprises de proximite jusqu'a 20 000 euros",
+      "theme": "economie",
+      "source_url": "https://www.usinenouvelle.com/editorial/presidentielle-ce-que-l-on-sait-du-programme-economique-de-valerie-pecresse.N1173772",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.55,
+        "justification": "Cout depend du plafond de deduction et du nombre de contribuables concernes. Si 500 000 contribuables investissent 20 000 EUR avec une reduction d'impot de 25%: ~2.5 Md EUR de manque a gagner. Des dispositifs similaires existent (reduction IR-PME Madelin: 25% de reduction pour investissement dans les PME, plafond 50 000 EUR). La mesure pourrait etre un elargissement du dispositif Madelin. Cout modere si le plafond est maintenu a 20 000 EUR.",
+        "cout_estime_eur": 1000000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.8,
+        "confidence": 0.85,
+        "justification": "Vehicule standard: LFI (modification du dispositif Madelin existant). Pas de risque CC. Le dispositif IR-PME existe deja et a ete valide. Le ciblage 'entreprises de proximite' necessite une definition juridique precise. Le Senat LR et l'AN seraient favorables.",
+        "vehicule_legislatif": "LFI (extension dispositif IR-PME)",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": "non (regime d'aide d'Etat a notifier a la Commission si depassement de minimis)"
+      },
+      "social": {
+        "score_acceptabilite": 0.65,
+        "score_impact": 0.5,
+        "confidence": 0.6,
+        "justification": "Mesure soutenue par le patronat (CPME, U2P) et les commercants de proximite. Impact positif potentiel sur le tissu economique local. Opposition limitee (mesure technique peu visible). L'impact reel depend de l'attractivite du dispositif: les dispositifs existants sont sous-utilises en raison de leur complexite.",
+        "opposition_sociale": "tres faible"
+      },
+      "factcheck": {
+        "score": 0.65,
+        "confidence": 0.65,
+        "justification": "Le dispositif IR-PME (reduction Madelin) existe et fonctionne. Son extension aux 'entreprises de proximite' est techniquement faisable. L'effet sur l'investissement local est incertain: les evaluations du dispositif Madelin montrent un effet d'aubaine significatif (les investisseurs auraient investi meme sans avantage fiscal). Le plafond de 20 000 EUR est modeste et cible effectivement les petits investisseurs.",
+        "verdict_global": "extension d'un dispositif existant, faisable, impact economique incertain"
+      },
+      "historique": {
+        "score": 0.7,
+        "confidence": 0.8,
+        "justification": "Le dispositif IR-PME (loi Madelin) existe depuis 1994, renforce a plusieurs reprises. Les reductions d'impot pour investissement dans les PME sont un outil fiscal classique. La mise en oeuvre est rapide (modification LFI). La definition d''entreprise de proximite' est l'enjeu principal.",
+        "delai_realiste_mois": 9,
+        "precedent_principal": "Dispositif IR-PME Madelin (depuis 1994): outil fiscal eprouve"
+      },
+      "feasibility": {
+        "overall": 0.63,
+        "label": "Faisable",
+        "ci_95": [
+          0.51,
+          0.75
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_021",
+      "raw_text": "Deployer 4 000 jeunes medecins generalistes par an dans les deserts medicaux via un internat obligatoire en zone sous-dotee",
+      "theme": "sante",
+      "source_url": "https://www.francebleu.fr/infos/politique/presidentielle-2022-les-propositions-de-valerie-pecresse-pour-lutter-contre-les-deserts-medicaux-1634710603",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.6,
+        "justification": "Cout modere: les internes sont deja remuneres par l'hopital public (~2 000-2 500 EUR brut/mois). Le surcout serait lie aux primes d'installation, logements et indemnites de deplacement: 200-500 M EUR/an. L'ONDAM (265.9 Md EUR) peut absorber cette depense. La mesure pourrait meme generer des economies indirectes (reduction du recours aux urgences dans les deserts medicaux).",
+        "cout_estime_eur": 400000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.4,
+        "confidence": 0.75,
+        "justification": "L'internat obligatoire en zone sous-dotee pose un probleme de liberte d'installation des medecins (principe a valeur constitutionnelle). Le CC pourrait censurer une obligation stricte comme atteinte a la liberte d'exercice et a la liberte d'entreprendre. Un systeme incitatif (primes) serait constitutionnel, mais une obligation pure est risquee. La CJUE pourrait aussi intervenir (liberte d'etablissement). La reforme du 3e cycle des etudes medicales (2017) a deja modifie les modalites de l'internat.",
+        "vehicule_legislatif": "Loi ordinaire (modification code de l'education/code de la sante)",
+        "risque_censure_cc": "eleve (liberte d'installation)",
+        "conflit_droit_ue": "risque (liberte d'etablissement)"
+      },
+      "social": {
+        "score_acceptabilite": 0.55,
+        "score_impact": 0.65,
+        "confidence": 0.65,
+        "justification": "Soutien fort des habitants des deserts medicaux. Opposition forte des etudiants en medecine et des syndicats medicaux (atteinte a la liberte d'installation). L'ISNI (syndicat des internes) s'est fermement oppose a ce type de mesure. Impact potentiellement positif a court terme sur l'acces aux soins, mais risque de desincentiver les vocations medicales a long terme.",
+        "opposition_sociale": "forte (etudiants en medecine, syndicats medicaux)"
+      },
+      "factcheck": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "justification": "4 000 medecins/an represente environ 40% des 10 000 nouveaux internes en medecine generale par an. C'est un flux considerable. Le numerus apertus (remplacant le numerus clausus depuis 2020) augmente progressivement les places, mais les effets ne seront visibles qu'a partir de 2028-2030. La contrainte d'installation en zone sous-dotee n'existe dans aucun pays europeen comparable. Les systemes incitatifs (contrats d'engagement de service public) n'ont recrute que ~3 000 etudiants en 10 ans.",
+        "verdict_global": "objectif chiffre ambitieux, contrainte juridique forte, resistance corporative certaine"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.75,
+        "justification": "Aucun pays europeen n'a mis en oeuvre une obligation d'installation des medecins en zone sous-dotee. Les contrats d'engagement de service public (CESP, 2009) offrent des bourses en echange d'une installation, mais sur la base du volontariat. Le Bresil (programa Mais Medicos, 2013) a importe des medecins cubains dans les zones sous-dotees: resultats sanitaires positifs mais contexte non comparable.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "CESP (2009): systeme volontaire, 3 000 signataires en 10 ans (echelle insuffisante)"
+      },
+      "feasibility": {
+        "overall": 0.4,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.28,
+          0.52
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_022",
+      "raw_text": "Creer 25 000 postes de personnels soignants dans les hopitaux",
+      "theme": "sante",
+      "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-de-valerie-pecresse-les-republicains-en-matiere-de-protection-sociale-infographie.html",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "L'Institut Montaigne estime le cout a 8.8 Md EUR/an (probablement incluant la revalorisation salariale du Segur de la sante). 25 000 postes a un cout moyen de 45 000 EUR (salaire charge infirmier/aide-soignant) = ~1.1 Md EUR/an en masse salariale. L'ONDAM hospitalier est d'environ 100 Md EUR. La mesure est couteuse et s'ajoute aux revalorisation post-Segur. Difficilement compatible avec le PSMT sans reduction d'autres depenses.",
+        "cout_estime_eur": 8800000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.85,
+        "justification": "Vehicule standard: LFSS (ONDAM). Pas de risque CC. Consensus transpartisan sur le renforcement de l'hopital public. Le Senat et l'AN soutiendraient. La difficulte n'est pas juridique mais operationnelle (recrutement).",
+        "vehicule_legislatif": "LFSS (ONDAM)",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.7,
+        "confidence": 0.8,
+        "justification": "Large consensus sur le manque de personnel soignant. Soutien massif de l'opinion publique, des syndicats hospitaliers, des patients. Le Segur de la sante (2020) a montre l'ampleur du besoin. Impact positif direct sur la qualite des soins et les conditions de travail des soignants.",
+        "opposition_sociale": "quasi-nulle"
+      },
+      "factcheck": {
+        "score": 0.4,
+        "confidence": 0.75,
+        "justification": "Le diagnostic est correct: l'hopital public souffre d'un deficit de personnel chronique (estimations: 50 000-100 000 postes vacants). Cependant, le probleme n'est pas seulement budgetaire: les postes ouverts ne trouvent pas preneurs en raison des conditions de travail, de la remuneration et de l'epuisement professionnel. 25 000 recrutements effectifs supposent un vivier de candidats suffisant, ce qui n'est pas garanti (ecoles de formation saturees, departs massifs du secteur).",
+        "verdict_global": "besoin reel, financement tres couteux, vivier de recrutement insuffisant"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.8,
+        "justification": "Le Segur de la sante (2020) a promis des revalorisations salariales massives (+8.2 Md EUR) mais les recrutements n'ont pas suivi (departs > entrees dans la profession infirmiere). Les plans hopital successifs (Hopital 2007, Hopital 2012) ont eu des resultats mitiges sur les effectifs. La crise Covid a revele et aggrave la penurie. Les ecoles d'infirmieres et d'aides-soignants ont des capacites limitees.",
+        "delai_realiste_mois": 48,
+        "precedent_principal": "Segur de la sante 2020: 8.2 Md EUR de revalorisations, recrutements insuffisants malgre l'effort"
+      },
+      "feasibility": {
+        "overall": 0.38,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.26,
+          0.5
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_023",
+      "raw_text": "Supprimer le versement des prestations sociales aux etrangers n'ayant pas reside regulierement sur le territoire depuis au moins 5 ans",
+      "theme": "immigration",
+      "source_url": "https://valeriepecresse.fr/projet/immigration/",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.5,
+        "justification": "Les economies potentielles sont tres incertaines. L'IFRAP note que les economies liees a la 'preference nationale' (similaire) sont estimees a 15 Md EUR mais avec une credibilite 'low'. L'Institut Montaigne estime les economies sur prestations sociales (RSA conditionne) a 5 Md EUR/an avec une credibilite 'medium'. Le nombre d'etrangers reguliers residant depuis < 5 ans et recevant des prestations n'est pas connu avec precision.",
+        "cout_estime_eur": null,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.15,
+        "confidence": 0.85,
+        "justification": "CONTRAINTE MAJEURE: le principe constitutionnel d'egalite (art. 1 Constitution, art. 1 DDHC) interdit les discriminations fondees sur la nationalite pour les droits sociaux fondamentaux. Le CC a censure des dispositions de la loi immigration 2024 (Decision 2024-863 DC) restreignant l'acces aux prestations des etrangers. La directive 2003/109/CE (residents longue duree) et le reglement de coordination des systemes de securite sociale (CE 883/2004) imposent l'egalite de traitement. La mesure serait presque certainement censuree par le CC et contraire au droit UE.",
+        "vehicule_legislatif": "Revision constitutionnelle (pour contourner censure CC) + renegociation droit UE",
+        "risque_censure_cc": "quasi-certain (egalite, droits fondamentaux)",
+        "conflit_droit_ue": "oui (directive 2003/109/CE, reglement 883/2004)"
+      },
+      "social": {
+        "score_acceptabilite": 0.55,
+        "score_impact": 0.25,
+        "confidence": 0.7,
+        "justification": "Soutien populaire large pour le conditionnement des prestations a la duree de residence. Opposition forte des associations, syndicats, gauche, et Defenseur des droits. Impact humain direct sur les etrangers en situation reguliere arrivees recemment. Impact social negatif: augmentation de la precarite, exclusion sociale, cout pour les collectivites locales (hebergement d'urgence).",
+        "opposition_sociale": "forte (associations, syndicats, gauche, Defenseur des droits)"
+      },
+      "factcheck": {
+        "score": 0.35,
+        "confidence": 0.7,
+        "justification": "Le delai de 5 ans est sans precedent en droit francais. Les prestations sociales non contributives (RSA, APL, allocations familiales) sont accessibles aux etrangers en situation reguliere sans condition de duree de sejour prealable (sauf quelques exceptions). Le droit europeen impose l'egalite de traitement des residents reguliers. Les economies annoncees ne sont pas chiffrees precisement et dependent du nombre de beneficiaires concernes.",
+        "verdict_global": "mesure juridiquement intenable en l'etat du droit constitutionnel et europeen"
+      },
+      "historique": {
+        "score": 0.1,
+        "confidence": 0.85,
+        "justification": "La loi immigration 2024 a tente d'introduire des delais de carence pour les prestations (5 ans pour les non-actifs, 30 mois pour les actifs): ces dispositions ont ete censurees par le CC (Decision 2024-863 DC). Le Danemark a un delai de 9 ans pour certaines prestations, mais dans un cadre juridique different (opt-out sur l'asile et la migration). Aucun pays de la zone euro n'a un delai de 5 ans pour toutes les prestations.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Loi immigration 2024: delais de carence censures par le CC (Decision 2024-863 DC)"
+      },
+      "feasibility": {
+        "overall": 0.22,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.1,
+          0.34
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_024",
+      "raw_text": "Garantir une pension de retraite minimale au niveau du SMIC net pour toute personne ayant travaille une carriere complete",
+      "theme": "retraites",
+      "source_url": "https://www.previssima.fr/actualite/presidentielle-2022-le-programme-de-valerie-pecresse-les-republicains-en-matiere-de-protection-sociale-infographie.html",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.6,
+        "justification": "Le minimum contributif actuel est de ~847 EUR/mois (majore). Le SMIC net est de 1 426 EUR/mois. L'ecart est de ~580 EUR/mois par beneficiaire. Nombre de beneficiaires potentiels: environ 4 millions de retraites au minimum contributif. Cout estime: 20-28 Md EUR/an. C'est une depense colossale qui contredirait les economies attendues de la reforme des retraites (report a 65 ans). La candidate propose de financer cela par les economies de la reforme retraites, mais celles-ci sont largement insuffisantes (4.6-12 Md EUR vs 20-28 Md EUR de cout).",
+        "cout_estime_eur": 25000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.65,
+        "confidence": 0.75,
+        "justification": "Vehicule: LFSS. La mesure de revalorisation du minimum contributif est techniquement faisable. Pas de risque CC (mesure sociale favorable). La reforme Macron 2023 a deja inclus une revalorisation du minimum contributif a 85% du SMIC net pour une carriere complete au SMIC. L'extension a 100% du SMIC serait une amplification. Le Senat et l'AN soutiendraient.",
+        "vehicule_legislatif": "LFSS",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.9,
+        "score_impact": 0.75,
+        "confidence": 0.8,
+        "justification": "Mesure extremement populaire. Consensus quasi-total: syndicats, opinion publique, partis politiques (sauf liberaux stricts). Impact social majeur pour les petites retraites (personnes agees, femmes ayant eu des carrieres interrompues). Serait la mesure sociale la plus impactante du programme.",
+        "opposition_sociale": "quasi-nulle"
+      },
+      "factcheck": {
+        "score": 0.35,
+        "confidence": 0.7,
+        "justification": "La reforme 2023 a deja releve le minimum contributif a 85% du SMIC pour une carriere complete. Le passage a 100% du SMIC represente un saut financier considerable. Le cout de 20-28 Md EUR/an est coherent avec le nombre de beneficiaires potentiels. Le financement par les economies de la reforme retraites est arithmetiquement impossible (economies de 4.6-12 Md EUR vs cout de 20-28 Md EUR). La promesse est genereuse mais non financee.",
+        "verdict_global": "objectif socialement desirable, cout colossal, financement non credible"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.75,
+        "justification": "Le minimum contributif a ete releve progressivement depuis sa creation. La reforme 2023 l'a porte a 85% du SMIC. Aucun precedent de revalorisation a 100% du SMIC. Les pays nordiques ont des pensions minimales plus elevees mais dans des systemes fiscaux tres differents. Le cout prohibitif n'a jamais ete finance dans aucun programme realiste.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Reforme retraites 2023: minimum contributif releve a 85% du SMIC (point de depart)"
+      },
+      "feasibility": {
+        "overall": 0.38,
+        "label": "Difficilement faisable",
+        "ci_95": [
+          0.26,
+          0.5
+        ]
+      }
+    },
+    {
+      "promise_id": "pecresse_025",
+      "raw_text": "Instaurer un examen d'entree en sixieme pour verifier la maitrise des savoirs fondamentaux (lire, ecrire, compter)",
+      "theme": "education",
+      "source_url": "https://valeriepecresse.fr/projet/education/",
+      "budget": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "Cout modeste: organisation d'un examen national pour ~800 000 eleves/an. L'infrastructure existe deja (evaluations nationales CP, CE1, 6e). Cout supplementaire: 50-100 M EUR/an (conception, correction, organisation). Le surcoût principal serait les dispositifs de remise a niveau pour les eleves en echec. Financement integrable dans le budget Education nationale (64.5 Md EUR).",
+        "cout_estime_eur": 100000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "Un examen d'entree en 6e souleve la question du droit a l'education (Preambule de 1946, alinea 13). Si l'echec a l'examen empeche l'acces au college, le CC pourrait censurer au titre du droit a l'instruction. Si l'examen est diagnostique (sans effet bloquant), il est constitutionnel. La distinction entre examen 'de passage' et 'diagnostique' est juridiquement determinante. Vehicule: loi ordinaire (modification code de l'education).",
+        "vehicule_legislatif": "Loi ordinaire (code de l'education)",
+        "risque_censure_cc": "modere (droit a l'instruction si examen bloquant)",
+        "conflit_droit_ue": "non"
+      },
+      "social": {
+        "score_acceptabilite": 0.5,
+        "score_impact": 0.5,
+        "confidence": 0.65,
+        "justification": "Opinion divisee. Soutien des parents souhaitant un retour aux fondamentaux et d'une partie du corps enseignant. Opposition des syndicats enseignants majoritaires (SNUIPP, SGEN) qui craignent un retour a l'examen d'entree en 6e (supprime en 1957) et la stigmatisation des eleves en difficulte. Debat pedagogique reel: l'evaluation diagnostique est utile, l'examen selectif est contestable.",
+        "opposition_sociale": "moderee (syndicats enseignants, associations de parents d'eleves)"
+      },
+      "factcheck": {
+        "score": 0.65,
+        "confidence": 0.75,
+        "justification": "Les evaluations nationales de 6e existent deja (depuis 2017). Elles montrent que 20-25% des eleves ne maitrisent pas les fondamentaux en entrant en 6e. La question est: que faire des eleves en echec? Si c'est un redoublement force, cela pose des problemes pedagogiques (les etudes montrent que le redoublement est inefficace). Si c'est un dispositif de remise a niveau, cela existe deja (stages de remise a niveau, dispositif PPRE).",
+        "verdict_global": "diagnostic correct (evaluations existantes le confirment), modalites d'application determinantes"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "L'examen d'entree en 6e a existe jusqu'en 1957 (certificat d'etudes puis examen d'entree). Les evaluations nationales diagnostiques existent depuis 2017 (CP, CE1, 6e). La question est celle du passage d'un diagnostic a un examen selectif. Le precedent international (Allemagne, systeme de selection a 10 ans) montre des resultats mitiges sur les inegalites scolaires.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Evaluations nationales 6e (depuis 2017): outil diagnostique existant"
+      },
+      "feasibility": {
+        "overall": 0.57,
+        "label": "Partiellement faisable",
+        "ci_95": [
+          0.45,
+          0.69
+        ]
+      }
+    }
+  ],
+  "synthesis": {
+    "overall_program_feasibility": {
+      "mean_score": 0.43,
+      "median_score": 0.42,
+      "label": "Partiellement faisable",
+      "ci_95": [
+        0.32,
+        0.54
+      ],
+      "distribution": {
+        "tres_faisable_0_80_plus": 0,
+        "faisable_0_60_0_79": 3,
+        "partiellement_faisable_0_40_0_59": 12,
+        "difficilement_faisable_0_20_0_39": 10,
+        "irrealiste_moins_0_20": 0
+      }
+    },
+    "by_theme": {
+      "economie": {
+        "promises": [
+          "pecresse_001",
+          "pecresse_003",
+          "pecresse_004",
+          "pecresse_014",
+          "pecresse_019",
+          "pecresse_020"
+        ],
+        "mean_feasibility": 0.47,
+        "key_finding": "Programme economique ambitieux mais incoherent: les baisses d'impots (20 Md EUR) ne sont pas financees par les economies sur la fonction publique (jugees irrealistes par Montaigne et IFRAP)."
+      },
+      "retraites": {
+        "promises": [
+          "pecresse_002",
+          "pecresse_024"
+        ],
+        "mean_feasibility": 0.44,
+        "key_finding": "Contradiction interne: le report a 65 ans genere des economies (4.6-12 Md) mais la retraite minimale au SMIC coute 20-28 Md. Le solde net est negatif."
+      },
+      "immigration": {
+        "promises": [
+          "pecresse_005",
+          "pecresse_006",
+          "pecresse_016",
+          "pecresse_023"
+        ],
+        "mean_feasibility": 0.28,
+        "key_finding": "Theme le moins faisable. La plupart des mesures necessitent une revision constitutionnelle et/ou entrent en conflit avec le droit europeen. Precedent 2024: censure massive par le CC."
+      },
+      "securite": {
+        "promises": [
+          "pecresse_007",
+          "pecresse_008",
+          "pecresse_017",
+          "pecresse_018"
+        ],
+        "mean_feasibility": 0.39,
+        "key_finding": "Ambitions elevees mais cout budgetaire (9 Md plan ORSEC + 5 Md prisons) difficile a concilier avec les engagements de reduction du deficit. La reconnaissance faciale se heurte a des obstacles juridiques majeurs."
+      },
+      "education": {
+        "promises": [
+          "pecresse_012",
+          "pecresse_013",
+          "pecresse_025"
+        ],
+        "mean_feasibility": 0.58,
+        "key_finding": "Theme relativement faisable. La reserve educative est facilement implementable. Les 10 000 postes enseignants posent un probleme de recrutement plus que de financement."
+      },
+      "emploi": {
+        "promises": [
+          "pecresse_011",
+          "pecresse_015"
+        ],
+        "mean_feasibility": 0.54,
+        "key_finding": "Mesures moderees et incrementales. Le revenu jeune actif est une extension du CEJ. La reforme chomage est un renforcement de l'existant."
+      },
+      "sante": {
+        "promises": [
+          "pecresse_021",
+          "pecresse_022"
+        ],
+        "mean_feasibility": 0.39,
+        "key_finding": "Diagnostics corrects mais mise en oeuvre tres difficile. Le deploiement force de medecins pose un probleme constitutionnel. Les 25 000 postes soignants se heurtent a la penurie de candidats."
+      },
+      "logement": {
+        "promises": [
+          "pecresse_010"
+        ],
+        "mean_feasibility": 0.28,
+        "key_finding": "Objectif de 500 000 logements/an jamais atteint historiquement. Contraintes structurelles (foncier, normes, couts) non resolues par le programme."
+      },
+      "environnement": {
+        "promises": [
+          "pecresse_009"
+        ],
+        "mean_feasibility": 0.5,
+        "key_finding": "Le plan nucleaire est coherent avec la politique actuelle (Macron a annonce un plan similaire). Les delais sont tres longs (15 ans pour le premier EPR)."
+      }
+    },
+    "budget_analysis": {
+      "total_new_spending_eur": -24000000000,
+      "total_spending_cuts_eur": 40000000000,
+      "total_tax_cuts_eur": -20000000000,
+      "net_balance_institut_montaigne_eur": -5000000000,
+      "candidate_claimed_balance_eur": 30000000000,
+      "credibility_gap_eur": 35000000000,
+      "assessment": "L'ecart entre le solde revendique par la candidate (+30 Md) et l'estimation Montaigne (-5 Md) est de 35 Md EUR. Cet ecart s'explique principalement par la surestimation des economies sur la fonction publique (objectif de 200 000 suppressions juge irrealiste) et l'absence de financement des baisses d'impots. L'IFRAP note que le bouclage budgetaire 'suppose une discipline de depense sans precedent'.",
+      "psmt_compatibility": "Incompatible avec le PSMT en l'etat. Les depenses nouvelles (justice, sante, education) et les baisses de recettes (C3S, cotisations, donations) depassent largement les economies credibles. Le deficit de 5.8% du PIB ne pourrait pas etre ramene sous 3% d'ici 2029 avec ce programme."
+    },
+    "contradictions": [
+      {
+        "description": "Suppression de 200 000 fonctionnaires ET creation de 50 000 postes regaliens + 10 000 enseignants + 25 000 soignants + 16 000 justice = 101 000 creations. Net reel: 99 000 suppressions, pas 200 000.",
+        "promises": [
+          "pecresse_003",
+          "pecresse_008",
+          "pecresse_012",
+          "pecresse_022"
+        ]
+      },
+      {
+        "description": "Report des retraites a 65 ans (economies 4.6-12 Md) pour financer une retraite minimale au SMIC (cout 20-28 Md). Le deficit net est de 8-24 Md EUR.",
+        "promises": [
+          "pecresse_002",
+          "pecresse_024"
+        ]
+      },
+      {
+        "description": "Baisses d'impots massives (20 Md: C3S, cotisations, donations, IR-PME) avec un deficit budgetaire deja a 5.8% du PIB et des engagements PSMT de reduction.",
+        "promises": [
+          "pecresse_001",
+          "pecresse_004",
+          "pecresse_019",
+          "pecresse_020"
+        ]
+      },
+      {
+        "description": "Plan ORSEC justice (9 Md) + 20 000 places de prison (5 Md) = 14 Md de depenses dans la securite/justice, sans financement identifie.",
+        "promises": [
+          "pecresse_007",
+          "pecresse_008"
+        ]
+      }
+    ],
+    "top_5_most_feasible": [
+      {
+        "id": "pecresse_013",
+        "score": 0.65,
+        "label": "Reserve educative nationale"
+      },
+      {
+        "id": "pecresse_020",
+        "score": 0.63,
+        "label": "Defiscalisation investissement PME"
+      },
+      {
+        "id": "pecresse_019",
+        "score": 0.61,
+        "label": "Defiscalisation donations familiales"
+      },
+      {
+        "id": "pecresse_011",
+        "score": 0.57,
+        "label": "Revenu jeune actif"
+      },
+      {
+        "id": "pecresse_025",
+        "score": 0.57,
+        "label": "Examen entree en 6e"
+      }
+    ],
+    "top_5_least_feasible": [
+      {
+        "id": "pecresse_023",
+        "score": 0.22,
+        "label": "Suppression prestations etrangers < 5 ans"
+      },
+      {
+        "id": "pecresse_006",
+        "score": 0.25,
+        "label": "Division par 3 du regroupement familial"
+      },
+      {
+        "id": "pecresse_005",
+        "score": 0.28,
+        "label": "Quotas immigration constitutionnels"
+      },
+      {
+        "id": "pecresse_010",
+        "score": 0.28,
+        "label": "500 000 logements/an"
+      },
+      {
+        "id": "pecresse_003",
+        "score": 0.31,
+        "label": "Suppression 200 000 postes fonctionnaires"
+      }
+    ]
+  }
+}

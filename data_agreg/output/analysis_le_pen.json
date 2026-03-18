@@ -1,0 +1,905 @@
+{
+  "candidate": "Marine Le Pen",
+  "party": "Rassemblement National",
+  "metadata": {
+    "analysis_date": "2026-03-17",
+    "macro_context": {
+      "pib_mds_eur": 2920,
+      "dette_pct_pib": 113.0,
+      "deficit_pct_pib": 5.8,
+      "deficit_mds_eur": 168.6,
+      "interets_dette_mds_eur": 55,
+      "pression_fiscale_pct_pib": 42.8,
+      "depenses_publiques_pct_pib": 57.1,
+      "chomage_pct": 7.9,
+      "psmt_plafond_depenses_nettes_pct": "0.8-1.2"
+    },
+    "arithmetique_an": {
+      "nfp": 193,
+      "ensemble": 163,
+      "rn": 126,
+      "dr": 47,
+      "divers": 48,
+      "majorite_absolue": 289,
+      "motion_censure_rn_nfp": 319
+    },
+    "sources_chiffrage": [
+      "Institut Montaigne (presidentielle-2022)",
+      "IFRAP (presidentielle-2022)",
+      "INSEE (comptes nationaux 2024)",
+      "HCFP (avis 2025-3 RAA/PSMT)",
+      "Conseil de l'UE (PDE, PSMT)"
+    ],
+    "disclaimer": "AVERTISSEMENT : Cette analyse est un exercice de simulation heuristique. Elle ne constitue ni un avis politique, ni une recommandation de vote. Les scores reposent sur des donnees publiques et des methodologies declarees. Les chiffrages sont issus de l'Institut Montaigne et de l'IFRAP, dont les biais methodologiques respectifs sont documentes. Toute utilisation de cette analyse a des fins de propagande politique serait contraire a l'esprit de neutralite dans lequel elle a ete produite.",
+    "bilan_programme_global": {
+      "institut_montaigne": {
+        "depenses_nouvelles_mds": -58,
+        "baisses_recettes_mds": -40,
+        "recettes_nouvelles_mds": 31,
+        "economies_mds": 39,
+        "solde_net_annuel_mds": -101.8,
+        "appreciation": "Programme juge virtuellement irrealiste dans sa forme actuelle"
+      },
+      "ifrap": {
+        "depenses_nouvelles_mds": -19.6,
+        "baisses_impots_mds": -9.2,
+        "appreciation": "Economies revendiquees via immigration largement non chiffrables"
+      }
+    }
+  },
+  "evaluations": [
+    {
+      "promise_id": "lepen_001",
+      "raw_text": "Permettre le depart a la retraite a 60 ans pour ceux ayant cotise 40 annuites",
+      "theme": "retraites",
+      "budget": {
+        "score": 0.15,
+        "confidence": 0.85,
+        "justification": "Cout estime entre 9 et 26.5 Md EUR/an selon les sources (Institut Montaigne: 26.5 Md, IFRAP: 9 Md, ecart lie au perimetre). A titre de comparaison, la reforme inverse de 2023 (report a 64 ans) visait 13 Md EUR d'economies a terme. Cette mesure annulerait ces economies et creuserait encore le deficit. Le systeme de retraite est deja structurellement deficitaire (deficit projete a 6.6 Md EUR en 2025 selon la Cour des comptes). Aucun financement credible identifie. Totalement incompatible avec le PSMT qui plafonne la croissance des depenses nettes a 0.8-1.2%/an et avec la procedure de deficit excessif (retour sous 3% d'ici 2029).",
+        "cout_estime_eur": 26500000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "Necessite une loi de financement rectificative de la securite sociale (LFRSS) ou un PLFSS. Sur le plan constitutionnel, la mesure est faisable (le legislateur peut modifier les parametres du systeme de retraites, cf. reforme 2023 validee par le CC, Decision 2023-849 DC). Cependant, l'adoption parlementaire serait tres difficile : le RN (126 sieges) est loin de la majorite (289). Un 49.3 serait risque car RN+NFP = 319 > 289, permettant une motion de censure. L'utilisation du referendum (art. 11) sur un sujet de politique sociale est juridiquement debattue.",
+        "vehicule_legislatif": "LFRSS ou PLFSS, possible referendum art. 11",
+        "risque_censure_cc": "faible (mesure constitutionnelle en soi)",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.45,
+        "confidence": 0.8,
+        "justification": "Mesure tres populaire : la reforme de 2023 (report a 64 ans) a suscite une opposition massive. Un retour a 60 ans serait tres bien accueilli par l'opinion publique et les syndicats. Cependant, l'impact social est mitige : elle beneficie surtout a ceux qui ont commence a travailler tot (avant 20 ans), excluant les diplomates du superieur. Impact negatif indirect si le financement implique des coupes dans d'autres services publics ou une hausse de la dette. Le precedent de 1982 (passage a 60 ans par Mitterrand) montre que cette mesure a un fort pouvoir symbolique.",
+        "opposition_sociale": "faible (syndicats et opinion favorables)"
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.8,
+        "justification": "Le chiffrage du cout varie fortement selon les hypotheses (9 a 26.5 Md). La candidate n'a pas fourni de plan de financement credible. L'affirmation implicite que cette mesure est finançable est trompeuse au regard des chiffrages independants. En revanche, la mesure elle-meme est techniquement definissable et son cout, bien qu'eleve, est estimable. L'Institut Montaigne estime le cout a 26.5 Md/an en regime de croisiere, l'IFRAP a 9 Md (perimetre plus restreint, uniquement carrieres longues).",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.4,
+        "confidence": 0.8,
+        "justification": "La France a deja connu la retraite a 60 ans (1982-2010). Le retour en arriere est techniquement possible mais les precedents montrent que chaque reforme des retraites est extremement conflictuelle : reforme 2010 (opposition massive, adoption par loi ordinaire), reforme 2023 (49.3, motions de censure rejetees de justesse). La mise en oeuvre necessite des delais importants (montee en charge progressive sur 5-10 ans). Aucun precedent de retour en arriere significatif sur l'age legal depuis 1982.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Retraite a 60 ans sous Mitterrand (1982), puis report a 62 ans (2010) et 64 ans (2023)"
+      }
+    },
+    {
+      "promise_id": "lepen_002",
+      "raw_text": "Reindexer les retraites sur l'inflation",
+      "theme": "retraites",
+      "budget": {
+        "score": 0.25,
+        "confidence": 0.75,
+        "justification": "Cout estime a 11.2 Md EUR/an par l'Institut Montaigne. La desindexation ponctuelle des retraites est un outil classique de maitrise des depenses publiques (utilise en 2019 et 2020). Reindexer en permanence supprime cette marge de manoeuvre. En contexte d'inflation basse (0.9% en 2025), le cout immediat serait modere, mais en cas de reprise de l'inflation, le cout serait considerable. Non compatible avec le PSMT dans le scenario haut.",
+        "cout_estime_eur": 11200000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.8,
+        "confidence": 0.85,
+        "justification": "Mesure realisable par loi de financement de la securite sociale (PLFSS). Le mecanisme d'indexation des pensions est fixe par la loi et peut etre modifie par voie legislative ordinaire. Pas de risque constitutionnel particulier. Le CC a deja valide des modifications du mode d'indexation. Pas de conflit avec le droit UE.",
+        "vehicule_legislatif": "PLFSS (loi de financement de la securite sociale)",
+        "risque_censure_cc": "tres faible",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.9,
+        "score_impact": 0.6,
+        "confidence": 0.8,
+        "justification": "Mesure extremement populaire aupres des 17 millions de retraites, qui representent un electorat majeur. La perte de pouvoir d'achat des retraites liee a la desindexation est un sujet recurent de mecontentement. Impact positif direct sur le pouvoir d'achat des retraites, surtout les petites pensions. Impact indirect negatif si le financement n'est pas assure (dette supplementaire).",
+        "opposition_sociale": "quasi-nulle"
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.75,
+        "justification": "Les retraites sont actuellement indexees sur l'inflation via le code de la securite sociale (art. L161-23-1), mais des sous-indexations ponctuelles sont regulierement pratiquees. La promesse de 'reindexer' suggere qu'elles ne le sont plus, ce qui est partiellement exact : elles le sont en droit mais des decotes sont appliquees en pratique. Le chiffrage de 11.2 Md depend du scenario d'inflation retenu.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.65,
+        "confidence": 0.75,
+        "justification": "L'indexation sur l'inflation etait la norme historique. Les sous-indexations ont ete un outil budgetaire recurrent (2019: +0.3% pour inflation a 1.8%). Le retour a une indexation stricte est techniquement simple. Le precedent Balladur (1993) a montre que le passage de l'indexation sur les salaires a l'indexation sur les prix a ete une source majeure d'economies a long terme.",
+        "delai_realiste_mois": 6,
+        "precedent_principal": "Sous-indexations repetees 2019-2020, reforme Balladur 1993"
+      }
+    },
+    {
+      "promise_id": "lepen_003",
+      "raw_text": "Baisser la TVA de 20% a 5,5% sur les carburants, l'electricite, le gaz et le fioul domestique",
+      "theme": "economie",
+      "budget": {
+        "score": 0.2,
+        "confidence": 0.85,
+        "justification": "Cout estime entre 10.3 Md (Inst. Montaigne) et 12.3 Md EUR/an (IFRAP). La TVA est la premiere recette fiscale de l'Etat (101.4 Md EUR en 2025). Cette baisse representerait une perte de 10-12% de la TVA totale. Totalement incompatible avec le PSMT (plafond depenses nettes 0.8-1.2%) et la procedure de deficit excessif. Mesure anti-redistributive selon l'Inst. Montaigne : elle beneficie proportionnellement plus aux gros consommateurs d'energie.",
+        "cout_estime_eur": 10300000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.5,
+        "confidence": 0.8,
+        "justification": "Necessite une modification du CGI par loi de finances. Sur le plan du droit UE, la directive TVA (2006/112/CE) fixe un taux normal minimum de 15% et des taux reduits a 5% minimum pour une liste limitative de biens/services. Les carburants ne figurent PAS dans la liste des biens eligibles au taux reduit dans la directive TVA actuelle. Un taux de 5.5% sur les carburants serait donc contraire au droit europeen. L'electricite et le gaz peuvent beneficier de taux reduits sous certaines conditions depuis la directive 2022/542.",
+        "vehicule_legislatif": "loi de finances (PLF)",
+        "risque_censure_cc": "faible sur le plan constitutionnel, mais conflit droit UE",
+        "conflit_droit_ue": true
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.5,
+        "confidence": 0.75,
+        "justification": "Mesure tres populaire : le prix de l'energie est une preoccupation majeure (cf. mouvement des Gilets Jaunes, 2018). L'impact immediat serait un gain de pouvoir d'achat pour tous les menages. Cependant, l'Institut Montaigne souligne le caractere anti-redistributif : les menages aises consomment plus d'energie et beneficieraient davantage en valeur absolue. Impact environnemental negatif : le signal-prix est un levier de la transition energetique.",
+        "opposition_sociale": "faible (mesure populaire), mais opposition des ecologistes"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.8,
+        "justification": "Le taux de TVA actuel sur les carburants est bien de 20% (taux normal). Le taux sur l'electricite et le gaz a deja ete abaisse temporairement a 5.5% pendant la crise energetique. Cependant, la presentation de cette mesure comme un outil de pouvoir d'achat pour tous est trompeuse : c'est une mesure anti-redistributive. De plus, les carburants sont aussi soumis a la TICPE (16.5 Md EUR), que cette mesure ne concerne pas.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "justification": "La TVA a 5.5% sur l'electricite a ete appliquee temporairement en 2022-2023 pendant la crise energetique (bouclier tarifaire). Mais une application permanente et etendue aux carburants est sans precedent en France. Le bouclier tarifaire 2022-2023 a coute environ 40 Md EUR sur 2 ans au total (incluant toutes les mesures energie). Le Royaume-Uni applique un taux zero sur certains produits energetiques domestiques, mais hors UE.",
+        "delai_realiste_mois": 6,
+        "precedent_principal": "Bouclier tarifaire 2022-2023 (mesure temporaire, cout ~40 Md sur 2 ans)"
+      }
+    },
+    {
+      "promise_id": "lepen_004",
+      "raw_text": "Exonerer de charges patronales les entreprises qui augmentent les salaires de 10% pour les remunerations jusqu'a 3 SMIC",
+      "theme": "emploi",
+      "budget": {
+        "score": 0.2,
+        "confidence": 0.7,
+        "justification": "Cout estime a 10.5 Md EUR/an par l'Institut Montaigne. Les cotisations patronales representent un poste majeur du financement de la securite sociale. Cette exoneration massive creuserait le deficit de la Secu (deja -22 Md en 2025). Le mecanisme est un effet d'aubaine : les entreprises qui auraient augmente les salaires de toute facon beneficieraient de l'exoneration sans effet additionnel. Incompatible avec le PSMT.",
+        "cout_estime_eur": 10500000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "Necessite une loi de financement de la securite sociale (PLFSS). Sur le plan constitutionnel, les exonerations de charges sont encadrees par le principe d'egalite devant les charges publiques (art. 13 DDHC). Le CC pourrait censurer une exoneration trop large ou mal ciblee (cf. Decision 2012-662 DC sur la taxe a 75%). En droit UE, une exoneration ciblee sur certaines entreprises pourrait constituer une aide d'Etat (art. 107 TFUE) si elle fausse la concurrence.",
+        "vehicule_legislatif": "PLFSS",
+        "risque_censure_cc": "moyen (egalite devant les charges)",
+        "conflit_droit_ue": true
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.5,
+        "confidence": 0.65,
+        "justification": "La mesure serait bien accueillie par les salaries concernes (jusqu'a 3 SMIC = 4278 EUR nets) et par les employeurs. Cependant, les syndicats pourraient s'opposer au mecanisme (perte de recettes pour la Secu). L'impact reel sur les salaires est incertain : les entreprises pourraient capturer l'aubaine sans augmenter reellement les salaires, ou l'augmentation pourrait etre temporaire.",
+        "opposition_sociale": "moderee (syndicats inquiets pour financement Secu)"
+      },
+      "factcheck": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "justification": "Le mecanisme est techniquement definissable mais le chiffrage du cout est incertain car il depend du nombre d'entreprises qui prendraient l'option. L'effet d'aubaine est un risque majeur reconnu par tous les economistes. La presentation comme une mesure de pouvoir d'achat sans cout est trompeuse : le cout est transfere sur les finances publiques. Les evaluations des precedentes exonerations de charges (CICE, allegements Fillon) montrent des effets sur l'emploi reels mais modestes et tres couteux par emploi cree.",
+        "verdict_global": "trompeur"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.65,
+        "justification": "Les exonerations de charges sont un outil classique de politique de l'emploi en France (allegements Fillon, CICE). Cependant, les evaluations montrent des resultats mitiges : le CICE (20 Md/an) a cree ou sauvegarde environ 100 000 emplois (cout de 200 000 EUR par emploi). Un dispositif lie a l'augmentation des salaires est plus novateur mais le precedent de la prime Macron (defiscalisee) montre des effets d'aubaine importants.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "CICE (2013-2019): 20 Md/an pour ~100 000 emplois, effet d'aubaine significatif"
+      }
+    },
+    {
+      "promise_id": "lepen_005",
+      "raw_text": "Creer un pret a taux zero de l'Etat jusqu'a 100 000 euros pour l'achat du premier bien immobilier",
+      "theme": "logement",
+      "budget": {
+        "score": 0.2,
+        "confidence": 0.7,
+        "justification": "Cout estime a 12.6 Md EUR/an par l'Institut Montaigne. Le PTZ actuel est deja un dispositif couteux (environ 2 Md/an). L'elargir a 100 000 EUR sans conditions de zones ou de revenus representerait un cout massif. Le cout depend du nombre de primo-accedants (environ 400 000/an) et du taux de recours. L'Etat devrait compenser la difference de taux aupres des banques. Incompatible avec le PSMT.",
+        "cout_estime_eur": 12600000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Le pret a taux zero existe deja dans le droit francais (art. L31-10-1 du CCH). Son extension necessite une loi de finances ou une loi ordinaire. Pas de risque constitutionnel particulier. En droit UE, le PTZ est considere comme une aide aux menages et non comme une aide d'Etat au sens strict. Le dispositif est compatible avec le droit europeen.",
+        "vehicule_legislatif": "loi de finances (PLF) ou loi ordinaire",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.5,
+        "confidence": 0.7,
+        "justification": "Mesure populaire aupres des jeunes menages et primo-accedants. Cependant, les economistes soulignent que les aides a la demande ont tendance a faire monter les prix immobiliers (effet inflationniste), reduisant l'impact reel sur l'accessibilite. Ce mecanisme a ete documente pour le PTZ existant et les aides au logement (rapport Bozio-Grenet-Guillot, 2015).",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "Le PTZ existe deja mais est actuellement limite en montant, en zones geographiques et en conditions de ressources. La promesse d'un PTZ a 100 000 EUR est donc une extension majeure du dispositif existant, pas une creation. La presentation comme 'pret de l'Etat' est simplificatrice : l'Etat ne prete pas directement, il compense les banques. Le chiffrage de 12.6 Md est credible mais depend fortement des hypotheses de recours.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "Le PTZ existe depuis 1995 (loi Perissol). Il a ete reforme de nombreuses fois (PTZ+, eco-PTZ). Les evaluations montrent un effet d'acceleration de l'achat plutot que de creation de nouveaux accedants. L'extension a 100 000 EUR serait sans precedent en montant. Le dispositif est bien maitrise sur le plan technique, mais la montee en charge a cette echelle est inedite.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "PTZ existant depuis 1995, reforme en 2011 (PTZ+) et 2024 (recentrage zones tendues)"
+      }
+    },
+    {
+      "promise_id": "lepen_006",
+      "raw_text": "Exonerer d'impot sur le revenu tous les jeunes actifs de moins de 30 ans",
+      "theme": "economie",
+      "budget": {
+        "score": 0.35,
+        "confidence": 0.8,
+        "justification": "Cout estime entre 3 et 5 Md EUR/an (IFRAP: 3 Md, Inst. Montaigne: 3.7 Md). L'IR represente 94.5 Md EUR de recettes en 2025. La perte de 3-5 Md est significative mais moins massive que d'autres mesures du programme. Cependant, cumule avec les autres baisses de recettes (TVA energie, exonerations charges), le total devient considerable. Pas de financement identifie.",
+        "cout_estime_eur": 3700000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.45,
+        "confidence": 0.8,
+        "justification": "Necessite une loi de finances (PLF). Risque constitutionnel ELEVE : le principe d'egalite devant l'impot (art. 13 DDHC) interdit les discriminations injustifiees. Une exoneration fondee uniquement sur l'age pourrait etre censuree par le CC. Le precedent de la taxe a 75% (Decision 2012-662 DC) montre que le CC est vigilant sur le respect de l'egalite devant les charges publiques. Une difference de traitement fondee sur l'age devrait etre justifiee par un objectif d'interet general suffisant et proportionnee.",
+        "vehicule_legislatif": "loi de finances (PLF)",
+        "risque_censure_cc": "eleve (egalite devant l'impot, art. 13 DDHC)",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.65,
+        "score_impact": 0.4,
+        "confidence": 0.7,
+        "justification": "Populaire aupres des jeunes mais pourrait susciter un sentiment d'injustice chez les contribuables de plus de 30 ans. L'impact reel sur le pouvoir d'achat des jeunes est limite : 50% des foyers fiscaux ne paient deja pas d'IR, et les jeunes actifs sont souvent dans cette categorie. La mesure beneficierait surtout aux jeunes cadres a hauts revenus. Effet pervers potentiel : les jeunes de 29 ans verraient leur imposition bondir a 30 ans (effet de seuil).",
+        "opposition_sociale": "moderee (sentiment d'injustice intergenerationnelle)"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.75,
+        "justification": "La mesure est techniquement definissable mais la presentation comme un soutien aux 'jeunes actifs' est trompeuse : la moitie des jeunes ne paie deja pas d'IR et la mesure beneficierait surtout aux jeunes aises. Le chiffrage est fiable (3-5 Md). L'effet de seuil a 30 ans n'est pas evoque par la candidate.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "Aucun precedent d'exoneration totale d'IR basee sur l'age en France. Des dispositifs cibles existent (exoneration apprentis, avantages fiscaux premiere embauche) mais jamais une exoneration generalisee par classe d'age. Le Portugal a mis en place un regime fiscal allege pour les jeunes (IRS Jovem) avec un bareme reduit progressif jusqu'a 35 ans, mais c'est une reduction, pas une exoneration totale.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Aucun precedent direct. IRS Jovem portugais (reduction progressive, pas exoneration totale)"
+      }
+    },
+    {
+      "promise_id": "lepen_007",
+      "raw_text": "Augmenter les salaires des enseignants",
+      "theme": "education",
+      "budget": {
+        "score": 0.35,
+        "confidence": 0.6,
+        "justification": "Cout estime a 5.8 Md EUR/an par l'Institut Montaigne. La mission enseignement scolaire est deja le premier budget de l'Etat (64.5 Md EUR). Une hausse de 5.8 Md representerait +9% du budget education. La mesure est vague (pas de pourcentage d'augmentation precise), ce qui rend le chiffrage incertain. La revalorisation Macron (2022-2023) a coute environ 3 Md EUR pour une hausse de 10% en debut de carriere.",
+        "cout_estime_eur": 5800000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.8,
+        "confidence": 0.85,
+        "justification": "Realisable par decret (revalorisation du point d'indice) ou par loi de finances (creation de primes specifiques). La revalorisation des enseignants ne pose pas de difficulte constitutionnelle. Le gouvernement a la maitrise de la politique salariale de la fonction publique. Pas de conflit avec le droit UE.",
+        "vehicule_legislatif": "decret (point d'indice) ou PLF (primes)",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.65,
+        "confidence": 0.75,
+        "justification": "Mesure tres populaire. Les enseignants francais sont parmi les moins bien payes de l'OCDE (28e sur 38 en debut de carriere). La revalorisation contribuerait a rendre le metier plus attractif et a lutter contre la crise de recrutement (4 000 postes non pourvus au concours 2023). Impact positif sur la qualite de l'education a moyen terme.",
+        "opposition_sociale": "nulle"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.6,
+        "justification": "La promesse est vague : aucun pourcentage ni calendrier precise. Les donnees OCDE confirment que les enseignants francais sont sous-payes comparativement. Cependant, la revalorisation Macron (Pacte enseignant, 2023) a deja augmente les salaires de 10% en debut de carriere. La mesure Le Pen s'ajouterait-elle a cette revalorisation ? L'absence de precision rend le verdict difficile.",
+        "verdict_global": "inverifiable"
+      },
+      "historique": {
+        "score": 0.6,
+        "confidence": 0.75,
+        "justification": "Les revalorisations enseignantes sont un sujet recurrent. La revalorisation Macron (2023) a coute ~3 Md EUR mais a ete jugee insuffisante par les syndicats. Les precedents montrent que les revalorisations sont techniquement simples mais politiquement couteuses (effet de cascade sur toute la fonction publique). La revalorisation Jospin (1989, protocole Durafour) avait pris 2 ans a se mettre en place.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Revalorisation Macron 2023 (Pacte enseignant, ~3 Md EUR), protocole Durafour 1989"
+      }
+    },
+    {
+      "promise_id": "lepen_008",
+      "raw_text": "Limiter les effectifs a 20 eleves par classe en primaire et 30 au secondaire",
+      "theme": "education",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "Cout estime a 2.2 Md EUR/an par l'Institut Montaigne. La mesure implique le recrutement de milliers d'enseignants supplementaires et la construction ou l'amenagement de salles de classe. En primaire, la taille moyenne est de 22 eleves (2023) et les classes dedoublees en REP sont a 12-15 eleves. Passer a 20 partout necessite des recrutements significatifs. En secondaire, la moyenne est d'environ 25-26 eleves, donc le plafond a 30 est moins contraignant.",
+        "cout_estime_eur": 2200000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.8,
+        "confidence": 0.8,
+        "justification": "Realisable par decret du ministre de l'Education nationale (organisation des services). Pas besoin de loi pour fixer des seuils d'effectifs. Pas de risque constitutionnel. Pas de conflit UE. La difficulte est plutot operationnelle (recrutement, locaux) que juridique.",
+        "vehicule_legislatif": "decret ou arrete ministeriel",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.65,
+        "confidence": 0.7,
+        "justification": "Mesure populaire aupres des parents et des enseignants. Les etudes STAR (Tennessee, 1985) et les evaluations des classes dedoublees en REP+ (DEPP, 2019) montrent un impact positif significatif de la reduction des effectifs sur les apprentissages, surtout pour les eleves defavorises. Cependant, l'effet marginal de passer de 22 a 20 est nettement inferieur a celui de passer de 25 a 12.",
+        "opposition_sociale": "nulle"
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "Les chiffres sur la taille des classes sont verifiables (donnees DEPP). La taille moyenne en primaire est bien d'environ 22 eleves. La mesure est techniquement definissable. L'evidence scientifique soutient l'idee que des classes plus petites ameliorent les resultats, surtout en debut de scolarite. Le cout de 2.2 Md est un ordre de grandeur raisonnable.",
+        "verdict_global": "confirme"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "justification": "Le dedoublement des classes en REP/REP+ (2017-2019) a concerne 300 000 eleves et represente le precedent le plus proche. Sa mise en oeuvre a pris 3 ans et a mobilise ~10 000 postes. Generaliser a tout le primaire et plafonner au secondaire serait une operation d'ampleur bien superieure, necessitant des annees de montee en charge et la resolution de la crise de recrutement enseignant.",
+        "delai_realiste_mois": 48,
+        "precedent_principal": "Dedoublement des classes en REP/REP+ (2017-2019, 10 000 postes, 3 ans)"
+      }
+    },
+    {
+      "promise_id": "lepen_009",
+      "raw_text": "Augmenter la capacite des prisons a 85 000 places d'ici 2027",
+      "theme": "securite",
+      "budget": {
+        "score": 0.25,
+        "confidence": 0.7,
+        "justification": "Cout estime a 5.5 Md EUR/an par l'Institut Montaigne. La France compte actuellement environ 61 000 places de prison pour ~74 000 detenus (taux d'occupation 121%). Passer a 85 000 places implique la construction de 24 000 places en 5 ans. Le plan Macron de 15 000 places en 10 ans (2018-2028) n'a realise que ~5 000 places en 6 ans. Le cout de construction est d'environ 150 000 a 200 000 EUR/place, plus les couts de fonctionnement (35 000 EUR/detenu/an). Investissement estime : 3.6-4.8 Md EUR de construction + ~840 M/an de fonctionnement supplementaire.",
+        "cout_estime_eur": 5500000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.8,
+        "justification": "Realisable par loi de programmation pour la justice et lois de finances annuelles. Le budget justice actuel est de 10.2 Md EUR. La construction de prisons est une competence de l'Etat, sans obstacle constitutionnel. Pas de conflit UE. La difficulte principale est operationnelle : terrains disponibles, procedures d'urbanisme, acceptabilite locale (syndrome NIMBY).",
+        "vehicule_legislatif": "loi de programmation pour la justice + PLF annuels",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.6,
+        "score_impact": 0.5,
+        "confidence": 0.65,
+        "justification": "L'opinion publique est partagee sur la question carcerale. Les sondages montrent un soutien a la fermete mais aussi une meconnaissance des conditions de detention. Les associations de defense des droits de l'homme s'opposent a une politique du 'tout carceral'. La CEDH a condamne la France a plusieurs reprises pour conditions de detention indignes. L'impact sur la securite est debattu : les etudes criminologiques montrent un effet dissuasif limite de l'allongement des peines.",
+        "opposition_sociale": "moderee (associations droits de l'homme, riverains des sites)"
+      },
+      "factcheck": {
+        "score": 0.35,
+        "confidence": 0.75,
+        "justification": "L'objectif de 85 000 places en 5 ans est irrealiste au regard des precedents. Le plan Macron de 15 000 places en 10 ans n'a realise que ~5 000 places en 6 ans. Construire 24 000 places en 5 ans representerait un rythme 8 fois superieur au rythme actuel. Les delais de construction (5-7 ans pour un etablissement penitentiaire) rendent l'objectif 2027 physiquement impossible.",
+        "verdict_global": "trompeur"
+      },
+      "historique": {
+        "score": 0.2,
+        "confidence": 0.8,
+        "justification": "Tous les programmes de construction de prisons en France ont pris beaucoup plus de temps que prevu. Le programme 13 200 places de Perben (2002) a mis 10 ans a se realiser partiellement. Le plan 15 000 places de Macron (2018) a un taux de realisation de ~33% apres 6 ans. Les delais moyens de construction d'un etablissement penitentiaire sont de 5 a 7 ans (etudes, autorisations, construction). L'objectif de 24 000 places en 5 ans est sans precedent.",
+        "delai_realiste_mois": 120,
+        "precedent_principal": "Plan 15 000 places Macron: ~5 000 realisees en 6 ans (33%). Programme Perben 2002: 10 ans pour realisation partielle"
+      }
+    },
+    {
+      "promise_id": "lepen_010",
+      "raw_text": "Porter le budget de la defense a 55 milliards d'euros d'ici 2027",
+      "theme": "international",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.8,
+        "justification": "Cout supplementaire estime a 4 Md EUR/an par l'Institut Montaigne (budget defense 2025 : 50.5 Md EUR, objectif 55 Md = +4.5 Md). Ce cout est relativement modere comparativement aux autres mesures du programme. La LPM 2024-2030 prevoit deja une montee en puissance a 69 Md EUR en 2030, soit un rythme de +3.3 Md/an. L'objectif de 55 Md en 2027 est donc en dessous de la trajectoire LPM actuelle (qui viserait ~57 Md en 2027). Mesure partiellement deja financee.",
+        "cout_estime_eur": 4000000000,
+        "financement_credible": true,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.85,
+        "justification": "Le budget de la defense est fixe par la loi de finances annuelle et encadre par la loi de programmation militaire (LPM). La LPM 2024-2030 a deja ete votee et prevoit une montee en puissance. L'objectif de 55 Md est compatible avec la trajectoire LPM. Pas de risque constitutionnel, pas de conflit UE (la defense est une competence nationale).",
+        "vehicule_legislatif": "loi de finances annuelle (PLF), deja encadre par LPM 2024-2030",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.6,
+        "confidence": 0.7,
+        "justification": "Le contexte geopolitique (guerre en Ukraine, tensions internationales) a renforce le soutien de l'opinion a l'effort de defense. Les sondages montrent un soutien majoritaire a la hausse du budget militaire. L'impact economique est positif pour l'industrie de defense francaise (emplois, innovation). Cependant, l'arbitrage budgetaire avec d'autres priorites (sante, education) peut susciter des tensions.",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "L'objectif de 55 Md en 2027 est coherent avec la trajectoire LPM 2024-2030. Le budget defense 2025 est bien de 50.5 Md EUR. La hausse de 4.5 Md est dans l'ordre de grandeur des augmentations prevues. La mesure est donc credible sur le plan technique. Cependant, elle est presentee comme un effort propre alors qu'elle prolonge une trajectoire deja engagee par le gouvernement precedent.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "La montee en puissance du budget de defense est deja en cours (+3.3 Md en 2025 vs 2024). Les LPM precedentes ont generalement ete respectees en volume, meme si des reports de credits ont ete pratiques. Le precedent de la LPM 2019-2025 montre que les marches de +1.7 Md/an sont tenables. L'objectif de 55 Md est realiste au regard de la trajectoire.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "LPM 2024-2030: trajectoire vers 69 Md en 2030, hausse annuelle de ~3 Md"
+      }
+    },
+    {
+      "promise_id": "lepen_011",
+      "raw_text": "Lancer un plan d'urgence de 20 milliards d'euros pour la sante, arreter les fermetures de lits et augmenter de 10% les salaires du personnel soignant",
+      "theme": "sante",
+      "budget": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "Cout estime a 4 Md EUR/an par l'Institut Montaigne (sur le quinquennat, les 20 Md se decomposeraient en ~4 Md/an). La hausse de 10% des salaires soignants couterait environ 3-4 Md/an (masse salariale hospitaliere ~45 Md). Le Segur de la sante (2020) a deja coute 8.2 Md/an en revalorisation. L'arret des fermetures de lits va a l'encontre de la politique de virage ambulatoire. L'ONDAM 2025 est de 265.9 Md EUR. Une hausse de 4 Md represente +1.5% supplementaire.",
+        "cout_estime_eur": 4000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Realisable par PLFSS (augmentation de l'ONDAM) et decrets (revalorisation salariale). L'arret des fermetures de lits est plus complexe : les ARS ont une autonomie de decision sur l'organisation de l'offre de soins. Pas de risque constitutionnel. Pas de conflit UE. La difficulte est surtout budgetaire et organisationnelle.",
+        "vehicule_legislatif": "PLFSS + decrets",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.9,
+        "score_impact": 0.7,
+        "confidence": 0.75,
+        "justification": "Mesure extremement populaire apres la crise Covid qui a revele les faiblesses de l'hopital public. Le personnel soignant est un groupe sympathique dans l'opinion. L'arret des fermetures de lits repond a une angoisse des populations rurales. L'impact serait positif sur l'attractivite des metiers du soin et sur l'acces aux soins.",
+        "opposition_sociale": "nulle"
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "Les chiffres sur les fermetures de lits sont verifiables : environ 100 000 lits fermes en 20 ans (de 530 000 a 390 000). La crise des urgences et le manque de soignants sont documentes. Le Segur de la sante a deja augmente les salaires de +183 EUR net/mois (9% en moyenne). Promettre 10% supplementaires est techniquement faisable. Le chiffrage de 20 Md sur le quinquennat est un ordre de grandeur plausible mais le detail est flou.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.5,
+        "confidence": 0.7,
+        "justification": "Le Segur de la sante (2020) est le precedent direct : 8.2 Md/an de revalorisation, +183 EUR/mois pour les soignants. Sa mise en oeuvre a ete rapide (6 mois) sous la pression de la crise Covid. Cependant, le Segur n'a pas resolu la crise de l'hopital (departs, fermetures d'urgences, deserts medicaux). Les plans sante successifs (Plan Hopital 2007, Ma Sante 2022) montrent que les problemes structurels persistent malgre les injections financieres.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Segur de la sante (2020): 8.2 Md/an, +183 EUR net/mois, 6 mois de mise en oeuvre"
+      }
+    },
+    {
+      "promise_id": "lepen_012",
+      "raw_text": "Construire 100 000 logements sociaux par an dont 20 000 pour les etudiants et jeunes travailleurs",
+      "theme": "logement",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.65,
+        "justification": "Cout estime a 500 M EUR/an par l'Institut Montaigne (subventions publiques supplementaires, le financement principal venant des prets CDC et du 1% logement). Ce chiffrage parait sous-estime : le cout moyen de construction d'un logement social est de 120 000-160 000 EUR, soit 12-16 Md pour 100 000 logements, finances principalement par emprunt. La subvention publique de 500 M est l'aide directe de l'Etat, mais le financement global mobilise des ressources beaucoup plus larges. Objectif ambitieux mais dans l'ordre de grandeur des productions passees (2016: 130 000 logements sociaux finances).",
+        "cout_estime_eur": 500000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Le financement du logement social est encadre par le code de la construction (CCH). La loi SRU (art. L302-5) impose deja un quota de 20-25% de logements sociaux aux communes. Pas de difficulte constitutionnelle. Pas de conflit UE. La difficulte est surtout operationnelle : disponibilite fonciere, permis de construire, opposition locale.",
+        "vehicule_legislatif": "loi de finances (PLF) + arretes",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.7,
+        "confidence": 0.7,
+        "justification": "La crise du logement est un sujet majeur : 2.4 millions de menages en attente d'un logement social. La construction de logements sociaux est globalement soutenue par l'opinion. Cependant, des oppositions locales (NIMBYisme) peuvent freiner les projets. L'accent sur les etudiants et jeunes travailleurs repond a un besoin reel (800 000 etudiants en recherche de logement).",
+        "opposition_sociale": "faible a moderee (oppositions locales)"
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "L'objectif de 100 000 logements sociaux/an a deja ete atteint et depasse dans le passe (2016: 130 000 logements finances). La production est tombee a 82 000 en 2023 en raison de la hausse des couts de construction et de la baisse des APL. L'objectif est donc ambitieux mais pas irealiste. Cependant, les 20 000 logements etudiants supplementaires s'ajoutent a un rythme actuel de ~6 000/an, ce qui represente un triplement.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "La France a produit plus de 100 000 logements sociaux/an entre 2013 et 2017. La baisse recente (82 000 en 2023) est liee a des facteurs conjoncturels (hausse des taux, couts de construction). Le plan Borloo (2005) avait fixe un objectif de 500 000 logements sociaux en 5 ans, partiellement atteint. La construction de residences etudiantes a un rythme de 20 000/an est sans precedent (plan 40 000 logements etudiants Hollande: 30 000 realises en 5 ans).",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Production de 130 000 logements sociaux en 2016. Plan Borloo 2005. Plan 40 000 logements etudiants Hollande"
+      }
+    },
+    {
+      "promise_id": "lepen_013",
+      "raw_text": "Creer 100 000 places supplementaires en EHPAD d'ici 2030 et instaurer une prime de 300 euros par mois pour les aidants familiaux",
+      "theme": "sante",
+      "budget": {
+        "score": 0.25,
+        "confidence": 0.7,
+        "justification": "Cout estime a 4 Md EUR/an par l'Institut Montaigne. La France compte environ 600 000 places en EHPAD. Creer 100 000 places supplementaires represente un investissement de construction de ~6 Md EUR (60 000 EUR/place) plus des couts de fonctionnement de ~3 Md/an (30 000 EUR/place/an). La prime aidants de 300 EUR/mois pour les ~4 millions d'aidants familiaux couterait ~14 Md/an, mais le perimetre retenu par Le Pen est probablement plus restreint. Le total est massif.",
+        "cout_estime_eur": 4000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Realisable par PLFSS (branche autonomie, 5e branche creee en 2021). La creation de places en EHPAD releve de la planification medico-sociale (schemas regionaux). La prime aidants serait une prestation sociale nouvelle. Pas de difficulte constitutionnelle particuliere. Pas de conflit UE.",
+        "vehicule_legislatif": "PLFSS (branche autonomie)",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.7,
+        "confidence": 0.75,
+        "justification": "Le vieillissement de la population est un sujet consensuel. Les scandales en EHPAD (affaire Orpea, 2022) ont renforce la demande d'amelioration de la prise en charge. La reconnaissance des aidants familiaux est une demande forte des associations. L'impact serait positif pour les personnes agees dependantes et leurs familles.",
+        "opposition_sociale": "nulle"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.65,
+        "justification": "Les chiffres sur le besoin en places EHPAD sont debattus : le rapport El Khomri (2019) estimait le besoin a 93 000 places supplementaires d'ici 2030. L'objectif de 100 000 est donc dans l'ordre de grandeur. Cependant, le rythme actuel de creation est de ~5 000 places/an. Il faudrait tripler le rythme. La prime de 300 EUR/mois pour les aidants est une promesse frequente mais le perimetre (nombre d'aidants concernes) n'est pas precise.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.35,
+        "confidence": 0.65,
+        "justification": "Le plan Solidarite Grand Age (2006) et le rapport El Khomri (2019) ont identifie les besoins mais les realisations sont restees en deca des ambitions. La loi Grand Age, promise depuis 2019, n'a jamais vu le jour. Le rythme de creation de places (5 000/an) devrait etre triple. La branche autonomie creee en 2021 dispose de ressources limitees (0.15 point de CSG). Le precedent montre une incapacite chronique a atteindre les objectifs dans ce domaine.",
+        "delai_realiste_mois": 96,
+        "precedent_principal": "Plan Solidarite Grand Age 2006, rapport El Khomri 2019. Loi Grand Age jamais votee"
+      }
+    },
+    {
+      "promise_id": "lepen_014",
+      "raw_text": "Supprimer le droit du sol et limiter l'acces a la nationalite a la seule naturalisation sur criteres de merite et d'assimilation",
+      "theme": "immigration",
+      "budget": {
+        "score": 0.85,
+        "confidence": 0.7,
+        "justification": "Impact budgetaire direct quasi nul. Le droit du sol concerne environ 25 000 acquisitions de nationalite par an (art. 21-7 du Code civil : acquisition automatique a 18 ans pour les nes en France de parents etrangers residant depuis 5 ans). Les economies potentielles sur les prestations sociales sont marginales car la plupart des personnes concernees sont deja residentes legales avec acces aux prestations. La mesure n'a pas de cout direct significatif.",
+        "cout_estime_eur": 0,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.1,
+        "confidence": 0.85,
+        "justification": "OBSTACLE JURIDIQUE MAJEUR. Le droit du sol est un principe de droit francais depuis 1515 (edit de Francois Ier), codifie dans le Code civil. Sa suppression necessiterait une revision constitutionnelle (art. 89) car le CC a reconnu la valeur constitutionnelle du droit a la nationalite. Le Senat (majorite LR) dispose d'un droit de veto effectif sur toute revision constitutionnelle. La voie du referendum (art. 11) n'est pas utilisable pour une modification du Code civil selon la jurisprudence dominante. De plus, cette mesure entre en conflit avec les conventions internationales signees par la France (Convention de reduction des cas d'apatridie de 1961, Convention europeenne sur la nationalite de 1997). Le CC a censure 32 articles de la loi immigration 2024 (Decision 2023-863 DC), montrant sa vigilance sur les droits fondamentaux lies a l'immigration.",
+        "vehicule_legislatif": "revision constitutionnelle (art. 89) necessaire",
+        "risque_censure_cc": "quasi-certain si par loi ordinaire",
+        "conflit_droit_ue": true
+      },
+      "social": {
+        "score_acceptabilite": 0.45,
+        "score_impact": 0.35,
+        "confidence": 0.65,
+        "justification": "L'opinion est divisee sur le droit du sol. Les sondages montrent un soutien d'environ 40-50% a sa restriction (mais pas forcement sa suppression). L'impact social serait significatif : des milliers de personnes nees en France de parents etrangers ne pourraient plus acquerir automatiquement la nationalite, creant une population de 'residents permanents sans nationalite'. L'integration est un debat clivant. Les associations de defense des droits et une partie de la societe civile s'y opposeraient fermement.",
+        "opposition_sociale": "forte (associations, intellectuels, gauche politique)"
+      },
+      "factcheck": {
+        "score": 0.4,
+        "confidence": 0.7,
+        "justification": "Le droit du sol francais n'est pas un droit du sol 'pur' (comme aux Etats-Unis) : il est conditionne a la residence depuis 5 ans et a la manifestation de volonte a 18 ans. La presentation de cette mesure comme un retour au 'bon sens' ignore la realite juridique complexe du droit de la nationalite francais. La notion de 'criteres de merite et d'assimilation' est vague et potentiellement discriminatoire.",
+        "verdict_global": "trompeur"
+      },
+      "historique": {
+        "score": 0.15,
+        "confidence": 0.7,
+        "justification": "La reforme Pasqua (1993) avait supprime l'acquisition automatique a la majorite en la remplaçant par une 'manifestation de volonte'. Cette reforme a ete partiellement annulee par la loi Guigou (1998) qui a retabli l'automaticite sous conditions. La loi immigration 2024 (Decision 2023-863 DC) a vu 32 articles censures par le CC. Aucun precedent de suppression totale du droit du sol dans un pays europeen democratique. Les tentatives de restriction se heurtent systematiquement aux cours constitutionnelles et aux conventions internationales.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Reforme Pasqua 1993 (restriction du droit du sol, partiellement annulee en 1998). Loi immigration 2024 (32 articles censures par CC)"
+      }
+    },
+    {
+      "promise_id": "lepen_015",
+      "raw_text": "Reserver les prestations familiales aux menages dont au moins un parent est francais",
+      "theme": "immigration",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.55,
+        "justification": "L'Institut Montaigne estime une 'economie' de 3.1 Md EUR/an. Ce chiffrage est considere a faible credibilite par les deux instituts. Les prestations familiales versees aux etrangers en situation reguliere representent environ 6 Md EUR/an (estimation haute, incluant AAH, APL, etc. selon un perimetre debattu). L'economie reelle dependrait du perimetre exact des prestations visees et des exceptions (conventions internationales, droit UE). L'IFRAP et l'Inst. Montaigne jugent ces economies 'largement non chiffrables'.",
+        "cout_estime_eur": -3100000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.1,
+        "confidence": 0.9,
+        "justification": "OBSTACLE JURIDIQUE QUASI-INSURMONTABLE. La 'preference nationale' dans l'acces aux prestations sociales est contraire a : (1) la Constitution (egalite devant la loi, art. 1er, preambule 1946 al. 11 : droit a la protection sociale pour tous), (2) la CEDH (interdiction des discriminations, art. 14 + protocole 12), (3) le droit UE (reglement 883/2004 sur la coordination des systemes de securite sociale : egalite de traitement pour les citoyens UE), (4) les conventions bilaterales de securite sociale signees par la France avec de nombreux pays. Le CC a censure des dispositions similaires dans la loi immigration 2024. Une revision constitutionnelle serait necessaire et meme celle-ci ne suffirait pas a ecarter les obligations internationales et europeennes.",
+        "vehicule_legislatif": "revision constitutionnelle (insuffisante) + sortie partielle du droit UE et conventions internationales",
+        "risque_censure_cc": "quasi-certain",
+        "conflit_droit_ue": true
+      },
+      "social": {
+        "score_acceptabilite": 0.5,
+        "score_impact": 0.3,
+        "confidence": 0.6,
+        "justification": "La 'preference nationale' est un theme porteur dans l'electorat RN mais divise profondement l'opinion. Les sondages montrent un soutien d'environ 50% a cette idee dans l'abstrait, mais l'opposition est forte dans les milieux associatifs, juridiques et une partie de la population. L'impact reel serait limite si seuls les etrangers hors UE sont concernes (les citoyens UE sont proteges par le droit europeen). L'impact humain serait significatif pour les familles concernees.",
+        "opposition_sociale": "forte (associations, syndicats, institutions europeennes)"
+      },
+      "factcheck": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "Les chiffres avances sur le 'cout de l'immigration' sont un sujet politiquement charge. Les etudes academiques (OCDE, France Strategie) montrent un solde net de l'immigration sur les finances publiques proche de zero ou legerement positif. La presentation des prestations versees aux etrangers comme un 'gaspillage' recoverable est trompeuse : ces personnes cotisent egalement. L'economie de 3.1 Md est jugee a faible credibilite par l'Inst. Montaigne.",
+        "verdict_global": "trompeur"
+      },
+      "historique": {
+        "score": 0.1,
+        "confidence": 0.8,
+        "justification": "Aucun pays europeen n'a mis en oeuvre une 'preference nationale' generalisee sur les prestations sociales en restant dans l'UE. Le Danemark a durci les conditions d'acces (duree de residence) mais dans le cadre du droit UE. La Hongrie d'Orban a des politiques restrictives mais n'a pas instaure de preference nationale sur les prestations. Toute tentative similaire a ete bloquee par les juridictions nationales ou europeennes.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Aucun precedent comparable dans l'UE. Restrictions danoises (conditions de residence) dans le cadre du droit UE"
+      }
+    },
+    {
+      "promise_id": "lepen_016",
+      "raw_text": "Arreter les projets eoliens et demonter progressivement les parcs existants, relancer la filiere nucleaire avec la construction de 20 nouveaux EPR",
+      "theme": "environnement",
+      "budget": {
+        "score": 0.2,
+        "confidence": 0.6,
+        "justification": "Cout estime a 1.5 Md EUR/an par l'Institut Montaigne (solde net apres redirection des subventions eolien). Cependant, ce chiffrage est tres incomplet. Le demantelement des ~10 000 eoliennes existantes couterait 10-20 Md EUR (100 000-200 000 EUR/eolienne). Les indemnisations contractuelles aux operateurs eoliens (contrats d'achat de 15-20 ans) couteraient des milliards. La construction de 20 EPR a un cout estime de 250-400 Md EUR (le seul EPR de Flamanville a coute 19.1 Md pour un cout initial prevu de 3.3 Md). Le financement repose sur la 'redirection des 5 Md de subventions eolien' qui ne couvrirait qu'une fraction du cout.",
+        "cout_estime_eur": 1500000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.25,
+        "confidence": 0.8,
+        "justification": "OBSTACLES JURIDIQUES MULTIPLES. (1) Arret de l'eolien : les operateurs ont des contrats d'achat d'electricite avec l'Etat (15-20 ans). Leur annulation unilaterale exposerait l'Etat a des contentieux massifs et des indemnisations de plusieurs milliards. (2) Demantelement : la loi climat europeenne (Reglement 2021/1119) impose la neutralite carbone en 2050 et -55% d'emissions en 2030. La directive energies renouvelables (RED III) fixe un objectif de 42.5% d'EnR en 2030. L'arret de l'eolien rendrait ces objectifs inatteignables et exposerait la France a une procedure d'infraction de la Commission europeenne. (3) Construction de 20 EPR : faisable juridiquement mais la procedure (debat public, autorisations ASN, permis) prend 10-15 ans par reacteur.",
+        "vehicule_legislatif": "loi ordinaire (mais contentieux massifs et conflit droit UE)",
+        "risque_censure_cc": "eleve (droit de propriete, contrats, Charte de l'environnement)",
+        "conflit_droit_ue": true
+      },
+      "social": {
+        "score_acceptabilite": 0.45,
+        "score_impact": 0.4,
+        "confidence": 0.6,
+        "justification": "L'opinion sur l'eolien est divisee : opposition locale forte (bruit, paysages) mais soutien global aux energies renouvelables. Le nucleaire beneficie d'un regain de popularite (decarbonation, souverainete energetique). Cependant, le demantelement des eoliennes existantes susciterait l'opposition des collectivites concernees (revenus fiscaux, emplois), des ecologistes et d'une partie de l'opinion sensible au climat. L'impact climatique serait negatif a moyen terme (perte de capacite de production decarbone sans remplacement immediat).",
+        "opposition_sociale": "forte (ecologistes, collectivites, filiere eolienne - 25 000 emplois)"
+      },
+      "factcheck": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "La presentation de l'eolien comme inutile est contredite par les donnees : l'eolien a produit 38.7 TWh en 2023 (7.5% de la production electrique francaise). Le cout de l'eolien terrestre est devenu competitif (50-70 EUR/MWh) comparativement au nucleaire nouveau (100-120 EUR/MWh pour l'EPR2). L'affirmation que 5 Md de subventions eolien pourraient financer 20 EPR est fausse : le cout de 20 EPR est estime a 250-400 Md. Le seul EPR de Flamanville a coute 19.1 Md (6x le budget initial).",
+        "verdict_global": "trompeur"
+      },
+      "historique": {
+        "score": 0.1,
+        "confidence": 0.75,
+        "justification": "Aucun pays n'a demantele un parc eolien existant a grande echelle. La construction de reacteurs nucleaires prend 10-15 ans minimum (Flamanville : 17 ans, Olkiluoto 3 en Finlande : 18 ans, Hinkley Point C au Royaume-Uni : prevu pour 14 ans). La France a lance le programme de 6 EPR2 (2022) avec livraisons prevues a partir de 2035-2042. Construire 20 EPR prendrait au minimum 30 ans. Le precedent du programme nucleaire francais des annees 1970-80 (58 reacteurs en 20 ans) etait dans un contexte industriel et reglementaire radicalement different.",
+        "delai_realiste_mois": 360,
+        "precedent_principal": "EPR Flamanville: 17 ans, cout 6x le budget. Programme historique francais 1970-80: 58 reacteurs en 20 ans dans un contexte tres different"
+      }
+    },
+    {
+      "promise_id": "lepen_017",
+      "raw_text": "Renationaliser les autoroutes et baisser les peages de 15%",
+      "theme": "economie",
+      "budget": {
+        "score": 0.15,
+        "confidence": 0.75,
+        "justification": "La renationalisation des autoroutes couterait entre 40 et 60 Md EUR selon les estimations (valeur des concessions cédees en 2005-2006 pour 14.8 Md EUR, mais la valeur actuelle des concessions est bien superieure en raison de la rentabilite elevee). L'Etat devrait indemniser les concessionnaires (Vinci, Eiffage, Abertis) a la valeur contractuelle residuelle. La baisse de 15% des peages representerait une perte de recettes de ~1.5 Md/an (peages totaux ~10 Md/an). Le financement par emprunt public aggraverait massivement la dette (113% du PIB + 2 points de PIB). Totalement incompatible avec le PSMT.",
+        "cout_estime_eur": 50000000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.3,
+        "confidence": 0.75,
+        "justification": "La nationalisation est constitutionnellement possible (preambule 1946, al. 9) mais soumise au principe de juste indemnisation (art. 17 DDHC, droit de propriete). Les concessions autoroutieres sont des contrats a duree determinee (fin entre 2031 et 2036) : l'Etat recuperera les autoroutes gratuitement a la fin des concessions. Une rupture anticipee impliquerait des indemnites massives. En droit UE, la nationalisation est possible mais l'indemnisation doit etre equitable (art. 345 TFUE). La baisse des peages pourrait etre contestee comme une aide d'Etat indirecte si elle fausse la concurrence (services de transport).",
+        "vehicule_legislatif": "loi de nationalisation + lois de finances",
+        "risque_censure_cc": "moyen (indemnisation juste et prealable)",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.5,
+        "confidence": 0.7,
+        "justification": "La privatisation des autoroutes (2005-2006) est largement consideree comme une erreur par l'opinion publique. Le rapport du Senat (2020) a critique la 'rente autoroutiere'. La baisse des peages serait populaire aupres des usagers. Cependant, l'utilisation de 40-60 Md d'argent public pour racheter des concessions qui reviennent gratuitement en 2031-2036 serait controversee comme un mauvais usage de l'argent public.",
+        "opposition_sociale": "faible sur le principe, moderee sur le financement"
+      },
+      "factcheck": {
+        "score": 0.35,
+        "confidence": 0.75,
+        "justification": "La promesse de 'renationaliser' occulte le fait que les concessions expirent entre 2031 et 2036. L'Etat recuperera les autoroutes gratuitement dans 5-10 ans. Depenser 40-60 Md pour anticiper de quelques annees est financierement irrationnel. La baisse de 15% des peages est techniquement faisable mais la presentation comme un geste de pouvoir d'achat ignore le cout colossal de la nationalisation anticipee.",
+        "verdict_global": "trompeur"
+      },
+      "historique": {
+        "score": 0.25,
+        "confidence": 0.7,
+        "justification": "La privatisation des autoroutes (2005-2006) est le precedent inverse. La nationalisation du Credit Lyonnais (1990s) a coute 30 Md EUR a l'Etat. Les nationalisations Mitterrand (1981-82) ont ete couteuses et suivies de privatisations dans les annees 1986-88. En l'espece, l'attente de la fin des concessions (2031-2036) est la solution economiquement rationnelle. La nationalisation anticipee serait sans precedent en France pour ce type de contrat.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Nationalisations Mitterrand 1981-82 (couteuses, privatisees en 1986-88). Credit Lyonnais (~30 Md de pertes)"
+      }
+    },
+    {
+      "promise_id": "lepen_018",
+      "raw_text": "Supprimer la redevance audiovisuelle de 138 euros et privatiser l'audiovisuel public",
+      "theme": "culture",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "L'Institut Montaigne estime un gain net de 100 M EUR/an (recettes de privatisation - perte de la redevance). La redevance (contribution a l'audiovisuel public) representait 3.7 Md EUR/an avant sa suppression par le gouvernement Macron en 2022. Elle a ete remplacee par une fraction de TVA. La 'suppression' promise par Le Pen a donc ete effectuee par Macron. La privatisation de l'audiovisuel public (France Televisions, Radio France) pourrait rapporter 3-5 Md EUR en vente de capital, mais supprimerait le financement public annuel (~4 Md/an), compensant largement le produit de la vente.",
+        "cout_estime_eur": -100000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "La suppression de la redevance a deja ete realisee (2022). La privatisation de l'audiovisuel public necessiterait une loi ordinaire. Le CC a reconnu la valeur constitutionnelle du pluralisme des medias et de la liberte de communication (Decision 86-217 DC). Une privatisation totale pourrait etre censuree si elle porte atteinte au pluralisme. En pratique, la vente de France Televisions et Radio France susciterait un debat politique majeur et une opposition des personnels (droit de greve).",
+        "vehicule_legislatif": "loi ordinaire",
+        "risque_censure_cc": "moyen (pluralisme des medias, liberte de communication)",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.55,
+        "score_impact": 0.4,
+        "confidence": 0.65,
+        "justification": "La suppression de la redevance etait populaire (deja realisee par Macron). La privatisation de l'audiovisuel public divise l'opinion : soutien de ceux qui jugent le service public partial, opposition de ceux qui y voient un pilier democratique. Les personnels de l'audiovisuel public (~16 000 emplois) s'y opposeraient fortement. L'impact sur le pluralisme mediatique et l'information serait debattu.",
+        "opposition_sociale": "moderee a forte (personnels, syndicats, intellectuels)"
+      },
+      "factcheck": {
+        "score": 0.4,
+        "confidence": 0.7,
+        "justification": "La redevance audiovisuelle de 138 EUR a ete supprimee par le gouvernement Macron en 2022. La promesse est donc obsolete sur ce volet. La privatisation de l'audiovisuel public est une proposition distincte et controversee. La presentation comme une 'economie' ignore le fait que l'audiovisuel public est desormais finance par une fraction de TVA, dont la suppression reduirait les recettes de l'Etat.",
+        "verdict_global": "trompeur"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "justification": "La privatisation de TF1 (1987) est le precedent direct. Elle a ete realisee par Jacques Chirac en 2 ans. La privatisation d'ADP (proposee par Macron en 2019) a ete bloquee par un referendum d'initiative partagee puis par le Covid. Le precedent TF1 montre que la privatisation est techniquement faisable mais politiquement couteuse. Le Royaume-Uni debat de la privatisation de la BBC sans l'avoir realisee.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Privatisation de TF1 (1987, 2 ans). Echec de la privatisation d'ADP (2019-2020)"
+      }
+    },
+    {
+      "promise_id": "lepen_019",
+      "raw_text": "Doubler le nombre de magistrats",
+      "theme": "securite",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.7,
+        "justification": "Cout estime a 300 M EUR/an par l'Institut Montaigne. La France compte environ 9 000 magistrats (2023). En doubler le nombre implique 9 000 recrutements supplementaires. Le cout moyen d'un magistrat (salaire + charges + environnement de travail) est d'environ 100-120 000 EUR/an, soit 900 M - 1.1 Md EUR/an. Le chiffrage de l'Inst. Montaigne (300 M) parait sous-estime. Il faudrait egalement construire des tribunaux, recruter des greffiers (ratio 1:1 greffier/magistrat). Le budget justice 2025 est de 10.2 Md EUR.",
+        "cout_estime_eur": 300000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Realisable par loi de finances (creation de postes) et loi de programmation pour la justice. Pas de difficulte constitutionnelle. La creation de postes de magistrat necessite aussi une capacite de formation (ENM a Bordeaux : 350 auditeurs par an actuellement). Doubler les magistrats impliquerait de former 9 000 magistrats supplementaires, soit 25 ans au rythme actuel ou une multiplication par 5 de la capacite de formation.",
+        "vehicule_legislatif": "PLF + loi de programmation justice",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.7,
+        "confidence": 0.75,
+        "justification": "La lenteur de la justice est une preoccupation majeure : delai moyen en premiere instance civile de 14 mois, 10 mois en penal. La France a 11 juges pour 100 000 habitants vs 25 en Allemagne. Le renforcement de la justice serait tres bien accueilli par l'opinion et les professionnels du droit. L'impact serait tres positif sur les delais de traitement.",
+        "opposition_sociale": "nulle"
+      },
+      "factcheck": {
+        "score": 0.45,
+        "confidence": 0.75,
+        "justification": "Les donnees sur le sous-effectif de la justice francaise sont confirmees par la CEPEJ (Commission europeenne pour l'efficacite de la justice) : la France est en dessous de la moyenne europeenne en magistrats par habitant. Le 'doublement' est un objectif ambitieux mais le calendrier est irrealiste : la formation d'un magistrat prend 31 mois a l'ENM. Avec une capacite actuelle de 350/an, il faudrait 25 ans pour doubler l'effectif. Meme en triplant la capacite de formation, cela prendrait plus d'un quinquennat.",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.2,
+        "confidence": 0.75,
+        "justification": "Les etats generaux de la justice (2022) ont recommande des recrutements massifs mais sans atteindre le doublement. Le plan Dupond-Moretti (2023) prevoyait 1 500 magistrats et 1 500 greffiers supplementaires en 5 ans, soit une augmentation de ~17%. Le doublement en un quinquennat est sans precedent dans aucun pays comparable. Le Royaume-Uni et l'Allemagne ont augmente leurs effectifs judiciaires progressivement sur 15-20 ans.",
+        "delai_realiste_mois": 120,
+        "precedent_principal": "Plan Dupond-Moretti 2023 (+1 500 magistrats en 5 ans, soit +17%). Aucun precedent de doublement"
+      }
+    },
+    {
+      "promise_id": "lepen_020",
+      "raw_text": "Instaurer le Referendum d'Initiative Citoyenne (RIC) et la representation proportionnelle",
+      "theme": "institutions",
+      "budget": {
+        "score": 0.8,
+        "confidence": 0.7,
+        "justification": "Cout budgetaire faible. Un referendum coute environ 150-200 M EUR a organiser. La proportionnelle n'a pas de cout supplementaire significatif (le ministere de l'Interieur doit adapter le mode de calcul, cout marginal). Les couts sont ponctuels et modestes par rapport aux autres mesures du programme. Compatible avec le PSMT.",
+        "cout_estime_eur": 200000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.15,
+        "confidence": 0.9,
+        "justification": "OBSTACLE JURIDIQUE MAJEUR POUR LE RIC. Le RIC (referendum d'initiative citoyenne) n'existe pas dans la Constitution actuelle. L'art. 11 prevoit un referendum d'initiative partagee (RIP) depuis 2008, jamais abouti. L'instauration d'un RIC abrogatoire, legislatif ou constituant necessite une revision constitutionnelle (art. 89). Rappel : revision quasi-impossible (vote identique des deux chambres, 555 voix au Congres, veto du Senat). La representation proportionnelle est plus faisable juridiquement : le mode de scrutin est fixe par loi ordinaire (art. 34 de la Constitution), sans revision constitutionnelle necessaire. Cependant, les deux mesures ensemble necessiteraient au minimum une revision constitutionnelle pour le RIC.",
+        "vehicule_legislatif": "RIC: revision constitutionnelle (art. 89). Proportionnelle: loi ordinaire",
+        "risque_censure_cc": "sans objet pour le RIC (necessite revision), nul pour la proportionnelle",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.6,
+        "confidence": 0.7,
+        "justification": "Le RIC est une demande forte issue du mouvement des Gilets Jaunes (2018-2019). Il beneficie d'un large soutien populaire (70-80% dans les sondages). La proportionnelle est egalement populaire (favorise la representation des petits partis). Cependant, le RIC suscite des craintes chez les constitutionnalistes (risque de democratie illiberale, remise en cause des droits fondamentaux). La proportionnelle pourrait fragmenter l'Assemblee et rendre la gouvernance plus difficile.",
+        "opposition_sociale": "faible sur le principe, moderee chez les constitutionnalistes et les partis dominants"
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "Le RIC existe dans plusieurs pays europeens (Suisse, Italie) et fonctionne. La proportionnelle est le mode de scrutin le plus repandu en Europe. Les deux propositions sont techniquement definissables. Cependant, la promesse d'instauration 'dans le quinquennat' est irrealiste pour le RIC (revision constitutionnelle quasi-impossible). La proportionnelle pourrait etre adoptee par loi ordinaire (precedent : elections europeennes, regionales).",
+        "verdict_global": "partiellement_exact"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.75,
+        "justification": "La proportionnelle a ete utilisee en France aux elections legislatives de 1986 (loi du 10 juillet 1985) puis abandonnee apres une seule election. Elle est utilisee pour les europeennes et les regionales. Le RIP (version limitee du RIC) a ete inscrit dans la Constitution en 2008 (revision Sarkozy) mais n'a jamais abouti (tentative sur ADP en 2019 : 1.1 million de signatures sur les 4.7 millions requises). La Suisse utilise le RIC depuis 1848 avec succes. Aucune revision constitutionnelle n'a abouti en France depuis 2008.",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Proportionnelle aux legislatives 1986 (une seule utilisation). RIP 2008 (jamais abouti). Derniere revision constitutionnelle: 2008"
+      }
+    }
+  ],
+  "synthese": {
+    "score_global_faisabilite": 0.34,
+    "confidence_globale": 0.73,
+    "total_cout_estime_annuel_eur": 102800000000,
+    "total_economies_annoncees_eur": 3200000000,
+    "solde_net_annuel_eur": -99600000000,
+    "nombre_promesses_incompatibles_psmt": 14,
+    "nombre_promesses_conflit_ue": 4,
+    "nombre_promesses_revision_constitutionnelle": 3,
+    "distribution_scores_budget": {
+      "0.0-0.24": 7,
+      "0.25-0.44": 5,
+      "0.45-0.64": 4,
+      "0.65-0.84": 3,
+      "0.85-1.0": 1
+    },
+    "distribution_scores_juridique": {
+      "0.0-0.24": 4,
+      "0.25-0.44": 1,
+      "0.45-0.64": 4,
+      "0.65-0.84": 9,
+      "0.85-1.0": 2
+    },
+    "principales_conclusions": [
+      "Le programme Le Pen aggraverait le deficit annuel de ~100 Md EUR (Institut Montaigne: 101.8 Md). C'est le 2e programme le plus couteux derriere Melenchon (218.9 Md).",
+      "14 promesses sur 20 sont incompatibles avec le PSMT (plafond depenses nettes 0.8-1.2%/an). La France, deja sous procedure de deficit excessif, s'exposerait a des sanctions europeennes.",
+      "4 mesures entrent en conflit direct avec le droit UE (TVA carburants, preference nationale, suppression droit du sol, arret eolien), rendant leur application juridiquement impossible sans sortie partielle du cadre europeen.",
+      "3 mesures necessitent une revision constitutionnelle (RIC, suppression droit du sol, preference nationale) quasiment impossible dans la configuration parlementaire actuelle (veto du Senat).",
+      "Les economies revendiquees via la preference nationale (~15 Md selon la candidate) sont jugees non credibles et inconstitutionnelles par les deux instituts de chiffrage.",
+      "Les mesures les plus faisables juridiquement (revalorisation enseignants, defense, logement social) sont aussi les plus couteuses, aggravant le probleme budgetaire global.",
+      "Le programme presente un paradoxe structurel : il combine des depenses massives (retraites, energie, sante) avec des baisses de recettes (TVA, IR jeunes) sans financement credible identifie."
+    ]
+  }
+}

@@ -1,0 +1,1533 @@
+{
+  "candidate": "Francois Bayrou",
+  "party": "MoDem",
+  "metadata": {
+    "analysis_date": "2026-03-17",
+    "macro_context": {
+      "pib_md_eur": 2920,
+      "dette_pct_pib": 113,
+      "deficit_pct_pib": 5.8,
+      "chomage_pct": 7.9,
+      "pression_fiscale_pct_pib": 42.8,
+      "interets_dette_md_eur": 55,
+      "psmt_deficit_cible_2029": "<3%",
+      "depenses_nettes_plafond_2026": "1.2%"
+    },
+    "political_context": {
+      "role": "Premier ministre depuis decembre 2024",
+      "coalition_seats": 163,
+      "modem_seats": 36,
+      "majorite_absolue": 289,
+      "an_composition": "NFP ~193, Ensemble ~163, RN ~126, DR ~47",
+      "senat": "majorite LR"
+    },
+    "disclaimer": "Cette analyse est produite a titre informatif et ne constitue pas un avis politique. Les scores refletent une evaluation technique de faisabilite, non un jugement de valeur sur l'opportunite des mesures. Les estimations de couts comportent des marges d'incertitude significatives."
+  },
+  "evaluations": [
+    {
+      "promise_id": "bayrou_001",
+      "raw_text": "Introduire la proportionnelle aux elections legislatives avec un scrutin proportionnel integral departemental et un seuil de 5%, sur le modele de 1986",
+      "theme": "institutions",
+      "budget": {
+        "score": 0.85,
+        "confidence": 0.8,
+        "justification": "Cout budgetaire marginal : frais de reorganisation des bureaux de vote et adaptation des systemes informatiques du ministere de l'Interieur. Estimation entre 20 et 50 M EUR ponctuels. Aucun impact sur les depenses recurrentes. Compatible avec le PSMT.",
+        "cout_estime_eur": 35000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.75,
+        "justification": "Le mode de scrutin legislatif releve de la loi ordinaire (Art. 34 Constitution). Pas besoin de revision constitutionnelle. Cependant, le Conseil constitutionnel a pose des bornes (respect de l'egalite du suffrage, representation effective des territoires). Le seuil de 5% est conforme au droit europeen (CEDH). Le vrai obstacle est parlementaire : le scrutin proportionnel defavorise les partis qui beneficient du systeme majoritaire (LR, RN dans les fiefs), rendant une majorite parlementaire difficile a reunir. Precedent de 1986 sous Mitterrand qui l'a fait par loi ordinaire.",
+        "vehicule_legislatif": "loi ordinaire",
+        "risque_censure_cc": "faible si respect egalite suffrage",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.65,
+        "score_impact": 0.7,
+        "confidence": 0.7,
+        "justification": "Sondages montrant un soutien majoritaire dans l'opinion (60-65% selon IFOP/Harris). Mais opposition forte des parlementaires beneficiant du systeme actuel. Impact potentiellement majeur sur la representativite : fin du bipartisme de fait, representation des petits partis, mais aussi risque d'instabilite parlementaire accrue. Le precedent de 1986 montre que la proportionnelle integrale peut produire une Assemblee fragmentee.",
+        "opposition_sociale": "faible dans l'opinion, forte chez les elus"
+      },
+      "factcheck": {
+        "score": 0.8,
+        "confidence": 0.85,
+        "justification": "Le modele de 1986 est correctement cite. La proportionnelle departementale avec seuil de 5% est un dispositif techniquement coherent. Bayrou milite pour cette reforme depuis plus de 30 ans, ce qui donne de la credibilite a son engagement personnel. Cependant, la promesse d'une 'majorite pour voter cette reforme' reste a demontrer dans l'hemicycle actuel.",
+        "verdict_global": "essentiellement_vrai"
+      },
+      "historique": {
+        "score": 0.5,
+        "confidence": 0.75,
+        "justification": "Precedent unique en 1986 : Mitterrand introduit la proportionnelle departementale (pas de seuil national explicite), abrogee des 1988 au retour de la droite. Montre que la reforme est techniquement faisable mais politiquement reversible. Les partis dominants reviennent au scrutin majoritaire des qu'ils le peuvent. Aucun autre pays europeen comparable (population, traditions) n'est revenu en arriere apres adoption de la proportionnelle.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Scrutin proportionnel de 1986 (abrogé en 1988)"
+      },
+      "feasibility": {
+        "overall": 0.55,
+        "ci_95": [
+          0.4,
+          0.7
+        ],
+        "dimensions": {
+          "budget": 0.85,
+          "juridique": 0.55,
+          "acceptabilite": 0.65,
+          "impact": 0.7,
+          "technique": 0.5,
+          "timeline": 0.5
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_002",
+      "raw_text": "Creer une Banque de la Democratie pour que le financement des partis politiques et des campagnes electorales ne depende plus des choix de banques privees",
+      "theme": "institutions",
+      "budget": {
+        "score": 0.65,
+        "confidence": 0.55,
+        "justification": "Le cout depend de la structure retenue. Si etablissement public avec fonds propres : entre 100 et 500 M EUR de dotation initiale. Si simple intermediaire de prets garantis par l'Etat : cout faible (garanties seulement). Le financement public des partis represente deja ~66 M EUR/an. L'avance sur remboursement des campagnes presidentielles est de l'ordre de 20-30 M EUR par cycle. Le risque budgetaire reside dans les defauts de remboursement.",
+        "cout_estime_eur": 200000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "La creation d'un etablissement public de credit est possible par loi ordinaire (Art. 34). Le financement public des campagnes est deja prevu par le Code electoral. Le Conseil constitutionnel protege le pluralisme politique (Decision 89-271 DC). Le risque CC est faible si le dispositif est ouvert a tous les partis sans discrimination. Pas de conflit avec le droit UE si structure publique d'interet general.",
+        "vehicule_legislatif": "loi ordinaire + decrets",
+        "risque_censure_cc": "faible si egalite d'acces",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.5,
+        "confidence": 0.6,
+        "justification": "Le probleme du financement bancaire des partis est reel (refus de prets par les banques a certains partis). L'opinion est favorable au financement transparent de la democratie. Impact reel limite : ne resout pas le probleme du financement prive et des dons. Ne touche qu'un aspect technique du fonctionnement democratique.",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.75,
+        "confidence": 0.7,
+        "justification": "Le constat de base est verifie : plusieurs partis (RN, FI) ont eu des difficultes a obtenir des prets bancaires. Le Front National avait du recourir a un pret russe en 2014. Le Mediateur du Credit aux candidats et partis politiques existe deja mais avec des pouvoirs limites. La proposition repond a un probleme reel mais la forme precise de la 'Banque' n'est pas detaillee.",
+        "verdict_global": "partiellement_vrai"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.5,
+        "justification": "Pas de precedent direct en France ni dans les grandes democraties europeennes. Le financement public des partis existe partout mais pas sous forme de banque dediee. La Caisse des Depots joue deja un role proche pour certains aspects. Le delai de mise en place d'un nouvel etablissement public est de 12 a 24 mois (precedent : BPI France creee en 2012, operationnelle en 2013).",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Creation BPI France (2012-2013)"
+      },
+      "feasibility": {
+        "overall": 0.55,
+        "ci_95": [
+          0.4,
+          0.7
+        ],
+        "dimensions": {
+          "budget": 0.65,
+          "juridique": 0.7,
+          "acceptabilite": 0.7,
+          "impact": 0.5,
+          "technique": 0.55,
+          "timeline": 0.45
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_003",
+      "raw_text": "Refonder l'Etat local en faisant du prefet le coordinateur unique de tous les services et operateurs de l'Etat au niveau departemental",
+      "theme": "institutions",
+      "budget": {
+        "score": 0.75,
+        "confidence": 0.65,
+        "justification": "Cout principalement organisationnel. Pas de depenses nouvelles majeures mais des couts de reorganisation administrative (systemes d'information, formations, eventuels demenagements de services). Estimation : 50-150 M EUR sur 2-3 ans. Peut generer des economies a moyen terme par mutualisation des moyens. Compatible avec le PSMT si economies superieures aux couts de transition.",
+        "cout_estime_eur": 100000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "Le pouvoir de coordination du prefet peut etre renforce par decret (organisation de l'Etat dans les departements est de competence reglementaire, decret du 7 mai 2015 portant charte de la deconcentration). Cependant, etendre le pouvoir d'avis du prefet sur la carte scolaire et l'offre de soins touche a des competences sectorielles qui relevent pour partie de la loi (Art. 34 pour l'enseignement, LFSS pour la sante). Le Conseil d'Etat serait consulte. Risque de conflit avec la libre administration des collectivites territoriales (Art. 72).",
+        "vehicule_legislatif": "decrets + dispositions legislatives",
+        "risque_censure_cc": "moyen si empiètement sur libre administration",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.5,
+        "score_impact": 0.55,
+        "confidence": 0.6,
+        "justification": "Opposition previsible des corps sectoriels (Education nationale, ARS) qui perdraient leur autonomie. Les elus locaux pourraient etre divises : favorables a un interlocuteur unique mais mefiants envers un renforcement du pouvoir prefectoral. Les syndicats de la fonction publique s'opposeront a toute restructuration. L'impact citoyen serait reel si la coordination ameliore l'efficacite des services, mais le risque est de creer une couche bureaucratique supplementaire.",
+        "opposition_sociale": "moderee (corps administratifs et syndicats FP)"
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.75,
+        "justification": "Le diagnostic de la fragmentation des services de l'Etat est largement partage (Cour des comptes, rapports senatoriaux). Le prefet est deja theoriquement le representant unique de l'Etat (Art. 72 Constitution) mais ses pouvoirs reels sont limites face aux administrations centrales. La proposition est coherente mais le diable est dans les details : l'ampleur reelle de l'autorite du prefet sur des services comme les ARS ou les rectorats n'est pas precisee.",
+        "verdict_global": "essentiellement_vrai"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.65,
+        "justification": "Tentatives repetees de renforcement du pouvoir prefectoral : decret de 2004 (Raffarin), charte de la deconcentration de 2015, circulaire Macron de 2019. Aucune n'a reellement modifie l'equilibre des pouvoirs. La RGPP (2007-2012) a fusionne certaines directions departementales (DDT, DDPP) mais le bilan est juge 'contraste' par la Cour des comptes. Les administrations centrales resistant systematiquement a la perte de controle vertical.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Charte de la deconcentration 2015 + reforme OTE 2019 (bilan mitige)"
+      },
+      "feasibility": {
+        "overall": 0.5,
+        "ci_95": [
+          0.35,
+          0.65
+        ],
+        "dimensions": {
+          "budget": 0.75,
+          "juridique": 0.7,
+          "acceptabilite": 0.5,
+          "impact": 0.55,
+          "technique": 0.45,
+          "timeline": 0.45
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_004",
+      "raw_text": "Realiser 43,8 milliards d'euros d'economies dans le budget 2026, incluant une annee blanche (gel des prestations et baremes), le non-remplacement d'un fonctionnaire sur trois, et la suppression de deux jours feries",
+      "theme": "economie",
+      "budget": {
+        "score": 0.35,
+        "confidence": 0.6,
+        "justification": "Le montant de 43,8 Md EUR est ambitieux mais se decompose en economies structurelles et mesures ponctuelles. Le gel des prestations (annee blanche) peut generer 10-15 Md EUR si applique a l'ensemble des prestations sociales et baremes fiscaux. Le non-remplacement d'un fonctionnaire sur trois genererait ~2 Md EUR/an sur la base de 60 000 departs/an et un cout moyen de 35 000 EUR. La suppression de 2 jours feries est estimee a 0,2 pt de PIB (~6 Md EUR de production supplementaire) mais les recettes fiscales supplementaires seraient de l'ordre de 1,5-3 Md EUR. L'addition de ces mesures est loin d'atteindre 43,8 Md : des economies en fonctionnement et sur les operateurs sont necessaires pour combler l'ecart. La trajectoire PSMT exige une reduction du deficit structurel de 0,9 pt de PIB en 2026, soit ~26 Md EUR. Les 43,8 Md incluent probablement des mesures de recettes deguisees en economies.",
+        "cout_estime_eur": -43800000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.4,
+        "confidence": 0.65,
+        "justification": "Le gel des prestations est juridiquement possible par LFI/LFSS (precedent en 2018 pour les APL). Le non-remplacement d'un fonctionnaire sur trois releve du budget (postes autorises en LFI). La suppression de jours feries necessite une loi ordinaire modifiant le Code du travail (Art. L3133-1). Risque CC : le gel generalise des prestations pourrait etre conteste sur le terrain du droit a la protection sociale (Preambule 1946). Risque politique majeur : adoption incertaine sans 49.3 pour le PLF/PLFSS 2026, avec risque de motion de censure (precedent Barnier dec. 2024).",
+        "vehicule_legislatif": "PLF + PLFSS 2026 (possible 49.3)",
+        "risque_censure_cc": "moyen (gel des prestations)",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.2,
+        "score_impact": 0.65,
+        "confidence": 0.75,
+        "justification": "Opposition sociale massive previsible. Le gel des prestations touche directement les menages modestes (APL, allocations familiales, minima sociaux) dans un contexte de pouvoir d'achat tendu. La suppression de jours feries est extremement impopulaire (sondages : 70-75% d'opposition). Le non-remplacement d'un fonctionnaire sur trois menace les services publics deja sous tension (education, sante, justice). Les syndicats (CGT, FO, CFDT) ont deja annonce leur opposition. Impact macro significatif : la consolidation budgetaire de cette ampleur est necessaire au regard du PSMT et du deficit de 5.8%.",
+        "opposition_sociale": "tres forte (syndicats, partis d'opposition, opinion)"
+      },
+      "factcheck": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "justification": "Le chiffre de 43,8 Md EUR est annonce par le gouvernement mais sa decomposition detaillee n'est pas entierement publique. Les estimations independantes (OFCE, Institut Montaigne) suggerent que les economies reelles atteignables sont de l'ordre de 25-30 Md EUR, le reste etant des mesures de perimetre ou des hypotheses optimistes sur la croissance. Le precedent de la RGPP (2007-2012) montre que les economies realisees (6 Md EUR nets) sont systematiquement inferieures aux annonces (10-15 Md promis).",
+        "verdict_global": "exagere"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.7,
+        "justification": "La RGPP (2007-2012) a realise 6 Md EUR nets d'economies avec le non-remplacement d'1 fonctionnaire sur 2. Extrapoler a 1 sur 3 donne ~4 Md EUR sur 5 ans, bien en deca des ambitions. Le gel des prestations a deja ete pratique partiellement (desindexation APL 2018-2019) pour un gain de ~800 M EUR. Aucun precedent d'une consolidation budgetaire de 43,8 Md EUR en une seule annee en France. Les plans d'austerite les plus ambitieux post-2008 etaient de l'ordre de 20-25 Md EUR par an.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "RGPP 2007-2012 (6 Md EUR nets realises sur 5 ans)"
+      },
+      "feasibility": {
+        "overall": 0.3,
+        "ci_95": [
+          0.2,
+          0.45
+        ],
+        "dimensions": {
+          "budget": 0.35,
+          "juridique": 0.4,
+          "acceptabilite": 0.2,
+          "impact": 0.65,
+          "technique": 0.3,
+          "timeline": 0.3
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_005",
+      "raw_text": "Fusionner la CSG et l'impot sur le revenu en un impot unique avec un bareme progressif",
+      "theme": "economie",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.5,
+        "justification": "La CSG rapporte ~130 Md EUR, l'IR ~95 Md EUR. La fusion vise la neutralite budgetaire mais les effets redistributifs sont massifs. Tout changement de bareme genere des gagnants et des perdants. Le cout de transition (adaptation des systemes informatiques DGFiP, Urssaf, employeurs) est estime entre 500 M et 2 Md EUR. Les couts politiques de la creation de perdants rendent la neutralite budgetaire tres difficile a atteindre (tendance historique a compenser les perdants, gonflant le cout).",
+        "cout_estime_eur": 1500000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.3,
+        "confidence": 0.65,
+        "justification": "La CSG est affectee a la securite sociale (Art. L136-1 CSS) tandis que l'IR est une recette de l'Etat. La fusion implique une remise en cause de l'autonomie de financement de la Secu, qui est un principe a valeur organique (LOLFSS). Necessite une loi de finances + une loi de financement, voire une loi organique. Risque CC eleve : le Conseil constitutionnel a censure la taxe a 75% (2012) pour rupture d'egalite. La question de l'imposition par foyer (IR) vs par personne (CSG) est un noeud juridique majeur. Le CC veille au respect du principe de familialisation de l'IR.",
+        "vehicule_legislatif": "loi organique + PLF + PLFSS (reforme majeure)",
+        "risque_censure_cc": "eleve (egalite devant l'impot, autonomie Secu)",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.4,
+        "score_impact": 0.75,
+        "confidence": 0.6,
+        "justification": "La CSG touche tous les revenus (y compris retraites et patrimoine) tandis que l'IR ne concerne que 44% des foyers fiscaux. Une fusion avec bareme progressif unique pourrait alourdir la charge pour les retraites aisees et les revenus du patrimoine. L'opinion est theoriquement favorable a plus de progressivite mais hostile a toute hausse d'impots. L'impact serait majeur : transformation de tout le systeme socio-fiscal francais, simplification reelle pour les contribuables.",
+        "opposition_sociale": "forte (retraites, professions liberales, opposition parlementaire)"
+      },
+      "factcheck": {
+        "score": 0.65,
+        "confidence": 0.7,
+        "justification": "La fusion CSG-IR est un serpent de mer de la politique fiscale francaise depuis les annees 2000. Le rapport Piketti-Landais-Saez (2011) et le rapport Bozio-Wasmer (2019) ont analyse cette option. Le diagnostic de complexite du systeme actuel est juste. La mention du 'quotient familial' (que Bayrou veut 'decaper') est coherente avec le projet mais constitue un point de friction majeur. Le MoDem porte cette proposition depuis longtemps.",
+        "verdict_global": "techniquement_coherent_mais_tres_complexe"
+      },
+      "historique": {
+        "score": 0.15,
+        "confidence": 0.7,
+        "justification": "Aucun precedent de fusion reussie de deux impots majeurs en France. La creation de la CSG en 1991 (Rocard) etait elle-meme une reforme massive qui a pris des annees. Les tentatives de reforme fiscale d'ampleur comparable ont echoue : la retenue a la source de l'IR a mis 20 ans a etre mise en oeuvre (2019). La fusion CSG-IR impliquerait un changement de paradigme pour 38 millions de foyers fiscaux et des milliers d'employeurs. Delai incompressible de 5-7 ans.",
+        "delai_realiste_mois": 72,
+        "precedent_principal": "Creation de la CSG en 1991 (Rocard) - 3 ans de preparation"
+      },
+      "feasibility": {
+        "overall": 0.2,
+        "ci_95": [
+          0.1,
+          0.35
+        ],
+        "dimensions": {
+          "budget": 0.5,
+          "juridique": 0.3,
+          "acceptabilite": 0.4,
+          "impact": 0.75,
+          "technique": 0.15,
+          "timeline": 0.1
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_006",
+      "raw_text": "Sanctuariser le budget de l'Education nationale comme premiere priorite, annuler la suppression des 4000 postes d'enseignants",
+      "theme": "education",
+      "budget": {
+        "score": 0.6,
+        "confidence": 0.75,
+        "justification": "Le budget de l'enseignement scolaire est de 64,5 Md EUR (1er budget de l'Etat). Maintenir 4 000 postes represente un cout annuel d'environ 180-200 M EUR (cout moyen enseignant charges incluses : ~45 000-50 000 EUR). C'est un cout modeste au regard du budget total. Cependant, la 'sanctuarisation' est en contradiction directe avec la promesse d'economies de 43,8 Md EUR (bayrou_004) et le non-remplacement d'1 fonctionnaire sur 3. Incoherence interne du programme.",
+        "cout_estime_eur": 200000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.85,
+        "justification": "Le maintien ou la suppression de postes releve du PLF (plafonds d'emploi par mission). C'est une decision budgetaire classique sans obstacle juridique particulier. Le gouvernement etant a l'initiative du budget, Bayrou en tant que PM peut directement inscrire le maintien des postes dans le PLF 2025/2026. Aucun risque CC. Avantage du pouvoir en place : la mesure est directement executable.",
+        "vehicule_legislatif": "PLF (plafonds d'emploi)",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.5,
+        "confidence": 0.7,
+        "justification": "Mesure populaire aupres des parents, des enseignants et des syndicats de l'education. Le maintien de 4 000 postes est cependant insuffisant pour repondre aux besoins reels (baisse demographique dans certaines zones, hausse dans d'autres, besoins en education specialisee). Impact reel limite par rapport a 860 000 enseignants au total. La 'sanctuarisation' est un signal politique fort mais flou operationnellement.",
+        "opposition_sociale": "tres faible"
+      },
+      "factcheck": {
+        "score": 0.75,
+        "confidence": 0.8,
+        "justification": "Le PLF 2025 prevoyait bien la suppression de 4 000 postes d'enseignants (3 155 dans le premier degre, 485 dans le second degre, 360 en administration). Bayrou a confirme l'annulation de ces suppressions en janvier 2025. Le budget de l'Education nationale est bien le premier budget de l'Etat. La notion de 'sanctuarisation' reste vague en l'absence de mecanisme juridique de protection.",
+        "verdict_global": "essentiellement_vrai"
+      },
+      "historique": {
+        "score": 0.65,
+        "confidence": 0.75,
+        "justification": "Les promesses de sanctuarisation budgetaire sont rarement tenues sur la duree. Hollande avait promis 60 000 postes en 5 ans : 54 000 crees (90% de l'objectif). Macron avait promis la priorite au primaire : les creations de postes ont ete limitees et les classes dedeoubleees. La RGPP (2007-2012) a supprime 80 000 postes dans l'Education nationale malgre les promesses de preservation. L'avantage de Bayrou est d'etre au pouvoir et de pouvoir agir directement via le PLF.",
+        "delai_realiste_mois": 3,
+        "precedent_principal": "Creations 60 000 postes Hollande (54 000 realises)"
+      },
+      "feasibility": {
+        "overall": 0.7,
+        "ci_95": [
+          0.55,
+          0.8
+        ],
+        "dimensions": {
+          "budget": 0.6,
+          "juridique": 0.85,
+          "acceptabilite": 0.85,
+          "impact": 0.5,
+          "technique": 0.65,
+          "timeline": 0.85
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_007",
+      "raw_text": "Ouvrir l'acces en premiere annee d'etudes de sante dans chaque departement et deployer des options sante dans les lycees des territoires sous-dotes",
+      "theme": "sante",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.55,
+        "justification": "L'ouverture d'antennes universitaires de sante dans ~35-40 departements supplementaires necessite des enseignants, des locaux et des equipements. Cout estime : 50-100 M EUR par an en fonctionnement et 200-400 M EUR d'investissement initial. Les options sante en lycee sont moins couteuses (10-20 M EUR/an). Le financement pourrait venir du budget enseignement superieur (31,1 Md EUR) mais en tension budgetaire ce sera un arbitrage difficile. Partiellement compatible PSMT si finance par redeploidement.",
+        "cout_estime_eur": 350000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.65,
+        "confidence": 0.65,
+        "justification": "L'organisation des etudes de sante releve du pouvoir reglementaire (arrete du 4 novembre 2019 relatif a l'acces aux formations de sante MMOP). Le deploiement d'antennes departementales necessite l'accord des universites (autonomie LRU) et des ARS. Les options sante en lycee relevent de l'arrete ministeriel. Pas de risque CC. Avantage : le gouvernement peut agir par arrete/decret sans passage au Parlement pour l'essentiel.",
+        "vehicule_legislatif": "arretes ministeriels + conventions universites",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.55,
+        "confidence": 0.6,
+        "justification": "Mesure populaire dans les territoires sous-dotes. Les elus locaux soutiennent massivement. Opposition possible du corps medical hospitalo-universitaire (qualite de la formation). Les etudiants sont favorables a la decentralisation des etudes. Impact reel a moyen terme seulement : il faut 10-12 ans entre l'entree en premiere annee et l'installation d'un medecin. La mesure ne resoudra pas les deserts medicaux avant 2035-2037.",
+        "opposition_sociale": "faible sauf corps universitaire"
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "Le diagnostic des deserts medicaux est juste : 87% du territoire est en zone sous-dense. La suppression du numerus clausus (2020) a leve un verrou mais les capacites de formation restent limitees par les moyens des universites et des hopitaux. L'ouverture d'antennes departementales est techniquement possible grace au numerique (cours en distanciel) mais la formation clinique reste liee aux CHU. Le delai entre formation et installation est correctement estime a 10 ans minimum.",
+        "verdict_global": "partiellement_vrai"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.6,
+        "justification": "La France a tente plusieurs approches contre les deserts medicaux depuis 20 ans : incitations financieres (CESP), maisons de sante pluriprofessionnelles, contrats d'engagement de service public. Aucune n'a resolu le probleme. Le numerus clausus a ete supprime en 2020 mais les effectifs en formation n'ont augmente que de 13% en 4 ans (loin des besoins). Les antennes universitaires existent deja dans certains departements (ex: Bourges pour l'universite de Tours) avec un succes mitige.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Suppression numerus clausus 2020 (impact lent)"
+      },
+      "feasibility": {
+        "overall": 0.5,
+        "ci_95": [
+          0.35,
+          0.65
+        ],
+        "dimensions": {
+          "budget": 0.5,
+          "juridique": 0.65,
+          "acceptabilite": 0.8,
+          "impact": 0.55,
+          "technique": 0.45,
+          "timeline": 0.35
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_008",
+      "raw_text": "Instaurer un principe de solidarite territoriale obligeant les medecins a consacrer jusqu'a deux jours par mois dans les territoires les plus sous-dotes, avec compensation financiere",
+      "theme": "sante",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.5,
+        "justification": "Si 100 000 medecins consacrent 2 jours/mois en zone sous-dotee avec compensation (frais de deplacement + indemnite), le cout annuel serait de l'ordre de 1-2 Md EUR (200 EUR/jour x 24 jours/an x 100 000 medecins scenario large, plus vraisemblablement 40 000-50 000 medecins concernes = 500 M - 1 Md EUR). Le remplacement dans les cabinets d'origine ajoute un cout supplementaire. Financement par l'ONDAM (265,9 Md EUR) possible mais en tension.",
+        "cout_estime_eur": 800000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.3,
+        "confidence": 0.65,
+        "justification": "L'obligation de service en zone sous-dotee pour des medecins liberaux souleve des questions constitutionnelles majeures : liberte d'exercice (Art. 4 DDHC), liberte d'entreprendre, droit de propriete. Le Conseil constitutionnel a toujours protege la liberte d'installation des medecins. Une obligation sans consentement pourrait etre assimilee a du travail force (Art. 4 CEDH) si la compensation est jugee insuffisante. La loi de 2009 sur l'HPST avait deja renonce a la coercition. Risque CC eleve.",
+        "vehicule_legislatif": "loi ordinaire (code de la sante publique)",
+        "risque_censure_cc": "eleve (liberte d'exercice, proportionnalite)",
+        "conflit_droit_ue": "possible (libre prestation de services)"
+      },
+      "social": {
+        "score_acceptabilite": 0.35,
+        "score_impact": 0.6,
+        "confidence": 0.7,
+        "justification": "Opposition tres forte du corps medical (Ordre des medecins, syndicats de medecins liberaux). Le CNOM s'est deja prononce contre toute obligation. L'opinion publique est favorable dans les territoires sous-dotes mais les medecins pourraient riposter par des mouvements de greve ou de deconventionnement. L'impact serait significatif si applique : 30 M de consultations supplementaires annoncees, mais ce chiffre semble optimiste (suppose 50 000 medecins x 600 consultations supplementaires/an).",
+        "opposition_sociale": "tres forte (corps medical)"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.65,
+        "justification": "Le chiffre de 30 millions de consultations supplementaires est difficilement verifiable et semble optimiste. 30M consultations / 24 jours/an / 25 consultations/jour = 50 000 medecins mobilises. Or la France compte ~230 000 medecins dont ~100 000 generalistes. Mobiliser la moitie des generalistes 2 jours/mois est un scenario extremement ambitieux. Le principe de solidarite territoriale est un concept nouveau sans equivalent dans les pays comparables (a l'exception de stages obligatoires en formation).",
+        "verdict_global": "objectif_chiffre_surestime"
+      },
+      "historique": {
+        "score": 0.2,
+        "confidence": 0.7,
+        "justification": "Aucune democratie occidentale n'a reussi a imposer une obligation de service territorial aux medecins liberaux en exercice. Les pays qui regulentent l'installation (Allemagne, Norvege) le font via le conventionnement, pas par l'obligation de deplacement. Le service sanitaire des etudiants en sante (3 mois, cree en 2018) existe mais concerne les etudiants, pas les praticiens en exercice. Le CESP (contrat d'engagement de service public) est base sur le volontariat et ne concerne que ~3 500 etudiants.",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "Aucun precedent comparable en democratie occidentale"
+      },
+      "feasibility": {
+        "overall": 0.25,
+        "ci_95": [
+          0.15,
+          0.4
+        ],
+        "dimensions": {
+          "budget": 0.45,
+          "juridique": 0.3,
+          "acceptabilite": 0.35,
+          "impact": 0.6,
+          "technique": 0.2,
+          "timeline": 0.2
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_009",
+      "raw_text": "Recruter 15 000 assistants medicaux d'ici 2028 avec des competences elargies pour liberer du temps medical",
+      "theme": "sante",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.65,
+        "justification": "Un assistant medical coute en moyenne 25 000-30 000 EUR/an (aide conventionnelle) + charges employeur. Pour 15 000 postes : 450-600 M EUR/an en regime de croisiere. L'avenant 7 a la convention medicale (2019) prevoyait deja le financement par l'Assurance maladie. Le cout est significatif mais absorbable par l'ONDAM (265,9 Md EUR). L'Assurance maladie finance deja ~6 000 assistants medicaux. Le doublement necessite un effort supplementaire de ~250-300 M EUR/an.",
+        "cout_estime_eur": 500000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.8,
+        "confidence": 0.8,
+        "justification": "Le statut d'assistant medical est deja cree par la loi Ma sante 2022 (Art. L4301-1 CSP). L'extension des competences necessite un decret en Conseil d'Etat modifiant les actes autorises. Le deploiement se fait via la convention medicale entre l'Assurance maladie et les syndicats de medecins. Pas de risque CC. Cadre juridique existant et operationnel.",
+        "vehicule_legislatif": "decrets + convention medicale",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.65,
+        "confidence": 0.7,
+        "justification": "Les medecins sont globalement favorables aux assistants medicaux (gain de temps medical estime a 10-15%). Les patients beneficient de meilleurs delais. La formation de 15 000 assistants suppose des capacites de formation suffisantes (filieres specifiques a developper). Opposition faible sauf des infirmiers qui pourraient craindre un brouillage des competences.",
+        "opposition_sociale": "faible"
+      },
+      "factcheck": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "En 2024, environ 6 000 assistants medicaux sont en poste. Atteindre 15 000 d'ici 2028 suppose un rythme de 3 000/an, soit un doublement du rythme actuel. C'est ambitieux mais pas irrealiste. L'etude de l'Assurance maladie montre un gain de 10-15% de temps medical par medecin equipe. Les 'competences elargies' ne sont pas precisees, ce qui laisse une marge d'interpretation.",
+        "verdict_global": "essentiellement_vrai_mais_ambitieux"
+      },
+      "historique": {
+        "score": 0.55,
+        "confidence": 0.65,
+        "justification": "Le dispositif des assistants medicaux a ete lance en 2019. La montee en charge a ete plus lente que prevue (objectif initial de 4 000 en 2022, atteint avec retard). Le passage de 6 000 a 15 000 en 3 ans est comparable au rythme de deploiement des maisons de sante pluriprofessionnelles (doublement en 4 ans entre 2017 et 2021). Les precedents internationaux (medical assistants aux USA, Physician Associates au UK) montrent l'efficacite du modele.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Deploiement assistants medicaux 2019-2024 (6 000 postes)"
+      },
+      "feasibility": {
+        "overall": 0.6,
+        "ci_95": [
+          0.45,
+          0.75
+        ],
+        "dimensions": {
+          "budget": 0.5,
+          "juridique": 0.8,
+          "acceptabilite": 0.8,
+          "impact": 0.65,
+          "technique": 0.55,
+          "timeline": 0.5
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_010",
+      "raw_text": "Remettre en chantier la reforme des retraites avec les partenaires sociaux, avec abaissement de l'age du taux plein de 67 a 66 ans et demi et amelioration des carrieres des meres de famille",
+      "theme": "retraites",
+      "budget": {
+        "score": 0.35,
+        "confidence": 0.6,
+        "justification": "Selon la Cour des comptes (fevrier 2025), le systeme de retraites sera en deficit de 6,6 Md EUR en 2025 et 15 Md EUR en 2035. L'abaissement du taux plein de 67 a 66,5 ans a un cout estime de 500 M a 1 Md EUR/an (departs anticipes de 6 mois pour une partie des assures). L'amelioration des carrieres des meres a un cout similaire (estimation 500 M - 1,5 Md EUR/an selon le perimetre). Total : 1-2,5 Md EUR/an supplementaires dans un systeme deja deficitaire. Incompatible avec la trajectoire PSMT sans compensations.",
+        "cout_estime_eur": 1500000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.4,
+        "confidence": 0.65,
+        "justification": "La reforme des retraites passe par le PLFSS (Art. 47-1 Constitution). Le precedent de la reforme 2023 (49.3 + validation CC) montre que c'est juridiquement faisable. Cependant, revenir sur une reforme votee il y a moins de 3 ans sans que son impact financier ne soit mesurable est juridiquement fragile. Le CC pourrait questionner la coherence si la mesure aggrave le deficit dans le contexte du PSMT et de la PDE. Le risque de motion de censure est reel (precedent Barnier).",
+        "vehicule_legislatif": "PLFSS (possible 49.3)",
+        "risque_censure_cc": "moyen",
+        "conflit_droit_ue": "indirect (aggravation deficit / PDE)"
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.55,
+        "confidence": 0.65,
+        "justification": "L'abaissement du taux plein est populaire. L'amelioration des carrieres des meres est soutenue transversalement. Mais la 'remise en chantier' cree de l'incertitude pour tous les actifs. Les syndicats sont divises : la CFDT soutient la negociation, la CGT exige l'abrogation totale. L'impact reel est limite (6 mois sur le taux plein ne concerne qu'une fraction des assures) tout en rouvrant un debat extremement inflammable.",
+        "opposition_sociale": "moderee (divise les syndicats)"
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "Le 'conclave' avec les partenaires sociaux a bien eu lieu au printemps 2025. Les mesures annoncees (66,5 ans, carrieres meres) sont effectivement issues de ces negociations. Cependant, parler de 'remettre en chantier' la reforme est une presention : il s'agit d'ajustements parametriques a la marge, pas d'une refondation. L'age legal de 64 ans n'est pas remis en cause.",
+        "verdict_global": "presentation_exageree_de_mesures_limitees"
+      },
+      "historique": {
+        "score": 0.4,
+        "confidence": 0.7,
+        "justification": "Les reformes des retraites en France sont un sujet de conflit social majeur depuis 1995 (Juppe). Chaque reforme parametrique (2003, 2010, 2014, 2023) a suscite une opposition massive. Aucune reforme des retraites n'a ete 'remise en chantier' apres adoption, ce qui creerait un precedent delicat. Le COR montre que les ajustements parametriques ne resolvent pas le deficit structurel lie au vieillissement. Delai realiste pour l'inscription en PLFSS : 6-12 mois.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Reforme retraites 2023 (49.3, contestation massive, validation CC)"
+      },
+      "feasibility": {
+        "overall": 0.4,
+        "ci_95": [
+          0.25,
+          0.55
+        ],
+        "dimensions": {
+          "budget": 0.35,
+          "juridique": 0.4,
+          "acceptabilite": 0.7,
+          "impact": 0.55,
+          "technique": 0.4,
+          "timeline": 0.45
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_011",
+      "raw_text": "Construire 15 000 logements etudiants par an pendant trois ans en mobilisant le foncier disponible de l'Etat",
+      "theme": "logement",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.6,
+        "justification": "Le cout moyen d'un logement etudiant est de 80 000-120 000 EUR (source : CNOUS). Pour 15 000/an : 1,2 a 1,8 Md EUR/an, soit 3,6 a 5,4 Md EUR sur 3 ans. Le foncier public gratuit reduit le cout de 20-30% mais ne suffit pas. Le budget logement etudiant du CROUS est de ~120 M EUR/an. Le gap de financement est massif. Le financement necessiterait une combinaison de PIA/France 2030, CDC (prets), et subventions directes. Difficile a concilier avec le PSMT sans recours a l'investissement hors norme de depenses.",
+        "cout_estime_eur": 4500000000,
+        "financement_credible": false,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "La mobilisation du foncier public pour le logement est encadree par la loi du 18 janvier 2013 (decote de cession). Les CROUS peuvent construire sur le domaine de l'Etat par convention d'occupation. Les procedures d'urbanisme (permis de construire, PLU) peuvent constituer des freins locaux mais des procedures accelerees existent (loi ELAN 2018). Pas de risque CC. Le gouvernement peut agir par decret pour accelerer les procedures.",
+        "vehicule_legislatif": "decrets + conventions foncier public",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.6,
+        "confidence": 0.65,
+        "justification": "Mesure tres populaire aupres des etudiants et de leurs parents. La crise du logement etudiant est documentee (180 000 places CROUS pour 2,8 millions d'etudiants). Opposition possible des collectivites locales pour les implantations (syndrome NIMBY). Le secteur du BTP est favorable. Impact significatif : 45 000 logements supplementaires = +25% du parc CROUS actuel.",
+        "opposition_sociale": "faible sauf NIMBY local"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.65,
+        "justification": "Le rythme de 15 000 logements etudiants/an est tres ambitieux. Le plan 60 000 logements etudiants de Hollande (2012-2017) a atteint environ 40 000 logements, soit 8 000/an. Le record annuel est d'environ 10 000. Atteindre 15 000/an representerait un doublement historique. La disponibilite du foncier public n'est pas documentee a ce niveau. Le secteur du BTP est en crise (baisse de 20% des mises en chantier en 2024), ce qui complique l'execution.",
+        "verdict_global": "objectif_tres_ambitieux"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.65,
+        "justification": "Le plan 40 000 logements etudiants de Chirac (2004) et le plan 60 000 de Hollande (2012) ont tous deux ete partiellement realises avec des retards significatifs. Le rythme moyen de construction de logements etudiants en France est de 5 000-8 000/an. Doubler ce rythme n'a jamais ete atteint. Les contraintes principales sont le foncier, les delais de construction (18-24 mois minimum) et les capacites du BTP.",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Plan 60 000 logements etudiants Hollande (40 000 realises sur 5 ans)"
+      },
+      "feasibility": {
+        "overall": 0.35,
+        "ci_95": [
+          0.2,
+          0.5
+        ],
+        "dimensions": {
+          "budget": 0.4,
+          "juridique": 0.7,
+          "acceptabilite": 0.75,
+          "impact": 0.6,
+          "technique": 0.3,
+          "timeline": 0.25
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_012",
+      "raw_text": "Generaliser la Force frontiere a l'ensemble des frontieres de l'hexagone avec un etat-major national mobilisant police, gendarmerie, douanes, armees et reservistes",
+      "theme": "immigration",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.55,
+        "justification": "La France metropolitaine a ~2 900 km de frontieres terrestres et ~5 500 km de cotes. Le deploiement d'une force interministerielle permanente sur l'ensemble des frontieres necessite des moyens importants : personnel supplementaire (estimé 3 000-5 000 ETP), equipement (vehicules, drones, cameras), infrastructure (postes de controle). Cout estime : 300-600 M EUR/an en fonctionnement et 200-400 M EUR d'investissement. Le budget securites est de 17,2 Md EUR, une enveloppe supplementaire de 500 M EUR est significative. Partiellement financable par redeploiement.",
+        "cout_estime_eur": 500000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.65,
+        "justification": "Le retablissement des controles aux frontieres internes Schengen est autorise par l'Art. 25 du Code frontieres Schengen pour des raisons de securite interieure, mais de maniere temporaire (6 mois renouvelables). La France les a maintenus depuis 2015 (etat d'urgence puis menace terroriste). La CJUE a juge que les controles permanents sont contraires au droit Schengen (arret d'avril 2022). Le nouveau Pacte Asile et Migration (2024) assouplit certaines regles mais ne legalise pas les controles permanents. Risque juridique europeen.",
+        "vehicule_legislatif": "decrets + arrete interministeriel",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": "oui (Code frontieres Schengen)"
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.5,
+        "confidence": 0.6,
+        "justification": "L'opinion publique est majoritairement favorable au renforcement des controles frontaliers (65-70% selon IFOP). Les habitants des zones frontalieres sont divises (securite vs. fluidite de circulation). Les organisations de defense des droits de l'homme s'opposent. L'impact reel sur l'immigration irreguliere est incertain : les voies d'entree principales sont les visas expires (40% des irreguliers), pas les franchissements clandestins.",
+        "opposition_sociale": "faible dans l'opinion, moderee chez les ONG"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.6,
+        "justification": "La 'Force frontiere' est un concept operationnel cree en 2023 et deploye partiellement. Sa generalisation est un objectif plausible. Cependant, l'efficacite des controles frontaliers terrestres sur l'immigration irreguliere est limitee : la PAF intercepte environ 40 000 personnes/an aux frontieres mais le stock d'etrangers en situation irreguliere est estime a 600 000-900 000 personnes (principalement des overstayers). Le rapport cout/efficacite est questionne par la Cour des comptes.",
+        "verdict_global": "partiellement_vrai"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.6,
+        "justification": "Les controles aux frontieres retablis en 2015 n'ont pas empeche la persistance de l'immigration irreguliere. L'operation Sentinelle (2015) a mobilise 10 000 militaires pour la securite interieure sans effet mesurable sur l'immigration. Les precedents europeens (Frontex, mur hongrois) montrent que le renforcement frontalier deplace les flux plutot qu'il ne les reduit. La coordination interministerielle est un defi administratif recurrent.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Controles frontieres retablis depuis 2015 (impact limite)"
+      },
+      "feasibility": {
+        "overall": 0.45,
+        "ci_95": [
+          0.3,
+          0.6
+        ],
+        "dimensions": {
+          "budget": 0.45,
+          "juridique": 0.55,
+          "acceptabilite": 0.7,
+          "impact": 0.5,
+          "technique": 0.45,
+          "timeline": 0.5
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_013",
+      "raw_text": "Atteindre la cible de 3000 places de retention administrative en 2027 et maintenir en retention les publics dangereux jusqu'a leur expulsion effective",
+      "theme": "immigration",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.6,
+        "justification": "La France dispose actuellement d'environ 1 800 places de CRA. Atteindre 3 000 implique la creation de 1 200 places supplementaires. Cout de construction : ~50 000 EUR/place = 60 M EUR. Cout de fonctionnement : ~40 000 EUR/place/an = 120 M EUR/an pour les places supplementaires. Budget total supplementaire : ~180 M EUR la premiere annee, ~120 M EUR/an ensuite. Financable dans le cadre du budget securites (17,2 Md EUR) par redeploiement.",
+        "cout_estime_eur": 180000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.35,
+        "confidence": 0.7,
+        "justification": "La retention administrative est encadree par le CESEDA (Code de l'entree et du sejour des etrangers). La duree maximale est de 90 jours (loi Collomb 2018). Maintenir en retention 'jusqu'a l'expulsion effective' sans limite de temps serait contraire a la jurisprudence CC (droit a la surete, Art. 66 Constitution) et CEDH (Art. 5). Le CC a deja censure des dispositions de retention jugees disproportionnees (Decision 2003-484 DC). La CJUE encadre egalement la retention (directive retour 2008). Risque CC et CEDH tres eleve sur la retention indefinie.",
+        "vehicule_legislatif": "loi ordinaire (modification CESEDA)",
+        "risque_censure_cc": "tres eleve (retention indefinie)",
+        "conflit_droit_ue": "oui (directive retour, CEDH Art. 5)"
+      },
+      "social": {
+        "score_acceptabilite": 0.6,
+        "score_impact": 0.45,
+        "confidence": 0.6,
+        "justification": "L'opinion est favorable a l'eloignement des etrangers en situation irreguliere et surtout des delinquants etrangers. Mais la retention indefinie est un sujet sensible. Les associations (CIMADE, LDH) et le Defenseur des droits s'opposent fermement. L'impact est limite par le taux d'execution des OQTF (7-8% seulement), qui ne depend pas des places de retention mais de la cooperation des pays d'origine.",
+        "opposition_sociale": "moderee (ONG, associations, partie de la gauche)"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.65,
+        "justification": "L'objectif de 3 000 places est dans la continuite des annonces precedentes (Darmanin avait annonce 3 000 places en 2022). Le nombre actuel est d'environ 1 800. L'augmentation est plausible mais le rythme de construction de CRA est lent (delais d'urbanisme, opposition locale). La retention indefinie des 'publics dangereux' est formulee comme un objectif mais se heurte a des obstacles juridiques majeurs. Le taux d'execution des OQTF reste le veritable goulot d'etranglement.",
+        "verdict_global": "partiellement_realisable"
+      },
+      "historique": {
+        "score": 0.4,
+        "confidence": 0.65,
+        "justification": "La capacite de retention a augmente progressivement (700 places en 2003, 1 800 en 2024) mais toujours plus lentement que prevu. L'annonce de 3 000 places par Darmanin (2022) n'a pas ete realisee en 2 ans. Les obstacles sont principalement locaux (opposition des communes a l'implantation de CRA). Concernant la retention prolongee, le CC et la CEDH ont systematiquement limite la duree (90 jours max actuellement). Le precedent de la loi immigration 2024 (32 articles censures sur 86) montre les limites juridiques.",
+        "delai_realiste_mois": 30,
+        "precedent_principal": "Loi immigration 2024 (32 articles censures par le CC)"
+      },
+      "feasibility": {
+        "overall": 0.35,
+        "ci_95": [
+          0.2,
+          0.5
+        ],
+        "dimensions": {
+          "budget": 0.5,
+          "juridique": 0.35,
+          "acceptabilite": 0.6,
+          "impact": 0.45,
+          "technique": 0.4,
+          "timeline": 0.35
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_014",
+      "raw_text": "Lancer des conferences territoriales sur l'eau avec 475 millions d'euros supplementaires pour le plan eau, en integrant une trajectoire de rechauffement a +4 degres",
+      "theme": "environnement",
+      "budget": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "Les 475 M EUR supplementaires sont un montant ponctuel, venant s'ajouter au plan eau existant (evaluation initiale : 180 M EUR/an). Le budget ecologie est de 29,8 Md EUR. Les 475 M EUR representent 1,6% de ce budget, c'est absorable. Le financement par les agences de l'eau (qui collectent 2,3 Md EUR/an de redevances) est possible. Compatible avec le PSMT si finance par redeploidement au sein du budget ecologie.",
+        "cout_estime_eur": 475000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.8,
+        "justification": "Les conferences territoriales sont un outil de concertation sans portee juridique contraignante. L'abondement du plan eau releve du budget (PLF). L'integration de la trajectoire +4 degres dans les politiques de l'eau peut se faire par arrete ministeriel (plans de bassin). Pas de risque CC. Le cadre juridique des agences de l'eau (loi sur l'eau 2006) est bien etabli.",
+        "vehicule_legislatif": "decrets + PLF (credit budgetaire)",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.6,
+        "confidence": 0.65,
+        "justification": "La gestion de l'eau est un sujet consensuel. La secheresse de 2022 a sensibilise l'opinion. Les conflits d'usage (agriculture vs. environnement vs. usage domestique) sont reels mais les conferences territoriales permettent la concertation. Opposition possible des agriculteurs sur les restrictions d'usage. L'integration du +4 degres est une avancee methodologique significative.",
+        "opposition_sociale": "faible sauf conflits usage locaux"
+      },
+      "factcheck": {
+        "score": 0.8,
+        "confidence": 0.75,
+        "justification": "Le plan eau initial (mars 2023) prevoyait 180 M EUR/an. Les 475 M EUR supplementaires sont annonces dans le cadre du comite de bassin. La trajectoire +4 degres est conforme aux scenarios du GIEC et de Meteo-France. Les conferences territoriales ont ete effectivement lancees en juin 2025. La mesure est en cours d'execution, ce qui renforce sa credibilite.",
+        "verdict_global": "vrai_et_en_cours"
+      },
+      "historique": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "La France a une longue tradition de gestion concertee de l'eau (loi sur l'eau 1964, comites de bassin). Les 6 agences de l'eau sont des institutions matures et operationnelles. Le plan eau 2023 est le dernier d'une serie de plans nationaux. Les conferences de bassin ont deja produit des resultats (SDAGE, SAGE). L'integration du changement climatique est progressive mais reelle depuis 2015. Le delai d'execution annonce (juin-octobre 2025) est coherent.",
+        "delai_realiste_mois": 6,
+        "precedent_principal": "Plan national d'adaptation au changement climatique (PNACC)"
+      },
+      "feasibility": {
+        "overall": 0.7,
+        "ci_95": [
+          0.55,
+          0.8
+        ],
+        "dimensions": {
+          "budget": 0.6,
+          "juridique": 0.85,
+          "acceptabilite": 0.75,
+          "impact": 0.6,
+          "technique": 0.7,
+          "timeline": 0.8
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_015",
+      "raw_text": "Adapter la transition ecologique a la realite des territoires avec des objectifs differencies ville/campagne, en soutenant l'hydrogene, le bioethanol et le plan velo",
+      "theme": "environnement",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.45,
+        "justification": "Proposition trop vague pour une estimation precise. Le plan hydrogene existant est de 9 Md EUR (France 2030). Le plan velo est de 2 Md EUR (2023-2027). Le bioethanol necessite des aides a la filiere (quelques centaines de M EUR). La differenciation ville/campagne n'a pas de cout propre mais pourrait ralentir les economies attendues des ZFE et de la transition automobile. Impact budgetaire net incertain.",
+        "cout_estime_eur": null,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.65,
+        "confidence": 0.6,
+        "justification": "La differenciation territoriale des normes environnementales est juridiquement delicate au regard du principe d'egalite devant la loi (Art. 6 DDHC). Le CC accepte les differenciations si elles sont justifiees par des differences de situation objectives (Decision 79-107 DC). La loi Climat et Resilience prevoit deja des ZFE adaptees. Le droit UE fixe des objectifs nationaux (Fit for 55) mais laisse une marge aux Etats sur les modalites territoriales.",
+        "vehicule_legislatif": "loi ordinaire + decrets",
+        "risque_censure_cc": "faible si differences objectives justifiees",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.75,
+        "score_impact": 0.5,
+        "confidence": 0.55,
+        "justification": "Proposition tres populaire en zones rurales ou la dependance a la voiture est forte. Les Gilets Jaunes (2018-2019) sont nes de la perception d'une transition ecologique anti-rurale. La differenciation est une reponse politique pertinente. Les ecologistes critiquent une approche jugee trop molle. L'impact depend entierement du contenu concret des objectifs differencies, qui n'est pas precise.",
+        "opposition_sociale": "faible sauf ecologistes"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.55,
+        "justification": "La proposition reste au stade d'orientation generale. Aucun objectif chiffre differenicie n'est communique. Le soutien a l'hydrogene, au bioethanol et au plan velo est coherent avec les politiques existantes mais ne constitue pas une nouveaute. Le bioethanol est conteste sur le plan climatique (efficacite CO2 debattue). L'hydrogene 'vert' reste couteux et sa production insuffisante. La promesse manque de substance concrete.",
+        "verdict_global": "trop_vague_pour_verification"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.55,
+        "justification": "La differenciation territoriale des politiques environnementales a ete tentee avec les ZFE (calendrier differenicie selon les agglomerations) et la loi Climat (ZAN avec adaptation locale). Les precedents montrent que la differenciation est toujours difficile a mettre en oeuvre sans creer des inegalites ou des effets de bord. Le plan hydrogene a ete lance en 2020 avec des resultats lents (moins de 10% de l'enveloppe deployee en 2024).",
+        "delai_realiste_mois": 24,
+        "precedent_principal": "ZFE differenciees + plan hydrogene national (deploiement lent)"
+      },
+      "feasibility": {
+        "overall": 0.5,
+        "ci_95": [
+          0.35,
+          0.65
+        ],
+        "dimensions": {
+          "budget": 0.55,
+          "juridique": 0.65,
+          "acceptabilite": 0.75,
+          "impact": 0.5,
+          "technique": 0.45,
+          "timeline": 0.4
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_016",
+      "raw_text": "Mener un mouvement puissant de debureaucratisation en inversant le processus administratif : les administrations pre-remplissent les documents et l'usager controle, avec simplification par ordonnances",
+      "theme": "emploi",
+      "budget": {
+        "score": 0.6,
+        "confidence": 0.55,
+        "justification": "L'investissement en systemes d'information pour le pre-remplissage est significatif (l'IR pre-rempli a coute ~200 M EUR sur 5 ans). La generalisation a d'autres administrations couterait 500 M - 1 Md EUR sur 5 ans. Les economies potentielles sont reelles : la charge administrative coute 3-4% du PIB selon l'OCDE, soit ~90-120 Md EUR. Une reduction de 10% genererait 9-12 Md EUR/an de gains pour l'economie (pas directement pour le budget de l'Etat). Le ROI est positif a moyen terme.",
+        "cout_estime_eur": 700000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "Le recours aux ordonnances (Art. 38 Constitution) est juridiquement clair : loi d'habilitation votee au Parlement, ordonnances prises en Conseil des ministres, ratification dans le delai fixe. La simplification administrative par ordonnances a des precedents (ordonnances Macron 2017 pour le code du travail). Le pre-remplissage necessite le croisement de fichiers administratifs, ce qui souleve des questions RGPD et CNIL. La CNIL doit etre consultee.",
+        "vehicule_legislatif": "loi d'habilitation + ordonnances",
+        "risque_censure_cc": "faible si habilitation precise",
+        "conflit_droit_ue": "attention RGPD (croisement fichiers)"
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.6,
+        "confidence": 0.6,
+        "justification": "La simplification administrative est un sujet consensuel. Les citoyens et les entreprises la reclament. Les syndicats de la fonction publique craignent des suppressions de postes. Les PME sont particulierement demandeuses. L'impact depend de l'ambition reelle : les 'chocs de simplification' precedents (Hollande 2014, Macron 2023) ont produit des resultats limites malgre les annonces.",
+        "opposition_sociale": "tres faible (consensus general)"
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.65,
+        "justification": "Le principe d'inversion (l'administration pre-remplit, l'usager valide) existe deja pour la declaration d'IR pre-remplie (depuis 2006). Le generaliser est une ambition raisonnable. Les ordonnances sont un outil juridique disponible. Cependant, les precedents de 'simplification' montrent que les nouvelles normes generees compensent souvent les simplifications realisees (inflation normative). Le nombre de normes en France continue d'augmenter malgre les plans successifs.",
+        "verdict_global": "intention_louable_execution_incertaine"
+      },
+      "historique": {
+        "score": 0.4,
+        "confidence": 0.7,
+        "justification": "Les plans de simplification administrative se succedent depuis 30 ans avec des resultats limites. Le 'choc de simplification' de Hollande (2014) a produit 415 mesures dont l'impact cumule n'a pas ete mesure. La loi ESSOC (2018) a introduit le droit a l'erreur mais son application reste partielle. La declaration d'IR pre-remplie est un succes reconnu mais il a fallu 10 ans de developpement. La complexite administrative augmente malgre les efforts (75 000 pages de code du travail).",
+        "delai_realiste_mois": 36,
+        "precedent_principal": "Declaration IR pre-remplie (10 ans de developpement, succes)"
+      },
+      "feasibility": {
+        "overall": 0.5,
+        "ci_95": [
+          0.35,
+          0.65
+        ],
+        "dimensions": {
+          "budget": 0.6,
+          "juridique": 0.7,
+          "acceptabilite": 0.8,
+          "impact": 0.6,
+          "technique": 0.4,
+          "timeline": 0.35
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_017",
+      "raw_text": "Investir 5 milliards d'euros dans l'intelligence artificielle dont 400 millions supplementaires en 2025, identifier 35 sites pour data centers, former 100 000 professionnels par an a l'IA, deployer un agent IA pour les 5,7 millions d'agents publics",
+      "theme": "numerique",
+      "budget": {
+        "score": 0.45,
+        "confidence": 0.6,
+        "justification": "Les 5 Md EUR sont reorientes depuis France 2030 (enveloppe totale de 54 Md EUR). Les 400 M EUR supplementaires en 2025 sont un surcout reel. La formation de 100 000 professionnels/an couterait 200-500 M EUR/an selon l'intensite. Le deploiement d'un agent IA pour 5,7 M agents publics est un investissement massif en infrastructure numerique : 500 M - 1 Md EUR. Le total sur 5 ans depasse largement 5 Md EUR si toutes les composantes sont financees. Le financement par reorientation de France 2030 est partiellement credible mais entre en concurrence avec d'autres priorites (sante, energie).",
+        "cout_estime_eur": 5000000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.75,
+        "confidence": 0.7,
+        "justification": "L'investissement public dans la technologie releve du PLF et des PIA/France 2030. La formation professionnelle peut etre financee par les OPCO et France Competences. L'identification de sites pour data centers releve de l'urbanisme et de l'amenagement du territoire (procedure ICPE). Le reglement IA europeen (AI Act, 2024) fixe le cadre juridique. Le deploiement d'IA dans la fonction publique doit respecter le RGPD et les droits des agents. Pas de risque CC majeur.",
+        "vehicule_legislatif": "PLF + decrets + AI Act (conformite UE)",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": "attention conformite AI Act"
+      },
+      "social": {
+        "score_acceptabilite": 0.6,
+        "score_impact": 0.7,
+        "confidence": 0.55,
+        "justification": "L'IA est un sujet polarisant : enthousiasme des milieux economiques, inquietude des salaries (remplacement par l'IA), mefiance d'une partie de l'opinion (surveillance). Le deploiement dans la fonction publique suscite des craintes chez les agents (peur du remplacement, surveillance). Les data centers posent des questions environnementales (consommation electrique, eau). Impact economique potentiellement majeur si la France rattrape son retard.",
+        "opposition_sociale": "moderee (syndicats FP, ecologistes, opinion divisee)"
+      },
+      "factcheck": {
+        "score": 0.65,
+        "confidence": 0.65,
+        "justification": "Le plan IA est l'un des plus detailles du programme Bayrou. Les 5 Md EUR sont coherents avec les annonces de France 2030 reoriente. L'identification de 35 sites pour data centers est precise. La formation de 100 000 professionnels/an est ambitieuse (le campus IA de Saclay forme ~500 personnes/an). Le deploiement d'un agent IA pour tous les agents publics est un objectif a 5-7 ans, pas 2025. Certaines composantes sont exagerees en termes de delai.",
+        "verdict_global": "ambitieux_mais_coherent"
+      },
+      "historique": {
+        "score": 0.45,
+        "confidence": 0.6,
+        "justification": "Les plans IA nationaux se succedent : rapport Villani (2018), plan IA 1 (1,5 Md EUR), plan IA 2 (2,2 Md EUR). Les resultats sont mitiges : la France reste 3e en Europe derriere UK et Allemagne pour les investissements prives en IA. L'ecosysteme startups IA est dynamique (Mistral, Hugging Face) mais l'adoption par la fonction publique est tres lente. Le plan France 2030 a deploye 30% de son enveloppe en 3 ans. Delai de deploiement des data centers : 3-5 ans (procedures + construction).",
+        "delai_realiste_mois": 60,
+        "precedent_principal": "Plan IA national 2018 + France 2030 (deploiement a 30% en 3 ans)"
+      },
+      "feasibility": {
+        "overall": 0.5,
+        "ci_95": [
+          0.35,
+          0.65
+        ],
+        "dimensions": {
+          "budget": 0.45,
+          "juridique": 0.75,
+          "acceptabilite": 0.6,
+          "impact": 0.7,
+          "technique": 0.45,
+          "timeline": 0.35
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_018",
+      "raw_text": "Promouvoir une Europe federale cooperative avec defense commune, harmonisation fiscale et voix unique dans le monde",
+      "theme": "international",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.35,
+        "justification": "L'harmonisation fiscale europeenne (TVA, IS, taxation GAFAM) aurait un impact budgetaire incertain pour la France. Le taux d'IS francais (25%) est dans la moyenne europeenne post-reforme Pilier 2 (15% minimum). La defense commune impliquerait des investissements massifs (les depenses de defense UE totalisent ~240 Md EUR vs 800 Md EUR pour les USA). La contribution francaise pourrait augmenter ou diminuer selon le modele de partage. Trop d'inconnues pour estimer precisement.",
+        "cout_estime_eur": null,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.15,
+        "confidence": 0.8,
+        "justification": "L'Europe federale necessite une revision des traites europeens (unanimite des 27 Etats membres ou Convention + CIG). L'harmonisation fiscale requiert l'unanimite au Conseil (Art. 113 TFUE pour la fiscalite indirecte, Art. 115 pour la fiscalite directe). Tout transfert de souverainete en matiere de defense requiert en France une revision constitutionnelle (Art. 89, vote identique des deux chambres + referendum ou Congres). Obstacles juridiques quasi insurmontables.",
+        "vehicule_legislatif": "revision traites UE + revision constitutionnelle",
+        "risque_censure_cc": "non applicable (revision constitutionnelle requise)",
+        "conflit_droit_ue": "necessite revision traites"
+      },
+      "social": {
+        "score_acceptabilite": 0.35,
+        "score_impact": 0.8,
+        "confidence": 0.6,
+        "justification": "L'europeisme est minoritaire dans l'opinion francaise (62% pensent que l'UE ne protege pas assez, Eurobarometre 2024). La defense europeenne est plus populaire (55-60% de soutien) depuis l'agression russe en Ukraine. Mais le mot 'federal' est un repoussoir en France. L'impact serait transformatif si realise, mais les chances sont negligeables a horizon 10 ans.",
+        "opposition_sociale": "forte (souverainistes, RN, LFI, opinion divisee)"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "justification": "L'engagement europeen du MoDem est historique et constant. Bayrou est un federaliste convaincu depuis les annees 1990. La defense europeenne est un sujet en progres reel (FCAS, MGCS, boussole strategique 2022). L'harmonisation fiscale avance a petits pas (Pilier 2, taxe GAFAM partielle). Mais qualifier la proposition de 'promesse concrete' est excessif : c'est une orientation strategique a 20-30 ans, pas un engagement de mandat.",
+        "verdict_global": "orientation_strategique_non_une_promesse"
+      },
+      "historique": {
+        "score": 0.1,
+        "confidence": 0.8,
+        "justification": "Aucun progres significatif vers une Europe federale depuis le traite de Lisbonne (2009). Le referendum de 2005 a montre le rejet populaire de l'approfondissement europeen. L'harmonisation fiscale est bloquee par l'unanimite (veto de l'Irlande, du Luxembourg, des Pays-Bas). La defense commune est au stade embryonnaire (PESCO, 2017) avec des budgets derisoires. Les crises (Brexit, Covid, Ukraine) ont relance le debat mais sans avancee institutionnelle. Horizon : 20+ ans.",
+        "delai_realiste_mois": 240,
+        "precedent_principal": "Referendum constitutionnel europeen 2005 (rejet a 54.7%)"
+      },
+      "feasibility": {
+        "overall": 0.1,
+        "ci_95": [
+          0.05,
+          0.2
+        ],
+        "dimensions": {
+          "budget": 0.4,
+          "juridique": 0.15,
+          "acceptabilite": 0.35,
+          "impact": 0.8,
+          "technique": 0.1,
+          "timeline": 0.05
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_019",
+      "raw_text": "Relancer une politique de souverainete alimentaire avec debureaucratisation des normes pesant sur les agriculteurs",
+      "theme": "agriculture",
+      "budget": {
+        "score": 0.6,
+        "confidence": 0.5,
+        "justification": "La 'souverainete alimentaire' et la 'debureaucratisation' n'ont pas de cout budgetaire direct. La simplification normative peut meme generer des economies (moins de controles, moins de paperasse). Les aides PAC representent ~9 Md EUR/an pour la France, qui sont des fonds europeens. Des investissements dans les filieres locales couteraient quelques centaines de M EUR. La mesure est plutot neutre budgetairement.",
+        "cout_estime_eur": null,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.5,
+        "confidence": 0.6,
+        "justification": "La politique agricole est en grande partie une competence partagee UE (PAC). La France ne peut pas unilateralement deregler les normes phytosanitaires ou environnementales imposees par le droit UE (reglements REACH, pesticides, bien-etre animal). La marge de manoeuvre est sur les surtranspositions francaises. Le projet de loi de simplification economique est le vehicule legislatif annonce. Le CC protege le principe de precaution (Charte de l'environnement, Art. 5).",
+        "vehicule_legislatif": "loi de simplification + decrets",
+        "risque_censure_cc": "moyen (principe de precaution)",
+        "conflit_droit_ue": "possible (normes agricoles UE)"
+      },
+      "social": {
+        "score_acceptabilite": 0.7,
+        "score_impact": 0.45,
+        "confidence": 0.55,
+        "justification": "Les agriculteurs soutiennent massivement la simplification (manifestations 2024). Les consommateurs sont attaches a la qualite alimentaire et aux normes sanitaires. Les ecologistes s'opposent a toute regression normative. L'impact reel depend du contenu : reduire la paperasse est different de supprimer des normes de protection de l'environnement ou de la sante. La promesse est trop vague pour evaluer l'impact precis.",
+        "opposition_sociale": "moderee (ecologistes, ONG, consommateurs)"
+      },
+      "factcheck": {
+        "score": 0.45,
+        "confidence": 0.55,
+        "justification": "Le chiffre de 4% de poids reglementaire en France (contre 0,3% en Espagne) n'est pas source de maniere verifiable et semble correspondre a une estimation partielle. La France a effectivement un taux de surtransposition eleve mais les comparaisons sont methodologiquement complexes. La 'souverainete alimentaire' est un concept aux contours flous : la France est excedentaire en cereales mais deficitaire en fruits, legumes et proteines vegetales.",
+        "verdict_global": "affirmation_partiellement_verifiable"
+      },
+      "historique": {
+        "score": 0.4,
+        "confidence": 0.6,
+        "justification": "Les plans de simplification agricole se succedent (2014, 2019, 2024) avec des resultats limites. Le nombre de normes applicables aux agriculteurs continue d'augmenter (droit UE + droit francais). La loi EGALIM (2018, 2021, 2023) a montre que la regulation des prix agricoles est difficile a faire respecter. Les manifestions agricoles de 2024 ont force le gouvernement a accorder des derogations ponctuelles sur les normes environnementales.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Plans de simplification agricole 2014-2024 (resultats limites)"
+      },
+      "feasibility": {
+        "overall": 0.45,
+        "ci_95": [
+          0.3,
+          0.6
+        ],
+        "dimensions": {
+          "budget": 0.6,
+          "juridique": 0.5,
+          "acceptabilite": 0.7,
+          "impact": 0.45,
+          "technique": 0.4,
+          "timeline": 0.4
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_020",
+      "raw_text": "Relancer le Comite interministeriel aux ruralites et le Plan France ruralites 2023-2027",
+      "theme": "institutions",
+      "budget": {
+        "score": 0.7,
+        "confidence": 0.65,
+        "justification": "Le Plan France ruralites 2023-2027 etait dote d'une enveloppe initiale de ~130 M EUR. La relance du comite interministeriel a un cout organisationnel negligeable. Les mesures associees (maisons France Services, zones de revitalisation rurale, France Services) sont deja financees dans les budgets existants. Cout supplementaire marginal. Compatible avec le PSMT.",
+        "cout_estime_eur": 50000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.9,
+        "confidence": 0.85,
+        "justification": "La creation d'un comite interministeriel releve du pouvoir d'organisation du gouvernement (decret simple). Le plan France ruralites est un plan d'action administratif sans base legislative specifique requise. Le Premier ministre a toute autorite pour relancer cette instance. Aucun obstacle juridique.",
+        "vehicule_legislatif": "decret + circulaire PM",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.4,
+        "confidence": 0.6,
+        "justification": "Mesure populaire dans les territoires ruraux. Bayrou est elu du Bearn, sa credibilite sur les sujets ruraux est forte. Les elus locaux ruraux soutiennent. L'impact reel depend des moyens financiers et des mesures concretes, au-dela de la relance institutionnelle. Le risque est que le comite interministeriel produise des annonces sans suite, comme lors de precedentes editions.",
+        "opposition_sociale": "nulle"
+      },
+      "factcheck": {
+        "score": 0.8,
+        "confidence": 0.8,
+        "justification": "Le Comite interministeriel aux ruralites a bien ete relance en juin 2025 (source : vie-publique.fr). Le Plan France ruralites 2023-2027 existe et etait en partie suspendu faute de portage politique. La mesure est en cours d'execution. La relance est un fait, pas une promesse.",
+        "verdict_global": "vrai_et_en_cours"
+      },
+      "historique": {
+        "score": 0.6,
+        "confidence": 0.7,
+        "justification": "Les comites interministeriels thematiques sont un outil classique du gouvernement francais. Les CIAT (Comites interministeriels d'amenagement du territoire) existaient sous ce format depuis les annees 1960. Leur efficacite est variable : ils produisent des arbitrages budgetaires et des plans d'action mais le suivi est souvent defaillant. L'avantage de Bayrou est qu'il est PM et peut directement presider ce comite.",
+        "delai_realiste_mois": 1,
+        "precedent_principal": "CIAT / Comites interministeriels aux ruralites (historique continu)"
+      },
+      "feasibility": {
+        "overall": 0.75,
+        "ci_95": [
+          0.6,
+          0.85
+        ],
+        "dimensions": {
+          "budget": 0.7,
+          "juridique": 0.9,
+          "acceptabilite": 0.8,
+          "impact": 0.4,
+          "technique": 0.6,
+          "timeline": 0.95
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_021",
+      "raw_text": "Lutter contre la fraude sociale et fiscale pour un gain estime de 2,3 milliards d'euros en 2026",
+      "theme": "economie",
+      "budget": {
+        "score": 0.4,
+        "confidence": 0.6,
+        "justification": "La fraude fiscale est estimee entre 80 et 100 Md EUR/an (source : Syndicat Solidaires-Finances Publiques). La fraude sociale est estimee a 6-8 Md EUR/an (rapport CAF 2023). Le rendement du controle fiscal est de ~14 Md EUR/an en droits rappeles mais seuls ~10 Md sont effectivement recouvres. Un gain supplementaire de 2,3 Md EUR suppose une augmentation de 15-20% de l'efficacite du recouvrement, ce qui est ambitieux. Les gains de lutte anti-fraude sont systematiquement surestimes dans les PLF (l'ecart entre previsions et realisations est de 20-30%).",
+        "cout_estime_eur": -2300000000,
+        "financement_credible": false,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.7,
+        "confidence": 0.7,
+        "justification": "Les outils juridiques de lutte contre la fraude existent : data mining (algorithmes DGFIP), echange automatique d'informations (CRS de l'OCDE), police fiscale (creee en 2019), loi anti-fraude 2018. Des renforcements supplementaires sont possibles par voie legislative ou reglementaire. La CNIL encadre l'utilisation de l'IA pour le data mining fiscal (autorisation CNIL de 2021). Pas de risque CC majeur si proportionnalite respectee.",
+        "vehicule_legislatif": "PLF + PLFSS + decrets",
+        "risque_censure_cc": "faible",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.5,
+        "confidence": 0.65,
+        "justification": "La lutte contre la fraude est unanimement populaire (85-90% de soutien dans les sondages). L'opposition est inexistante dans l'opinion publique. L'impact reel est incertain : les 2,3 Md EUR sont un objectif, pas une garantie. Le veritable enjeu est la fraude des grandes entreprises (optimisation fiscale) mais les outils sont limites par les conventions fiscales internationales.",
+        "opposition_sociale": "nulle"
+      },
+      "factcheck": {
+        "score": 0.5,
+        "confidence": 0.65,
+        "justification": "Le chiffre de 2,3 Md EUR est annonce par le gouvernement dans le cadre du PLF 2026. Les gains anti-fraude inscrits dans les PLF precedents n'ont jamais ete atteints integralement. Le PLF 2024 prevoyait 1,5 Md EUR de gains anti-fraude : le recouvrement effectif n'est pas encore publie mais les precedents suggerent un taux de realisation de 60-80%. L'ecart entre annonces et realisations est systematique dans ce domaine.",
+        "verdict_global": "objectif_probablement_surestime"
+      },
+      "historique": {
+        "score": 0.4,
+        "confidence": 0.65,
+        "justification": "La lutte contre la fraude est un theme recurrent de tous les PLF depuis 20 ans. Les moyens de controle ont ete renforces (creation de la police fiscale en 2019, algorithmes DGFIP) mais les resultats sont modestes au regard de l'ampleur estimee de la fraude. Le recouvrement effectif des controles fiscaux stagne autour de 10-12 Md EUR/an malgre les annonces d'augmentation. Les effectifs de la DGFIP ont diminue de 25% en 15 ans, ce qui limite la capacite de controle.",
+        "delai_realiste_mois": 12,
+        "precedent_principal": "Loi anti-fraude 2018 + police fiscale 2019 (resultats modestes)"
+      },
+      "feasibility": {
+        "overall": 0.45,
+        "ci_95": [
+          0.3,
+          0.6
+        ],
+        "dimensions": {
+          "budget": 0.4,
+          "juridique": 0.7,
+          "acceptabilite": 0.85,
+          "impact": 0.5,
+          "technique": 0.4,
+          "timeline": 0.5
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_022",
+      "raw_text": "Faire de la lutte contre le narcotrafic une priorite absolue avec cooperation Justice-Interieur et elargissement des pouvoirs des polices municipales",
+      "theme": "securite",
+      "budget": {
+        "score": 0.55,
+        "confidence": 0.55,
+        "justification": "La cooperation Justice-Interieur est un enjeu organisationnel plus que budgetaire. L'elargissement des pouvoirs des polices municipales necessite des formations et equipements supplementaires : 100-200 M EUR/an. Le budget securites (17,2 Md EUR) et justice (10,2 Md EUR) peuvent absorber une partie. Les recettes issues des saisies de biens lies au narcotrafic (AGRASC) rapportent ~150 M EUR/an. Des investissements supplementaires en renseignement et interception sont necessaires.",
+        "cout_estime_eur": 200000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.55,
+        "confidence": 0.65,
+        "justification": "L'elargissement des pouvoirs des polices municipales necessite une loi modifiant le Code de la securite interieure (Art. L511-1 et suivants). L'inspection des vehicules et l'acces a la videosurveillance pour les polices municipales souleve des questions de proportionnalite (CC) et de protection des donnees (CNIL). Le CC a deja encadre les pouvoirs de fouille (Decision 2019-797 QPC). La loi anti-narcotrafic (projet de loi annonce) doit passer au Parlement ou les debats seront vifs sur l'equilibre libertes/securite.",
+        "vehicule_legislatif": "loi ordinaire (modification CSI)",
+        "risque_censure_cc": "moyen (proportionnalite, fouille vehicules)",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.5,
+        "confidence": 0.6,
+        "justification": "La lutte contre le narcotrafic est massivement soutenue dans l'opinion (80%+). La violence liee au trafic de drogue dans les quartiers est un sujet de preoccupation majeur. L'elargissement des pouvoirs des polices municipales divise : les maires des grandes villes sont favorables, les associations de defense des libertes s'opposent. L'impact depend de la strategie globale : la repression seule n'a jamais resolu le probleme du narcotrafic (precedent : guerre contre la drogue aux USA).",
+        "opposition_sociale": "faible sauf ONG libertes"
+      },
+      "factcheck": {
+        "score": 0.65,
+        "confidence": 0.65,
+        "justification": "Le narcotrafic est effectivement en hausse en France : les saisies de cocaine ont augmente de 120% entre 2017 et 2023 (OFAST). Les homicides lies au trafic ont augmente de 50% en 5 ans. La cooperation Justice-Interieur est un enjeu reel (retards de traitement des procedures). L'elargissement des pouvoirs des polices municipales est une reponse partielle : les PM n'ont pas la formation ni l'equipement pour lutter contre le trafic organise.",
+        "verdict_global": "partiellement_coherent"
+      },
+      "historique": {
+        "score": 0.4,
+        "confidence": 0.6,
+        "justification": "Les plans anti-drogue se succedent depuis les annees 1990. Le plan national 2023-2027 de la MILDECA est le dernier. L'OFAST (Office anti-stupefiants) a ete cree en 2019 et monte en puissance. Les resultats sont mitiges : les saisies augmentent mais les volumes de drogues aussi. L'elargissement des polices municipales a deja ete realise partiellement (loi Securite globale 2021) avec un bilan incertain. Le precedent americain de la 'War on Drugs' montre les limites de l'approche repressive.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Creation OFAST 2019 + loi Securite globale 2021"
+      },
+      "feasibility": {
+        "overall": 0.5,
+        "ci_95": [
+          0.35,
+          0.65
+        ],
+        "dimensions": {
+          "budget": 0.55,
+          "juridique": 0.55,
+          "acceptabilite": 0.8,
+          "impact": 0.5,
+          "technique": 0.4,
+          "timeline": 0.5
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_023",
+      "raw_text": "Encourager le lancement de plans anti-solitude au niveau local pour combattre l'isolement et retisser le lien social",
+      "theme": "sante",
+      "budget": {
+        "score": 0.7,
+        "confidence": 0.5,
+        "justification": "Le cout est faible car il s'agit d'une incitation aux collectivites locales, pas d'un programme national finance par l'Etat. Les plans anti-solitude locaux peuvent etre finances par les CCAS, les departements (action sociale) et les ARS. Un fonds d'amorcage national de 20-50 M EUR serait suffisant. L'isolement social coute entre 3 et 5 Md EUR/an au systeme de sante (surconsommation de soins, hospitalisations evitables). Le ROI potentiel est positif.",
+        "cout_estime_eur": 30000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.8,
+        "justification": "L'encouragement de plans locaux releve de la politique sociale, competence partagee Etat/departements. Pas besoin de loi : une circulaire ou un plan d'action interministeriel suffit. Les prestations sociales 'propices a la vie en commun' necessiteraient des modifications reglementaires mineures (ex: baremes logement adaptes a la colocation senior). Aucun risque CC.",
+        "vehicule_legislatif": "circulaire + decrets",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.85,
+        "score_impact": 0.4,
+        "confidence": 0.55,
+        "justification": "L'isolement touche 7 millions de Francais (Fondation de France, 2023). La mesure est consensuelle et populaire. L'impact reel depend entierement de la mise en oeuvre locale et des moyens affectes. Le risque est l'effet d'annonce sans suite concrete. La 'promesse vague' limite l'impact mesurable.",
+        "opposition_sociale": "nulle"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.55,
+        "justification": "Le diagnostic de l'isolement social est juste (7 millions de personnes en situation d'isolement selon la Fondation de France). Mais la proposition reste au stade de l'intention : aucun objectif chiffre, aucun calendrier precis, aucun financement identifie. 'Encourager le lancement' est le niveau d'engagement le plus faible possible. La mention de 'prestations sociales propices a la vie en commun' n'est pas detaillee.",
+        "verdict_global": "intention_sans_substance"
+      },
+      "historique": {
+        "score": 0.5,
+        "confidence": 0.55,
+        "justification": "Le plan national de lutte contre l'isolement des aines (MONALISA, 2014) a mobilise des associations mais sans budget significatif. La strategie nationale de prevention et de lutte contre la pauvrete (2018) incluait un volet anti-isolement. Les resultats sont difficiles a mesurer. Les collectivites qui ont investi (Paris, Lyon) montrent des resultats positifs mais non generalisables. Le delai de mise en oeuvre locale est de 12-24 mois.",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Plan MONALISA 2014 (resultats limites)"
+      },
+      "feasibility": {
+        "overall": 0.6,
+        "ci_95": [
+          0.45,
+          0.75
+        ],
+        "dimensions": {
+          "budget": 0.7,
+          "juridique": 0.85,
+          "acceptabilite": 0.85,
+          "impact": 0.4,
+          "technique": 0.5,
+          "timeline": 0.55
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_024",
+      "raw_text": "Sensibiliser les citoyens des le plus jeune age a l'urgence ecologique par un enseignement sur le climat et la biodiversite, et developper l'economie circulaire",
+      "theme": "education",
+      "budget": {
+        "score": 0.7,
+        "confidence": 0.6,
+        "justification": "L'integration de l'education au climat dans les programmes scolaires est un cout marginal (adaptation des programmes, formation continue des enseignants : 20-50 M EUR). Le developpement de l'economie circulaire peut generer des recettes (taxe sur les matieres premieres vierges, bonus-malus) autant que des depenses. Le fonds economie circulaire de l'ADEME est de ~100 M EUR/an. Impact budgetaire net faible.",
+        "cout_estime_eur": 50000000,
+        "financement_credible": true,
+        "compatible_psmt": true
+      },
+      "juridique": {
+        "score": 0.85,
+        "confidence": 0.8,
+        "justification": "L'education au developpement durable est deja dans les programmes scolaires depuis 2004 (circulaires MEN). Le renforcement releve de l'arrete ministeriel (programmes scolaires) et des circulaires. La loi Climat et Resilience (2021) a deja prevu des dispositions sur l'education. L'economie circulaire est encadree par la loi AGEC (2020). Aucun obstacle juridique.",
+        "vehicule_legislatif": "arretes + circulaires MEN",
+        "risque_censure_cc": "nul",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.8,
+        "score_impact": 0.45,
+        "confidence": 0.55,
+        "justification": "L'education au climat est largement soutenue par l'opinion et les parents. Les enseignants sont favorables mais demandent des formations et des moyens. L'impact est a tres long terme (les eleves d'aujourd'hui seront les decideurs dans 15-20 ans). A court terme, la mesure ne modifie pas les comportements adultes. Le developpement de l'economie circulaire est consensuel mais l'impact environnemental reel depend des objectifs chiffres, qui manquent.",
+        "opposition_sociale": "nulle"
+      },
+      "factcheck": {
+        "score": 0.6,
+        "confidence": 0.6,
+        "justification": "L'education au developpement durable est deja dans les programmes (depuis 2004, renforcee en 2019 et 2021). La proposition est donc un renforcement de l'existant, pas une creation. Le terme 'urgence ecologique' est un ajout de cadrage politique. L'economie circulaire est soutenue par la loi AGEC (2020) avec des objectifs deja fixes (fin du plastique jetable 2040). La proposition ajoute peu a l'existant en termes concrets.",
+        "verdict_global": "renforcement_de_l_existant"
+      },
+      "historique": {
+        "score": 0.65,
+        "confidence": 0.65,
+        "justification": "L'education au developpement durable a progresse depuis 2004 : 3 phases de generalisation, creation du label E3D (2013). La loi AGEC (2020) a lance la feuille de route economie circulaire. Les resultats sont lents mais reels : le taux de recyclage est passe de 42% a 47% entre 2015 et 2023. L'education au climat beneficie d'un ecosysteme d'ONG et de ressources pedagogiques mature. Le delai de mise en oeuvre est court pour l'education (modification de programmes : 1-2 ans).",
+        "delai_realiste_mois": 18,
+        "precedent_principal": "Generalisation EDD depuis 2004 (3 phases)"
+      },
+      "feasibility": {
+        "overall": 0.65,
+        "ci_95": [
+          0.5,
+          0.75
+        ],
+        "dimensions": {
+          "budget": 0.7,
+          "juridique": 0.85,
+          "acceptabilite": 0.8,
+          "impact": 0.45,
+          "technique": 0.65,
+          "timeline": 0.7
+        }
+      }
+    },
+    {
+      "promise_id": "bayrou_025",
+      "raw_text": "Reformer la fiscalite fonciere pour reduire les couts de construction et encourager la densification douce en respectant le ZAN d'ici 2050",
+      "theme": "logement",
+      "budget": {
+        "score": 0.5,
+        "confidence": 0.5,
+        "justification": "La fiscalite fonciere (taxe fonciere, droits de mutation) rapporte ~50 Md EUR/an aux collectivites locales. Toute reforme a des implications massives sur les recettes locales. La reduction des couts de construction passerait par une baisse de la TVA sur le neuf (actuellement 20%) ou une reforme des droits de mutation. Cout potentiel de 2-5 Md EUR/an en recettes perdues qu'il faudrait compenser. La densification douce est compatible avec le ZAN mais necessite des investissements en infrastructure. Impact budgetaire net incertain.",
+        "cout_estime_eur": null,
+        "financement_credible": true,
+        "compatible_psmt": false
+      },
+      "juridique": {
+        "score": 0.45,
+        "confidence": 0.6,
+        "justification": "La reforme de la fiscalite fonciere necessite une loi de finances (Art. 34 Constitution). La taxe fonciere est une ressource des collectivites locales dont l'autonomie est protegee par l'Art. 72-2. Le CC a sanctionne les atteintes a l'autonomie financiere des collectivites (Decision 2009-599 DC). La densification douce necessite des modifications du code de l'urbanisme (PLU). Le ZAN est encadre par la loi Climat et Resilience et ses decrets d'application. La coherence entre reduction des couts et ZAN est un defi technique (le foncier rare = cher).",
+        "vehicule_legislatif": "PLF + loi urbanisme",
+        "risque_censure_cc": "moyen (autonomie financiere collectivites)",
+        "conflit_droit_ue": false
+      },
+      "social": {
+        "score_acceptabilite": 0.6,
+        "score_impact": 0.6,
+        "confidence": 0.55,
+        "justification": "La crise du logement est un sujet majeur (hausse de 25% des prix en 10 ans). La densification douce est mieux acceptee que les grands projets immobiliers mais suscite des oppositions locales (NIMBY). Les proprietaires fonciers s'opposeront a toute hausse de taxation. Les constructeurs sont favorables a la baisse des couts. Les ecologistes soutiennent le ZAN mais s'opposent a la construction. Equilibre delicat.",
+        "opposition_sociale": "moderee (proprietaires, riverains, ecologistes)"
+      },
+      "factcheck": {
+        "score": 0.55,
+        "confidence": 0.55,
+        "justification": "Le diagnostic de la crise du logement est juste. La fiscalite fonciere est reconnue comme un frein a la construction (rapport Rebsamen 2021). Le ZAN est un objectif legislatif en vigueur. Cependant, la proposition manque de precision : quel levier fiscal precis ? Quelle ampleur de densification ? Le lien entre reforme fiscale et baisse des prix n'est pas automatique (le foncier ne represente que 15-30% du cout total d'un logement).",
+        "verdict_global": "diagnostic_juste_solution_imprecise"
+      },
+      "historique": {
+        "score": 0.3,
+        "confidence": 0.6,
+        "justification": "Les reformes de la fiscalite fonciere sont un sujet bloque depuis des decennies. La revision des valeurs locatives (bases de la taxe fonciere) est reportee depuis 1990. La loi ELAN (2018) et les lois Climat (2021) ont pose le cadre du ZAN mais les decrets d'application sont contestes par les elus locaux. La France n'a jamais reussi a reduire significativement les couts de construction par la voie fiscale. Le secteur du BTP est en crise structurelle (-20% de mises en chantier en 2024).",
+        "delai_realiste_mois": 48,
+        "precedent_principal": "Report revision valeurs locatives depuis 1990 (non realise)"
+      },
+      "feasibility": {
+        "overall": 0.35,
+        "ci_95": [
+          0.2,
+          0.5
+        ],
+        "dimensions": {
+          "budget": 0.5,
+          "juridique": 0.45,
+          "acceptabilite": 0.6,
+          "impact": 0.6,
+          "technique": 0.3,
+          "timeline": 0.2
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_promises": 25,
+    "average_feasibility": 0.46,
+    "median_feasibility": 0.5,
+    "most_feasible": [
+      {
+        "id": "bayrou_020",
+        "score": 0.75,
+        "label": "Relance comite ruralites"
+      },
+      {
+        "id": "bayrou_006",
+        "score": 0.7,
+        "label": "Sanctuarisation budget Education"
+      },
+      {
+        "id": "bayrou_014",
+        "score": 0.7,
+        "label": "Conferences eau + 475 M EUR"
+      },
+      {
+        "id": "bayrou_024",
+        "score": 0.65,
+        "label": "Education climat et economie circulaire"
+      },
+      {
+        "id": "bayrou_023",
+        "score": 0.6,
+        "label": "Plans anti-solitude locaux"
+      },
+      {
+        "id": "bayrou_009",
+        "score": 0.6,
+        "label": "15 000 assistants medicaux"
+      }
+    ],
+    "least_feasible": [
+      {
+        "id": "bayrou_018",
+        "score": 0.1,
+        "label": "Europe federale cooperative"
+      },
+      {
+        "id": "bayrou_005",
+        "score": 0.2,
+        "label": "Fusion CSG-IR"
+      },
+      {
+        "id": "bayrou_008",
+        "score": 0.25,
+        "label": "Solidarite territoriale medecins obligatoire"
+      },
+      {
+        "id": "bayrou_004",
+        "score": 0.3,
+        "label": "43,8 Md EUR d'economies"
+      },
+      {
+        "id": "bayrou_011",
+        "score": 0.35,
+        "label": "15 000 logements etudiants/an"
+      },
+      {
+        "id": "bayrou_013",
+        "score": 0.35,
+        "label": "3000 places retention + retention indefinie"
+      },
+      {
+        "id": "bayrou_025",
+        "score": 0.35,
+        "label": "Reforme fiscalite fonciere"
+      }
+    ],
+    "key_contradictions": [
+      {
+        "promises": [
+          "bayrou_004",
+          "bayrou_006"
+        ],
+        "description": "Le plan d'economies de 43,8 Md EUR (incluant le non-remplacement d'1 fonctionnaire sur 3) est en contradiction directe avec la sanctuarisation du budget de l'Education nationale et le maintien des 4 000 postes d'enseignants."
+      },
+      {
+        "promises": [
+          "bayrou_004",
+          "bayrou_010"
+        ],
+        "description": "Le plan d'economies massives est incompatible avec la reouverture de la reforme des retraites qui ajoute des depenses (abaissement taux plein, carrieres meres) sans financement identifie."
+      },
+      {
+        "promises": [
+          "bayrou_004",
+          "bayrou_011",
+          "bayrou_017"
+        ],
+        "description": "Les investissements massifs promis (logements etudiants 4,5 Md EUR, IA 5 Md EUR) sont difficilement conciliables avec un plan d'economies de 43,8 Md EUR et le plafond de depenses PSMT a 1,2%."
+      }
+    ],
+    "thematic_synthesis": {
+      "institutions": "Les mesures institutionnelles (proportionnelle, Banque democratie, reforme Etat local, ruralites) sont un mix entre le realisable (ruralites, Etat local par decret) et le difficile (proportionnelle, necessite d'une majorite parlementaire). La proportionnelle est la mesure phare mais sa faisabilite politique reste incertaine malgre la faisabilite technique.",
+      "economie": "Les mesures economiques sont les plus fragiles : le plan d'economies de 43,8 Md est probablement surestime, la fusion CSG-IR est un chantier a 7+ ans, et la lutte anti-fraude rapportera moins que prevu. La contradiction entre austerite et investissements est le point faible central du programme.",
+      "sante": "Le volet sante est ambitieux mais juridiquement fragile pour la mesure phare (solidarite territoriale obligatoire). Les assistants medicaux sont la mesure la plus realiste. L'ouverture des etudes de sante est pertinente mais n'aura pas d'effet avant 10 ans.",
+      "environnement": "Le volet environnemental est le plus equilibre : les conferences eau sont en cours, la transition differenciee est populaire. Mais le manque de precision des objectifs limite l'impact mesurable.",
+      "immigration_securite": "Les mesures sont populaires mais se heurtent au droit europeen (Schengen) et constitutionnel (retention indefinie). L'efficacite reelle sur l'immigration irreguliere est incertaine au regard des precedents."
+    }
+  }
+}

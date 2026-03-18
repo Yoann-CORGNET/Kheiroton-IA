@@ -1,0 +1,1473 @@
+{
+  "candidate": "Fabien Roussel",
+  "party": "PCF",
+  "election": "Presidentielle 2022",
+  "analysis_date": "2026-03-17",
+  "disclaimer": "Cette analyse est produite a titre informatif et pedagogique. Elle ne constitue pas un avis politique. Les scores sont bases sur des donnees publiques verifiables et des methodologies transparentes. Les chiffrages IFRAP proviennent d'un think tank d'orientation liberale ; ils sont utilises comme reference comparative, pas comme verite absolue.",
+  "macro_context": {
+    "pib_md_eur": 2920,
+    "dette_pct_pib": 113.0,
+    "deficit_pct_pib": 5.8,
+    "budget_recettes_md": 308,
+    "budget_depenses_md": 445,
+    "pression_fiscale_pct_pib": 42.8,
+    "chomage_pct": 7.9,
+    "smic_net_eur": 1426,
+    "pauvrete_pct": 15.4,
+    "interets_dette_md": 55,
+    "psmt_plafond_depenses_pct": "0.8-1.2",
+    "deficit_cible_2029": "<3%"
+  },
+  "programme_summary_ifrap": {
+    "total_new_spending_eur": -120000000000,
+    "total_new_revenue_eur": 80000000000,
+    "net_balance_annual_eur": -40000000000,
+    "source": "https://www.ifrap.org/budget-et-fiscalite/presidentielle-2022-le-chiffrage-des-programmes",
+    "note": "L'IFRAP evalue les depenses nouvelles a 120 Mds EUR/an et les recettes nouvelles a 80 Mds EUR/an, soit un deficit supplementaire de 40 Mds EUR/an. D'autres sources evoquent jusqu'a 287 Mds de depenses. Le programme PCF est le plus ambitieux budgetairement apres celui de la France Insoumise."
+  },
+  "context_parlementaire": {
+    "pcf_sieges": 17,
+    "groupe": "GDR",
+    "coalition": "NFP (~193 sieges)",
+    "majorite_absolue": 289,
+    "senat": "LR majoritaire, hostile au programme PCF",
+    "note": "Le PCF est la plus petite composante du NFP. Meme avec le soutien total du NFP, la majorite absolue n'est pas atteinte. Un gouvernement PCF n'aurait ni majorite a l'AN ni au Senat."
+  },
+  "evaluations": [
+    {
+      "promise_id": "roussel_001",
+      "raw_text": "Augmenter le SMIC a 1500 euros net par mois, soit 1800 euros brut",
+      "theme": "economie",
+      "source_url": "https://www.fabienroussel2022.fr/nos_solutions_pour_l_emploi_et_le_pouvoir_d_achat",
+      "dimensions": {
+        "budget": {
+          "score": 0.3,
+          "confidence": 0.7,
+          "justification": "L'IFRAP chiffre la hausse du SMIC a 1800 EUR brut a environ 15 Mds EUR/an de cout indirect (hausse de la masse salariale, effet cascade sur les grilles). Le SMIC net actuel est de 1426 EUR, la hausse a 1500 EUR net represente +5.2%. Le cout direct est supporte par les entreprises, mais le cout indirect passe par les allegements de charges (bandeau Fillon) qui deviendraient plus couteux pour l'Etat. L'effet sur l'emploi est debattu : les etudes empiriques montrent qu'une hausse moderee du SMIC a un effet faible sur l'emploi, mais une hausse de 26% du brut (de ~1430 a 1800 EUR) est significative. Financement invoque (hausse de la valeur ajoutee redistribuee) non detaille.",
+          "cout_estime_eur": 15000000000,
+          "cout_source": "IFRAP 2022",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.7,
+          "confidence": 0.8,
+          "justification": "Le SMIC est fixe par decret (article D.3231-4 du Code du travail) sur proposition de la Commission nationale de la negociation collective. Le gouvernement peut revaloriser le SMIC par decret, sans loi. Pas de risque de censure constitutionnelle ni de conflit avec le droit UE. La mesure est juridiquement simple a mettre en oeuvre.",
+          "vehicule_legislatif": "decret",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "non"
+        },
+        "social": {
+          "score_acceptabilite": 0.85,
+          "score_impact": 0.55,
+          "confidence": 0.65,
+          "justification": "La hausse du SMIC est populaire aupres de la population (sondages reguliers montrent un soutien majoritaire). Opposition du MEDEF et des organisations patronales. Impact reel mitige : beneficie directement aux smicards (~2.5M de salaries) mais risque d'ecrasement des grilles salariales et de destruction d'emplois dans les TPE/PME. L'effet cascade sur les salaires intermediaires n'est pas garanti.",
+          "opposition_sociale": "patronat, TPE/PME"
+        },
+        "fact_check": {
+          "score": 0.6,
+          "confidence": 0.75,
+          "justification": "Le chiffre de 1500 EUR net correspond bien a ~1800 EUR brut. Le SMIC net actuel est de 1426 EUR (2026). L'affirmation que la 'hausse de la valeur ajoutee redistribuee' financerait la mesure est une assertion non demontree : la productivite n'a cru que de 0.8%/an en moyenne depuis 2010, insuffisant pour absorber une hausse de 26% du SMIC brut. Le lien entre gains de productivite et salaires n'est pas automatique.",
+          "verdict_global": "partiellement_vrai"
+        },
+        "historique": {
+          "score": 0.45,
+          "confidence": 0.7,
+          "justification": "Le SMIC a ete augmente de facon significative en 1981 (+10% sous Mitterrand), ce qui a contribue a l'inflation et a necessite le 'tournant de la rigueur' en 1983. Depuis, les revalorisations ont ete contenues. Une hausse de 26% du brut serait sans precedent depuis 1981. Les experiences internationales (Royaume-Uni avec le National Living Wage) montrent qu'une hausse progressive et calibree est possible sans destruction d'emploi massive, mais la France a deja le SMIC le plus eleve d'Europe continentale en part du salaire median.",
+          "delai_realiste_mois": 6,
+          "precedent_principal": "Hausse du SMIC de 10% en 1981 (Mitterrand)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.38,
+        "ci_95": [
+          0.25,
+          0.5
+        ],
+        "method": "MCDA ponderation: budget 25%, juridique 15%, social_acceptabilite 10%, social_impact 15%, fact_check transversal, historique_technique 15%, historique_timeline 10%"
+      }
+    },
+    {
+      "promise_id": "roussel_002",
+      "raw_text": "Retablir la retraite a 60 ans a taux plein avec une pension minimale de 1200 euros net",
+      "theme": "retraites",
+      "source_url": "https://www.fabienroussel2022.fr/nos_solutions_pour_l_emploi_et_le_pouvoir_d_achat",
+      "dimensions": {
+        "budget": {
+          "score": 0.1,
+          "confidence": 0.8,
+          "justification": "L'IFRAP chiffre le retour de la retraite a 60 ans a 40 Mds EUR/an pour Roussel (similaire a Melenchon : 80 Mds avec 40 annuites). Le COR estime le cout du retour a 60 ans entre 30 et 50 Mds EUR/an selon les parametres. La pension minimale a 1200 EUR ajoute un cout supplementaire (estimations variables entre 5 et 10 Mds EUR/an). Le financement par hausse des cotisations patronales augmenterait le cout du travail d'environ 3 a 5 points de PIB. Le systeme de retraites est deja en deficit de 6.6 Mds EUR en 2025 (Cour des comptes). Totalement incompatible avec le PSMT et la trajectoire de reduction du deficit.",
+          "cout_estime_eur": 45000000000,
+          "cout_source": "IFRAP 2022 + COR",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.4,
+          "confidence": 0.75,
+          "justification": "Necessite une loi de financement rectificative de la securite sociale (LFRSS). Peut etre adopte par 49.3 mais risque de motion de censure (precedent : chute du gouvernement Barnier en decembre 2024 apres 49.3 sur le PLFSS). Le Conseil constitutionnel a valide la reforme des retraites 2023 ; il ne censurera pas un retour en arriere sur l'age legal, car il s'agit d'un choix legislatif. Mais le droit europeen (PSMT, procedure de deficit excessif) cree une pression politique forte.",
+          "vehicule_legislatif": "LFRSS (loi de financement rectificative de la securite sociale)",
+          "risque_censure_cc": "faible",
+          "conflit_droit_ue": "oui_indirect (violation PSMT, procedure deficit excessif)"
+        },
+        "social": {
+          "score_acceptabilite": 0.9,
+          "score_impact": 0.4,
+          "confidence": 0.7,
+          "justification": "Le retour a la retraite a 60 ans est tres populaire (soutenu par 60-70% de la population selon les sondages). La reforme des retraites 2023 a subi une opposition sociale massive (manifestations de millions de personnes). Cependant, l'impact economique est conteste : charge massive sur les actifs, risque sur la soutenabilite du systeme. Les jeunes generations pourraient ne jamais en beneficier si le systeme s'effondre financierement.",
+          "opposition_sociale": "patronat, economistes, institutions europeennes"
+        },
+        "fact_check": {
+          "score": 0.45,
+          "confidence": 0.7,
+          "justification": "Le financement par 'hausse des cotisations patronales et elargissement de l'assiette de cotisation' est theoriquement possible mais induirait un choc de competitivite majeur. L'IFRAP estime que l'ensemble des hausses d'impots du programme Roussel s'eleve a 80 Mds EUR, insuffisant pour couvrir les 120 Mds de depenses. La pension minimale a 1200 EUR est coherente avec la revendication syndicale mais le chiffrage du cout est absent du programme.",
+          "verdict_global": "financement_non_demontre"
+        },
+        "historique": {
+          "score": 0.25,
+          "confidence": 0.8,
+          "justification": "La retraite a 60 ans avait ete instauree par Mitterrand en 1982 (ordonnance). Toutes les reformes depuis 1993 (Balladur, Fillon 2003, Woerth 2010, Touraine 2014, Macron 2023) sont allees dans le sens de l'allongement de la duree de cotisation ou du report de l'age legal. Un retour a 60 ans constituerait un virage radical, sans equivalent dans aucun pays europeen comparable. L'Allemagne est a 67 ans, l'Italie a 67 ans, l'Espagne a 67 ans. Aucun precedent de retour en arriere sur l'age de la retraite dans un pays de l'OCDE.",
+          "delai_realiste_mois": 24,
+          "precedent_principal": "Instauration retraite a 60 ans en 1982 (Mitterrand) - contexte demogr. et econ. radicalement different"
+        }
+      },
+      "feasibility": {
+        "overall": 0.22,
+        "ci_95": [
+          0.12,
+          0.32
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_003",
+      "raw_text": "Reduire le temps de travail a 32 heures par semaine sans perte de salaire",
+      "theme": "emploi",
+      "source_url": "https://www.fabienroussel2022.fr/nos_solutions_pour_l_emploi_et_le_pouvoir_d_achat",
+      "dimensions": {
+        "budget": {
+          "score": 0.15,
+          "confidence": 0.6,
+          "justification": "Le passage de 35h a 32h represente une reduction de 8.6% du temps de travail a salaire constant, soit une hausse du cout horaire de ~9.4%. Le cout macro est estime entre 50 et 80 Mds EUR/an selon les hypotheses de compensation. Le financement invoque (gains de productivite, partage de la valeur ajoutee) n'est pas demontre : la productivite horaire francaise stagne depuis 2019. La masse salariale privee est d'environ 750 Mds EUR/an. L'impact budgetaire direct sur la fonction publique serait d'environ 20 Mds EUR/an (masse salariale publique ~300 Mds x 8.6%).",
+          "cout_estime_eur": 60000000000,
+          "cout_source": "Estimation OFCE / calcul proportionnel",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.5,
+          "confidence": 0.75,
+          "justification": "Necessite une modification du Code du travail (article L.3121-27). Vehicule legislatif : loi ordinaire. Le passage aux 35h en 1998-2000 a necessite deux lois Aubry. Pas de risque de censure constitutionnelle en soi (la duree legale du travail releve du legislateur selon l'article 34). Mais l'impact budgetaire massif pourrait etre soumis a l'examen du HCFP et des institutions europeennes.",
+          "vehicule_legislatif": "loi ordinaire (modification du Code du travail)",
+          "risque_censure_cc": "faible",
+          "conflit_droit_ue": "oui_indirect (impact budgetaire)"
+        },
+        "social": {
+          "score_acceptabilite": 0.7,
+          "score_impact": 0.35,
+          "confidence": 0.55,
+          "justification": "Les 35h avaient ete bien accueillies par les salaries mais tres contestees par le patronat. Les 32h susciteraient la meme dynamique amplifiee. Soutien probable des syndicats CGT, CFDT (avec reserves), mais opposition massive du MEDEF, CPME, U2P. Impact incertain sur l'emploi : les lois Aubry avaient cree environ 350 000 emplois nets selon les etudes les plus favorables, mais les conditions economiques etaient tres differentes (croissance de 3-4%/an a l'epoque). En contexte de faible croissance (0.9%/an), l'effet pourrait etre negatif.",
+          "opposition_sociale": "patronat unanime, PME, secteur hospitalier"
+        },
+        "fact_check": {
+          "score": 0.35,
+          "confidence": 0.6,
+          "justification": "L'affirmation que les 'gains de productivite' financeraient la mesure est contredite par les donnees : la productivite horaire francaise a baisse de 3.5% entre 2019 et 2023 (INSEE). Le 'partage de la valeur ajoutee' ne peut etre impose sans legislation contraignante. Les etudes sur les 35h montrent un effet net positif sur l'emploi mais avec des compensations massives de l'Etat (alleges de charges) representant environ 12 Mds EUR/an.",
+          "verdict_global": "financement_non_demontre"
+        },
+        "historique": {
+          "score": 0.25,
+          "confidence": 0.65,
+          "justification": "Precedent direct : les lois Aubry I (1998) et II (2000) sur les 35h. Le passage de 39h a 35h avait necessite un accompagnement massif de l'Etat (allegements de cotisations) et s'etait fait dans un contexte de forte croissance economique. Le bilan des 35h reste debattu : 350 000 emplois crees selon l'OFCE, mais un cout de 12 Mds EUR/an en allegements et un effet negatif sur la competitivite selon l'IFRAP. Aucun pays de l'OCDE n'a adopte les 32h comme duree legale. L'Islande a teste la semaine de 4 jours mais avec des resultats non generalises.",
+          "delai_realiste_mois": 36,
+          "precedent_principal": "Lois Aubry 35h (1998-2000)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.2,
+        "ci_95": [
+          0.1,
+          0.3
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_004",
+      "raw_text": "Recruter 500 000 fonctionnaires dans les services publics (dont 100 000 a l'hopital et 90 000 dans l'Education nationale)",
+      "theme": "emploi",
+      "source_url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+      "dimensions": {
+        "budget": {
+          "score": 0.1,
+          "confidence": 0.8,
+          "justification": "L'IFRAP chiffre cette mesure a 18 Mds EUR/an. Le cout moyen d'un fonctionnaire (salaire + charges + fonctionnement) est d'environ 36 000 EUR/an, soit 18 Mds EUR pour 500 000 postes. Ce chiffrage est coherent. La fonction publique emploie actuellement 5.7M d'agents. L'ajout de 500 000 postes representerait une augmentation de 8.8%, la plus forte depuis les annees 1960-1970. Le recrutement effectif poserait un probleme de vivier : les concours de la fonction publique peinent deja a pourvoir les postes ouverts (taux de selectivite en baisse).",
+          "cout_estime_eur": 18000000000,
+          "cout_source": "IFRAP 2022",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.55,
+          "confidence": 0.75,
+          "justification": "Les recrutements dans la fonction publique sont autorises par les lois de finances (plafonds d'emploi). Le vehicule est donc la LFI annuelle. Pas de risque constitutionnel. Le Senat LR bloquerait probablement les credits correspondants en premiere lecture, mais la navette parlementaire donne le dernier mot a l'AN. Le 49.3 est utilisable sur le PLF.",
+          "vehicule_legislatif": "loi de finances (PLF)",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "oui_indirect (incompatible PSMT)"
+        },
+        "social": {
+          "score_acceptabilite": 0.65,
+          "score_impact": 0.5,
+          "confidence": 0.6,
+          "justification": "Le recrutement de fonctionnaires est soutenu par les syndicats de la fonction publique et par une partie de la population attachee aux services publics. Mais une majorite de Francais est aussi preoccupee par le niveau des depenses publiques (57% de depenses/PIB, record de l'OCDE). L'impact reel sur la qualite des services publics dependra de la capacite a recruter des profils qualifies, ce qui n'est pas garanti (crise d'attractivite de la FP).",
+          "opposition_sociale": "contribuables, patronat, liberaux"
+        },
+        "fact_check": {
+          "score": 0.5,
+          "confidence": 0.7,
+          "justification": "Les chiffres annonces (100 000 a l'hopital, 90 000 en education) sont precis mais le total de 500 000 n'est pas detaille par ministere au-dela de ces deux secteurs. Le financement par 'lutte contre l'evasion fiscale' est un leitmotiv de nombreux programmes : la fraude fiscale est estimee entre 60 et 100 Mds EUR/an mais les recettes supplementaires recouvrees ne pourraient atteindre que 5-10 Mds EUR/an selon la Cour des comptes.",
+          "verdict_global": "chiffres_precis_financement_non_demontre"
+        },
+        "historique": {
+          "score": 0.2,
+          "confidence": 0.75,
+          "justification": "Aucun precedent de recrutement aussi massif depuis les annees 1960-1970 (construction du systeme educatif et hospitalier). La RGPP (2007-2012) avait supprime 150 000 postes en 5 ans. Les plans Hollande avaient cree 60 000 postes dans l'education sur le quinquennat. 500 000 en un quinquennat est sans precedent dans la Ve Republique. La capacite de formation et de recrutement est un goulet d'etranglement reel (penuries dans l'education, la sante, la justice).",
+          "delai_realiste_mois": 60,
+          "precedent_principal": "Plan 60 000 postes education Hollande (2012-2017) - a la moitie realise"
+        }
+      },
+      "feasibility": {
+        "overall": 0.18,
+        "ci_95": [
+          0.1,
+          0.28
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_005",
+      "raw_text": "Nationaliser EDF et Engie pour constituer un pole public de l'energie et diviser par deux la facture energetique des menages",
+      "theme": "economie",
+      "source_url": "https://www.fabienroussel2022.fr/le_programme",
+      "dimensions": {
+        "budget": {
+          "score": 0.15,
+          "confidence": 0.65,
+          "justification": "La nationalisation complete d'EDF a ete realisee en 2023 pour ~9.7 Mds EUR (rachat du flottant). Engie a une capitalisation boursiere d'environ 35-40 Mds EUR ; le rachat des parts privees (75%) couterait environ 27-30 Mds EUR. La division par deux de la facture energetique represente un manque a gagner d'environ 25-35 Mds EUR/an (la facture energetique des menages est d'environ 60-70 Mds EUR/an). Ce cout recurent est potentiellement plus lourd que la nationalisation elle-meme. Totalement incompatible avec le PSMT.",
+          "cout_estime_eur": 55000000000,
+          "cout_source": "Estimation : 30 Mds nationalisation Engie + 25 Mds/an baisse factures",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.35,
+          "confidence": 0.7,
+          "justification": "La nationalisation est autorisee par le Preambule de 1946 (alinea 9 : 'Tout bien, toute entreprise, dont l'exploitation a ou acquiert les caracteres d'un service public national ou d'un monopole de fait, doit devenir la propriete de la collectivite'). Mais le droit de propriete (DDHC art. 17) exige une indemnisation 'juste et prealable'. Le droit europeen de la concurrence (articles 101-106 TFUE, directives liberalisation du marche de l'energie) pose un obstacle majeur : la creation d'un monopole public de l'energie contreviendrait aux directives de liberalisation. Risque contentieux devant la CJUE.",
+          "vehicule_legislatif": "loi de nationalisation + derogation au droit europeen",
+          "risque_censure_cc": "eleve (indemnisation, droit de propriete)",
+          "conflit_droit_ue": "oui_direct (directives liberalisation marche energie)"
+        },
+        "social": {
+          "score_acceptabilite": 0.75,
+          "score_impact": 0.5,
+          "confidence": 0.55,
+          "justification": "La nationalisation des entreprises energetiques est populaire (sondages montrant 60-70% de soutien). La baisse de la facture energetique est tres attendue. Mais l'impact reel depend de la capacite a gerer efficacement un monopole public (l'experience historique d'EDF avant sa mise en bourse montre une gestion correcte mais avec des couts caches pour le contribuable).",
+          "opposition_sociale": "actionnaires, Commission europeenne, investisseurs internationaux"
+        },
+        "fact_check": {
+          "score": 0.35,
+          "confidence": 0.65,
+          "justification": "La promesse de 'diviser par deux la facture energetique' n'est etayee par aucun mecanisme economique credible. Les couts de production d'electricite (nucleaire inclus) ne permettent pas une division par deux des tarifs sans subventions massives. Le prix de l'energie est en grande partie determine par les couts d'investissement (EPR, renouvelables) et les taxes (TICFE). La nationalisation seule ne reduit pas les couts de production.",
+          "verdict_global": "objectif_irrealiste"
+        },
+        "historique": {
+          "score": 0.3,
+          "confidence": 0.7,
+          "justification": "La nationalisation d'EDF/GDF en 1946 est le precedent direct (loi Marcel Paul). Mais le contexte etait radicalement different (reconstruction d'apres-guerre, consensus politique large). La nationalisation complete d'EDF en 2023 montre que l'operation est faisable pour une entreprise deja majoritairement publique. En revanche, Engie (ex-GDF Suez) est une entreprise multinationale dont la nationalisation serait beaucoup plus complexe. Aucun precedent recent de nationalisation de ce type en Europe.",
+          "delai_realiste_mois": 36,
+          "precedent_principal": "Nationalisation EDF/GDF 1946 (loi Marcel Paul) + nationalisation complete EDF 2023"
+        }
+      },
+      "feasibility": {
+        "overall": 0.2,
+        "ci_95": [
+          0.1,
+          0.3
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_006",
+      "raw_text": "Lancer la construction de 6 a 8 EPR et relancer le projet Astrid pour un mix energetique nucleaire-renouvelables",
+      "theme": "environnement",
+      "source_url": "https://www.fabienroussel2022.fr/le_plan_climat_de_fabien_roussel",
+      "dimensions": {
+        "budget": {
+          "score": 0.2,
+          "confidence": 0.6,
+          "justification": "Le cout d'un EPR2 est estime entre 16 et 20 Mds EUR par paire (source : EDF/Cour des comptes). 6 a 8 EPR representent 48 a 80 Mds EUR d'investissement sur 15-20 ans, soit 3 a 5 Mds EUR/an. Le projet Astrid (reacteur a neutrons rapides) avait ete abandonne en 2019 apres 738 M EUR depenses ; sa relance couterait 5-10 Mds EUR. Le financement via le 'pole energetique nationalise' suppose que l'investissement soit porte par une entreprise publique endettee (EDF a une dette de ~65 Mds EUR). Les investissements nucleaires sont amortis sur 40-60 ans et generent des revenus.",
+          "cout_estime_eur": 65000000000,
+          "cout_source": "EDF / Cour des comptes (estimations cumulees)",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.55,
+          "confidence": 0.7,
+          "justification": "La loi d'acceleration du nucleaire de 2023 simplifie deja les procedures de construction. Le lancement de nouveaux EPR est une decision gouvernementale qui s'inscrit dans la PPE (Programmation Pluriannuelle de l'Energie). Le gouvernement Macron a deja annonce 6 a 14 EPR2. Pas de conflit constitutionnel. La taxonomie europeenne a classe le nucleaire comme 'vert' sous conditions. Le projet Astrid necessite une decision specifique de R&D.",
+          "vehicule_legislatif": "loi de programmation energetique + decrets ASN",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "non (nucleaire inclus dans la taxonomie verte UE)"
+        },
+        "social": {
+          "score_acceptabilite": 0.65,
+          "score_impact": 0.6,
+          "confidence": 0.6,
+          "justification": "Le nucleaire fait l'objet d'un soutien croissant en France (67% d'opinions favorables selon sondages 2024-2025). Les syndicats de la filiere nucleaire soutiennent massivement. Opposition des ecologistes et des riverains des sites potentiels. L'impact climatique est positif (electricite decarbonee). Le projet Astrid est plus controverse (combustible plutonium, risques specifiques).",
+          "opposition_sociale": "ecologistes, riverains des sites, mouvements anti-nucleaires"
+        },
+        "fact_check": {
+          "score": 0.55,
+          "confidence": 0.65,
+          "justification": "La construction de 6 a 8 EPR est deja en partie alignee avec la politique gouvernementale (6 EPR2 annonces par Macron a Belfort en 2022, 8 supplementaires en option). Le projet Astrid avait ete abandonne par le CEA en 2019 pour des raisons de cout et de surstocks de plutonium. Sa relance est techniquement possible mais economiquement discutable. Le delai de construction d'un EPR est d'environ 12-15 ans (Flamanville : 2007-2024).",
+          "verdict_global": "partiellement_vrai_objectif_a_long_terme"
+        },
+        "historique": {
+          "score": 0.4,
+          "confidence": 0.7,
+          "justification": "Le programme nucleaire francais des annees 1970-1990 a deploye 58 reacteurs en 20 ans (plan Messmer). Mais les competences industrielles se sont erodees (cf. Flamanville : 12 ans de retard, cout multiplie par 5). Le programme EPR2 est deja lance. Le precedent Astrid montre que les reacteurs de 4e generation sont techniquement incertains et economiquement non viables a court terme. Delai realiste pour la mise en service des premiers EPR : 2035-2040.",
+          "delai_realiste_mois": 180,
+          "precedent_principal": "Plan Messmer (1974) - 58 reacteurs en 20 ans"
+        }
+      },
+      "feasibility": {
+        "overall": 0.38,
+        "ci_95": [
+          0.25,
+          0.5
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_007",
+      "raw_text": "Moratoire sur la fermeture des 14 reacteurs nucleaires prevue d'ici 2035",
+      "theme": "environnement",
+      "source_url": "https://www.cnews.fr/france/2022-01-24/presidentielle-2022-fabien-roussel-presente-les-grandes-mesures-de-son-programme",
+      "dimensions": {
+        "budget": {
+          "score": 0.55,
+          "confidence": 0.6,
+          "justification": "Le maintien en fonctionnement des reacteurs existants a un cout modere : les prolongations de 40 a 60 ans des reacteurs actuels coutent environ 50 Mds EUR au total (programme 'Grand Carenage' d'EDF). Le maintien des 14 reacteurs prevus a la fermeture genere des recettes (vente d'electricite) qui compensent partiellement les couts de maintenance. L'ASN doit valider chaque prolongation au cas par cas.",
+          "cout_estime_eur": 5000000000,
+          "cout_source": "Estimation Grand Carenage EDF (part reacteurs concernes)",
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.6,
+          "confidence": 0.7,
+          "justification": "La PPE (Programmation Pluriannuelle de l'Energie) est un document strategique modifiable par decret. Le moratoire peut etre decide par le gouvernement. L'ASN conserve son pouvoir de decision sur la surete : elle peut imposer la fermeture d'un reacteur pour raison de surete, independamment de la volonte politique. La loi Climat de 2019 prevoyait la fermeture de 14 reacteurs pour atteindre 50% de nucleaire dans le mix ; cette cible a ete abandonnee par la loi de 2023.",
+          "vehicule_legislatif": "decret (modification de la PPE)",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "non"
+        },
+        "social": {
+          "score_acceptabilite": 0.7,
+          "score_impact": 0.55,
+          "confidence": 0.65,
+          "justification": "Le maintien des reacteurs est soutenu par les salaries de la filiere nucleaire et les collectivites locales qui beneficient des retombees economiques. Les ecologistes s'y opposent. L'opinion publique est majoritairement favorable au nucleaire. Impact positif sur la securite d'approvisionnement et les prix de l'electricite.",
+          "opposition_sociale": "ecologistes, Greenpeace, certaines collectivites"
+        },
+        "fact_check": {
+          "score": 0.7,
+          "confidence": 0.7,
+          "justification": "Le gouvernement Macron a deja abandonne l'objectif de fermeture de 14 reacteurs (annonce de Belfort, fevrier 2022, confirmee par la loi acceleration nucleaire 2023). Cette promesse est donc en grande partie deja realisee par la politique actuelle. Le chiffre de 14 reacteurs correspond bien au plan initial de la PPE 2018.",
+          "verdict_global": "deja_en_cours_de_realisation"
+        },
+        "historique": {
+          "score": 0.65,
+          "confidence": 0.75,
+          "justification": "La politique nucleaire francaise a toujours ete marquee par la continuite. Les fermetures prevues etaient un choix politique contestable economiquement. Le precedent de Fessenheim (fermee en 2020) montre que la fermeture de reacteurs fonctionnels est politiquement couteuse et energetiquement discutable. Le revirement de la politique gouvernementale en 2022 va deja dans le sens du moratoire.",
+          "delai_realiste_mois": 3,
+          "precedent_principal": "Annonce de Belfort (fevrier 2022) - abandon des fermetures par Macron"
+        }
+      },
+      "feasibility": {
+        "overall": 0.62,
+        "ci_95": [
+          0.5,
+          0.75
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_008",
+      "raw_text": "Retablir et tripler l'impot sur la fortune (ISF) et augmenter les impots sur les hauts revenus et grandes entreprises",
+      "theme": "economie",
+      "source_url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+      "dimensions": {
+        "budget": {
+          "score": 0.2,
+          "confidence": 0.65,
+          "justification": "L'ancien ISF rapportait environ 5 Mds EUR/an. Un ISF triple rapporterait theoriquement 15 Mds EUR/an. Mais l'IFRAP estime l'ensemble des hausses d'impots du programme Roussel a 80 Mds EUR/an (recettes attendues). Le total des hausses sur les hauts revenus et grandes entreprises est chiffre a -152 Mds EUR (montant negatif = recette) selon le programme. Cependant, les effets comportementaux (exil fiscal, optimisation, delocalisation) ne sont pas pris en compte. L'experience de l'ISF montre que les recettes etaient inferieures aux previsions du fait de l'exil fiscal (environ 10 000 redevables partis entre 2000 et 2017, emportant 35 Mds EUR de base taxable). La pression fiscale est deja a 42.8% du PIB, record de l'UE.",
+          "cout_estime_eur": -80000000000,
+          "cout_source": "IFRAP 2022 (recettes theoriques, non ajustees des effets comportementaux)",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.35,
+          "confidence": 0.75,
+          "justification": "Le retablissement de l'ISF necessite une loi de finances. Le Conseil constitutionnel a censure la 'taxe a 75%' de Hollande en 2012 (decision 2012-662 DC) pour rupture d'egalite devant les charges publiques. Un ISF triple pourrait atteindre des taux confiscatoires, ce qui est contraire a la jurisprudence du CC (le taux marginal global d'imposition ne doit pas depasser un seuil rendant l'imposition confiscatoire). Le CC pourrait censurer partiellement. Le droit europeen protege la libre circulation des capitaux (art. 63 TFUE).",
+          "vehicule_legislatif": "loi de finances (PLF)",
+          "risque_censure_cc": "eleve (risque de taux confiscatoire, precedent taxe 75%)",
+          "conflit_droit_ue": "oui_indirect (libre circulation des capitaux)"
+        },
+        "social": {
+          "score_acceptabilite": 0.75,
+          "score_impact": 0.35,
+          "confidence": 0.6,
+          "justification": "Le retablissement de l'ISF est tres populaire (73% de soutien selon sondages). Mais un ISF triple serait une mesure sans precedent qui pourrait inquieter au-dela des seuls concernes. L'impact economique est incertain : les etudes empiriques montrent des effets negatifs de l'ISF sur l'investissement et l'entrepreneuriat. La fuite des capitaux pourrait annuler une partie des recettes.",
+          "opposition_sociale": "grandes fortunes, milieux d'affaires, investisseurs internationaux"
+        },
+        "fact_check": {
+          "score": 0.3,
+          "confidence": 0.7,
+          "justification": "Le retablissement de l'ISF est factuel et faisable. Mais le triplement est une mesure extreme sans precedent mondial. L'ancien ISF avait un rendement de 5 Mds EUR/an ; le tripler supposerait 15 Mds EUR, mais l'experience de la 'taxe a 75%' montre que les recettes escomptees de la surfiscalite sont systematiquement inferieure aux previsions. Les 152 Mds EUR de hausses d'impots annonces ne sont pas credibles une fois les effets comportementaux pris en compte.",
+          "verdict_global": "recettes_surestimees"
+        },
+        "historique": {
+          "score": 0.25,
+          "confidence": 0.75,
+          "justification": "L'ISF a existe de 1989 a 2017 (supprime et remplace par l'IFI). La 'taxe a 75%' sur les hauts revenus (Hollande, 2012) a ete censuree par le CC puis reformulee en taxe sur les entreprises pour 2 ans seulement. L'exil fiscal lie a l'ISF est documente : l'etude du Senat (2014) estimait une perte de base taxable de 35 Mds EUR. Un triplement de l'ISF serait sans precedent dans un pays de l'OCDE.",
+          "delai_realiste_mois": 12,
+          "precedent_principal": "ISF 1989-2017 + taxe 75% censuree (2012)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.22,
+        "ci_95": [
+          0.12,
+          0.32
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_009",
+      "raw_text": "Revaloriser de 30% les salaires des fonctionnaires en degelant le point d'indice",
+      "theme": "emploi",
+      "source_url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+      "dimensions": {
+        "budget": {
+          "score": 0.05,
+          "confidence": 0.85,
+          "justification": "L'IFRAP chiffre cette mesure a 60 Mds EUR/an. La masse salariale de la fonction publique (Etat + territoriale + hospitaliere) est d'environ 300 Mds EUR/an. Une hausse de 30% represente bien ~90 Mds EUR en cout complet (salaires + charges). Le chiffrage IFRAP de 60 Mds est probablement le cout brut hors charges. C'est de loin la mesure la plus couteuse du programme Roussel. Totalement incompatible avec toute trajectoire budgetaire soutenable.",
+          "cout_estime_eur": 60000000000,
+          "cout_source": "IFRAP 2022",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.55,
+          "confidence": 0.75,
+          "justification": "Le point d'indice est fixe par decret du gouvernement. La revalorisation ne necessite pas de loi specifique mais les credits doivent etre ouverts en loi de finances. Pas de risque constitutionnel en soi. Mais l'ampleur budgetaire (60 Mds EUR) rendrait le PLF intenable vis-a-vis du PSMT et du droit europeen.",
+          "vehicule_legislatif": "decret + loi de finances",
+          "risque_censure_cc": "nul (sur la mesure elle-meme)",
+          "conflit_droit_ue": "oui_indirect (impact budgetaire massif)"
+        },
+        "social": {
+          "score_acceptabilite": 0.8,
+          "score_impact": 0.45,
+          "confidence": 0.65,
+          "justification": "Les fonctionnaires (5.7M d'agents) soutiendraient massivement. Le point d'indice a ete gele pendant la majeure partie de la periode 2010-2022. La perte de pouvoir d'achat cumulee est estimee a environ 20%. Mais une hausse de 30% depasserait largement la compensation de l'inflation passee. L'opinion publique est ambivalente : sympathie pour les enseignants et soignants, mais reticence envers la masse salariale publique globale.",
+          "opposition_sociale": "contribuables, patronat, partisans de la reduction de la depense publique"
+        },
+        "fact_check": {
+          "score": 0.45,
+          "confidence": 0.7,
+          "justification": "Le point d'indice a bien ete gele pendant la majeure partie de 2010-2022 (revalorise de 3.5% en 2022 et 1.5% en 2023). La perte de pouvoir d'achat cumulee est reelle mais se situe autour de 15-20%, pas 30%. Une hausse de 30% depasserait la stricte compensation de l'inflation. Le chiffrage IFRAP de 60 Mds EUR/an est credible.",
+          "verdict_global": "exageration_sur_la_perte_de_pouvoir_d_achat"
+        },
+        "historique": {
+          "score": 0.15,
+          "confidence": 0.8,
+          "justification": "Aucun precedent de hausse de 30% du point d'indice dans l'histoire de la fonction publique francaise. La plus forte revalorisation recente a ete de 3.5% en 2022 (apres 10 ans de gel quasi-total). Les accords de Grenelle (1968) avaient accorde +10% de hausse salariale dans le secteur prive apres mai 68. Meme dans ce contexte de crise sociale extreme, la hausse etait de 10%, pas 30%.",
+          "delai_realiste_mois": 12,
+          "precedent_principal": "Gel du point d'indice 2010-2022 / Accords de Grenelle 1968 (+10%)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.14,
+        "ci_95": [
+          0.08,
+          0.22
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_010",
+      "raw_text": "Creer 100 000 emplois a l'hopital public et construire un hopital de proximite a moins de 30 minutes de chaque bassin de vie avec maternite, urgences et chirurgie",
+      "theme": "sante",
+      "source_url": "https://www.fabienroussel2022.fr/la_sante_notre_bien_commun",
+      "dimensions": {
+        "budget": {
+          "score": 0.15,
+          "confidence": 0.7,
+          "justification": "100 000 emplois hospitaliers a un cout moyen de ~50 000 EUR/an (soignants) representent 5 Mds EUR/an. La construction d'hopitaux de proximite est beaucoup plus couteuse : un hopital de taille moyenne coute 200-500 M EUR. Il faudrait potentiellement 50-100 hopitaux supplementaires, soit 10-50 Mds EUR d'investissement. L'ONDAM hospitalier est d'environ 100 Mds EUR/an. La mesure representerait une hausse de 5-10% du budget hospitalier. Le financement par la fin de la T2A ne genere pas de recettes supplementaires, c'est un changement de mode de financement.",
+          "cout_estime_eur": 15000000000,
+          "cout_source": "Estimation (5 Mds recrutements + 10 Mds investissements amortis)",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.5,
+          "confidence": 0.7,
+          "justification": "Les recrutements hospitaliers sont autorises par la LFSS (ONDAM). La construction d'hopitaux releve des Agences Regionales de Sante (ARS) et des plans d'investissement. La fin de la T2A necessite une modification de la LFSS. Pas de risque constitutionnel direct. Le droit europeen n'impose pas de mode de financement hospitalier specifique.",
+          "vehicule_legislatif": "LFSS + plans d'investissement ARS",
+          "risque_censure_cc": "faible",
+          "conflit_droit_ue": "non"
+        },
+        "social": {
+          "score_acceptabilite": 0.9,
+          "score_impact": 0.55,
+          "confidence": 0.65,
+          "justification": "Le renforcement de l'hopital public est une demande quasi-unanime de la population, surtout depuis la crise Covid. Les soignants soutiennent massivement. Les zones rurales reclament des services de proximite. Mais la construction d'hopitaux avec 'maternite, urgences et chirurgie' partout est contestee par les specialistes (les petites structures chirurgicales ont des taux de mortalite plus eleves par manque de volume d'activite, selon la HAS).",
+          "opposition_sociale": "faible (consensus)"
+        },
+        "fact_check": {
+          "score": 0.4,
+          "confidence": 0.65,
+          "justification": "Le chiffre de 100 000 emplois est precis mais le nombre d'hopitaux a construire n'est pas detaille. L'objectif de '30 minutes de chaque bassin de vie' est ambitieux : la DREES estime qu'environ 5% de la population vit a plus de 30 minutes d'un service d'urgences. La promesse de 'maternite, urgences et chirurgie' dans chaque hopital de proximite est medicalement discutable (seuil d'activite minimal pour la securite).",
+          "verdict_global": "objectif_louable_mais_medicalement_discutable"
+        },
+        "historique": {
+          "score": 0.25,
+          "confidence": 0.7,
+          "justification": "La tendance depuis 30 ans est a la fermeture et concentration des hopitaux (de 3 100 etablissements en 1997 a environ 1 350 aujourd'hui). Le Segur de la Sante (2020) avait debloque 19 Mds EUR d'investissement et 8.2 Mds EUR de revalorisation salariale, mais bien en deca des besoins. Aucun precedent de construction massive d'hopitaux depuis les annees 1960-1970.",
+          "delai_realiste_mois": 60,
+          "precedent_principal": "Segur de la Sante 2020 (19 Mds EUR investissement)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.22,
+        "ci_95": [
+          0.13,
+          0.32
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_011",
+      "raw_text": "Creer un pole public du medicament pour gerer la production et la distribution, finance par une taxe de 1% sur le chiffre d'affaires des laboratoires pharmaceutiques",
+      "theme": "sante",
+      "source_url": "https://www.fabienroussel2022.fr/la_sante_notre_bien_commun",
+      "dimensions": {
+        "budget": {
+          "score": 0.4,
+          "confidence": 0.55,
+          "justification": "Le CA de l'industrie pharmaceutique en France est d'environ 65 Mds EUR/an. Une taxe de 1% rapporterait ~650 M EUR/an. La creation d'un pole public de production/distribution coute plus que cela : la construction d'usines pharmaceutiques coute des centaines de millions par site. Cependant, le modele peut etre viable a terme si la production publique remplace des achats couteux. La taxe de 1% est un financement identifie et chiffrable, ce qui est rare dans le programme Roussel.",
+          "cout_estime_eur": 2000000000,
+          "cout_source": "Estimation investissement initial + fonctionnement",
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.45,
+          "confidence": 0.65,
+          "justification": "La creation d'un pole public necessite une loi ordinaire. La taxe sectorielle de 1% est juridiquement possible (taxe sur le CA des labos existe deja : contribution Ondam). Mais la gestion de la production et distribution par l'Etat pose des questions de droit europeen de la concurrence. Les brevets pharmaceutiques sont proteges par les accords ADPIC/OMC et le droit europeen des brevets.",
+          "vehicule_legislatif": "loi ordinaire + LFSS (taxe)",
+          "risque_censure_cc": "faible",
+          "conflit_droit_ue": "oui_partiel (concurrence, brevets)"
+        },
+        "social": {
+          "score_acceptabilite": 0.75,
+          "score_impact": 0.5,
+          "confidence": 0.55,
+          "justification": "La crise du Covid a revele la dependance aux fournisseurs etrangers (80% des principes actifs importes). Un pole public est soutenu par l'opinion. L'industrie pharmaceutique s'opposerait fermement. Impact potentiel positif sur la securite d'approvisionnement mais incertain sur les prix (les laboratoires publics ne sont pas necessairement moins couteux).",
+          "opposition_sociale": "industrie pharmaceutique, liberaux"
+        },
+        "fact_check": {
+          "score": 0.5,
+          "confidence": 0.55,
+          "justification": "Le financement par une taxe de 1% du CA est un mecanisme concret et chiffrable (650 M EUR/an). Mais cela ne couvrira probablement pas le cout de creation et de fonctionnement d'un appareil de production public pharmaceutique complet. Le cout reel depend de l'ambition : fabrication de generiques seulement, ou toute la chaine ?",
+          "verdict_global": "objectif_coherent_financement_sous_evalue"
+        },
+        "historique": {
+          "score": 0.35,
+          "confidence": 0.6,
+          "justification": "La France avait un secteur pharmaceutique public (Pharmacie Centrale des Armees, labos publics) qui a ete progressivement privatise. Aucun pays de l'OCDE n'a de monopole public de production pharmaceutique, mais plusieurs ont des agences d'approvisionnement public (NHS en UK). La creation de l'ARPA-H aux USA (2022) montre un mouvement vers plus d'intervention publique dans la sante.",
+          "delai_realiste_mois": 48,
+          "precedent_principal": "Pharmacie Centrale des Armees + ARPA-H (USA, 2022)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.38,
+        "ci_95": [
+          0.25,
+          0.5
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_012",
+      "raw_text": "Recruter 90 000 enseignants et augmenter leur salaire de 30%, supprimer Parcoursup",
+      "theme": "education",
+      "source_url": "https://www.fabienroussel2022.fr/ecole",
+      "dimensions": {
+        "budget": {
+          "score": 0.1,
+          "confidence": 0.75,
+          "justification": "Le budget de l'Education nationale est de 64.5 Mds EUR (hors pensions). 90 000 enseignants supplementaires a ~35 000 EUR/an representent 3.15 Mds EUR/an. La hausse de 30% des salaires des ~870 000 enseignants actuels represente environ 8.5 Mds EUR/an (masse salariale enseignante ~28 Mds EUR). Total : environ 12 Mds EUR/an, soit +18% du budget education. La suppression de Parcoursup a un cout marginal (quelques dizaines de M EUR). Le total est coherent avec le chiffrage IFRAP du poste education. Financement non identifie au-dela du 'budget revalorise'.",
+          "cout_estime_eur": 12000000000,
+          "cout_source": "Estimation (recrutements + revalorisation 30%)",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.5,
+          "confidence": 0.7,
+          "justification": "Les recrutements et revalorisations passent par le PLF (plafonds d'emploi, credits). La suppression de Parcoursup necessite une loi modifiant la loi ORE de 2018 et la creation d'un systeme alternatif d'affectation. Pas de risque constitutionnel pour les recrutements. Pour Parcoursup, le retour a un systeme non selectif pourrait poser des problemes de capacite d'accueil universitaire.",
+          "vehicule_legislatif": "PLF + loi ordinaire (suppression Parcoursup)",
+          "risque_censure_cc": "faible",
+          "conflit_droit_ue": "non"
+        },
+        "social": {
+          "score_acceptabilite": 0.8,
+          "score_impact": 0.5,
+          "confidence": 0.6,
+          "justification": "La revalorisation enseignante fait consensus (la France est dans le tiers inferieur de l'OCDE pour la remuneration des enseignants). La suppression de Parcoursup est populaire aupres des lyceens et etudiants mais divise les universitaires. Le recrutement de 90 000 enseignants se heurtera a la crise de l'attractivite du metier (hausse des postes non pourvus aux concours).",
+          "opposition_sociale": "faible pour la revalorisation, modere pour la suppression Parcoursup"
+        },
+        "fact_check": {
+          "score": 0.45,
+          "confidence": 0.65,
+          "justification": "La France a bien un probleme d'attractivite enseignante et de niveau salarial. Mais recruter 90 000 enseignants suppose un vivier de candidats qui n'existe pas : en 2023, 4 000 postes n'ont pas ete pourvus au CAPES. Former 90 000 enseignants prendrait 5-7 ans minimum (master MEEF). Le chiffre de 30% de hausse salariale va au-dela de la compensation de l'inflation (cf. promesse roussel_009).",
+          "verdict_global": "objectif_louable_mais_irrealiste_en_volume"
+        },
+        "historique": {
+          "score": 0.2,
+          "confidence": 0.7,
+          "justification": "Le plan Hollande prevoyait 60 000 postes en education sur le quinquennat, finalement realise a environ 55%. 90 000 en un quinquennat est encore plus ambitieux. La loi ORE/Parcoursup (2018) a remplace APB apres le scandale du tirage au sort. Un retour en arriere necessiterait un nouveau systeme d'affectation. Aucun precedent de hausse de 30% des salaires enseignants.",
+          "delai_realiste_mois": 60,
+          "precedent_principal": "Plan 60 000 postes Hollande (55% realise) + creation Parcoursup (2018)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.18,
+        "ci_95": [
+          0.1,
+          0.28
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_013",
+      "raw_text": "Mettre en place un repas a 1 euro dans toutes les cantines scolaires avec des produits bio et locaux",
+      "theme": "education",
+      "source_url": "https://www.fabienroussel2022.fr/nos_propositions_pour_l_alimentation",
+      "dimensions": {
+        "budget": {
+          "score": 0.3,
+          "confidence": 0.6,
+          "justification": "12 millions d'eleves, environ 180 jours de cantine par an, soit 2.16 milliards de repas. Le cout moyen d'un repas en cantine est de 7-10 EUR (production + personnel). Si le prix payable est ramene a 1 EUR, le manque a gagner est de 6-9 EUR par repas, soit 13-19 Mds EUR/an. Le financement par un 'fonds alimentaire de 10 milliards' est insuffisant. Le passage au bio/local augmenterait encore les couts (surcoout de 20-30% pour le bio). La mesure est couteuse mais pas hors de portee si on la restreint aux familles modestes.",
+          "cout_estime_eur": 15000000000,
+          "cout_source": "Estimation (2.16 Mds repas x 7 EUR de surcoout)",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.55,
+          "confidence": 0.65,
+          "justification": "La restauration scolaire est une competence des collectivites territoriales (communes pour le primaire, departements pour les colleges, regions pour les lycees). L'Etat ne peut pas imposer un tarif aux collectivites sans violer le principe de libre administration (art. 72 Constitution). Un systeme de subvention est possible via la LFI. Le repas a 1 EUR pour les etudiants (CROUS) a ete mis en place pendant le Covid, montrant la faisabilite du principe.",
+          "vehicule_legislatif": "loi de finances + accords avec les collectivites",
+          "risque_censure_cc": "moyen (atteinte a la libre administration des collectivites si impose)",
+          "conflit_droit_ue": "non"
+        },
+        "social": {
+          "score_acceptabilite": 0.85,
+          "score_impact": 0.6,
+          "confidence": 0.65,
+          "justification": "Mesure tres populaire aupres des familles. Le bio/local est soutenu par les associations de consommateurs et les agriculteurs bio. Mais les collectivites locales s'inquieteraient du cout si la compensation de l'Etat est insuffisante. Impact positif sur la sante des enfants et la filiere agricole bio.",
+          "opposition_sociale": "faible (restauration collective industrielle, certaines collectivites)"
+        },
+        "fact_check": {
+          "score": 0.4,
+          "confidence": 0.6,
+          "justification": "Le repas a 1 EUR dans les CROUS existe et fonctionne, prouvant la faisabilite technique. Mais le passage a l'echelle (12M d'eleves vs 1M d'etudiants beneficiaires du 1 EUR) est un defi logistique et budgetaire majeur. Le 'fonds alimentaire de 10 milliards' ne couvrirait que les deux tiers du cout. Le passage integral au bio/local est techniquement impossible a court terme (offre insuffisante).",
+          "verdict_global": "faisable_a_petite_echelle_problematique_a_grande_echelle"
+        },
+        "historique": {
+          "score": 0.35,
+          "confidence": 0.6,
+          "justification": "Le repas a 1 EUR pour les etudiants boursiers a ete mis en place en 2020 (crise Covid) puis elargi. Cout : environ 100 M EUR/an pour ~1M d'etudiants. L'extrapolation a 12M d'eleves est un changement d'echelle massif. La loi Egalim (2018-2022) a fixe l'objectif de 50% de produits de qualite et 20% de bio dans la restauration collective, objectif non atteint (35% et 13% en 2023).",
+          "delai_realiste_mois": 36,
+          "precedent_principal": "Repas a 1 EUR CROUS (2020) + loi Egalim (2018)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.32,
+        "ci_95": [
+          0.2,
+          0.42
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_014",
+      "raw_text": "Atteindre 500 000 agriculteurs en France a l'horizon 2030, developper la formation agricole et l'agroecologie",
+      "theme": "agriculture",
+      "source_url": "https://www.fabienroussel2022.fr/nos_propositions_pour_l_agriculture",
+      "dimensions": {
+        "budget": {
+          "score": 0.3,
+          "confidence": 0.5,
+          "justification": "La France compte environ 390 000 exploitations agricoles (2023). Atteindre 500 000 represente +110 000 installations, soit 22 000/an sur 5 ans (contre 14 000 installations/an actuellement). Le cout des aides a l'installation (DJA, prets bonifies) est d'environ 30 000-50 000 EUR par installation, soit 1-2 Mds EUR/an supplementaires. La formation agroecologique a un cout additionnel. Le fonds de 10 Mds EUR prevu (roussel_015) est cense couvrir ces depenses.",
+          "cout_estime_eur": 3000000000,
+          "cout_source": "Estimation (installations + formation + accompagnement)",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.55,
+          "confidence": 0.6,
+          "justification": "La politique agricole releve a la fois de la PAC (competence partagee UE/Etats) et de la politique nationale. Les aides a l'installation sont encadrees par les regles europeennes. Un objectif de 500 000 agriculteurs n'a pas de valeur juridique contraignante. La loi d'orientation agricole est le vehicule adapte.",
+          "vehicule_legislatif": "loi d'orientation agricole + loi de finances",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "non (si conforme PAC)"
+        },
+        "social": {
+          "score_acceptabilite": 0.75,
+          "score_impact": 0.4,
+          "confidence": 0.5,
+          "justification": "Le renouvellement des generations agricoles est une preoccupation partagee. La FNSEA et la Confederation Paysanne soutiennent l'installation de jeunes agriculteurs. Mais le metier reste peu attractif (revenus faibles, penibilite). L'agroecologie est soutenue par les consommateurs mais resistee par une partie de l'agriculture intensive.",
+          "opposition_sociale": "faible"
+        },
+        "fact_check": {
+          "score": 0.3,
+          "confidence": 0.55,
+          "justification": "Le nombre d'exploitations agricoles diminue structurellement depuis 50 ans (-50% entre 2000 et 2020). Inverser cette tendance pour atteindre 500 000 suppose un changement de paradigme complet. Le rythme actuel d'installation (14 000/an) ne compense pas les departs (20 000/an). Atteindre 22 000 installations/an est possible mais atteindre 500 000 exploitations net d'ici 2030 est irrealiste.",
+          "verdict_global": "objectif_tres_ambitieux_probablement_irrealiste"
+        },
+        "historique": {
+          "score": 0.15,
+          "confidence": 0.6,
+          "justification": "La tendance structurelle est a la concentration (de 1.6M d'exploitations en 1970 a 390 000 en 2023). Aucun pays europeen n'a reussi a inverser cette tendance. Les politiques d'aide a l'installation existent depuis les annees 1960 sans avoir enraye la baisse. Les lois d'orientation agricole successives (1960, 1962, 1999, 2006, 2014) ont toutes affiche des objectifs similaires sans les atteindre.",
+          "delai_realiste_mois": 96,
+          "precedent_principal": "Tendance structurelle de concentration agricole (irreversible depuis 50 ans)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.22,
+        "ci_95": [
+          0.12,
+          0.32
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_015",
+      "raw_text": "Creer un fonds de 10 milliards d'euros par an pour la securite alimentaire et la transition agroecologique, interdire l'importation de produits ne respectant pas les normes francaises",
+      "theme": "agriculture",
+      "source_url": "https://www.fabienroussel2022.fr/ruralite_agriculture_alimentation",
+      "dimensions": {
+        "budget": {
+          "score": 0.2,
+          "confidence": 0.65,
+          "justification": "10 Mds EUR/an representent environ 30% du budget actuel du ministere de l'Agriculture (y compris PAC nationale). C'est un montant considerable mais coherent avec l'ambition affichee. Le financement par la 'taxation des multinationales de l'agroalimentaire' est vague : le CA de l'agroalimentaire en France est d'environ 200 Mds EUR, une taxe de 5% serait necessaire. Cela impacterait massivement les prix alimentaires. Incompatible avec le PSMT.",
+          "cout_estime_eur": 10000000000,
+          "cout_source": "Programme officiel",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.3,
+          "confidence": 0.7,
+          "justification": "Le fonds de 10 Mds est un choix budgetaire (PLF). En revanche, l'interdiction d'importation de produits ne respectant pas les normes francaises est directement contraire au droit europeen : les articles 34-36 TFUE (libre circulation des marchandises) et les reglements sanitaires europeens harmonises interdisent aux Etats membres d'imposer des normes nationales supplementaires aux importations intra-UE. Les accords de l'OMC (SPS) encadrent aussi les restrictions aux importations. La mesure serait immediatement contestee devant la CJUE.",
+          "vehicule_legislatif": "loi de finances + loi ordinaire (clauses miroir)",
+          "risque_censure_cc": "faible",
+          "conflit_droit_ue": "oui_direct (libre circulation des marchandises, OMC)"
+        },
+        "social": {
+          "score_acceptabilite": 0.8,
+          "score_impact": 0.45,
+          "confidence": 0.55,
+          "justification": "L'interdiction des importations non conformes est populaire (cf. mouvement agriculteurs janvier 2024). Le fonds agroecologique est soutenu par les associations environnementales et les agriculteurs bio. Mais les consommateurs seraient impactes par la hausse des prix alimentaires. La grande distribution s'opposerait aux restrictions d'importation.",
+          "opposition_sociale": "grande distribution, importateurs, Commission europeenne"
+        },
+        "fact_check": {
+          "score": 0.4,
+          "confidence": 0.6,
+          "justification": "Les 'clauses miroir' (exiger que les produits importes respectent les normes francaises) sont un debat reel au niveau europeen. La France a plaide pour leur introduction au niveau UE. Mais les imposer unilateralement est illegal au regard du droit europeen et de l'OMC. Les 10 Mds EUR/an sont un montant annonce mais sans detail de repartition.",
+          "verdict_global": "fonds_chiffre_mais_clauses_miroir_illegales_unilateralement"
+        },
+        "historique": {
+          "score": 0.25,
+          "confidence": 0.6,
+          "justification": "La PAC a historiquement soutenu l'agriculture avec des montants comparables (9.5 Mds EUR/an de retour PAC pour la France). Un fonds supplementaire de 10 Mds serait un doublement de l'aide publique a l'agriculture. Les tentatives de restrictions d'importation unilaterales ont ete systematiquement sanctionnees par la CJUE. L'exemple des OGM montre que la France a du se conformer au droit europeen malgre l'opposition nationale.",
+          "delai_realiste_mois": 24,
+          "precedent_principal": "PAC (9.5 Mds EUR/an retour France) + debat clauses miroir UE"
+        }
+      },
+      "feasibility": {
+        "overall": 0.22,
+        "ci_95": [
+          0.12,
+          0.32
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_016",
+      "raw_text": "Construire 200 000 logements sociaux par an dont 60 000 tres sociaux, et doubler le parc de logements etudiants",
+      "theme": "logement",
+      "source_url": "https://www.batiactu.com/edito/fabien-roussel-pcf-veut-investir-10-a-13-milliards-63500.php",
+      "dimensions": {
+        "budget": {
+          "score": 0.15,
+          "confidence": 0.65,
+          "justification": "La production de logements sociaux est d'environ 80 000/an actuellement. Passer a 200 000 suppose de multiplier par 2.5 la production. Le cout moyen d'un logement social est de 150 000 EUR (subvention publique). 200 000 logements x 150 000 EUR = 30 Mds EUR/an de subventions, dont environ 13 Mds de financement public annonce. Le doublement du parc etudiant (175 000 logements supplementaires) couterait environ 15-20 Mds EUR d'investissement. Le financement total est insuffisamment identifie.",
+          "cout_estime_eur": 13000000000,
+          "cout_source": "Presse (batiactu)",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.45,
+          "confidence": 0.65,
+          "justification": "La construction de logements sociaux releve des bailleurs sociaux (HLM), avec le soutien de l'Etat (aides a la pierre) et des collectivites. La loi SRU impose deja 25% de logements sociaux dans les communes. L'Etat peut augmenter les aides via la LFI. Pas de risque constitutionnel. Le foncier disponible est la contrainte principale (ZAN limite l'artificialisation).",
+          "vehicule_legislatif": "loi de finances + eventuellement loi logement",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "non"
+        },
+        "social": {
+          "score_acceptabilite": 0.75,
+          "score_impact": 0.55,
+          "confidence": 0.6,
+          "justification": "La crise du logement est unanimement reconnue. 2.4 millions de demandes de logement social sont en attente. Les maires NIMBY s'opposent souvent a la construction de HLM. Les bailleurs sociaux soutiendraient massivement mais pointent le manque de foncier. Impact positif sur les mal-loges et les etudiants.",
+          "opposition_sociale": "maires NIMBY, contribuables, ZAN"
+        },
+        "fact_check": {
+          "score": 0.3,
+          "confidence": 0.6,
+          "justification": "L'objectif de 200 000 logements sociaux/an est un objectif recurrent jamais atteint : la meilleure annee recente a ete 2016 avec 130 000 agrements. Le secteur du batiment fait face a des penuries de main-d'oeuvre et de materiaux. Le ZAN (zero artificialisation nette) limite le foncier disponible. Le doublement du parc etudiant (175 000 logements supplementaires) est extremement ambitieux.",
+          "verdict_global": "objectif_recurrent_jamais_atteint"
+        },
+        "historique": {
+          "score": 0.15,
+          "confidence": 0.7,
+          "justification": "Le record de construction de logements sociaux est d'environ 130 000/an (2016). L'objectif de 200 000/an a ete affiche par de nombreux candidats sans jamais etre approche. La loi SRU (2000) a fixe des obligations de construction mais 1 000 communes restent en dessous du seuil legal. Le plan Borloo de 2003-2009 avait permis 500 000 logements sociaux en 5 ans (100 000/an). 200 000/an est sans precedent.",
+          "delai_realiste_mois": 60,
+          "precedent_principal": "Plan Borloo (2003-2009) : 100 000/an"
+        }
+      },
+      "feasibility": {
+        "overall": 0.18,
+        "ci_95": [
+          0.1,
+          0.28
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_017",
+      "raw_text": "Recruter 30 000 policiers et gendarmes pour une police nationale de proximite, renover les commissariats et gendarmeries",
+      "theme": "securite",
+      "source_url": "https://www.fabienroussel2022.fr/droit_la_s_curit_fabien_roussel_d_fend_une_police_nationale_de_proximit",
+      "dimensions": {
+        "budget": {
+          "score": 0.25,
+          "confidence": 0.7,
+          "justification": "30 000 policiers/gendarmes a un cout moyen de 50 000 EUR/an (salaire + charges + equipement) representent 1.5 Mds EUR/an. La renovation des commissariats et gendarmeries est estimee a 1-3 Mds EUR d'investissement. Le budget securites est de 17.2 Mds EUR, la mesure represente +10-15%. Cout significatif mais pas astronomique compare aux autres mesures du programme.",
+          "cout_estime_eur": 3000000000,
+          "cout_source": "Estimation (recrutements + renovation)",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.6,
+          "confidence": 0.75,
+          "justification": "Les recrutements dans la police et la gendarmerie sont autorises par le PLF (plafonds d'emploi). La LOPMI (Loi de programmation du ministere de l'Interieur 2023-2027) prevoit deja 8 500 recrutements. 30 000 supplementaires necessiteraient un ajustement de la LOPMI. Pas de risque constitutionnel. La police de proximite avait ete mise en place par Jospin (1997) puis supprimee par Sarkozy (2003).",
+          "vehicule_legislatif": "loi de finances + modification LOPMI",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "non"
+        },
+        "social": {
+          "score_acceptabilite": 0.65,
+          "score_impact": 0.5,
+          "confidence": 0.6,
+          "justification": "La securite est une preoccupation majeure des Francais. La police de proximite est populaire. Les syndicats de police soutiennent les recrutements mais sont divises sur le modele de proximite. L'electorat de gauche est ambivalent vis-a-vis de la police. La renovation des locaux fait consensus.",
+          "opposition_sociale": "faible (consensus sur les moyens, debat sur le modele)"
+        },
+        "fact_check": {
+          "score": 0.5,
+          "confidence": 0.65,
+          "justification": "Le chiffre de 30 000 est precis. La France compte environ 260 000 policiers et gendarmes (2024). L'ajout de 30 000 represente +11.5%. Le vivier de recrutement existe (les concours de police attirent de nombreux candidats). Les ecoles de police ont cependant une capacite de formation limitee (environ 10 000 eleves/an). 30 000 en 5 ans est ambitieux mais pas impossible.",
+          "verdict_global": "ambitieux_mais_faisable_en_volume"
+        },
+        "historique": {
+          "score": 0.4,
+          "confidence": 0.7,
+          "justification": "La police de proximite a ete creee en 1997-2002 (gouvernement Jospin) avec des resultats debattus. Sarkozy l'a supprimee en 2003 pour privilegier la police d'intervention. Le LOPMI 2023-2027 prevoit deja 8 500 recrutements, montrant que le mouvement est enclenche. 30 000 en un quinquennat est plus ambitieux mais des precedents existent (doublement des effectifs de police dans les annees 1960).",
+          "delai_realiste_mois": 48,
+          "precedent_principal": "Police de proximite Jospin (1997-2002) + LOPMI 2023-2027"
+        }
+      },
+      "feasibility": {
+        "overall": 0.35,
+        "ci_95": [
+          0.22,
+          0.48
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_018",
+      "raw_text": "Recruter 25 000 magistrats, supprimer le verrou de Bercy pour mieux poursuivre les fraudeurs fiscaux, remplacer le CSM par un Conseil superieur de la Justice",
+      "theme": "securite",
+      "source_url": "https://www.lemondedudroit.fr/decryptages/79871-presidentielle-2022-quelles-sont-les-propositions-de-fabien-roussel-en-matiere-de-justice.html",
+      "dimensions": {
+        "budget": {
+          "score": 0.15,
+          "confidence": 0.65,
+          "justification": "La France compte environ 9 000 magistrats (2024). Recruter 25 000 magistrats supplementaires triplerait l'effectif. Le cout moyen d'un magistrat (salaire + charges + fonctionnement) est d'environ 100 000 EUR/an, soit 2.5 Mds EUR/an. Il faudrait aussi construire des palais de justice, recruter des greffiers (ratio 1:1), etc. Le cout total serait de 5-8 Mds EUR/an. Le budget justice est de 10.2 Mds EUR, la mesure le doublerait. La suppression du verrou de Bercy est a cout nul (deja partiellement realisee en 2018).",
+          "cout_estime_eur": 6000000000,
+          "cout_source": "Estimation (recrutements + infrastructure + personnel d'appui)",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.4,
+          "confidence": 0.7,
+          "justification": "Les recrutements de magistrats passent par le PLF et l'ENM (Ecole nationale de la magistrature). La suppression du verrou de Bercy a ete partiellement realisee par la loi du 23 octobre 2018 (transmission automatique au parquet des dossiers de fraude >100 000 EUR). Le remplacement du CSM par un 'Conseil superieur de la Justice' necessite une revision constitutionnelle (Article 89 : vote identique des deux chambres + referendum ou 3/5 du Congres). Le Senat LR bloquerait probablement cette reforme.",
+          "vehicule_legislatif": "PLF + revision constitutionnelle (CSM)",
+          "risque_censure_cc": "nul pour les recrutements, non applicable pour la reforme constitutionnelle",
+          "conflit_droit_ue": "non"
+        },
+        "social": {
+          "score_acceptabilite": 0.7,
+          "score_impact": 0.5,
+          "confidence": 0.55,
+          "justification": "Le renforcement de la justice est soutenu par les professionnels du droit et les citoyens (justice trop lente). La suppression du verrou de Bercy est populaire. La reforme du CSM divise les magistrats eux-memes. Les syndicats de magistrats (USM, SM) soutiennent les recrutements.",
+          "opposition_sociale": "Senat (reforme constitutionnelle), certains magistrats (CSJ)"
+        },
+        "fact_check": {
+          "score": 0.3,
+          "confidence": 0.65,
+          "justification": "25 000 magistrats supplementaires est un chiffre extreme : cela triplerait les effectifs. La capacite de formation de l'ENM est d'environ 350 auditeurs/an (elargie a 450 en 2024). Former 25 000 magistrats prendrait plus de 50 ans au rythme actuel. Meme en multipliant par 5 la capacite de l'ENM, cela prendrait 10-15 ans. Le verrou de Bercy a deja ete partiellement supprime en 2018.",
+          "verdict_global": "chiffre_irealiste_verrou_bercy_deja_partiel"
+        },
+        "historique": {
+          "score": 0.1,
+          "confidence": 0.75,
+          "justification": "Aucun precedent de recrutement de cette ampleur dans la magistrature. Les Etats generaux de la Justice (2022) avaient recommande 1 500 recrutements sur 5 ans. Le budget 2024 a finance 1 500 postes supplementaires sur le quinquennat. 25 000 est 17 fois plus que les recommandations des Etats generaux. La reforme du CSM necessite une revision constitutionnelle, aucune reussie depuis 2008.",
+          "delai_realiste_mois": 120,
+          "precedent_principal": "Etats generaux de la Justice (2022) : recommandation de 1 500 postes"
+        }
+      },
+      "feasibility": {
+        "overall": 0.14,
+        "ci_95": [
+          0.07,
+          0.22
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_019",
+      "raw_text": "Regulariser tous les travailleurs sans papiers, renforcer les moyens de l'Ofpra et de l'Ofii, garantir le droit d'asile",
+      "theme": "immigration",
+      "source_url": "https://www.fabienroussel2022.fr/162_des_voies_l_gales_et_s_curis_es_devront_tre_ouvertes_pour_les_migrant_e_s_en_respect_du_droit_international",
+      "dimensions": {
+        "budget": {
+          "score": 0.35,
+          "confidence": 0.5,
+          "justification": "Le nombre de travailleurs sans papiers est estime entre 300 000 et 600 000. La regularisation genererait des cotisations sociales (effet positif) mais aussi des droits sociaux (couts). Les etudes montrent un effet budgetaire neutre a moyen terme. Le renforcement de l'Ofpra/Ofii a un cout modere (quelques centaines de millions EUR). Le cout budgetaire direct est relativement faible compare aux autres mesures du programme.",
+          "cout_estime_eur": 1000000000,
+          "cout_source": "Estimation (renforcement Ofpra/Ofii + transition sociale)",
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.4,
+          "confidence": 0.65,
+          "justification": "La regularisation massive est juridiquement possible par circulaire ministerielle (precedent : circulaire Valls 2012). Le renforcement de l'Ofpra est une mesure administrative. Le 'droit d'asile' est un droit constitutionnel (Preambule 1946, alinea 4). Pas de risque de censure CC. Mais la loi immigration 2024 a durci les conditions ; une regularisation massive irait a contre-courant. Le Pacte europeen sur la migration et l'asile (adopte en 2024) encadre aussi les procedures.",
+          "vehicule_legislatif": "circulaire ministerielle + loi de finances (moyens Ofpra)",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "non (conforme au droit d'asile europeen)"
+        },
+        "social": {
+          "score_acceptabilite": 0.35,
+          "score_impact": 0.45,
+          "confidence": 0.55,
+          "justification": "La regularisation des sans-papiers est extremement clivante. Soutenue par les associations (GISTI, LDDH, Secours catholique) et les syndicats, mais opposee par une majorite de l'opinion (sondages montrent 60-65% d'opposition a une regularisation massive). L'impact sur l'integration et le marche du travail est debattu.",
+          "opposition_sociale": "forte (RN, LR, une partie de l'opinion)"
+        },
+        "fact_check": {
+          "score": 0.5,
+          "confidence": 0.55,
+          "justification": "La regularisation des travailleurs sans papiers est une mesure concrete et juridiquement possible. Le nombre de concernes est incertain (300 000-600 000). Les etudes economiques montrent un effet positif sur les finances publiques a moyen terme (cotisations). L'objectif de 'garantir le droit d'asile' est vague et non chiffre.",
+          "verdict_global": "mesure_concrete_mais_politiquement_explosive"
+        },
+        "historique": {
+          "score": 0.4,
+          "confidence": 0.7,
+          "justification": "Plusieurs precedents de regularisation : Mitterrand 1981 (130 000), Chevenement 1998 (80 000), circulaire Valls 2012 (~30 000/an au cas par cas). Les regularisations massives ont eu lieu dans d'autres pays (Espagne 2005 : 700 000). Les effets secondaires sont debattus (appel d'air vs integration). La circulaire Valls est le modele le plus recent et le plus pragmatique.",
+          "delai_realiste_mois": 12,
+          "precedent_principal": "Regularisations Mitterrand 1981 (130 000) + circulaire Valls 2012"
+        }
+      },
+      "feasibility": {
+        "overall": 0.32,
+        "ci_95": [
+          0.2,
+          0.45
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_020",
+      "raw_text": "Investir 5 milliards d'euros supplementaires par an dans le ferroviaire pour rouvrir les petites lignes SNCF et renationaliser la SNCF, plus 3 milliards pour les transports en commun",
+      "theme": "environnement",
+      "source_url": "https://www.fabienroussel2022.fr/le_plan_climat_de_fabien_roussel",
+      "dimensions": {
+        "budget": {
+          "score": 0.2,
+          "confidence": 0.65,
+          "justification": "8 Mds EUR/an supplementaires (5 Mds ferroviaire + 3 Mds transports en commun). Le budget ecologie/mobilite est de 29.8 Mds EUR. L'Etat investit deja environ 6 Mds EUR/an dans le ferroviaire (contrat Etat-SNCF Reseau). 5 Mds supplementaires doubleraient quasiment cet investissement. La renationalisation de la SNCF (ouverture a la concurrence en cours) impliquerait des indemnisations aux operateurs prives et un conflit avec le droit europeen. Le financement n'est pas identifie.",
+          "cout_estime_eur": 8000000000,
+          "cout_source": "Programme officiel",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.3,
+          "confidence": 0.7,
+          "justification": "L'investissement ferroviaire releve du PLF et des contrats Etat-SNCF Reseau. La renationalisation complete de la SNCF contreviendrait au 4e paquet ferroviaire europeen (ouverture a la concurrence des services ferroviaires de voyageurs). La France pourrait theoriquement negocier des derogations mais ce serait tres difficile. Les petites lignes ferroviaires sont souvent de competence regionale.",
+          "vehicule_legislatif": "loi de finances + loi de reforme ferroviaire + derogation droit UE",
+          "risque_censure_cc": "faible pour l'investissement, eleve pour la renationalisation",
+          "conflit_droit_ue": "oui_direct (4e paquet ferroviaire)"
+        },
+        "social": {
+          "score_acceptabilite": 0.8,
+          "score_impact": 0.55,
+          "confidence": 0.6,
+          "justification": "La reouverture des petites lignes est extremement populaire dans les zones rurales. La renationalisation de la SNCF est soutenue par les syndicats cheminots (CGT Cheminots, SUD Rail). L'investissement dans les transports en commun fait consensus. Opposition des operateurs prives (Transdev, Keolis en concurrence).",
+          "opposition_sociale": "operateurs prives, Commission europeenne"
+        },
+        "fact_check": {
+          "score": 0.45,
+          "confidence": 0.6,
+          "justification": "Les 5 Mds EUR supplementaires sont un montant precis et coherent avec les besoins identifies par le rapport Spinetta (2018). La reouverture des petites lignes est techniquement possible mais tres couteuse (1-5 M EUR/km de renovation). Le rapport du COI (Conseil d'orientation des infrastructures) estime les besoins ferroviaires a 100 Mds EUR sur 15 ans. La renationalisation de la SNCF est un objectif politique plus que technique.",
+          "verdict_global": "investissement_coherent_renationalisation_juridiquement_problematique"
+        },
+        "historique": {
+          "score": 0.3,
+          "confidence": 0.65,
+          "justification": "La SNCF a ete un monopole public jusqu'a l'ouverture a la concurrence progressive (depuis 2020 pour les TER). Les petites lignes ont ete massivement fermees depuis les annees 1960 (plan Freycinet inverse). Le rapport Spinetta (2018) avait recommande la fermeture de lignes peu frequentees, provoquant un tolle politique. Le reseau ferroviaire britannique, privatise en 1994 et partiellement renationalise en 2024, montre les limites de la privatisation ferroviaire.",
+          "delai_realiste_mois": 60,
+          "precedent_principal": "SNCF monopole public (jusqu'en 2020) + renationalisation ferroviaire UK (2024)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.25,
+        "ci_95": [
+          0.15,
+          0.35
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_021",
+      "raw_text": "Investir 6% du PIB par an pour le climat soit 65 milliards d'investissements publics supplementaires, dont 25 milliards pour decarboner les transports",
+      "theme": "environnement",
+      "source_url": "https://reseauactionclimat.org/presidentielle-que-vaut-fabien-roussel-pour-le-climat/",
+      "dimensions": {
+        "budget": {
+          "score": 0.05,
+          "confidence": 0.75,
+          "justification": "65 Mds EUR/an d'investissements publics supplementaires representent environ 2.2% du PIB en plus des depenses actuelles. C'est plus que le budget de la Defense (50.5 Mds) ou de l'Education (64.5 Mds). Le budget ecologie est de 29.8 Mds EUR ; on passerait a ~95 Mds. Le rapport Pisani-Ferry/Mahfouz (2023) estimait les besoins d'investissement climat a 66 Mds EUR/an (public + prive), dont ~30 Mds de depenses publiques supplementaires. 65 Mds de depenses publiques seules depassent largement ces estimations. Totalement incompatible avec le PSMT.",
+          "cout_estime_eur": 65000000000,
+          "cout_source": "Programme officiel / presse",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.45,
+          "confidence": 0.65,
+          "justification": "Un plan climat de cette ampleur necessiterait une loi de programmation pluriannuelle et des credits en LFI. Pas de risque constitutionnel en soi. Le PSMT et la procedure de deficit excessif constitueraient l'obstacle principal. La Charte de l'environnement (2004) est de valeur constitutionnelle mais ne fonde pas un droit a un investissement climat specifique.",
+          "vehicule_legislatif": "loi de programmation climat + lois de finances annuelles",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "oui_indirect (PSMT, deficit excessif)"
+        },
+        "social": {
+          "score_acceptabilite": 0.6,
+          "score_impact": 0.55,
+          "confidence": 0.55,
+          "justification": "L'investissement climat est soutenu par les ecologistes et une partie croissante de la population. Mais le montant (65 Mds/an) susciterait un debat sur les priorites budgetaires. Le mouvement des Gilets jaunes (2018) a montre que la transition ecologique peut provoquer une opposition sociale forte si elle est percue comme injuste fiscalement.",
+          "opposition_sociale": "contribuables, partisans de la rigueur budgetaire, certains secteurs economiques"
+        },
+        "fact_check": {
+          "score": 0.35,
+          "confidence": 0.6,
+          "justification": "Le rapport Pisani-Ferry/Mahfouz (2023) estime les besoins d'investissement climat a 66 Mds EUR/an (public + prive). Roussel propose 65 Mds en investissement public seulement, ce qui va bien au-dela. I4CE estime les besoins publics supplementaires a environ 25-30 Mds EUR/an. Les 6% du PIB incluent probablement les depenses existantes + les supplementaires, mais la formulation est ambigue.",
+          "verdict_global": "montant_surevalue_par_rapport_aux_besoins_identifies"
+        },
+        "historique": {
+          "score": 0.15,
+          "confidence": 0.6,
+          "justification": "Aucun pays de l'OCDE n'a consacre 6% de son PIB a l'investissement climatique public. Le Green Deal europeen prevoit 1 000 Mds EUR sur 10 ans pour l'ensemble de l'UE, soit environ 100 Mds/an pour 27 pays. La France a depense environ 40 Mds EUR/an en investissements lies au climat (public + prive) en 2022. 65 Mds supplementaires en public serait sans precedent mondial.",
+          "delai_realiste_mois": 60,
+          "precedent_principal": "Green Deal europeen (1 000 Mds/10 ans pour 27 pays)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.14,
+        "ci_95": [
+          0.07,
+          0.22
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_022",
+      "raw_text": "Supprimer l'article 49-3 de la Constitution et l'article 40, instaurer la proportionnelle pour toutes les elections, garantir la parite dans toutes les institutions elues",
+      "theme": "institutions",
+      "source_url": "https://www.fabienroussel2022.fr/moyen_2",
+      "dimensions": {
+        "budget": {
+          "score": 0.7,
+          "confidence": 0.8,
+          "justification": "Les reformes institutionnelles ont un cout budgetaire quasi nul. La proportionnelle aurait un cout technique de mise en oeuvre (redecoupage electoral, adaptation des systemes de vote) estime a quelques dizaines de millions EUR. La suppression de l'article 40 aurait paradoxalement un cout budgetaire potentiellement enorme : elle permettrait aux parlementaires de proposer des depenses nouvelles sans contrepartie, ce qui ouvrirait les vannes budgetaires.",
+          "cout_estime_eur": 50000000,
+          "cout_source": "Estimation (cout technique de la reforme electorale)",
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.05,
+          "confidence": 0.9,
+          "justification": "La suppression des articles 49-3 et 40 necessite une revision constitutionnelle (Article 89). Conditions : vote identique des deux chambres + referendum ou 3/5 du Congres (555 voix). Le Senat LR a un droit de veto effectif sur toute revision constitutionnelle et bloquerait certainement la suppression du 49-3 et de l'article 40. Aucune revision constitutionnelle n'a abouti depuis 2008. La proportionnelle integrale pour toutes les elections pourrait etre adoptee par loi ordinaire pour les legislatives (loi electorale), mais la generalisation a toutes les elections est plus complexe.",
+          "vehicule_legislatif": "revision constitutionnelle (art. 89) pour 49-3 et art. 40 ; loi ordinaire pour la proportionnelle legislatives",
+          "risque_censure_cc": "non applicable (revision constitutionnelle)",
+          "conflit_droit_ue": "non"
+        },
+        "social": {
+          "score_acceptabilite": 0.55,
+          "score_impact": 0.5,
+          "confidence": 0.55,
+          "justification": "La proportionnelle est soutenue par les petits partis et une partie de l'opinion. La suppression du 49-3 est populaire apres son usage repete (11 fois depuis 2022). La suppression de l'article 40 est un sujet technique meconnu du grand public. La parite fait consensus dans le principe mais la mise en oeuvre integrale divise.",
+          "opposition_sociale": "partis dominants (hostiles a la proportionnelle), Senat"
+        },
+        "fact_check": {
+          "score": 0.6,
+          "confidence": 0.75,
+          "justification": "Les articles 49-3 et 40 existent bien dans la Constitution. Leur suppression est juridiquement possible par revision constitutionnelle. La proportionnelle est un systeme electoral utilise dans la plupart des democraties europeennes. La parite est deja partiellement imposee par la loi. Les affirmations sont factuellement correctes mais la faisabilite institutionnelle est quasi nulle.",
+          "verdict_global": "propositions_factuellement_correctes_mais_constitutionnellement_bloquees"
+        },
+        "historique": {
+          "score": 0.05,
+          "confidence": 0.85,
+          "justification": "Les 24 revisions constitutionnelles reussies sous la Ve Republique ont toutes necessite un large consensus. La derniere (2008) a ete adoptee par le Congres a une voix de majorite. La proportionnelle a ete brievement instauree en 1986 (Mitterrand) puis supprimee des 1988. La suppression de l'article 40 n'a jamais ete serieusement envisagee par aucune majorite. Le Senat LR bloquerait toute reforme constitutionnelle allant dans ce sens.",
+          "delai_realiste_mois": 999,
+          "precedent_principal": "Echec de la revision constitutionnelle sous Hollande (2016, blocage Senat)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.12,
+        "ci_95": [
+          0.05,
+          0.2
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_023",
+      "raw_text": "Baisser la TVA sur les produits de premiere necessite (energie, alimentation) et instaurer une taxe flottante sur les carburants",
+      "theme": "economie",
+      "source_url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+      "dimensions": {
+        "budget": {
+          "score": 0.15,
+          "confidence": 0.7,
+          "justification": "L'IFRAP chiffre la baisse de TVA a 20 Mds EUR/an de perte de recettes. La TVA rapporte 101.4 Mds EUR/an au budget de l'Etat. Une baisse du taux sur l'energie (actuellement 20%) et l'alimentation (actuellement 5.5-10%) couterait effectivement 15-25 Mds EUR/an selon les modalites. La taxe flottante sur les carburants (TIPP flottante) avait ete instauree en 2000-2002 et coutait environ 2-3 Mds EUR/an. Perte de recettes massive et incompatible avec le PSMT.",
+          "cout_estime_eur": 20000000000,
+          "cout_source": "IFRAP 2022",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.35,
+          "confidence": 0.75,
+          "justification": "La TVA est encadree par la directive europeenne 2006/112/CE. Les taux reduits sont autorises sur certaines categories de biens mais les Etats membres n'ont pas une liberte totale. L'energie a un taux normal (20%) et la baisse necessiterait une validation europeenne. La directive de 2022 a elargi les possibilites de taux reduits mais pas sans limites. La taxe flottante est juridiquement possible par loi de finances.",
+          "vehicule_legislatif": "loi de finances (PLF)",
+          "risque_censure_cc": "faible",
+          "conflit_droit_ue": "oui_partiel (directive TVA - certaines baisses necessitent autorisation)"
+        },
+        "social": {
+          "score_acceptabilite": 0.85,
+          "score_impact": 0.5,
+          "confidence": 0.65,
+          "justification": "La baisse de la TVA sur les produits de premiere necessite est tres populaire. C'est une mesure de pouvoir d'achat directe et visible. Cependant, les etudes economiques montrent que la baisse de TVA n'est que partiellement repercutee sur les prix (transmission incomplete, captation par les intermediaires). La taxe flottante est un stabilisateur automatique apprecie des automobilistes.",
+          "opposition_sociale": "faible (consensus populaire)"
+        },
+        "fact_check": {
+          "score": 0.5,
+          "confidence": 0.65,
+          "justification": "Le chiffrage IFRAP de 20 Mds EUR est credible. La TVA a taux reduit sur l'alimentation existe deja (5.5%). Une baisse supplementaire a 0% serait tres couteuse. La taxe flottante a fonctionne en 2000-2002 (gouvernement Jospin). Les etudes montrent une repercussion sur les prix d'environ 60-80% seulement (le reste est absorbe par les marges).",
+          "verdict_global": "mesure_couteuse_mais_effet_limite_sur_les_prix"
+        },
+        "historique": {
+          "score": 0.4,
+          "confidence": 0.7,
+          "justification": "La TIPP flottante a fonctionne de 2000 a 2002 (Jospin). La TVA a 5.5% sur la restauration (2009, Sarkozy) est un precedent de baisse ciblee qui a coute 3.5 Mds EUR/an avec un effet limite sur les prix. Les baisses de TVA sur l'energie ont ete pratiquees en Espagne et au Portugal pendant la crise energetique 2022 avec des resultats mitiges.",
+          "delai_realiste_mois": 6,
+          "precedent_principal": "TIPP flottante Jospin (2000-2002) + TVA restauration 5.5% (2009)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.28,
+        "ci_95": [
+          0.18,
+          0.38
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_024",
+      "raw_text": "Adopter une loi contre la surveillance numerique de masse et maitriser les choix technologiques dans l'interet public",
+      "theme": "numerique",
+      "source_url": "https://www.lemondeinformatique.fr/actualites/lire-presidentielle-2022-fabien-roussel-veut-un-numerique-mieux-regule-86359.html",
+      "dimensions": {
+        "budget": {
+          "score": 0.7,
+          "confidence": 0.5,
+          "justification": "Le cout d'une loi contre la surveillance numerique est marginal (cout legislatif + autorite de controle). La CNIL existe deja et pourrait voir ses moyens renforces. Cout estime : quelques dizaines de millions EUR/an. La 'maitrise des choix technologiques' est vague et non chiffrable.",
+          "cout_estime_eur": 100000000,
+          "cout_source": "Estimation (renforcement CNIL + dispositifs de controle)",
+          "financement_credible": true,
+          "compatible_psmt": true
+        },
+        "juridique": {
+          "score": 0.5,
+          "confidence": 0.6,
+          "justification": "La France dispose deja d'un arsenal juridique contre la surveillance (loi Informatique et Libertes 1978, RGPD 2018, decision du CC sur la loi Renseignement 2015). Une loi supplementaire est possible par voie ordinaire. Le risque de censure est modere : le CC arbitre entre securite publique et libertes. La loi SREN (2024) et la loi JO 2024 (videosurveillance algorithmique) montrent les tensions. Le droit europeen (RGPD, AI Act) encadre deja largement le domaine.",
+          "vehicule_legislatif": "loi ordinaire",
+          "risque_censure_cc": "moyen (equilibre securite/libertes)",
+          "conflit_droit_ue": "non (RGPD + AI Act vont dans le meme sens)"
+        },
+        "social": {
+          "score_acceptabilite": 0.6,
+          "score_impact": 0.4,
+          "confidence": 0.45,
+          "justification": "La protection de la vie privee est soutenue par les associations (Quadrature du Net, LDDH). Mais la securite prime souvent dans l'opinion publique. L'impact reel depend du contenu precis de la loi, qui est vague. La maitrise des choix technologiques est un objectif noble mais non operationnel.",
+          "opposition_sociale": "services de renseignement, industrie technologique"
+        },
+        "fact_check": {
+          "score": 0.45,
+          "confidence": 0.5,
+          "justification": "La promesse est vague (classee 'PROMESSE_VAGUE' dans le programme). Pas de details sur le contenu de la loi, les technologies visees, les interdictions envisagees. Le cadre juridique existant (RGPD, loi Informatique et Libertes, directives ePrivacy) couvre deja beaucoup de terrain. L'ajout legislatif serait marginal sans precision.",
+          "verdict_global": "intention_louable_mais_trop_vague_pour_evaluer"
+        },
+        "historique": {
+          "score": 0.5,
+          "confidence": 0.55,
+          "justification": "La France a une longue tradition de legislation sur les donnees personnelles (pionniere avec la loi de 1978). Le RGPD (2018) est le cadre de reference europeen. La loi Renseignement (2015) a ete partiellement censuree par le CC. L'AI Act europeen (2024) represente la derniere avancee. L'espace legislatif restant pour une loi nationale est limite par le cadre europeen.",
+          "delai_realiste_mois": 18,
+          "precedent_principal": "Loi Informatique et Libertes (1978) + RGPD (2018) + AI Act (2024)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.48,
+        "ci_95": [
+          0.35,
+          0.6
+        ],
+        "method": "MCDA"
+      }
+    },
+    {
+      "promise_id": "roussel_025",
+      "raw_text": "Garantir l'acces aux loisirs, sport et culture pour toutes les familles avec des tarifs gratuits ou accessibles, et defendre la creation artistique",
+      "theme": "culture",
+      "source_url": "https://www.fabienroussel2022.fr/le_programme",
+      "dimensions": {
+        "budget": {
+          "score": 0.35,
+          "confidence": 0.45,
+          "justification": "Le budget culture/loisirs public est de 43 Mds EUR (toutes APU). La gratuite ou l'accessibilite tarifaire pour tous couterait potentiellement 3-5 Mds EUR/an supplementaires (subventions aux equipements culturels, sportifs). Cout difficilement chiffrable sans precision sur les modalites. Le pass Culture (300 EUR pour les 18 ans) coute environ 250 M EUR/an.",
+          "cout_estime_eur": 4000000000,
+          "cout_source": "Estimation large (subventions + gratuite)",
+          "financement_credible": false,
+          "compatible_psmt": false
+        },
+        "juridique": {
+          "score": 0.6,
+          "confidence": 0.55,
+          "justification": "L'acces a la culture est un objectif de valeur constitutionnelle (Preambule de 1946, alinea 13). Les tarifs des equipements culturels et sportifs sont fixes par les collectivites (libre administration) ou les operateurs. L'Etat peut inciter (subventions) mais pas imposer la gratuite. Pas de risque constitutionnel mais complexite administrative.",
+          "vehicule_legislatif": "loi de finances + conventions avec collectivites",
+          "risque_censure_cc": "nul",
+          "conflit_droit_ue": "non"
+        },
+        "social": {
+          "score_acceptabilite": 0.8,
+          "score_impact": 0.4,
+          "confidence": 0.4,
+          "justification": "L'acces a la culture et au sport est soutenu par toutes les familles. Les associations culturelles et sportives soutiendraient. Mais l'impact reel depend des modalites : les etudes montrent que les barrières d'acces a la culture sont autant symboliques que financieres (sociologie de Pierre Bourdieu). La gratuite des musees le dimanche n'a eu qu'un effet limite sur la diversification des publics.",
+          "opposition_sociale": "faible"
+        },
+        "fact_check": {
+          "score": 0.35,
+          "confidence": 0.4,
+          "justification": "La promesse est classee 'PROMESSE_VAGUE'. Pas de chiffrage, pas de calendrier, pas de modalites. La 'defense de la creation artistique' est un objectif generique sans contenu operationnel. Le pass Culture et les tarifs sociaux existent deja. L'apport incremental de cette promesse est incertain.",
+          "verdict_global": "trop_vague_pour_evaluer"
+        },
+        "historique": {
+          "score": 0.45,
+          "confidence": 0.5,
+          "justification": "Les politiques culturelles francaises sont parmi les plus ambitieuses au monde (1% du PIB consacre a la culture). Le pass Culture (2021) est un precedent recent. La gratuite des musees nationaux le premier dimanche du mois est un precedent partiel. L'objectif de democratisation culturelle est poursuivi depuis Malraux (1959) avec des resultats mitiges.",
+          "delai_realiste_mois": 24,
+          "precedent_principal": "Politique culturelle Malraux (1959) + pass Culture (2021)"
+        }
+      },
+      "feasibility": {
+        "overall": 0.38,
+        "ci_95": [
+          0.25,
+          0.5
+        ],
+        "method": "MCDA"
+      }
+    }
+  ],
+  "synthesis": {
+    "total_cout_estime_annuel_eur": 343150000000,
+    "total_recettes_estimees_annuel_eur": 80000000000,
+    "deficit_supplementaire_estime_eur": 263150000000,
+    "note_methodologique": "Le total des couts est la somme des couts estimes pour chaque promesse, avec certains chevauchements possibles (ex: revalorisation 30% des fonctionnaires inclut partiellement les enseignants et soignants). Le total reel serait inferieur du fait de ces recoupements, mais resterait de l'ordre de 200-250 Mds EUR/an de depenses nouvelles nettes, coherent avec les estimations IFRAP (120 Mds dépenses + effets indirects).",
+    "score_moyen_faisabilite": 0.26,
+    "promesses_les_plus_faisables": [
+      {
+        "id": "roussel_007",
+        "score": 0.62,
+        "raison": "Moratoire nucleaire deja en cours de realisation par la politique actuelle"
+      },
+      {
+        "id": "roussel_024",
+        "score": 0.48,
+        "raison": "Loi numerique a cout faible et dans la continuite du cadre existant, mais trop vague"
+      },
+      {
+        "id": "roussel_006",
+        "score": 0.38,
+        "raison": "Construction d'EPR alignee avec la politique gouvernementale actuelle"
+      },
+      {
+        "id": "roussel_001",
+        "score": 0.38,
+        "raison": "Hausse du SMIC juridiquement simple mais impact economique incertain"
+      },
+      {
+        "id": "roussel_011",
+        "score": 0.38,
+        "raison": "Pole public du medicament avec financement identifie"
+      },
+      {
+        "id": "roussel_025",
+        "score": 0.38,
+        "raison": "Culture/sport accessible mais trop vague"
+      }
+    ],
+    "promesses_les_moins_faisables": [
+      {
+        "id": "roussel_022",
+        "score": 0.12,
+        "raison": "Revision constitutionnelle bloquee par le Senat"
+      },
+      {
+        "id": "roussel_009",
+        "score": 0.14,
+        "raison": "Revalorisation de 30% des fonctionnaires : 60 Mds EUR/an, totalement irrecouvrables"
+      },
+      {
+        "id": "roussel_021",
+        "score": 0.14,
+        "raison": "65 Mds EUR/an d'investissement climat : sans precedent mondial"
+      },
+      {
+        "id": "roussel_018",
+        "score": 0.14,
+        "raison": "25 000 magistrats : triplerait les effectifs, capacite de formation insuffisante"
+      },
+      {
+        "id": "roussel_004",
+        "score": 0.18,
+        "raison": "500 000 fonctionnaires : recrutement massif sans precedent"
+      }
+    ],
+    "obstacles_transversaux": [
+      "Le programme PCF totalise environ 200-280 Mds EUR de depenses nouvelles annuelles, soit 7-10% du PIB. Cela represente le plus gros effort budgetaire propose dans la campagne apres Melenchon.",
+      "Le financement repose principalement sur des hausses massives de fiscalite sur le capital et les hauts revenus (80 Mds EUR/an de recettes theoriques). Les effets comportementaux (exil fiscal, delocalisation, baisse de l'investissement) ne sont pas pris en compte et reduiraient significativement le rendement reel.",
+      "Le programme est totalement incompatible avec le PSMT 2025-2029, la procedure de deficit excessif, et les regles budgetaires europeennes. Sa mise en oeuvre necesiterait une confrontation ouverte avec les institutions europeennes.",
+      "L'absence de majorite parlementaire (PCF : 17 sieges, NFP : ~193, majorite : 289) rend la mise en oeuvre legislative tres improbable. Meme avec le 49.3, le risque de motion de censure est eleve.",
+      "Plusieurs mesures necessitent des revisions constitutionnelles (suppression du 49-3 et de l'art. 40, reforme du CSM) qui sont bloquees par le Senat LR.",
+      "Les capacites de recrutement sont un goulet d'etranglement majeur : 500 000 fonctionnaires + 90 000 enseignants + 100 000 soignants + 30 000 policiers + 25 000 magistrats = 745 000 recrutements publics en 5 ans, dans un contexte de crise d'attractivite de la fonction publique.",
+      "La pression fiscale francaise est deja la plus elevee de l'UE (42.8% du PIB). Ajouter 80 Mds EUR de prelevements porterait ce taux a environ 45.5%, sans precedent dans l'OCDE."
+    ]
+  },
+  "sources_principales": [
+    {
+      "nom": "IFRAP - Chiffrage programme Roussel 2022",
+      "url": "https://www.ifrap.org/budget-et-fiscalite/chiffrage-du-programme-de-fabien-roussel",
+      "note": "Think tank liberal - orientation a prendre en compte"
+    },
+    {
+      "nom": "INSEE - Comptes de la Nation 2024",
+      "url": "https://www.insee.fr/fr/statistiques/8574492"
+    },
+    {
+      "nom": "Budget.gouv.fr - LFI 2025",
+      "url": "https://www.budget.gouv.fr/reperes/budget/articles/chiffres-cles-budget-etat-2025"
+    },
+    {
+      "nom": "HCFP - Avis sur le PSMT 2025",
+      "url": "https://www.hcfp.fr/en/liste-avis/opinion-ndeg2025-3-annual-progress-report-2025"
+    },
+    {
+      "nom": "Conseil de l'UE - Procedure deficit excessif",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/01/21/stability-and-growth-pact-council-adopts-recommendations-to-countries-under-excessive-deficit-procedure/"
+    },
+    {
+      "nom": "Cour des comptes - Systeme de retraites",
+      "url": "https://www.vie-publique.fr/en-bref/297429-retraites-un-deficit-de-30-milliards-deuros-en-2045-cour-des-comptes"
+    },
+    {
+      "nom": "Conseil constitutionnel - Decisions",
+      "url": "https://www.conseil-constitutionnel.fr/les-decisions"
+    },
+    {
+      "nom": "Programme officiel Fabien Roussel 2022",
+      "url": "https://www.fabienroussel2022.fr/le_programme"
+    }
+  ]
+}
