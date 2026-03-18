@@ -62,6 +62,12 @@ export default function RootLayout({
               >
                 Comparer
               </Link>
+              <Link
+                href="/methodologie"
+                className="px-4 py-2 text-sm font-medium text-[#161616] transition-colors hover:bg-[#f6f6f6] hover:text-[#000091]"
+              >
+                Méthodologie
+              </Link>
             </nav>
           </div>
         </header>

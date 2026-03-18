@@ -80,3 +80,31 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-disabled);
 }
+
+/* Pipeline spine shimmer */
+.pipeline-spine {
+  position: relative;
+  overflow: hidden;
+}
+
+.pipeline-spine::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 100%
+  );
+  animation: spine-shimmer 2.5s ease-in-out infinite;
+}
+
+@keyframes spine-shimmer {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(200%);
+  }
+}
